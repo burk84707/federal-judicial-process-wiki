@@ -1,0 +1,760 @@
+{
+  "schema_version": 1,
+  "remedies": [
+    {
+      "remedy_id": "REMEDY-STA-DISMISSAL",
+      "issue": "Speedy Trial Act charging or trial clock violation",
+      "available_relief": "Dismissal of the complaint charge under § 3162(a)(1), or dismissal of the indictment or information on a timely defense motion under § 3162(a)(2).",
+      "limits": "Dismissal may be with or without prejudice under statutory factors; trial-clock dismissal is waived if not sought before trial or plea.",
+      "authority_ids": [
+        "AUTH-USC-18-3161-3162",
+        "AUTH-SCOTUS-ZEDNER-547-US-489",
+        "AUTH-SCOTUS-TAYLOR-487-US-326"
+      ],
+      "claim_ids": [
+        "CLM-CHARGE-030",
+        "CLM-SPEEDY-004",
+        "CLM-SPEEDY-005",
+        "CLM-SPEEDY-007",
+        "CLM-SPEEDY-008"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-VENUE-RETRIAL",
+      "issue": "reversal for constitutional venue or vicinage error",
+      "available_relief": "A new trial in the proper venue is constitutionally permitted.",
+      "limits": "Smith does not decide whether another independent bar prevents retrial.",
+      "authority_ids": [
+        "AUTH-SCOTUS-SMITH-599-US-236"
+      ],
+      "claim_ids": [
+        "CLM-CHARGE-035"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE-16-DISCOVERY-SANCTIONS",
+      "issue": "failure to comply with Rule 16",
+      "available_relief": "An order compelling discovery on just terms, a continuance, exclusion of undisclosed evidence, or another just order.",
+      "limits": "Rule 16(d)(2) makes sanction selection discretionary; appellate review and case-specific prejudice require controlling circuit law.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-10-16-17-26-2"
+      ],
+      "claim_ids": [
+        "CLM-DISC-012"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-JENCKS-RULE-26-2-NONPRODUCTION",
+      "issue": "refusal to comply with a Jencks Act or Rule 26.2 production order",
+      "available_relief": "Strike the witness's testimony; when the government disobeys, declare a mistrial if justice or the interests of justice require it under the controlling text.",
+      "limits": "The statutory or rule trigger, statement definition, possession, relation to testimony, production order, and proceeding must be established.",
+      "authority_ids": [
+        "AUTH-USC-18-3500",
+        "AUTH-FRCRIM-P-10-16-17-26-2"
+      ],
+      "claim_ids": [
+        "CLM-DISC-029",
+        "CLM-DISC-032"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-BRADY-NAPUE-GIGLIO",
+      "issue": "material suppression or known false testimony violating due process",
+      "available_relief": "A new trial, reversal, or relief limited to the affected punishment issue may be available when the constitutional and procedural-vehicle requirements are met.",
+      "limits": "The correct vehicle, preservation, procedural default, timeliness, prejudice or reasonable-likelihood branch, scope of the affected judgment, and collateral-review restrictions control.",
+      "authority_ids": [
+        "AUTH-SCOTUS-BRADY-373-US-83",
+        "AUTH-SCOTUS-GIGLIO-405-US-150",
+        "AUTH-SCOTUS-NAPUE-360-US-264",
+        "AUTH-SCOTUS-BAGLEY-473-US-667",
+        "AUTH-SCOTUS-KYLES-514-US-419"
+      ],
+      "claim_ids": [
+        "CLM-DISC-016",
+        "CLM-DISC-020",
+        "CLM-DISC-023",
+        "CLM-DISC-025"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-SUPPRESSION-EXCLUSION",
+      "issue": "evidence obtained through a proven constitutional violation or other exclusion ground",
+      "available_relief": "Suppression or exclusion to the extent the governing source makes that remedy available.",
+      "limits": "Exclusion is not automatic; personal-right, causation, good-faith, attenuation, impeachment, fruits, harmlessness, and other doctrine may limit relief.",
+      "authority_ids": [
+        "AUTH-SCOTUS-RAKAS-439-US-128",
+        "AUTH-SCOTUS-LEON-468-US-897",
+        "AUTH-SCOTUS-WONG-SUN-371-US-471",
+        "AUTH-SCOTUS-MIRANDA-384-US-436"
+      ],
+      "claim_ids": [
+        "CLM-MOTION-008",
+        "CLM-MOTION-012",
+        "CLM-MOTION-014",
+        "CLM-MOTION-015"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE14-PREJUDICIAL-JOINDER",
+      "issue": "prejudice from joined offenses or defendants",
+      "available_relief": "Separate trials of counts, severed defendant trials, limiting instructions, or other relief justice requires.",
+      "limits": "Mutually antagonistic defenses do not compel severance; the asserted specific trial right, reliability risk, and adequacy of lesser measures control.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-12-14-41-47-51-52",
+        "AUTH-SCOTUS-ZAFIRO-506-US-534"
+      ],
+      "claim_ids": [
+        "CLM-MOTION-022",
+        "CLM-MOTION-023",
+        "CLM-MOTION-024"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-COMPETENCY-RESTORATION",
+      "issue": "present incompetency to proceed",
+      "available_relief": "Pause adjudication and use the bounded examination, hearing, treatment, restoration, recovery, or separate civil-commitment procedures authorized by statute.",
+      "limits": "Competency does not establish insanity; restoration, medication, dangerousness, placement, and duration require current evidence and distinct findings.",
+      "authority_ids": [
+        "AUTH-USC-18-17-4241-4243-4247",
+        "AUTH-SCOTUS-DUSKY-362-US-402",
+        "AUTH-SCOTUS-SELL-539-US-166"
+      ],
+      "claim_ids": [
+        "CLM-MENTAL-001",
+        "CLM-MENTAL-004",
+        "CLM-MENTAL-005",
+        "CLM-MENTAL-011"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-INSANITY-SPECIAL-VERDICT",
+      "issue": "insanity established under 18 U.S.C. § 17",
+      "available_relief": "A special verdict of not guilty only by reason of insanity followed by § 4243 custody, hearing, and release-risk procedure.",
+      "limits": "The defendant bears the § 17 trial burden and the postverdict § 4243 burden; competency and mental-condition mitigation are different issues.",
+      "authority_ids": [
+        "AUTH-USC-18-17-4241-4243-4247"
+      ],
+      "claim_ids": [
+        "CLM-MENTAL-013",
+        "CLM-MENTAL-020",
+        "CLM-MENTAL-021",
+        "CLM-MENTAL-022"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-SIXTH-AMENDMENT-SPEEDY-DISMISSAL",
+      "issue": "completed Sixth Amendment speedy-trial violation",
+      "available_relief": "Dismissal of the affected charge.",
+      "limits": "The constitutional violation first must be established through the complete Barker analysis; statutory Act dismissal has different preservation and prejudice-choice rules.",
+      "authority_ids": [
+        "AUTH-SCOTUS-BARKER-407-US-514"
+      ],
+      "claim_ids": [
+        "CLM-SPEEDY-010",
+        "CLM-SPEEDY-014"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-PLEA-LOST-OFFER-IAC",
+      "issue": "proven ineffective assistance causing a favorable formal offer to lapse or be rejected",
+      "available_relief": "A remedy calibrated to neutralize the lost plea opportunity; reoffering may be the first step and court discretion remains bounded by the case.",
+      "limits": "No right to an offer exists; deficiency, acceptance, prosecutorial action, judicial action, comparative outcome, and remedy must each be proved.",
+      "authority_ids": [
+        "AUTH-SCOTUS-FRYE-566-US-134",
+        "AUTH-SCOTUS-LAFLER-566-US-156"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-003",
+        "CLM-PLEA-004",
+        "CLM-PLEA-005",
+        "CLM-PLEA-006",
+        "CLM-PLEA-007"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-PLEA-GOVERNMENT-BREACH",
+      "issue": "proven government breach of a promise inducing an entered guilty plea",
+      "available_relief": "Case-appropriate withdrawal or specific-performance resentencing; the court selects the remedy under the governing law.",
+      "limits": "Agreement construction, breach, preservation, plain error, prejudice, waiver, and remedy are distinct; no automatic defendant-selected remedy exists.",
+      "authority_ids": [
+        "AUTH-SCOTUS-SANTOBELLO-404-US-257",
+        "AUTH-SCOTUS-PUCKETT-556-US-129"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-031",
+        "CLM-PLEA-032",
+        "CLM-PLEA-033",
+        "CLM-PLEA-034"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-PLEA-WITHDRAWAL",
+      "issue": "request to withdraw a guilty or nolo plea",
+      "available_relief": "Withdrawal before acceptance for any or no reason; after acceptance but before sentence on agreement rejection or a fair and just reason; after sentence only through direct or collateral review.",
+      "limits": "The precise acceptance, agreement, rejection, sentencing, motion, and record dates control.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-11-52",
+        "AUTH-SCOTUS-HYDE-520-US-670"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-030",
+        "CLM-PLEA-042",
+        "CLM-PLEA-043",
+        "CLM-PLEA-044"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE11-ERROR",
+      "issue": "Rule 11 variance or judicial-participation violation",
+      "available_relief": "Vacatur only when the applicable preserved- or unpreserved-error standard is satisfied on the record; formal nonconstitutional error alone does not establish § 2255 relief.",
+      "limits": "Preservation, whole-record prejudice, constitutional character, jurisdiction, and the collateral standard must be classified separately.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-11-52",
+        "AUTH-SCOTUS-VONN-535-US-55",
+        "AUTH-SCOTUS-DOMINGUEZ-BENITEZ-542-US-74",
+        "AUTH-SCOTUS-DAVILA-569-US-597",
+        "AUTH-SCOTUS-TIMMRECK-441-US-780"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-046",
+        "CLM-PLEA-047",
+        "CLM-PLEA-048"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-GARZA-REQUESTED-APPEAL",
+      "issue": "counsel disregarded an express instruction to appeal despite an appeal waiver",
+      "available_relief": "Restoration of the lost appeal opportunity under the governing post-conviction procedure without a merits showing for the foregone appeal.",
+      "limits": "The express instruction and lost proceeding must be proved; the waiver may still affect which appellate claims succeed.",
+      "authority_ids": [
+        "AUTH-SCOTUS-GARZA-586-US-232"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-039"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-JSSA-SUBSTANTIAL-FAILURE",
+      "issue": "substantial failure to comply with the Jury Selection and Service Act",
+      "available_relief": "Before voir dire, stay proceedings pending lawful jury selection; after voir dire, grant appropriate relief including dismissal of an indictment returned by an unlawfully selected grand jury or a new trial after an unlawfully selected petit jury.",
+      "limits": "A timely motion, sworn statement and evidence, substantial failure, exact selection stage, and § 1867 remedy requirements must be established.",
+      "authority_ids": [
+        "AUTH-USC-28-1861-1862-1867"
+      ],
+      "claim_ids": [
+        "CLM-TRIAL-008"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE29-ACQUITTAL",
+      "issue": "legally insufficient evidence of a charged offense",
+      "available_relief": "Judgment of acquittal; a final insufficiency determination bars retrial on the affected offense.",
+      "limits": "The elements, admitted evidence, procedural timing, and exact nature of the ruling must be established; trial error and a Rule 33 new-trial order are different.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-26-3-29-31-45",
+        "AUTH-SCOTUS-JACKSON-443-US-307",
+        "AUTH-SCOTUS-BURKS-437-US-1",
+        "AUTH-SCOTUS-EVANS-568-US-313"
+      ],
+      "claim_ids": [
+        "CLM-TRIAL-019",
+        "CLM-TRIAL-023",
+        "CLM-TRIAL-025",
+        "CLM-TRIAL-034"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-MISTRIAL-RETRIAL-CLASSIFICATION",
+      "issue": "mistrial or partial jury deadlock",
+      "available_relief": "Discharge and retrial when manifest necessity supports a court-declared mistrial; unresolved counts after a partial verdict may be retried under Rule 31.",
+      "limits": "Consent, objection, alternatives, cause, record, prosecutorial intent, and any resolved counts control; a defendant-requested mistrial has the narrow Kennedy exception.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-26-3-29-31-45",
+        "AUTH-SCOTUS-PEREZ-22-US-579",
+        "AUTH-SCOTUS-ARIZONA-WASHINGTON-434-US-497",
+        "AUTH-SCOTUS-OREGON-KENNEDY-456-US-667"
+      ],
+      "claim_ids": [
+        "CLM-TRIAL-027",
+        "CLM-TRIAL-028",
+        "CLM-TRIAL-029",
+        "CLM-TRIAL-030",
+        "CLM-TRIAL-031"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE33-NEW-TRIAL",
+      "issue": "interest of justice supports a new trial on a timely defendant motion",
+      "available_relief": "Vacate the judgment and grant a new trial; after a nonjury trial the court may take additional testimony and enter a new judgment.",
+      "limits": "Ground classification, timeliness, current Rule 45, pending appeal, controlling circuit merits, hearing, preservation, and appellate procedure remain distinct.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-33",
+        "AUTH-FRCRIM-P-45",
+        "AUTH-SCOTUS-EBERHART-546-US-12"
+      ],
+      "claim_ids": [
+        "CLM-R33-001",
+        "CLM-R33-002",
+        "CLM-R33-003",
+        "CLM-R33-005",
+        "CLM-R33-008",
+        "CLM-R33-009"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-SENTENCING-PROCEDURAL-CORRECTION",
+      "issue": "material sentencing procedure, Guidelines, statutory-range, or explanation error",
+      "available_relief": "Preservation and direct appellate correction, ordinarily vacatur and resentencing when reversible error is established.",
+      "limits": "The precise error, preservation, prejudice or harmlessness, sentence package, appeal authorization, and controlling-circuit remedy law must be established; § 3553(a) is not a freestanding post-judgment vehicle.",
+      "authority_ids": [
+        "AUTH-SCOTUS-GALL-552-US-38",
+        "AUTH-SCOTUS-MOLINA-MARTINEZ-578-US-189",
+        "AUTH-SCOTUS-ROSALES-MIRELES-585-US-129",
+        "AUTH-FRCRIM-P-32-51-52"
+      ],
+      "claim_ids": [
+        "CLM-SENT-008",
+        "CLM-SENT-015",
+        "CLM-SENT-020",
+        "CLM-SENT-029",
+        "CLM-SENT-030",
+        "CLM-SENT-031",
+        "CLM-SENT-064"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RESTITUTION-ORDER",
+      "issue": "victim loss compensable under an applicable restitution statute",
+      "available_relief": "A restitution order for authorized losses, with victim, causation, amount, allocation, payment, and finality governed by §§ 3663, 3663A, and 3664.",
+      "limits": "The conviction statute, offense category, victim definition, causal limits, loss proof, offsets, deadlines, and any plea expansion must be established.",
+      "authority_ids": [
+        "AUTH-USC-18-3663-3663A-3664",
+        "AUTH-SCOTUS-DOLAN-560-US-605",
+        "AUTH-SCOTUS-LAGOS-584-US-577"
+      ],
+      "claim_ids": [
+        "CLM-SENT-036",
+        "CLM-SENT-037",
+        "CLM-SENT-038",
+        "CLM-SENT-039",
+        "CLM-SENT-040",
+        "CLM-SENT-041",
+        "CLM-SENT-042",
+        "CLM-SENT-043",
+        "CLM-SENT-044"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-CRIMINAL-FORFEITURE",
+      "issue": "property or money judgment forfeitable under an offense-specific criminal statute",
+      "available_relief": "Preliminary and final criminal-forfeiture orders as part of the sentence, with an ancillary proceeding for third-party interests.",
+      "limits": "Charging notice, statutory nexus, property or amount, jury request, timing, substitute assets, third-party interests, and final judgment must be established.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-2-35-36",
+        "AUTH-USC-18-982",
+        "AUTH-SCOTUS-LIBRETTI-516-US-29"
+      ],
+      "claim_ids": [
+        "CLM-SENT-045",
+        "CLM-SENT-046",
+        "CLM-SENT-047",
+        "CLM-SENT-048",
+        "CLM-SENT-049",
+        "CLM-SENT-050",
+        "CLM-SENT-051"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE35A-CORRECTION",
+      "issue": "arithmetical, technical, or other clear error in the orally announced sentence",
+      "available_relief": "Narrow correction within fourteen days after oral sentence.",
+      "limits": "Not a general resentencing or reconsideration vehicle.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-2-35-36"
+      ],
+      "claim_ids": [
+        "CLM-SENT-060",
+        "CLM-R3536-004",
+        "CLM-R3536-006",
+        "CLM-R3536-012"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE36-CLERICAL",
+      "issue": "clerical error or oversight or omission in a judgment, order, or record",
+      "available_relief": "After appropriate notice, clerical correction at any time.",
+      "limits": "Rule 36 cannot substantively resentence or create a forfeiture never ordered.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-2-35-36"
+      ],
+      "claim_ids": [
+        "CLM-SENT-049",
+        "CLM-SENT-062",
+        "CLM-R3536-027",
+        "CLM-R3536-028",
+        "CLM-R3536-029",
+        "CLM-R3536-030"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-DIRECT-APPEAL-REVERSIBLE-ERROR",
+      "issue": "reversible error within a properly noticed criminal appeal",
+      "available_relief": "The disposition authorized by the governing statute and issue-specific remedial law, potentially affirmance, reversal, vacatur, remand, dismissal, new trial, acquittal, or resentencing.",
+      "limits": "Jurisdiction, authorization, notice, waiver, preservation, prejudice, harmlessness, remedy-specific law, and the record must be established; no one remedy follows every error.",
+      "authority_ids": [
+        "AUTH-USC-28-1291",
+        "AUTH-USC-18-3742",
+        "AUTH-FRCRIM-P-32-51-52"
+      ],
+      "claim_ids": [
+        "CLM-DR-012",
+        "CLM-DR-016",
+        "CLM-DR-021",
+        "CLM-DR-022"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-ANDERS-NONFRIVOLOUS-ISSUE",
+      "issue": "Anders review identifies an arguable nonfrivolous issue",
+      "available_relief": "Appoint or retain counsel for adversarial briefing before merits disposition.",
+      "limits": "The first-appeal posture, appointment status, actual record, circuit procedure, and identified issue must be established.",
+      "authority_ids": [
+        "AUTH-SCOTUS-ANDERS-386-US-738",
+        "AUTH-SCOTUS-PENSON-488-US-75"
+      ],
+      "claim_ids": [
+        "CLM-DR-030",
+        "CLM-DR-031",
+        "CLM-DR-032"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-CERTIORARI-DISCRETIONARY-REVIEW",
+      "issue": "compelling federal question after lower-court judgment",
+      "available_relief": "A discretionary writ of certiorari and, if granted, Supreme Court review and disposition.",
+      "limits": "Timeliness and proper filing do not create entitlement to review; Rule 10 considerations, jurisdiction, preservation, vehicle, record, and current filing rules control.",
+      "authority_ids": [
+        "AUTH-SCOTUS-RULES-10-12-13-14-39"
+      ],
+      "claim_ids": [
+        "CLM-DR-047",
+        "CLM-DR-048",
+        "CLM-DR-049",
+        "CLM-DR-050",
+        "CLM-DR-051"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-2255-MERITS-GRANT",
+      "issue": "established § 2255(b) defect",
+      "available_relief": "Vacate and set aside the judgment, then discharge, resentence, grant a new trial, or correct the sentence as appropriate.",
+      "limits": "The selected remedy must match the proven constitutional, statutory, jurisdictional, or fundamental defect and remedy-specific law.",
+      "authority_ids": [
+        "AUTH-USC-28-2255"
+      ],
+      "claim_ids": [
+        "CLM-2255-003",
+        "CLM-2255-059"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-CASTRO-UNWARNED-RECHARACTERIZATION",
+      "issue": "unwarned first-motion recharacterization",
+      "available_relief": "Do not count the recharacterized filing as the first § 2255 motion for later second-or-successive restrictions.",
+      "limits": "Applies to the first-motion recharacterization posture and does not itself decide the underlying claim.",
+      "authority_ids": [
+        "AUTH-SCOTUS-CASTRO-540-US-375"
+      ],
+      "claim_ids": [
+        "CLM-2255-050"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-1631-TRANSFER-UNAUTHORIZED-2255",
+      "issue": "filing lodged in a court lacking jurisdiction",
+      "available_relief": "Transfer to a court in which the matter could have been brought when filed, if the interest of justice supports transfer.",
+      "limits": "Section 1631 does not make transfer automatic; successive classification, receiving-court authority, timeliness consequences, circuit practice, and the interest of justice must be established.",
+      "authority_ids": [
+        "AUTH-USC-28-1631",
+        "AUTH-USC-28-2255"
+      ],
+      "claim_ids": [
+        "CLM-SOS-030",
+        "CLM-SOS-031"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-2241-CUSTODY-REDRESS",
+      "issue": "relief on a cognizable § 2241 custody claim",
+      "available_relief": "Custody-focused relief tailored to the proven substantive entitlement and the decisionmaker's lawful authority.",
+      "limits": "Section 2241 alone does not create entitlement to credits, placement, designation, recalculation, or release; saving-clause availability, merits, discretion, continuing injury, and circuit remedy law remain separate.",
+      "authority_ids": [
+        "AUTH-USC-28-2241"
+      ],
+      "claim_ids": [
+        "CLM-2241F-019",
+        "CLM-2241S-014",
+        "CLM-2241S-022",
+        "CLM-2241S-027",
+        "CLM-BOPSC-027",
+        "CLM-BOPAR-014",
+        "CLM-BOPAR-023",
+        "CLM-BOPAR-027"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-2241-TRANSFER-SUBSTITUTION",
+      "issue": "custodian or district problem after filing or transfer",
+      "available_relief": "Depending on controlling law and the actual custody chain, substitution, retention, transfer, or dismissal may be considered.",
+      "limits": "No automatic remedy is established; the court's authority over a respondent able to effect relief, the receiving court, interest of justice, timeliness, and circuit procedure must be established.",
+      "authority_ids": [
+        "AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426",
+        "AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283"
+      ],
+      "claim_ids": [
+        "CLM-2241F-016",
+        "CLM-2241F-017",
+        "CLM-2241S-023"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-CORAM-NOBIS-VACATUR",
+      "issue": "fundamentally defective completed federal conviction",
+      "available_relief": "Extraordinary relief from the original federal criminal judgment, including vacatur when the proven Morgan and controlling-circuit conditions warrant it.",
+      "limits": "No automatic post-custody fallback; no-other-remedy, delay, fundamental-error, consequence, burden, Article III, circuit, and case-record requirements control.",
+      "authority_ids": [
+        "AUTH-SCOTUS-MORGAN-346-US-502"
+      ],
+      "claim_ids": [
+        "CLM-XWRIT-005",
+        "CLM-XWRIT-008",
+        "CLM-XWRIT-016"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-MANDAMUS-DUTY",
+      "issue": "extraordinary order compelling a legally required act",
+      "available_relief": "An extraordinary order requiring performance of a clear duty or confining a lower court to lawful authority when the governing mandamus conditions are met.",
+      "limits": "Cannot substitute for appeal or dictate the exercise of lawful discretion; existing jurisdiction, other avenues, clear right and duty, appropriateness, and local procedure control.",
+      "authority_ids": [
+        "AUTH-USC-28-1651",
+        "AUTH-USC-28-1361",
+        "AUTH-SCOTUS-CHENEY-542-US-367",
+        "AUTH-SCOTUS-HECKLER-RINGER-466-US-602"
+      ],
+      "claim_ids": [
+        "CLM-XWRIT-026",
+        "CLM-XWRIT-027",
+        "CLM-XWRIT-028",
+        "CLM-XWRIT-029",
+        "CLM-XWRIT-030",
+        "CLM-XWRIT-031"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-PRESIDENTIAL-CLEMENCY",
+      "issue": "executive mercy for a federal offense",
+      "available_relief": "A presidential pardon, commutation, reprieve, or remission on the terms stated in the grant.",
+      "limits": "Executive and discretionary; not judicial correction, no guaranteed process or decision date, and the exact warrant plus independent law control every asserted consequence.",
+      "authority_ids": [
+        "AUTH-CONST-PARDON-CLAUSE",
+        "AUTH-CFR-28-PART-1-CLEMENCY",
+        "AUTH-SCOTUS-SCHICK-419-US-256"
+      ],
+      "claim_ids": [
+        "CLM-CLEM-001",
+        "CLM-CLEM-003",
+        "CLM-CLEM-017",
+        "CLM-CLEM-028",
+        "CLM-CLEM-029"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-RULE35B-SUBSTANTIAL-ASSISTANCE",
+      "issue": "qualifying post-sentencing substantial assistance on the government's motion",
+      "available_relief": "A discretionary sentence reduction, including below a statutory minimum under current Rule 35(b)(3).",
+      "limits": "Government motion, timing track, substantial assistance, court discretion, circuit law, and any agreement all remain controlling; pre-sentence assistance is considered under current (b)(4).",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-35-36",
+        "AUTH-SCOTUS-WADE-504-US-181"
+      ],
+      "claim_ids": [
+        "CLM-R3536-013",
+        "CLM-R3536-014",
+        "CLM-R3536-018",
+        "CLM-R3536-019",
+        "CLM-R3536-020",
+        "CLM-R3536-023"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-CRACK-SENTENCE-ROUTE-CLASSIFICATION",
+      "issue": "later crack-cocaine sentence reduction",
+      "available_relief": "Route-specific consideration under First Step Act § 404 or § 3582(c)(2)/USSG § 1B1.10 when that route's eligibility and scope are satisfied.",
+      "limits": "The two routes are not interchangeable and neither guarantees a reduction.",
+      "authority_ids": [
+        "AUTH-PL-115-391-SEC-404",
+        "AUTH-USC-18-3582",
+        "AUTH-USSG-2025-1B1-10",
+        "AUTH-SCOTUS-CONCEPCION-597-US-481",
+        "AUTH-SCOTUS-DILLON-560-US-817"
+      ],
+      "claim_ids": [
+        "CLM-R3536-034",
+        "CLM-R3536-035",
+        "CLM-R3536-036",
+        "CLM-R3536-037"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-BOP-COMPUTATION-CORRECTION",
+      "issue": "proven BOP sentence-commencement or prior-credit error",
+      "available_relief": "Agency correction through Part 542 or, for a live cognizable exhausted claim, judicial relief directing a lawful computation.",
+      "limits": "The remedy cannot award double credit, rewrite a judgment, select a prison, or exceed § 2241 jurisdiction and controlling circuit law.",
+      "authority_ids": [
+        "AUTH-USC-18-3585",
+        "AUTH-SCOTUS-WILSON-503-US-329",
+        "AUTH-USC-28-2241"
+      ],
+      "claim_ids": [
+        "CLM-BOPSC-016",
+        "CLM-BOPSC-018",
+        "CLM-BOPSC-026",
+        "CLM-BOPSC-027",
+        "CLM-BOPSC-029"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-BOP-DISCIPLINE-CREDIT",
+      "issue": "procedurally or evidentially invalid disciplinary credit loss",
+      "available_relief": "Administrative reversal, rehearing, expungement, restoration or recomputation as authorized; cognizable judicial relief must match the proven due-process or statutory error.",
+      "limits": "No automatic remedy follows from a regulatory delay; protected interest, prejudice, exhaustion, custody, and circuit remedy law control.",
+      "authority_ids": [
+        "AUTH-CFR-28-541",
+        "AUTH-SCOTUS-WOLFF-418-US-539",
+        "AUTH-SCOTUS-SUPERINTENDENT-HILL-472-US-445"
+      ],
+      "claim_ids": [
+        "CLM-BOPDDR-015",
+        "CLM-BOPDDR-023",
+        "CLM-BOPDDR-025",
+        "CLM-BOPDDR-026",
+        "CLM-BOPDDR-029"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-BOP-LAWFUL-RECONSIDERATION",
+      "issue": "omitted mandatory consideration or other reviewable legal error in BOP placement administration",
+      "available_relief": "Where an authorized claim is proven, lawful reconsideration or compliance with the governing limit rather than judicial selection of the discretionary placement.",
+      "limits": "Sections 3621(b) and 3625, cognizability, cause of action, exhaustion, sovereign immunity, and circuit law may limit or foreclose review.",
+      "authority_ids": [
+        "AUTH-USC-18-3621",
+        "AUTH-USC-18-3625"
+      ],
+      "claim_ids": [
+        "CLM-BOPPRE-028",
+        "CLM-BOPPRE-031",
+        "CLM-BOPAR-020",
+        "CLM-BOPAR-022",
+        "CLM-BOPAR-023"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-SR-MODIFICATION-TERMINATION",
+      "issue": "ongoing supervised-release condition or need for continued supervision",
+      "available_relief": "Before expiration, modification, reduction, enlargement, extension within the original maximum, or discretionary early termination after the one-year threshold as authorized by § 3583(e).",
+      "limits": "Rule 32.1(c), jurisdiction, the term calculation, statutory factors, and claim-specific finality or waiver law apply.",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583",
+        "AUTH-FRCRIM-P-32-1"
+      ],
+      "claim_ids": [
+        "CLM-SRTERM-018",
+        "CLM-SRTERM-021",
+        "CLM-SRTERM-022",
+        "CLM-SRCOND-011",
+        "CLM-SRCOND-016"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-SR-REVOCATION-DISPOSITION",
+      "issue": "proven supervised-release violation",
+      "available_relief": "Continuation or modification where authorized, or revocation imprisonment and a possible additional supervised-release term within §§ 3583(e), (g), and (h).",
+      "limits": "The original offense class and statute, mandatory provisions, Esteras, Tapia, Haymond, prior revocation record, and current Chapter 7 guidance apply.",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583",
+        "AUTH-SCOTUS-ESTERAS-606-US-SLIP",
+        "AUTH-SCOTUS-HAYMOND-588-US-634",
+        "AUTH-USSC-2025-7C1"
+      ],
+      "claim_ids": [
+        "CLM-SRREV-016",
+        "CLM-SRREV-017",
+        "CLM-SRREV-019",
+        "CLM-SRREV-020",
+        "CLM-SRREV-022",
+        "CLM-SRREV-024"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "remedy_id": "REMEDY-SR-CONDITION-REENTRY",
+      "issue": "condition-caused reentry burden or separate collateral consequence",
+      "available_relief": "Seek narrowly tailored condition modification or early termination when § 3583(e) reaches the burden; otherwise use the separately authorized consequence-specific decisionmaker and remedy.",
+      "limits": "Termination does not erase the conviction or automatically alter state, agency, immigration, registration, licensing, housing, employment, or private consequences.",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583",
+        "AUTH-USC-18-3605"
+      ],
+      "claim_ids": [
+        "CLM-SRCOND-015",
+        "CLM-SRCOND-020",
+        "CLM-SRCOND-021",
+        "CLM-SRCOND-022",
+        "CLM-SRCOND-023"
+      ],
+      "last_verified": "2026-08-25"
+    }
+  ]
+}

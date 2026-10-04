@@ -1,0 +1,622 @@
+{
+  "schema_version": 1,
+  "standards": [
+    {
+      "standard_id": "STD-SUPPRESSION-PROBABLE-CAUSE-APPEAL",
+      "issue": "appellate review of suppression-related probable cause or reasonable suspicion",
+      "standard": "Independent review of ultimate reasonable-suspicion and probable-cause determinations; clear error for historical facts, with due weight to local inferences.",
+      "authority_ids": [
+        "AUTH-SCOTUS-ORNELAS-517-US-690"
+      ],
+      "claim_ids": [
+        "CLM-MOTION-030"
+      ],
+      "limitations": "Other suppression questions and remedies may use different standards.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-RULE14-SEVERANCE",
+      "issue": "review of Rule 14 severance relief",
+      "standard": "The Rule 14 remedy is committed to the district court's sound discretion and reviewed within Zafiro's serious-risk framework.",
+      "authority_ids": [
+        "AUTH-SCOTUS-ZAFIRO-506-US-534"
+      ],
+      "claim_ids": [
+        "CLM-MOTION-023",
+        "CLM-MOTION-024"
+      ],
+      "limitations": "Issue preservation, specific rights, and harmlessness remain separate.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-STA-DISMISSAL-PREJUDICE",
+      "issue": "choice between with- and without-prejudice Speedy Trial Act dismissal",
+      "standard": "Abuse-of-discretion review constrained by the statutory factors and a reasoned district-court explanation.",
+      "authority_ids": [
+        "AUTH-SCOTUS-TAYLOR-487-US-326"
+      ],
+      "claim_ids": [
+        "CLM-SPEEDY-007"
+      ],
+      "limitations": "Underlying clock interpretations and factual findings have their own review components.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-RULE11-UNPRESERVED",
+      "issue": "unpreserved Rule 11 error on direct review",
+      "standard": "Rule 52(b) plain-error review on the whole record; the defendant must show a reasonable probability that absent the error the defendant would not have pleaded guilty.",
+      "authority_ids": [
+        "AUTH-SCOTUS-VONN-535-US-55",
+        "AUTH-SCOTUS-DOMINGUEZ-BENITEZ-542-US-74"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-046"
+      ],
+      "limitations": "Preserved error, judicial participation, agreement breach, and collateral review require their own classification.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-PLEA-BREACH-UNPRESERVED",
+      "issue": "unpreserved government breach of a plea agreement",
+      "standard": "Ordinary Rule 52(b) plain-error review.",
+      "authority_ids": [
+        "AUTH-SCOTUS-PUCKETT-556-US-129"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-033",
+        "CLM-PLEA-034"
+      ],
+      "limitations": "Agreement construction, existence of breach, each plain-error element, and remedy remain distinct.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-TRIAL-LEGAL-SUFFICIENCY",
+      "issue": "legal sufficiency of evidence supporting a conviction",
+      "standard": "Viewing the evidence in the light most favorable to the prosecution, ask whether any rational trier could find every charged element beyond a reasonable doubt; do not reweigh evidence or credibility.",
+      "authority_ids": [
+        "AUTH-SCOTUS-JACKSON-443-US-307",
+        "AUTH-SCOTUS-MUSACCHIO-577-US-237"
+      ],
+      "claim_ids": [
+        "CLM-TRIAL-023",
+        "CLM-TRIAL-024"
+      ],
+      "limitations": "The charged elements and complete admitted-evidence record control; Rule 33 weight review is a separate circuit-specific inquiry.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-MISTRIAL-MANIFEST-NECESSITY",
+      "issue": "court-declared mistrial over a defendant's objection",
+      "standard": "A high degree of necessity and sound discretion shown on the record; the degree of deference varies with the reason for mistrial.",
+      "authority_ids": [
+        "AUTH-SCOTUS-PEREZ-22-US-579",
+        "AUTH-SCOTUS-ARIZONA-WASHINGTON-434-US-497"
+      ],
+      "claim_ids": [
+        "CLM-TRIAL-028",
+        "CLM-TRIAL-029"
+      ],
+      "limitations": "Consent, alternatives, jury status, prejudicial event, findings, and complete record must be examined; no formulaic incantation replaces the analysis.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SENTENCING-REASONABLENESS",
+      "issue": "direct review of a federal sentence",
+      "standard": "Abuse-of-discretion review encompassing significant procedural error and substantive reasonableness under the totality of the circumstances.",
+      "authority_ids": [
+        "AUTH-SCOTUS-GALL-552-US-38",
+        "AUTH-SCOTUS-RITA-551-US-338"
+      ],
+      "claim_ids": [
+        "CLM-SENT-020",
+        "CLM-SENT-021"
+      ],
+      "limitations": "Underlying legal questions, factual findings, preservation, harmlessness, statutory authorization, and circuit applications may have distinct components.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SENTENCING-UNPRESERVED-RANGE",
+      "issue": "unpreserved Guidelines range miscalculation",
+      "standard": "Rule 52(b) plain-error review; a wrong range ordinarily affects substantial rights and, after the first three elements, ordinarily warrants correction under the fourth element, subject to a contrary record.",
+      "authority_ids": [
+        "AUTH-SCOTUS-MOLINA-MARTINEZ-578-US-189",
+        "AUTH-SCOTUS-ROSALES-MIRELES-585-US-129"
+      ],
+      "claim_ids": [
+        "CLM-SENT-029",
+        "CLM-SENT-030"
+      ],
+      "limitations": "The range must actually be erroneous and used; the record and every plain-error element control.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-PRESERVED-CONSTITUTIONAL-HARMLESS",
+      "issue": "preserved constitutional trial error subject to harmless-error review",
+      "standard": "The beneficiary must prove the error harmless beyond a reasonable doubt.",
+      "authority_ids": [
+        "AUTH-SCOTUS-CHAPMAN-386-US-18",
+        "AUTH-SCOTUS-NEDER-527-US-1"
+      ],
+      "claim_ids": [
+        "CLM-DR-023",
+        "CLM-DR-025"
+      ],
+      "limitations": "Structural errors, unpreserved errors, collateral review, and issue-specific rules require separate analysis.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-PRESERVED-NONCONSTITUTIONAL-HARMLESS",
+      "issue": "preserved federal nonconstitutional error",
+      "standard": "Reverse when the court is left in grave doubt whether the error substantially influenced the result after reviewing the whole record.",
+      "authority_ids": [
+        "AUTH-SCOTUS-KOTTEAKOS-328-US-750"
+      ],
+      "claim_ids": [
+        "CLM-DR-024"
+      ],
+      "limitations": "The actual statute, rule, error, burden, record, and issue-specific precedent control.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-CRIMINAL-PLAIN-ERROR",
+      "issue": "forfeited criminal error",
+      "standard": "Error, plainness at appellate review, effect on substantial rights, and discretionary correction for an error seriously affecting fairness, integrity, or public reputation.",
+      "authority_ids": [
+        "AUTH-SCOTUS-OLANO-507-US-725",
+        "AUTH-SCOTUS-HENDERSON-568-US-266"
+      ],
+      "claim_ids": [
+        "CLM-DR-026",
+        "CLM-DR-027",
+        "CLM-DR-028",
+        "CLM-DR-029"
+      ],
+      "limitations": "Affirmative waiver, specialized prejudice presumptions, issue-specific applications, and the record must be established.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-2255-PROCEDURAL-DEFAULT",
+      "issue": "defaulted federal collateral claim",
+      "standard": "Cause and actual prejudice, or an applicable actual-innocence gateway, under the claim- and posture-specific controlling law.",
+      "authority_ids": [
+        "AUTH-SCOTUS-FRADY-456-US-152",
+        "AUTH-SCOTUS-BOUSLEY-523-US-614"
+      ],
+      "claim_ids": [
+        "CLM-2255-027",
+        "CLM-2255-028",
+        "CLM-2255-029",
+        "CLM-2255-030",
+        "CLM-2255-031"
+      ],
+      "limitations": "Massaro treats ineffective assistance separately; cause, prejudice, waiver, relitigation, and innocence remain distinct.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SCHLUP-INNOCENCE-GATEWAY",
+      "issue": "gateway claim of factual innocence",
+      "standard": "New reliable evidence showing that, on the complete record, it is more likely than not that no reasonable juror would find guilt beyond a reasonable doubt.",
+      "authority_ids": [
+        "AUTH-SCOTUS-SCHLUP-513-US-298",
+        "AUTH-SCOTUS-MCQUIGGIN-569-US-383"
+      ],
+      "claim_ids": [
+        "CLM-2255-030",
+        "CLM-2255-032",
+        "CLM-2255-033",
+        "CLM-2255-034"
+      ],
+      "limitations": "Not a freestanding merits claim; § 2255 time-bar and sentencing applications require controlling-circuit law.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-STRICKLAND-IAC",
+      "issue": "ordinary ineffective assistance of counsel",
+      "standard": "Objectively unreasonable performance plus a posture-specific reasonable probability sufficient to undermine confidence in the result.",
+      "authority_ids": [
+        "AUTH-SCOTUS-STRICKLAND-466-US-668"
+      ],
+      "claim_ids": [
+        "CLM-2255-035",
+        "CLM-2255-036",
+        "CLM-2255-037",
+        "CLM-2255-038",
+        "CLM-2255-039",
+        "CLM-2255-040",
+        "CLM-2255-041",
+        "CLM-2255-042",
+        "CLM-2255-043",
+        "CLM-2255-044",
+        "CLM-2255-045",
+        "CLM-2255-046",
+        "CLM-2255-047"
+      ],
+      "limitations": "Cronic presumptions are narrow; plea, offer, appeal, trial, and sentencing prejudice are not interchangeable.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-2255-COA-MERITS",
+      "issue": "certificate after merits denial",
+      "standard": "Reasonable jurists could debate the constitutional ruling or conclude the issue deserves encouragement to proceed.",
+      "authority_ids": [
+        "AUTH-USC-28-2253",
+        "AUTH-SCOTUS-SLACK-529-US-473",
+        "AUTH-SCOTUS-MILLER-EL-537-US-322",
+        "AUTH-SCOTUS-BUCK-580-US-100"
+      ],
+      "claim_ids": [
+        "CLM-2255-060",
+        "CLM-2255-062",
+        "CLM-2255-064"
+      ],
+      "limitations": "Threshold inquiry only, not full merits resolution.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-2255-COA-PROCEDURAL",
+      "issue": "certificate after procedural dismissal",
+      "standard": "Both the valid constitutional claim and correctness of the procedural ruling must be debatable among reasonable jurists.",
+      "authority_ids": [
+        "AUTH-USC-28-2253",
+        "AUTH-SCOTUS-SLACK-529-US-473"
+      ],
+      "claim_ids": [
+        "CLM-2255-060",
+        "CLM-2255-063"
+      ],
+      "limitations": "The actual procedural ruling and underlying constitutional claim must be separately identified.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-2255H-NEW-EVIDENCE",
+      "issue": "successive § 2255 motion based on newly discovered evidence",
+      "standard": "If proven and viewed with the evidence as a whole, clear and convincing evidence that no reasonable factfinder would have found guilt of the offense.",
+      "authority_ids": [
+        "AUTH-USC-28-2255"
+      ],
+      "claim_ids": [
+        "CLM-SOS-017"
+      ],
+      "limitations": "The statutory gate is not a merits ruling; discovery, admissibility, actual newness, authorization-stage proof, and circuit procedure remain claim-specific.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-2255H-NEW-CONSTITUTIONAL-RULE",
+      "issue": "successive § 2255 motion based on a new constitutional rule",
+      "standard": "A previously unavailable new rule of constitutional law made retroactive to collateral cases by Supreme Court holding.",
+      "authority_ids": [
+        "AUTH-USC-28-2255",
+        "AUTH-SCOTUS-TYLER-533-US-656",
+        "AUTH-SCOTUS-SCHRIRO-542-US-348",
+        "AUTH-SCOTUS-EDWARDS-VANNOY-593-US-255"
+      ],
+      "claim_ids": [
+        "CLM-SOS-018",
+        "CLM-SOS-020",
+        "CLM-SOS-021",
+        "CLM-SOS-022",
+        "CLM-SOS-023"
+      ],
+      "limitations": "Statutory-interpretation rules do not satisfy this gate; identify the exact Supreme Court rule, holding, availability date, and retroactivity basis.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-2241-EXHAUSTION-CLASSIFICATION",
+      "issue": "judicial exhaustion for a federal-prisoner § 2241 petition",
+      "standard": "No exhaustion rule appears in § 2241 or Part 542 itself; characterize and apply the governing circuit's judicial doctrine and any claim-specific statute.",
+      "authority_ids": [
+        "AUTH-USC-28-2241",
+        "AUTH-CFR-28-542",
+        "AUTH-CA9-WARD-678-F3D-1042"
+      ],
+      "claim_ids": [
+        "CLM-2241F-021",
+        "CLM-2241F-022",
+        "CLM-2241F-023",
+        "CLM-2241F-032"
+      ],
+      "limitations": "Ward is a Ninth Circuit example, not a nationwide excuse rule; actual fair presentation, default, waiver, excuse, and remedy are circuit- and record-specific.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-HABEAS-CUSTODY-AT-FILING",
+      "issue": "custody requirement at filing",
+      "standard": "Qualifying custody must exist under the challenged detention or sentence at filing; parole can qualify, while collateral consequences of a fully expired conviction alone do not.",
+      "authority_ids": [
+        "AUTH-SCOTUS-JONES-CUNNINGHAM-371-US-236",
+        "AUTH-SCOTUS-MALENG-490-US-488"
+      ],
+      "claim_ids": [
+        "CLM-2241S-015",
+        "CLM-2241S-016",
+        "CLM-2241S-017",
+        "CLM-2241S-018"
+      ],
+      "limitations": "The exact restraint, challenged judgment or detention, sentence relationship, and statutory vehicle must be identified.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-HABEAS-MOOTNESS-CONTINUING-INJURY",
+      "issue": "mootness after release, expiration, recalculation, or transfer",
+      "standard": "Determine whether a concrete continuing injury remains and whether effective relief can redress it; conviction consequences may persist, but administrative or revocation consequences are not universally presumed.",
+      "authority_ids": [
+        "AUTH-SCOTUS-CARAFAS-391-US-234",
+        "AUTH-SCOTUS-SPENCER-523-US-1"
+      ],
+      "claim_ids": [
+        "CLM-2241S-019",
+        "CLM-2241S-020",
+        "CLM-2241S-021",
+        "CLM-2241S-022",
+        "CLM-2241S-024"
+      ],
+      "limitations": "Apply the exact claim, later event, continuing restraint, requested relief, and any supported mootness exception.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-CORAM-MORGAN-MINIMUM",
+      "issue": "federal coram nobis threshold",
+      "standard": "Compelling circumstances to achieve justice, no other remedy, sound reasons for earlier omission, fundamental error, and a record sufficient to overcome the presumption of correctness, plus controlling circuit requirements.",
+      "authority_ids": [
+        "AUTH-SCOTUS-MORGAN-346-US-502"
+      ],
+      "claim_ids": [
+        "CLM-XWRIT-008",
+        "CLM-XWRIT-009",
+        "CLM-XWRIT-010",
+        "CLM-XWRIT-011",
+        "CLM-XWRIT-012",
+        "CLM-XWRIT-014",
+        "CLM-XWRIT-015"
+      ],
+      "limitations": "This is not represented as a universal numbered circuit test; consequences, prejudice, diligence, waiver, and remedy require current circuit law.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-AUDITA-CIRCUIT-GAP",
+      "issue": "criminal audita querela availability",
+      "standard": "Identify controlling circuit recognition and a genuine remedial gap; in the Ninth Circuit a § 2255-cognizable claim, successive restrictions, or nonretroactivity does not create that gap.",
+      "authority_ids": [
+        "AUTH-CA9-CARRINGTON-503-F3D-888",
+        "AUTH-SCOTUS-CARLISLE-517-US-416"
+      ],
+      "claim_ids": [
+        "CLM-XWRIT-020",
+        "CLM-XWRIT-021",
+        "CLM-XWRIT-022",
+        "CLM-XWRIT-023",
+        "CLM-XWRIT-024",
+        "CLM-XWRIT-025"
+      ],
+      "limitations": "Carrington binds only in the Ninth Circuit and no nationwide Supreme Court merits formulation is asserted.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-MANDAMUS-CHENEY",
+      "issue": "appellate extraordinary-writ issuance",
+      "standard": "No other adequate means, a clear and indisputable right, and independent satisfaction that the writ is appropriate under the circumstances.",
+      "authority_ids": [
+        "AUTH-SCOTUS-CHENEY-542-US-367",
+        "AUTH-SCOTUS-WILL-389-US-90"
+      ],
+      "claim_ids": [
+        "CLM-XWRIT-029",
+        "CLM-XWRIT-030",
+        "CLM-XWRIT-031",
+        "CLM-XWRIT-032"
+      ],
+      "limitations": "Not a substitute for appeal; the exact duty, delay, prejudice, local rules, and requested result control.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-CLEMENCY-PRESIDENTIAL-DISCRETION",
+      "issue": "presidential clemency merits",
+      "standard": "No judicial merits standard governs the President's constitutional clemency decision; DOJ procedures and recommendations are advisory and create no enforceable applicant rights.",
+      "authority_ids": [
+        "AUTH-CONST-PARDON-CLAUSE",
+        "AUTH-CFR-28-PART-1-CLEMENCY"
+      ],
+      "claim_ids": [
+        "CLM-CLEM-004",
+        "CLM-CLEM-005",
+        "CLM-CLEM-006",
+        "CLM-CLEM-017"
+      ],
+      "limitations": "A particular grant and its conditions remain governed by the constitutional power and exact grant instrument.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-RULE35A-CLEAR-ERROR-BOUNDARY",
+      "issue": "Rule 35(a) correction",
+      "standard": "Arithmetical, technical, or other clear error within the deliberately narrow rule and committee-note boundary; no general reconsideration or full resentencing.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-35-36"
+      ],
+      "claim_ids": [
+        "CLM-R3536-004",
+        "CLM-R3536-006",
+        "CLM-R3536-007",
+        "CLM-R3536-012"
+      ],
+      "limitations": "Controlling circuit law and the exact oral sentence and record determine application.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-RULE35B-WADE-CIRCUIT",
+      "issue": "government refusal to seek substantial-assistance reduction",
+      "standard": "Wade's constitutional-motive, rational-relation, and substantial-threshold limits arose under § 3553(e)/USSG § 5K1.1; application to Rule 35(b) and any agreement remedy require current controlling-circuit law.",
+      "authority_ids": [
+        "AUTH-SCOTUS-WADE-504-US-181",
+        "AUTH-FRCRIM-P-35-36",
+        "AUTH-SCOTUS-SANTOBELLO-404-US-257",
+        "AUTH-SCOTUS-PUCKETT-556-US-129"
+      ],
+      "claim_ids": [
+        "CLM-R3536-021",
+        "CLM-R3536-022",
+        "CLM-R3536-023",
+        "CLM-R3536-024"
+      ],
+      "limitations": "No nationwide Rule 35(b) extension or agreement remedy is inferred from Wade alone.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-RULE36-CLERICAL-NONSUBSTANTIVE",
+      "issue": "Rule 36 record correction",
+      "standard": "The correction must make a judgment, order, or other record reflect the decision already made and cannot change the underlying substantive decision.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-35-36"
+      ],
+      "claim_ids": [
+        "CLM-R3536-026",
+        "CLM-R3536-027",
+        "CLM-R3536-028",
+        "CLM-R3536-029",
+        "CLM-R3536-030"
+      ],
+      "limitations": "The source of truth and appellate standard remain record- and circuit-specific.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SENTMOD-APPEAL-ISSUE-CLASSIFICATION",
+      "issue": "review of sentence-modification order",
+      "standard": "Classify legal eligibility, factual findings, discretionary choice, explanation, preservation, and remedy before selecting the controlling standard of review.",
+      "authority_ids": [
+        "AUTH-USC-28-1291",
+        "AUTH-USC-18-3742",
+        "AUTH-SCOTUS-CHAVEZ-MEZA-585-US-109",
+        "AUTH-SCOTUS-CONCEPCION-597-US-481"
+      ],
+      "claim_ids": [
+        "CLM-R3536-042",
+        "CLM-R3536-043",
+        "CLM-R3536-044"
+      ],
+      "limitations": "No one nationwide standard is assigned to every Rule 35, Rule 36, § 3582, or § 404 issue.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-BOP-DISCIPLINE-SOME-EVIDENCE",
+      "issue": "due-process review of disciplinary good-time loss",
+      "standard": "The record must contain some evidence supporting the decision; a reviewing court does not reweigh the evidence as the DHO.",
+      "authority_ids": [
+        "AUTH-SCOTUS-SUPERINTENDENT-HILL-472-US-445"
+      ],
+      "claim_ids": [
+        "CLM-BOPDDR-025"
+      ],
+      "limitations": "Protected-interest, procedure, harmlessness, exhaustion, and available relief remain separate.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-BOP-STATUTORY-INDEPENDENT-JUDGMENT",
+      "issue": "interpretation of federal sentence-execution statutes",
+      "standard": "After Loper Bright, courts exercise independent judgment on statutory meaning; valid delegated discretion and express review exclusions remain operative.",
+      "authority_ids": [
+        "AUTH-SCOTUS-LOPER-BRIGHT-603-US-369",
+        "AUTH-USC-18-3625"
+      ],
+      "claim_ids": [
+        "CLM-BOPAR-019",
+        "CLM-BOPAR-020",
+        "CLM-BOPAR-021"
+      ],
+      "limitations": "The asserted cause of action, cognizability, record, deference due to persuasive agency reasoning, and circuit law must be verified.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-BOP-PLACEMENT-DISCRETION-BOUNDARY",
+      "issue": "BOP designation, placement, and discretionary reduction decisions",
+      "standard": "Separate enforceable statutory or constitutional limits from the merits of a choice Congress entrusted to BOP and from decisions expressly made nonreviewable.",
+      "authority_ids": [
+        "AUTH-USC-18-3621",
+        "AUTH-USC-18-3625",
+        "AUTH-SCOTUS-LOPEZ-DAVIS-531-US-230"
+      ],
+      "claim_ids": [
+        "CLM-BOPSC-007",
+        "CLM-BOPDDR-034",
+        "CLM-BOPDDR-040",
+        "CLM-BOPPRE-028",
+        "CLM-BOPAR-022",
+        "CLM-BOPAR-023"
+      ],
+      "limitations": "No universal standard of review is assigned to every BOP action.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SR-REVOCATION-PREONDERANCE",
+      "issue": "proof of a supervised-release violation",
+      "standard": "Section 3583(e)(3) requires a preponderance finding that a condition was violated.",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583"
+      ],
+      "claim_ids": [
+        "CLM-SRREV-016"
+      ],
+      "limitations": "Admissibility, adverse-witness rights, constitutional questions, and appellate review remain separate.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SR-ESTERAS-FACTOR-BOUNDARY",
+      "issue": "factors in a § 3583(e) decision",
+      "standard": "The listed factors are exhaustive; § 3553(a)(2)(A) retribution is excluded.",
+      "authority_ids": [
+        "AUTH-SCOTUS-ESTERAS-606-US-SLIP",
+        "AUTH-USC-18-3582-3583"
+      ],
+      "claim_ids": [
+        "CLM-SRTERM-026",
+        "CLM-SRREV-022"
+      ],
+      "limitations": "Classify the court's actual rationale from the record; permissible listed factors remain available.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SR-CONDITION-SECTION-3583-D",
+      "issue": "validity of a discretionary supervised-release condition",
+      "standard": "The condition must be reasonably related to the listed factors, impose no greater liberty deprivation than reasonably necessary, and be consistent with Commission policy statements.",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583",
+        "AUTH-USSC-2025-5D1"
+      ],
+      "claim_ids": [
+        "CLM-SRTERM-012",
+        "CLM-SRCOND-001",
+        "CLM-SRCOND-002"
+      ],
+      "limitations": "Constitutional scrutiny, preservation, delegation, and controlling circuit law remain condition specific.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SR-HAYMOND-NARROW",
+      "issue": "constitutional treatment of § 3583(k)",
+      "standard": "Apply Haymond through the controlling concurrence's combined-feature rationale; do not extend it categorically to ordinary § 3583(e)(3) revocation.",
+      "authority_ids": [
+        "AUTH-SCOTUS-HAYMOND-588-US-634"
+      ],
+      "claim_ids": [
+        "CLM-SRREV-024",
+        "CLM-SRREV-025"
+      ],
+      "limitations": "Post-Haymond remedy and offense-specific applications require controlling law.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "standard_id": "STD-SR-CHAPTER7-ADVISORY",
+      "issue": "current Chapter 7 supervised-release violation policy statements",
+      "standard": "Use current §§ 7C1.1–7C1.6 for individualized advisory guidance; statutory commands and caps control.",
+      "authority_ids": [
+        "AUTH-USSC-2025-7C1",
+        "AUTH-USC-18-3582-3583"
+      ],
+      "claim_ids": [
+        "CLM-SRREV-026",
+        "CLM-SRREV-037",
+        "CLM-SRREV-038"
+      ],
+      "limitations": "The actual conduct, original criminal-history category, offense class, and statutory provisions must be verified.",
+      "last_verified": "2026-08-25"
+    }
+  ]
+}

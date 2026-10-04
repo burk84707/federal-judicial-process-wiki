@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "title": "Federal Judicial Process",
+  "owner_display_name": "Jason93",
+  "repository_url": "https://github.com/burk84707/federal-judicial-process-wiki",
+  "site_origin": "https://jason93.com",
+  "base_path": "/legal/federal-process/",
+  "release_label": "Personal source edition",
+  "research_baseline": "2026-08-26",
+  "legal_reverification_performed_for_publication": false,
+  "license_status": "Owner decision pending; no open-source or Creative Commons grant applied",
+  "publication_status": "source_publication_authorized_website_deployment_separate",
+  "downloads_visibility": "unlisted",
+  "default_review_interval_days": 90
+}

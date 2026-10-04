@@ -1,0 +1,4 @@
+# Secondary sources used only for discovery or explanation
+
+Authority cards in this directory must satisfy `VERIFICATION_STANDARD.md` and have matching records in `data/authorities.jsonl`. No authority card has yet been accepted in this category.
+

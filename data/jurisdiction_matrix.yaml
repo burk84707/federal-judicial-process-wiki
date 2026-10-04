@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "rule_id": "JUR-CRIMINAL-VENUE-OFFENSE-DISTRICT",
+      "issue": "ordinary federal criminal charging and trial venue",
+      "rule": "The offense must ordinarily be prosecuted in a district where it was committed; constitutional text, Rule 18, the offense's conduct elements, and any statute control.",
+      "authority_ids": [
+        "AUTH-CONST-CHARGING-VENUE",
+        "AUTH-FRCRIM-P-3-9-18"
+      ],
+      "claim_ids": [
+        "CLM-CHARGE-033"
+      ],
+      "limitations": "No offense-specific or case-specific venue is decided.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-CRIMINAL-VENUE-CONTINUING-OFFENSE",
+      "issue": "multi-district and specified continuing offenses",
+      "rule": "Section 3237(a) permits the districts it identifies unless Congress expressly provides otherwise.",
+      "authority_ids": [
+        "AUTH-USC-18-3237"
+      ],
+      "claim_ids": [
+        "CLM-CHARGE-034"
+      ],
+      "limitations": "The charged conduct elements and any offense-specific enactment control.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-GOV-SUPPRESSION-INTERLOCUTORY",
+      "issue": "government interlocutory review of suppression or exclusion",
+      "rule": "Section 3731 supplies appellate jurisdiction only for its covered orders and conditions, including certification and the Double Jeopardy limit.",
+      "authority_ids": [
+        "AUTH-USC-18-3731"
+      ],
+      "claim_ids": [
+        "CLM-MOTION-025",
+        "CLM-MOTION-026"
+      ],
+      "limitations": "The precise order, timing, certification, jeopardy, and notice must be verified.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-DEF-DOUBLE-JEOPARDY-COLLATERAL",
+      "issue": "defendant interlocutory criminal appeal",
+      "rule": "Abney recognizes collateral-order jurisdiction for a colorable double-jeopardy denial, not a general route for other pretrial rulings.",
+      "authority_ids": [
+        "AUTH-SCOTUS-ABNEY-431-US-651"
+      ],
+      "claim_ids": [
+        "CLM-MOTION-027"
+      ],
+      "limitations": "Every additional issue requires an independent jurisdictional basis.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-SELL-MEDICATION-COLLATERAL",
+      "issue": "interlocutory review of a Sell medication order",
+      "rule": "A qualifying involuntary-medication order to restore competency is immediately appealable under the collateral-order doctrine.",
+      "authority_ids": [
+        "AUTH-SCOTUS-SELL-539-US-166"
+      ],
+      "claim_ids": [
+        "CLM-MENTAL-012"
+      ],
+      "limitations": "The order and ground for medication must match Sell's jurisdictional holding.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-POSTPLEA-CLASS-POWER-TO-CONVICT",
+      "issue": "direct constitutional attack after an unconditional guilty plea",
+      "rule": "A guilty plea by itself does not bar the bounded Class category challenging the government's constitutional power to convict without contradicting the charge, plea, or admitted facts.",
+      "authority_ids": [
+        "AUTH-SCOTUS-CLASS-583-US-174"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-011",
+        "CLM-PLEA-012",
+        "CLM-PLEA-041"
+      ],
+      "limitations": "Agreement waiver, claim content, preservation, admitted facts, and other jurisdictional statutes remain controlling.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-APPEAL-WAIVER-NOT-TOTAL",
+      "issue": "notice of appeal when the agreement contains an appeal waiver",
+      "rule": "An appeal waiver does not eliminate every possible appellate claim or counsel's duty to file a notice requested by the defendant.",
+      "authority_ids": [
+        "AUTH-SCOTUS-GARZA-586-US-232"
+      ],
+      "claim_ids": [
+        "CLM-PLEA-038",
+        "CLM-PLEA-039"
+      ],
+      "limitations": "This does not decide the merits, waiver enforcement, scope, exceptions, or appellate jurisdiction over a particular issue.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-DOUBLE-JEOPARDY-ACQUITTAL-RETRIAL",
+      "issue": "retrial after an insufficiency ruling or trial-error reversal",
+      "rule": "A substantive insufficiency acquittal bars retrial, including one based on an erroneously added element; ordinary trial-error reversal does not.",
+      "authority_ids": [
+        "AUTH-SCOTUS-BURKS-437-US-1",
+        "AUTH-SCOTUS-EVANS-568-US-313"
+      ],
+      "claim_ids": [
+        "CLM-TRIAL-025",
+        "CLM-TRIAL-034"
+      ],
+      "limitations": "The exact ruling and offense must be classified; labels do not control and separate appeal statutes remain necessary.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-MISTRIAL-RETRIAL",
+      "issue": "retrial after mistrial",
+      "rule": "Manifest necessity can permit retrial after a court-declared mistrial; after a defendant-requested mistrial, only government conduct intended to provoke the request triggers Kennedy's retrial bar.",
+      "authority_ids": [
+        "AUTH-SCOTUS-PEREZ-22-US-579",
+        "AUTH-SCOTUS-ARIZONA-WASHINGTON-434-US-497",
+        "AUTH-SCOTUS-OREGON-KENNEDY-456-US-667"
+      ],
+      "claim_ids": [
+        "CLM-TRIAL-028",
+        "CLM-TRIAL-029",
+        "CLM-TRIAL-030"
+      ],
+      "limitations": "Consent, objection, cause, alternatives, resolved counts, prosecutorial intent, and the complete record govern.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-SENTENCING-STATUTORY-RANGE-FACTS",
+      "issue": "fact used to increase a statutory maximum or mandatory minimum",
+      "rule": "Other than Apprendi's preserved prior-conviction exception, a statutory-range-increasing fact must be admitted or submitted to a jury and proved beyond a reasonable doubt.",
+      "authority_ids": [
+        "AUTH-SCOTUS-APPRENDI-530-US-466",
+        "AUTH-SCOTUS-ALLEYNE-570-US-99"
+      ],
+      "claim_ids": [
+        "CLM-SENT-025",
+        "CLM-SENT-026"
+      ],
+      "limitations": "The charged offense, admission, verdict, prior-conviction issue, remedy, preservation, and retroactivity posture must be established.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-FINAL-SENTENCE-MODIFICATION",
+      "issue": "district-court authority to modify an imposed term of imprisonment",
+      "rule": "An imposed imprisonment term is final and may be modified only through an express route in § 3582(c) or another applicable statute or rule; § 3553(a) alone is not authority.",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583",
+        "AUTH-FRCRIM-P-32-2-35-36"
+      ],
+      "claim_ids": [
+        "CLM-SENT-060",
+        "CLM-SENT-061",
+        "CLM-SENT-062",
+        "CLM-SENT-063"
+      ],
+      "limitations": "The exact vehicle, timing, pending appeal, delegation, amendment, and controlling precedent must be identified.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-DIRECT-APPEAL-FINAL-DECISION",
+      "issue": "defendant appeal from a federal criminal judgment",
+      "rule": "Section 1291 covers final district-court decisions, and the sentence ordinarily constitutes final criminal judgment.",
+      "authority_ids": [
+        "AUTH-USC-28-1291",
+        "AUTH-SCOTUS-BERMAN-302-US-211"
+      ],
+      "claim_ids": [
+        "CLM-DR-011",
+        "CLM-DR-012"
+      ],
+      "limitations": "The actual order, separate statutory routes, notice, standing, waiver, mootness, and remedy must be established.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-CRIMINAL-COLLATERAL-ORDER-NARROW",
+      "issue": "interlocutory defendant criminal appeal",
+      "rule": "Criminal finality is stringent and collateral-order review is narrow; Flanagan rejects immediate counsel-disqualification review while Abney recognizes colorable double-jeopardy review.",
+      "authority_ids": [
+        "AUTH-SCOTUS-FLANAGAN-465-US-259",
+        "AUTH-SCOTUS-ABNEY-431-US-651"
+      ],
+      "claim_ids": [
+        "CLM-DR-013",
+        "CLM-DR-014"
+      ],
+      "limitations": "The precise right, order, conclusiveness, separability, effective unreviewability, and controlling law must be established.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-CRIMINAL-SENTENCE-APPEAL",
+      "issue": "review of an otherwise final federal sentence",
+      "rule": "Section 3742 supplies party-specific sentence-appeal grounds and disposition authority.",
+      "authority_ids": [
+        "AUTH-USC-18-3742"
+      ],
+      "claim_ids": [
+        "CLM-DR-016"
+      ],
+      "limitations": "The party, statutory ground, preserved issue, waiver, record, and requested disposition control.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-DEFERRED-RESTITUTION-NOTICE",
+      "issue": "appeal of later deferred-restitution order",
+      "rule": "A notice from the later restitution order is mandatory when the government properly objects, whether or not the rule is jurisdictional.",
+      "authority_ids": [
+        "AUTH-SCOTUS-MANRIQUE-581-US-116"
+      ],
+      "claim_ids": [
+        "CLM-DR-010"
+      ],
+      "limitations": "The initial and amended judgments, notice text and dates, deferred order, and government invocation must be checked.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-2255-SENTENCING-COURT",
+      "issue": "initial federal collateral attack under § 2255",
+      "rule": "The motion is made to the court that imposed the challenged federal sentence.",
+      "authority_ids": [
+        "AUTH-USC-28-2255",
+        "AUTH-RG-2255-1-3"
+      ],
+      "claim_ids": [
+        "CLM-2255-001",
+        "CLM-2255-004",
+        "CLM-2255-007"
+      ],
+      "limitations": "Custody, claim cognizability, saving-clause, successive, transfer, and separate-judgment issues remain distinct.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-2255-APPEAL-COA",
+      "issue": "appeal from final § 2255 order",
+      "rule": "Section 2253(c)(1)(B) makes a certificate jurisdictional for the prisoner's appeal; timely notice remains separately required.",
+      "authority_ids": [
+        "AUTH-USC-28-2253",
+        "AUTH-SCOTUS-GONZALEZ-THALER-565-US-134",
+        "AUTH-FRAP-3-4-22"
+      ],
+      "claim_ids": [
+        "CLM-2255-060",
+        "CLM-2255-065",
+        "CLM-2255-066",
+        "CLM-2255-067"
+      ],
+      "limitations": "Government appeals, interlocutory orders, postjudgment classification, issue expansion, and local procedure require separate analysis.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-2255-SUCCESSIVE-AUTHORIZATION",
+      "issue": "district-court power over a legally second or successive § 2255 motion",
+      "rule": "Court-of-appeals panel certification must precede district-court merits consideration of a filing legally classified as second or successive.",
+      "authority_ids": [
+        "AUTH-USC-28-2255",
+        "AUTH-SCOTUS-BURTON-549-US-147"
+      ],
+      "claim_ids": [
+        "CLM-SOS-003",
+        "CLM-SOS-004",
+        "CLM-SOS-024",
+        "CLM-SOS-030"
+      ],
+      "limitations": "Classification comes first; transfer, dismissal, mixed Rule 60 handling, and the consequence of a particular prior disposition require controlling circuit procedure.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-2241-CORE-CUSTODIAN-DISTRICT",
+      "issue": "respondent and filing district for core present physical custody",
+      "rule": "Default respondent is the immediate custodian and the issuing court must have jurisdiction over that custodian, ordinarily requiring filing in the district of confinement.",
+      "authority_ids": [
+        "AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426"
+      ],
+      "claim_ids": [
+        "CLM-2241F-011",
+        "CLM-2241F-012",
+        "CLM-2241F-013",
+        "CLM-2241S-013",
+        "CLM-BOPSC-027",
+        "CLM-BOPPRE-030",
+        "CLM-BOPAR-014",
+        "CLM-BOPAR-015"
+      ],
+      "limitations": "Not a subject-matter-jurisdiction label; non-core custody, substitution, transfer, and the remedy for defects require posture- and circuit-specific authority.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-2241-POSTFILING-TRANSFER",
+      "issue": "physical transfer after a properly filed habeas application",
+      "rule": "A later transfer does not necessarily defeat properly acquired habeas authority where a respondent in the original district remains able to effect relief.",
+      "authority_ids": [
+        "AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283",
+        "AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426"
+      ],
+      "claim_ids": [
+        "CLM-2241F-016",
+        "CLM-2241F-017",
+        "CLM-2241S-023",
+        "CLM-BOPSC-030",
+        "CLM-BOPAR-024"
+      ],
+      "limitations": "Actual custody chain, respondent authority, circuit substitution and transfer procedure, and redressability remain required.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-CORAM-ORIGINAL-CONVICTING-COURT",
+      "issue": "federal coram nobis filing court",
+      "rule": "Coram nobis is a step in the original federal criminal case and is sought from the court that entered the conviction.",
+      "authority_ids": [
+        "AUTH-SCOTUS-MORGAN-346-US-502"
+      ],
+      "claim_ids": [
+        "CLM-XWRIT-005",
+        "CLM-XWRIT-006"
+      ],
+      "limitations": "All Morgan thresholds, Article III injury, controlling circuit procedure, and the exact federal judgment remain required.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-MANDAMUS-APPELLATE-V-DISTRICT",
+      "issue": "appellate supervision and district officer-duty mandamus",
+      "rule": "A court-of-appeals petition directed to a district judge proceeds under § 1651 and Rule 21; a district action to compel a federal officer or agency duty proceeds, if available, under § 1361.",
+      "authority_ids": [
+        "AUTH-USC-28-1651",
+        "AUTH-FRAP-21",
+        "AUTH-USC-28-1361"
+      ],
+      "claim_ids": [
+        "CLM-XWRIT-026",
+        "CLM-XWRIT-027",
+        "CLM-XWRIT-028"
+      ],
+      "limitations": "Existing jurisdiction, proper respondent or target, clear duty, other remedies, local rules, and the requested act must be verified.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-CLEMENCY-FEDERAL-EXECUTIVE",
+      "issue": "sovereign and decisionmaker for presidential clemency",
+      "rule": "The President's clemency power concerns offenses against the United States; state and other sovereign convictions require the separately responsible clemency authority.",
+      "authority_ids": [
+        "AUTH-CONST-PARDON-CLAUSE",
+        "AUTH-CFR-28-PART-1-CLEMENCY"
+      ],
+      "claim_ids": [
+        "CLM-CLEM-001",
+        "CLM-CLEM-002",
+        "CLM-CLEM-007"
+      ],
+      "limitations": "Specified D.C. Code and territorial routes, military offenses, and mixed judgments require current offense-specific classification.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-RULE35-36-SENTENCING-COURT",
+      "issue": "court for Rules 35 and 36",
+      "rule": "Rules 35 and 36 operate in the original federal criminal case before the sentencing court, subject to a pending appeal and Rule 37 where applicable.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-35-36",
+        "AUTH-FRCRIM-P-37",
+        "AUTH-FRAP-3-4-22"
+      ],
+      "claim_ids": [
+        "CLM-R3536-003",
+        "CLM-R3536-008",
+        "CLM-R3536-032"
+      ],
+      "limitations": "The appealed order, docket status, circuit authority, and exact requested act remain required.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-SENTMOD-APPEAL-STATUTORY-BASIS",
+      "issue": "sentence-modification appeal jurisdiction",
+      "rule": "The asserted appellate basis must be identified under § 1291, § 3742, or other applicable law; this system does not state one universal jurisdictional route for every postjudgment sentence order.",
+      "authority_ids": [
+        "AUTH-USC-28-1291",
+        "AUTH-USC-18-3742"
+      ],
+      "claim_ids": [
+        "CLM-R3536-040",
+        "CLM-R3536-044"
+      ],
+      "limitations": "Vehicle, party, order, circuit doctrine, waiver, notice, and government authorization must be checked.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-BOP-SECTION-3625-CLASSIFICATION",
+      "issue": "judicial review of BOP subchapter-C determinations",
+      "rule": "Apply § 3625's express APA exclusion and any separate § 3621(b) nonreviewability to the actual source and nature of the decision; classify distinct statutory, constitutional, and ultra vires claims separately.",
+      "authority_ids": [
+        "AUTH-USC-18-3621",
+        "AUTH-USC-18-3625"
+      ],
+      "claim_ids": [
+        "CLM-BOPSC-007",
+        "CLM-BOPDDR-040",
+        "CLM-BOPPRE-028",
+        "CLM-BOPAR-019",
+        "CLM-BOPAR-020",
+        "CLM-BOPAR-022"
+      ],
+      "limitations": "Cognizability, cause of action, exhaustion, sovereign immunity, remedy, and controlling circuit law remain separate.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-SR-SECTION-3605-TRANSFER",
+      "issue": "district holding supervised-release jurisdiction after transfer",
+      "rule": "A § 3605 transfer requires receiving-court concurrence; supervision elsewhere does not alone transfer judicial jurisdiction.",
+      "authority_ids": [
+        "AUTH-USC-18-3605"
+      ],
+      "claim_ids": [
+        "CLM-SRTERM-027",
+        "CLM-SRTERM-028",
+        "CLM-SRCOND-014"
+      ],
+      "limitations": "Verify the docketed order, concurrence, effective date, and any later transfer.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-SR-RULE32-CROSS-DISTRICT",
+      "issue": "initial appearance and transfer from a district lacking revocation jurisdiction",
+      "rule": "Apply Rule 32.1(a)(5)'s distinct violation-in-arrest-district and violation-elsewhere paths; the jurisdiction court conducts the revocation hearing.",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-1",
+        "AUTH-USC-18-3605"
+      ],
+      "claim_ids": [
+        "CLM-SRREV-003",
+        "CLM-SRREV-004",
+        "CLM-SRREV-005"
+      ],
+      "limitations": "Arrest district, violation location, certified records, identity, and transfer history must be verified.",
+      "last_verified": "2026-08-25"
+    },
+    {
+      "rule_id": "JUR-SR-SECTION-3583-I",
+      "issue": "post-expiration revocation jurisdiction",
+      "rule": "Delayed revocation exists only when a warrant or summons issued before expiration, the matter arose before expiration, and the later period is reasonably necessary.",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583",
+        "AUTH-SCOTUS-RICO-607-US-SLIP"
+      ],
+      "claim_ids": [
+        "CLM-SRREV-039",
+        "CLM-SRREV-040"
+      ],
+      "limitations": "The term calculation and issuance record are jurisdictionally material; no automatic absconding tolling applies.",
+      "last_verified": "2026-08-25"
+    }
+  ]
+}

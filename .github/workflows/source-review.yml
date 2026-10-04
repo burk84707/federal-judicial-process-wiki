@@ -1,0 +1,58 @@
+name: Review source identities (manual only)
+
+on:
+  workflow_dispatch:
+    inputs:
+      include_districts:
+        description: Include the large district-rule inventory (longer run)
+        required: true
+        default: false
+        type: boolean
+      source_id:
+        description: Optional single registered source ID; blank checks the selected inventory
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  source-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Offline monitor tests
+        run: python -m unittest discover -s tests -p test_monitor_sources.py -v
+      - name: Gather review evidence
+        id: monitor
+        continue-on-error: true
+        env:
+          INCLUDE_DISTRICTS: ${{ inputs.include_districts }}
+          SOURCE_ID: ${{ inputs.source_id }}
+        shell: bash
+        run: |
+          args=()
+          if [ "$INCLUDE_DISTRICTS" = "true" ]; then args+=(--include-districts); fi
+          if [ -n "$SOURCE_ID" ]; then args+=(--source-id "$SOURCE_ID"); fi
+          python scripts/monitor_sources.py "${args[@]}"
+      - name: Retain evidence even when a source failed
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-review-${{ github.run_id }}
+          path: .review/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 30
+      - name: Surface review-required or failed monitor result
+        if: steps.monitor.outcome == 'failure'
+        run: |
+          echo 'Review required or source/input failure. Inspect report artifact and monitor step exit code.'
+          exit 1

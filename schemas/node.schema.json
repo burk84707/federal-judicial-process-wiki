@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/schemas/node.schema.json",
+  "title": "Process graph node",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["node_id", "label", "node_type", "module_id"],
+  "properties": {
+    "node_id": {"type": "string", "pattern": "^NODE-[A-Z0-9-]+$"},
+    "label": {"type": "string", "minLength": 1},
+    "node_type": {"enum": ["event", "decision", "filing", "hearing", "remedy", "deadline", "status"]},
+    "module_id": {"type": "string", "pattern": "^MOD-[A-Z0-9-]+$"},
+    "claim_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^CLM-[A-Z0-9-]+$"}},
+    "jurisdiction": {"type": "string"}
+  }
+}

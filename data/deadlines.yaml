@@ -1,0 +1,941 @@
+{
+  "schema_version": 1,
+  "deadlines": [
+    {
+      "deadline_id": "DL-CHARGE-3282-GENERAL-FIVE-YEAR",
+      "name": "General noncapital charging limitation",
+      "triggering_event": "commission or completion of the charged noncapital offense",
+      "time_period": "five years",
+      "authority_ids": [
+        "AUTH-USC-18-3281-3282-3288-3289"
+      ],
+      "calendar_computation_rule": "The offense-completion date and governing computation precedent must be verified; not resolved generically here.",
+      "tolling_or_extensions": "Express offense-specific periods, tolling statutes, continuing-offense doctrine, and §§ 3288–3289 may alter the result.",
+      "known_exceptions": "Capital offenses under § 3281 and any rule expressly provided by law, including § 3282(b)'s DNA-profile provision.",
+      "legal_characterization": "criminal statute of limitations; precise waiver and forfeiture treatment requires controlling authority",
+      "claim_ids": [
+        "CLM-CHARGE-022",
+        "CLM-CHARGE-023",
+        "CLM-CHARGE-024"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-CHARGE-3288-REFILING",
+      "name": "Refiling after dismissal after limitations expiration",
+      "triggering_event": "dismissal of a felony indictment or information after the applicable period expired, or finality after appeal as specified",
+      "time_period": "six calendar months from dismissal, 60 days after dismissal becomes final on appeal, or the statutory next-grand-jury alternative",
+      "authority_ids": [
+        "AUTH-USC-18-3281-3282-3288-3289"
+      ],
+      "calendar_computation_rule": "Use § 3288's calendar-month and appellate language with the actual dismissal and grand-jury dates.",
+      "tolling_or_extensions": "Only the alternatives stated in § 3288 are verified here.",
+      "known_exceptions": "No rescue when the dismissal reason was untimeliness or another reason barring new prosecution.",
+      "legal_characterization": "statutory refiling allowance bounded by the underlying criminal limitation period",
+      "claim_ids": [
+        "CLM-CHARGE-025"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-CHARGE-3289-REFILING",
+      "name": "Refiling after dismissal shortly before limitations expiration",
+      "triggering_event": "dismissal before expiration when the applicable period will expire within six calendar months",
+      "time_period": "six calendar months after limitations expiration, 60 days after dismissal becomes final on appeal, or the statutory next-grand-jury alternative",
+      "authority_ids": [
+        "AUTH-USC-18-3281-3282-3288-3289"
+      ],
+      "calendar_computation_rule": "Use § 3289's calendar-month and appellate language with actual expiration, dismissal, appeal, and grand-jury dates.",
+      "tolling_or_extensions": "Only the alternatives stated in § 3289 are verified here.",
+      "known_exceptions": "No rescue when the dismissal reason was untimeliness or another reason barring new prosecution.",
+      "legal_characterization": "statutory refiling allowance bounded by the underlying criminal limitation period",
+      "claim_ids": [
+        "CLM-CHARGE-026"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-STA-ARREST-TO-CHARGE",
+      "name": "Speedy Trial Act arrest-or-summons to indictment or information",
+      "triggering_event": "arrest or service of summons in connection with the charges",
+      "time_period": "30 days",
+      "authority_ids": [
+        "AUTH-USC-18-3161-3162"
+      ],
+      "calendar_computation_rule": "Compute from the actual trigger using § 3161(h)'s exclusions; a docket calculation is mandatory.",
+      "tolling_or_extensions": "Section 3161(h) exclusions; an additional 30 days for a felony if no grand jury sat in the district during the first period.",
+      "known_exceptions": "The arrest or summons must be in connection with the later charges; subsequent-charge doctrine requires controlling precedent.",
+      "legal_characterization": "statutory Speedy Trial Act requirement with dismissal sanction under § 3162(a)(1); jurisdictional characterization not verified",
+      "claim_ids": [
+        "CLM-CHARGE-027",
+        "CLM-CHARGE-029",
+        "CLM-CHARGE-030",
+        "CLM-SPEEDY-001",
+        "CLM-SPEEDY-002",
+        "CLM-SPEEDY-003",
+        "CLM-SPEEDY-004",
+        "CLM-SPEEDY-005",
+        "CLM-SPEEDY-006",
+        "CLM-SPEEDY-007",
+        "CLM-SPEEDY-008",
+        "CLM-SPEEDY-009",
+        "CLM-SPEEDY-010",
+        "CLM-SPEEDY-011",
+        "CLM-SPEEDY-012",
+        "CLM-SPEEDY-013",
+        "CLM-SPEEDY-014"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-STA-CHARGE-TO-TRIAL",
+      "name": "Speedy Trial Act indictment-or-information to trial",
+      "triggering_event": "later of public filing of the indictment or information and appearance before a judicial officer of the charging court, in a not-guilty case",
+      "time_period": "70 days",
+      "authority_ids": [
+        "AUTH-USC-18-3161-3162"
+      ],
+      "calendar_computation_rule": "Compute from the later statutory trigger using every § 3161(h) exclusion and the full docket.",
+      "tolling_or_extensions": "Section 3161(h) exclusions, including only properly supported ends-of-justice periods.",
+      "known_exceptions": "Written consent to magistrate-judge trial on a complaint and retrial provisions have separate statutory triggers.",
+      "legal_characterization": "statutory Speedy Trial Act requirement; dismissal requires a timely defense motion and is waived as § 3162(a)(2) states; jurisdictional characterization not verified",
+      "claim_ids": [
+        "CLM-CHARGE-028",
+        "CLM-CHARGE-029",
+        "CLM-CHARGE-030",
+        "CLM-SPEEDY-001",
+        "CLM-SPEEDY-002",
+        "CLM-SPEEDY-003",
+        "CLM-SPEEDY-004",
+        "CLM-SPEEDY-005",
+        "CLM-SPEEDY-006",
+        "CLM-SPEEDY-007",
+        "CLM-SPEEDY-008",
+        "CLM-SPEEDY-009",
+        "CLM-SPEEDY-010",
+        "CLM-SPEEDY-011",
+        "CLM-SPEEDY-012",
+        "CLM-SPEEDY-013",
+        "CLM-SPEEDY-014"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE-16-1-DISCOVERY-CONFERENCE",
+      "name": "Rule 16.1 pretrial discovery conference",
+      "triggering_event": "arraignment",
+      "time_period": "no later than 14 days after arraignment",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-10-16-17-26-2",
+        "AUTH-FRCRIM-P-45"
+      ],
+      "calendar_computation_rule": "Compute under Rule 45(a) from the actual arraignment date.",
+      "tolling_or_extensions": "Rule 45(b)(1) permits extension before expiration for good cause and after expiration for excusable neglect; an actual extension requires an order.",
+      "known_exceptions": "Rule 16.1 itself states no categorical exception; local orders may regulate the disclosure timetable but may not be assumed to erase the conference command.",
+      "legal_characterization": "rule-based procedural conference deadline; no jurisdictional characterization verified",
+      "claim_ids": [
+        "CLM-DISC-013",
+        "CLM-DISC-014"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE12-PRETRIAL-MOTIONS",
+      "name": "Rule 12 required pretrial motions and Rule 12.2 notices",
+      "triggering_event": "the court-set pretrial-motion deadline, or the start of trial if the court sets none",
+      "time_period": "by the applicable deadline",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-12-14-41-47-51-52"
+      ],
+      "calendar_computation_rule": "Use the scheduling order and current Rules 12 and 45; no universal calendar date exists.",
+      "tolling_or_extensions": "The court may extend or reset before trial; an untimely Rule 12(b)(3) matter may be considered for good cause; Rule 12.2 separately permits good-cause late notice.",
+      "known_exceptions": "Jurisdiction may be raised while the case is pending; each listed motion and notice has its own trigger.",
+      "legal_characterization": "claim-processing deadline rather than a jurisdictional limit; exact consequences require the current rule and controlling precedent",
+      "claim_ids": [
+        "CLM-MOTION-002",
+        "CLM-MOTION-004",
+        "CLM-MENTAL-014",
+        "CLM-MENTAL-015",
+        "CLM-SPEEDY-009"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-US-GOV-SUPPRESSION-APPEAL",
+      "name": "Government appeal under 18 U.S.C. § 3731",
+      "triggering_event": "rendering of the appealable decision, judgment, or order",
+      "time_period": "30 days",
+      "authority_ids": [
+        "AUTH-USC-18-3731"
+      ],
+      "calendar_computation_rule": "Compute from the rendered order under the governing appellate rules and verify entry and notice dates.",
+      "tolling_or_extensions": "No extension is supplied by § 3731 itself; governing appellate rules and controlling law must be checked.",
+      "known_exceptions": "The statutory order category, certification, jeopardy, Double Jeopardy Clause, and diligent prosecution requirements apply.",
+      "legal_characterization": "statutory criminal-appeal deadline and authorization",
+      "claim_ids": [
+        "CLM-MOTION-025",
+        "CLM-MOTION-026"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-4247-COMPETENCY-EXAM",
+      "name": "Competency examination commitment",
+      "triggering_event": "commitment for an examination ordered under § 4241",
+      "time_period": "reasonable period not exceeding 30 days",
+      "authority_ids": [
+        "AUTH-USC-18-17-4241-4243-4247"
+      ],
+      "calendar_computation_rule": "Use the custody and facility dates in the order and record.",
+      "tolling_or_extensions": "Facility director may seek a reasonable extension not exceeding 15 days on good cause and necessity to observe and evaluate.",
+      "known_exceptions": "This is the examination period, not the separate § 4241(d) restoration period.",
+      "legal_characterization": "statutory maximum for examination commitment",
+      "claim_ids": [
+        "CLM-MENTAL-006"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-4241-INITIAL-RESTORATION",
+      "name": "Initial competency-restoration commitment",
+      "triggering_event": "commitment after a § 4241(d) incompetency finding",
+      "time_period": "reasonable period not exceeding four months",
+      "authority_ids": [
+        "AUTH-USC-18-17-4241-4243-4247"
+      ],
+      "calendar_computation_rule": "Use the actual commitment and custody dates and the purpose specified in § 4241(d)(1).",
+      "tolling_or_extensions": "Any additional period must independently satisfy § 4241(d)(2)'s probability, reasonableness, and endpoint requirements.",
+      "known_exceptions": "The period determines restoration probability; it is not authority for indefinite commitment.",
+      "legal_characterization": "statutory maximum for the initial restoration-probability period",
+      "claim_ids": [
+        "CLM-MENTAL-004",
+        "CLM-MENTAL-005"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-4243-ACQUITTEE-HEARING",
+      "name": "Insanity-acquittee dangerousness hearing",
+      "triggering_event": "special verdict of not guilty only by reason of insanity",
+      "time_period": "no later than 40 days after the special verdict",
+      "authority_ids": [
+        "AUTH-USC-18-17-4241-4243-4247"
+      ],
+      "calendar_computation_rule": "Compute from the special-verdict date using the governing statutory and procedural computation rules.",
+      "tolling_or_extensions": "No generic extension is stated here; case-specific authority must be verified before changing the date.",
+      "known_exceptions": "The hearing and any examination have separate periods under §§ 4243 and 4247.",
+      "legal_characterization": "statutory postverdict hearing deadline",
+      "claim_ids": [
+        "CLM-MENTAL-021"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-4247-INSANITY-EXAM",
+      "name": "Insanity or insanity-acquittee examination commitment",
+      "triggering_event": "commitment for an examination under § 4242 or § 4243",
+      "time_period": "reasonable period not exceeding 45 days",
+      "authority_ids": [
+        "AUTH-USC-18-17-4241-4243-4247"
+      ],
+      "calendar_computation_rule": "Use the examination order, custody, facility, and report dates.",
+      "tolling_or_extensions": "Facility director may seek a reasonable extension not exceeding 30 days on the statutory good-cause and necessity showing.",
+      "known_exceptions": "This does not replace the separate 40-day § 4243 hearing deadline.",
+      "legal_characterization": "statutory maximum for specified mental-condition examinations",
+      "claim_ids": [
+        "CLM-MENTAL-016",
+        "CLM-MENTAL-021"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-JSSA-DEFENDANT-CHALLENGE",
+      "name": "Defendant's Jury Selection and Service Act challenge",
+      "triggering_event": "voir dire or discovery with diligence of the statutory ground",
+      "time_period": "before voir dire begins or within 7 days after discovery or discoverability with diligence, whichever is earlier",
+      "authority_ids": [
+        "AUTH-USC-28-1861-1862-1867"
+      ],
+      "calendar_computation_rule": "Compute the seven-day alternative under the controlling statutory text and actual discovery record; the before-voir-dire alternative may be earlier.",
+      "tolling_or_extensions": "No nationwide extension authority is assumed; the statutory trigger and diligence record control.",
+      "known_exceptions": "Section 1867(e) makes its procedures the exclusive statutory means for challenges under the Act; independent constitutional claims require their own analysis.",
+      "legal_characterization": "mandatory statutory challenge timing; jurisdictional classification not asserted",
+      "claim_ids": [
+        "CLM-TRIAL-008"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE29-POSTVERDICT",
+      "name": "Postverdict Rule 29 motion",
+      "triggering_event": "guilty verdict or jury discharge, whichever is later",
+      "time_period": "14 days after the later trigger",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-26-3-29-31-45"
+      ],
+      "calendar_computation_rule": "Compute under Rule 45(a) from the actual later trigger.",
+      "tolling_or_extensions": "Rule 45(b)(1) permits a timely good-cause extension and a post-deadline extension for excusable neglect; an actual extension requires a supported order.",
+      "known_exceptions": "No pre-submission Rule 29 motion is required for a postverdict motion.",
+      "legal_characterization": "rule-based claim-processing deadline; current text controls over former-rule cases",
+      "claim_ids": [
+        "CLM-TRIAL-021",
+        "CLM-TRIAL-022"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE33-NEWLY-DISCOVERED",
+      "name": "Rule 33 motion grounded on newly discovered evidence",
+      "triggering_event": "verdict or finding of guilty",
+      "time_period": "3 years after the trigger",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-33",
+        "AUTH-FRCRIM-P-45",
+        "AUTH-SCOTUS-EBERHART-546-US-12"
+      ],
+      "calendar_computation_rule": "Compute from the actual verdict or guilty-finding date under current Rule 45.",
+      "tolling_or_extensions": "Rule 45(b)(1) permits extension for good cause before expiration and excusable neglect after expiration; a pending appeal prevents grant until remand but does not bar filing.",
+      "known_exceptions": "The controlling circuit determines whether the asserted ground is newly discovered evidence.",
+      "legal_characterization": "nonjurisdictional claim-processing deadline",
+      "claim_ids": [
+        "CLM-R33-003",
+        "CLM-R33-004",
+        "CLM-R33-007",
+        "CLM-R33-008",
+        "CLM-R33-009"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE33-OTHER",
+      "name": "Rule 33 motion on a ground other than newly discovered evidence",
+      "triggering_event": "verdict or finding of guilty",
+      "time_period": "14 days after the trigger",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-33",
+        "AUTH-FRCRIM-P-45",
+        "AUTH-SCOTUS-EBERHART-546-US-12"
+      ],
+      "calendar_computation_rule": "Compute from the actual verdict or guilty-finding date under current Rule 45.",
+      "tolling_or_extensions": "Rule 45(b)(1) permits extension for good cause before expiration and excusable neglect after expiration.",
+      "known_exceptions": "The ground must be classified under controlling circuit law; sentencing and appellate finality are not the trigger.",
+      "legal_characterization": "nonjurisdictional claim-processing deadline",
+      "claim_ids": [
+        "CLM-R33-005",
+        "CLM-R33-006",
+        "CLM-R33-007",
+        "CLM-R33-008",
+        "CLM-R33-009"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-PSR-DISCLOSURE",
+      "name": "Presentence report disclosure",
+      "triggering_event": "sentencing date",
+      "time_period": "at least 35 days before sentencing unless the defendant waives the minimum period",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-51-52",
+        "AUTH-USC-18-3551-3552-3553"
+      ],
+      "calendar_computation_rule": "Calendar from the actual sentencing date under Rule 32; § 3552(d)'s ten-day floor does not shorten the current rule.",
+      "tolling_or_extensions": "The defendant may waive the minimum period; Rule 32(b)(2) permits the court to change a Rule 32 limit for good cause.",
+      "known_exceptions": "A report may be dispensed with only under Rule 32(c)(1)'s stated exception and on-record finding.",
+      "legal_characterization": "mandatory rule-based disclosure period subject to waiver or good-cause adjustment",
+      "claim_ids": [
+        "CLM-SENT-002",
+        "CLM-SENT-004"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-PSR-OBJECTIONS",
+      "name": "Written presentence report objections",
+      "triggering_event": "receipt of the presentence report",
+      "time_period": "within 14 days after receipt",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-51-52"
+      ],
+      "calendar_computation_rule": "Compute from actual receipt under Rule 32 and applicable Rule 45 computation.",
+      "tolling_or_extensions": "Rule 32(b)(2) permits a good-cause change; Rule 32(i)(1)(D) permits a new objection before sentence for good cause.",
+      "known_exceptions": "A known issue should be stated specifically and timely; late allowance is not automatic.",
+      "legal_characterization": "rule-based objection period subject to good-cause adjustment",
+      "claim_ids": [
+        "CLM-SENT-005",
+        "CLM-SENT-011"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-PSR-FINAL-ADDENDUM",
+      "name": "Final presentence report and addendum",
+      "triggering_event": "sentencing date",
+      "time_period": "at least 7 days before sentencing",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-51-52"
+      ],
+      "calendar_computation_rule": "Calendar backward from the actual sentencing date under Rule 32.",
+      "tolling_or_extensions": "Rule 32(b)(2) permits the court to change the period for good cause.",
+      "known_exceptions": "Actual orders and local scheduling requirements must also be checked.",
+      "legal_characterization": "rule-based submission period subject to good-cause adjustment",
+      "claim_ids": [
+        "CLM-SENT-006"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RESTITUTION-LOSS-DETERMINATION",
+      "name": "Deferred restitution loss determination",
+      "triggering_event": "discovery that victim losses are not ascertainable ten days before sentencing",
+      "time_period": "notice at least 10 days before sentencing; final loss determination no later than 90 days after sentencing; later-discovered victim petition within 60 days after discovery",
+      "authority_ids": [
+        "AUTH-USC-18-3663-3663A-3664",
+        "AUTH-SCOTUS-DOLAN-560-US-605"
+      ],
+      "calendar_computation_rule": "Use actual sentencing, notice, discovery, and petition dates under § 3664(d)(5).",
+      "tolling_or_extensions": "Dolan preserves authority after day ninety only where the court timely made clear restitution would be ordered.",
+      "known_exceptions": "A later victim must show good cause; offense-specific law and actual notice control.",
+      "legal_characterization": "statutory timetable with bounded retained-authority rule",
+      "claim_ids": [
+        "CLM-SENT-040",
+        "CLM-SENT-041"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE35A-CLEAR-ERROR",
+      "name": "Rule 35(a) clear-error correction",
+      "triggering_event": "oral announcement of sentence",
+      "time_period": "within 14 days",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-2-35-36",
+        "AUTH-FRCRIM-P-35-36",
+        "AUTH-FRCRIM-P-45",
+        "AUTH-FRAP-3-4-22"
+      ],
+      "calendar_computation_rule": "Rule 35(c) defines sentencing as oral announcement; compute under Rule 45.",
+      "tolling_or_extensions": "Rule 45(b)(2) forbids extension except as Rule 35 permits; a notice of appeal does not suspend the Rule 35(a) period.",
+      "known_exceptions": "Rule 35(b), Rule 36, appeal, and statutory modification routes are distinct.",
+      "legal_characterization": "narrow rule-based correction period",
+      "claim_ids": [
+        "CLM-SENT-060",
+        "CLM-R3536-004",
+        "CLM-R3536-005",
+        "CLM-R3536-006",
+        "CLM-R3536-007",
+        "CLM-R3536-008",
+        "CLM-R3536-009",
+        "CLM-R3536-010",
+        "CLM-R3536-011",
+        "CLM-R3536-012"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-CRIMINAL-DEFENDANT-NOTICE-APPEAL",
+      "name": "Defendant criminal notice of appeal",
+      "triggering_event": "later of judgment or order entry or government notice of appeal",
+      "time_period": "14 days, subject to the exact Rule 4(b) events",
+      "authority_ids": [
+        "AUTH-FRAP-3-4-22"
+      ],
+      "calendar_computation_rule": "Identify the appealed judgment or order, docket entry, government notice, and Rule 26 computation before calculating.",
+      "tolling_or_extensions": "Rule 4(b)(3) specifies motions that change the trigger; Rule 4(b)(4) permits no more than 30 additional days from original expiration on good cause or excusable neglect.",
+      "known_exceptions": "Premature notice, inmate filing, mistaken circuit filing, deferred restitution, and local filing facts must be checked; Rule 35(a) does not suspend the clock.",
+      "legal_characterization": "mandatory criminal appellate claim-processing deadline with specified trigger and bounded extension",
+      "claim_ids": [
+        "CLM-DR-001",
+        "CLM-DR-002",
+        "CLM-DR-003",
+        "CLM-DR-004",
+        "CLM-DR-005",
+        "CLM-DR-006",
+        "CLM-DR-007",
+        "CLM-DR-008",
+        "CLM-DR-009",
+        "CLM-DR-010",
+        "CLM-R3536-038",
+        "CLM-R3536-039"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-APPEAL-TRANSCRIPT-ORDER",
+      "name": "Transcript order or certificate",
+      "triggering_event": "notice of appeal or specified later motion disposition",
+      "time_period": "within 14 days",
+      "authority_ids": [
+        "AUTH-FRAP-10-11"
+      ],
+      "calendar_computation_rule": "Use the actual notice and any Rule 4(a)(4)(A) event identified by Rule 10(b).",
+      "tolling_or_extensions": "A court order may alter implementation; payment, transcript portions, and appellee counterdesignation duties remain separate.",
+      "known_exceptions": "No transcript, unavailable transcript, agreed statement, and local record rules have distinct procedures.",
+      "legal_characterization": "rule-based record preparation deadline",
+      "claim_ids": [
+        "CLM-DR-019",
+        "CLM-DR-020"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-APPELLATE-BRIEFS-DEFAULT",
+      "name": "Default appellate brief schedule",
+      "triggering_event": "record filing or service of preceding brief",
+      "time_period": "40 days appellant; 30 days appellee; 21 days reply, ordinarily at least 7 days before argument",
+      "authority_ids": [
+        "AUTH-FRAP-28-31-32-34"
+      ],
+      "calendar_computation_rule": "Use Rule 26 and actual filing or service events.",
+      "tolling_or_extensions": "A rule or court order may set a different schedule.",
+      "known_exceptions": "Local rules, scheduling orders, expedited proceedings, electronic filing, and custody status may matter.",
+      "legal_characterization": "default national briefing schedule subject to rule or order",
+      "claim_ids": [
+        "CLM-DR-034",
+        "CLM-DR-035",
+        "CLM-DR-036",
+        "CLM-DR-037"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-CRIMINAL-REHEARING",
+      "name": "Criminal petition for rehearing",
+      "triggering_event": "entry of court-of-appeals judgment",
+      "time_period": "ordinarily 14 days",
+      "authority_ids": [
+        "AUTH-FRAP-40-41"
+      ],
+      "calendar_computation_rule": "Use the actual judgment and Rule 26.",
+      "tolling_or_extensions": "A local rule or court order may shorten or extend; the government has the specified longer period in covered cases.",
+      "known_exceptions": "Amended decisions, combined petitions, and local procedures must be checked.",
+      "legal_characterization": "rule-based rehearing deadline subject to local rule and court order",
+      "claim_ids": [
+        "CLM-DR-040",
+        "CLM-DR-041",
+        "CLM-DR-042",
+        "CLM-DR-043",
+        "CLM-DR-044"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-APPELLATE-MANDATE",
+      "name": "Court-of-appeals mandate",
+      "triggering_event": "rehearing time expiration or denial of the last timely rehearing or stay filing",
+      "time_period": "ordinarily 7 days after the later event",
+      "authority_ids": [
+        "AUTH-FRAP-40-41"
+      ],
+      "calendar_computation_rule": "Use the actual judgment, rehearing, and stay docket.",
+      "tolling_or_extensions": "The court may shorten or extend; a qualifying certiorari stay changes issuance.",
+      "known_exceptions": "Mandate timing does not set the certiorari clock or every finality date.",
+      "legal_characterization": "default mandate issuance rule subject to court alteration",
+      "claim_ids": [
+        "CLM-DR-045",
+        "CLM-DR-046",
+        "CLM-DR-055"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-SCOTUS-CERTIORARI",
+      "name": "Certiorari petition from a court-of-appeals judgment",
+      "triggering_event": "judgment entry or qualifying rehearing disposition",
+      "time_period": "90 days",
+      "authority_ids": [
+        "AUTH-SCOTUS-RULES-10-12-13-14-39"
+      ],
+      "calendar_computation_rule": "Compute from judgment, not mandate, unless Rule 13.3 resets the period through qualifying rehearing.",
+      "tolling_or_extensions": "A Justice may extend no more than 60 days for good cause on a timely application under Rule 13.5.",
+      "known_exceptions": "Appropriately entertained untimely rehearing, sua sponte rehearing, granted rehearing, later judgment, and direct-review route must be checked.",
+      "legal_characterization": "Supreme Court jurisdictional filing period with bounded extension authority",
+      "claim_ids": [
+        "CLM-DR-047",
+        "CLM-DR-048",
+        "CLM-DR-049"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-2255-ONE-YEAR",
+      "name": "Section 2255 one-year limitation",
+      "triggering_event": "latest applicable event under § 2255(f)(1)–(4)",
+      "time_period": "one year",
+      "authority_ids": [
+        "AUTH-USC-28-2255",
+        "AUTH-SCOTUS-CLAY-537-US-522",
+        "AUTH-SCOTUS-DODD-545-US-353",
+        "AUTH-SCOTUS-JOHNSON-544-US-295"
+      ],
+      "calendar_computation_rule": "Identify the claim-specific statutory trigger, exact event date, Rule 6 computation, and institution-mail facts before calculating.",
+      "tolling_or_extensions": "Equitable tolling and any innocence gateway require controlling-circuit authority and fact-specific proof; amendment relation back is separate.",
+      "known_exceptions": "No-direct-appeal finality, impediment causation, new-right retroactivity, due diligence, and distinct claim facts must be separately established.",
+      "legal_characterization": "nonjurisdictional federal collateral limitation with four statutory triggers",
+      "claim_ids": [
+        "CLM-2255-008",
+        "CLM-2255-009",
+        "CLM-2255-010",
+        "CLM-2255-011",
+        "CLM-2255-012",
+        "CLM-2255-013",
+        "CLM-2255-014",
+        "CLM-2255-015",
+        "CLM-2255-016",
+        "CLM-2255-017",
+        "CLM-2255-018",
+        "CLM-2255-019",
+        "CLM-2255-020",
+        "CLM-2255-021",
+        "CLM-2255-022"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-2255-NOTICE-APPEAL",
+      "name": "Notice of appeal from § 2255 final order",
+      "triggering_event": "entry of judgment or order, subject to Appellate Rule 4(a)(4)",
+      "time_period": "ordinarily 60 days because the United States is a party",
+      "authority_ids": [
+        "AUTH-RG-2255-4-12",
+        "AUTH-FRAP-3-4-22"
+      ],
+      "calendar_computation_rule": "Establish entry, separate-document treatment if relevant, inmate filing, and every timely Rule 4(a)(4) motion.",
+      "tolling_or_extensions": "Only the rule's specified motions reset time; Rules 4(a)(5) and (6) have separate bounded requirements.",
+      "known_exceptions": "Certificate proceedings do not replace or extend the notice requirement.",
+      "legal_characterization": "civil appeal filing deadline applied by § 2255 Rule 11(b)",
+      "claim_ids": [
+        "CLM-2255-060",
+        "CLM-2255-061",
+        "CLM-2255-066",
+        "CLM-2255-067",
+        "CLM-2255-068",
+        "CLM-2255-075"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-2255-RULE-59E",
+      "name": "Rule 59(e) motion after § 2255 judgment",
+      "triggering_event": "entry of judgment",
+      "time_period": "28 days",
+      "authority_ids": [
+        "AUTH-FRCP-15-59-60",
+        "AUTH-SCOTUS-BANISTER-590-US-504"
+      ],
+      "calendar_computation_rule": "Use judgment entry and Civil Rule 6; classify the motion by substance and timing.",
+      "tolling_or_extensions": "Civil Rule 6(b)(2) prohibits extending Rule 59(e)'s time.",
+      "known_exceptions": "Untimely or merits-adding filings may fall under Rule 60 or successive-application law instead.",
+      "legal_characterization": "strict nonextendable civil postjudgment period",
+      "claim_ids": [
+        "CLM-2255-068",
+        "CLM-2255-069",
+        "CLM-2255-070"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-2255-RULE-60-123",
+      "name": "Rule 60(b)(1)–(3) outside limit",
+      "triggering_event": "entry of judgment or order",
+      "time_period": "no more than one year and within a reasonable time",
+      "authority_ids": [
+        "AUTH-FRCP-15-59-60",
+        "AUTH-SCOTUS-KEMP-596-US-528"
+      ],
+      "calendar_computation_rule": "Classify the asserted Rule 60 ground and filing substance before calculating.",
+      "tolling_or_extensions": "The one-year outside limit cannot be avoided by relabeling a clause (1)–(3) ground as clause (6).",
+      "known_exceptions": "Successive-application classification precedes ordinary Rule 60 relief; other clauses use reasonable time without this one-year outside limit.",
+      "legal_characterization": "civil postjudgment outside limit subject to habeas classification",
+      "claim_ids": [
+        "CLM-2255-071",
+        "CLM-2255-072",
+        "CLM-2255-073"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-2244-AUTHORIZATION-PANEL",
+      "name": "Court-of-appeals action on successive-application authorization",
+      "triggering_event": "filing of the authorization motion",
+      "time_period": "statutory direction to grant or deny within 30 days",
+      "authority_ids": [
+        "AUTH-USC-28-2244",
+        "AUTH-USC-28-2255"
+      ],
+      "calendar_computation_rule": "Treat the text as a command to the court; separately calculate the underlying claim's § 2255(f) timing and circuit filing requirements.",
+      "tolling_or_extensions": "No nationwide tolling or remedy is stated here; controlling circuit law is required.",
+      "known_exceptions": "This is not characterized as jurisdictional and is not a promised decision date.",
+      "legal_characterization": "statutory court directive with circuit-specific enforcement consequences",
+      "claim_ids": [
+        "CLM-SOS-027",
+        "CLM-SOS-042"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-BOP-AR-BP9",
+      "name": "BOP initial administrative remedy request",
+      "triggering_event": "date on which the basis for the request occurred",
+      "time_period": "20 calendar days to complete informal resolution and submit BP-9",
+      "authority_ids": [
+        "AUTH-CFR-28-542"
+      ],
+      "calendar_computation_rule": "Use calendar days and the actual basis date under § 542.14(a).",
+      "tolling_or_extensions": "An extension may be allowed for a demonstrated valid reason under § 542.14(b).",
+      "known_exceptions": "Sensitive, DHO, Control Unit, controlled-housing-status, and certain non-Warden decisions use § 542.14(d)'s routes.",
+      "legal_characterization": "binding administrative filing rule, distinct from judicial exhaustion doctrine",
+      "claim_ids": [
+        "CLM-2241F-024",
+        "CLM-2241F-025",
+        "CLM-2241F-026",
+        "CLM-BOPAR-002",
+        "CLM-BOPAR-003",
+        "CLM-BOPAR-004"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-BOP-AR-BP10-BP11",
+      "name": "BOP regional and Central Office administrative appeals",
+      "triggering_event": "date the Warden or Regional Director signed the response",
+      "time_period": "20 calendar days for BP-10; 30 calendar days for BP-11",
+      "authority_ids": [
+        "AUTH-CFR-28-542"
+      ],
+      "calendar_computation_rule": "Measure from the signature date specified in § 542.15(a).",
+      "tolling_or_extensions": "A valid reason for delay may support an extension.",
+      "known_exceptions": "The correct route depends on any direct-filing provision and rejection history.",
+      "legal_characterization": "binding administrative appeal rule, distinct from judicial exhaustion doctrine",
+      "claim_ids": [
+        "CLM-2241F-027",
+        "CLM-2241F-028",
+        "CLM-BOPAR-007",
+        "CLM-BOPAR-008"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-BOP-AR-RESPONSE",
+      "name": "BOP administrative-remedy response periods",
+      "triggering_event": "accepted filing logged as received",
+      "time_period": "20 days Warden or CCM; 30 days Regional Director; 40 days General Counsel; three days for specified emergency Warden response",
+      "authority_ids": [
+        "AUTH-CFR-28-542"
+      ],
+      "calendar_computation_rule": "Calendar days under § 542.18, including the separately stated emergency period.",
+      "tolling_or_extensions": "One written extension of 20, 30, and 20 days at institution, regional, and Central Office levels.",
+      "known_exceptions": "After the allotted time including extension, silence may be treated as a denial; acceptance and actual notice must be verified.",
+      "legal_characterization": "binding agency response rule",
+      "claim_ids": [
+        "CLM-2241F-030",
+        "CLM-2241F-031",
+        "CLM-BOPAR-009",
+        "CLM-BOPAR-010"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-CLEM-PARDON-FIVE-YEAR-GUIDELINE",
+      "name": "DOJ pardon waiting guideline",
+      "triggering_event": "release from confinement or conviction when no confinement was imposed",
+      "time_period": "at least five years ordinarily should elapse",
+      "authority_ids": [
+        "AUTH-CFR-28-PART-1-CLEMENCY",
+        "AUTH-DOJ-PARDON-FAQ"
+      ],
+      "calendar_computation_rule": "Use the actual release or conviction date and current OPA instructions; this is not a jurisdictional computation rule.",
+      "tolling_or_extensions": "Not a court deadline; current OPA guidance may accept an appropriate earlier application.",
+      "known_exceptions": "The President is not restricted by Part 1 and OPA describes acceptance before sentence completion in appropriate cases.",
+      "legal_characterization": "advisory Department of Justice guideline, not a limit on presidential power",
+      "claim_ids": [
+        "CLM-CLEM-009",
+        "CLM-CLEM-011"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-CLEM-CAPITAL-PETITION",
+      "name": "DOJ capital clemency petition and supporting papers",
+      "triggering_event": "notice of the scheduled execution date after direct appeal and first § 2255 proceeding",
+      "time_period": "petition no later than 30 days after notice; supporting papers no later than 15 days after submission",
+      "authority_ids": [
+        "AUTH-CFR-28-PART-1-CLEMENCY"
+      ],
+      "calendar_computation_rule": "Use the actual notice and submission dates under § 1.10 and immediately verify current execution-specific instructions.",
+      "tolling_or_extensions": "Good cause may excuse the stated periods; Part 1 remains advisory and does not restrict the President.",
+      "known_exceptions": "Section 1.10 contains special presentation, repetition, and exceptional-circumstance rules.",
+      "legal_characterization": "special advisory DOJ capital-clemency procedure; not a judicial filing deadline",
+      "claim_ids": [
+        "CLM-CLEM-030"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE35B-GOVERNMENT-MOTION",
+      "name": "Rule 35(b) substantial-assistance government motion",
+      "triggering_event": "sentencing, with the later-motion categories measured under Rule 35(b)(2)",
+      "time_period": "within one year under Rule 35(b)(1), or more than one year only within Rule 35(b)(2)(A)–(C)",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-35-36"
+      ],
+      "calendar_computation_rule": "Classify the government motion under the exact one-year or later-motion text and verify the sentencing and information/usefulness dates.",
+      "tolling_or_extensions": "No free-floating equitable extension is stated; the later-motion categories are the rule's express route after one year.",
+      "known_exceptions": "The motion must be the government's and the exact information, usefulness, anticipation, and promptness facts control.",
+      "legal_characterization": "rule-defined government-motion timing tracks",
+      "claim_ids": [
+        "CLM-R3536-014",
+        "CLM-R3536-015",
+        "CLM-R3536-016",
+        "CLM-R3536-017"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-IMMIGRATION-DETAINER-48-HOURS",
+      "name": "Immigration-detainer temporary custody",
+      "triggering_event": "time the person otherwise would have been released",
+      "time_period": "no more than 48 hours, excluding Saturdays, Sundays, and holidays",
+      "authority_ids": [
+        "AUTH-CFR-8-287-7"
+      ],
+      "calendar_computation_rule": "Exclude the listed days and identify the independent basis for any other custody.",
+      "tolling_or_extensions": "No extension appears in § 287.7(d); an independent lawful custody basis is separate.",
+      "known_exceptions": "The regulatory clock begins only when the person otherwise would be released.",
+      "legal_characterization": "regulatory temporary-custody ceiling",
+      "claim_ids": [
+        "CLM-BOPDDR-002"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-IADA-ARTICLE-III-180",
+      "name": "IADA prisoner-request trial period",
+      "triggering_event": "actual delivery of the compliant request to both prosecutor and appropriate court",
+      "time_period": "180 days",
+      "authority_ids": [
+        "AUTH-IADA-PL-91-538",
+        "AUTH-SCOTUS-FEX-507-US-43"
+      ],
+      "calendar_computation_rule": "Use Article III and controlling time-computation law with proof of both deliveries.",
+      "tolling_or_extensions": "Necessary or reasonable continuance for good cause shown in open court with the prisoner or counsel present.",
+      "known_exceptions": "Only covered untried indictments, informations, or complaints in party jurisdictions.",
+      "legal_characterization": "statutory interstate-detainer trial period",
+      "claim_ids": [
+        "CLM-BOPDDR-006",
+        "CLM-BOPDDR-007",
+        "CLM-BOPDDR-008"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-IADA-ARTICLE-IV-120",
+      "name": "IADA receiving-state trial period",
+      "triggering_event": "arrival in the receiving jurisdiction under Article IV",
+      "time_period": "120 days",
+      "authority_ids": [
+        "AUTH-IADA-PL-91-538"
+      ],
+      "calendar_computation_rule": "Use Article IV and the actual arrival, return, continuance, and trial record.",
+      "tolling_or_extensions": "Necessary or reasonable continuance for good cause shown in open court with the prisoner or counsel present.",
+      "known_exceptions": "Coverage, waiver, tolling, dismissal terms, and party status must be verified.",
+      "legal_characterization": "statutory interstate-detainer trial period",
+      "claim_ids": [
+        "CLM-BOPDDR-009",
+        "CLM-BOPDDR-012"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-BOP-DHO-NOTICE-24-HOURS",
+      "name": "Advance notice before DHO hearing",
+      "triggering_event": "scheduled DHO hearing",
+      "time_period": "written charge notice ordinarily at least 24 hours before the hearing",
+      "authority_ids": [
+        "AUTH-CFR-28-541"
+      ],
+      "calendar_computation_rule": "Measure from documented receipt to hearing; account for a valid written waiver.",
+      "tolling_or_extensions": "The prisoner may waive the period in writing.",
+      "known_exceptions": "Regulatory violation and constitutional prejudice or remedy are separate questions.",
+      "legal_characterization": "regulatory prison-discipline preparation period",
+      "claim_ids": [
+        "CLM-BOPDDR-018"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-PREA-GRIEVANCE-RESPONSE",
+      "name": "PREA-adjusted grievance decision and emergency response",
+      "triggering_event": "initial sexual-abuse grievance or emergency grievance",
+      "time_period": "ordinary final decision within 90 days, up to 70-day written extension; emergency initial response within 48 hours and final decision within 5 calendar days",
+      "authority_ids": [
+        "AUTH-CFR-28-115-52"
+      ],
+      "calendar_computation_rule": "Exclude prisoner appeal-preparation time from the 90 days and preserve extension notice; use calendar time for the emergency route.",
+      "tolling_or_extensions": "One ordinary extension up to 70 days with written notice; the regulation states no initial filing deadline for sexual-abuse grievances.",
+      "known_exceptions": "The emergency clock requires alleged substantial risk of imminent sexual abuse.",
+      "legal_characterization": "regulatory PREA grievance response periods",
+      "claim_ids": [
+        "CLM-BOPAR-029",
+        "CLM-BOPAR-030",
+        "CLM-BOPAR-031"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-SR-EARLY-TERMINATION-ONE-YEAR",
+      "name": "Supervised-release early-termination eligibility threshold",
+      "triggering_event": "commencement of a felony supervised-release term",
+      "time_period": "after expiration of one year",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583"
+      ],
+      "calendar_computation_rule": "Compute from the lawful § 3624(e) commencement date and enacted tolling; verify the custody chronology.",
+      "tolling_or_extensions": "Apply § 3624(e), Mont, and Rico; do not add automatic absconding tolling.",
+      "known_exceptions": "Section 3583(e)(1) states the threshold for felony supervised release; eligibility does not require termination.",
+      "legal_characterization": "statutory eligibility threshold",
+      "claim_ids": [
+        "CLM-SRTERM-022",
+        "CLM-SRTERM-023",
+        "CLM-SRCOND-016"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-SR-DELAYED-REVOCATION-PREEXPIRY",
+      "name": "Pre-expiration warrant or summons for delayed revocation",
+      "triggering_event": "expiration of the supervised-release term",
+      "time_period": "warrant or summons must issue before expiration; later period only as reasonably necessary for adjudication",
+      "authority_ids": [
+        "AUTH-USC-18-3582-3583",
+        "AUTH-SCOTUS-RICO-607-US-SLIP"
+      ],
+      "calendar_computation_rule": "Calculate the lawful term and verify issuance, not merely application, before expiration.",
+      "tolling_or_extensions": "Only enacted term rules and § 3583(i) apply; absconding is not automatic tolling.",
+      "known_exceptions": "Matter must arise before expiration and the later period must be reasonably necessary.",
+      "legal_characterization": "jurisdiction-preserving statutory prerequisite",
+      "claim_ids": [
+        "CLM-SRREV-039",
+        "CLM-SRREV-040"
+      ],
+      "last_verified": "2026-08-25"
+    },
+    {
+      "deadline_id": "DL-RULE32-1-HEARINGS",
+      "name": "Rule 32.1 preliminary and revocation hearing timing",
+      "triggering_event": "custody for an alleged violation or commencement of final revocation proceedings",
+      "time_period": "prompt preliminary hearing; final revocation hearing within a reasonable time",
+      "authority_ids": [
+        "AUTH-FRCRIM-P-32-1"
+      ],
+      "calendar_computation_rule": "No fixed national day count; use the actual custody and proceeding chronology plus controlling law.",
+      "tolling_or_extensions": "Waiver and record-specific delay questions require controlling law.",
+      "known_exceptions": "The preliminary hearing applies to a person in custody and may be waived; the final hearing may be waived.",
+      "legal_characterization": "nonfixed national-rule timing standard",
+      "claim_ids": [
+        "CLM-SRREV-007",
+        "CLM-SRREV-009"
+      ],
+      "last_verified": "2026-08-25"
+    }
+  ]
+}

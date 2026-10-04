@@ -1,0 +1,675 @@
+schema_version: 2
+last_updated: '2026-08-26'
+splits:
+- issue_id: section-2241-exhaustion
+  issue: § 2241 administrative exhaustion
+  supreme_court_or_nationwide_rule: Section 2241 contains no general exhaustion clause; 28 C.F.R. part 542 defines the BOP remedy path. The character,
+    waiver, and exceptions require controlling circuit law.
+  circuit_rules:
+    CA1:
+      status: verified_with_limitations
+      rule: For a § 3585(b) sentence-credit claim, present the request first to BOP; after exhaustion, review proceeds under § 2241.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_sentence_credit_proposition
+      local_rule: https://www.ca1.uscourts.gov/local-rules
+      last_checked: '2026-08-25'
+    CA2:
+      status: verified_with_limitations
+      rule: Ordinary BOP exhaustion is required; a procedural default that closes the administrative path bars review absent cause and prejudice.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_procedural_default_proposition
+      local_rule: https://www.ca2.uscourts.gov/clerk/case_filing/rules/rules_home.html
+      last_checked: '2026-08-25'
+    CA3:
+      status: verified_with_limitations
+      rule: Ordinary BOP exhaustion is required; a procedural default that closes the administrative path bars review absent cause and prejudice.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_procedural_default_proposition
+      local_rule: https://www.ca3.uscourts.gov/rules-and-requirements
+      last_checked: '2026-08-25'
+    CA4:
+      status: verified_with_limitations
+      rule: Exhaustion can make a § 2241 petition premature but is not jurisdictional; verified in an immigration-habeas posture, not BOP Part
+        542.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_nonjurisdictional_proposition
+      local_rule: https://www.ca4.uscourts.gov/LocalRules/LocalRules.pdf
+      last_checked: '2026-08-25'
+    CA5:
+      status: verified_with_limitations
+      rule: Parole Commission exhaustion is required; unavailable, wholly inappropriate, or patently futile remedies may qualify only in extraordinary
+        circumstances, with the burden on the prisoner.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_parole_proposition
+      local_rule: https://www.ca5.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA6:
+      status: verified_with_limitations
+      rule: Ordinary exhaustion is required; the judge-made rule permits bounded futility, unavailable-relief, and administrator-caused-failure
+        exceptions.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_parole_proposition
+      local_rule: https://www.ca6.uscourts.gov/sites/ca6/files/documents/rules_procedures/Full%20Rules%20w%20FRAP_0.pdf
+      last_checked: '2026-08-25'
+    CA7:
+      status: verified_with_limitations
+      rule: Common-law exhaustion applies to § 2241; exceptions exist but the hurdle is high and self-created delay does not establish an excuse.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_common_law_proposition
+      local_rule: https://www.ca7.uscourts.gov/assets/pdf/rules.pdf
+      last_checked: '2026-08-25'
+    CA8:
+      status: verified_with_limitations
+      rule: A BOP sentence-execution claim must first be presented to BOP; failure to request the available designation required dismissal without
+        prejudice.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_sentence_execution_proposition
+      local_rule: https://www.ca8.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA9:
+      status: verified_with_limitations
+      rule: Prudential, nonjurisdictional, and waivable for futility under Ward v. Chavez.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_in_bounded_primary_review
+      local_rule: https://www.ca9.uscourts.gov/rules/
+      last_checked: '2026-08-25'
+    CA10:
+      status: verified_with_limitations
+      rule: BOP exhaustion is a prerequisite; the futility exception is narrow and higher administrative review defeated the asserted local categorical-denial
+        theory.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_bop_placement_proposition
+      local_rule: https://www.ca10.uscourts.gov/clerk/rules
+      last_checked: '2026-08-25'
+    CA11:
+      status: verified_with_limitations
+      rule: Nonjurisdictional, ordinarily enforced when properly asserted, and need not be raised sua sponte under Santiago-Lugo.
+      publication_status: published_precedential
+      intra_circuit_conflict: prior_jurisdictional_descriptions_expressly_abrogated_by_published_panel
+      local_rule: https://www.ca11.uscourts.gov/sites/default/files/courtdocs/clk/Rules_Bookmarked.DEC25.pdf
+      last_checked: '2026-08-25'
+    CADC:
+      status: not_verified
+      rule: No exact published D.C. Circuit rule for a federal BOP administrative-exhaustion § 2241 claim was located in the bounded public-source
+        review; no proposition is adopted.
+      publication_status: not_verified
+      intra_circuit_conflict: not_verified
+      local_rule: https://www.cadc.uscourts.gov/sites/cadc/files/rules-RulesFRAP20251204.pdf
+      last_checked: '2026-08-25'
+  conflicting_circuits: No exhaustive current conflict survey completed.
+  current_split_status: not_verified_exhaustively
+  verified_circuits:
+  - CA1
+  - CA2
+  - CA3
+  - CA4
+  - CA5
+  - CA6
+  - CA7
+  - CA8
+  - CA9
+  - CA10
+  - CA11
+  last_checked: '2026-08-25'
+  dependency: For every not_verified circuit, obtain a current published precedential opinion in the exact posture, current local rule text, and
+    current citator.
+- issue_id: section-2241-coa
+  issue: COA for a federal § 2241 appeal
+  supreme_court_or_nationwide_rule: Section 2253(c) identifies the proceedings for which a COA is required; custody source and proceeding classification
+    control.
+  circuit_rules:
+    CA1:
+      status: verified_with_limitations
+      rule: No COA for a federal prisoner's claim actually proceeding under § 2241; classification under § 2241 rather than § 2255 is separate.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca1.uscourts.gov/local-rules
+      last_checked: '2026-08-25'
+    CA2:
+      status: verified_with_limitations
+      rule: Section 2253(c) does not apply to a federal § 2241 habeas proceeding.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca2.uscourts.gov/clerk/case_filing/rules/rules_home.html
+      last_checked: '2026-08-25'
+    CA3:
+      status: verified_with_limitations
+      rule: No COA for a federal saving-clause § 2241 appeal; merits availability and proceeding classification are separate.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca3.uscourts.gov/rules-and-requirements
+      last_checked: '2026-08-25'
+    CA4:
+      status: not_verified
+      rule: Current Rule 22 and unpublished federal-prisoner dispositions were located, but no exact published precedential Fourth Circuit formulation
+        was located in the bounded public-source review; no proposition is adopted.
+      publication_status: not_verified
+      intra_circuit_conflict: not_verified
+      local_rule: https://www.ca4.uscourts.gov/LocalRules/LocalRules.pdf
+      last_checked: '2026-08-25'
+    CA5:
+      status: verified_with_limitations
+      rule: No COA for a federal prisoner properly proceeding under § 2241.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca5.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA6:
+      status: verified_with_limitations
+      rule: No COA for a § 2241 appeal where detention arises from federal process; state-process and § 2255 categories remain distinct.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca6.uscourts.gov/sites/ca6/files/documents/rules_procedures/Full%20Rules%20w%20FRAP_0.pdf
+      last_checked: '2026-08-25'
+    CA7:
+      status: verified_with_limitations
+      rule: No COA for a federal prisoner properly proceeding under § 2241; § 2253(c)'s federal category reaches § 2255.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca7.uscourts.gov/assets/pdf/rules.pdf
+      last_checked: '2026-08-25'
+    CA8:
+      status: verified_with_limitations
+      rule: No COA for a federal prisoner effectively filing under § 2241.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca8.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA9:
+      status: verified_with_limitations
+      rule: No COA for a person in federal custody appealing denial of a properly classified § 2241 petition.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca9.uscourts.gov/rules/
+      last_checked: '2026-08-25'
+    CA10:
+      status: verified_with_limitations
+      rule: No COA for a federal prisoner appealing a final order in a properly classified § 2241 proceeding.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca10.uscourts.gov/clerk/rules
+      last_checked: '2026-08-25'
+    CA11:
+      status: verified_with_limitations
+      rule: No COA for a federal prisoner properly proceeding under § 2241; § 2253(c)(1)(B) reaches § 2255.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_process_proposition
+      local_rule: https://www.ca11.uscourts.gov/sites/default/files/courtdocs/clk/Rules_Bookmarked.DEC25.pdf
+      last_checked: '2026-08-25'
+    CADC:
+      status: verified_with_limitations
+      rule: No COA for federal-process § 2241; a COA is required for D.C. Superior Court process treated as state-court process under § 2253(c)(1)(A).
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_federal_and_dc_superior_court_distinction
+      local_rule: https://www.cadc.uscourts.gov/sites/cadc/files/rules-RulesFRAP20251204.pdf
+      last_checked: '2026-08-25'
+  conflicting_circuits: No exhaustive current conflict survey completed.
+  current_split_status: not_verified_exhaustively
+  verified_circuits:
+  - CA1
+  - CA2
+  - CA3
+  - CA5
+  - CA6
+  - CA7
+  - CA8
+  - CA9
+  - CA10
+  - CA11
+  - CADC
+  last_checked: '2026-08-25'
+  dependency: For every not_verified circuit, obtain a current published precedential opinion in the exact posture, current local rule text, and
+    current citator.
+- issue_id: section-404-procedure
+  issue: First Step Act § 404 procedure and review
+  supreme_court_or_nationwide_rule: Concepcion and § 404 supply the nationwide floor, but hearing, presence, explanation, preservation, and review
+    rules may require circuit authority.
+  circuit_rules:
+    CA1:
+      status: verified_with_limitations
+      rule: Deferential review absent legal benchmark error; a brief explanation understood from the full record may suffice if it shows consideration
+        of nonfrivolous arguments.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_post_concepcion_propositions
+      local_rule: https://www.ca1.uscourts.gov/local-rules
+      last_checked: '2026-08-25'
+    CA2:
+      status: verified_with_limitations
+      rule: No categorical requirement for a hearing at which the defendant is present before denial of a § 404 motion.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_hearing_and_presence_proposition
+      local_rule: https://www.ca2.uscourts.gov/clerk/case_filing/rules/rules_home.html
+      last_checked: '2026-08-25'
+    CA3:
+      status: verified_with_limitations
+      rule: No entitlement to an in-person or plenary hearing; provide a reasonable opportunity for written sentencing arguments and enough explanation
+        for review.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_post_concepcion_propositions
+      local_rule: https://www.ca3.uscourts.gov/rules-and-requirements
+      last_checked: '2026-08-25'
+    CA4:
+      status: verified_with_limitations
+      rule: No mandatory reduction above a revised maximum; the record must show consideration of every nonfrivolous argument, and ambiguity can
+        require remand.
+      publication_status: published_precedential
+      intra_circuit_conflict: collington_mandatory_reduction_rule_displaced_by_concepcion_as_recognized_in_reed
+      local_rule: https://www.ca4.uscourts.gov/LocalRules/LocalRules.pdf
+      last_checked: '2026-08-25'
+    CA5:
+      status: verified_with_limitations
+      rule: Section 404(c)'s successive-motion bar is mandatory claim processing, not jurisdictional, and must be enforced when properly invoked
+        after a complete prior merits review.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_section_404_c_proposition
+      local_rule: https://www.ca5.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA6:
+      status: verified_with_limitations
+      rule: Recalculate the benchmark only for Fair Sentencing Act changes, then consider relevant intervening information and explain the treatment
+        of nonfrivolous arguments.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_post_concepcion_propositions
+      local_rule: https://www.ca6.uscourts.gov/sites/ca6/files/documents/rules_procedures/Full%20Rules%20w%20FRAP_0.pdf
+      last_checked: '2026-08-25'
+    CA7:
+      status: verified_with_limitations
+      rule: Explanation is context dependent; materially changed records and new nonfrivolous arguments must be demonstrably considered.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_post_concepcion_propositions
+      local_rule: https://www.ca7.uscourts.gov/assets/pdf/rules.pdf
+      last_checked: '2026-08-25'
+    CA8:
+      status: verified_with_limitations
+      rule: Eligibility is reviewed de novo, discretionary grant or denial for abuse of discretion, and the Act does not require a hearing.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_surviving_propositions
+      local_rule: https://www.ca8.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA9:
+      status: verified_with_limitations
+      rule: Consider nonfrivolous intervening legal or factual arguments and give a brief reason; an unexplained denial can require remand.
+      publication_status: published_precedential
+      intra_circuit_conflict: kelley_intervening_change_restriction_abrogated_by_concepcion_as_recognized_in_carter
+      local_rule: https://www.ca9.uscourts.gov/rules/
+      last_checked: '2026-08-25'
+    CA10:
+      status: verified_with_limitations
+      rule: Section 404 is nonplenary sentence modification; no categorical hearing or presence right, abuse-of-discretion review, and a reasoned
+        basis sufficient for review.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_surviving_propositions
+      local_rule: https://www.ca10.uscourts.gov/clerk/rules
+      last_checked: '2026-08-25'
+    CA11:
+      status: verified_with_limitations
+      rule: Abuse-of-discretion review; no compelled reduction above the revised maximum; no collateral attack through § 404; a brief record-based
+        explanation may suffice.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_post_concepcion_propositions
+      local_rule: https://www.ca11.uscourts.gov/sites/default/files/courtdocs/clk/Rules_Bookmarked.DEC25.pdf
+      last_checked: '2026-08-25'
+    CADC:
+      status: verified_with_limitations
+      rule: No categorical allocution right; post-Concepcion review is deferential absent legal error, no per se reduction follows from a sentence
+        above the revised maximum, and a sufficiently reasoned record can sustain denial.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_combined_propositions
+      local_rule: https://www.cadc.uscourts.gov/sites/cadc/files/rules-RulesFRAP20251204.pdf
+      last_checked: '2026-08-25'
+  conflicting_circuits: No exhaustive current conflict survey completed.
+  current_split_status: not_verified_exhaustively
+  verified_circuits:
+  - CA1
+  - CA2
+  - CA3
+  - CA4
+  - CA5
+  - CA6
+  - CA7
+  - CA8
+  - CA9
+  - CA10
+  - CA11
+  - CADC
+  last_checked: '2026-08-25'
+  dependency: For every not_verified circuit, obtain a current published precedential opinion in the exact posture, current local rule text, and
+    current citator.
+- issue_id: section-3582-procedure
+  issue: § 3582 issue presentation, reconsideration, and appeal
+  supreme_court_or_nationwide_rule: Section 3582(c), Rule 43, and Appellate Rule 4 supply text; issue exhaustion, reconsideration, waiver, and
+    remedy remain posture- and circuit-sensitive.
+  circuit_rules:
+    CA1:
+      status: verified_with_limitations
+      rule: Nonjurisdictional claim-processing rule; whether each judicial ground must first be presented to the warden remains unresolved.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_nonjurisdictional_holding; issue_exhaustion_expressly_unresolved
+      local_rule: https://www.ca1.uscourts.gov/local-rules
+      last_checked: '2026-08-25'
+    CA2:
+      status: verified_with_limitations
+      rule: Nonjurisdictional claim-processing rule that the government may waive or forfeit.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_waiver_and_forfeiture_proposition; thirty_day_route_not_decided
+      local_rule: https://www.ca2.uscourts.gov/clerk/case_filing/rules/rules_home.html
+      last_checked: '2026-08-25'
+    CA3:
+      status: verified_with_limitations
+      rule: Present the motion first to the sentencing court after satisfying a statutory filing route; the premature request in Raia defeated
+        first-instance appellate relief.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_first_instance_and_prematurity_propositions
+      local_rule: https://www.ca3.uscourts.gov/rules-and-requirements
+      last_checked: '2026-08-25'
+    CA4:
+      status: verified_with_limitations
+      rule: Nonjurisdictional and waivable; after the initial warden request, full exhaustion or 30 days, whichever is earlier, supplies the filing
+        route.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_threshold_and_alternative_routes_propositions
+      local_rule: https://www.ca4.uscourts.gov/LocalRules/LocalRules.pdf
+      last_checked: '2026-08-25'
+    CA5:
+      status: verified_with_limitations
+      rule: Nonjurisdictional mandatory claim-processing rule; both routes begin with a BOP request and enforcement is required when the government
+        properly invokes it.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_initial_request_and_enforcement_propositions
+      local_rule: https://www.ca5.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA6:
+      status: verified_with_limitations
+      rule: Nonjurisdictional mandatory claim-processing rule; enforce when invoked, without a judge-made futility exception, by dismissal without
+        prejudice for premature filing.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_mandatory_gate_and_dismissal_propositions
+      local_rule: https://www.ca6.uscourts.gov/sites/ca6/files/documents/rules_procedures/Full%20Rules%20w%20FRAP_0.pdf
+      last_checked: '2026-08-25'
+    CA7:
+      status: verified_with_limitations
+      rule: Affirmative defense and mandatory claim-processing rule; the government can forfeit it, but proper invocation requires enforcement.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_affirmative_defense_and_enforcement_propositions
+      local_rule: https://www.ca7.uscourts.gov/assets/pdf/rules.pdf
+      last_checked: '2026-08-25'
+    CA8:
+      status: verified_with_limitations
+      rule: Mandatory claim-processing rule; enforce by dismissal without prejudice when raised, and the futility theory actually presented did
+        not excuse compliance.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_enforcement_remedy_and_futility_propositions
+      local_rule: https://www.ca8.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA9:
+      status: verified_with_limitations
+      rule: Mandatory when invoked; a renewed motion based on changed circumstances required a new qualifying BOP request, and the filing defect
+        was not cured during pendency.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_renewed_motion_and_filing_time_propositions
+      local_rule: https://www.ca9.uscourts.gov/rules/
+      last_checked: '2026-08-25'
+    CA10:
+      status: verified_with_limitations
+      rule: Nonjurisdictional claim-processing rule that the government may waive or forfeit; an abandoned appellate exhaustion argument did not
+        bar merits review.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_nonjurisdictional_and_appellate_waiver_propositions
+      local_rule: https://www.ca10.uscourts.gov/clerk/rules
+      last_checked: '2026-08-25'
+    CA11:
+      status: verified_with_limitations
+      rule: Nonjurisdictional claim-processing rule; a court may reach the merits when the government does not assert noncompliance.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_nonjurisdictional_and_forfeiture_propositions
+      local_rule: https://www.ca11.uscourts.gov/sites/default/files/courtdocs/clk/Rules_Bookmarked.DEC25.pdf
+      last_checked: '2026-08-25'
+    CADC:
+      status: verified_with_limitations
+      rule: Nonjurisdictional claim-processing rule; whether each ground must first be presented to the warden remains unresolved.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_nonjurisdictional_holding; issue_exhaustion_expressly_unresolved
+      local_rule: https://www.cadc.uscourts.gov/sites/cadc/files/rules-RulesFRAP20251204.pdf
+      last_checked: '2026-08-25'
+  conflicting_circuits: No exhaustive current conflict survey completed.
+  current_split_status: not_verified_exhaustively
+  verified_circuits:
+  - CA1
+  - CA2
+  - CA3
+  - CA4
+  - CA5
+  - CA6
+  - CA7
+  - CA8
+  - CA9
+  - CA10
+  - CA11
+  - CADC
+  last_checked: '2026-08-25'
+  dependency: For every not_verified circuit, obtain a current published precedential opinion in the exact posture, current local rule text, and
+    current citator.
+- issue_id: supervised-release-3583e
+  issue: § 3583(e) modification and early termination
+  supreme_court_or_nationwide_rule: Section 3583(e) supplies eligibility, factors, and authorized actions; explanation, changed-circumstance,
+    hearing, review, and collateral-attack rules may differ by circuit.
+  circuit_rules:
+    CA1:
+      status: verified_with_limitations
+      rule: The district court retains § 3583(e)(2) condition-modification jurisdiction during a pending appeal from a supervised-release revocation.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_pending_appeal_modification_jurisdiction
+      local_rule: https://www.ca1.uscourts.gov/local-rules
+      last_checked: '2026-08-25'
+    CA2:
+      status: verified_with_limitations
+      rule: Consider the § 3583(e) subset of § 3553(a); a statement and record showing consideration suffice without separate findings on every
+        factor.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_factor_consideration_and_explanation_proposition
+      local_rule: https://www.ca2.uscourts.gov/clerk/case_filing/rules/rules_home.html
+      last_checked: '2026-08-25'
+    CA3:
+      status: verified_with_limitations
+      rule: No exceptional-or-changed-circumstance threshold; apply the statutory factors, conduct, and interest-of-justice inquiry.
+      publication_status: published_precedential
+      intra_circuit_conflict: published_opinion_disavows_earlier_nonprecedential_threshold_language
+      local_rule: https://www.ca3.uscourts.gov/rules-and-requirements
+      last_checked: '2026-08-25'
+    CA4:
+      status: verified_with_limitations
+      rule: Early termination permits a broad conduct and interest-of-justice inquiry but is not a vehicle to collaterally attack the original
+        unappealed sentence.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_scope_and_collateral_attack_limit
+      local_rule: https://www.ca4.uscourts.gov/LocalRules/LocalRules.pdf
+      last_checked: '2026-08-25'
+    CA5:
+      status: verified_with_limitations
+      rule: No changed-circumstances jurisdictional prerequisite under § 3583(e)(2); illegality alone cannot supply the basis for modification.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_after_caillier_for_bounded_changed_circumstance_and_illegality_propositions
+      local_rule: https://www.ca5.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA6:
+      status: verified_with_limitations
+      rule: No categorical exceptional-behavior threshold; conduct and changed circumstances remain relevant within the statutory discretionary
+        inquiry.
+      publication_status: published_precedential
+      intra_circuit_conflict: published_opinion_corrects_earlier_unpublished_threshold_language
+      local_rule: https://www.ca6.uscourts.gov/sites/ca6/files/documents/rules_procedures/Full%20Rules%20w%20FRAP_0.pdf
+      last_checked: '2026-08-25'
+    CA7:
+      status: verified_with_limitations
+      rule: Give a reviewable indication of statutory-factor consideration and decide individually; do not replace § 3583(e)(1) with a categorical
+        timing policy.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_factor_record_and_no_blanket_policy_propositions
+      local_rule: https://www.ca7.uscourts.gov/assets/pdf/rules.pdf
+      last_checked: '2026-08-25'
+    CA8:
+      status: verified_with_limitations
+      rule: No Rule 32.1 hearing or counsel is required before denial; summary denial can stand when the existing record makes the court's basis
+        discernible.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_after_norris_for_bounded_denial_hearing_and_explanation_propositions
+      local_rule: https://www.ca8.uscourts.gov/rules-procedures
+      last_checked: '2026-08-25'
+    CA9:
+      status: verified_with_limitations
+      rule: Apply § 3583(e)(1)'s broad conduct and interest-of-justice inquiry without a categorical exceptional-circumstance or hardship threshold.
+      publication_status: published_precedential
+      intra_circuit_conflict: published_opinion_corrects_earlier_unpublished_threshold_misstatement
+      local_rule: https://www.ca9.uscourts.gov/rules/
+      last_checked: '2026-08-25'
+    CA10:
+      status: verified_with_limitations
+      rule: No changed-circumstances prerequisite under § 3583(e)(2); consider the listed factors, follow Rule 32.1, and satisfy the requirements
+        for supervised-release conditions.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_no_changed_circumstances_modification_proposition
+      local_rule: https://www.ca10.uscourts.gov/clerk/rules
+      last_checked: '2026-08-25'
+    CA11:
+      status: verified_with_limitations
+      rule: Cordero supplies abuse-of-discretion review, a reviewable-record requirement, and no original-condition collateral attack through
+        § 3583(e)(2).
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_propositions
+      local_rule: https://www.ca11.uscourts.gov/sites/default/files/courtdocs/clk/Rules_Bookmarked.DEC25.pdf
+      last_checked: '2026-08-25'
+    CADC:
+      status: verified_with_limitations
+      rule: Consider the specified factors before granting or denying; provide enough record for the reasoning to be discernible, without mandatory
+        factor-by-factor findings.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_factor_consideration_and_reviewable_record_propositions
+      local_rule: https://www.cadc.uscourts.gov/sites/cadc/files/rules-RulesFRAP20251204.pdf
+      last_checked: '2026-08-25'
+  conflicting_circuits: No exhaustive current conflict survey completed.
+  current_split_status: not_verified_exhaustively
+  verified_circuits:
+  - CA1
+  - CA2
+  - CA3
+  - CA4
+  - CA5
+  - CA6
+  - CA7
+  - CA8
+  - CA9
+  - CA10
+  - CA11
+  - CADC
+  last_checked: '2026-08-25'
+  dependency: For every not_verified circuit, obtain a current published precedential opinion in the exact posture, current local rule text, and
+    current citator.
+- issue_id: extraordinary-writs
+  issue: Audita querela and other residual writs
+  supreme_court_or_nationwide_rule: The All Writs Act and Supreme Court limits supply the nationwide floor; any surviving elements test and remedial
+    gap require current circuit authority.
+  circuit_rules:
+    CA1:
+      status: verified_with_limitations
+      rule: Survival remains open; any use requires a later-arising legal objection unavailable through another postconviction remedy, not equitable
+        hardship alone.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_holder_propositions; survival_expressly_unresolved
+      local_rule: https://www.ca1.uscourts.gov/local-rules
+      last_checked: '2026-08-26'
+    CA2:
+      status: verified_with_limitations
+      rule: At most a hypothetical constitutional-gap remedy; nonretroactivity of the asserted rule did not create the required problem.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_richter_nonretroactivity_proposition; actual_availability_unresolved
+      local_rule: https://www.ca2.uscourts.gov/clerk/case_filing/rules/rules_home.html
+      last_checked: '2026-08-26'
+    CA3:
+      status: verified_with_limitations
+      rule: Section 2255 controls claims within its field; prior use or successive-motion restrictions do not make audita querela available.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_section_2255_and_successive_gate_proposition
+      local_rule: https://www.ca3.uscourts.gov/rules-and-requirements
+      last_checked: '2026-08-26'
+    CA4:
+      status: not_verified
+      rule: Only unpublished Fourth Circuit dispositions applying a no-other-remedy rule were located; no exact published precedential federal-conviction
+        holding is adopted.
+      publication_status: not_verified
+      intra_circuit_conflict: not_verified
+      local_rule: https://www.ca4.uscourts.gov/LocalRules/LocalRules.pdf
+      last_checked: '2026-08-26'
+    CA5:
+      status: verified_with_limitations
+      rule: Survival remains open; require a postjudgment legal objection and no other postconviction remedy, not equity alone.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_miller_propositions; survival_expressly_unresolved
+      local_rule: https://www.ca5.uscourts.gov/rules-procedures
+      last_checked: '2026-08-26'
+    CA6:
+      status: not_verified
+      rule: Ejelonu's squarely relevant panel opinion was vacated when rehearing en banc was granted and the appeal was dismissed; no replacement
+        published controlling rule is adopted.
+      publication_status: not_verified
+      intra_circuit_conflict: not_verified
+      local_rule: https://www.ca6.uscourts.gov/sites/ca6/files/documents/rules_procedures/Full%20Rules%20w%20FRAP_0.pdf
+      last_checked: '2026-08-26'
+    CA7:
+      status: verified_with_limitations
+      rule: Require a legal defense or discharge arising after judgment; equitable hardship alone does not qualify.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_legal_defense_and_no_pure_equity_propositions; survival_unresolved
+      local_rule: https://www.ca7.uscourts.gov/assets/pdf/rules.pdf
+      last_checked: '2026-08-26'
+    CA8:
+      status: not_verified
+      rule: Boal described an audita-querela petition dismissed below, but that dismissal was not appealed; no exact published availability or
+        § 2255-gap holding is adopted.
+      publication_status: not_verified
+      intra_circuit_conflict: not_verified
+      local_rule: https://www.ca8.uscourts.gov/rules-procedures
+      last_checked: '2026-08-26'
+    CA9:
+      status: verified_with_limitations
+      rule: Carrington treats audita querela as gap filling and rejects § 2255 restrictions or nonretroactivity as the gap.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_proposition
+      local_rule: https://www.ca9.uscourts.gov/rules/
+      last_checked: '2026-08-26'
+    CA10:
+      status: verified_with_limitations
+      rule: A federal custody attack within § 2255 cannot use audita querela; classify by substance and apply the correct § 2255 authorization
+        and recharacterization rules.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_section_2255_classification_and_recharacterization_propositions
+      local_rule: https://www.ca10.uscourts.gov/clerk/rules
+      last_checked: '2026-08-26'
+    CA11:
+      status: verified_with_limitations
+      rule: No audita querela for a claim cognizable under § 2255; apply the successive-motion authorization gate after recharacterization.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_section_2255_and_successive_authorization_propositions
+      local_rule: https://www.ca11.uscourts.gov/sites/default/files/courtdocs/clk/Rules_Bookmarked.DEC25.pdf
+      last_checked: '2026-08-26'
+    CADC:
+      status: verified_with_limitations
+      rule: No pure-equity relief; any surviving use requires a legal objection not cognizable through existing federal postconviction remedies.
+      publication_status: published_precedential
+      intra_circuit_conflict: none_identified_for_bounded_ayala_propositions; survival_expressly_unresolved
+      local_rule: https://www.cadc.uscourts.gov/sites/cadc/files/rules-RulesFRAP20251204.pdf
+      last_checked: '2026-08-26'
+  conflicting_circuits: No exhaustive current conflict survey completed.
+  current_split_status: not_verified_exhaustively
+  verified_circuits:
+  - CA1
+  - CA2
+  - CA3
+  - CA5
+  - CA7
+  - CA9
+  - CA10
+  - CA11
+  - CADC
+  last_checked: '2026-08-26'
+  dependency: For every not_verified circuit, obtain a current published precedential opinion in the exact posture, current local rule text, and
+    current citator.

@@ -1,0 +1,987 @@
+[
+  {
+    "node_id": "NODE-POSTCONVICTION-REMEDY-CLASSIFICATION",
+    "label": "Classify remaining post-conviction relief",
+    "node_type": "decision",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-016",
+      "CLM-CLEM-004"
+    ],
+    "jurisdiction": "federal_nationwide"
+  },
+  {
+    "node_id": "NODE-CORAM-NOBIS-SCREEN",
+    "label": "Apply Morgan and controlling-circuit coram nobis gates",
+    "node_type": "decision",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-008",
+      "CLM-XWRIT-009",
+      "CLM-XWRIT-010",
+      "CLM-XWRIT-011",
+      "CLM-XWRIT-012",
+      "CLM-XWRIT-014",
+      "CLM-XWRIT-015",
+      "CLM-XWRIT-016"
+    ],
+    "jurisdiction": "federal_convicting_court"
+  },
+  {
+    "node_id": "NODE-CORAM-NOBIS-FILING",
+    "label": "File supported coram nobis request in the convicting court",
+    "node_type": "filing",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-005",
+      "CLM-XWRIT-006",
+      "CLM-XWRIT-017"
+    ],
+    "jurisdiction": "federal_convicting_court"
+  },
+  {
+    "node_id": "NODE-NO-EXTRAORDINARY-JUDICIAL-REMEDY",
+    "label": "No extraordinary judicial remedy identified",
+    "node_type": "status",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-004",
+      "CLM-XWRIT-016",
+      "CLM-XWRIT-025"
+    ],
+    "jurisdiction": "federal_nationwide"
+  },
+  {
+    "node_id": "NODE-AUDITA-QUERELA-SCREEN",
+    "label": "Check controlling circuit audita querela law and genuine gap",
+    "node_type": "decision",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-020",
+      "CLM-XWRIT-021",
+      "CLM-XWRIT-022",
+      "CLM-XWRIT-023",
+      "CLM-XWRIT-024",
+      "CLM-XWRIT-025"
+    ],
+    "jurisdiction": "federal_circuit_specific"
+  },
+  {
+    "node_id": "NODE-MANDAMUS-CLASSIFICATION",
+    "label": "Classify appellate or district mandamus",
+    "node_type": "decision",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-026",
+      "CLM-XWRIT-027",
+      "CLM-XWRIT-028"
+    ],
+    "jurisdiction": "federal_nationwide"
+  },
+  {
+    "node_id": "NODE-MANDAMUS-APPELLATE-FILING",
+    "label": "Prepare Rule 21 appellate mandamus petition",
+    "node_type": "filing",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-029",
+      "CLM-XWRIT-030",
+      "CLM-XWRIT-031",
+      "CLM-XWRIT-032",
+      "CLM-XWRIT-033",
+      "CLM-XWRIT-034"
+    ],
+    "jurisdiction": "appropriate_federal_court_of_appeals"
+  },
+  {
+    "node_id": "NODE-MANDAMUS-DISTRICT-FILING",
+    "label": "Analyze § 1361 district mandamus action",
+    "node_type": "filing",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-027",
+      "CLM-XWRIT-028"
+    ],
+    "jurisdiction": "appropriate_federal_district_court"
+  },
+  {
+    "node_id": "NODE-CLEMENCY-CLASSIFICATION",
+    "label": "Classify federal executive clemency request",
+    "node_type": "decision",
+    "module_id": "MOD-EXECUTIVE-CLEMENCY-PARDON-COMMUTATION",
+    "claim_ids": [
+      "CLM-CLEM-001",
+      "CLM-CLEM-002",
+      "CLM-CLEM-003",
+      "CLM-CLEM-004",
+      "CLM-CLEM-007"
+    ],
+    "jurisdiction": "president_of_the_united_states"
+  },
+  {
+    "node_id": "NODE-PARDON-PETITION",
+    "label": "Prepare current pardon application",
+    "node_type": "filing",
+    "module_id": "MOD-EXECUTIVE-CLEMENCY-PARDON-COMMUTATION",
+    "claim_ids": [
+      "CLM-CLEM-008",
+      "CLM-CLEM-009",
+      "CLM-CLEM-010",
+      "CLM-CLEM-011"
+    ],
+    "jurisdiction": "office_of_the_pardon_attorney_advisory_process"
+  },
+  {
+    "node_id": "NODE-COMMUTATION-PETITION",
+    "label": "Prepare current commutation application",
+    "node_type": "filing",
+    "module_id": "MOD-EXECUTIVE-CLEMENCY-PARDON-COMMUTATION",
+    "claim_ids": [
+      "CLM-CLEM-008",
+      "CLM-CLEM-012",
+      "CLM-CLEM-027"
+    ],
+    "jurisdiction": "office_of_the_pardon_attorney_advisory_process"
+  },
+  {
+    "node_id": "NODE-CLEMENCY-PRESIDENTIAL-DECISION",
+    "label": "Presidential clemency decision and warrant terms",
+    "node_type": "remedy",
+    "module_id": "MOD-EXECUTIVE-CLEMENCY-PARDON-COMMUTATION",
+    "claim_ids": [
+      "CLM-CLEM-005",
+      "CLM-CLEM-006",
+      "CLM-CLEM-017",
+      "CLM-CLEM-018",
+      "CLM-CLEM-028",
+      "CLM-CLEM-029"
+    ],
+    "jurisdiction": "president_of_the_united_states"
+  },
+  {
+    "node_id": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "label": "Classify postjudgment sentence or record request",
+    "node_type": "decision",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-001",
+      "CLM-R3536-002",
+      "CLM-R3536-003",
+      "CLM-R3536-034"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-RULE35A-SCREEN",
+    "label": "Screen Rule 35(a) clear error and fourteen-day authority",
+    "node_type": "decision",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-004",
+      "CLM-R3536-005",
+      "CLM-R3536-006",
+      "CLM-R3536-007",
+      "CLM-R3536-008",
+      "CLM-R3536-009",
+      "CLM-R3536-010",
+      "CLM-R3536-011",
+      "CLM-R3536-012"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-RULE35A-CORRECTION",
+    "label": "Correct qualifying Rule 35(a) error",
+    "node_type": "remedy",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-004",
+      "CLM-R3536-008",
+      "CLM-R3536-012"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-RULE35B-GOVERNMENT-MOTION-SCREEN",
+    "label": "Screen government Rule 35(b) motion and timing",
+    "node_type": "decision",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-013",
+      "CLM-R3536-014",
+      "CLM-R3536-015",
+      "CLM-R3536-016",
+      "CLM-R3536-017",
+      "CLM-R3536-018",
+      "CLM-R3536-019",
+      "CLM-R3536-020",
+      "CLM-R3536-021",
+      "CLM-R3536-022",
+      "CLM-R3536-023",
+      "CLM-R3536-024"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-RULE35B-REDUCTION",
+    "label": "Decide qualifying Rule 35(b) reduction",
+    "node_type": "remedy",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-018",
+      "CLM-R3536-019",
+      "CLM-R3536-020",
+      "CLM-R3536-025"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-RULE36-SCREEN",
+    "label": "Classify clerical record error versus substantive change",
+    "node_type": "decision",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-026",
+      "CLM-R3536-027",
+      "CLM-R3536-028",
+      "CLM-R3536-029",
+      "CLM-R3536-030",
+      "CLM-R3536-031",
+      "CLM-R3536-032",
+      "CLM-R3536-033"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-RULE36-CORRECTION",
+    "label": "Correct qualifying clerical record error",
+    "node_type": "remedy",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-027",
+      "CLM-R3536-028",
+      "CLM-R3536-029",
+      "CLM-R3536-033"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-CRACK-REDUCTION-CLASSIFICATION",
+    "label": "Classify § 404 versus § 3582(c)(2) crack route",
+    "node_type": "decision",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-034",
+      "CLM-R3536-035",
+      "CLM-R3536-036",
+      "CLM-R3536-037"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-SENTENCE-MODIFICATION-ORDER",
+    "label": "Sentence-modification or record-correction order",
+    "node_type": "status",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-025",
+      "CLM-R3536-033",
+      "CLM-R3536-037"
+    ],
+    "jurisdiction": "federal_sentencing_court"
+  },
+  {
+    "node_id": "NODE-SENTENCE-MODIFICATION-APPEAL",
+    "label": "Classify and preserve appeal from postjudgment order",
+    "node_type": "filing",
+    "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
+    "claim_ids": [
+      "CLM-R3536-038",
+      "CLM-R3536-039",
+      "CLM-R3536-040",
+      "CLM-R3536-041",
+      "CLM-R3536-042",
+      "CLM-R3536-043",
+      "CLM-R3536-044"
+    ],
+    "jurisdiction": "federal_court_of_appeals"
+  },
+  {
+    "node_id": "NODE-BOP-EXECUTION-CLASSIFICATION",
+    "label": "Classify BOP sentence-execution issue",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-DESIGNATION-SENTENCE-COMPUTATION",
+    "claim_ids": [
+      "CLM-BOPSC-025",
+      "CLM-BOPSC-034"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-SENTENCE-COMPUTATION",
+    "label": "Audit commencement, aggregation, and prior-custody credit",
+    "node_type": "event",
+    "module_id": "MOD-BOP-DESIGNATION-SENTENCE-COMPUTATION",
+    "claim_ids": [
+      "CLM-BOPSC-011",
+      "CLM-BOPSC-015",
+      "CLM-BOPSC-016",
+      "CLM-BOPSC-018",
+      "CLM-BOPSC-033"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-DESIGNATION-PROGRAM",
+    "label": "Classify designation, concurrency, RDAP, or detainer consequence",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-DETAINERS-DISCIPLINE-RDAP",
+    "claim_ids": [
+      "CLM-BOPSC-002",
+      "CLM-BOPSC-009",
+      "CLM-BOPDDR-005",
+      "CLM-BOPDDR-039"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-PRERELEASE-PLACEMENT",
+    "label": "Classify GCT, prerelease, home confinement, or release",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-PRERELEASE-HOME-CONFINEMENT",
+    "claim_ids": [
+      "CLM-BOPPRE-001",
+      "CLM-BOPPRE-003",
+      "CLM-BOPPRE-009",
+      "CLM-BOPPRE-023",
+      "CLM-BOPPRE-033"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-FTC-CLASSIFICATION",
+    "label": "Classify FSA time-credit earning, calculation, and application",
+    "node_type": "decision",
+    "module_id": "MOD-FIRST-STEP-ACT-TIME-CREDITS",
+    "claim_ids": [
+      "CLM-FTC-004",
+      "CLM-FTC-009",
+      "CLM-FTC-011",
+      "CLM-FTC-014"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-ADMIN-ENTRY",
+    "label": "Select ordinary or special administrative-remedy entry",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-001",
+      "CLM-BOPAR-005",
+      "CLM-BOPAR-006",
+      "CLM-BOPAR-029"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-BP9",
+    "label": "Informal resolution and institution request",
+    "node_type": "filing",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-002",
+      "CLM-BOPAR-003",
+      "CLM-BOPAR-004"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-BP10",
+    "label": "Regional Director appeal or direct Regional filing",
+    "node_type": "filing",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-005",
+      "CLM-BOPAR-006",
+      "CLM-BOPAR-007"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-BP11",
+    "label": "General Counsel final administrative appeal",
+    "node_type": "filing",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-007",
+      "CLM-BOPAR-008",
+      "CLM-BOPAR-010"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-PREA-CLASSIFICATION",
+    "label": "Apply PREA-adjusted grievance route",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-029",
+      "CLM-BOPAR-030",
+      "CLM-BOPAR-031",
+      "CLM-BOPAR-032"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-PREA-EMERGENCY",
+    "label": "Emergency PREA initial and final response",
+    "node_type": "event",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-031"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-ADMIN-RESOLVED",
+    "label": "Confirm implementation of administrative relief",
+    "node_type": "status",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-013"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-CORRECT-RESUBMIT",
+    "label": "Correct and resubmit or appeal rejection",
+    "node_type": "filing",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-011",
+      "CLM-BOPAR-012"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-SEPARATE-PROCESS",
+    "label": "Use the distinct process for a non-Part-542 claim",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-014"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-JUDICIAL-CLASSIFICATION",
+    "label": "Classify the live post-administrative judicial claim",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-014",
+      "CLM-BOPAR-019",
+      "CLM-BOPAR-020",
+      "CLM-BOPAR-027"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-BOP-2241-REVIEW",
+    "label": "Analyze cognizable § 2241 execution claim",
+    "node_type": "filing",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-014",
+      "CLM-BOPAR-015",
+      "CLM-BOPAR-016",
+      "CLM-BOPAR-023"
+    ],
+    "jurisdiction": "federal_district_court_with_custodian_jurisdiction"
+  },
+  {
+    "node_id": "NODE-BOP-CONDITIONS-ROUTE",
+    "label": "Identify authorized conditions-of-confinement cause of action",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-014",
+      "CLM-BOPAR-027"
+    ],
+    "jurisdiction": "federal_district_court_subject_to_independent_jurisdiction"
+  },
+  {
+    "node_id": "NODE-BOP-NO-REVIEWABLE-CLAIM",
+    "label": "No reviewable BOP claim presently identified",
+    "node_type": "status",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-020",
+      "CLM-BOPAR-022",
+      "CLM-BOPAR-023"
+    ],
+    "jurisdiction": "federal_bureau_of_prisons"
+  },
+  {
+    "node_id": "NODE-SR-CLASSIFY",
+    "label": "Classify supervised-release issue",
+    "node_type": "decision",
+    "module_id": "MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION",
+    "claim_ids": [
+      "CLM-SRTERM-029",
+      "CLM-SRCOND-023"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-COMMENCEMENT",
+    "label": "Calculate term commencement, tolling, and expiration",
+    "node_type": "event",
+    "module_id": "MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION",
+    "claim_ids": [
+      "CLM-SRTERM-005",
+      "CLM-SRTERM-009",
+      "CLM-SRTERM-010"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-TERMINATION",
+    "label": "Analyze early termination after one year",
+    "node_type": "filing",
+    "module_id": "MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION",
+    "claim_ids": [
+      "CLM-SRTERM-022",
+      "CLM-SRTERM-023"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-MODIFICATION",
+    "label": "Analyze condition modification or extension",
+    "node_type": "filing",
+    "module_id": "MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION",
+    "claim_ids": [
+      "CLM-SRTERM-018",
+      "CLM-SRTERM-021"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-TRANSFER",
+    "label": "Verify or seek § 3605 transfer",
+    "node_type": "filing",
+    "module_id": "MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION",
+    "claim_ids": [
+      "CLM-SRTERM-027",
+      "CLM-SRTERM-028"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-EXPIRED",
+    "label": "Apply § 3583(i) delayed-revocation limits",
+    "node_type": "decision",
+    "module_id": "MOD-SUPERVISED-RELEASE-REVOCATION",
+    "claim_ids": [
+      "CLM-SRREV-039",
+      "CLM-SRREV-040"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-VIOLATION-INITIAL",
+    "label": "Initial appearance, district, and detention",
+    "node_type": "event",
+    "module_id": "MOD-SUPERVISED-RELEASE-REVOCATION",
+    "claim_ids": [
+      "CLM-SRREV-001",
+      "CLM-SRREV-004",
+      "CLM-SRREV-006"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-PRELIMINARY",
+    "label": "Prompt preliminary probable-cause hearing",
+    "node_type": "event",
+    "module_id": "MOD-SUPERVISED-RELEASE-REVOCATION",
+    "claim_ids": [
+      "CLM-SRREV-007",
+      "CLM-SRREV-008"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-REVOCATION-HEARING",
+    "label": "Final Rule 32.1 revocation hearing",
+    "node_type": "event",
+    "module_id": "MOD-SUPERVISED-RELEASE-REVOCATION",
+    "claim_ids": [
+      "CLM-SRREV-009",
+      "CLM-SRREV-010",
+      "CLM-SRREV-015"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-GRADE",
+    "label": "Classify actual conduct under current § 7C1.1",
+    "node_type": "decision",
+    "module_id": "MOD-SUPERVISED-RELEASE-REVOCATION",
+    "claim_ids": [
+      "CLM-SRREV-026",
+      "CLM-SRREV-027",
+      "CLM-SRREV-028"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-DISPOSITION",
+    "label": "Apply statutory and advisory revocation limits",
+    "node_type": "decision",
+    "module_id": "MOD-SUPERVISED-RELEASE-REVOCATION",
+    "claim_ids": [
+      "CLM-SRREV-016",
+      "CLM-SRREV-017",
+      "CLM-SRREV-020",
+      "CLM-SRREV-022"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-CONDITION-CHALLENGE",
+    "label": "Classify condition and delegation challenge",
+    "node_type": "decision",
+    "module_id": "MOD-SUPERVISED-RELEASE-CONDITIONS-REENTRY",
+    "claim_ids": [
+      "CLM-SRCOND-001",
+      "CLM-SRCOND-008",
+      "CLM-SRCOND-011"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-SR-REENTRY-REMEDY",
+    "label": "Match reentry barrier to decisionmaker and remedy",
+    "node_type": "decision",
+    "module_id": "MOD-SUPERVISED-RELEASE-CONDITIONS-REENTRY",
+    "claim_ids": [
+      "CLM-SRCOND-020",
+      "CLM-SRCOND-023",
+      "CLM-SRCOND-024"
+    ],
+    "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
+  },
+  {
+    "node_id": "NODE-FEDERAL-SCOPE",
+    "label": "Confirm federal judgment, custody, or postjudgment decision",
+    "node_type": "decision",
+    "module_id": "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+    "claim_ids": [
+      "CLM-2255-001",
+      "CLM-DR-012"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-OUTSIDE-FEDERAL-SCOPE",
+    "label": "Route nonfederal judgment to its governing system",
+    "node_type": "status",
+    "module_id": "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+    "claim_ids": [
+      "CLM-2255-001"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "label": "Classify federal problem, posture, deadline, and requested relief",
+    "node_type": "decision",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-001",
+      "CLM-2255-001",
+      "CLM-R33-011"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-DIRECT-REVIEW-SCREEN",
+    "label": "Determine whether direct review remains available",
+    "node_type": "decision",
+    "module_id": "MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD",
+    "claim_ids": [
+      "CLM-DR-001",
+      "CLM-DR-002",
+      "CLM-DR-012"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-DIRECT-REVIEW",
+    "label": "Preserve and pursue authorized direct review",
+    "node_type": "filing",
+    "module_id": "MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD",
+    "claim_ids": [
+      "CLM-DR-001",
+      "CLM-DR-018"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-2255-CUSTODY-SCREEN",
+    "label": "Confirm § 2255 custody and sentencing-court route",
+    "node_type": "decision",
+    "module_id": "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+    "claim_ids": [
+      "CLM-2255-001",
+      "CLM-2255-002"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-NO-IDENTIFIED-JUDICIAL-REMEDY",
+    "label": "No authorized judicial remedy identified on present record",
+    "node_type": "status",
+    "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
+    "claim_ids": [
+      "CLM-XWRIT-016",
+      "CLM-XWRIT-020"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-2255-HISTORY",
+    "label": "Classify prior § 2255 filings and challenged judgment",
+    "node_type": "decision",
+    "module_id": "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION",
+    "claim_ids": [
+      "CLM-SOS-001",
+      "CLM-SOS-002"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-2255-FIRST",
+    "label": "Prepare first authorized § 2255 motion",
+    "node_type": "filing",
+    "module_id": "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+    "claim_ids": [
+      "CLM-2255-001",
+      "CLM-2255-007",
+      "CLM-2255-008"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-2255-SUCCESSIVENESS",
+    "label": "Apply claim-by-claim second-or-successive classification",
+    "node_type": "decision",
+    "module_id": "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION",
+    "claim_ids": [
+      "CLM-SOS-001",
+      "CLM-SOS-008",
+      "CLM-SOS-012"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-2255-AUTHORIZATION",
+    "label": "Check court-of-appeals authorization",
+    "node_type": "decision",
+    "module_id": "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION",
+    "claim_ids": [
+      "CLM-SOS-004",
+      "CLM-SOS-024"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-2255-SEEK-AUTHORIZATION",
+    "label": "Seek § 2255(h) authorization in the court of appeals",
+    "node_type": "filing",
+    "module_id": "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION",
+    "claim_ids": [
+      "CLM-SOS-017",
+      "CLM-SOS-018",
+      "CLM-SOS-024"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-2255-AUTHORIZED",
+    "label": "File only authorized § 2255 claims",
+    "node_type": "filing",
+    "module_id": "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION",
+    "claim_ids": [
+      "CLM-SOS-028",
+      "CLM-SOS-030"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-CR-WARDEN-REQUEST",
+    "label": "Verify compassionate-release Warden request",
+    "node_type": "decision",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-008"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-CR-SUBMIT-REQUEST",
+    "label": "Submit and preserve Warden request",
+    "node_type": "filing",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-008"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-CR-GATE",
+    "label": "Apply exhaustion-or-thirty-day filing gate",
+    "node_type": "decision",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-008"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-CR-FILE",
+    "label": "File supported compassionate-release motion",
+    "node_type": "filing",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-009",
+      "CLM-3582-011",
+      "CLM-3582-014"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-CR-WAIT-OR-APPEAL",
+    "label": "Complete agency route or await statutory thirty days",
+    "node_type": "status",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-008"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-3582-C2",
+    "label": "Apply listed retroactive-amendment and Dillon analysis",
+    "node_type": "decision",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-018",
+      "CLM-3582-019",
+      "CLM-3582-021"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-FSA404",
+    "label": "Apply First Step Act § 404 covered-offense route",
+    "node_type": "decision",
+    "module_id": "MOD-FIRST-STEP-ACT-SECTION-404",
+    "claim_ids": [
+      "CLM-FSA404-001",
+      "CLM-FSA404-004",
+      "CLM-FSA404-011"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-OTHER-MODIFICATION-AUTHORITY",
+    "label": "Identify other express sentence-modification authority",
+    "node_type": "decision",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-001",
+      "CLM-3582-007"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-NO-MODIFICATION-AUTHORITY",
+    "label": "No express sentence-modification authority identified",
+    "node_type": "status",
+    "module_id": "MOD-SECTION-3582-REMEDY-ROUTER",
+    "claim_ids": [
+      "CLM-3582-001"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-RULE33-CLASSIFY",
+    "label": "Classify Rule 33 ground and deadline",
+    "node_type": "decision",
+    "module_id": "MOD-RULE-33-NEW-TRIAL",
+    "claim_ids": [
+      "CLM-R33-003",
+      "CLM-R33-005",
+      "CLM-R33-006"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-RULE33-NEW-EVIDENCE",
+    "label": "Use newly-discovered-evidence Rule 33 route",
+    "node_type": "filing",
+    "module_id": "MOD-RULE-33-NEW-TRIAL",
+    "claim_ids": [
+      "CLM-R33-003",
+      "CLM-R33-004"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-RULE33-OTHER",
+    "label": "Use other-ground Rule 33 route",
+    "node_type": "filing",
+    "module_id": "MOD-RULE-33-NEW-TRIAL",
+    "claim_ids": [
+      "CLM-R33-005"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-RULE33-EXPIRED",
+    "label": "Classify unavailable or expired Rule 33 request",
+    "node_type": "status",
+    "module_id": "MOD-RULE-33-NEW-TRIAL",
+    "claim_ids": [
+      "CLM-R33-006",
+      "CLM-R33-008",
+      "CLM-R33-009"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-OTHER-CONFINEMENT-CLASSIFY",
+    "label": "Classify tort, records, conditions, or executive route",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-014",
+      "CLM-BOPAR-027"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  },
+  {
+    "node_id": "NODE-FTCA-OR-RECORDS",
+    "label": "Use the independently governing tort or records process",
+    "node_type": "decision",
+    "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
+    "claim_ids": [
+      "CLM-BOPAR-014"
+    ],
+    "jurisdiction": "federal_nationwide_with_route_specific_jurisdiction"
+  }
+]

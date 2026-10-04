@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/schemas/edge.schema.json",
+  "title": "Process graph edge",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["edge_id", "from_node", "to_node", "relationship"],
+  "properties": {
+    "edge_id": {"type": "string", "pattern": "^EDGE-[A-Z0-9-]+$"},
+    "from_node": {"type": "string", "pattern": "^NODE-[A-Z0-9-]+$"},
+    "to_node": {"type": "string", "pattern": "^NODE-[A-Z0-9-]+$"},
+    "relationship": {"enum": ["next", "may_lead_to", "requires", "bars", "permits", "reviews", "modifies", "appeals_to", "remands_to", "exhausts_before"]},
+    "condition": {"type": "string"},
+    "claim_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^CLM-[A-Z0-9-]+$"}}
+  }
+}

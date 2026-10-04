@@ -1,0 +1,185 @@
+flowchart TD
+    NODE_POSTCONVICTION_REMEDY_CLASSIFICATION["Classify remaining post-conviction relief"]
+    NODE_CORAM_NOBIS_SCREEN["Apply Morgan and controlling-circuit coram nobis gates"]
+    NODE_CORAM_NOBIS_FILING["File supported coram nobis request in the convicting court"]
+    NODE_NO_EXTRAORDINARY_JUDICIAL_REMEDY["No extraordinary judicial remedy identified"]
+    NODE_AUDITA_QUERELA_SCREEN["Check controlling circuit audita querela law and genuine gap"]
+    NODE_MANDAMUS_CLASSIFICATION["Classify appellate or district mandamus"]
+    NODE_MANDAMUS_APPELLATE_FILING["Prepare Rule 21 appellate mandamus petition"]
+    NODE_MANDAMUS_DISTRICT_FILING["Analyze § 1361 district mandamus action"]
+    NODE_CLEMENCY_CLASSIFICATION["Classify federal executive clemency request"]
+    NODE_PARDON_PETITION["Prepare current pardon application"]
+    NODE_COMMUTATION_PETITION["Prepare current commutation application"]
+    NODE_CLEMENCY_PRESIDENTIAL_DECISION["Presidential clemency decision and warrant terms"]
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION["Classify postjudgment sentence or record request"]
+    NODE_RULE35A_SCREEN["Screen Rule 35(a) clear error and fourteen-day authority"]
+    NODE_RULE35A_CORRECTION["Correct qualifying Rule 35(a) error"]
+    NODE_RULE35B_GOVERNMENT_MOTION_SCREEN["Screen government Rule 35(b) motion and timing"]
+    NODE_RULE35B_REDUCTION["Decide qualifying Rule 35(b) reduction"]
+    NODE_RULE36_SCREEN["Classify clerical record error versus substantive change"]
+    NODE_RULE36_CORRECTION["Correct qualifying clerical record error"]
+    NODE_CRACK_REDUCTION_CLASSIFICATION["Classify § 404 versus § 3582(c)(2) crack route"]
+    NODE_SENTENCE_MODIFICATION_ORDER["Sentence-modification or record-correction order"]
+    NODE_SENTENCE_MODIFICATION_APPEAL["Classify and preserve appeal from postjudgment order"]
+    NODE_BOP_EXECUTION_CLASSIFICATION["Classify BOP sentence-execution issue"]
+    NODE_BOP_SENTENCE_COMPUTATION["Audit commencement, aggregation, and prior-custody credit"]
+    NODE_BOP_DESIGNATION_PROGRAM["Classify designation, concurrency, RDAP, or detainer consequence"]
+    NODE_BOP_PRERELEASE_PLACEMENT["Classify GCT, prerelease, home confinement, or release"]
+    NODE_BOP_FTC_CLASSIFICATION["Classify FSA time-credit earning, calculation, and application"]
+    NODE_BOP_ADMIN_ENTRY["Select ordinary or special administrative-remedy entry"]
+    NODE_BOP_BP9["Informal resolution and institution request"]
+    NODE_BOP_BP10["Regional Director appeal or direct Regional filing"]
+    NODE_BOP_BP11["General Counsel final administrative appeal"]
+    NODE_BOP_PREA_CLASSIFICATION["Apply PREA-adjusted grievance route"]
+    NODE_BOP_PREA_EMERGENCY["Emergency PREA initial and final response"]
+    NODE_BOP_ADMIN_RESOLVED["Confirm implementation of administrative relief"]
+    NODE_BOP_CORRECT_RESUBMIT["Correct and resubmit or appeal rejection"]
+    NODE_BOP_SEPARATE_PROCESS["Use the distinct process for a non-Part-542 claim"]
+    NODE_BOP_JUDICIAL_CLASSIFICATION["Classify the live post-administrative judicial claim"]
+    NODE_BOP_2241_REVIEW["Analyze cognizable § 2241 execution claim"]
+    NODE_BOP_CONDITIONS_ROUTE["Identify authorized conditions-of-confinement cause of action"]
+    NODE_BOP_NO_REVIEWABLE_CLAIM["No reviewable BOP claim presently identified"]
+    NODE_SR_CLASSIFY["Classify supervised-release issue"]
+    NODE_SR_COMMENCEMENT["Calculate term commencement, tolling, and expiration"]
+    NODE_SR_TERMINATION["Analyze early termination after one year"]
+    NODE_SR_MODIFICATION["Analyze condition modification or extension"]
+    NODE_SR_TRANSFER["Verify or seek § 3605 transfer"]
+    NODE_SR_EXPIRED["Apply § 3583(i) delayed-revocation limits"]
+    NODE_SR_VIOLATION_INITIAL["Initial appearance, district, and detention"]
+    NODE_SR_PRELIMINARY["Prompt preliminary probable-cause hearing"]
+    NODE_SR_REVOCATION_HEARING["Final Rule 32.1 revocation hearing"]
+    NODE_SR_GRADE["Classify actual conduct under current § 7C1.1"]
+    NODE_SR_DISPOSITION["Apply statutory and advisory revocation limits"]
+    NODE_SR_CONDITION_CHALLENGE["Classify condition and delegation challenge"]
+    NODE_SR_REENTRY_REMEDY["Match reentry barrier to decisionmaker and remedy"]
+    NODE_FEDERAL_SCOPE["Confirm federal judgment, custody, or postjudgment decision"]
+    NODE_OUTSIDE_FEDERAL_SCOPE["Route nonfederal judgment to its governing system"]
+    NODE_FEDERAL_REMEDY_CLASSIFICATION["Classify federal problem, posture, deadline, and requested relief"]
+    NODE_DIRECT_REVIEW_SCREEN["Determine whether direct review remains available"]
+    NODE_DIRECT_REVIEW["Preserve and pursue authorized direct review"]
+    NODE_2255_CUSTODY_SCREEN["Confirm § 2255 custody and sentencing-court route"]
+    NODE_NO_IDENTIFIED_JUDICIAL_REMEDY["No authorized judicial remedy identified on present record"]
+    NODE_2255_HISTORY["Classify prior § 2255 filings and challenged judgment"]
+    NODE_2255_FIRST["Prepare first authorized § 2255 motion"]
+    NODE_2255_SUCCESSIVENESS["Apply claim-by-claim second-or-successive classification"]
+    NODE_2255_AUTHORIZATION["Check court-of-appeals authorization"]
+    NODE_2255_SEEK_AUTHORIZATION["Seek § 2255(h) authorization in the court of appeals"]
+    NODE_2255_AUTHORIZED["File only authorized § 2255 claims"]
+    NODE_CR_WARDEN_REQUEST["Verify compassionate-release Warden request"]
+    NODE_CR_SUBMIT_REQUEST["Submit and preserve Warden request"]
+    NODE_CR_GATE["Apply exhaustion-or-thirty-day filing gate"]
+    NODE_CR_FILE["File supported compassionate-release motion"]
+    NODE_CR_WAIT_OR_APPEAL["Complete agency route or await statutory thirty days"]
+    NODE_3582_C2["Apply listed retroactive-amendment and Dillon analysis"]
+    NODE_FSA404["Apply First Step Act § 404 covered-offense route"]
+    NODE_OTHER_MODIFICATION_AUTHORITY["Identify other express sentence-modification authority"]
+    NODE_NO_MODIFICATION_AUTHORITY["No express sentence-modification authority identified"]
+    NODE_RULE33_CLASSIFY["Classify Rule 33 ground and deadline"]
+    NODE_RULE33_NEW_EVIDENCE["Use newly-discovered-evidence Rule 33 route"]
+    NODE_RULE33_OTHER["Use other-ground Rule 33 route"]
+    NODE_RULE33_EXPIRED["Classify unavailable or expired Rule 33 request"]
+    NODE_OTHER_CONFINEMENT_CLASSIFY["Classify tort, records, conditions, or executive route"]
+    NODE_FTCA_OR_RECORDS["Use the independently governing tort or records process"]
+    NODE_POSTCONVICTION_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_CORAM_NOBIS_SCREEN
+    NODE_CORAM_NOBIS_SCREEN -->|"permits"| NODE_CORAM_NOBIS_FILING
+    NODE_CORAM_NOBIS_SCREEN -->|"bars"| NODE_NO_EXTRAORDINARY_JUDICIAL_REMEDY
+    NODE_POSTCONVICTION_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_AUDITA_QUERELA_SCREEN
+    NODE_AUDITA_QUERELA_SCREEN -->|"bars"| NODE_NO_EXTRAORDINARY_JUDICIAL_REMEDY
+    NODE_POSTCONVICTION_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_MANDAMUS_CLASSIFICATION
+    NODE_MANDAMUS_CLASSIFICATION -->|"permits"| NODE_MANDAMUS_APPELLATE_FILING
+    NODE_MANDAMUS_CLASSIFICATION -->|"permits"| NODE_MANDAMUS_DISTRICT_FILING
+    NODE_POSTCONVICTION_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_CLEMENCY_CLASSIFICATION
+    NODE_CLEMENCY_CLASSIFICATION -->|"permits"| NODE_PARDON_PETITION
+    NODE_CLEMENCY_CLASSIFICATION -->|"permits"| NODE_COMMUTATION_PETITION
+    NODE_PARDON_PETITION -->|"may_lead_to"| NODE_CLEMENCY_PRESIDENTIAL_DECISION
+    NODE_COMMUTATION_PETITION -->|"may_lead_to"| NODE_CLEMENCY_PRESIDENTIAL_DECISION
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_RULE35A_SCREEN
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_RULE35B_GOVERNMENT_MOTION_SCREEN
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_RULE36_SCREEN
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_CRACK_REDUCTION_CLASSIFICATION
+    NODE_RULE35A_SCREEN -->|"permits"| NODE_RULE35A_CORRECTION
+    NODE_RULE35B_GOVERNMENT_MOTION_SCREEN -->|"permits"| NODE_RULE35B_REDUCTION
+    NODE_RULE36_SCREEN -->|"permits"| NODE_RULE36_CORRECTION
+    NODE_RULE35A_CORRECTION -->|"next"| NODE_SENTENCE_MODIFICATION_ORDER
+    NODE_RULE35B_REDUCTION -->|"next"| NODE_SENTENCE_MODIFICATION_ORDER
+    NODE_RULE36_CORRECTION -->|"next"| NODE_SENTENCE_MODIFICATION_ORDER
+    NODE_CRACK_REDUCTION_CLASSIFICATION -->|"may_lead_to"| NODE_SENTENCE_MODIFICATION_ORDER
+    NODE_SENTENCE_MODIFICATION_ORDER -->|"appeals_to"| NODE_SENTENCE_MODIFICATION_APPEAL
+    NODE_BOP_EXECUTION_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_SENTENCE_COMPUTATION
+    NODE_BOP_EXECUTION_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_DESIGNATION_PROGRAM
+    NODE_BOP_EXECUTION_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_PRERELEASE_PLACEMENT
+    NODE_BOP_EXECUTION_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_FTC_CLASSIFICATION
+    NODE_BOP_SENTENCE_COMPUTATION -->|"next"| NODE_BOP_ADMIN_ENTRY
+    NODE_BOP_DESIGNATION_PROGRAM -->|"next"| NODE_BOP_ADMIN_ENTRY
+    NODE_BOP_PRERELEASE_PLACEMENT -->|"next"| NODE_BOP_ADMIN_ENTRY
+    NODE_BOP_FTC_CLASSIFICATION -->|"next"| NODE_BOP_ADMIN_ENTRY
+    NODE_BOP_ADMIN_ENTRY -->|"may_lead_to"| NODE_BOP_BP9
+    NODE_BOP_ADMIN_ENTRY -->|"may_lead_to"| NODE_BOP_BP10
+    NODE_BOP_ADMIN_ENTRY -->|"may_lead_to"| NODE_BOP_BP11
+    NODE_BOP_ADMIN_ENTRY -->|"may_lead_to"| NODE_BOP_PREA_CLASSIFICATION
+    NODE_BOP_ADMIN_ENTRY -->|"may_lead_to"| NODE_BOP_SEPARATE_PROCESS
+    NODE_BOP_BP9 -->|"may_lead_to"| NODE_BOP_ADMIN_RESOLVED
+    NODE_BOP_BP9 -->|"appeals_to"| NODE_BOP_BP10
+    NODE_BOP_BP9 -->|"may_lead_to"| NODE_BOP_CORRECT_RESUBMIT
+    NODE_BOP_BP10 -->|"may_lead_to"| NODE_BOP_ADMIN_RESOLVED
+    NODE_BOP_BP10 -->|"appeals_to"| NODE_BOP_BP11
+    NODE_BOP_BP10 -->|"may_lead_to"| NODE_BOP_CORRECT_RESUBMIT
+    NODE_BOP_BP11 -->|"may_lead_to"| NODE_BOP_ADMIN_RESOLVED
+    NODE_BOP_BP11 -->|"may_lead_to"| NODE_BOP_JUDICIAL_CLASSIFICATION
+    NODE_BOP_BP11 -->|"may_lead_to"| NODE_BOP_CORRECT_RESUBMIT
+    NODE_BOP_BP11 -->|"may_lead_to"| NODE_BOP_NO_REVIEWABLE_CLAIM
+    NODE_BOP_PREA_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_PREA_EMERGENCY
+    NODE_BOP_PREA_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_BP10
+    NODE_BOP_PREA_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_BP9
+    NODE_BOP_PREA_EMERGENCY -->|"appeals_to"| NODE_BOP_BP10
+    NODE_BOP_JUDICIAL_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_2241_REVIEW
+    NODE_BOP_JUDICIAL_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_CONDITIONS_ROUTE
+    NODE_BOP_JUDICIAL_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_NO_REVIEWABLE_CLAIM
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_COMMENCEMENT
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_TERMINATION
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_MODIFICATION
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_TRANSFER
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_VIOLATION_INITIAL
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_EXPIRED
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_CONDITION_CHALLENGE
+    NODE_SR_CLASSIFY -->|"may_lead_to"| NODE_SR_REENTRY_REMEDY
+    NODE_SR_COMMENCEMENT -->|"may_lead_to"| NODE_SR_TERMINATION
+    NODE_SR_COMMENCEMENT -->|"may_lead_to"| NODE_SR_EXPIRED
+    NODE_SR_EXPIRED -->|"may_lead_to"| NODE_SR_VIOLATION_INITIAL
+    NODE_SR_VIOLATION_INITIAL -->|"next"| NODE_SR_PRELIMINARY
+    NODE_SR_PRELIMINARY -->|"may_lead_to"| NODE_SR_REVOCATION_HEARING
+    NODE_SR_REVOCATION_HEARING -->|"next"| NODE_SR_GRADE
+    NODE_SR_GRADE -->|"next"| NODE_SR_DISPOSITION
+    NODE_SR_CONDITION_CHALLENGE -->|"may_lead_to"| NODE_SR_MODIFICATION
+    NODE_SR_REENTRY_REMEDY -->|"may_lead_to"| NODE_SR_CONDITION_CHALLENGE
+    NODE_SR_REENTRY_REMEDY -->|"may_lead_to"| NODE_SR_TERMINATION
+    NODE_FEDERAL_SCOPE -->|"may_lead_to"| NODE_FEDERAL_REMEDY_CLASSIFICATION
+    NODE_FEDERAL_SCOPE -->|"may_lead_to"| NODE_OUTSIDE_FEDERAL_SCOPE
+    NODE_FEDERAL_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_DIRECT_REVIEW_SCREEN
+    NODE_FEDERAL_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_SENTENCE_MODIFICATION_CLASSIFICATION
+    NODE_FEDERAL_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_RULE33_CLASSIFY
+    NODE_FEDERAL_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_BOP_EXECUTION_CLASSIFICATION
+    NODE_FEDERAL_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_SR_CLASSIFY
+    NODE_FEDERAL_REMEDY_CLASSIFICATION -->|"may_lead_to"| NODE_OTHER_CONFINEMENT_CLASSIFY
+    NODE_DIRECT_REVIEW_SCREEN -->|"may_lead_to"| NODE_DIRECT_REVIEW
+    NODE_DIRECT_REVIEW_SCREEN -->|"may_lead_to"| NODE_2255_CUSTODY_SCREEN
+    NODE_2255_CUSTODY_SCREEN -->|"may_lead_to"| NODE_2255_HISTORY
+    NODE_2255_HISTORY -->|"may_lead_to"| NODE_2255_FIRST
+    NODE_2255_HISTORY -->|"may_lead_to"| NODE_2255_SUCCESSIVENESS
+    NODE_2255_HISTORY -->|"may_lead_to"| NODE_2255_AUTHORIZATION
+    NODE_2255_AUTHORIZATION -->|"may_lead_to"| NODE_2255_AUTHORIZED
+    NODE_2255_AUTHORIZATION -->|"may_lead_to"| NODE_2255_SEEK_AUTHORIZATION
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_CR_WARDEN_REQUEST
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_3582_C2
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_FSA404
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_OTHER_MODIFICATION_AUTHORITY
+    NODE_SENTENCE_MODIFICATION_CLASSIFICATION -->|"may_lead_to"| NODE_NO_MODIFICATION_AUTHORITY
+    NODE_CR_WARDEN_REQUEST -->|"may_lead_to"| NODE_CR_GATE
+    NODE_CR_WARDEN_REQUEST -->|"may_lead_to"| NODE_CR_SUBMIT_REQUEST
+    NODE_CR_GATE -->|"may_lead_to"| NODE_CR_FILE
+    NODE_CR_GATE -->|"may_lead_to"| NODE_CR_WAIT_OR_APPEAL
+    NODE_RULE33_CLASSIFY -->|"may_lead_to"| NODE_RULE33_NEW_EVIDENCE
+    NODE_RULE33_CLASSIFY -->|"may_lead_to"| NODE_RULE33_OTHER
+    NODE_RULE33_CLASSIFY -->|"may_lead_to"| NODE_RULE33_EXPIRED
+    NODE_OTHER_CONFINEMENT_CLASSIFY -->|"may_lead_to"| NODE_BOP_ADMIN_ENTRY
+    NODE_OTHER_CONFINEMENT_CLASSIFY -->|"may_lead_to"| NODE_FTCA_OR_RECORDS

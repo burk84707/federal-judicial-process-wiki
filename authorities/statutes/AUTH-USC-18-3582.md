@@ -1,0 +1,33 @@
+---
+authority_id: AUTH-USC-18-3582
+authority_type: statute
+citation: 18 U.S.C. § 3582
+issuing_body: Congress of the United States
+jurisdiction: federal
+publication_status: official_preliminary_code
+precedential_status: binding_enacted_positive_law_title
+last_verified: 2026-08-25
+---
+
+# 18 U.S.C. § 3582
+
+## Propositions supported
+
+- Section 3582(b) supplies the finality rule and subsection (c) supplies three distinct modification doors.
+- Subsection (c)(1)(A) supplies compassionate-release movants, filing gate, statutory findings, discretion, and relief authority.
+- Subsection (c)(1)(B) permits modification to the extent another statute or Rule 35 expressly permits it.
+- Subsection (c)(2) supplies the retroactive-guideline-amendment gate and incorporates applicable Commission policy.
+
+## Material limitation
+
+Each subsection must be applied separately. The statute does not resolve circuit-specific issue exhaustion, waiver, hearings, or standards of review. For a First Step Act § 404 motion, *Concepcion* treats subsection (c)(1)(B) as a gateway rather than an additional source of substantive or procedural limits.
+
+## Official source
+
+<https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29>
+
+## Linked records
+
+- Module: `MOD-FIRST-STEP-ACT-SECTION-404`
+- Module: `MOD-SECTION-3582-REMEDY-ROUTER`
+- Claims: `CLM-FSA404-010`, `CLM-FSA404-015`, `CLM-3582-001`, `CLM-3582-002`, `CLM-3582-007` through `CLM-3582-010`, `CLM-3582-014`, `CLM-3582-018`

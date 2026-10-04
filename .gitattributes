@@ -1,0 +1,3 @@
+# Import receipts and release manifests use exact bytes. Preserve line endings
+# across Windows/Linux clones rather than normalizing imported legal records.
+* -text

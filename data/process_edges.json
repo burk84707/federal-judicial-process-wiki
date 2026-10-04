@@ -1,0 +1,1129 @@
+[
+  {
+    "edge_id": "EDGE-REMEDY-CLASSIFY-CORAM",
+    "from_node": "NODE-POSTCONVICTION-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-CORAM-NOBIS-SCREEN",
+    "relationship": "may_lead_to",
+    "condition": "qualifying custody under the challenged federal conviction has ended and conviction consequences plus a fundamental defect are asserted",
+    "claim_ids": [
+      "CLM-XWRIT-016",
+      "CLM-XWRIT-018"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CORAM-SCREEN-FILING",
+    "from_node": "NODE-CORAM-NOBIS-SCREEN",
+    "to_node": "NODE-CORAM-NOBIS-FILING",
+    "relationship": "permits",
+    "condition": "Morgan minimums and every controlling-circuit requirement are supportable",
+    "claim_ids": [
+      "CLM-XWRIT-008",
+      "CLM-XWRIT-009",
+      "CLM-XWRIT-010",
+      "CLM-XWRIT-011",
+      "CLM-XWRIT-012",
+      "CLM-XWRIT-014",
+      "CLM-XWRIT-015"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CORAM-SCREEN-NO-REMEDY",
+    "from_node": "NODE-CORAM-NOBIS-SCREEN",
+    "to_node": "NODE-NO-EXTRAORDINARY-JUDICIAL-REMEDY",
+    "relationship": "bars",
+    "condition": "a required coram nobis gate is not met and no other supported vehicle exists",
+    "claim_ids": [
+      "CLM-XWRIT-009",
+      "CLM-XWRIT-010",
+      "CLM-XWRIT-011",
+      "CLM-XWRIT-016"
+    ]
+  },
+  {
+    "edge_id": "EDGE-REMEDY-CLASSIFY-AUDITA",
+    "from_node": "NODE-POSTCONVICTION-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-AUDITA-QUERELA-SCREEN",
+    "relationship": "may_lead_to",
+    "condition": "a postjudgment defense is asserted and no governing statutory vehicle has yet been identified",
+    "claim_ids": [
+      "CLM-XWRIT-020",
+      "CLM-XWRIT-021",
+      "CLM-XWRIT-025"
+    ]
+  },
+  {
+    "edge_id": "EDGE-AUDITA-STATUTORY-VEHICLE-BAR",
+    "from_node": "NODE-AUDITA-QUERELA-SCREEN",
+    "to_node": "NODE-NO-EXTRAORDINARY-JUDICIAL-REMEDY",
+    "relationship": "bars",
+    "condition": "the claim is cognizable under § 2255 or only § 2255 restrictions or nonretroactivity are asserted as the gap under applicable law",
+    "claim_ids": [
+      "CLM-XWRIT-022",
+      "CLM-XWRIT-023",
+      "CLM-XWRIT-024",
+      "CLM-XWRIT-025"
+    ]
+  },
+  {
+    "edge_id": "EDGE-REMEDY-CLASSIFY-MANDAMUS",
+    "from_node": "NODE-POSTCONVICTION-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-MANDAMUS-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "relief seeks performance of a clear duty and no adequate ordinary remedy is available",
+    "claim_ids": [
+      "CLM-XWRIT-026",
+      "CLM-XWRIT-027",
+      "CLM-XWRIT-028",
+      "CLM-XWRIT-029"
+    ]
+  },
+  {
+    "edge_id": "EDGE-MANDAMUS-CLASSIFY-APPELLATE",
+    "from_node": "NODE-MANDAMUS-CLASSIFICATION",
+    "to_node": "NODE-MANDAMUS-APPELLATE-FILING",
+    "relationship": "permits",
+    "condition": "the appropriate court of appeals is asked to issue a writ in aid of its jurisdiction and Cheney and Rule 21 can be satisfied",
+    "claim_ids": [
+      "CLM-XWRIT-026",
+      "CLM-XWRIT-029",
+      "CLM-XWRIT-030",
+      "CLM-XWRIT-031",
+      "CLM-XWRIT-032",
+      "CLM-XWRIT-033"
+    ]
+  },
+  {
+    "edge_id": "EDGE-MANDAMUS-CLASSIFY-DISTRICT",
+    "from_node": "NODE-MANDAMUS-CLASSIFICATION",
+    "to_node": "NODE-MANDAMUS-DISTRICT-FILING",
+    "relationship": "permits",
+    "condition": "§ 1361 jurisdiction, a federal officer or agency, clear nondiscretionary duty, and exhaustion of other avenues can be shown",
+    "claim_ids": [
+      "CLM-XWRIT-027",
+      "CLM-XWRIT-028"
+    ]
+  },
+  {
+    "edge_id": "EDGE-REMEDY-CLASSIFY-CLEMENCY",
+    "from_node": "NODE-POSTCONVICTION-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-CLEMENCY-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "executive mercy rather than judicial correction is requested for a qualifying federal offense",
+    "claim_ids": [
+      "CLM-CLEM-002",
+      "CLM-CLEM-004",
+      "CLM-CLEM-007"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLEMENCY-CLASSIFY-PARDON",
+    "from_node": "NODE-CLEMENCY-CLASSIFICATION",
+    "to_node": "NODE-PARDON-PETITION",
+    "relationship": "permits",
+    "condition": "pardon is the requested form and current advisory timing and form requirements are addressed",
+    "claim_ids": [
+      "CLM-CLEM-008",
+      "CLM-CLEM-009",
+      "CLM-CLEM-010",
+      "CLM-CLEM-011"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLEMENCY-CLASSIFY-COMMUTATION",
+    "from_node": "NODE-CLEMENCY-CLASSIFICATION",
+    "to_node": "NODE-COMMUTATION-PETITION",
+    "relationship": "permits",
+    "condition": "reduction of a sentence being served is requested and current form and other-remedy guidance are addressed",
+    "claim_ids": [
+      "CLM-CLEM-008",
+      "CLM-CLEM-012",
+      "CLM-CLEM-027"
+    ]
+  },
+  {
+    "edge_id": "EDGE-PARDON-PETITION-PRESIDENT",
+    "from_node": "NODE-PARDON-PETITION",
+    "to_node": "NODE-CLEMENCY-PRESIDENTIAL-DECISION",
+    "relationship": "may_lead_to",
+    "condition": "advisory DOJ review and recommendation proceed to presidential decision",
+    "claim_ids": [
+      "CLM-CLEM-013",
+      "CLM-CLEM-014",
+      "CLM-CLEM-017",
+      "CLM-CLEM-018"
+    ]
+  },
+  {
+    "edge_id": "EDGE-COMMUTATION-PETITION-PRESIDENT",
+    "from_node": "NODE-COMMUTATION-PETITION",
+    "to_node": "NODE-CLEMENCY-PRESIDENTIAL-DECISION",
+    "relationship": "may_lead_to",
+    "condition": "advisory DOJ review and recommendation proceed to presidential decision",
+    "claim_ids": [
+      "CLM-CLEM-013",
+      "CLM-CLEM-014",
+      "CLM-CLEM-017",
+      "CLM-CLEM-018"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SENTMOD-CLASSIFY-RULE35A",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-RULE35A-SCREEN",
+    "relationship": "may_lead_to",
+    "condition": "a qualifying clear sentencing error is asserted",
+    "claim_ids": [
+      "CLM-R3536-003",
+      "CLM-R3536-004"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SENTMOD-CLASSIFY-RULE35B",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-RULE35B-GOVERNMENT-MOTION-SCREEN",
+    "relationship": "may_lead_to",
+    "condition": "a government substantial-assistance motion is or may be available",
+    "claim_ids": [
+      "CLM-R3536-003",
+      "CLM-R3536-013",
+      "CLM-R3536-014"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SENTMOD-CLASSIFY-RULE36",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-RULE36-SCREEN",
+    "relationship": "may_lead_to",
+    "condition": "a clerical judgment, order, or record error is asserted",
+    "claim_ids": [
+      "CLM-R3536-003",
+      "CLM-R3536-026",
+      "CLM-R3536-027"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SENTMOD-CLASSIFY-CRACK",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-CRACK-REDUCTION-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "later crack-cocaine relief is requested",
+    "claim_ids": [
+      "CLM-R3536-034"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE35A-SCREEN-CORRECTION",
+    "from_node": "NODE-RULE35A-SCREEN",
+    "to_node": "NODE-RULE35A-CORRECTION",
+    "relationship": "permits",
+    "condition": "the court acts within fourteen days on qualifying narrow clear error",
+    "claim_ids": [
+      "CLM-R3536-004",
+      "CLM-R3536-006",
+      "CLM-R3536-009",
+      "CLM-R3536-012"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE35B-SCREEN-REDUCTION",
+    "from_node": "NODE-RULE35B-GOVERNMENT-MOTION-SCREEN",
+    "to_node": "NODE-RULE35B-REDUCTION",
+    "relationship": "permits",
+    "condition": "a government motion satisfies the applicable timing and substantial-assistance route",
+    "claim_ids": [
+      "CLM-R3536-014",
+      "CLM-R3536-015",
+      "CLM-R3536-016",
+      "CLM-R3536-017",
+      "CLM-R3536-020"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE36-SCREEN-CORRECTION",
+    "from_node": "NODE-RULE36-SCREEN",
+    "to_node": "NODE-RULE36-CORRECTION",
+    "relationship": "permits",
+    "condition": "record proof supports a clerical rather than substantive correction",
+    "claim_ids": [
+      "CLM-R3536-027",
+      "CLM-R3536-028",
+      "CLM-R3536-029",
+      "CLM-R3536-030"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE35A-CORRECTION-ORDER",
+    "from_node": "NODE-RULE35A-CORRECTION",
+    "to_node": "NODE-SENTENCE-MODIFICATION-ORDER",
+    "relationship": "next",
+    "condition": "the court grants or denies Rule 35(a) relief",
+    "claim_ids": [
+      "CLM-R3536-012"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE35B-REDUCTION-ORDER",
+    "from_node": "NODE-RULE35B-REDUCTION",
+    "to_node": "NODE-SENTENCE-MODIFICATION-ORDER",
+    "relationship": "next",
+    "condition": "the court grants or denies the government Rule 35(b) motion",
+    "claim_ids": [
+      "CLM-R3536-020",
+      "CLM-R3536-025"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE36-CORRECTION-ORDER",
+    "from_node": "NODE-RULE36-CORRECTION",
+    "to_node": "NODE-SENTENCE-MODIFICATION-ORDER",
+    "relationship": "next",
+    "condition": "the court corrects the record or denies Rule 36 relief",
+    "claim_ids": [
+      "CLM-R3536-029",
+      "CLM-R3536-033"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CRACK-CLASSIFICATION-ORDER",
+    "from_node": "NODE-CRACK-REDUCTION-CLASSIFICATION",
+    "to_node": "NODE-SENTENCE-MODIFICATION-ORDER",
+    "relationship": "may_lead_to",
+    "condition": "the correct § 404 or § 3582(c)(2) route is eligible and adjudicated",
+    "claim_ids": [
+      "CLM-R3536-035",
+      "CLM-R3536-036",
+      "CLM-R3536-037"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SENTMOD-ORDER-APPEAL",
+    "from_node": "NODE-SENTENCE-MODIFICATION-ORDER",
+    "to_node": "NODE-SENTENCE-MODIFICATION-APPEAL",
+    "relationship": "appeals_to",
+    "condition": "an authorized party timely appeals and the asserted jurisdictional basis applies",
+    "claim_ids": [
+      "CLM-R3536-038",
+      "CLM-R3536-039",
+      "CLM-R3536-040",
+      "CLM-R3536-041",
+      "CLM-R3536-044"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-CLASSIFY-COMPUTATION",
+    "from_node": "NODE-BOP-EXECUTION-CLASSIFICATION",
+    "to_node": "NODE-BOP-SENTENCE-COMPUTATION",
+    "relationship": "may_lead_to",
+    "condition": "commencement, aggregation, or prior-custody credit is disputed",
+    "claim_ids": [
+      "CLM-BOPSC-015",
+      "CLM-BOPSC-025"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-CLASSIFY-DESIGNATION",
+    "from_node": "NODE-BOP-EXECUTION-CLASSIFICATION",
+    "to_node": "NODE-BOP-DESIGNATION-PROGRAM",
+    "relationship": "may_lead_to",
+    "condition": "designation, concurrency, RDAP, detainer, or placement is disputed",
+    "claim_ids": [
+      "CLM-BOPSC-002",
+      "CLM-BOPDDR-039"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-CLASSIFY-PRERELEASE",
+    "from_node": "NODE-BOP-EXECUTION-CLASSIFICATION",
+    "to_node": "NODE-BOP-PRERELEASE-PLACEMENT",
+    "relationship": "may_lead_to",
+    "condition": "good time, prerelease custody, home confinement, or release is disputed",
+    "claim_ids": [
+      "CLM-BOPPRE-001",
+      "CLM-BOPPRE-032"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-CLASSIFY-FTC",
+    "from_node": "NODE-BOP-EXECUTION-CLASSIFICATION",
+    "to_node": "NODE-BOP-FTC-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "FSA time-credit earning, calculation, or application is disputed",
+    "claim_ids": [
+      "CLM-FTC-004",
+      "CLM-FTC-011"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-COMPUTATION-ADMIN",
+    "from_node": "NODE-BOP-SENTENCE-COMPUTATION",
+    "to_node": "NODE-BOP-ADMIN-ENTRY",
+    "relationship": "next",
+    "condition": "the computation record identifies an unresolved agency error",
+    "claim_ids": [
+      "CLM-BOPSC-026"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-DESIGNATION-ADMIN",
+    "from_node": "NODE-BOP-DESIGNATION-PROGRAM",
+    "to_node": "NODE-BOP-ADMIN-ENTRY",
+    "relationship": "next",
+    "condition": "the designation, program, or detainer consequence remains disputed",
+    "claim_ids": [
+      "CLM-BOPDDR-039",
+      "CLM-BOPDDR-040"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-PRERELEASE-ADMIN",
+    "from_node": "NODE-BOP-PRERELEASE-PLACEMENT",
+    "to_node": "NODE-BOP-ADMIN-ENTRY",
+    "relationship": "next",
+    "condition": "the eligibility calculation or placement process remains disputed",
+    "claim_ids": [
+      "CLM-BOPPRE-029"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-FTC-ADMIN",
+    "from_node": "NODE-BOP-FTC-CLASSIFICATION",
+    "to_node": "NODE-BOP-ADMIN-ENTRY",
+    "relationship": "next",
+    "condition": "the time-credit ledger or application remains disputed",
+    "claim_ids": [
+      "CLM-FTC-015",
+      "CLM-FTC-016"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-ADMIN-BP9",
+    "from_node": "NODE-BOP-ADMIN-ENTRY",
+    "to_node": "NODE-BOP-BP9",
+    "relationship": "may_lead_to",
+    "condition": "ordinary Part 542 route applies",
+    "claim_ids": [
+      "CLM-BOPAR-002",
+      "CLM-BOPAR-003"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-ADMIN-BP10",
+    "from_node": "NODE-BOP-ADMIN-ENTRY",
+    "to_node": "NODE-BOP-BP10",
+    "relationship": "may_lead_to",
+    "condition": "sensitive or DHO direct-Regional route applies",
+    "claim_ids": [
+      "CLM-BOPAR-005",
+      "CLM-BOPAR-006"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-ADMIN-BP11",
+    "from_node": "NODE-BOP-ADMIN-ENTRY",
+    "to_node": "NODE-BOP-BP11",
+    "relationship": "may_lead_to",
+    "condition": "an authorized direct-Central route applies",
+    "claim_ids": [
+      "CLM-BOPAR-008"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-ADMIN-PREA",
+    "from_node": "NODE-BOP-ADMIN-ENTRY",
+    "to_node": "NODE-BOP-PREA-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "the grievance alleges sexual abuse",
+    "claim_ids": [
+      "CLM-BOPAR-029"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-ADMIN-SEPARATE",
+    "from_node": "NODE-BOP-ADMIN-ENTRY",
+    "to_node": "NODE-BOP-SEPARATE-PROCESS",
+    "relationship": "may_lead_to",
+    "condition": "a distinct statutory or civil process rather than Part 542 governs",
+    "claim_ids": [
+      "CLM-BOPAR-014"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP9-RESOLVED",
+    "from_node": "NODE-BOP-BP9",
+    "to_node": "NODE-BOP-ADMIN-RESOLVED",
+    "relationship": "may_lead_to",
+    "condition": "relief is granted and implemented",
+    "claim_ids": [
+      "CLM-BOPAR-013"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP9-BP10",
+    "from_node": "NODE-BOP-BP9",
+    "to_node": "NODE-BOP-BP10",
+    "relationship": "appeals_to",
+    "condition": "denied, deemed denied, or rejection appeal is authorized",
+    "claim_ids": [
+      "CLM-BOPAR-007",
+      "CLM-BOPAR-010",
+      "CLM-BOPAR-012"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP9-RESUBMIT",
+    "from_node": "NODE-BOP-BP9",
+    "to_node": "NODE-BOP-CORRECT-RESUBMIT",
+    "relationship": "may_lead_to",
+    "condition": "a correctable rejection supplies a resubmission period",
+    "claim_ids": [
+      "CLM-BOPAR-011"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP10-RESOLVED",
+    "from_node": "NODE-BOP-BP10",
+    "to_node": "NODE-BOP-ADMIN-RESOLVED",
+    "relationship": "may_lead_to",
+    "condition": "Regional relief is granted and implemented",
+    "claim_ids": [
+      "CLM-BOPAR-013"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP10-BP11",
+    "from_node": "NODE-BOP-BP10",
+    "to_node": "NODE-BOP-BP11",
+    "relationship": "appeals_to",
+    "condition": "denied, deemed denied, or rejection appeal is authorized",
+    "claim_ids": [
+      "CLM-BOPAR-007",
+      "CLM-BOPAR-008",
+      "CLM-BOPAR-010",
+      "CLM-BOPAR-012"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP10-RESUBMIT",
+    "from_node": "NODE-BOP-BP10",
+    "to_node": "NODE-BOP-CORRECT-RESUBMIT",
+    "relationship": "may_lead_to",
+    "condition": "a correctable rejection supplies a resubmission period",
+    "claim_ids": [
+      "CLM-BOPAR-011"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP11-RESOLVED",
+    "from_node": "NODE-BOP-BP11",
+    "to_node": "NODE-BOP-ADMIN-RESOLVED",
+    "relationship": "may_lead_to",
+    "condition": "Central Office relief is granted and implemented",
+    "claim_ids": [
+      "CLM-BOPAR-013"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP11-JUDICIAL",
+    "from_node": "NODE-BOP-BP11",
+    "to_node": "NODE-BOP-JUDICIAL-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "final denial or proper deemed denial leaves a live claim",
+    "claim_ids": [
+      "CLM-BOPAR-010",
+      "CLM-BOPAR-027"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP11-RESUBMIT",
+    "from_node": "NODE-BOP-BP11",
+    "to_node": "NODE-BOP-CORRECT-RESUBMIT",
+    "relationship": "may_lead_to",
+    "condition": "a correctable rejection supplies a resubmission period",
+    "claim_ids": [
+      "CLM-BOPAR-011"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-BP11-NO-REVIEW",
+    "from_node": "NODE-BOP-BP11",
+    "to_node": "NODE-BOP-NO-REVIEWABLE-CLAIM",
+    "relationship": "may_lead_to",
+    "condition": "no exhausted or otherwise reviewable live claim is identified",
+    "claim_ids": [
+      "CLM-BOPAR-016",
+      "CLM-BOPAR-020"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-PREA-EMERGENCY",
+    "from_node": "NODE-BOP-PREA-CLASSIFICATION",
+    "to_node": "NODE-BOP-PREA-EMERGENCY",
+    "relationship": "may_lead_to",
+    "condition": "a substantial imminent sexual-abuse risk is alleged",
+    "claim_ids": [
+      "CLM-BOPAR-031"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-PREA-BP10",
+    "from_node": "NODE-BOP-PREA-CLASSIFICATION",
+    "to_node": "NODE-BOP-BP10",
+    "relationship": "may_lead_to",
+    "condition": "a sensitive Regional route applies",
+    "claim_ids": [
+      "CLM-BOPAR-029"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-PREA-BP9",
+    "from_node": "NODE-BOP-PREA-CLASSIFICATION",
+    "to_node": "NODE-BOP-BP9",
+    "relationship": "may_lead_to",
+    "condition": "the nonemergency agency route proceeds without informal resolution or initial filing deadline",
+    "claim_ids": [
+      "CLM-BOPAR-029",
+      "CLM-BOPAR-030"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-PREA-EMERGENCY-BP10",
+    "from_node": "NODE-BOP-PREA-EMERGENCY",
+    "to_node": "NODE-BOP-BP10",
+    "relationship": "appeals_to",
+    "condition": "the emergency issue is not resolved and an administrative appeal remains",
+    "claim_ids": [
+      "CLM-BOPAR-031"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-JUDICIAL-2241",
+    "from_node": "NODE-BOP-JUDICIAL-CLASSIFICATION",
+    "to_node": "NODE-BOP-2241-REVIEW",
+    "relationship": "may_lead_to",
+    "condition": "a cognizable execution-of-custody claim with proper respondent and jurisdiction remains",
+    "claim_ids": [
+      "CLM-BOPAR-014",
+      "CLM-BOPAR-015"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-JUDICIAL-CONDITIONS",
+    "from_node": "NODE-BOP-JUDICIAL-CLASSIFICATION",
+    "to_node": "NODE-BOP-CONDITIONS-ROUTE",
+    "relationship": "may_lead_to",
+    "condition": "the alleged injury concerns conditions and an authorized cause of action must be identified",
+    "claim_ids": [
+      "CLM-BOPAR-014",
+      "CLM-BOPAR-027"
+    ]
+  },
+  {
+    "edge_id": "EDGE-BOP-JUDICIAL-NO-REVIEW",
+    "from_node": "NODE-BOP-JUDICIAL-CLASSIFICATION",
+    "to_node": "NODE-BOP-NO-REVIEWABLE-CLAIM",
+    "relationship": "may_lead_to",
+    "condition": "review limits or absence of a live authorized claim foreclose the requested route",
+    "claim_ids": [
+      "CLM-BOPAR-019",
+      "CLM-BOPAR-020",
+      "CLM-BOPAR-022",
+      "CLM-BOPAR-023"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-COMMENCEMENT",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-COMMENCEMENT",
+    "relationship": "may_lead_to",
+    "condition": "term calculation is disputed",
+    "claim_ids": [
+      "CLM-SRTERM-005",
+      "CLM-SRTERM-009"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-TERMINATION",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-TERMINATION",
+    "relationship": "may_lead_to",
+    "condition": "early termination is requested",
+    "claim_ids": [
+      "CLM-SRTERM-022"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-MODIFICATION",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-MODIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "a condition change or extension is requested",
+    "claim_ids": [
+      "CLM-SRTERM-018"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-TRANSFER",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-TRANSFER",
+    "relationship": "may_lead_to",
+    "condition": "another district may assume jurisdiction",
+    "claim_ids": [
+      "CLM-SRTERM-027"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-VIOLATION",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-VIOLATION-INITIAL",
+    "relationship": "may_lead_to",
+    "condition": "a violation is alleged during the term",
+    "claim_ids": [
+      "CLM-SRREV-001"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-EXPIRED",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-EXPIRED",
+    "relationship": "may_lead_to",
+    "condition": "the term may have expired",
+    "claim_ids": [
+      "CLM-SRREV-039"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-CONDITION",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-CONDITION-CHALLENGE",
+    "relationship": "may_lead_to",
+    "condition": "a condition or delegation is challenged",
+    "claim_ids": [
+      "CLM-SRCOND-001",
+      "CLM-SRCOND-008"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CLASSIFY-REENTRY",
+    "from_node": "NODE-SR-CLASSIFY",
+    "to_node": "NODE-SR-REENTRY-REMEDY",
+    "relationship": "may_lead_to",
+    "condition": "a collateral reentry barrier is identified",
+    "claim_ids": [
+      "CLM-SRCOND-023"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-COMMENCEMENT-TERMINATION",
+    "from_node": "NODE-SR-COMMENCEMENT",
+    "to_node": "NODE-SR-TERMINATION",
+    "relationship": "may_lead_to",
+    "condition": "the one-year threshold and live term are established",
+    "claim_ids": [
+      "CLM-SRTERM-022"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-COMMENCEMENT-EXPIRED",
+    "from_node": "NODE-SR-COMMENCEMENT",
+    "to_node": "NODE-SR-EXPIRED",
+    "relationship": "may_lead_to",
+    "condition": "the calculated term has expired",
+    "claim_ids": [
+      "CLM-SRREV-039"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-EXPIRED-INITIAL",
+    "from_node": "NODE-SR-EXPIRED",
+    "to_node": "NODE-SR-VIOLATION-INITIAL",
+    "relationship": "may_lead_to",
+    "condition": "§ 3583(i)'s prerequisites are satisfied",
+    "claim_ids": [
+      "CLM-SRREV-039"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-INITIAL-PRELIMINARY",
+    "from_node": "NODE-SR-VIOLATION-INITIAL",
+    "to_node": "NODE-SR-PRELIMINARY",
+    "relationship": "next",
+    "condition": "custody and no valid waiver require a preliminary hearing",
+    "claim_ids": [
+      "CLM-SRREV-007"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-PRELIMINARY-REVOCATION",
+    "from_node": "NODE-SR-PRELIMINARY",
+    "to_node": "NODE-SR-REVOCATION-HEARING",
+    "relationship": "may_lead_to",
+    "condition": "probable cause is found or hearing is waived",
+    "claim_ids": [
+      "CLM-SRREV-008",
+      "CLM-SRREV-009"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-REVOCATION-GRADE",
+    "from_node": "NODE-SR-REVOCATION-HEARING",
+    "to_node": "NODE-SR-GRADE",
+    "relationship": "next",
+    "condition": "violation conduct is found",
+    "claim_ids": [
+      "CLM-SRREV-016",
+      "CLM-SRREV-027"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-GRADE-DISPOSITION",
+    "from_node": "NODE-SR-GRADE",
+    "to_node": "NODE-SR-DISPOSITION",
+    "relationship": "next",
+    "condition": "statutory and advisory sentencing calculations are complete",
+    "claim_ids": [
+      "CLM-SRREV-017",
+      "CLM-SRREV-038"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-CONDITION-MODIFICATION",
+    "from_node": "NODE-SR-CONDITION-CHALLENGE",
+    "to_node": "NODE-SR-MODIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "§ 3583(e)(2) provides a live modification route",
+    "claim_ids": [
+      "CLM-SRCOND-011"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-REENTRY-CONDITION",
+    "from_node": "NODE-SR-REENTRY-REMEDY",
+    "to_node": "NODE-SR-CONDITION-CHALLENGE",
+    "relationship": "may_lead_to",
+    "condition": "the barrier is caused by a supervised-release condition",
+    "claim_ids": [
+      "CLM-SRCOND-023"
+    ]
+  },
+  {
+    "edge_id": "EDGE-SR-REENTRY-TERMINATION",
+    "from_node": "NODE-SR-REENTRY-REMEDY",
+    "to_node": "NODE-SR-TERMINATION",
+    "relationship": "may_lead_to",
+    "condition": "continued federal supervision is the identified barrier and threshold is met",
+    "claim_ids": [
+      "CLM-SRCOND-016",
+      "CLM-SRCOND-019"
+    ]
+  },
+  {
+    "edge_id": "EDGE-FEDERAL-SCOPE-CLASSIFY",
+    "from_node": "NODE-FEDERAL-SCOPE",
+    "to_node": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "federal judgment, custody, or decision is confirmed",
+    "claim_ids": [
+      "CLM-2255-001",
+      "CLM-DR-012"
+    ]
+  },
+  {
+    "edge_id": "EDGE-FEDERAL-SCOPE-OUTSIDE",
+    "from_node": "NODE-FEDERAL-SCOPE",
+    "to_node": "NODE-OUTSIDE-FEDERAL-SCOPE",
+    "relationship": "may_lead_to",
+    "condition": "the challenged matter is outside this federal system",
+    "claim_ids": [
+      "CLM-2255-001"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLASSIFY-DIRECT",
+    "from_node": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-DIRECT-REVIEW-SCREEN",
+    "relationship": "may_lead_to",
+    "condition": "direct review may remain available",
+    "claim_ids": [
+      "CLM-DR-001",
+      "CLM-DR-012"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLASSIFY-MODIFICATION",
+    "from_node": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "sentence or record modification is requested",
+    "claim_ids": [
+      "CLM-3582-001",
+      "CLM-R3536-001"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLASSIFY-RULE33",
+    "from_node": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-RULE33-CLASSIFY",
+    "relationship": "may_lead_to",
+    "condition": "a new trial is requested",
+    "claim_ids": [
+      "CLM-R33-001"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLASSIFY-BOP",
+    "from_node": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-BOP-EXECUTION-CLASSIFICATION",
+    "relationship": "may_lead_to",
+    "condition": "BOP execution of sentence is disputed",
+    "claim_ids": [
+      "CLM-BOPSC-025"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLASSIFY-SR",
+    "from_node": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-SR-CLASSIFY",
+    "relationship": "may_lead_to",
+    "condition": "supervised release is disputed",
+    "claim_ids": [
+      "CLM-SRTERM-029"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CLASSIFY-OTHER-CONFINEMENT",
+    "from_node": "NODE-FEDERAL-REMEDY-CLASSIFICATION",
+    "to_node": "NODE-OTHER-CONFINEMENT-CLASSIFY",
+    "relationship": "may_lead_to",
+    "condition": "a tort, records, conditions, or executive issue is raised",
+    "claim_ids": [
+      "CLM-BOPAR-014"
+    ]
+  },
+  {
+    "edge_id": "EDGE-DIRECT-SCREEN-REVIEW",
+    "from_node": "NODE-DIRECT-REVIEW-SCREEN",
+    "to_node": "NODE-DIRECT-REVIEW",
+    "relationship": "may_lead_to",
+    "condition": "authorized direct review remains available",
+    "claim_ids": [
+      "CLM-DR-001",
+      "CLM-DR-002"
+    ]
+  },
+  {
+    "edge_id": "EDGE-DIRECT-SCREEN-CUSTODY",
+    "from_node": "NODE-DIRECT-REVIEW-SCREEN",
+    "to_node": "NODE-2255-CUSTODY-SCREEN",
+    "relationship": "may_lead_to",
+    "condition": "direct review is final and collateral classification is required",
+    "claim_ids": [
+      "CLM-2255-001"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CUSTODY-2255-HISTORY",
+    "from_node": "NODE-2255-CUSTODY-SCREEN",
+    "to_node": "NODE-2255-HISTORY",
+    "relationship": "may_lead_to",
+    "condition": "§ 2255 custody and sentencing-court route are satisfied",
+    "claim_ids": [
+      "CLM-2255-001",
+      "CLM-SOS-002"
+    ]
+  },
+  {
+    "edge_id": "EDGE-2255-HISTORY-FIRST",
+    "from_node": "NODE-2255-HISTORY",
+    "to_node": "NODE-2255-FIRST",
+    "relationship": "may_lead_to",
+    "condition": "no prior counting § 2255 motion exists",
+    "claim_ids": [
+      "CLM-2255-001",
+      "CLM-SOS-013"
+    ]
+  },
+  {
+    "edge_id": "EDGE-2255-HISTORY-SUCCESSIVENESS",
+    "from_node": "NODE-2255-HISTORY",
+    "to_node": "NODE-2255-SUCCESSIVENESS",
+    "relationship": "may_lead_to",
+    "condition": "later-in-time status requires legal classification",
+    "claim_ids": [
+      "CLM-SOS-001",
+      "CLM-SOS-012"
+    ]
+  },
+  {
+    "edge_id": "EDGE-2255-HISTORY-AUTHORIZATION",
+    "from_node": "NODE-2255-HISTORY",
+    "to_node": "NODE-2255-AUTHORIZATION",
+    "relationship": "may_lead_to",
+    "condition": "the filing is legally second or successive",
+    "claim_ids": [
+      "CLM-SOS-004"
+    ]
+  },
+  {
+    "edge_id": "EDGE-2255-AUTHORIZED-FILE",
+    "from_node": "NODE-2255-AUTHORIZATION",
+    "to_node": "NODE-2255-AUTHORIZED",
+    "relationship": "may_lead_to",
+    "condition": "court of appeals granted authorization",
+    "claim_ids": [
+      "CLM-SOS-028"
+    ]
+  },
+  {
+    "edge_id": "EDGE-2255-SEEK-AUTHORIZATION",
+    "from_node": "NODE-2255-AUTHORIZATION",
+    "to_node": "NODE-2255-SEEK-AUTHORIZATION",
+    "relationship": "may_lead_to",
+    "condition": "authorization has not been granted",
+    "claim_ids": [
+      "CLM-SOS-024"
+    ]
+  },
+  {
+    "edge_id": "EDGE-MODIFICATION-CR",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-CR-WARDEN-REQUEST",
+    "relationship": "may_lead_to",
+    "condition": "§ 3582(c)(1)(A) compassionate release is invoked",
+    "claim_ids": [
+      "CLM-3582-008"
+    ]
+  },
+  {
+    "edge_id": "EDGE-MODIFICATION-C2",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-3582-C2",
+    "relationship": "may_lead_to",
+    "condition": "§ 3582(c)(2) is invoked",
+    "claim_ids": [
+      "CLM-3582-018"
+    ]
+  },
+  {
+    "edge_id": "EDGE-MODIFICATION-FSA404",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-FSA404",
+    "relationship": "may_lead_to",
+    "condition": "First Step Act § 404 is invoked",
+    "claim_ids": [
+      "CLM-FSA404-001"
+    ]
+  },
+  {
+    "edge_id": "EDGE-MODIFICATION-OTHER",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-OTHER-MODIFICATION-AUTHORITY",
+    "relationship": "may_lead_to",
+    "condition": "another express authority is claimed",
+    "claim_ids": [
+      "CLM-3582-007"
+    ]
+  },
+  {
+    "edge_id": "EDGE-MODIFICATION-NONE",
+    "from_node": "NODE-SENTENCE-MODIFICATION-CLASSIFICATION",
+    "to_node": "NODE-NO-MODIFICATION-AUTHORITY",
+    "relationship": "may_lead_to",
+    "condition": "no express authority is identified",
+    "claim_ids": [
+      "CLM-3582-001"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CR-WARDEN-GATE",
+    "from_node": "NODE-CR-WARDEN-REQUEST",
+    "to_node": "NODE-CR-GATE",
+    "relationship": "may_lead_to",
+    "condition": "the Warden received the request",
+    "claim_ids": [
+      "CLM-3582-008"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CR-WARDEN-SUBMIT",
+    "from_node": "NODE-CR-WARDEN-REQUEST",
+    "to_node": "NODE-CR-SUBMIT-REQUEST",
+    "relationship": "may_lead_to",
+    "condition": "no qualifying request receipt is established",
+    "claim_ids": [
+      "CLM-3582-008"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CR-GATE-FILE",
+    "from_node": "NODE-CR-GATE",
+    "to_node": "NODE-CR-FILE",
+    "relationship": "may_lead_to",
+    "condition": "full exhaustion or thirty days from Warden receipt is established",
+    "claim_ids": [
+      "CLM-3582-008",
+      "CLM-3582-009"
+    ]
+  },
+  {
+    "edge_id": "EDGE-CR-GATE-WAIT",
+    "from_node": "NODE-CR-GATE",
+    "to_node": "NODE-CR-WAIT-OR-APPEAL",
+    "relationship": "may_lead_to",
+    "condition": "neither statutory branch is established",
+    "claim_ids": [
+      "CLM-3582-008"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE33-NEW",
+    "from_node": "NODE-RULE33-CLASSIFY",
+    "to_node": "NODE-RULE33-NEW-EVIDENCE",
+    "relationship": "may_lead_to",
+    "condition": "newly discovered evidence ground",
+    "claim_ids": [
+      "CLM-R33-003"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE33-OTHER",
+    "from_node": "NODE-RULE33-CLASSIFY",
+    "to_node": "NODE-RULE33-OTHER",
+    "relationship": "may_lead_to",
+    "condition": "other new-trial ground",
+    "claim_ids": [
+      "CLM-R33-005"
+    ]
+  },
+  {
+    "edge_id": "EDGE-RULE33-EXPIRED",
+    "from_node": "NODE-RULE33-CLASSIFY",
+    "to_node": "NODE-RULE33-EXPIRED",
+    "relationship": "may_lead_to",
+    "condition": "deadline expired or Rule 33 unavailable",
+    "claim_ids": [
+      "CLM-R33-006",
+      "CLM-R33-009"
+    ]
+  },
+  {
+    "edge_id": "EDGE-OTHER-CONFINEMENT-BOP",
+    "from_node": "NODE-OTHER-CONFINEMENT-CLASSIFY",
+    "to_node": "NODE-BOP-ADMIN-ENTRY",
+    "relationship": "may_lead_to",
+    "condition": "the BOP administrative process applies",
+    "claim_ids": [
+      "CLM-BOPAR-001",
+      "CLM-BOPAR-014"
+    ]
+  },
+  {
+    "edge_id": "EDGE-OTHER-CONFINEMENT-FTCA-RECORDS",
+    "from_node": "NODE-OTHER-CONFINEMENT-CLASSIFY",
+    "to_node": "NODE-FTCA-OR-RECORDS",
+    "relationship": "may_lead_to",
+    "condition": "an independently governed tort or records process applies",
+    "claim_ids": [
+      "CLM-BOPAR-014"
+    ]
+  }
+]

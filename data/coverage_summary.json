@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-08-26",
+  "archive_coverage_counts": {
+    "total_items": 6766,
+    "intentionally_excluded_with_reason": 3377,
+    "not_verified": 468,
+    "superseded": 2179,
+    "validated": 129,
+    "verified": 150,
+    "verified_with_limitations": 463
+  },
+  "publication_boundary": "Full migration ledger remains private; unresolved issue IDs and legal limitations are retained in data/open_questions.json.",
+  "canonical_text_transformed": false
+}

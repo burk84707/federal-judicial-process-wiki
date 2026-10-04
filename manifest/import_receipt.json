@@ -1,0 +1,2414 @@
+{
+  "schema_version": 1,
+  "archive_commit": "75f5605",
+  "legal_reverification_performed": false,
+  "files": [
+    {
+      "path": "authorities/bop/AUTH-BOP-FSA-GCT-FAQ.md",
+      "sha256": "91b73e70920695094cab7b9fdd2eea6d15aaf2e87ef76b52f2414dfb5e53058b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-FTC-APPLICATION-GUIDE-2025.md",
+      "sha256": "1db075f3e354d7343cbab1d83976bdb15a8751b5d50f06d6f1e894c686417c62",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-HOME-CONFINEMENT-DIRECTIVE-2025.md",
+      "sha256": "73b88b003c0341d412e07d6e91a85e9342b4775b578a65af2947a2f23513f484",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-PS-5100-08-CN3.md",
+      "sha256": "02a199b751257985a95a156c462b7550d84581bf69e8b3b6bb49d5903a3104c3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-PS-5160-05.md",
+      "sha256": "7bf907de183ee811264559220d6f52363acca9fdb243eabf26009b1f5b3b2827",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-PS-5331-02-CN3.md",
+      "sha256": "82e40f5c66b0ad997b4aae254c236f0c59ea7778a20f019908051bd515ccd1d9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-PS-5410-01-CN2.md",
+      "sha256": "a777b3bac79459deb1bf1b150ae0ce53d84f0b65e98c1e0b6c24e89cee1a0a68",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-PS-5880-28.md",
+      "sha256": "b64d9a1d8107fb4bf12605340b144e698b6dc87e65d8664f272b91dbe9ae5626",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/AUTH-BOP-SENTENCE-COMPUTATIONS.md",
+      "sha256": "029bd20344749231cfd533123e420a47eb3531385697124ec0e268dde04075f7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/bop/README.md",
+      "sha256": "f1dd5d36930114722792628792f967e1476029eadbac57603f997c35a89f0b21",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-BARRETT-178-F3D-34.md",
+      "sha256": "17dbbb695b79f17124763edfe623a216fa1e0e181243edee9015d31cb55c6dd9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-DAMARIO-412-F3D-253.md",
+      "sha256": "6db7a7654355dbbb7b35251c77137be519d4362623898bf31503c5319638fb7a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-HOLDER-936-F2D-1.md",
+      "sha256": "4f361feb8600d850a9550f73184c54bb9a7f71bc37f343f7d0a6cd239f3610ad",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-LOCAL-RULES.md",
+      "sha256": "9d227d90e0179abf9364f000e8577237d94561b3530e3ef79e0aa4d2263153ee",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-RODRIGUEZ-REYES-23-2037.md",
+      "sha256": "bb0b6611ac953d10463942ae4294288961a8ea10d80b269639b9b82b63709e26",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-ROGERS-180-F3D-349.md",
+      "sha256": "c6fd26846f4f4fb8720f7a7607478230e4c344cebfe070867157df0a33efcae8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-TEXEIRA-NIEVES-23-F4TH-48.md",
+      "sha256": "7cc672c14adec2d6330429dbe972166b0b1ff7bba0dd3126bcaf3e2dc54e3d17",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-BEGAY-631-F3D-1168.md",
+      "sha256": "b6d429ebf8f209437bf02be5b656b76421986f71b5f07f472b27c31c444d5bef",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-GARZA-596-F3D-1198.md",
+      "sha256": "ef5510ed5adcef5026bf29b872d4e842622b6977922c2916b38be81203d891ae",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-HEMMELGARN-15-F4TH-1027.md",
+      "sha256": "5cf946be5c3559057110ca65ba91180915542745ef2dba55ef1dc399178b5bbd",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-LOCAL-RULES.md",
+      "sha256": "be3c415959e99de08fd6f563ff9fd8ccb1d7ad5e64ba96927752b65ac5855d5e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-MANNIE-971-F3D-1145.md",
+      "sha256": "49cca4eac81beb7e24417b6ca9758b5673c58b14ae8718a0cef057dc11da27a5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-MCINTOSH-115-F3D-809.md",
+      "sha256": "2e534f0accc02713898c43c6ae903d1c5d7d9ff6cf5645d4289c783ca28795b9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-TORRES-282-F3D-1241.md",
+      "sha256": "bab3ccf839575c065e0d61ec89a9f946cef925aa40241dfd9d777a12c31c3408",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA11-CORDERO-7-F4TH-1058.md",
+      "sha256": "5fa70d3f9eadabf8b7ffcb0e3f3b19376adcbdc280d8506370889dc1aa3655f0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA11-HARRIS-989-F3D-908.md",
+      "sha256": "e1dd4df78e17de6e91e42b1d8a55d4ac9dc355e41b374154a15a8427ed6025e8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA11-HOLT-417-F3D-1172.md",
+      "sha256": "7556ed02bbd241f7d3eefaf7d7ac4461d1d5c6328b84a433dbd9492e887aa90a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA11-LOCAL-RULES.md",
+      "sha256": "e0d56e2de5fb8607a3c8b37d3443d29596ad25087ec7bee8bce441db8da3ecac",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA11-SANTIAGO-LUGO-785-F3D-467.md",
+      "sha256": "83d7af939ef66a97abd2a2448a179adde42b2ebb3684973264bd0b1f8b467f14",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA11-SAWYER-326-F3D-1363.md",
+      "sha256": "a9b5b326ccd13d469ad51befc2fb594fe9a47acc21188ab2c814e17ca30d4ee1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA11-WILLIAMS-63-F4TH-908.md",
+      "sha256": "34e5b6b58ce424431a73de6222f84ceca8c167e030b2fa3b2f85cad4701933b6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-CARMONA-243-F3D-629.md",
+      "sha256": "a6a03422f9f6b40f7acfbc3dccca294e57b88f19e17a64d8fb07a3f0fa5ec72d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-DRAX-338-F3D-98.md",
+      "sha256": "c5dadce87600f8b10ab33a57ddb5ff6a8f616cf188d47647c3a13babe91feeef",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-GADSDEN-982-F3D-106.md",
+      "sha256": "fd407e72c412162d46ce18490a36197ec3f940ce8db2be973c2c236400584fe1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-GAMMARANO-321-F3D-311.md",
+      "sha256": "1f9944b9c808f2253527f262f856a99edddef73fcd9e4107df3b62f151312b9b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-LOCAL-RULES.md",
+      "sha256": "f5d9df1a90a28feebb783dac9f184c75f1f21484bd6ad437fcb17b670fdf339e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-RICHTER-510-F3D-103.md",
+      "sha256": "db4d5913da69b15c081aaeaa1cd3cf3609928e9675b70942094ead0ac51faed5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-SALADINO-7-F4TH-120.md",
+      "sha256": "ccc364b46b224c7089895ef2223325951e2a32cef5c197e90c5403f6eaddf43e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-BRUCE-868-F3D-170.md",
+      "sha256": "4e475746a61f03eaceefe06031be8e7ca6ffcdc3d2467c681f3b58b3b227c141",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-LOCAL-RULES.md",
+      "sha256": "0fa37f66d7da6f65639208fe4d6cd260e9d44075cc109688531a625edfaf460d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-MASSEY-581-F3D-172.md",
+      "sha256": "af0d4912360ce8a6ee30b682657be576617465d65bd7a428a39bf710a05a086a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-MELVIN-978-F3D-49.md",
+      "sha256": "a4fff5366e63f9e1d99955f6bcfcc915a45d5b529d439b0afeb23658772663a1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-MOSCATO-98-F3D-757.md",
+      "sha256": "d99bc16c8513f54f78917f10bb62918f67ca96e6517d60ca5416b91ed4d86bb8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-RAIA-954-F3D-594.md",
+      "sha256": "1848ace614ab59c6f0ecebbc7584111c8a74c65755093f1701be3e47e4c5a324",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-SHIELDS-48-F4TH-183.md",
+      "sha256": "95538181364ea70e50af81fd8e4b05d1dbe33cc9e0e605853598ba993028d545",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA4-DRAGENICE-389-F3D-92.md",
+      "sha256": "855a46a24f483e30cfd4bedbdb2449279869948f84b57b8e06bd9a35a5586146",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA4-LOCAL-RULES.md",
+      "sha256": "62df92ac4b2e53b43d8ed7faba7abe0f17a06db7d54d6260606ceda3ff5d25c0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA4-MUHAMMAD-16-F4TH-126.md",
+      "sha256": "ae5392750088c447d1250062802053906d29eef8550913cdeee06a90b5c0f334",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA4-PREGENT-190-F3D-279.md",
+      "sha256": "175023f06311e990ed28a355ec29e7218bf5abc875dd4e1393ad52b4d35fe1b3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA4-REED-58-F4TH-816.md",
+      "sha256": "62ba879044134e970409a9d0cc5eebeb8877853b51e8408a5328a788264d47ab",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-CAILLIER-79-F4TH-506.md",
+      "sha256": "952924d2be9200c671c6dd837836eb05aba80c00c024b35a099a11518ed8573b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-FRANCO-973-F3D-465.md",
+      "sha256": "24f6e358edfcb3f6a79388432dc81d8bff6189fe8e638b798a4a827194cb7894",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-FULLER-11-F3D-61.md",
+      "sha256": "da0ce7722d193dea1dbd9fa1ce9408a9fe23fd23b68aa0352768114a28a46fc5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-JEFFERS-253-F3D-827.md",
+      "sha256": "84b948347d809d5242ea7c6f71ee0c62f2ba4da04f91e5484a87c35eb8ad0316",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-LOCAL-RULES.md",
+      "sha256": "2c8c3969fc25543f271321e4f6def62af5db0b3c0589c436e7f3b922d49300f0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-MILLER-599-F3D-484.md",
+      "sha256": "554edffafc6f200eb06bd777d4b790e22fc924d93990f84f2009de4933d514b8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-NARANJO-102-F4TH-280.md",
+      "sha256": "77ed2eec77da0c96d813bcfb2f389fbfc0d4a65d3f1260f49f1211ff14323197",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA6-ALAM-960-F3D-831.md",
+      "sha256": "cfa2c28d176c913ad902b55da998f6904b4e66666363843ac3f3aa5f754d4601",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA6-DOMENECH-63-F4TH-1078.md",
+      "sha256": "abe2cc998175d0426b6005f40ce8d33b0a65b75bfbc442f83a1b08ef601c4089",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA6-FAZZINI-473-F3D-229.md",
+      "sha256": "9172433a11d5537dc4675e51256d1c1ebe17d42fb359fd000e48d42042bfd53e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA6-HALE-2025.md",
+      "sha256": "ec89221097f62229cc373dcebd6e22f3605f2d9399cc535fdde2cf1f15120a64",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA6-LOCAL-RULES.md",
+      "sha256": "1344a7fdf07eab84319519f4a01ace590d1066e267f8a72f4d1b362c4c6bbeb5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA6-WITHAM-355-F3D-501.md",
+      "sha256": "c92d5c96e01ad24c56c088957dd0815b5a3d33719158826a482ad634816fcb62",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-JOHNSON-962-F2D-579.md",
+      "sha256": "c98bcd5d79c13d97317207fd356bfa1b6ec39e863b9e2f3f08a6afb7e8c13604",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-LOCAL-RULES.md",
+      "sha256": "9c472fa83d4b99295cb7c3dbfd96530d4d08e7054124607ecdd797310abf1b78",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-LOWE-632-F3D-996.md",
+      "sha256": "5c179de91c10461d83bbbf5b75c83b5149af0d684c5caadf5385589b9516f707",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-RICHMOND-387-F3D-602.md",
+      "sha256": "95c148ac785635c710e2083116d08cef84d2d443e150877769bb2d2ff562c40e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-SANFORD-986-F3D-779.md",
+      "sha256": "65c88e632a24f5d17f3343a030a3d48ec5e0cc1b2468cf6ea46e10b785c5b79a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-WALKER-216-F3D-626.md",
+      "sha256": "ba2820885882dd6f8e6af5423ce8199798305f07be6400ea009da0a90da34bff",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-WILLIAMS-93-F4TH-389.md",
+      "sha256": "4a099ac9089973d6f4fe9551d81712387292c8a4faccb0105769ce0710e5e38c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA8-HOUCK-2-F4TH-1082.md",
+      "sha256": "f5701f06e2c625d6600f779c9ee6f1261f6eea093e4311f61396d641a4dbb3b2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA8-LANGELLA-612-F3D-938.md",
+      "sha256": "9207285d0409f195a72bc2a9e2d64972269552e25deac40de00646993e8ca0e8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA8-LOCAL-RULES.md",
+      "sha256": "686950610c1e3a7cf9c6b9c0f2a32c105bd941037c0cf1063867a6db7effd42c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA8-MATHENA-577-F3D-943.md",
+      "sha256": "039f0189d6f6b4e6c7d436c429446d2c33d64d9e8867114d1e656ad100d1456c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA8-MCDONALD-944-F3D-769.md",
+      "sha256": "f4c9d06d7e668f75743e45e43e62fba395d9155d34a03e20a8883a093057a1b9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA8-NORRIS-62-F4TH-441.md",
+      "sha256": "6de51896d15bb96a450a9afbd094c6e17900769201d55f75e4ce682417e87f72",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-CARRINGTON-503-F3D-888.md",
+      "sha256": "4d617995d091d6110a4d37710922b9b8339295b5975a75571f30b1ae8656e5f0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-CARTER-44-F4TH-1227.md",
+      "sha256": "f39d89b83d2ee71f6eeffb633a9c126bdf5ceaa2f06bba5ff019e0869e05e126",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-CLOSE-653-F3D-970.md",
+      "sha256": "0e834d4c65fef8134ecad00f82ac183773aacf6e296623f655af122eb05071fa",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-KELLER-2-F4TH-1278.md",
+      "sha256": "941c38c14158e7b4f86b9d89c2cc45c1e29ba7c885453e286d31c9668850845d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-LOCAL-RULES.md",
+      "sha256": "054054fd3c5f5dcbdfa04c3bd574437c2cf86d405e32dda59219a7a4cf24f4a6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-PONCE-22-F4TH-1045.md",
+      "sha256": "4c05144fba362220d016d596ad60b11f169ce90557b58e9bcbd69fe6171eb1d0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-RODRIGUEZ-COPENHAVER-823-F3D-1238.md",
+      "sha256": "57d4aebcb5cccf8cacf57be3e43ace9195c990dcb55f830e10509a1190f4dda3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA9-WARD-678-F3D-1042.md",
+      "sha256": "d97b5e3a8af3bb3826ebb6d47b4e817a1db95a0f1a74e330f64120ddf690a21f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-AYALA-894-F2D-425.md",
+      "sha256": "32b46c5d7b2f16ef9bf433e365f03c7a8523bb5b883a5e635db2d1bbffba0f7c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-LAWRENCE-1-F4TH-40.md",
+      "sha256": "761fbb5499a22e32dd51f28f13a70879da74fc960b98ac19582e92b1a9884a65",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-LOCAL-RULES.md",
+      "sha256": "0d7037992b926204784092283d6e4be1743a2fa44401961b0498e2b9c4bd7714",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-MADLEY-278-F3D-1306.md",
+      "sha256": "a5930dc077c588f7671b706988894ccf23d5642e6b3ac990ca3b3efdc62ce67b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-MATHIS-GARDNER-783-F3D-1286.md",
+      "sha256": "35fe67a0294530250a8a4db8c9d97347f16c29c49973102e3688ac0898a7ca54",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-SMITH-104-F4TH-314.md",
+      "sha256": "c2ed17d0da791e970ec0ca4f0c0edb816bbec3048cfd6d1da33d13cd15d1503c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-SUGARMAN-170-F3D-1145.md",
+      "sha256": "7a6469c437873298590ff63c58f0fa3c47e27661115f985ff3e4eeb69aab22b5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/AUTH-CADC-WILSON-77-F4TH-837.md",
+      "sha256": "f71c05ff9339370aa0f233fd1e2c0ff9ce6e906eb1b4509fabe2bd23f7d1521f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/circuits/README.md",
+      "sha256": "882cbd17f5cec3f3afe5fa9b3f9226ef1d3d86e0cf512ecb307f76f7a3e43cc9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/constitution/AUTH-CONST-CHARGING-VENUE.md",
+      "sha256": "2f270b974da444bcf10f266204a93c662acca78d9103c8bb14cc329e51d8706e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/constitution/AUTH-CONST-PARDON-CLAUSE.md",
+      "sha256": "0fe2d3c53cb8f6bab00bc594451851737d298c4ed5d6346603bb3c175d5a02d4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/constitution/AUTH-CONST-PARDON-EFFECTS.md",
+      "sha256": "6e6173abc9bf9b6d9c656283079505c51d448d28ef3a1c22230ae46d86b8c353",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/constitution/README.md",
+      "sha256": "544e96775d705933f21eb432dd8aaae2d0d0a98d96c582a76bc03def59e1444b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/district-courts/AUTH-AO-CURRENT-RULES.md",
+      "sha256": "3c37acc9f1670b2512e16d8f1f9beaeb8db4323f3dd8d7b2da32d994398ab04d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/district-courts/AUTH-AO-DISTRICT-COURTS.md",
+      "sha256": "d315ab860aa832f0a709ebe1399c1990612191e58ebbf198f74d61d719095705",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/district-courts/README.md",
+      "sha256": "9e2d736d0972166c589ef07bc624c7ec3ca6f2e911f71137612e66e312d6d0dc",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/doj/AUTH-DOJ-PARDON-APPLY.md",
+      "sha256": "492103a8d896da28e4cdfeabcf8d0a7f375b11e7bf977aefd52466e753a1ccbf",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/doj/AUTH-DOJ-PARDON-FAQ.md",
+      "sha256": "f9d1cdfe3402d907dfad92e8564eec473b2d13bcd1e307a26ccd7b8255ec201e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/doj/AUTH-DOJ-PARDON-PROCESS.md",
+      "sha256": "34c74d6955e992cb7a16804a5ca00326bc30dc6b01296a9d21bae2bf0bf2fd38",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/doj/AUTH-DOJ-PATTERN-2019-RELEASE.md",
+      "sha256": "fc6dc6116dd60621e824ed6bf18bec29a18ad3c3c491a855883f9ebdbbfb50e3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/doj/README.md",
+      "sha256": "e0be4f3127d1d07af539494394dc017624b1b991f741acd132d713de4dc8780c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-0-120.md",
+      "sha256": "3c8e9fca8e4b07803b8105881d452b3884ecba4ed4d83e44f9d822fba23525eb",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-115-52.md",
+      "sha256": "6c7032a59394376c4ec7182fd6e5f07072fa2832896b8db04db018a5ec776030",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-523-20.md",
+      "sha256": "943eb6b4649c3210a092256ef155e763e9dc6da569afe4b317553b997cd04dfa",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-523-SUBPART-E.md",
+      "sha256": "ec3b8117265d9f750b0b0fbbbe3c1a5bd17edc4b99142f376c8145e9ea8d0c71",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-541.md",
+      "sha256": "d0ffa5076c01d19c3fa10116a369bafc569554aa21ca5607ff2d4d6e92bd8de2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-542.md",
+      "sha256": "75a451cd77374baeb2bd3f5f65761d4bfdaa87c07c0a913003462d6de6506a80",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-550-RDAP.md",
+      "sha256": "bf0bd2f5b4549b896a9e8ad44a009fbed9834ae30f5f497544c59df2f1d32591",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-570-SUBPART-B.md",
+      "sha256": "e625552673071ec12c62db5585cfbc241a45ca01dfb01c95d2efd851970e92bd",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-28-PART-1-CLEMENCY.md",
+      "sha256": "2c2e30e3e8fb1e97b694bb417dcefd5c94473cf4ba45f74793c19c0bb919c292",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/AUTH-CFR-8-287-7.md",
+      "sha256": "ab2eed32017a1e72773ab4950324271772885a2ffeb3b4141f35f71455342378",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/regulations/README.md",
+      "sha256": "bc8b0df839cd95d0775a5fe612a08643230c23bd195ae9504045cd2cd68e405f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-AO-242.md",
+      "sha256": "d192cc7a5b78e8585bdb91706e588d5546d3a789d6a7ea4cdec732007d22a88e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRAP-10-11.md",
+      "sha256": "0d6d6ab493ccdd5ae99a68f6020993b5f37e4d7f3e46d7a68bdcca6426636c54",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRAP-21.md",
+      "sha256": "3d526d0a3d97e09400d78e278dd9205bf5f37ac7291c2819d9f10fa0fc04776a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRAP-28-31-32-34.md",
+      "sha256": "635fa5fd7be37fa491a0765bb7d77686e1b004e74d854cbe7cece431e1526930",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRAP-3-4-22.md",
+      "sha256": "618838367d6c84c2cb1ecca693be3e67fcba9b104ecf6e3270f788d173180fed",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRAP-40-41.md",
+      "sha256": "cd79414a2eae7076b00fde6e4faf7b488ebb73558600f7fd6027ae36131086c2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCP-15-59-60.md",
+      "sha256": "08164f9185792ed4b7f517f0c825e16cc0b0d00896cacde3f0395fb400caaa4b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-1.md",
+      "sha256": "c29a272605ea50616572412a418eabb5dfba016a33e08e40da29964a16cc2c5a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-10-16-17-26-2.md",
+      "sha256": "e466a1e2d470caf4b2f910494f092bd14c11257b2bb9596c87e3c678bab761d0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-11-52.md",
+      "sha256": "17e858de0dc0d939f8891be94cbd3461b26408fea8b58c78141947d986011112",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-12-14-41-47-51-52.md",
+      "sha256": "1985c99ba01ff0e08b370a3183d6ef347250a6e69f547366dc7f3c079a3adcbb",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-23-24-26-30-31-43.md",
+      "sha256": "0d04890141d511ad93af29961733c4c2f9ac0c62ca2576e1f5b136089efd2acf",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-26-3-29-31-45.md",
+      "sha256": "b11874d445411c93aa0490865a40a7a47bef0ecd427e52355df3229390a25655",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-3-9-18.md",
+      "sha256": "57e109909d48ca8e83f2281598d1a9d174e0f7f276aa45b5b17f4d9dec883e04",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-32-1.md",
+      "sha256": "ec63ab970a50e636cdc51a024ed31b9c2e3d3591dd168435fc4bcac0a789b86a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-32-2-35-36.md",
+      "sha256": "018346dbb7eb7e165e03a8d387fa7c2640917bdf2a1a11be31d01aae2f2f078f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-32-51-52.md",
+      "sha256": "7d7347c7712c267b7b0d09d96da2083aeb93a7483249815f4a8b805575233429",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-33.md",
+      "sha256": "fa6ea3d276021791f9b31194f204befa03e6ad98b54378a5fa311329826982e6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-35-36.md",
+      "sha256": "749b4814674170ce262bee8c7076bca6f30be484f4604d02942ee4a174b8e2b5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-37.md",
+      "sha256": "56a164731d5d90bfa3c7e62d5969e9fa1eaa1a898a9de904a7f179063d70e932",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-45.md",
+      "sha256": "56fd4e42d09cfec7b5ab0b0282073d6274a66a27fc94e42717532d5320ea1200",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-P-5-5-1.md",
+      "sha256": "ad199e2765bac01d1d7406efadb5dc285df37d9fd9652f754de39b2eecd2001c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRCRIM-PROP-17-2026.md",
+      "sha256": "d61800ef67cc988c9055efaac217f74f49ffc22e6cbaca4f33af8a0625393bfe",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRE-103-104.md",
+      "sha256": "249bd4ce2ada39b15a8b795f1d679402cd285f7cc055ce5d61467f2934ef8fde",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRE-1101.md",
+      "sha256": "c128a284275ec4633e3e765457e1a8e6dd272d33904a04254886d12f029e1a22",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRE-410.md",
+      "sha256": "d58242ef143657518d14c5fe07afcd95daff1b4d950ced1c0ab73485ed317f16",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-FRE-606.md",
+      "sha256": "7b883b9eb555f9c7c27f198753598287c8cd50d725d7fb46f415ca4384ea2759",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-RG-2254-1-12.md",
+      "sha256": "76c47062bbe6aacc78ef0f0c9830c271d58fde3c83f4ef464dfea5bbea074893",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-RG-2255-1-3.md",
+      "sha256": "7ef9a520e540f1e41f6eb6ae64a338708f4a837582620962aa431b164477d1eb",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-RG-2255-12.md",
+      "sha256": "2547e9299f826e1af8deefcacb206f031ed44c5b1dfe70fe4a3115db5af5cdfb",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-RG-2255-4-12.md",
+      "sha256": "8cf9e81a1cf7b0f5130db425aa804d9d8e926bcb90d6eae27a9fe2700b07dd91",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/AUTH-SCOTUS-RULES-10-12-13-14-39.md",
+      "sha256": "9b8a12fcd7cace319103a223fad062b54b6b42ae650ddd9c59403d1f9e216f88",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/rules/README.md",
+      "sha256": "c8edca4d6304eed2f18a4e531d93bd852cff6882883a5a8e4f160161fad863ba",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/secondary/README.md",
+      "sha256": "de458372ca68e7a3318195aef68e72692c97d72c663e149d0237ea1227dfd86e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/sentencing-commission/AUTH-USSC-2025-5D1.md",
+      "sha256": "c64cfcd03031274625f73b97fe90d940bac9ef2e1c15db01ea666bf4f8d8c06f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/sentencing-commission/AUTH-USSC-2025-7C1.md",
+      "sha256": "fbdc1ab06b9d2eb02d43e62354df9290b38592ec39f0a9708bb184d87a131c3a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/sentencing-commission/AUTH-USSG-2025-1B1-10.md",
+      "sha256": "140124064bfbed842f2cc5d1fad7356af62f4887c08e9c4840e15a637b3b67c7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/sentencing-commission/AUTH-USSG-2025-1B1-13.md",
+      "sha256": "16d5fd2635fd4a6bc49c0f7b948c0af739fa8c43941051382d811b14a4148484",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/sentencing-commission/AUTH-USSG-2025-SENTENCING-CALCULATION.md",
+      "sha256": "45b3daf0ac30527ac2b3f521d84ef45fa52ab469f404f392ca3582f496b91332",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/sentencing-commission/README.md",
+      "sha256": "46f4ddcc47f49721cfc6e353281de418861a4edbe602b53f5b9d0bcd36c7bf73",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-IADA-PL-91-538.md",
+      "sha256": "0be4206fdf62976fd88fa0fa48af6fd072d9f5b9e1bc70dbddde9ee2679a0518",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-110-199-SEC-251.md",
+      "sha256": "26351e843ad4b187d1f4cd0da11d5d21cedb8ed8a1c87195996f4bbdf5ae7a60",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-111-220-SECS-2-3.md",
+      "sha256": "602a9717994a13bddf40bcc3f25c9929870cf8754c201736d787a3f83a4068f1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-115-391-SEC-102-B.md",
+      "sha256": "04658b95b3b8c37c69f59dc05be1167fcd3bd0a58dbcb892d16ff1a21ce46f5c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-115-391-SEC-404.md",
+      "sha256": "d7ee274694e83cacff1da399e5f9146bd055474cd8ed01e6b3e2ba5aa6d05cf0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-116-136-SEC-12003.md",
+      "sha256": "8eec10ba6dff1fca06ec13f65cb06f0494f483b132dd446ca31ebdafceca318f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-118-3.md",
+      "sha256": "a63d2eaf7caf773ecae9c5b82716170fdf3ad379fe07860b889f073ce55e8fb1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-17-4241-4243-4247.md",
+      "sha256": "0318a84cb09201cc2eb71c0cf8eabc04796501db0c53b72bc1ab8c2514c9f555",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3006A.md",
+      "sha256": "546b7fdfd8ba50b68a83d51b1110efb2ac4533dd6720a73eb44a4e1e22c75e88",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3013-3571-3572.md",
+      "sha256": "eb63adb32983d515feac4b6e6fe2e75a9c25d4ced32d3e85816fa14248aacb72",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3142.md",
+      "sha256": "e5125d0e5719ce687bdda59289fa76fd56aa425a19d3502e42e29f94d5bf15cb",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3143.md",
+      "sha256": "c093fbf7e946714ef45260fd778e10c61ca430393ff6b86895d042fa33ce17b4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3161-3162.md",
+      "sha256": "b9fe27f7f449ff50f606dd2aaec22c0fb6ac9a1c517e1c9712b710ab5917f641",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3237.md",
+      "sha256": "25149595bc2411547048daef839b4bb837cdaaac30b89ae58c9eda69e63f8fbb",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3281-3282-3288-3289.md",
+      "sha256": "dd03b404e5354ab9012371a980e70b6788ba4c646bb5529e02528af6c538acaf",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3500.md",
+      "sha256": "531ea233a578b04a56ddd22af1a050c3b521ca6b174d9d732f41df0007415198",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3551-3552-3553.md",
+      "sha256": "4d37f8ca53d1a4322f4ccb26648f011665a33bc17719605c00d275df79507a0b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3582-3583.md",
+      "sha256": "10e85422423e6b536e060c4ceb8ee6e9965434b8c75d4a3e5f380bb42d356b7c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3582.md",
+      "sha256": "5b5cbac58229746699ae8223bd908e2dacfaadd9d0b8e14468851d696b739a80",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3584.md",
+      "sha256": "4f6b588f06f1fab1c30fe1650860956c116abff8b82858e07d86139711d71462",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3585.md",
+      "sha256": "c1819f09bff106ec5bc5b6a8ae7a2a9d7097bef71ff802711b2fee9778756b94",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3605.md",
+      "sha256": "cc3c4fa22af98f7e860ce7e412b5d922c9bdef75cc28aa881755f7b89f6f498c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3621.md",
+      "sha256": "7730b20784b7857a3bccf897765d62aee5a8b8501792e2716b1a721fd8c15061",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3624.md",
+      "sha256": "c88d28fa3af7d1bdb359bc461d61f04df868adc5c0cbf79e12af0e62d2644f3b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3625.md",
+      "sha256": "30c94097b6f3eb4decd0672643820d097f120bcf7e07180d26ab0f77a33e720e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3632.md",
+      "sha256": "28f4ac0460ed35854deb421b068364ce63542708258923b16b9dc7c08f706d86",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3663-3663A-3664.md",
+      "sha256": "944ba93c541c7061e3c30fe40a4d5490643fc3e61b1dd9f878f26a0683947dc8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3731.md",
+      "sha256": "5c9626c2324c4049f49691931a490403458e16f1b4af62e27307df9500b1c86b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3742.md",
+      "sha256": "de97ccbd075c28a455946339650e2ea0e80c2dc510aeb54013ec59a22c16bf8a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-982.md",
+      "sha256": "eb6b939d59715a57b4bef93b925f9a1a9f2064827a3989979c77fe41cb378894",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1291.md",
+      "sha256": "ec324b1b53454d7df6e9d903dbf4452dc1d424ac1b543c396c8e1ebd691ffb70",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1361.md",
+      "sha256": "0a65ef1c66cc014439b3047a11f2215d45954aa78ea364b20bd432880dead260",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1631.md",
+      "sha256": "4d0690075d0944f710b4675651b1857f28948c69f2ea8aac8fc4436ab0cc363a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1651.md",
+      "sha256": "2f9e34ac9264bfaea619efad947266366059614335806751565aed21403b0f05",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1861-1862-1867.md",
+      "sha256": "278d1686c0cf2427392ba902582202ce4de7aa63c4e66f4aa5947b8b5b59ba5c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1914.md",
+      "sha256": "5af9ccf0ae9f43669dffa31ea192e8e4f5f42ca10e78f719dd3df38cb02271e8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2241.md",
+      "sha256": "1d4cefb9bb4112d238159601f4250f3de196f4c0785ca9de3df873ef363bece3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2242.md",
+      "sha256": "665c27606f8808a98513831380a35a2b7506289d078f5cc905a0a84b4db9b6e5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2243.md",
+      "sha256": "007100bcc7307764a713f4206e72c14642dce6643c4be711b153f44046c7f8b0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2244.md",
+      "sha256": "a535e5f396f51e628c8f98bc41121689931082bf82927823e5ecf3bd885f7576",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2253.md",
+      "sha256": "58a5441b326c10cab82ec39fea0181f23c7ef02aecbbbce4fb4360e5d3d8bc89",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2255.md",
+      "sha256": "e71df14caeb78140d1d19511130c8e9dd234a6c5635914ed828558bdb060d05f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ABNEY-431-US-651.md",
+      "sha256": "fd8b038cc94721796c7824debe23ae331998313c269287d974ca5ee5d4e3a031",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ADDONIZIO-442-US-178.md",
+      "sha256": "f53f796a5d32b02e8f0308a49afce79fe02c9de73137021ac358a418a195bcb5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ALLEYNE-570-US-99.md",
+      "sha256": "9af3906006ec2a7048dbb271a8583d56a6a23280c8a2a55cdfbc66f6708f306e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ANDERS-386-US-738.md",
+      "sha256": "c1ad6b4e2db446b2d42545045ff6e344391bdb7f27593cf04a19d2c37e1ccf8e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-APPRENDI-530-US-466.md",
+      "sha256": "2fbc1285c23d68f202438d19150c617a73d350c24135d0284d0dba51e41c5da0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ARIZONA-WASHINGTON-434-US-497.md",
+      "sha256": "19d5e13bd02f7dac75470de2c20b658d3b51245e2e8a2326d3f662b4c7a9ebfd",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BAGLEY-473-US-667.md",
+      "sha256": "4fa30b560e0e5aefdb2e6e9c22297a109d732d9a5162d5278f104d485679d154",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BALDWIN-399-US-66.md",
+      "sha256": "4b47f50f7f19eda07220a9bbf686289f24c981986c7d833f3b169598cf02394e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BANISTER-590-US-504.md",
+      "sha256": "23c78686c9f565ccdce04afdb50b8681e9067ac13cb340a3e41efd06ce4a30ce",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BARBER-560-US-474.md",
+      "sha256": "3aa94911eb556f0c6eff4c2f65860eeacff5254cefe8bb4667905095c0e741b6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BARKER-407-US-514.md",
+      "sha256": "58ad6d591fb9d3e3f237d3d1830cc41d21b3863a70f223b6bb000eed6dc5bde4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BATSON-476-US-79.md",
+      "sha256": "40941ea21bfa89d95b37095f09218c5f464e22f4b5931af4e97f4853c477bff3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BERMAN-302-US-211.md",
+      "sha256": "bc1ca4407e0adfe3d0c34580b273450bc7a6120b5174d928c03d1fffc2b5a6ef",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BETTERMAN-578-US-437.md",
+      "sha256": "84a36e9cd4a04f18f8881fc448c51e95c16c77352cf9f013108ea2f8e7b528fe",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BLACKLEDGE-ALLISON-431-US-63.md",
+      "sha256": "7bc9e8c5b52f745a9c31f5115ed05cea50c403c78eff7a31b7a4e710b03fed74",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BLANTON-489-US-538.md",
+      "sha256": "7cdfdbf1b9e96184694ab1c679cd9e21d7dc0a8b21f8f766fa3c41efac428082",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BLOATE-559-US-196.md",
+      "sha256": "9f84130571ad2c35114d1842422f050c6f14dcdb3bd1bf4fa446d9e6c4ff103a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BOOKER-543-US-220.md",
+      "sha256": "75b28319e67872907a2f772e1f09d4d887c8e55c24308d23770bb7c67d07b2c7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BOUSLEY-523-US-614.md",
+      "sha256": "aa2819e434d81a19adda0374ddd1d854ec224fd7db6330c1deb7a72b1335a2b7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BOWE-607-US-13.md",
+      "sha256": "13b87fa6cbe431a406cf00a8cc48a722a38e90deb99b526838bfa433be3e1f23",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BOZEMAN-533-US-146.md",
+      "sha256": "9730a39506b81376f22b8187ad65663d1aa96bf38ac1cef1b5966e2d09e658f4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BRADEN-410-US-484.md",
+      "sha256": "3ba8ce3f2cc42ed29dbba69ff4fc17e318bee0941edf1ac2d328daf6194dfae1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BRADY-373-US-83.md",
+      "sha256": "02b1dac8b5cda6ee011cc2b5b6e30505227799321528587612be19943f41c960",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BRADY-397-US-742.md",
+      "sha256": "d02cb969532a9506fd729fdf3c92252d6c49deb8aee99d27ca8dd8c9f89b5bd2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BUCK-580-US-100.md",
+      "sha256": "4d51490adf2d986d9ad540b2e2bf0b6bbf7aa9eab8d2515ea7bf6281e6e66d99",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BURKS-437-US-1.md",
+      "sha256": "8effb566bf351d2d1cfbcdb60243c5248cd758069ed54c65590d96277f489a15",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BURTON-549-US-147.md",
+      "sha256": "b6c8e3ec2987ff96b61eda48f637525c63df3fb34038fe87777564c5197d8389",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CARAFAS-391-US-234.md",
+      "sha256": "265a1aa9d57dcfb8efe3d2dd18e3ea676bd126688f0475f52d4852d436a92ddf",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CARCHMAN-473-US-716.md",
+      "sha256": "00f84550a1bb086a444fe4b430bdf8271306947ee00d27b58f6ba192b6eb2b0f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CARLISLE-517-US-416.md",
+      "sha256": "7426d0517e48c93c32f0c3a5844a929626a4f62df9f3e731a55d383d7306a0a3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CASTRO-540-US-375.md",
+      "sha256": "d53892456e5e05595544f2e1c6530e3391ed11251e3b0962d09f1736caeaba6b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CHAPMAN-386-US-18.md",
+      "sha256": "fcbe4935fd190337d60d54f4fb2c3a9701a131de4930fa3971a6bcdf4b2abe26",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CHAVEZ-MEZA-585-US-109.md",
+      "sha256": "7ed15bce91bf31c8134e55e9be06e957edfac1a1c776ccb4d5e1218118b72087",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CHENEY-542-US-367.md",
+      "sha256": "25e4cbf6be9c61d07c4b4826757c26f1f4cf84f17d1a78543dbd30ba5c9ca01e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CLASS-583-US-174.md",
+      "sha256": "bd3ad7fe55a04072f1c8cede21ffa77e9eb815d2184fa707d4e73e1fb77627d3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CLAY-537-US-522.md",
+      "sha256": "10013605ae5a2b35635cffc371fa0b91e82a6b7638fc3c1187c052a28dc26960",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CONCEPCION-597-US-481.md",
+      "sha256": "5e1161eac52f29eb841474eb47eec5fcce2a4cd339b1348b2122b1eafd85e8db",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CORLEY-556-US-303.md",
+      "sha256": "6ea39cfae757932d268373213a42b8970857becaa875c15ef83569edd3656b98",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CRONIC-466-US-648.md",
+      "sha256": "5b831ec3c3705cef41e50f6e7bfc317bd944665532d0ed95a5f4d883b46fea48",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DAVILA-569-US-597.md",
+      "sha256": "e16f706b8dd0b3cc3c246fbd39bc0acf4bcb7a1c866fff7c72ca309ce0b8e26c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DAVIS-417-US-333.md",
+      "sha256": "5789afb43950643b108aa34845943f6248a17560eef8a7094daa6882f5004b9b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DAY-547-US-198.md",
+      "sha256": "25637749a5419951011397248595a3062855bbe061acaef63b168f5aefdb69ac",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DENEDO-556-US-904.md",
+      "sha256": "0b32b989e4ef40aa98aecc95f1ad5b42f4dbb85e3e6f716df5851c7678488a36",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DICKERSON-530-US-428.md",
+      "sha256": "23c93cadff3fa2e8f007f1c8f59ab039b3785b098e4c26dd2d08a23a5add9617",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DILLON-560-US-817.md",
+      "sha256": "58e2783658adb7bafab6de6a2cdd4864ab39cd908bdf1c847d5a0d4c05661f38",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DODD-545-US-353.md",
+      "sha256": "9ed31212642537a191879573edcaeb481175703b56e71ebc5224baff4010b5bf",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DOGGETT-505-US-647.md",
+      "sha256": "dc91712871316ea9576c94ff7d1d8705126e7c46577c42db91881bd98ad41ef9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DOLAN-560-US-605.md",
+      "sha256": "a1d40363e3e53d5a8305bce0d42c823e351c8d20cba9bffb9df906124843c2ae",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DOMINGUEZ-BENITEZ-542-US-74.md",
+      "sha256": "56408cae712ee0b798b81fc12b72eaba9a5c3f829f59d3b4bbcbbc5690d1019c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DORSEY-567-US-260.md",
+      "sha256": "a229b8e5e0e7c5a949660f50d6d251ec5af3ec70422aa5608e21e484d079f35d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DROPE-420-US-162.md",
+      "sha256": "57c6959c2aacdcdc06c608ca022f29202eb639aa63fe85ce4ef17d8937eac3a4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DUREN-439-US-357.md",
+      "sha256": "0523ea356226686b14829dac898e0ba74fe70481a60293c41f808a7d77ddb714",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-DUSKY-362-US-402.md",
+      "sha256": "68bc2b17078664b77cf9340e10dafa35271c6178f98bb89b6c6e6dd5c2514755",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-EBERHART-546-US-12.md",
+      "sha256": "a03582be3f8fe85211aeafa96fb2252a0f813b507d797e5a7ed97a7c18e1fca2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-EDWARDS-VANNOY-593-US-255.md",
+      "sha256": "6d4940d3b5ecdc6c9eabbf064f3f93e3c752f8cf8862e0baa5ebdbf8bd5842c5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ESTERAS-606-US-SLIP.md",
+      "sha256": "596324a9cdbaf8af1fc6ab2ebac80396cf9abe8338bbafbab6b897303c2020ae",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-EVANS-568-US-313.md",
+      "sha256": "b1cb59af0d5a15f67b6d896bafc4718f6dc3a1767ecedc1c26897971e68baa32",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283.md",
+      "sha256": "09ec0379b063ab74c2fe87e3b073e6b40ef50cbd30cf18df7b0a5c58acfefe11",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-FERNANDEZ-608-US-SLIP.md",
+      "sha256": "f81f6e5272aa9330b4dbbf87a1d0168bfc7f438dcb903719692b4f1382a19314",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-FEX-507-US-43.md",
+      "sha256": "74100134d9975795c941eef5cfa755b8800f67c23f1e478e2bfccf71b691a01f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-FLANAGAN-465-US-259.md",
+      "sha256": "efafa881f5080d394482e472ee181f41f2bc860723c4a0225f312fc02c738bdc",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-FLORES-ORTEGA-528-US-470.md",
+      "sha256": "4309cc88b0cc8188821e9cccc4fe3a59fd951d8aa8aa70acba89dcc99e137a62",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-FRADY-456-US-152.md",
+      "sha256": "4e6a9f1166853b3a02df579e501ef2215bce3bd5c73f3e293f838f1871a2fbe4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-FRANKS-438-US-154.md",
+      "sha256": "519084a81190568a9f3e82fa595caaf46e8b147efe413bd5ea39fd9226f5e1df",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-FRYE-566-US-134.md",
+      "sha256": "d5f1fff5fd3127667a79f5757dd20e4b945169b5544086711376af203c101e2f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GAGNON-411-US-778.md",
+      "sha256": "3f0b32183e96bbbbffb8ad1b62e5414591d245b93fbd7972ae8966d0932ae697",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GALL-552-US-38.md",
+      "sha256": "67c0259126af04764ff1774b909f07b4872f8d9ae03444e11156adcf8df9e250",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GARZA-586-US-232.md",
+      "sha256": "ada5dbe128cd889c37632aa7be0ad1e7c2a922d12b6cd3a408b31e3b74e0066d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GIGLIO-405-US-150.md",
+      "sha256": "8cb8655b0a349dc84a1e5de237d2d0a9ed6a95bde7bc4a0c57ea6ae0feee726a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GLOVER-531-US-198.md",
+      "sha256": "0781b72bc3744db820129ae3a2068aec0a46c8835ef5f54ee32812c475816414",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GONZALEZ-CROSBY-545-US-524.md",
+      "sha256": "5bbfd7c182954b49d72f78bfed3407429310f96c1be6266c72abf46aaf3281f0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GONZALEZ-THALER-565-US-134.md",
+      "sha256": "12bdfe4e808e4d21b3b6fc58e1bc0f84beec5e4488d61fbcc8bae3c7808c4fd6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-GRIFFITH-479-US-314.md",
+      "sha256": "36df836d984db71214674867fb3a9fa3fdfb853c08f27e95eae6ec1bad1f58c0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HAYMOND-588-US-634.md",
+      "sha256": "e680c071e4806d2d121816cd12a645e8290f794f3300c35b695c33f67cec2f2c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HECKLER-RINGER-466-US-602.md",
+      "sha256": "c99f2d2c844a99c267cc2a51d3229513572e2510d51c0aaeeea9e66627910cc4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HENDERSON-568-US-266.md",
+      "sha256": "3e94577163d8c1dc91a16e8cb406dc2382a44db6befb8cb696d1af7668bc1dd8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HILL-368-US-424.md",
+      "sha256": "5c55718c9417278a7554073c7adeb392e0d3d4cd3383513255b93c65c8cdba41",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HILL-474-US-52.md",
+      "sha256": "2bd938422904fc7773fe97688b086caf8af7fd7bfb91a4c8cbdce9690b2200d9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HOLGUIN-HERNANDEZ-589-US-169.md",
+      "sha256": "c8825d4dc484e1e184d7baa7cb3173ec97fdb25427d49aa362c24786ab8e9bac",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HOLLAND-560-US-631.md",
+      "sha256": "bf88fcf6f7ef814dc14b6e1bb21988c5c955c924f9fac494f5a0297d1af41fb0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HUGHES-584-US-675.md",
+      "sha256": "f1cb31b45374dbe005de36a8e8f82e895946699a25842da210497b72b4da0fef",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HYDE-520-US-670.md",
+      "sha256": "aa977dadd2d6b50f3d43a9f61fbf1b7b28526fbbfad2df7d7f08fc49d21f8982",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-IRIZARRY-553-US-708.md",
+      "sha256": "1908a1103a1166c4114f1bfb745cb8c537fb7ce2a783b5dcd3a526b774dd9bad",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JACKSON-443-US-307.md",
+      "sha256": "0b56efb30d78ddf89e064cd1cc7a84ba936742a52ab9357d7e084e3afb6ea817",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JEB-511-US-127.md",
+      "sha256": "0e5c0707415646776d31276d1aec03956f8305deefc17131342927081320dea9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JOHNSON-529-US-53.md",
+      "sha256": "e0b3b6e59a85fc7749fda0bd1086daeb7bcf81ac44cf34dd659b982478db62c7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JOHNSON-529-US-694.md",
+      "sha256": "26e22804ad46b2b0496b22b12b0f6530bb10c97211ca3309c63b46f88f7baa6f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JOHNSON-544-US-295.md",
+      "sha256": "dcd9c3e3ebad5992dc7f53cc87bf48c8b346cf921f0c22c1225747faaf5a7b5f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JONES-BARNES-463-US-745.md",
+      "sha256": "c8116b1190a5bd65c5a0f60a2a58cb24444f20d2c58401c515390c326e78c92d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JONES-CUNNINGHAM-371-US-236.md",
+      "sha256": "57f10e8633e24c927dbad960579740f50bb833b813267d5cabf2833c0e9fdfcb",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JONES-HENDRIX-599-US-465.md",
+      "sha256": "c21591e2ff773ddd9896163f61ef0a9bb76489a6dd493e347e6a79894f8eb272",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-KEMP-596-US-528.md",
+      "sha256": "31e7294f4c5a01eee37e753e2be55eab36840fbc6e219cf04c92deac770d1c54",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-KIMBROUGH-552-US-85.md",
+      "sha256": "d1eb7e8bf66326e6c7a3a2417ca5c6049f23ee48876b1ca6b4eaf45e2d2eff32",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-KORAY-515-US-50.md",
+      "sha256": "5ab80ba49b9e35b307db533e1c57858695cbe362c2d558aad23481a20436cb6b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-KOTTEAKOS-328-US-750.md",
+      "sha256": "a55715a0b30b85a5ee31769d78e87f4b42372fafc0c64897e19bc7e23a5d71fc",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-KYLES-514-US-419.md",
+      "sha256": "b0dd771d1d72a404bfb14130fb21ff34b587bc58766b7a7fcfaefff7eb93c1ab",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LAFLER-566-US-156.md",
+      "sha256": "2421bf5d25a97d0ac8d640741e2120192b1be767a73c63a3d35ebc20e55494d3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LAGOS-584-US-577.md",
+      "sha256": "d1af6f0375e89d583ae251c6f494b68b5f81735a235ff12ffe2dc3d5228ce768",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LEE-582-US-357.md",
+      "sha256": "9c76dd0b3f9c68e957731c761c4f9d04da8db35dfc6a8028208d5a15aa670c27",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LEON-468-US-897.md",
+      "sha256": "761e8973c18844d45cff80f520ee91694c831cacf20cf286ba53baa0051e45af",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LIBRETTI-516-US-29.md",
+      "sha256": "6bcbf821c2a62ce194678234fb6ac73243da9cb53843a7b664294edf3802292e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LOPER-BRIGHT-603-US-369.md",
+      "sha256": "9f91b31420f6d1321c6014a25b23096be1d5237ea28f52ecefc62d74b8b95a28",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LOPEZ-DAVIS-531-US-230.md",
+      "sha256": "f13ddc86f836c4b4b71d131c5bf0eacfee0d3523dbeee2826227f0c765c5e4e9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LOVASCO-431-US-783.md",
+      "sha256": "df0ffd248f5c959faff6caaad17ce237e726fb9fd2cf845539a77ab3868b4fff",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LUCE-469-US-38.md",
+      "sha256": "dc0da67f7aaccbb8fc21615b4bca2ccb424e778ba360b141efbb19d330e6158c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MABRY-467-US-504.md",
+      "sha256": "db7768ef9e2a11a496f3b43037a6c61039bf1073b78981f8538068abb92a7b22",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MACHIBRODA-368-US-487.md",
+      "sha256": "c2df04cea8d592946788cc8dd3ada2f296d4beeb7331e03a13c3b031c99b148f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MAGWOOD-561-US-320.md",
+      "sha256": "af278f42dff6c46efd4b5aeeffaff2c15dc4a42cc0b5d82921eaf8a5f0a49fc1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MALENG-490-US-488.md",
+      "sha256": "13ddec5c25e25303fa5609dedae91bd017c7b6ca56d6e34dc93ac6a83d2853ef",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MANRIQUE-581-US-116.md",
+      "sha256": "d893e277afbe0e1f7719744b9ec7c90f4cff35cd6e6aac9f360e25853bf77d1b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MARION-404-US-307.md",
+      "sha256": "25597c1e7e18f46ea148a2df31d14b427589ec8a44444492f48753c8c5cd8bad",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MARTINEZ-VILLAREAL-523-US-637.md",
+      "sha256": "aac466c796ab72bfb03dc885efc6094adb7732615fa3398ac89e680582c42e63",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MASSARO-538-US-500.md",
+      "sha256": "ef34d7b50ec9a9dadcd0ee13eb1587fcb58f63d2f6e5946b4b3d0cf7beefe5ad",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MAURO-436-US-340.md",
+      "sha256": "748b80ed9c79033336c67d2088083d14343a182a8321c9ae660b0cba6816c738",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MAYLE-545-US-644.md",
+      "sha256": "6418ef1827e03a99a61b57434775aaad01186752cfe9589c1619e152dc5d691a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MCLAUGHLIN-500-US-44.md",
+      "sha256": "1484ae2e0441782d42f44e411148a5752d296d1502589d064f404bd28efd14a2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MCQUIGGIN-569-US-383.md",
+      "sha256": "4302bad76ee0dd723138a61f362c9f9473e09b8ea25948b041286e0dfdcfa2f5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MEZZANATTO-513-US-196.md",
+      "sha256": "fc8c565b49021e283d3dc5cd27fb67223d3bb67cf94b4b361d45a95045149ed2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MILLER-EL-537-US-322.md",
+      "sha256": "da2a36ab8d86aa23daba3ea892a644e6abf489fcc39c41dc00023ea82fbf5aa3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MIRANDA-384-US-436.md",
+      "sha256": "12b83f39fb599b114e0fc40f8fa9561335a3743c8759acef0c19b1d103715926",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MOLINA-MARTINEZ-578-US-189.md",
+      "sha256": "4fb7183a9b8ad0eaf09869ec8c8a1fd55785daf84fbadf233558869554a931e7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MONT-587-US-514.md",
+      "sha256": "2a67b4893bd0d4334eb51f164d4512a304ef163dc0d7c7318bca1d789d6981c1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MOODY-429-US-78.md",
+      "sha256": "bfa6dc17061cb77417572c5bde778d23784b40cc4a709be2f3fc9a9b330532a9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MORGAN-346-US-502.md",
+      "sha256": "986e22f187be18b33f4e356becd82ce22fa09d99f8648261025338c327850caf",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MORRISSEY-408-US-471.md",
+      "sha256": "9def0c56e5a18924f03e7151638e68a4a752524d5125458337089629a38b2fb5",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-MUSACCHIO-577-US-237.md",
+      "sha256": "e4cb570c58c85c04b1bd0fbd6b15af0d3568e1d9d317c84b6032d0b52d38fd3b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-NAPUE-360-US-264.md",
+      "sha256": "d9d2eaaf44994a813bbc67f410f91bfc4932c0975d4efd6a661bcf3bd0ec6bbc",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-NEDER-527-US-1.md",
+      "sha256": "4a7c06a709308049ffb0fbfbd25eccee75ffa4a282646f2d9bfb8a60fb7200ce",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-NIXON-418-US-683.md",
+      "sha256": "60cd73d699b971b652a54e3386f9a66ccd05db04ff0aac36dd86ac7bc1d1b0fc",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-OHLER-529-US-753.md",
+      "sha256": "45a760674b21f1cdc8d7b8af2497ce0b679bbfda5f3a4d1b07baf36ec5f0759f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-OLANO-507-US-725.md",
+      "sha256": "d8484656bb0304038d73d93740636f3880862429f9b4312a15e27028e832ad26",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-OREGON-KENNEDY-456-US-667.md",
+      "sha256": "066e352690f28f74291ae85231a81891f117595dc10ac3b88edb2732b6fb014f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ORNELAS-517-US-690.md",
+      "sha256": "020749a9e23ce5da72c019691d32e75c68305bbb23cbe8f671650659e6327b28",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PACKINGHAM-582-US-98.md",
+      "sha256": "f29c39bba221111004d62e40690acc9a58bb5c7100653110df3ec9e09777d9c4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PADILLA-559-US-356.md",
+      "sha256": "41cef0627769eca17cc316fbe014ba82cee910daaeb0596aa59374372744cbe8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PANETTI-551-US-930.md",
+      "sha256": "495f0b4ce2ec02cdb2fac8ca746830a8c6f0517e3541b8db527cd8eece1bf795",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PATE-383-US-375.md",
+      "sha256": "deda2d91373b8a1ed71a5798a2f1853c05c98dca233ef50438666dd0b874cbff",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PENA-RODRIGUEZ-580-US-206.md",
+      "sha256": "d0194a672fa2e0e22463916a9356cf5a517e14b873b6f48b13f21882d56c1e22",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PENN-BUREAU-474-US-34.md",
+      "sha256": "dcf585c03eaecf0353d1577898492644133ff757311d378cc4e3242038a6d87b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PENSON-488-US-75.md",
+      "sha256": "565ce5c2e233783d3c050f9118169aae355b431fc60440fd7b925576d0d3ef70",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PEPPER-562-US-476.md",
+      "sha256": "5f25bf9adc1bd18da44e805569ed3e5a6e28f026e2e07ddc98b92b44090a599a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PEREZ-22-US-579.md",
+      "sha256": "632a8da23f315dda597c327683e1d86733626bb33a1e3d39745e9c56080dfcb7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PEUGH-569-US-530.md",
+      "sha256": "8cfacaa22874172e8c4eb233fef354216358af93cfd17a46c652c47e7380245c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PREISER-411-US-475.md",
+      "sha256": "2b72569be7a43b230fb91f0e37d69f3625f8b391eef587d1c96f43eb0b013905",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PUCKETT-556-US-129.md",
+      "sha256": "23b1a5447e52e29f3565b49ea66711c4c7656f3603881fd0ddd4e4e8eecec9de",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PULSIFER-601-US-124.md",
+      "sha256": "4e54edd47640ff8d9da804373e5c97f717bbeca1bf2b25f7686c01e9d7ae395a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-RAKAS-439-US-128.md",
+      "sha256": "ce1dbd71c9608c4f0b23227d956903bb6470d23e2afc6fd17111ef37d52c9156",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-RICO-607-US-SLIP.md",
+      "sha256": "d6264c26fdd7a73589369da52111723e67e24aefaa2c63d04902038fc98e8b51",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-RITA-551-US-338.md",
+      "sha256": "ee2b3b873843fbfb52bedc91cb00bc705aeda775088f1d458d606262153de022",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ROSALES-MIRELES-585-US-129.md",
+      "sha256": "47fa2c9cdb440070b5a6f453614917cf516749d60d0425442fab077f6e883716",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ROTHGERY-554-US-191.md",
+      "sha256": "cfc6907bf9b7add7102e68db93ae735db37836bd47b87515a457dcf8f2ad9a62",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-RUIZ-536-US-622.md",
+      "sha256": "f4d6a60b77a47056d7c7de18ffd754ee7c86d4b773eae5d6fef1657b80ff916c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426.md",
+      "sha256": "f5deb4dc8aeede70143daf030652df35a440050547761561f171e21b547d8f7f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-RUTHERFORD-608-US-SLIP.md",
+      "sha256": "585c75593442bd7e7a0a25e558fbba2c230f69331e446ea68f70a11aa6e4750f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SANTOBELLO-404-US-257.md",
+      "sha256": "dc69bc0cf2b372e59d72bc348ba9b11d2c24344d874240aff5a77f154d99aa1b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SCHICK-419-US-256.md",
+      "sha256": "a1bc80dd69fc8904a1460d3d89e66a799cf592db63ec0a72f94b2e48ad077bcf",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SCHLUP-513-US-298.md",
+      "sha256": "185f0d97d9807722ed32145e47ef7fab0685e00ab9986fe04e211eb2a8c96aa9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SCHRIRO-542-US-348.md",
+      "sha256": "3ada725f1bfd9464aaffccbb904eefe0f1f44aabd81c75e28e50f0622a17979d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SELL-539-US-166.md",
+      "sha256": "dbaed2c7b51372e063833ef7f07b45f3006345f5a7a64ff44ba444f83400d40e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SETSER-566-US-231.md",
+      "sha256": "99a734616cd528be6f85cdcf7268fc0693243b0e8bcc885c570282e1a6f0a681",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SHANNON-512-US-573.md",
+      "sha256": "d31bd7956d1196520a31d2826f23dfbbdb48442e61c67b1e7c73d5ef71b2b553",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SINGER-380-US-24.md",
+      "sha256": "7b84b1ed575c25ee3213d3062bb9f1adf70f1b8f62fc64a95e9e4151e919c172",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SLACK-529-US-473.md",
+      "sha256": "f155291cae32e19e6b347a3c1548c4ad25a32bc3c8eb2558b88c2cedd0d945b8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SMITH-599-US-236.md",
+      "sha256": "19fee263c402bff26c1d94cd807fa147ceff09f7e59acc3fa991290963bf941c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SOUTHERN-UNION-567-US-343.md",
+      "sha256": "6e353200083a8d67eb2e2f981183d1c9a042b0b02578f7cd43eb3a550af51c70",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SPENCER-523-US-1.md",
+      "sha256": "c959b54ab69824e2a84eb4942ea56060958c7dbd9d62e7539900d67f2b55aacc",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-STRICKLAND-466-US-668.md",
+      "sha256": "d3b138d5b2bb8c48cefe1360fef603ff39d7c6d1bd745d4194166d5259a086b1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-STRICKLER-527-US-263.md",
+      "sha256": "3af70a2d3f8b311c9ee9679636c480c77c8937327e7f18888fab4ee3ca753915",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-SUPERINTENDENT-HILL-472-US-445.md",
+      "sha256": "75e53cafc391abf5b940a2a5b744d637838dea338f85fc844c8b6f3e1f03ec14",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TANNER-483-US-107.md",
+      "sha256": "191234992b08404b6d950e405ae4d6f4955e8f87cbbd6fc93109c751f1caf5c2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TAPIA-564-US-319.md",
+      "sha256": "4009dcddcab3b7516e95a9174166c21a60ce2b31d93cb08df458c60dc6e32575",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TAYLOR-487-US-326.md",
+      "sha256": "2adfdf470b5b3f68cae28a72dc2ed362e1d5bbeaaa05ebd205964a91b1439260",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TERRY-593-US-486.md",
+      "sha256": "aafd70f13d61ba7468c17928d57289c91e40726ad96981a039da4891597a9923",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TIMMRECK-441-US-780.md",
+      "sha256": "150d881e6dc8d8ec40a8fa35f642a52cdf8cd58491c51ae2968f3d69b1d3e7e6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TINKLENBERG-563-US-647.md",
+      "sha256": "08837395fe22d780e952fb989c5b9ccc2b4d886ba6d8509d84ea2df27f451359",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TOLLETT-411-US-258.md",
+      "sha256": "9a1577d108d8c600951e27faee53809ad280db3923fbc43896fac56d8fd41b63",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-TYLER-533-US-656.md",
+      "sha256": "5ee602a576485524bafacd2d57fd3e91cbdee57f4154020cc185105de520e07b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-US-V-SMITH-331-US-469.md",
+      "sha256": "4a9f1c93cea6ee427f8673ff8bb260fef49274df08e4b69f026924af3cec65b6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-VONN-535-US-55.md",
+      "sha256": "106bdce1f0fa33a2f4b0b99b3640b2ff87a38615236f30afcbf34ef3028d42c9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-WADE-504-US-181.md",
+      "sha256": "89a3de5254e21f8790fbc6c6c1ce18981291d02c0499a728c6ac2ecadbb18d9d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-WILKINSON-544-US-74.md",
+      "sha256": "c836f7f5f9ff169fa3e850b0ab123f1f856fe0ea70c0301fe0f53fcab42fab37",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-WILL-389-US-90.md",
+      "sha256": "4abebb66a6826c12cba4a35646b9435a76f6e41f3071c8357c2df67a88955b6c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-WILSON-503-US-329.md",
+      "sha256": "d2035b3d6dc5ed1f2d985967eaea16f64d41f1fbb1a773da9f4cfd322a57d0ec",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-WINSHIP-397-US-358.md",
+      "sha256": "2a65d44bee6a003eb1d1217ec14ac56c9ea252c54c64d0aa188fa9078587281e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-WOLFF-418-US-539.md",
+      "sha256": "c18967554ad192b1c92dd986a7b472006707a29c70227ddcd87acea0bbc1f943",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-WONG-SUN-371-US-471.md",
+      "sha256": "383619258b7cbca45a9d0b432262fd3ea1137c8c9eb4052e2b34d5c869f900b9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ZAFIRO-506-US-534.md",
+      "sha256": "214b1c7944e4a88c151ed2393f040424fe46e61bfe65ba3bf717b80220b045c9",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ZEDNER-547-US-489.md",
+      "sha256": "f05c9bee67605107c6e456337f0246756f936f0910f0b5bf5a7666038982bb74",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "authorities/supreme-court/README.md",
+      "sha256": "bf0a834309737df4dde41f33df1fd0bc06f65fcbab9f419b84e8cfba11fd0242",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/authorities.jsonl",
+      "sha256": "19f30dca201f8b8a21f694619e3e3750f4af29d0040d8e8faf8dba3bebc4e61b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/circuit_splits.yaml",
+      "sha256": "681377913010f7828b2262e5f3872d8b806d4268c8adfa6975c829e6a927bff3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/claims.jsonl",
+      "sha256": "55cb0de864da857a02eaf2704f930bc003fdb9f7b0157627a46c37ba750e39d1",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/deadlines.yaml",
+      "sha256": "7731449cd9d9b4725bf04f574d2eb3288d44576f5958d303234dab3facc00e70",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/district_rule_catalog.json",
+      "sha256": "3616c453dfa95674a577f715a8b3678f1e9fd5c5d0099266e317159a86dd5d43",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/federal_districts.yaml",
+      "sha256": "4b671875eb1aa69b192594ed7cfd73ea9992119f2e44a94b55dec121313f03f4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/jurisdiction_matrix.yaml",
+      "sha256": "4cda91d5f054063e5199f26e90fc20de19d5bd1d6391332ab445162ff75fb8aa",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/modules.json",
+      "sha256": "e4ac15b64226ba402509eca5c3909ba9bf527c4bc3891956b6e283c76020c546",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/nested_process.json",
+      "sha256": "3e8054357024a1d726d87ab2db6190fb6f694fbf764b7b94df3932ee5447c53d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/process_edges.json",
+      "sha256": "4bf4cdd423b14466651f5aeedad8ccd211af958b783f9ec82df7a1524bbbd223",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/process_nodes.json",
+      "sha256": "9f8efec279c37d7cd0d83ba400038ce379f3beb24217cf209c4e08f80d4a586c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/remedies.yaml",
+      "sha256": "82adefab1b40645f90ed74beb7ae527bb5161011b38567d4f1393bcfeff43e84",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/standards_of_review.yaml",
+      "sha256": "278152f86ca2d39d4850b3435950f85851cf8b0caa39e10a7a0881b8cb42d9ae",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "diagrams/drawio/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "diagrams/mermaid/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "diagrams/mermaid/federal_process.mmd",
+      "sha256": "03bbf1474da79f36ed9c82d9de772c28a004b79147f17adfe0c075816ce7713e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "diagrams/png/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "diagrams/README.md",
+      "sha256": "a18b7e6440ebdfaceeaa6941a9d935d78fc847ca6d8e4c23b8c02d42b2600461",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "diagrams/svg/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/00-system-overview/index.md",
+      "sha256": "dc00f04546ba57e250e1b39bb4306767dad39bdb5e614a0f42c48542be457791",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/10-investigation-and-charging/federal-charging-and-commencement.md",
+      "sha256": "011e8142be5778a119eaa92eefe38c2e93cc5ccf33e08418666059422a3c996b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/10-investigation-and-charging/index.md",
+      "sha256": "208e6b7040f2e8882a49b8ab2c38908d7543bc4ed87086ba404531623cafba1c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/20-pretrial/arraignment-and-pretrial-disclosure.md",
+      "sha256": "ca9e4dcc3479edee7f0e6cdcbfab18e3d61285727d955af2d39a73170c69c639",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/20-pretrial/competency-insanity-and-speedy-trial.md",
+      "sha256": "cd7f4688660f391216d80ab83bc763e6041fb9e8150dbbf60c13a92a658b0c4d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/20-pretrial/index.md",
+      "sha256": "cf120b2f6c2acfd1685207e02cb935f85c3e98a34ccfda1699ef7b09649a6735",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/20-pretrial/initial-appearance-and-pretrial-release.md",
+      "sha256": "d37a06fb5af420aa311335dc21e6caee27b93a7aacfecb176acba617b211395e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/20-pretrial/suppression-severance-and-pretrial-motions.md",
+      "sha256": "7cbf28685f38e7bad191c924d10fbafe378c8655156792d52fb2dbf92b75b46a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/30-plea-and-trial/index.md",
+      "sha256": "5316237ffb432f82b42f93a6744decfa1a80fa3527ae94433b09f34fe4f6dc9d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/30-plea-and-trial/jury-and-bench-trial.md",
+      "sha256": "3e669e50f02e32b2d24e46afdc4b7ec227518bb6a0e04b534f44a492508f279a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/30-plea-and-trial/plea-negotiations-agreements-and-rule-11.md",
+      "sha256": "e36eb4b64f96cb08e3e9118f86dd8e80a28a534d010623fed9d062677479ea0b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/30-plea-and-trial/rule-29-mistrial-verdict-and-juror-misconduct.md",
+      "sha256": "64601e3c785d25d9985f671ece6cb380fbfdb8daa3894bb15444897c35cc1838",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/30-plea-and-trial/rule-33-new-trial.md",
+      "sha256": "adc7bd48a27331d88bd7eb6d11552588548808f2ebceb84405b7ff63fd331d91",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/40-sentencing/index.md",
+      "sha256": "e825f46b0eacaf5de84c1c6ca88bcebe97ced733577da6745cf031c5fdea2570",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/40-sentencing/monetary-penalties-restitution-and-forfeiture.md",
+      "sha256": "350c028a0d2347895ad3355cd782108c0a591028458af122dc2d24dd318aeeff",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/40-sentencing/presentence-guidelines-and-sentencing-hearing.md",
+      "sha256": "8f3758ac943b271c7b9011c5b9cdc329ea90ce34a683d65b54c868fcca90a299",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/40-sentencing/supervised-release-judgment-and-correction.md",
+      "sha256": "cb62ebb36196cf7cfa8f4ffa9c2b4641c5dcd433bbb9656778baf83d07583372",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/50-direct-review/index.md",
+      "sha256": "5e38f6a290e6682ccccb8f6b42a31d8cdfbe490c998950bd0cd58b5fd6108833",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/50-direct-review/notice-jurisdiction-and-record.md",
+      "sha256": "484552ece2d39a0dbd68de7f3e52100c685f16ce141807b84315f80ebc64db34",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/50-direct-review/rehearing-mandate-certiorari-and-finality.md",
+      "sha256": "97d2df2856472465ef02dc4a685256dc12e524e140e3990281b95b43cc97c18f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/50-direct-review/review-briefing-and-anders.md",
+      "sha256": "ac876770ae34adfbe0baeb34d289108d9a30214e59b95f1aa5b62ec46da37ec7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2241-appeal-and-relief.md",
+      "sha256": "ffa555ec5de8d535b8a4dfaaa166a366b1762725ea1d3d3f2c1164ddfdd04735",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2241-filing-jurisdiction-respondent-and-exhaustion.md",
+      "sha256": "2b1d2ecafca1836593f795238cb81eb48e39ca5d8cd6562f9afdd1e3092cafae",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2241-saving-clause-custody-and-mootness.md",
+      "sha256": "ba75bc4af06f5827b87d6151cdf0a92f0ebd14f54fd2fd093e95c6a28feab609",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2244-2255-successive-gatekeeping.md",
+      "sha256": "669a61424f321680f2dbabbb41b05341e982501e4dbec9cf4c983a9c2ac5ff4a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2255-default-innocence-and-ineffective-assistance.md",
+      "sha256": "0444d60fc22ae31c5a65dee9f9b38850660df288d5c8743ee4579a85ef567b0c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2255-initial-motion-and-limitations.md",
+      "sha256": "0e690275a1645b58c7240618caa95c4713bc7cfd4cd63ed67d51c97b29396d9b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2255-later-filings-classification-and-authorization.md",
+      "sha256": "0dbfe65f30458b4873e8ec4ea0df34c7b4f8b8d231cacc9798825d84fb160e53",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/2255-procedure-hearing-appeal-and-postjudgment.md",
+      "sha256": "9a20b407545aecefb47890d4686a665188c9c56c78a1599184db524275e6b2c8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/executive-clemency-pardon-and-commutation.md",
+      "sha256": "fa05a050287602edd823464efd0d4a07919819ab285ef371939210fc86c48783",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/extraordinary-writs-coram-nobis-audita-querela-and-mandamus.md",
+      "sha256": "c1b4f58da8c25dc55ce550cc7dc7452df67d699baa781421427372507700455c",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/60-post-conviction/index.md",
+      "sha256": "ada2a774cdcf6add289130946a82053b6a12dd2646caa28709f921c47b1f53a7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/70-sentence-modification/first-step-act-section-404.md",
+      "sha256": "7871d948d7a4afcdef319baa02b200392e9b816cc457c4510e376aba826d4cfe",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/70-sentence-modification/index.md",
+      "sha256": "8012ad957bdd0eede02df95f20c595ebe4a89b809d9973c0facf8b5997acea54",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/70-sentence-modification/rules-35-36-and-modification-appeals.md",
+      "sha256": "20aa294e2cc0b2047950ef0b9c610179a94ac2823e7e9e97b3116721efff919b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/70-sentence-modification/section-3582-remedy-router.md",
+      "sha256": "e03eef3dd41dde2af5f286db8e35233d7af40c3b73fc6fc76ec6fc1f37957843",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/administrative-remedies-and-judicial-review.md",
+      "sha256": "fe16af35eb2903f8be01157faa20ac04b7b550974d780e564736e97698a51155",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/designation-sentence-computation-and-prior-custody-credit.md",
+      "sha256": "a7c9bfb2deea8350c9cd7cc6e3793a7ca55b16cbc312297b9132e38ca7083571",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/detainers-discipline-and-rdap.md",
+      "sha256": "cde85fa8601f65cd42e4030e12d93a095ad84b1878fcf462ea4594d20c0cb036",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/first-step-act-time-credits.md",
+      "sha256": "1f32aef576296b651c968b2f3cd998d0215a7f0f1c5a4c45a3f7dfc1bf5fa0ca",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/good-conduct-time.md",
+      "sha256": "642c5d5dd842f6f42731fc6beaae41e43cba44c59c919e27fd1c59f612944379",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/index.md",
+      "sha256": "6afe7e133e97f05eca9a754bfa5d020c2ee4b62dcb10eec05e1279632e68d6b7",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/prerelease-custody-home-confinement-and-cares-act.md",
+      "sha256": "b2fce2b725ebb057f30c3a33343765ec7349cae196608cfded76753b69c3b0ce",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/commencement-conditions-modification-termination-and-transfer.md",
+      "sha256": "1d6de11f1d0fe303c31c7740c32adaf4ae27056f7c5130961c08b57f22711db8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/constitutional-conditions-delegation-and-reentry-remedies.md",
+      "sha256": "1b3266b8d06ced26f2c83bdca14f4544257c5cec3ee35f965371cfdc48736836",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/index.md",
+      "sha256": "dc3dd24b92f41f91d3786c2e5e1f37923f1921f399b8ca4d9ee17e901cfb621b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/violations-rule-32-1-revocation-and-sentencing.md",
+      "sha256": "bbe9ca252c726793334834d49c644a16b9276dfccf4b3fcf826f968f0d0d8884",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/dc-circuit.md",
+      "sha256": "ca426bde3d260952ef4d19a2fe26ac3536d7563b9979f2dbf60d34f0d38cf957",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/eighth-circuit.md",
+      "sha256": "da259975dd4362c26663195f0d2e9f57f34f56d121ac7b0a4c66db72e4e8cca4",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/eleventh-circuit.md",
+      "sha256": "6cce951e8702f7e078f834e1f49287604d0fe4e7c9c201d04430a94413343234",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/fifth-circuit.md",
+      "sha256": "6e3681702dc095622ca31ba0232dabcdcda606af91a9535cb28cc4cc32019fea",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/first-circuit.md",
+      "sha256": "53b5cbf5c4170318af4028096a24c42996372c070d710dea9b9284a07eca44a8",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/fourth-circuit.md",
+      "sha256": "6fbf06911f36095f26d8727b5bc129c3d652e797ec97da479b310a0c42b1abb2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/index.md",
+      "sha256": "651016bbf1ee4982186dcd2f643536ea50610ebdd32cba982ad516e9ea94d8f2",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/ninth-circuit.md",
+      "sha256": "d22d1ac31713864e2248f567c98cd85c0866a5c6780eb3851e1220b5d97cdb76",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/second-circuit.md",
+      "sha256": "74f3f4a9caa553e288f3f2f0ba3f60fcd26f1fa6e54c3570251f3f5cd54c08b0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/seventh-circuit.md",
+      "sha256": "4314ad8bea3356fe06521dc04b70c3ad56af76323af215660f6f86fb56485a3b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/sixth-circuit.md",
+      "sha256": "5402e161273133454e586c23b070036c69a456c2516d28e3707259bb4c0c4749",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/supreme-court.md",
+      "sha256": "d946cb50f10a5b2c8e9d0a0cf7104cca3f84ba8207bead36da61b35a1558ca63",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/tenth-circuit.md",
+      "sha256": "4f62de7457aa0c1c193d7e6fd563b506990a188fec52166bd92385db6cab7894",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/95-circuit-overlays/third-circuit.md",
+      "sha256": "267d74dbbeca4473d150a4edb0f65ca4da6f4b604f38eda29dab4b2bd92fe974",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/96-district-courts/index.md",
+      "sha256": "fb0b0f6b2d2ffb4266426fa2609158624de8915d79c7cb2b39c85161191bc8a0",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/96-district-courts/rule-source-catalog.md",
+      "sha256": "57e10ad5eedeef8587c403457dd0d6472777980869cdcaf0fe6b8cf94c3a879f",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/checklists/index.md",
+      "sha256": "4b7e50a3897ec6a2e951df3ed99ae2a533abe2f9218c8c498c57c39e7da5111d",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/decision-trees/index.md",
+      "sha256": "faf101b55ab937be43dd23a0c5904b1fa3132d5ab4a8eb143c5fc27ab23615d6",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/examples/index.md",
+      "sha256": "290fc3d0832622023e806b2dcda7a64c542dfa75616288b470326a85a8416609",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "docs/glossaries/index.md",
+      "sha256": "d44d52265d65f74cff85d646e4aea43bb82c4b03c3aface02a47d7d980cf0100",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "manifest/module_order.yaml",
+      "sha256": "3cc7f59465eb5c3a112dcb9f11f334adb2d4c6350b61ffd45ee5af8ddb77287b",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "schemas/authority.schema.json",
+      "sha256": "9cf23186f8a54eaf67eb54c468eae992fc5094d8b36c6dc161669856ac4d1d50",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "schemas/claim.schema.json",
+      "sha256": "be767397f32cb481a93bef58a96f38b206f8c7730293dfc409f4ffc48b950d4e",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "schemas/edge.schema.json",
+      "sha256": "91b096f876838db921e5dcf7b9bdede7ad28bde49cacb63d9db36eb7f008e6f3",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "schemas/module.schema.json",
+      "sha256": "44baea4801d3097e9edeb37d311de1728ce58a8eee293ae8ff62aa0afbc07290",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "schemas/node.schema.json",
+      "sha256": "ac527920626b85847527cb426cf7b23012e8131b47a2ffe5615b276f2c19bd26",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "sources/source_registry.yaml",
+      "sha256": "0ea051acd4f0462351a697b1ebe8958f6758d5545367aa9f03ae5844fe1f7b1a",
+      "transformation": "byte_identical"
+    },
+    {
+      "path": "data/open_questions.json",
+      "sha256": "e75597d5959cdfaa813212fbbb288087a509321674ed1cca9dad3c129729e751",
+      "transformation": "provenance_filename_aliases_and_explicit_company_text_withholding",
+      "withheld_original_texts": 6,
+      "original_sha256": "544d42bb4e56cdc537a7a151fa7bc2623ad7b53b840880ec5480168f1445aafc"
+    }
+  ]
+}
