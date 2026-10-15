@@ -1,6 +1,4 @@
 # Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
-# Format: URL [regex for links to list from an HTML page | !text to print the opening text]
-# BOP: Sentence Computation Manual entry in the policy index, and the FSA time-credit handout
-https://www.bop.gov/PublicInfo/execute/policysearch?todo=query&series=5000 (?i)5880
-https://www.bop.gov/policy/progstat/5880_028.pdf !text
-https://www.bop.gov/resources/docs/fsa_time_credit_handout.pdf !text
+# Format: URL [regex for links | !text for the opening text | !fulltext for the whole document]
+# BOP PS 5160.06, full text, for the legal review of CLM-BOPSC-009 and CLM-BOPSC-023
+https://www.bop.gov/policy/progstat/5160_006.pdf !fulltext
