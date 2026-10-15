@@ -11,4 +11,4 @@ authority_id: AUTH-PL-111-220-SECS-2-3
 
 ## Official source
 
-<https://uscode.house.gov/statutes/pl/111/220.pdf> at 124 Stat. 2372.
+<https://www.govinfo.gov/content/pkg/PLAW-111publ220/pdf/PLAW-111publ220.pdf> at 124 Stat. 2372.

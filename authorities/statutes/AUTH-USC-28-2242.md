@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked modules. The actual custody, 
 
 ## Official source and pinpoints
 
-28 U.S.C. § 2242, § 2242: <https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2242>
+28 U.S.C. § 2242, § 2242: <https://www.govinfo.gov/link/uscode/28/2242>

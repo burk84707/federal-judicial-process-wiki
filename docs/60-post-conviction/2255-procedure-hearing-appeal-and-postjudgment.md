@@ -31,7 +31,7 @@ Rule 7 permits expansion of the record with relevant materials and requires a pa
 ## Evidentiary hearing, counsel, and relief
 
 <!-- claim:CLM-2255-055 authorities:AUTH-USC-28-2255,AUTH-RG-2255-4-12 status:verified_current -->
-Section 2255(b) requires notice, a prompt hearing, factual findings, and legal conclusions unless the motion and case files and records conclusively show no entitlement to relief; Rule 8 requires the judge to determine the hearing question after reviewing the answer, transcripts, record, and submitted materials. [28 U.S.C. § 2255(b)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29); [Rule 8(a)](https://www.uscourts.gov/file/27805/download)
+Section 2255(b) requires notice, a prompt hearing, factual findings, and legal conclusions unless the motion and case files and records conclusively show no entitlement to relief; Rule 8 requires the judge to determine the hearing question after reviewing the answer, transcripts, record, and submitted materials. [28 U.S.C. § 2255(b)](https://www.govinfo.gov/link/uscode/28/2255); [Rule 8(a)](https://www.uscourts.gov/file/27805/download)
 
 <!-- claim:CLM-2255-056 authorities:AUTH-SCOTUS-MACHIBRODA-368-US-487 status:verified_current -->
 Specific, detailed factual allegations about off-record plea promises could not be resolved solely against the movant through the judge's personal recollection in *Machibroda*; the Court did not hold that every allegation requires a full courtroom hearing. [*Machibroda v. United States*, 368 U.S. 487, 493–96 (1962)](https://www.govinfo.gov/content/pkg/USREPORTS-368/pdf/USREPORTS-368-487.pdf)
@@ -43,12 +43,12 @@ Plea-hearing declarations carry a strong presumption of verity, but they are not
 If an evidentiary hearing is warranted, Rule 8(c) requires appointment of counsel for a financially eligible movant; outside mandatory rule-based circumstances, counsel is not automatically guaranteed by this rule. [Rule 8(c), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
 
 <!-- claim:CLM-2255-059 authorities:AUTH-USC-28-2255 status:verified_current -->
-The remedy must match the established defect: § 2255(b) authorizes discharge, resentencing, a new trial, or correction of sentence after vacatur, but it does not make every listed remedy available for every successful claim. [28 U.S.C. § 2255(b)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+The remedy must match the established defect: § 2255(b) authorizes discharge, resentencing, a new trial, or correction of sentence after vacatur, but it does not make every listed remedy available for every successful claim. [28 U.S.C. § 2255(b)](https://www.govinfo.gov/link/uscode/28/2255)
 
 ## Certificate of appealability and notice
 
 <!-- claim:CLM-2255-060 authorities:AUTH-USC-28-2253,AUTH-FRAP-3-4-22 status:verified_current -->
-A prisoner may not appeal the final order in a § 2255 proceeding without a certificate of appealability from a circuit justice or judge, and the certificate requires a substantial showing of the denial of a constitutional right. [28 U.S.C. § 2253(c)(1)(B), (c)(2)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2253+edition%3Aprelim%29); [Fed. R. App. P. 22(b)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-appellate-procedure.pdf)
+A prisoner may not appeal the final order in a § 2255 proceeding without a certificate of appealability from a circuit justice or judge, and the certificate requires a substantial showing of the denial of a constitutional right. [28 U.S.C. § 2253(c)(1)(B), (c)(2)](https://www.govinfo.gov/link/uscode/28/2253); [Fed. R. App. P. 22(b)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-appellate-procedure.pdf)
 
 <!-- claim:CLM-2255-061 authorities:AUTH-RG-2255-4-12 status:verified_current -->
 When entering a final order adverse to the movant, the district court must issue or deny a certificate and, if issuing one, state the specific issue or issues satisfying § 2253(c)(2). [Rule 11(a), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
@@ -80,7 +80,7 @@ Appellate Rule 4(a)(4)(A) identifies the timely district-court motions that rese
 Civil Rule 59(e) requires a motion to alter or amend a judgment within 28 days after judgment entry, and Civil Rule 6(b)(2) bars extending that deadline. [Fed. R. Civ. P. 59(e), 6(b)(2)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-civil-procedure.pdf)
 
 <!-- claim:CLM-2255-070 authorities:AUTH-SCOTUS-BANISTER-590-US-504 status:verified_current -->
-*Banister* holds that a timely Rule 59(e) motion in a first habeas proceeding is part of that proceeding rather than a second or successive application, while emphasizing Rule 59(e)'s narrow corrective function and strict 28-day limit. [*Banister v. Davis*, 590 U.S. 504, 508–19 (2020)](https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf)
+*Banister* holds that a timely Rule 59(e) motion in a first habeas proceeding is part of that proceeding rather than a second or successive application, while emphasizing Rule 59(e)'s narrow corrective function and strict 28-day limit. [*Banister v. Davis*, 590 U.S. 504, 508–19 (2020)](https://www.supremecourt.gov/opinions/19pdf/18-6943_k5fm.pdf)
 
 <!-- claim:CLM-2255-071 authorities:AUTH-SCOTUS-GONZALEZ-CROSBY-545-US-524 status:verified_current -->
 Under *Gonzalez v. Crosby*, a Rule 60 motion that adds a merits ground or attacks the federal court's merits resolution functions as a successive habeas claim, while a motion attacking a defect in the integrity of the federal habeas proceeding may be a true Rule 60 motion; *Gonzalez* arose under § 2254, so § 2255 application must follow controlling-circuit law. [*Gonzalez v. Crosby*, 545 U.S. 524, 530–36 (2005)](https://www.govinfo.gov/content/pkg/USREPORTS-545/pdf/USREPORTS-545-524.pdf)

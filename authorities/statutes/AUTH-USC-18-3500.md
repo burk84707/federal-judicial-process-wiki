@@ -14,4 +14,4 @@ The statute addresses government-witness statements in federal criminal prosecut
 
 ## Official source and pinpoints
 
-18 U.S.C. § 3500(a)–(e): <https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29>
+18 U.S.C. § 3500(a)–(e): <https://www.govinfo.gov/link/uscode/18/3500>

@@ -10,7 +10,7 @@ The section text and currentness statement were verified against the Office of t
 
 ## Official sources
 
-- Current preliminary edition: <https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29>
+- Current preliminary edition: <https://www.govinfo.gov/link/uscode/28/2255>
 - Official GovInfo PDF: <https://www.govinfo.gov/content/pkg/USCODE-2023-title28/pdf/USCODE-2023-title28-partVI-chap153-sec2255.pdf>
 
 ## Propositions supported

@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked § 2255 module. State-habeas 
 
 ## Official source and pinpoints
 
-590 U.S. 504 (2020), 590 U.S. 508–19: <https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf>
+590 U.S. 504 (2020), 590 U.S. 508–19: <https://www.supremecourt.gov/opinions/19pdf/18-6943_k5fm.pdf>

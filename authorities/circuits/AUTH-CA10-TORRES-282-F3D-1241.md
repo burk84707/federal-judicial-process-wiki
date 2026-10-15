@@ -14,7 +14,7 @@ Binding only in the Tenth Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-282 F.3d 1241 (10th Cir. 2002), 282 F.3d 1245–46 & n.6: <https://openjurist.org/282/f3d/1241/united-states-v-torres>
+282 F.3d 1241 (10th Cir. 2002), 282 F.3d 1245–46 & n.6: <https://storage.courtlistener.com/pdf/2002/02/21/United_States_vs._Torres.pdf>
 
 ## Linked claims
 

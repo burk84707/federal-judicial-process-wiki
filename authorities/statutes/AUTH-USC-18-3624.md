@@ -16,4 +16,4 @@ The statute must be read with current 28 C.F.R. § 523.20 for GCT mechanics and 
 
 ## Official source
 
-OLRC preliminary edition, laws in effect August 17, 2026: <https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3624+edition%3Aprelim%29>
+OLRC preliminary edition, laws in effect August 17, 2026: <https://www.govinfo.gov/link/uscode/18/3624>

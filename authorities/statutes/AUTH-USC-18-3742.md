@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked direct-review module; actual 
 
 ## Official source and pinpoints
 
-18 U.S.C. § 3742, 18 U.S.C. § 3742: <https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3742+edition%3Aprelim%29>
+18 U.S.C. § 3742, 18 U.S.C. § 3742: <https://www.govinfo.gov/link/uscode/18/3742>

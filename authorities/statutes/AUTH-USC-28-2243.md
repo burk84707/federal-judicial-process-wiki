@@ -15,4 +15,4 @@ Section 2243 does not itself create an entitlement to credits, release, placemen
 
 ## Official source
 
-OLRC preliminary Title 28: <https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-part6>
+OLRC preliminary Title 28: <https://www.govinfo.gov/content/pkg/USCODE-2024-title28/pdf/USCODE-2024-title28-partVI.pdf>

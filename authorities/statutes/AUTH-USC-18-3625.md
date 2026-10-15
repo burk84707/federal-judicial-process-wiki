@@ -14,4 +14,4 @@ Use only for the bounded proposition and limitations in the linked canonical mod
 
 ## Official source and pinpoints
 
-18 U.S.C. § 3625, § 3625: <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625>
+18 U.S.C. § 3625, § 3625: <https://www.govinfo.gov/link/uscode/18/3625>

@@ -10,8 +10,9 @@ sources:
   publication_date: null
   source_currency: Laws in effect on July 21, 2026
   retrieval_date: 2026-08-24
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29
-  mirror_url: https://www.govinfo.gov/link/uscode/28/2255
+  official_url: https://www.govinfo.gov/link/uscode/28/2255
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -89,8 +90,9 @@ sources:
   publication_date: null
   source_currency: Laws in effect on August 11, 2026
   retrieval_date: 2026-08-24
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244
-  mirror_url: https://www.govinfo.gov/link/uscode/28/2244
+  official_url: https://www.govinfo.gov/link/uscode/28/2244
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -120,8 +122,9 @@ sources:
   citation: 18 U.S.C. § 3624
   source_currency: Laws in effect on August 17, 2026
   retrieval_date: 2026-08-24
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3624+edition%3Aprelim%29
-  mirror_url: https://www.govinfo.gov/link/uscode/18/3624
+  official_url: https://www.govinfo.gov/link/uscode/18/3624
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3624+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -148,7 +151,10 @@ sources:
   citation: Pub. L. No. 115-391, § 102(b), 132 Stat. 5194, 5210–11
   source_currency: Enrolled public law
   retrieval_date: 2026-08-24
-  official_url: https://uscode.house.gov/statutes/pl/115/391.pdf
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-115publ391/pdf/PLAW-115publ391.pdf
+  previous_url: "https://uscode.house.gov/statutes/pl/115/391.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The House Law Revision Counsel public-law PDF link returned a web page instead of the PDF on 2026-10-15. Replaced with the enrolled public law on GovInfo. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38789802937"
   mirror_url: https://www.govinfo.gov/app/details/PLAW-115publ391
   local_snapshot_path: null
   sha256: null
@@ -190,8 +196,9 @@ sources:
   citation: 18 U.S.C. § 3632
   source_currency: Laws in effect on July 29, 2026
   retrieval_date: 2026-08-24
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3632
-  mirror_url: https://www.govinfo.gov/link/uscode/18/3632
+  official_url: https://www.govinfo.gov/link/uscode/18/3632
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3632
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -247,8 +254,9 @@ sources:
   citation: 28 U.S.C. § 2241
   source_currency: Laws in effect on July 29, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2241
-  mirror_url: https://www.govinfo.gov/link/uscode/28/2241
+  official_url: https://www.govinfo.gov/link/uscode/28/2241
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2241
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -262,8 +270,9 @@ sources:
   citation: 28 U.S.C. § 2243
   source_currency: Current preliminary Title 28 retrieved August 25, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-part6
-  mirror_url: https://www.govinfo.gov/link/uscode/28/2243
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2024-title28/pdf/USCODE-2024-title28-partVI.pdf
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-part6
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -277,8 +286,9 @@ sources:
   citation: 28 U.S.C. § 2253
   source_currency: Laws in effect on August 17, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2253
-  mirror_url: https://www.govinfo.gov/link/uscode/28/2253
+  official_url: https://www.govinfo.gov/link/uscode/28/2253
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2253
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -364,8 +374,11 @@ sources:
   citation: Pub. L. No. 115-391, § 404, 132 Stat. 5194, 5222
   source_currency: Enacted December 21, 2018
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/statutes/pl/115/391.pdf
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title21%2Fchapter13%2Fsubchapter1
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-115publ391/pdf/PLAW-115publ391.pdf
+  previous_url: "https://uscode.house.gov/statutes/pl/115/391.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The House Law Revision Counsel public-law PDF link returned a web page instead of the PDF on 2026-10-15. Replaced with the enrolled public law on GovInfo. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38789802937"
+  mirror_url: https://www.govinfo.gov/content/pkg/USCODE-2024-title21/pdf/USCODE-2024-title21-chap13-subchapI.pdf
   local_snapshot_path: null
   sha256: null
   status: enacted_text_verified
@@ -378,7 +391,10 @@ sources:
   citation: Pub. L. No. 111-220, §§ 2-3, 124 Stat. 2372
   source_currency: Enacted August 3, 2010
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/statutes/pl/111/220.pdf
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-111publ220/pdf/PLAW-111publ220.pdf
+  previous_url: "https://uscode.house.gov/statutes/pl/111/220.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The House Law Revision Counsel public-law PDF link returned a web page instead of the PDF on 2026-10-15. Replaced with the enrolled public law on GovInfo. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38789802937"
   mirror_url: null
   local_snapshot_path: null
   sha256: null
@@ -392,8 +408,9 @@ sources:
   citation: 18 U.S.C. § 3582
   source_currency: Laws in effect on July 25, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29
-  mirror_url: https://www.govinfo.gov/link/uscode/18/3582
+  official_url: https://www.govinfo.gov/link/uscode/18/3582
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -465,8 +482,9 @@ sources:
   citation: 18 U.S.C. § 3142
   source_currency: Preliminary edition containing laws in effect during August 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29
-  mirror_url: https://www.govinfo.gov/link/uscode/18/3142
+  official_url: https://www.govinfo.gov/link/uscode/18/3142
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -655,8 +673,9 @@ sources:
   citation: 18 U.S.C. §§ 3281, 3282, 3288, 3289
   source_currency: Preliminary Code current in August 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&path=%2Fprelim%40title18%2Fpart2%2Fchapter213&req=granuleid%3AUSC-prelim-title18-chapter213
-  mirror_url: null
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partII-chap213.pdf
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&path=%2Fprelim%40title18%2Fpart2%2Fchapter213&req=granuleid%3AUSC-prelim-title18-chapter213
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -669,8 +688,9 @@ sources:
   citation: 18 U.S.C. §§ 3161–3162
   source_currency: Preliminary Code current in August 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3161
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3161
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3161
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -683,8 +703,9 @@ sources:
   citation: 18 U.S.C. § 3237
   source_currency: Preliminary Code current in August 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3237
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3237
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3237
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -753,8 +774,9 @@ sources:
   citation: 18 U.S.C. § 3500
   source_currency: Preliminary Code text states laws in effect on August 17, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3500
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -910,8 +932,9 @@ sources:
   citation: 18 U.S.C. § 3731
   source_currency: Preliminary Code text stated laws in effect on August 13, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3731+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3731
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3731+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1079,8 +1102,9 @@ sources:
   citation: 18 U.S.C. §§ 17, 4241–4243, 4247
   source_currency: Preliminary Code text current in August 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section4241
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/4241
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section4241
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1601,8 +1625,9 @@ sources:
   citation: 28 U.S.C. §§ 1861, 1862, 1867
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section1867
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/28/1867
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section1867
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1871,8 +1896,9 @@ sources:
   citation: 18 U.S.C. §§ 3551, 3552, 3553
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3553
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3553
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3553
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1901,8 +1927,9 @@ sources:
   citation: 18 U.S.C. §§ 3013, 3571, 3572
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3013+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3013
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3013+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1915,8 +1942,9 @@ sources:
   citation: 18 U.S.C. §§ 3663, 3663A, 3664
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3664
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3664
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3664
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1930,8 +1958,9 @@ sources:
   citation: 18 U.S.C. § 982
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section982
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/982
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section982
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1944,8 +1973,9 @@ sources:
   citation: 18 U.S.C. §§ 3582, 3583
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3583
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2135,8 +2165,11 @@ sources:
   citation: 585 U.S. 129 (2018)
   source_currency: Final United States Reports opinion
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/17pdf/16-9493_e0fi.pdf
+  official_url: https://www.govinfo.gov/content/pkg/USREPORTS-585/pdf/USREPORTS-585-129.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/17pdf/16-9493_e0fi.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The Supreme Court slip-opinion PDF returned HTTP 404 on 2026-10-15. Replaced with the official United States Reports PDF on GovInfo for the same citation. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2194,8 +2227,11 @@ sources:
   citation: 584 U.S. 577 (2018)
   source_currency: Final United States Reports opinion
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/17pdf/16-1519_o7jp.pdf
+  official_url: https://www.govinfo.gov/content/pkg/USREPORTS-584/pdf/USREPORTS-584-577.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/17pdf/16-1519_o7jp.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The Supreme Court slip-opinion PDF returned HTTP 404 on 2026-10-15. Replaced with the official United States Reports PDF on GovInfo for the same citation. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2284,8 +2320,9 @@ sources:
   citation: 28 U.S.C. § 1291
   source_currency: Current official preliminary Code checked August 25, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section1291
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/28/1291
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section1291
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2299,8 +2336,9 @@ sources:
   citation: 18 U.S.C. § 3742
   source_currency: Current official preliminary Code checked August 25, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3742+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3742
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3742+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2907,8 +2945,11 @@ sources:
   citation: 590 U.S. 504 (2020)
   source_currency: Final official Supreme Court or United States Reports source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf
+  official_url: https://www.supremecourt.gov/opinions/19pdf/18-6943_k5fm.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's slip-opinion PDF for No. 18-6943, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2951,8 +2992,9 @@ sources:
   citation: 28 U.S.C. § 1631
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1631+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/28/1631
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1631+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3070,8 +3112,9 @@ sources:
   citation: 28 U.S.C. § 2242
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2242
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/28/2242
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2242
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3085,8 +3128,9 @@ sources:
   citation: 28 U.S.C. § 1914
   source_currency: OLRC preliminary edition checked August 25, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1914+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/28/1914
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1914+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3188,8 +3232,11 @@ sources:
   citation: 599 U.S. 465 (2023)
   source_currency: Official Supreme Court primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/22pdf/599us1r42_3314.pdf
+  official_url: https://www.supremecourt.gov/opinions/22pdf/599us1r42_2b35.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/22pdf/599us1r42_3314.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's preliminary-print PDF for 599 U.S. 465, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3277,8 +3324,9 @@ sources:
   citation: 28 U.S.C. § 1651
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/28/1651
+  mirror_url: https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3292,8 +3340,9 @@ sources:
   citation: 28 U.S.C. § 1361
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1361
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/28/1361
+  mirror_url: https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1361
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3564,8 +3613,11 @@ sources:
   citation: 585 U.S. 109 (2018)
   source_currency: Official Supreme Court slip opinion checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/17pdf/17-5639_8m59.pdf
+  official_url: https://www.govinfo.gov/content/pkg/USREPORTS-585/pdf/USREPORTS-585-109.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/17pdf/17-5639_8m59.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The Supreme Court slip-opinion PDF returned HTTP 404 on 2026-10-15. Replaced with the official United States Reports PDF on GovInfo for the same citation. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3595,8 +3647,9 @@ sources:
   citation: 18 U.S.C. § 3584
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&jumpTo=true&num=0&req=%28title%3A18+section%3A3584+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3584
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&jumpTo=true&num=0&req=%28title%3A18+section%3A3584+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3609,8 +3662,9 @@ sources:
   citation: 18 U.S.C. § 3585
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3585+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3585
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3585+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3623,8 +3677,9 @@ sources:
   citation: 18 U.S.C. § 3621
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3621
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3621
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3621
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3637,8 +3692,9 @@ sources:
   citation: 18 U.S.C. § 3625
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3625
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3724,7 +3780,9 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp
-  mirror_url: null
+  mirror_url: https://web.archive.org/web/20260619204331/https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp
+  archived_on: '2026-06-19'
+  archive_note: "Removed from bop.gov between 2026-08-25, when the legal review saw it live, and 2026-10-01, when the Wayback Machine recorded HTTP 404. No withdrawal or replacement notice was found. The BOP's First Step Act policies page still links the removed address. Archived copy: Wayback Machine capture of 2026-06-19 (the announcement page; the guide document it describes was not captured). Archive capture verified to open in probe run 38791760193."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4101,8 +4159,9 @@ sources:
   citation: 18 U.S.C. § 3605
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3605
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3605
+  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3605
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4116,8 +4175,9 @@ sources:
   citation: 18 U.S.C. § 3006A
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3006A+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3006A
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3006A+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4131,8 +4191,9 @@ sources:
   citation: 18 U.S.C. § 3143
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3143+edition%3Aprelim%29
-  mirror_url: null
+  official_url: https://www.govinfo.gov/link/uscode/18/3143
+  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3143+edition%3Aprelim%29
+  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4249,8 +4310,11 @@ sources:
   citation: 588 U.S. 634 (2019)
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf
+  official_url: https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's slip-opinion PDF for No. 17-1672, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4587,7 +4651,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://www.casemine.com/judgement/us/59147f72add7b04934461ad4
+  mirror_url: https://www.courtlistener.com/opinion/198520/rogers-v-united-states/
+  previous_url: "https://www.casemine.com/judgement/us/59147f72add7b04934461ad4"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication host is not an approved source domain. Replaced with the CourtListener opinion page. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4606,7 +4673,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/243/629/603798/
+  mirror_url: https://www.courtlistener.com/opinion/772485/carlos-pelaez-edison-carmona-v-united-states-bureau-of-prisons/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/243/629/603798/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4624,7 +4694,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://openjurist.org/98/f3d/757/moscato-08126-050-v-federal-bureau-of-prisons
+  mirror_url: https://www.courtlistener.com/opinion/728093/phillip-b-moscato-08126-050-v-federal-bureau-of-prisons-lsci/
+  previous_url: "https://openjurist.org/98/f3d/757/moscato-08126-050-v-federal-bureau-of-prisons"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4677,7 +4750,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/473/229/589119/
+  mirror_url: https://www.courtlistener.com/opinion/796434/paul-fazzini-v-northeast-ohio-correctional-center-warden-united-states/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/473/229/589119/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4695,7 +4771,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/387/602/532564/
+  mirror_url: https://www.courtlistener.com/opinion/788163/michael-richmond-v-joseph-scibana-warden-federal-correctional/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/387/602/532564/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4981,7 +5060,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/178/34/601855/
+  mirror_url: https://www.courtlistener.com/opinion/198488/united-states-v-barrett/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/178/34/601855/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4999,7 +5081,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/338/98/549969/
+  mirror_url: https://www.courtlistener.com/opinion/782936/drax-v-reno/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/338/98/549969/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5052,7 +5137,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/216/626/570410/
+  mirror_url: https://www.courtlistener.com/opinion/769182/jimmy-walker-v-jt-obrien-and-joseph-w-finfrock-v-craig-a-hanks/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/216/626/570410/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5104,7 +5192,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://openjurist.org/115/f3d/809/mcintosh-v-united-states-parole-commission
+  mirror_url: https://www.courtlistener.com/opinion/741840/marcus-allan-mcintosh-v-united-states-parole-commission/
+  previous_url: "https://openjurist.org/115/f3d/809/mcintosh-v-united-states-parole-commission"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5194,7 +5285,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca2/20-1563/20-1563-2021-08-04.html
+  mirror_url: https://storage.courtlistener.com/pdf/2021/08/04/united_states_v._saladino.pdf
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/ca2/20-1563/20-1563-2021-08-04.html"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication refuses automated requests (HTTP 403). Replaced with CourtListener's stored copy of the court's PDF. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5282,7 +5376,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca7/20-2445/20-2445-2021-01-25.html
+  mirror_url: https://storage.courtlistener.com/pdf/2021/01/25/united_states_v._gregory_sanford.pdf
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/ca7/20-2445/20-2445-2021-01-25.html"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication refuses automated requests (HTTP 403). Replaced with CourtListener's stored copy of the court's PDF. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5409,7 +5506,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://openjurist.org/321/f3d/311/united-states-v-gammarano
+  mirror_url: https://www.courtlistener.com/opinion/781046/united-states-v-john-gammarano/
+  previous_url: "https://openjurist.org/321/f3d/311/united-states-v-gammarano"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5590,7 +5690,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-26
   retrieval_date: '2026-08-26'
   official_url: null
-  mirror_url: https://openjurist.org/936/f2d/1/united-states-v-holder
+  mirror_url: https://www.courtlistener.com/opinion/563216/united-states-v-ewart-mark-holder/
+  previous_url: "https://openjurist.org/936/f2d/1/united-states-v-holder"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5685,7 +5788,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-26
   retrieval_date: '2026-08-26'
   official_url: null
-  mirror_url: https://openjurist.org/282/f3d/1241/united-states-v-torres
+  mirror_url: https://storage.courtlistener.com/pdf/2002/02/21/United_States_vs._Torres.pdf
+  previous_url: "https://openjurist.org/282/f3d/1241/united-states-v-torres"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication refuses automated requests (HTTP 403). Replaced with CourtListener's stored copy of the court's PDF. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5730,3 +5836,45 @@ sources:
     reproduction after no stable historical official opinion file was located. Ayala did not finally decide survival, rejected
     a pure-equity immigration-consequence theory, and remanded for § 2255 treatment without deciding constitutional merits.
     Comprehensive commercial citator not run.
+- source_id: SRC-BOP-PS-5160-06
+  authority_id: AUTH-BOP-PS-5160-06
+  title: "Designation of State Institutions for Service of Federal Sentence"
+  issuing_body: Federal Bureau of Prisons
+  source_type: official_current_agency_guidance
+  citation: "BOP PS 5160.06 (Sept. 3, 2026)"
+  source_currency: "Official current policy read in full 2026-10-15"
+  retrieval_date: 2026-10-15
+  official_url: https://www.bop.gov/policy/progstat/5160_006.pdf
+  mirror_url: null
+  local_snapshot_path: null
+  sha256: null
+  status: verified
+  notes: "Read in full (13 pages) through probe run 38789802937 and its full-text rerun. Rescinds PS 5160.05."
+- source_id: SRC-FR-91-55740
+  authority_id: AUTH-FR-91-55740
+  title: "First Step Act Time Credits—Revisions"
+  issuing_body: Federal Bureau of Prisons
+  source_type: official_federal_register_rule
+  citation: "91 Fed. Reg. 55740 (Aug. 31, 2026)"
+  source_currency: "Interim final rule effective 2026-09-30; read in full 2026-10-15"
+  retrieval_date: 2026-10-15
+  official_url: https://www.govinfo.gov/content/pkg/FR-2026-08-31/pdf/2026-17752.pdf
+  mirror_url: https://www.federalregister.gov/documents/full_text/text/2026/08/31/2026-17752.txt
+  local_snapshot_path: null
+  sha256: null
+  status: verified
+  notes: "Full text read from the Federal Register on 2026-10-15; PDF on GovInfo opened the same day."
+- source_id: SRC-CA1-MILES-BOWERS-2026
+  authority_id: AUTH-CA1-MILES-BOWERS-2026
+  title: "Miles v. Bowers"
+  issuing_body: United States Court of Appeals for the First Circuit
+  source_type: public_full_text_republication_of_published_precedential_opinion
+  citation: "Miles v. Bowers, No. 25-1291 (1st Cir. Apr. 27, 2026)"
+  source_currency: "Opinion text confirmed through CourtListener's API 2026-10-15"
+  retrieval_date: 2026-10-15
+  official_url: null
+  mirror_url: https://www.courtlistener.com/opinion/10848657/miles-v-bowers/
+  local_snapshot_path: null
+  sha256: null
+  status: verified_with_limitations
+  notes: "CourtListener opinion 11316033. Quoted holding verified by text search on 2026-10-15. Reporter citation 173 F.4th 372 given by 91 FR 55740, not yet confirmed."

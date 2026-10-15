@@ -1,0 +1,2 @@
+# Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
+# Format: URL [regex for links | !text | !fulltext | !find:<regex> for text around each match]

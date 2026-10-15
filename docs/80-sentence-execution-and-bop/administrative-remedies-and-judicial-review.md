@@ -52,16 +52,16 @@ An exhaustion record must preserve the event date, informal attempt or exception
 ## § 2241 classification, custodian, and exhaustion
 
 <!-- claim:CLM-BOPAR-014 authorities:AUTH-USC-28-2241 status:verified_current -->
-Section 2241 supplies habeas jurisdiction for a person “in custody” under federal authority within its terms; whether a particular prison claim challenges the fact or duration of custody, conditions, or an unreviewable discretionary placement must be classified before filing. [28 U.S.C. § 2241(c)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2241+edition%3Aprelim%29)
+Section 2241 supplies habeas jurisdiction for a person “in custody” under federal authority within its terms; whether a particular prison claim challenges the fact or duration of custody, conditions, or an unreviewable discretionary placement must be classified before filing. [28 U.S.C. § 2241(c)](https://www.govinfo.gov/link/uscode/28/2241)
 
 <!-- claim:CLM-BOPAR-015 authorities:AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426,AUTH-USC-28-2241 status:verified_current -->
 For a core challenge to present physical confinement, the proper respondent ordinarily is the immediate custodian and the petition ordinarily must be filed in the district with territorial jurisdiction over that custodian. [*Rumsfeld v. Padilla*, 542 U.S. 426, 434–47 (2004)](https://www.govinfo.gov/content/pkg/USREPORTS-542/pdf/USREPORTS-542-426.pdf)
 
 <!-- claim:CLM-BOPAR-016 authorities:AUTH-CFR-28-542,AUTH-USC-28-2241 status:verified_current -->
-Part 542 prescribes the agency process but does not declare a universal jurisdictional exhaustion rule for § 2241; the source, character, exceptions, waiver, and remedy for nonexhaustion must be taken from controlling circuit law. [28 C.F.R. pt. 542, subpt. B](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-542/subpart-B); [28 U.S.C. § 2241](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2241+edition%3Aprelim%29)
+Part 542 prescribes the agency process but does not declare a universal jurisdictional exhaustion rule for § 2241; the source, character, exceptions, waiver, and remedy for nonexhaustion must be taken from controlling circuit law. [28 C.F.R. pt. 542, subpt. B](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-542/subpart-B); [28 U.S.C. § 2241](https://www.govinfo.gov/link/uscode/28/2241)
 
 <!-- claim:CLM-BOPAR-017 authorities:AUTH-CFR-28-542,AUTH-USC-28-2241 status:verified_current -->
-Futility, irreparable injury, unavailable process, and prejudice are not self-proving labels; any asserted exception must be supported by the actual agency route, timing, requested relief, and controlling circuit standard. [28 C.F.R. §§ 542.13–542.18](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-542/subpart-B); [28 U.S.C. § 2241](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2241+edition%3Aprelim%29)
+Futility, irreparable injury, unavailable process, and prejudice are not self-proving labels; any asserted exception must be supported by the actual agency route, timing, requested relief, and controlling circuit standard. [28 C.F.R. §§ 542.13–542.18](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-542/subpart-B); [28 U.S.C. § 2241](https://www.govinfo.gov/link/uscode/28/2241)
 
 <!-- claim:CLM-BOPAR-018 authorities:AUTH-SCOTUS-WILSON-503-US-329,AUTH-CFR-28-542 status:verified_current -->
 For § 3585 credit, *United States v. Wilson* identifies initial Bureau computation and administrative review before judicial review; a sentencing-court request cannot bypass that allocation simply by relabeling the computation as clarification. [503 U.S. 329, 333–36 (1992)](https://www.govinfo.gov/content/pkg/USREPORTS-503/pdf/USREPORTS-503-329.pdf)
@@ -69,19 +69,19 @@ For § 3585 credit, *United States v. Wilson* identifies initial Bureau computat
 ## Section 3625 and legal review
 
 <!-- claim:CLM-BOPAR-019 authorities:AUTH-USC-18-3625 status:verified_current -->
-Section 3625 makes 5 U.S.C. §§ 554, 555, and 701–706 inapplicable to the making of determinations, decisions, or orders under 18 U.S.C. chapter 229, subchapter C (§§ 3621–3626). [18 U.S.C. § 3625](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625)
+Section 3625 makes 5 U.S.C. §§ 554, 555, and 701–706 inapplicable to the making of determinations, decisions, or orders under 18 U.S.C. chapter 229, subchapter C (§§ 3621–3626). [18 U.S.C. § 3625](https://www.govinfo.gov/link/uscode/18/3625)
 
 <!-- claim:CLM-BOPAR-020 authorities:AUTH-USC-18-3625 status:verified_current -->
-The § 3625 exclusion is statutory and must be applied to the source and nature of the challenged action; it is not a license to call every BOP action unreviewable or to ignore a properly presented constitutional or ultra vires claim. [18 U.S.C. § 3625](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625)
+The § 3625 exclusion is statutory and must be applied to the source and nature of the challenged action; it is not a license to call every BOP action unreviewable or to ignore a properly presented constitutional or ultra vires claim. [18 U.S.C. § 3625](https://www.govinfo.gov/link/uscode/18/3625)
 
 <!-- claim:CLM-BOPAR-021 authorities:AUTH-SCOTUS-LOPER-BRIGHT-603-US-369 status:verified_current -->
 After *Loper Bright Enterprises v. Raimondo*, a reviewing court must exercise independent judgment on statutory meaning rather than apply Chevron's mandatory deference framework; lawful agency discretion and § 3625's express review exclusion remain distinct questions. [603 U.S. 369, 392–413 (2024)](https://www.govinfo.gov/content/pkg/USREPORTS-603/pdf/USREPORTS-603-369.pdf)
 
 <!-- claim:CLM-BOPAR-022 authorities:AUTH-USC-18-3621,AUTH-USC-18-3625 status:verified_current -->
-Section 3621(b) separately states that a designation made under that subsection is not reviewable by any court; a court therefore must distinguish a designation choice from a claim that the Bureau used the wrong statute, ignored a mandatory condition, or violated the Constitution. [18 U.S.C. §§ 3621(b), 3625](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3621)
+Section 3621(b) separately states that a designation made under that subsection is not reviewable by any court; a court therefore must distinguish a designation choice from a claim that the Bureau used the wrong statute, ignored a mandatory condition, or violated the Constitution. [18 U.S.C. §§ 3621(b), 3625](https://www.govinfo.gov/link/uscode/18/3621)
 
 <!-- claim:CLM-BOPAR-023 authorities:AUTH-USC-18-3621,AUTH-USC-18-3624,AUTH-USC-18-3625 status:verified_current -->
-The remedy must match the proven error: recalculation, lawful reconsideration, restored process, or relief from unconstitutional custody is different from judicial selection of an institution, RRC, home-confinement address, RDAP admission, or discretionary reduction. [18 U.S.C. §§ 3621–3625](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625)
+The remedy must match the proven error: recalculation, lawful reconsideration, restored process, or relief from unconstitutional custody is different from judicial selection of an institution, RRC, home-confinement address, RDAP admission, or discretionary reduction. [18 U.S.C. §§ 3621–3625](https://www.govinfo.gov/link/uscode/18/3625)
 
 ## Transfer, release, and mootness
 
@@ -92,13 +92,13 @@ A postfiling transfer does not automatically terminate a properly filed habeas c
 Release from the challenged custody does not mechanically establish either a live controversy or mootness; the claimant must identify a continuing concrete injury redressable by the court, and collateral consequences are not presumed for every custody-administration decision. [*Spencer v. Kemna*, 523 U.S. 1, 7–18 (1998)](https://www.govinfo.gov/content/pkg/USREPORTS-523/pdf/USREPORTS-523-1.pdf)
 
 <!-- claim:CLM-BOPAR-026 authorities:AUTH-SCOTUS-SPENCER-523-US-1,AUTH-USC-28-2241 status:verified_current -->
-Mootness analysis must specify the challenged calculation or decision, present custody and supervision, remaining sentence, requested order, authority of the current respondent, and whether any recognized exception is supported rather than assumed. [*Spencer*, 523 U.S. at 7–18](https://www.govinfo.gov/content/pkg/USREPORTS-523/pdf/USREPORTS-523-1.pdf); [28 U.S.C. § 2241](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2241+edition%3Aprelim%29)
+Mootness analysis must specify the challenged calculation or decision, present custody and supervision, remaining sentence, requested order, authority of the current respondent, and whether any recognized exception is supported rather than assumed. [*Spencer*, 523 U.S. at 7–18](https://www.govinfo.gov/content/pkg/USREPORTS-523/pdf/USREPORTS-523-1.pdf); [28 U.S.C. § 2241](https://www.govinfo.gov/link/uscode/28/2241)
 
 <!-- claim:CLM-BOPAR-027 authorities:AUTH-USC-28-2241,AUTH-USC-18-3625 status:verified_current -->
-Before filing, identify jurisdiction, proper respondent, venue, custody status, administrative exhaustion, claim type, standard of review, § 3625 or other review limit, requested remedy, and a live redressable injury. [28 U.S.C. § 2241](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2241+edition%3Aprelim%29); [18 U.S.C. § 3625](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625)
+Before filing, identify jurisdiction, proper respondent, venue, custody status, administrative exhaustion, claim type, standard of review, § 3625 or other review limit, requested remedy, and a live redressable injury. [28 U.S.C. § 2241](https://www.govinfo.gov/link/uscode/28/2241); [18 U.S.C. § 3625](https://www.govinfo.gov/link/uscode/18/3625)
 
 <!-- claim:CLM-BOPAR-028 authorities:AUTH-CFR-28-542,AUTH-USC-28-2241 status:verified_current -->
-No exhaustion or merits conclusion can be drawn from a remedy tracking code alone; preserve and read every submission, response, rejection, extension, attachment, computation, decision, and subsequent custody event. [28 C.F.R. pt. 542, subpt. B](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-542/subpart-B); [28 U.S.C. § 2241](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2241+edition%3Aprelim%29)
+No exhaustion or merits conclusion can be drawn from a remedy tracking code alone; preserve and read every submission, response, rejection, extension, attachment, computation, decision, and subsequent custody event. [28 C.F.R. pt. 542, subpt. B](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-542/subpart-B); [28 U.S.C. § 2241](https://www.govinfo.gov/link/uscode/28/2241)
 
 ## PREA-adjusted grievance rules
 

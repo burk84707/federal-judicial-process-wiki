@@ -1757,7 +1757,8 @@
       "AUTH-USC-28-2241",
       "AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426",
       "AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283",
-      "AUTH-SCOTUS-SPENCER-523-US-1"
+      "AUTH-SCOTUS-SPENCER-523-US-1",
+      "AUTH-BOP-PS-5160-06"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1779,7 +1780,8 @@
       "SRC-USC-18-3621",
       "SRC-USC-18-3624-OLRC-PRELIM",
       "SRC-USC-18-3632-OLRC-PRELIM",
-      "SRC-USC-28-2241-OLRC-PRELIM"
+      "SRC-USC-28-2241-OLRC-PRELIM",
+      "SRC-BOP-PS-5160-06"
     ],
     "reviewer_status": "primary_source_review_complete_with_documented_limitations"
   },
@@ -1968,7 +1970,10 @@
       "AUTH-USC-18-3624",
       "AUTH-CFR-28-523-SUBPART-E",
       "AUTH-BOP-PS-5410-01-CN2",
-      "AUTH-DOJ-PATTERN-2019-RELEASE"
+      "AUTH-DOJ-PATTERN-2019-RELEASE",
+      "AUTH-FR-91-55740",
+      "AUTH-CA1-MILES-BOWERS-2026",
+      "AUTH-USC-18-3585"
     ],
     "last_verified": "2026-08-24",
     "review_interval_days": 90,
@@ -1978,7 +1983,9 @@
       "SRC-CFR-2025-28-523-SUBPART-E",
       "SRC-DOJ-PATTERN-2019-RELEASE",
       "SRC-USC-18-3624-OLRC-PRELIM",
-      "SRC-USC-18-3632-OLRC-PRELIM"
+      "SRC-USC-18-3632-OLRC-PRELIM",
+      "SRC-FR-91-55740",
+      "SRC-CA1-MILES-BOWERS-2026"
     ],
     "reviewer_status": "primary_source_review_complete_with_documented_limitations",
     "module_type": "sentence_execution",

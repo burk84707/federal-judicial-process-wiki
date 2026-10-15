@@ -14,4 +14,4 @@ Application requires the actual order, jeopardy status, certification, notice, a
 
 ## Official source
 
-<https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3731+edition%3Aprelim%29>
+<https://www.govinfo.gov/link/uscode/18/3731>

@@ -46,7 +46,7 @@ When restitution is deferred and a later amended judgment fixes the amount, a de
 In a federal criminal case, final judgment ordinarily means the sentence, and the judgment is appealable even when execution of sentence is suspended. [*Berman v. United States*, 302 U.S. 211, 212–13 (1937)](https://www.govinfo.gov/content/pkg/USREPORTS-302/pdf/USREPORTS-302-211.pdf)
 
 <!-- claim:CLM-DR-012 authorities:AUTH-USC-28-1291 status:verified_current -->
-Section 1291 gives the courts of appeals jurisdiction over appeals from final decisions of the district courts except where direct Supreme Court review is authorized; identifying a criminal sentence as ordinarily final does not make every later or interlocutory order appealable. [28 U.S.C. § 1291](https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section1291)
+Section 1291 gives the courts of appeals jurisdiction over appeals from final decisions of the district courts except where direct Supreme Court review is authorized; identifying a criminal sentence as ordinarily final does not make every later or interlocutory order appealable. [28 U.S.C. § 1291](https://www.govinfo.gov/link/uscode/28/1291)
 
 <!-- claim:CLM-DR-013 authorities:AUTH-SCOTUS-FLANAGAN-465-US-259 status:verified_current -->
 The final-judgment rule is applied with particular stringency in criminal cases, and the collateral-order doctrine covers only a narrow class; *Flanagan* held that a pretrial order disqualifying defense counsel was not immediately appealable. [*Flanagan v. United States*, 465 U.S. 259, 263–70 (1984)](https://www.govinfo.gov/content/pkg/USREPORTS-465/pdf/USREPORTS-465-259.pdf)
@@ -55,10 +55,10 @@ The final-judgment rule is applied with particular stringency in criminal cases,
 A pretrial order denying a motion to dismiss on double-jeopardy grounds is immediately appealable to the extent it rejects a colorable Double Jeopardy Clause claim because the asserted right includes avoiding the second trial itself. [*Abney v. United States*, 431 U.S. 651, 659–62 (1977)](https://www.govinfo.gov/content/pkg/USREPORTS-431/pdf/USREPORTS-431-651.pdf)
 
 <!-- claim:CLM-DR-015 authorities:AUTH-USC-18-3731 status:verified_current -->
-Government criminal appeals depend on 18 U.S.C. § 3731's covered order, certification, thirty-day, diligent-prosecution, and Double Jeopardy limits; the statute does not grant the defendant a reciprocal interlocutory route. [18 U.S.C. § 3731](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3731+edition%3Aprelim%29)
+Government criminal appeals depend on 18 U.S.C. § 3731's covered order, certification, thirty-day, diligent-prosecution, and Double Jeopardy limits; the statute does not grant the defendant a reciprocal interlocutory route. [18 U.S.C. § 3731](https://www.govinfo.gov/link/uscode/18/3731)
 
 <!-- claim:CLM-DR-016 authorities:AUTH-USC-18-3742 status:verified_current -->
-Section 3742 separately specifies the defendant's and government's grounds to appeal an otherwise final sentence and the appellate court's disposition authority; a disagreement with sentence alone is not a substitute for a statutory ground. [18 U.S.C. § 3742](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3742+edition%3Aprelim%29)
+Section 3742 separately specifies the defendant's and government's grounds to appeal an otherwise final sentence and the appellate court's disposition authority; a disagreement with sentence alone is not a substitute for a statutory ground. [18 U.S.C. § 3742](https://www.govinfo.gov/link/uscode/18/3742)
 
 ## Guilty pleas and express appeal waivers
 

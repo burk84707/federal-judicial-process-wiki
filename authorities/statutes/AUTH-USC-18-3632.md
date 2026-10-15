@@ -17,4 +17,4 @@ The exact current text controls individualized offense screening. This record do
 
 ## Official source
 
-<https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3632>
+<https://www.govinfo.gov/link/uscode/18/3632>

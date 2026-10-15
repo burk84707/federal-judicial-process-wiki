@@ -17,4 +17,4 @@ Each subsection must be applied separately. The statute does not resolve circuit
 
 ## Official source
 
-<https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29>
+<https://www.govinfo.gov/link/uscode/18/3582>

@@ -16,7 +16,7 @@ This page prevents nationwide rules from being mistaken for Sixth Circuit doctri
 ## Verified circuit holdings
 
 <!-- claim:CLM-CIR6-001 authorities:AUTH-CA6-FAZZINI-473-F3D-229 status:verified_current -->
-- **CLM-CIR6-001:** In the Sixth Circuit, federal prisoners ordinarily must exhaust before filing under § 2241, but the judge-made requirement may be excused where remedies are futile or cannot provide the relief sought, or where the administrator—not the prisoner—caused the failure; a missing final response does not automatically defeat exhaustion. [*Fazzini v. Northeast Ohio Correctional Center*, 473 F.3d 229, 231–36 (6th Cir. 2006)](https://law.justia.com/cases/federal/appellate-courts/F3/473/229/589119/)
+- **CLM-CIR6-001:** In the Sixth Circuit, federal prisoners ordinarily must exhaust before filing under § 2241, but the judge-made requirement may be excused where remedies are futile or cannot provide the relief sought, or where the administrator—not the prisoner—caused the failure; a missing final response does not automatically defeat exhaustion. [*Fazzini v. Northeast Ohio Correctional Center*, 473 F.3d 229, 231–36 (6th Cir. 2006)](https://www.courtlistener.com/opinion/796434/paul-fazzini-v-northeast-ohio-correctional-center-warden-united-states/)
 
   Limitation: Binding only in the Sixth Circuit and arising from a Parole Commission appeal. The opinion's treatment of what must be attached at pleading is distinct from whether a particular BOP Part 542 claim was properly exhausted.
 <!-- claim:CLM-CIR6-002 authorities:AUTH-PL-115-391-SEC-404,AUTH-SCOTUS-CONCEPCION-597-US-481,AUTH-CA6-DOMENECH-63-F4TH-1078 status:verified_current -->

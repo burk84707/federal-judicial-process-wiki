@@ -14,7 +14,7 @@ Binding only in the Second Circuit and only for the bounded procedural postures 
 
 ## Official source and pinpoints
 
-7 F.4th 120 (2d Cir. 2021), 7 F.4th 121–24: <https://law.justia.com/cases/federal/appellate-courts/ca2/20-1563/20-1563-2021-08-04.html>
+7 F.4th 120 (2d Cir. 2021), 7 F.4th 121–24: <https://storage.courtlistener.com/pdf/2021/08/04/united_states_v._saladino.pdf>
 
 ## Linked claims
 

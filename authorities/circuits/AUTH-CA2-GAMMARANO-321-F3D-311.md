@@ -14,7 +14,7 @@ Binding only in the Second Circuit and only for the bounded procedural postures 
 
 ## Official source and pinpoints
 
-321 F.3d 311 (2d Cir. 2003), 321 F.3d 315–16: <https://openjurist.org/321/f3d/311/united-states-v-gammarano>
+321 F.3d 311 (2d Cir. 2003), 321 F.3d 315–16: <https://www.courtlistener.com/opinion/781046/united-states-v-john-gammarano/>
 
 ## Linked claims
 

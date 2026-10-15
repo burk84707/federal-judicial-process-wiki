@@ -14,4 +14,4 @@ Use only for the bounded proposition and express limitations in the linked canon
 
 ## Official source and pinpoints
 
-18 U.S.C. § 3006A, § 3006A(a)(1)(E): <https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3006A+edition%3Aprelim%29>
+18 U.S.C. § 3006A, § 3006A(a)(1)(E): <https://www.govinfo.gov/link/uscode/18/3006A>

@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked canonical module; offense-spe
 
 ## Official source and pinpoints
 
-18 U.S.C. § 982, 18 U.S.C. § 982: <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section982>
+18 U.S.C. § 982, 18 U.S.C. § 982: <https://www.govinfo.gov/link/uscode/18/982>

@@ -14,7 +14,7 @@ Binding only in the First Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-178 F.3d 34 (1st Cir. 1999), 178 F.3d 42: <https://law.justia.com/cases/federal/appellate-courts/F3/178/34/601855/>
+178 F.3d 34 (1st Cir. 1999), 178 F.3d 42: <https://www.courtlistener.com/opinion/198488/united-states-v-barrett/>
 
 ## Linked claims
 

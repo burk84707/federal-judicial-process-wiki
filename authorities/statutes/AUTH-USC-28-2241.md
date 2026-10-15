@@ -16,4 +16,4 @@ This card does not resolve saving-clause availability, respondent, venue, exhaus
 
 ## Official source
 
-OLRC preliminary edition, laws in effect July 29, 2026: <https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2241>
+OLRC preliminary edition, laws in effect July 29, 2026: <https://www.govinfo.gov/link/uscode/28/2241>

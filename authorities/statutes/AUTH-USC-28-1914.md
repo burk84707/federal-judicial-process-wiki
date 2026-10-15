@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked modules. The actual custody, 
 
 ## Official source and pinpoints
 
-28 U.S.C. § 1914, § 1914(a): <https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1914+edition%3Aprelim%29>
+28 U.S.C. § 1914, § 1914(a): <https://www.govinfo.gov/link/uscode/28/1914>

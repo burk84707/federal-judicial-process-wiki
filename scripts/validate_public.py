@@ -207,6 +207,16 @@ def validate(root=ROOT, site=None):
         schema(lc, {"type":"object","required":["schema_version","kind","checked_on","method","counts","authorities","sources"],"properties":{"kind":{"const":"link_check"},"checked_on":{"type":"string","format":"date"},"authorities":{"type":"object","additionalProperties":{"enum":["opened","failed"]}},"sources":{"type":"object","additionalProperties":{"type":"object","required":["url","result"],"properties":{"result":{"enum":["opened","failed"]}}}}}}, "link_check")
         refs(lc.get("authorities", {}), index["authority"], "link-check authority")
         refs(lc.get("sources", {}), source_index, "link-check source")
+    conf_path = root / "data/source_confirmations.json"
+    if conf_path.is_file():
+        conf = load(conf_path)
+        schema(conf, {"type":"object","required":["schema_version","kind","method","sources"],"properties":{"kind":{"const":"source_confirmations"},"sources":{"type":"object","additionalProperties":{"type":"object","required":["checked_on","result","url","citation","citation_match"],"properties":{"checked_on":{"type":"string","format":"date"},"result":{"enum":["confirmed","not_found"]},"citation_match":{"type":"boolean"}}}}}}, "source_confirmations")
+        refs(conf.get("sources", {}), source_index, "confirmed source")
+        for sid, c in conf.get("sources", {}).items():
+            if sid in source_index:
+                src = source_index[sid]
+                check(c["url"] in (src.get("official_url"), src.get("mirror_url")), f"confirmed URL is not the recorded source URL: {sid}")
+                check(c["result"] != "confirmed" or c["citation_match"], f"confirmation without a citation match: {sid}")
     for n in index["node"].values():
         refs([n["module_id"]], index["module"], "node module")
         refs(n.get("claim_ids", []), index["claim"], "node claim")

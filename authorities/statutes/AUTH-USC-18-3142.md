@@ -14,4 +14,4 @@ The statute does not state a burden of proof for flight-based detention. Circuit
 
 ## Official source
 
-OLRC preliminary edition, current through laws reported in effect during August 2026: <https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29>
+OLRC preliminary edition, current through laws reported in effect during August 2026: <https://www.govinfo.gov/link/uscode/18/3142>

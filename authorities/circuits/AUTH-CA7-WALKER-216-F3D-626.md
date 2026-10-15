@@ -14,7 +14,7 @@ Binding only in the Seventh Circuit and only for the bounded procedural postures
 
 ## Official source and pinpoints
 
-216 F.3d 626 (7th Cir. 2000), 216 F.3d 638: <https://law.justia.com/cases/federal/appellate-courts/F3/216/626/570410/>
+216 F.3d 626 (7th Cir. 2000), 216 F.3d 638: <https://www.courtlistener.com/opinion/769182/jimmy-walker-v-jt-obrien-and-joseph-w-finfrock-v-craig-a-hanks/>
 
 ## Linked claims
 

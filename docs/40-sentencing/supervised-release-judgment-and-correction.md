@@ -11,19 +11,19 @@ This module verifies initial imposition and conditions of supervised release, ju
 ## Initial supervised-release term
 
 <!-- claim:CLM-SENT-052 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-When imposing imprisonment for a felony or misdemeanor, the court may include supervised release after imprisonment and must include it when another statute requires it or for a first domestic-violence conviction as § 3561(b) defines; § 3583(a) does not impose a general mandate based solely on an imprisonment term exceeding one year. [18 U.S.C. § 3583(a)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+When imposing imprisonment for a felony or misdemeanor, the court may include supervised release after imprisonment and must include it when another statute requires it or for a first domestic-violence conviction as § 3561(b) defines; § 3583(a) does not impose a general mandate based solely on an imprisonment term exceeding one year. [18 U.S.C. § 3583(a)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SENT-053 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-Unless another statute provides otherwise, the maximum supervised-release term is five years for a Class A or B felony, three years for a Class C or D felony, and one year for a Class E felony or a nonpetty misdemeanor. [18 U.S.C. § 3583(b)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+Unless another statute provides otherwise, the maximum supervised-release term is five years for a Class A or B felony, three years for a Class C or D felony, and one year for a Class E felony or a nonpetty misdemeanor. [18 U.S.C. § 3583(b)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SENT-054 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-In selecting the initial supervised-release term and conditions, § 3583(c) incorporates § 3553(a)(1), (a)(2)(B)–(D), and (a)(4)–(7), but not § 3553(a)(2)(A)'s retributive purposes. [18 U.S.C. § 3583(c)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+In selecting the initial supervised-release term and conditions, § 3583(c) incorporates § 3553(a)(1), (a)(2)(B)–(D), and (a)(4)–(7), but not § 3553(a)(2)(A)'s retributive purposes. [18 U.S.C. § 3583(c)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SENT-055 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-Section 3583(d) imposes its listed mandatory conditions, including no new crime, no unlawful controlled-substance possession, authorized DNA collection, and required sex-offender registration, while allowing qualifying discretionary conditions drawn from § 3563(b) and other appropriate conditions. [18 U.S.C. § 3583(d)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+Section 3583(d) imposes its listed mandatory conditions, including no new crime, no unlawful controlled-substance possession, authorized DNA collection, and required sex-offender registration, while allowing qualifying discretionary conditions drawn from § 3563(b) and other appropriate conditions. [18 U.S.C. § 3583(d)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SENT-056 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-A discretionary supervised-release condition must be reasonably related to the incorporated sentencing factors, involve no greater deprivation of liberty than reasonably necessary for deterrence, public protection, and effective treatment, and be consistent with Sentencing Commission policy statements. [18 U.S.C. § 3583(d)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+A discretionary supervised-release condition must be reasonably related to the incorporated sentencing factors, involve no greater deprivation of liberty than reasonably necessary for deterrence, public protection, and effective treatment, and be consistent with Sentencing Commission policy statements. [18 U.S.C. § 3583(d)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SENT-057 authorities:AUTH-SCOTUS-TAPIA-564-US-319 status:verified_current -->
 Although treatment needs may inform supervised-release conditions, the court may not impose or lengthen imprisonment to promote rehabilitation. [*Tapia v. United States*, 564 U.S. 319, 326–35 (2011)](https://www.govinfo.gov/content/pkg/USREPORTS-564/pdf/USREPORTS-564-319.pdf)
@@ -48,7 +48,7 @@ Rule 35(b) permits a post-sentencing reduction only on a government substantial-
 After any appropriate notice, Rule 36 permits correction at any time of a clerical error in a judgment, order, or record or an error arising from oversight or omission, but it does not authorize a substantive resentencing. [Fed. R. Crim. P. 36](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf)
 
 <!-- claim:CLM-SENT-063 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-A term of imprisonment is a final judgment and may be modified only through an express route listed in § 3582(c) or another applicable statute or rule; § 3553(a) alone does not create sentence-modification jurisdiction. [18 U.S.C. § 3582(b)–(c)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3582)
+A term of imprisonment is a final judgment and may be modified only through an express route listed in § 3582(c) or another applicable statute or rule; § 3553(a) alone does not create sentence-modification jurisdiction. [18 U.S.C. § 3582(b)–(c)](https://www.govinfo.gov/link/uscode/18/3582)
 
 ## Preservation checklist
 

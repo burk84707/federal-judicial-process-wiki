@@ -14,7 +14,7 @@ Binding only in the Second Circuit and only for the bounded procedural postures 
 
 ## Official source and pinpoints
 
-243 F.3d 629 (2d Cir. 2001), 243 F.3d 633–34: <https://law.justia.com/cases/federal/appellate-courts/F3/243/629/603798/>
+243 F.3d 629 (2d Cir. 2001), 243 F.3d 633–34: <https://www.courtlistener.com/opinion/772485/carlos-pelaez-edison-carmona-v-united-states-bureau-of-prisons/>
 
 ## Linked claims
 

@@ -14,4 +14,4 @@ Use only for the bounded proposition stated here. The exact Rule 35 or 36 postur
 
 ## Official source and pinpoints
 
-585 U.S. 109 (2018), 585 U.S. 115–20: <https://www.supremecourt.gov/opinions/17pdf/17-5639_8m59.pdf>
+585 U.S. 109 (2018), 585 U.S. 115–20: <https://www.govinfo.gov/content/pkg/USREPORTS-585/pdf/USREPORTS-585-109.pdf>

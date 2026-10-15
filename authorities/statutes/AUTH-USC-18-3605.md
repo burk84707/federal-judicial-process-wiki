@@ -14,4 +14,4 @@ Use only for the bounded proposition and express limitations in the linked canon
 
 ## Official source and pinpoints
 
-18 U.S.C. § 3605, § 3605: <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3605>
+18 U.S.C. § 3605, § 3605: <https://www.govinfo.gov/link/uscode/18/3605>

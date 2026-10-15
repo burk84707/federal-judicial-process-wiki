@@ -2,6 +2,14 @@
 
 Release identity is the `version` in `release.json` plus the source digest printed in each page footer. Legal review dates are recorded per record and never change because of a release.
 
+## 1.2.0 — 2026-10-15
+
+- Legal review of four claims whose sources changed after August 2026, approved by the owner: BOP PS 5160.05 was rescinded by PS 5160.06 (Sept. 3, 2026); 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (effective Sept. 30, 2026), following *Miles v. Bowers* (1st Cir. 2026); the BOP Federal Time Credit Application Guide was removed from bop.gov and is kept as archived guidance. New authority records for PS 5160.06, 91 FR 55740 and *Miles v. Bowers*.
+- Source links: six Supreme Court PDFs and two public laws point to working official copies; every U.S. Code link points to GovInfo, with the Law Revision Counsel preliminary text kept as a mirror; 14 opinions republished on Justia, OpenJurist or CourtListener point to CourtListener and are confirmed through its API (`data/source_confirmations.json`).
+- Link check of October 15: 369 of 380 sources available (354 opened, 15 confirmed through CourtListener). The rest are listed in `maintenance/link-review-2026-10-15.md`.
+- Checker fixes: IPv4-first connections, a 60-second limit, and error pages or web pages returned for PDFs now count as failures. A read-only probe workflow tests candidate URLs before any record changes.
+- Carmona v. BOP, 243 F.3d 629: decision date March 20, 2001 confirmed from Caselaw Access Project data.
+
 ## 1.1.0 — 2026-10-15
 
 - Single source of truth: module and authority headers now carry only their ID; all metadata lives in `data/`. The migration and its rules are in `maintenance/migrations/2026-10-15-single-source.py`.

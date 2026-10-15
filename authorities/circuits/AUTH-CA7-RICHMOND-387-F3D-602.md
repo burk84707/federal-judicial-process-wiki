@@ -14,7 +14,7 @@ Binding only in the Seventh Circuit and only for the bounded procedural postures
 
 ## Official source and pinpoints
 
-387 F.3d 602 (7th Cir. 2004), 387 F.3d 604–06: <https://law.justia.com/cases/federal/appellate-courts/F3/387/602/532564/>
+387 F.3d 602 (7th Cir. 2004), 387 F.3d 604–06: <https://www.courtlistener.com/opinion/788163/michael-richmond-v-joseph-scibana-warden-federal-correctional/>
 
 ## Linked claims
 

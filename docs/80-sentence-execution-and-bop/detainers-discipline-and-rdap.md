@@ -18,10 +18,10 @@ Section 287.7(d) authorizes detention under an immigration detainer for no more 
 The detainer regulation does not direct the receiving agency to disregard its own discretion concerning confinement before the person's ordinary release date. [8 C.F.R. § 287.7(a)](https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-287/section-287.7)
 
 <!-- claim:CLM-BOPDDR-004 authorities:AUTH-USC-18-3632,AUTH-CFR-28-523-SUBPART-E status:verified_current -->
-The First Step Act bars application of earned time credits to a prisoner who is the subject of a final order of removal under immigration law; a database flag or detainer must not be substituted for the final-order finding required by the statute and regulation. [18 U.S.C. § 3632(d)(4)(E)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3632+edition%3Aprelim%29); [28 C.F.R. § 523.44(a)(2)](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/subpart-E/section-523.44)
+The First Step Act bars application of earned time credits to a prisoner who is the subject of a final order of removal under immigration law; a database flag or detainer must not be substituted for the final-order finding required by the statute and regulation. [18 U.S.C. § 3632(d)(4)(E)](https://www.govinfo.gov/link/uscode/18/3632); [28 C.F.R. § 523.44(a)(2)](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/subpart-E/section-523.44)
 
 <!-- claim:CLM-BOPDDR-005 authorities:AUTH-USC-18-3632,AUTH-CFR-8-287-7 status:verified_current -->
-Whether immigration status affects designation, community placement, RDAP transition, or time-credit application must be tied to the exact statute, regulation, program criterion, and immigration record; there is no single consequence shared by every immigration detainer. [18 U.S.C. § 3632(d)(4)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3632+edition%3Aprelim%29); [8 C.F.R. § 287.7](https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-287/section-287.7)
+Whether immigration status affects designation, community placement, RDAP transition, or time-credit application must be tied to the exact statute, regulation, program criterion, and immigration record; there is no single consequence shared by every immigration detainer. [18 U.S.C. § 3632(d)(4)](https://www.govinfo.gov/link/uscode/18/3632); [8 C.F.R. § 287.7](https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-287/section-287.7)
 
 ## Interstate Agreement on Detainers
 
@@ -93,18 +93,18 @@ A DHO decision may be appealed through the Administrative Remedy Program; becaus
 ## Lost credit and restoration
 
 <!-- claim:CLM-BOPDDR-027 authorities:AUTH-USC-18-3624,AUTH-CFR-28-523-20 status:verified_current -->
-Good-conduct time under § 3624(b) and 28 C.F.R. § 523.20 is distinct from First Step Act time credit; forfeited, withheld, vested, and restored good-conduct time must be matched to the prisoner's sentence regime and disciplinary record. [18 U.S.C. § 3624(b)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3624+edition%3Aprelim%29); [28 C.F.R. § 523.20](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/section-523.20)
+Good-conduct time under § 3624(b) and 28 C.F.R. § 523.20 is distinct from First Step Act time credit; forfeited, withheld, vested, and restored good-conduct time must be matched to the prisoner's sentence regime and disciplinary record. [18 U.S.C. § 3624(b)](https://www.govinfo.gov/link/uscode/18/3624); [28 C.F.R. § 523.20](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/section-523.20)
 
 <!-- claim:CLM-BOPDDR-028 authorities:AUTH-CFR-28-523-SUBPART-E status:verified_current -->
 Under the First Step Act regulation, a prisoner may lose earned time credits for violating prohibited-act rules, may appeal the loss through the Administrative Remedy Program, and may later be considered for restoration under the regulation and Bureau procedures; none of those events should be inferred from a projected-release-date change alone. [28 C.F.R. § 523.43](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/subpart-E/section-523.43)
 
 <!-- claim:CLM-BOPDDR-029 authorities:AUTH-USC-18-3624,AUTH-USC-18-3632,AUTH-CFR-28-541 status:verified_current -->
-A disciplinary audit must reconcile the incident report, investigation, UDC and DHO records, code and severity, sanctions, appeals, restoration action, sentence computation, and separate GCT and FSA-credit ledgers. [18 U.S.C. §§ 3624(b), 3632(d)(4)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3632+edition%3Aprelim%29); [28 C.F.R. pt. 541](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-541)
+A disciplinary audit must reconcile the incident report, investigation, UDC and DHO records, code and severity, sanctions, appeals, restoration action, sentence computation, and separate GCT and FSA-credit ledgers. [18 U.S.C. §§ 3624(b), 3632(d)(4)](https://www.govinfo.gov/link/uscode/18/3632); [28 C.F.R. pt. 541](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-541)
 
 ## RDAP and § 3621(e) reduction
 
 <!-- claim:CLM-BOPDDR-030 authorities:AUTH-USC-18-3621 status:verified_current -->
-Section 3621(e) directs the Bureau to provide residential substance-abuse treatment for eligible prisoners, but it makes an eligible nonviolent prisoner's post-completion sentence reduction discretionary and caps it at one year. [18 U.S.C. § 3621(e)(1)–(2)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3621)
+Section 3621(e) directs the Bureau to provide residential substance-abuse treatment for eligible prisoners, but it makes an eligible nonviolent prisoner's post-completion sentence reduction discretionary and caps it at one year. [18 U.S.C. § 3621(e)(1)–(2)](https://www.govinfo.gov/link/uscode/18/3621)
 
 <!-- claim:CLM-BOPDDR-031 authorities:AUTH-CFR-28-550-RDAP,AUTH-USC-18-3621 status:verified_current -->
 Current RDAP admission requires the regulatory eligibility findings, including a verifiable substance-use disorder, willingness to participate, ability to complete all phases, and ordinarily enough time remaining to complete the program; a treatment recommendation is evidence, not automatic admission. [28 C.F.R. § 550.53](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-550/subpart-F/section-550.53)
@@ -128,13 +128,13 @@ The current public policy uses a maximum provisional reduction of six months for
 A detainer matters to RDAP early release only to the extent the verified detainer and custody plan prevent the required community-based component or trigger another stated exclusion; “has a detainer” is not a sufficient legal analysis. [28 C.F.R. §§ 550.53–550.55](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-550/subpart-F); [BOP PS 5331.02 CN-3](https://www2.fed.bop.gov/policy/progstat/5331_002_CN-3.pdf)
 
 <!-- claim:CLM-BOPDDR-038 authorities:AUTH-SCOTUS-TAPIA-564-US-319,AUTH-USC-18-3621 status:verified_current -->
-A sentencing court may recommend treatment, but *Tapia* prohibits imposing or lengthening imprisonment to promote rehabilitation and does not transfer RDAP admission or § 3621(e) reduction authority from the Bureau to the court. [*Tapia v. United States*, 564 U.S. 319, 326–35 (2011)](https://www.govinfo.gov/content/pkg/USREPORTS-564/pdf/USREPORTS-564-319.pdf); [18 U.S.C. § 3621(e)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3621)
+A sentencing court may recommend treatment, but *Tapia* prohibits imposing or lengthening imprisonment to promote rehabilitation and does not transfer RDAP admission or § 3621(e) reduction authority from the Bureau to the court. [*Tapia v. United States*, 564 U.S. 319, 326–35 (2011)](https://www.govinfo.gov/content/pkg/USREPORTS-564/pdf/USREPORTS-564-319.pdf); [18 U.S.C. § 3621(e)](https://www.govinfo.gov/link/uscode/18/3621)
 
 <!-- claim:CLM-BOPDDR-039 authorities:AUTH-USC-18-3621,AUTH-CFR-28-550-RDAP status:verified_current -->
-An RDAP dispute must distinguish treatment access, clinical diagnosis, program removal, successful completion, early-release eligibility, provisional reduction, final reduction, and community placement because each asks a different factual and remedial question. [18 U.S.C. § 3621(e)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3621); [28 C.F.R. pt. 550, subpt. F](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-550/subpart-F)
+An RDAP dispute must distinguish treatment access, clinical diagnosis, program removal, successful completion, early-release eligibility, provisional reduction, final reduction, and community placement because each asks a different factual and remedial question. [18 U.S.C. § 3621(e)](https://www.govinfo.gov/link/uscode/18/3621); [28 C.F.R. pt. 550, subpt. F](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-C/part-550/subpart-F)
 
 <!-- claim:CLM-BOPDDR-040 authorities:AUTH-USC-18-3625,AUTH-SCOTUS-LOPEZ-DAVIS-531-US-230 status:verified_current -->
-Review must identify whether the asserted error is statutory, regulatory, constitutional, evidentiary, or an exercise of placement or early-release discretion; § 3625 excludes specified APA provisions from subchapter-C determinations, while *Lopez* confirms the breadth of the Bureau's lawful § 3621(e) discretion. [18 U.S.C. § 3625](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625); [*Lopez*, 531 U.S. at 238–44](https://www.govinfo.gov/content/pkg/USREPORTS-531/pdf/USREPORTS-531-230.pdf)
+Review must identify whether the asserted error is statutory, regulatory, constitutional, evidentiary, or an exercise of placement or early-release discretion; § 3625 excludes specified APA provisions from subchapter-C determinations, while *Lopez* confirms the breadth of the Bureau's lawful § 3621(e) discretion. [18 U.S.C. § 3625](https://www.govinfo.gov/link/uscode/18/3625); [*Lopez*, 531 U.S. at 238–44](https://www.govinfo.gov/content/pkg/USREPORTS-531/pdf/USREPORTS-531-230.pdf)
 
 ## Decision path
 
