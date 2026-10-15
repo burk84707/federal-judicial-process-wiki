@@ -20,6 +20,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install -r requirements.txt pypdf==5.1.0
       - name: Probe each URL with the source monitor's fetcher
         run: python scripts/probe_urls.py maintenance/probe/urls.txt --timeout 60

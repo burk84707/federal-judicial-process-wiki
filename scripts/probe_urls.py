@@ -3,6 +3,9 @@
 Input: a text file with one URL per line, optionally followed by a space and a
 regular expression. For an HTML page, links whose URL matches the expression
 are listed, so a listing page can be searched for the current document link.
+A line ending in " !text" prints the opening text of the document instead
+(PDF text needs the pypdf package), so its title, date and rescission notice
+can be read without a browser.
 Uses the same vetted fetcher as the source monitor. Prints one JSON line per URL.
 """
 from __future__ import annotations
@@ -20,6 +23,15 @@ from monitor_sources import FetchError, fetch_once, validate_url  # noqa: E402
 HREF = re.compile(rb"""href\s*=\s*["']([^"'#]+)["']""", re.I)
 
 
+def document_text(body: bytes, content_type: str) -> str:
+    if body[:5] == b"%PDF-":
+        import io
+        from pypdf import PdfReader
+        return "\n".join((page.extract_text() or "") for page in PdfReader(io.BytesIO(body)).pages[:4])
+    text = re.sub(r"(?s)<(script|style).*?</\1>", " ", body.decode("utf-8", "replace"))
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text))
+
+
 def probe(url: str, pattern: str | None, timeout: float) -> dict:
     out = {"url": url}
     try:
@@ -29,6 +41,10 @@ def probe(url: str, pattern: str | None, timeout: float) -> dict:
         out.update(result="failed", reason=exc.kind, detail=str(exc)[:160])
         return out
     body = evidence.pop("body", b"")
+    if pattern == "!text":
+        out.update(result="opened", final_url=evidence["final_url"], content_type=evidence.get("content_type"),
+                   bytes=evidence["bytes"], text=document_text(body, evidence.get("content_type") or "")[:6000])
+        return out
     out.update(result="opened", final_url=evidence["final_url"], content_type=evidence.get("content_type"),
                bytes=evidence["bytes"])
     if pattern:
