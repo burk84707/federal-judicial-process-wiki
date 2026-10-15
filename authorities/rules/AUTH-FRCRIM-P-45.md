@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-FRCRIM-P-45
-authority_type: rule
-citation: Fed. R. Crim. P. 45
-issuing_body: Supreme Court of the United States under the Rules Enabling Act, subject to congressional review
-jurisdiction: federal
-publication_status: official
-precedential_status: binding_national_procedural_rule
-negative_treatment_status: current text checked through the 2023 amendment
-last_verified: 2026-08-25
 ---
 
 # Federal Rule of Criminal Procedure 45
@@ -25,10 +17,3 @@ Whether excusable neglect is established is fact-specific and governed by contro
 ## Official source and locator
 
 GovInfo, Title 18 Appendix, Rule 45, pages 174–177 of the printed appendix: <https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-app.pdf>
-
-## Linked records
-
-- Module: `MOD-RULE-33-NEW-TRIAL`
-- Module: `MOD-ARRAIGNMENT-PRETRIAL-DISCLOSURE`
-- Claims: `CLM-R33-007`, `CLM-R33-008`
-- Claim: `CLM-DISC-014`

@@ -119,6 +119,9 @@ class Builder:
         self.sources = yaml.safe_load((ROOT / "sources/source_registry.yaml").read_text(encoding="utf-8"))["sources"]
         self.nodes = read_json(ROOT / "data/process_nodes.json")
         self.edges = read_json(ROOT / "data/process_edges.json")
+        # Optional: written from a full source-review run. Absent means no link check is shown.
+        link_path = ROOT / "data/link_check.json"
+        self.link_check = read_json(link_path) if link_path.is_file() else None
         self.route_map, self.auth_paths, self.search = {}, {}, []
         self.pages = []
         self.unlisted_routes = {"downloads/"} if self.cfg.get("downloads_visibility") == "unlisted" else set()
@@ -230,17 +233,17 @@ class Builder:
             front, body = frontmatter((ROOT / source).read_text(encoding="utf-8"))
             body = self.MD_LINK.sub(lambda m: m.group(1) + self.md_resolve(source, m.group(2)) + m.group(3), body)
             if source.startswith("docs/"):
-                meta = self.by_module.get(front.get("module_id"), front)
-                auths = [self.by_auth[a] for a in meta.get("authority_ids", front.get("authority_ids", [])) if a in self.by_auth]
+                meta = self.by_module.get(front.get("module_id"), {})
+                auths = [self.by_auth[a] for a in meta.get("authority_ids", []) if a in self.by_auth]
                 if auths:
                     body += "\n\n## Authorities\n\n" + "".join(f"- [{self.cite(a)}]({self.abs_url(md_route('authorities/' + a['authority_id'] + '/'))})" + (f" · official source: {a['official_url']}" if a.get("official_url") else "") + "\n" for a in auths)
-                self.write_md(route, {"title": front.get("title", meta.get("title")), "module_id": front.get("module_id"), "url": self.abs_url(route), "current_through": current, "sources_last_checked": str(meta.get("last_verified", "")), "license": "CC BY 4.0"}, body)
+                self.write_md(route, {"title": meta.get("title"), "module_id": front.get("module_id"), "url": self.abs_url(route), "current_through": current, "legal_review": str(meta.get("last_verified", "")), **self.link_fields(meta.get("authority_ids", [])), "license": "CC BY 4.0"}, body)
             else:
                 a = self.by_auth[PurePosixPath(source).stem]
                 used = [self.by_module[m] for m in a["linked_module_ids"] if m in self.by_module]
                 if used:
                     body += "\n\n## Used in\n\n" + "".join(f"- [{m['title']}]({self.abs_url(md_route(self.route_map[m['path']]))})\n" for m in used)
-                self.write_md(route, {"title": a["title"], "citation": a["citation"], "authority_id": a["authority_id"], "authority_type": a["authority_type"], "jurisdiction": a.get("jurisdiction"), "precedential_status": a.get("precedential_status"), "official_url": a.get("official_url"), "url": self.abs_url(route), "sources_last_checked": a.get("last_verified"), "license": "CC BY 4.0"}, body)
+                self.write_md(route, {"title": a["title"], "citation": a["citation"], "authority_id": a["authority_id"], "authority_type": a["authority_type"], "jurisdiction": a.get("jurisdiction"), "precedential_status": a.get("precedential_status"), "official_url": a.get("official_url"), "url": self.abs_url(route), "legal_review": a.get("last_verified"), **self.link_fields([a["authority_id"]]), "license": "CC BY 4.0"}, body)
         groups = defaultdict(list)
         for m in self.modules: groups[PurePosixPath(m["path"]).parts[1]].append(m)
         def module_line(m): return f"- [{m['title']}]({self.abs_url(md_route(self.route_map[m['path']]))})\n"
@@ -251,7 +254,7 @@ class Builder:
         overview = next(m for m in self.modules if m["path"] == "docs/00-system-overview/index.md")
         llms = [f"# {self.cfg['title']}", "",
                 f"> A source-linked guide to the U.S. federal criminal process, from investigation and charging through trial, sentencing, appeal, post-conviction remedies, custody and supervised release. Current through {human_date(current)}. General legal information, not legal advice. Content licensed CC BY 4.0.", "",
-                "Every page listed here is Markdown. Each module states the law as separate claims; a claim is marked in the text with an HTML comment such as `<!-- claim:CLM-2255-001 authorities:AUTH-USC-28-2255 status:verified_current -->`, and the module ends with links to its authorities. Each authority page gives the citation, weight and official source. Start with the overview, pick the stage that matches the case, and cite the authority behind each step. Report the `sources_last_checked` date with any answer.", "",
+                "Every page listed here is Markdown. Each module states the law as separate claims; a claim is marked in the text with an HTML comment such as `<!-- claim:CLM-2255-001 authorities:AUTH-USC-28-2255 status:verified_current -->`, and the module ends with links to its authorities. Each authority page gives the citation, weight and official source. Start with the overview, pick the stage that matches the case, and cite the authority behind each step. Report the `legal_review` date with any answer. `links_checked` only records that the sources still opened on that date; it is not a legal review.", "",
                 "## Start here", "",
                 module_line(overview).rstrip("\n") + ": what the reference covers and what to know before using it",
                 f"- [All modules]({self.abs_url('modules.md')}): every topic, grouped by stage",
@@ -270,6 +273,33 @@ class Builder:
         a = self.by_auth[aid]
         return self.anchor("authorities/" + aid + "/", a["citation"])
 
+    def link_status(self, authority_ids):
+        """(opened, checked) counts for these authorities in the link-check record."""
+        if not self.link_check:
+            return None
+        results = [self.link_check["authorities"][a] for a in authority_ids if a in self.link_check["authorities"]]
+        return sum(r == "opened" for r in results), len(results)
+
+    def dates_line(self, legal_review, authority_ids, single=False):
+        """Two dates, each true on its own: the legal review and the automated link check."""
+        line = f'Legal review <time datetime="{escape(str(legal_review))}">{human_date(legal_review)}</time>'
+        status = self.link_status(authority_ids)
+        if status and status[1]:
+            opened, checked = status
+            when = self.link_check["checked_on"]
+            if single:
+                result = "the source opened" if opened else "the source could not be reached"
+            else:
+                result = f"all {checked} sources opened" if opened == checked else f"{opened} of {checked} sources opened"
+            line += f' · Links checked <time datetime="{escape(when)}">{human_date(when)}</time>: {result}'
+        return line
+
+    def link_fields(self, authority_ids):
+        status = self.link_status(authority_ids)
+        if not status or not status[1]:
+            return {}
+        return {"links_checked": self.link_check["checked_on"], "links_opened": status[0], "links_checked_count": status[1]}
+
     def record_fields(self, fields):
         return '<dl class="record">' + "".join(f'<dt>{escape(k.replace("_", " "))}</dt><dd>{escape(str(v))}</dd>' for k, v in fields.items() if v is not None) + '</dl>'
 
@@ -280,13 +310,13 @@ class Builder:
             if not source.startswith("docs/"): continue
             text = (ROOT / source).read_text(encoding="utf-8")
             front, body = frontmatter(text)
-            meta = self.by_module.get(front.get("module_id"), front)
-            title = front.get("title", re.search(r"^# (.+)", body, re.M).group(1))
+            meta = self.by_module.get(front.get("module_id"), {})
+            title = meta.get("title") or re.search(r"^# (.+)", body, re.M).group(1)
             rendered, toc = self.render(source, text, claims=True)
-            verified = str(meta.get("last_verified", front.get("last_verified", self.cfg["research_baseline"])))
+            verified = str(meta.get("last_verified", self.cfg["research_baseline"]))
             due = str(meta.get("next_review_date", "Not individually scheduled"))
             overdue = due[:4].isdigit() and date.fromisoformat(due[:10]) < self.as_of
-            notice = f'<p class="currency">Sources last checked <time datetime="{escape(verified)}">{escape(verified)}</time> · {self.anchor("limitations/", "Scope & methodology")}</p>'
+            notice = f'<p class="currency">{self.dates_line(verified, meta.get("authority_ids", []))} · {self.anchor("limitations/", "Scope & methodology")}</p>'
             if overdue:
                 notice += '<p class="currency due">This topic is due for review. Confirm the current rule before relying on it.</p>'
             if "coverage_matrix.yaml" in body or "not_started" in body:
@@ -295,7 +325,7 @@ class Builder:
             for c in claims_by_module[front.get("module_id")]:
                 records += f'<details id="record-{c["claim_id"]}"><summary>{escape(c["claim_id"])} · {escape(c["verification_status"])}</summary><p>{escape(c["text"])}</p>{self.record_fields({k:c.get(k) for k in ("jurisdiction", "procedural_posture", "classification", "last_verified", "known_limitations", "researcher_notes")})}<p>Authorities: ' + "; ".join(self.authority_link(aid) for aid in c["authority_ids"]) + '</p></details>'
             records += '</section>'
-            authorities = front.get("authority_ids", [])
+            authorities = meta.get("authority_ids", [])
             if authorities: records += '<section><h2>Linked authorities</h2><ul>' + ''.join('<li>' + self.authority_link(a) + '</li>' for a in authorities if a in self.by_auth) + '</ul></section>'
             self.page(route, title, notice + '<article class="prose">' + rendered + '</article>' + records, "Module", toc)
             self.search.append({"title": title, "url": self.url(route), "kind": "Module", "text": re.sub(r"<[^>]*>", " ", rendered), "status": meta.get("status", "catalog"), "last_verified": verified})
@@ -305,7 +335,8 @@ class Builder:
             aid = a["authority_id"]
             source = self.auth_paths[aid]
             body, toc = self.render(source, (ROOT / source).read_text(encoding="utf-8"))
-            record = '<div class="notice"><strong>Source record, not a citator guarantee</strong><p>Recorded verification: ' + escape(a["last_verified"]) + '. Review the subsequent-history and treatment limits below. No current-law certification was performed for this publication.</p></div>'
+            record = '<p class="currency">' + self.dates_line(a["last_verified"], [aid], single=True) + ' · ' + self.anchor("limitations/", "Scope & methodology") + '</p>'
+            record += '<p class="currency">This record is not a citator check. Confirm later history and treatment before relying on it.</p>'
             record += self.record_fields({k:a.get(k) for k in ("authority_type", "jurisdiction", "publication_status", "precedential_status", "decision_or_issuance_date", "subsequent_history", "negative_treatment_status", "material_limitations")})
             source_url = a.get("official_url") or a.get("mirror_url")
             if source_url:
@@ -367,7 +398,7 @@ class Builder:
 
     def limitations(self):
         counts = Counter(i['category'] for i in self.questions['items'])
-        body = '<h1>Scope &amp; methodology</h1><p class="lede">How the reference is built, what it covers, and how to use it well.</p><div class="prose"><h2>What it covers</h2><p>The federal criminal process, from investigation and charging through trial, sentencing, appeal, post-conviction remedies, custody and supervised release. Circuit notes record where a circuit departs from or adds to the nationwide rules. The court directory links each district court to its official local rules.</p><h2>How statements are sourced</h2><p>Each legal statement is a separate record tied to the statutes, rules or decisions that support it, and links to that authority. Each authority record shows its citation, issuing body, weight and official source.</p><h2>Currency</h2><p>The reference is current through ' + human_date(self.cfg['research_baseline']) + '. Each topic shows when its sources were last checked. Laws, rules and local practice change; confirm the current text of any rule before relying on it, and check local rules and standing orders for the court involved.</p><h2>Not legal advice</h2><p>This is general legal information. It does not create an attorney-client relationship, and it cannot account for the facts of a particular case. For advice about a specific case, consult a licensed attorney.</p><h2>Open research questions</h2><p>The items below are questions the research has not yet resolved, such as a circuit that has not addressed an issue or a local rule whose text has not been reviewed. They are listed so they can be checked and closed.</p></div><div class="stats">' + ''.join(f'<div><strong>{n}</strong><span>{escape(k.replace("_"," "))}</span></div>' for k,n in counts.items()) + '</div><h2>Open research register</h2><p>Earlier draft wording listed here is shown for review only and is not a statement of law.</p><label for="issue-filter">Filter by issue, jurisdiction, or ID</label><input id="issue-filter" type="search" data-filter="issue-list" placeholder="CA4, Rule 33, district…"><p data-filter-count="issue-list" aria-live="polite"></p><div id="issue-list">'
+        body = '<h1>Scope &amp; methodology</h1><p class="lede">How the reference is built, what it covers, and how to use it well.</p><div class="prose"><h2>What it covers</h2><p>The federal criminal process, from investigation and charging through trial, sentencing, appeal, post-conviction remedies, custody and supervised release. Circuit notes record where a circuit departs from or adds to the nationwide rules. The court directory links each district court to its official local rules.</p><h2>How statements are sourced</h2><p>Each legal statement is a separate record tied to the statutes, rules or decisions that support it, and links to that authority. Each authority record shows its citation, issuing body, weight and official source.</p><h2>Currency</h2><p>The reference is current through ' + human_date(self.cfg['research_baseline']) + '. Each topic and authority shows two dates. <strong>Legal review</strong> is the date its statements were last checked against the sources, including later history and treatment where recorded. <strong>Links checked</strong> is the date an automated check last confirmed that each recorded source still opens; it does not show that the law is unchanged, and it never moves the legal review date. Laws, rules and local practice change; confirm the current text of any rule before relying on it, and check local rules and standing orders for the court involved.</p><h2>Not legal advice</h2><p>This is general legal information. It does not create an attorney-client relationship, and it cannot account for the facts of a particular case. For advice about a specific case, consult a licensed attorney.</p><h2>Open research questions</h2><p>The items below are questions the research has not yet resolved, such as a circuit that has not addressed an issue or a local rule whose text has not been reviewed. They are listed so they can be checked and closed.</p></div><div class="stats">' + ''.join(f'<div><strong>{n}</strong><span>{escape(k.replace("_"," "))}</span></div>' for k,n in counts.items()) + '</div><h2>Open research register</h2><p>Earlier draft wording listed here is shown for review only and is not a statement of law.</p><label for="issue-filter">Filter by issue, jurisdiction, or ID</label><input id="issue-filter" type="search" data-filter="issue-list" placeholder="CA4, Rule 33, district…"><p data-filter-count="issue-list" aria-live="polite"></p><div id="issue-list">'
         for item in self.questions['items']:
             cid = item['coverage_id']
             module_path = item.get('responsible_module')
@@ -465,6 +496,7 @@ class Builder:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--as-of',default=date.today().isoformat())
+    # Default to the release record's date so the same commit always builds the same site.
+    parser.add_argument('--as-of',default=read_json(ROOT / 'release.json')['build_as_of'])
     args = parser.parse_args()
     Builder(args.as_of).build()

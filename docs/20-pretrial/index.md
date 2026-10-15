@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-PRETRIAL-INDEX
-title: Pretrial
-stage: 20-pretrial/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Pretrial

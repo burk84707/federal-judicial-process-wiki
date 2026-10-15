@@ -1,0 +1,32 @@
+name: Something is wrong
+description: A statement, citation, link or date on the reference is incorrect.
+labels: [correction]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page link or claim ID
+      placeholder: https://jason93.com/legal/federal-process/... or CLM-2255-001
+    validations:
+      required: true
+  - type: textarea
+    id: statement
+    attributes:
+      label: The statement as it appears
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Include jurisdiction and procedural posture where they matter.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Supporting source
+      description: Statute, rule or decision with a pinpoint, and a link to the official text if you have one.
+  - type: markdown
+    attributes:
+      value: Do not include confidential case records or personal information.

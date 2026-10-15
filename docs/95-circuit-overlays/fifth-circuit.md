@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA5
-title: Fifth Circuit Overlay
-stage: circuit-overlays/fifth-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Fifth Circuit Overlay

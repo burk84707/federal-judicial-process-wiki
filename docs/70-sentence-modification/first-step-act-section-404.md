@@ -1,29 +1,5 @@
 ---
 module_id: MOD-FIRST-STEP-ACT-SECTION-404
-title: First Step Act § 404 — Retroactive Fair Sentencing Act Relief
-module_type: sentence_modification
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - sentence_modification
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-PL-115-391-SEC-404
-  - AUTH-PL-111-220-SECS-2-3
-  - AUTH-USC-18-3582
-  - AUTH-SCOTUS-DORSEY-567-US-260
-  - AUTH-SCOTUS-TERRY-593-US-486
-  - AUTH-SCOTUS-CONCEPCION-597-US-481
-related_modules: []
-tags:
-  - first-step-act
-  - fair-sentencing-act
-  - section-404
-  - crack-cocaine
-  - sentence-modification
 ---
 
 # First Step Act § 404 — Retroactive Fair Sentencing Act Relief

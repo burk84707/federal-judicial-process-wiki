@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-EDWARDS-VANNOY-593-US-255
-authority_type: case
-citation: 593 U.S. 255 (2021)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_or_issuance_date: 2021-05-17
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Edwards v. Vannoy
@@ -23,8 +15,3 @@ Use only for the bounded proposition in the linked classification module. State-
 ## Official source and pinpoints
 
 593 U.S. 255 (2021), 593 U.S. 265–72: <https://www.supremecourt.gov/opinions/20pdf/19-5807_086c.pdf>
-
-## Linked records
-
-- Module: `MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION`
-- Claim: `CLM-SOS-023`

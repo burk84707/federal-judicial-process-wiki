@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CHECKLISTS-INDEX
-title: Federal Process Practical Checklists
-stage: auxiliary/checklists
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Federal Process Practical Checklists

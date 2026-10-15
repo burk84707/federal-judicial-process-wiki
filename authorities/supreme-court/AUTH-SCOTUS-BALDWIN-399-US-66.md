@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-BALDWIN-399-US-66
-authority_type: case
-citation: Baldwin v. New York, 399 U.S. 66 (1970)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 1970-06-22
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Baldwin v. New York
@@ -23,8 +15,3 @@ For offenses authorizing six months or less, apply the separate petty-offense fr
 ## Official source and pinpoints
 
 399 U.S. 66, 68–74 (1970): <https://www.govinfo.gov/content/pkg/USREPORTS-399/pdf/USREPORTS-399-66.pdf>
-
-## Linked records
-
-- Module: `MOD-JURY-AND-BENCH-TRIAL`
-- Claim: `CLM-TRIAL-001`

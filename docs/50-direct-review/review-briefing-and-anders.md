@@ -1,36 +1,5 @@
 ---
 module_id: MOD-DIRECT-REVIEW-STANDARDS-BRIEFING-ANDERS
-title: Review Standards, Briefing, Oral Argument, and Anders Procedure
-module_type: direct_review
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - direct_review
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRCRIM-P-32-51-52
-  - AUTH-FRAP-28-31-32-34
-  - AUTH-SCOTUS-CHAPMAN-386-US-18
-  - AUTH-SCOTUS-KOTTEAKOS-328-US-750
-  - AUTH-SCOTUS-NEDER-527-US-1
-  - AUTH-SCOTUS-OLANO-507-US-725
-  - AUTH-SCOTUS-HENDERSON-568-US-266
-  - AUTH-SCOTUS-ANDERS-386-US-738
-  - AUTH-SCOTUS-PENSON-488-US-75
-  - AUTH-SCOTUS-JONES-BARNES-463-US-745
-related_modules:
-  - MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD
-  - MOD-DIRECT-REVIEW-REHEARING-MANDATE-CERTIORARI
-tags:
-  - standards-of-review
-  - harmless-error
-  - plain-error
-  - anders
-  - appellate-briefing
-  - oral-argument
 ---
 
 # Review Standards, Briefing, Oral Argument, and Anders Procedure

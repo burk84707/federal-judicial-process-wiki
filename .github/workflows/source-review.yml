@@ -42,6 +42,15 @@ jobs:
           if [ "$INCLUDE_DISTRICTS" = "true" ]; then args+=(--include-districts); fi
           if [ -n "$SOURCE_ID" ]; then args+=(--source-id "$SOURCE_ID"); fi
           python scripts/monitor_sources.py "${args[@]}"
+      - name: Record link check (full runs only)
+        if: always() && inputs.source_id == ''
+        shell: bash
+        run: |
+          latest="$(ls -d .review/*/ | sort | tail -1)"
+          python scripts/record_link_check.py "${latest}report.json" --out .review/link_check.json
+          echo '----- BEGIN data/link_check.json -----'
+          cat .review/link_check.json
+          echo '----- END data/link_check.json -----'
       - name: Retain evidence even when a source failed
         if: always()
         uses: actions/upload-artifact@v4

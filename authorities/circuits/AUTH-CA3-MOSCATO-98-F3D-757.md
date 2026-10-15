@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA3-MOSCATO-98-F3D-757
-authority_type: case
-citation: 98 F.3d 757 (3d Cir. 1996)
-issuing_body: United States Court of Appeals for the Third Circuit
-jurisdiction: federal_third_circuit
-decision_or_issuance_date: 1996-10-22
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca3
-last_verified: 2026-08-25
 ---
 
 # Moscato v. Federal Bureau of Prisons

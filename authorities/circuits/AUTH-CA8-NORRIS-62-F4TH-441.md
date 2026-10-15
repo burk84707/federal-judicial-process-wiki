@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA8-NORRIS-62-F4TH-441
-authority_type: case
-citation: 62 F.4th 441 (8th Cir. 2023)
-issuing_body: United States Court of Appeals for the Eighth Circuit
-jurisdiction: federal_eighth_circuit
-decision_or_issuance_date: 2023-03-13
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca8
-last_verified: 2026-08-25
 ---
 
 # United States v. Norris

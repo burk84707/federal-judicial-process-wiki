@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA11-WILLIAMS-63-F4TH-908
-authority_type: case
-citation: 63 F.4th 908 (11th Cir. 2023)
-issuing_body: United States Court of Appeals for the Eleventh Circuit
-jurisdiction: federal_eleventh_circuit
-decision_or_issuance_date: 2023-03-23
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca11
-last_verified: 2026-08-25
 ---
 
 # United States v. Williams

@@ -1,35 +1,5 @@
 ---
 module_id: MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD
-title: Criminal Appeal Notice, Jurisdiction, Waivers, and Record
-module_type: direct_review
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - direct_review
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRAP-3-4-22
-  - AUTH-FRAP-10-11
-  - AUTH-USC-28-1291
-  - AUTH-USC-18-3731
-  - AUTH-USC-18-3742
-  - AUTH-SCOTUS-BERMAN-302-US-211
-  - AUTH-SCOTUS-FLANAGAN-465-US-259
-  - AUTH-SCOTUS-MANRIQUE-581-US-116
-  - AUTH-SCOTUS-ABNEY-431-US-651
-  - AUTH-SCOTUS-GARZA-586-US-232
-  - AUTH-SCOTUS-CLASS-583-US-174
-related_modules:
-  - MOD-DIRECT-REVIEW-STANDARDS-BRIEFING-ANDERS
-  - MOD-DIRECT-REVIEW-REHEARING-MANDATE-CERTIORARI
-tags:
-  - notice-of-appeal
-  - appellate-jurisdiction
-  - appeal-waiver
-  - record-on-appeal
 ---
 
 # Criminal Appeal Notice, Jurisdiction, Waivers, and Record

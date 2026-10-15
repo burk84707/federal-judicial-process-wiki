@@ -1,9 +1,5 @@
 ---
 module_id: MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS
-title: Extraordinary Writs — Coram Nobis, Audita Querela, and Mandamus
-stage: post-conviction/extraordinary-writs-coram-audita-mandamus
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Extraordinary Writs — Coram Nobis, Audita Querela, and Mandamus

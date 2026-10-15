@@ -65,7 +65,35 @@
       "SRC-USC-18-3237-OLRC-PRELIM",
       "SRC-USC-18-3281-3289-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "investigation_and_charging_process",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "investigation",
+      "complaint",
+      "grand_jury",
+      "indictment_or_information",
+      "charging_deadlines",
+      "venue"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-INITIAL-APPEARANCE-PRETRIAL-RELEASE"
+    ],
+    "tags": [
+      "complaint",
+      "arrest-warrant",
+      "grand-jury",
+      "indictment",
+      "information",
+      "limitations",
+      "speedy-trial-act",
+      "preindictment-delay",
+      "venue"
+    ]
   },
   {
     "module_id": "MOD-PLEA-NEGOTIATIONS-AGREEMENTS-RULE-11",
@@ -172,7 +200,36 @@
       "SRC-SCOTUS-TOLLETT-411-US-258",
       "SRC-SCOTUS-VONN-535-US-55"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "plea_process",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "plea_negotiations",
+      "plea_agreements",
+      "plea_colloquy",
+      "plea_withdrawal",
+      "direct_review",
+      "collateral_review"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-ARRAIGNMENT-PRETRIAL-DISCLOSURE",
+      "MOD-SUPPRESSION-SEVERANCE-PRETRIAL-MOTIONS",
+      "MOD-RULE-33-NEW-TRIAL"
+    ],
+    "tags": [
+      "rule-11",
+      "plea-negotiations",
+      "plea-agreements",
+      "factual-basis",
+      "plea-withdrawal",
+      "appeal-waiver",
+      "collateral-review-waiver",
+      "ineffective-assistance"
+    ]
   },
   {
     "module_id": "MOD-JURY-AND-BENCH-TRIAL",
@@ -225,7 +282,27 @@
       "SRC-SCOTUS-WINSHIP-397-US-358",
       "SRC-USC-28-1861-1862-1867"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "trial",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "trial"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-PLEA-NEGOTIATIONS-AGREEMENTS-RULE-11",
+      "MOD-RULE29-MISTRIAL-VERDICT-JUROR-MISCONDUCT"
+    ],
+    "tags": [
+      "jury-trial",
+      "bench-trial",
+      "jury-selection",
+      "instructions",
+      "burden-of-proof"
+    ]
   },
   {
     "module_id": "MOD-RULE29-MISTRIAL-VERDICT-JUROR-MISCONDUCT",
@@ -284,7 +361,28 @@
       "SRC-SCOTUS-PEREZ-22-US-579",
       "SRC-SCOTUS-TANNER-483-US-107"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "trial_and_post_trial",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "trial",
+      "post_verdict"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-JURY-AND-BENCH-TRIAL",
+      "MOD-RULE-33-NEW-TRIAL"
+    ],
+    "tags": [
+      "rule-29",
+      "mistrial",
+      "verdict",
+      "juror-misconduct",
+      "double-jeopardy"
+    ]
   },
   {
     "module_id": "MOD-RULE-33-NEW-TRIAL",
@@ -320,7 +418,24 @@
       "SRC-SCOTUS-EBERHART-546-US-12",
       "SRC-SCOTUS-US-V-SMITH-331-US-469"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_trial_motion",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "post_verdict",
+      "direct_review_adjacent"
+    ],
+    "effective_through": "2026-08-24",
+    "related_modules": [],
+    "tags": [
+      "new-trial",
+      "post-trial-motion",
+      "newly-discovered-evidence",
+      "filing-deadline"
+    ]
   },
   {
     "module_id": "MOD-PRESENTENCE-GUIDELINES-SENTENCING-HEARING",
@@ -402,7 +517,27 @@
       "SRC-USC-18-3551-3552-3553",
       "SRC-USSG-2025-SENTENCING-CALCULATION"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "sentencing",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "sentencing"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-MONETARY-PENALTIES-RESTITUTION-FORFEITURE",
+      "MOD-SUPERVISED-RELEASE-JUDGMENT-CORRECTION"
+    ],
+    "tags": [
+      "psr",
+      "guidelines",
+      "sentencing-hearing",
+      "section-3553",
+      "allocution"
+    ]
   },
   {
     "module_id": "MOD-MONETARY-PENALTIES-RESTITUTION-FORFEITURE",
@@ -455,7 +590,27 @@
       "SRC-USC-18-3663-3663A-3664",
       "SRC-USC-18-982"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "sentencing",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "sentencing",
+      "post_judgment_enforcement"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-PRESENTENCE-GUIDELINES-SENTENCING-HEARING",
+      "MOD-SUPERVISED-RELEASE-JUDGMENT-CORRECTION"
+    ],
+    "tags": [
+      "fine",
+      "special-assessment",
+      "restitution",
+      "forfeiture"
+    ]
   },
   {
     "module_id": "MOD-SUPERVISED-RELEASE-JUDGMENT-CORRECTION",
@@ -495,7 +650,29 @@
       "SRC-SCOTUS-TAPIA-564-US-319",
       "SRC-USC-18-3582-3583"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "sentencing",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "sentencing",
+      "immediate_post_sentencing"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-PRESENTENCE-GUIDELINES-SENTENCING-HEARING",
+      "MOD-SECTION-3582-REMEDY-ROUTER"
+    ],
+    "tags": [
+      "supervised-release",
+      "conditions",
+      "judgment",
+      "rule-35",
+      "rule-36",
+      "preservation"
+    ]
   },
   {
     "module_id": "MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD",
@@ -554,7 +731,26 @@
       "SRC-USC-18-3742",
       "SRC-USC-28-1291"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "direct_review",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "direct_review"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-DIRECT-REVIEW-STANDARDS-BRIEFING-ANDERS",
+      "MOD-DIRECT-REVIEW-REHEARING-MANDATE-CERTIORARI"
+    ],
+    "tags": [
+      "notice-of-appeal",
+      "appellate-jurisdiction",
+      "appeal-waiver",
+      "record-on-appeal"
+    ]
   },
   {
     "module_id": "MOD-DIRECT-REVIEW-STANDARDS-BRIEFING-ANDERS",
@@ -610,7 +806,28 @@
       "SRC-SCOTUS-OLANO-507-US-725",
       "SRC-SCOTUS-PENSON-488-US-75"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "direct_review",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "direct_review"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD",
+      "MOD-DIRECT-REVIEW-REHEARING-MANDATE-CERTIORARI"
+    ],
+    "tags": [
+      "standards-of-review",
+      "harmless-error",
+      "plain-error",
+      "anders",
+      "appellate-briefing",
+      "oral-argument"
+    ]
   },
   {
     "module_id": "MOD-DIRECT-REVIEW-REHEARING-MANDATE-CERTIORARI",
@@ -651,7 +868,27 @@
       "SRC-SCOTUS-GRIFFITH-479-US-314",
       "SRC-SCOTUS-RULES-10-12-13-14-39"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "direct_review",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "direct_review"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD",
+      "MOD-DIRECT-REVIEW-STANDARDS-BRIEFING-ANDERS"
+    ],
+    "tags": [
+      "rehearing",
+      "rehearing-en-banc",
+      "mandate",
+      "certiorari",
+      "finality"
+    ]
   },
   {
     "module_id": "MOD-2255-INITIAL-MOTION-LIMITATIONS",
@@ -712,7 +949,29 @@
       "SRC-SCOTUS-MCQUIGGIN-569-US-383",
       "SRC-USC-28-2255-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction_initial_motion",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "collateral_review",
+      "initial_section_2255_motion"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-2255-DEFAULT-INNOCENCE-IAC",
+      "MOD-2255-PROCEDURE-APPEAL-POSTJUDGMENT",
+      "MOD-2244-2255-SUCCESSIVE-GATEKEEPING"
+    ],
+    "tags": [
+      "section-2255",
+      "initial-motion",
+      "limitations",
+      "equitable-tolling",
+      "relation-back"
+    ]
   },
   {
     "module_id": "MOD-2255-DEFAULT-INNOCENCE-IAC",
@@ -791,7 +1050,26 @@
       "SRC-SCOTUS-STRICKLAND-466-US-668",
       "SRC-USC-28-2255-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction_merits_and_gateways",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "collateral_review"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+      "MOD-2255-PROCEDURE-APPEAL-POSTJUDGMENT"
+    ],
+    "tags": [
+      "section-2255",
+      "procedural-default",
+      "actual-innocence",
+      "ineffective-assistance"
+    ]
   },
   {
     "module_id": "MOD-2255-PROCEDURE-APPEAL-POSTJUDGMENT",
@@ -867,7 +1145,30 @@
       "SRC-USC-28-2253-OLRC-PRELIM",
       "SRC-USC-28-2255-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction_procedure_and_review",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "collateral_review",
+      "appeal",
+      "postjudgment"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+      "MOD-2255-DEFAULT-INNOCENCE-IAC",
+      "MOD-2244-2255-SUCCESSIVE-GATEKEEPING"
+    ],
+    "tags": [
+      "section-2255",
+      "evidentiary-hearing",
+      "certificate-of-appealability",
+      "rule-59",
+      "rule-60"
+    ]
   },
   {
     "module_id": "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION",
@@ -960,7 +1261,30 @@
       "SRC-USC-28-2244-OLRC-PRELIM",
       "SRC-USC-28-2255-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction_successive_classification",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "collateral_review",
+      "later_filing_classification",
+      "successive_application_authorization"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-2244-2255-SUCCESSIVE-GATEKEEPING",
+      "MOD-2255-PROCEDURE-APPEAL-POSTJUDGMENT",
+      "MOD-2255-INITIAL-MOTION-LIMITATIONS"
+    ],
+    "tags": [
+      "second-or-successive",
+      "classification",
+      "authorization",
+      "new-judgment",
+      "retroactivity"
+    ]
   },
   {
     "module_id": "MOD-2244-2255-SUCCESSIVE-GATEKEEPING",
@@ -997,7 +1321,25 @@
       "SRC-USC-28-2244-OLRC-PRELIM",
       "SRC-USC-28-2255-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction_gatekeeping",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "collateral_review",
+      "successive_application_authorization"
+    ],
+    "effective_through": "2026-08-24",
+    "related_modules": [],
+    "tags": [
+      "second-or-successive",
+      "section-2244",
+      "section-2255",
+      "authorization",
+      "bowe"
+    ]
   },
   {
     "module_id": "MOD-2241-FILING-JURISDICTION-RESPONDENT-EXHAUSTION",
@@ -1070,7 +1412,32 @@
       "SRC-USC-28-2241-OLRC-PRELIM",
       "SRC-USC-28-2242"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "habeas",
+      "filing",
+      "jurisdiction",
+      "administrative_exhaustion"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-2241-SAVING-CLAUSE-CUSTODY-MOOTNESS",
+      "MOD-2241-APPEAL-AND-RELIEF",
+      "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+      "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION"
+    ],
+    "tags": [
+      "section-2241",
+      "immediate-custodian",
+      "district-of-confinement",
+      "exhaustion",
+      "bop-administrative-remedy"
+    ]
   },
   {
     "module_id": "MOD-2241-SAVING-CLAUSE-CUSTODY-MOOTNESS",
@@ -1131,7 +1498,32 @@
       "SRC-USC-28-2241-OLRC-PRELIM",
       "SRC-USC-28-2255-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "habeas",
+      "saving_clause",
+      "custody",
+      "mootness"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-2241-FILING-JURISDICTION-RESPONDENT-EXHAUSTION",
+      "MOD-2241-APPEAL-AND-RELIEF",
+      "MOD-2255-INITIAL-MOTION-LIMITATIONS",
+      "MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION"
+    ],
+    "tags": [
+      "section-2241",
+      "section-2255e",
+      "saving-clause",
+      "custody",
+      "mootness"
+    ]
   },
   {
     "module_id": "MOD-2241-APPEAL-AND-RELIEF",
@@ -1179,7 +1571,31 @@
       "SRC-USC-28-2253-OLRC-PRELIM",
       "SRC-USC-28-2255-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "post_conviction",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "habeas",
+      "final_order",
+      "appeal",
+      "remedy"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-2244-2255-SUCCESSIVE-GATEKEEPING",
+      "MOD-GOOD-CONDUCT-TIME",
+      "MOD-FIRST-STEP-ACT-TIME-CREDITS"
+    ],
+    "tags": [
+      "section-2241",
+      "certificate-of-appealability",
+      "appeal",
+      "habeas-relief",
+      "saving-clause"
+    ]
   },
   {
     "module_id": "MOD-RULES-35-36-MODIFICATION-APPEALS",
@@ -1504,7 +1920,24 @@
       "SRC-SCOTUS-BARBER-560-US-474",
       "SRC-USC-18-3624-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "sentence_execution",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "imprisonment",
+      "sentence_computation"
+    ],
+    "effective_through": "2026-08-24",
+    "related_modules": [],
+    "tags": [
+      "good-conduct-time",
+      "sentence-computation",
+      "first-step-act",
+      "bureau-of-prisons"
+    ]
   },
   {
     "module_id": "MOD-FIRST-STEP-ACT-TIME-CREDITS",
@@ -1547,7 +1980,29 @@
       "SRC-USC-18-3624-OLRC-PRELIM",
       "SRC-USC-18-3632-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "sentence_execution",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "imprisonment",
+      "sentence_computation",
+      "prerelease_custody"
+    ],
+    "effective_through": "2026-08-24",
+    "related_modules": [
+      "MOD-GOOD-CONDUCT-TIME"
+    ],
+    "tags": [
+      "first-step-act",
+      "time-credits",
+      "pattern",
+      "prerelease-custody",
+      "supervised-release",
+      "bureau-of-prisons"
+    ]
   },
   {
     "module_id": "MOD-BOP-PRERELEASE-HOME-CONFINEMENT",
@@ -1754,7 +2209,24 @@
       "SRC-SCOTUS-TERRY-593-US-486",
       "SRC-USC-18-3582-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "sentence_modification",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "sentence_modification"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [],
+    "tags": [
+      "first-step-act",
+      "fair-sentencing-act",
+      "section-404",
+      "crack-cocaine",
+      "sentence-modification"
+    ]
   },
   {
     "module_id": "MOD-INITIAL-APPEARANCE-PRETRIAL-RELEASE",
@@ -1803,7 +2275,26 @@
       "SRC-SCOTUS-ROTHGERY-554-US-191",
       "SRC-USC-18-3142-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "pretrial_process",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "initial_appearance",
+      "pretrial_release_or_detention"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [],
+    "tags": [
+      "rule-5",
+      "initial-appearance",
+      "presentment",
+      "preliminary-hearing",
+      "bail-reform-act",
+      "pretrial-detention"
+    ]
   },
   {
     "module_id": "MOD-ARRAIGNMENT-PRETRIAL-DISCLOSURE",
@@ -1879,7 +2370,36 @@
       "SRC-SCOTUS-STRICKLER-527-US-263",
       "SRC-USC-18-3500-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "pretrial_process",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "arraignment",
+      "discovery",
+      "constitutional_disclosure",
+      "witness_statement_production",
+      "subpoenas"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-FEDERAL-CHARGING-COMMENCEMENT",
+      "MOD-INITIAL-APPEARANCE-PRETRIAL-RELEASE",
+      "MOD-RULE-33-NEW-TRIAL"
+    ],
+    "tags": [
+      "arraignment",
+      "rule-16",
+      "brady",
+      "giglio",
+      "napue",
+      "jencks-act",
+      "rule-26-2",
+      "rule-17",
+      "subpoenas"
+    ]
   },
   {
     "module_id": "MOD-SUPPRESSION-SEVERANCE-PRETRIAL-MOTIONS",
@@ -1954,7 +2474,35 @@
       "SRC-SCOTUS-ZAFIRO-506-US-534",
       "SRC-USC-18-3731"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "pretrial_process",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "pretrial_motions",
+      "suppression",
+      "motions_in_limine",
+      "severance",
+      "interlocutory_review",
+      "preservation"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-ARRAIGNMENT-PRETRIAL-DISCLOSURE",
+      "MOD-FEDERAL-CHARGING-COMMENCEMENT"
+    ],
+    "tags": [
+      "rule-12",
+      "suppression",
+      "fourth-amendment",
+      "miranda",
+      "motions-in-limine",
+      "severance",
+      "interlocutory-appeal",
+      "preservation"
+    ]
   },
   {
     "module_id": "MOD-COMPETENCY-INSANITY-SPEEDY-TRIAL",
@@ -2039,7 +2587,31 @@
       "SRC-USC-18-17-4241-4243-4247",
       "SRC-USC-18-3161-3162-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "pretrial_process",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "competency",
+      "insanity_defense",
+      "speedy_trial"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-FEDERAL-CHARGING-COMMENCEMENT",
+      "MOD-SUPPRESSION-SEVERANCE-PRETRIAL-MOTIONS"
+    ],
+    "tags": [
+      "competency",
+      "insanity",
+      "rule-12-2",
+      "section-4241",
+      "section-4243",
+      "speedy-trial-act",
+      "sixth-amendment"
+    ]
   },
   {
     "module_id": "MOD-EXTRAORDINARY-WRITS-CORAM-AUDITA-MANDAMUS",
@@ -2240,7 +2812,28 @@
       "SRC-USSG-2025-1B1-10",
       "SRC-USSG-2025-1B1-13"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "module_type": "sentence_modification",
+    "jurisdiction": "federal_nationwide",
+    "geographic_scope": [
+      "nationwide"
+    ],
+    "procedural_stage": [
+      "sentence_modification"
+    ],
+    "effective_through": "2026-08-25",
+    "related_modules": [
+      "MOD-FIRST-STEP-ACT-SECTION-404",
+      "MOD-2241-APPEAL-AND-RELIEF"
+    ],
+    "tags": [
+      "section-3582",
+      "compassionate-release",
+      "retroactive-guideline-amendment",
+      "rule-35",
+      "rule-36",
+      "sentence-modification"
+    ]
   },
   {
     "module_id": "MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION",
@@ -4844,7 +5437,7 @@
   },
   {
     "module_id": "MOD-GLOSSARIES-INDEX",
-    "title": "Controlled Glossary",
+    "title": "Glossary",
     "stage": "auxiliary/glossaries",
     "path": "docs/glossaries/index.md",
     "status": "verified_with_limitations",

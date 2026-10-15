@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA10-MCINTOSH-115-F3D-809
-authority_type: case
-citation: 115 F.3d 809 (10th Cir. 1997)
-issuing_body: United States Court of Appeals for the Tenth Circuit
-jurisdiction: federal_tenth_circuit
-decision_or_issuance_date: 1997-06-13
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca10
-last_verified: 2026-08-25
 ---
 
 # McIntosh v. U.S. Parole Commission

@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA2-DRAX-338-F3D-98
-authority_type: case
-citation: 338 F.3d 98 (2d Cir. 2003)
-issuing_body: United States Court of Appeals for the Second Circuit
-jurisdiction: federal_second_circuit
-decision_or_issuance_date: 2003-08-04
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca2
-last_verified: 2026-08-25
 ---
 
 # Drax v. Reno

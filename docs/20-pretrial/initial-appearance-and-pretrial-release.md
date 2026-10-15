@@ -1,30 +1,5 @@
 ---
 module_id: MOD-INITIAL-APPEARANCE-PRETRIAL-RELEASE
-title: Initial Appearance and Pretrial Release or Detention
-module_type: pretrial_process
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - initial_appearance
-  - pretrial_release_or_detention
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRCRIM-P-5-5-1
-  - AUTH-USC-18-3142
-  - AUTH-SCOTUS-CORLEY-556-US-303
-  - AUTH-SCOTUS-MCLAUGHLIN-500-US-44
-  - AUTH-SCOTUS-ROTHGERY-554-US-191
-related_modules: []
-tags:
-  - rule-5
-  - initial-appearance
-  - presentment
-  - preliminary-hearing
-  - bail-reform-act
-  - pretrial-detention
 ---
 
 # Initial Appearance and Pretrial Release or Detention

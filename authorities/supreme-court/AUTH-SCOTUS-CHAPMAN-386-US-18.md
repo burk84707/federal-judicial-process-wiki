@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-CHAPMAN-386-US-18
-authority_type: case
-citation: 386 U.S. 18 (1967)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_or_issuance_date: 1967-02-20
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Chapman v. California
@@ -23,8 +15,3 @@ Use only for the bounded proposition in the linked direct-review module; actual 
 ## Official source and pinpoints
 
 386 U.S. 18 (1967), 386 U.S. 22–24: <https://www.govinfo.gov/content/pkg/USREPORTS-386/pdf/USREPORTS-386-18.pdf>
-
-## Linked records
-
-- Module: `MOD-DIRECT-REVIEW-STANDARDS-BRIEFING-ANDERS`
-- Claim: `CLM-DR-023`

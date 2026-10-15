@@ -1,9 +1,5 @@
 ---
 module_id: MOD-EXAMPLES-INDEX
-title: Worked Classification Examples
-stage: auxiliary/examples
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Worked Classification Examples

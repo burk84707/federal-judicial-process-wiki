@@ -1,37 +1,5 @@
 ---
 module_id: MOD-RULE29-MISTRIAL-VERDICT-JUROR-MISCONDUCT
-title: Rule 29, Mistrial, Verdict, and Juror Misconduct
-module_type: trial_and_post_trial
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - trial
-  - post_verdict
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRCRIM-P-26-3-29-31-45
-  - AUTH-FRE-606
-  - AUTH-SCOTUS-JACKSON-443-US-307
-  - AUTH-SCOTUS-MUSACCHIO-577-US-237
-  - AUTH-SCOTUS-BURKS-437-US-1
-  - AUTH-SCOTUS-PEREZ-22-US-579
-  - AUTH-SCOTUS-ARIZONA-WASHINGTON-434-US-497
-  - AUTH-SCOTUS-OREGON-KENNEDY-456-US-667
-  - AUTH-SCOTUS-EVANS-568-US-313
-  - AUTH-SCOTUS-TANNER-483-US-107
-  - AUTH-SCOTUS-PENA-RODRIGUEZ-580-US-206
-related_modules:
-  - MOD-JURY-AND-BENCH-TRIAL
-  - MOD-RULE-33-NEW-TRIAL
-tags:
-  - rule-29
-  - mistrial
-  - verdict
-  - juror-misconduct
-  - double-jeopardy
 ---
 
 # Rule 29, Mistrial, Verdict, and Juror Misconduct

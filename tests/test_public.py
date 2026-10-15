@@ -69,6 +69,36 @@ class PublicationTests(unittest.TestCase):
                 with self.subTest(check=required):
                     self.assertIn(required,combined)
 
+    def test_metadata_conflicts_and_one_way_links_are_rejected(self):
+        # Mutate an isolated temporary COPY of the sources; the repository is untouched.
+        with tempfile.TemporaryDirectory(prefix="federal-source-negative-") as temporary:
+            root=Path(temporary)/"repo"
+            shutil.copytree(ROOT,root,ignore=shutil.ignore_patterns(".git","dist",".venv","__pycache__",".review"))
+            card=next((root/"authorities").rglob("AUTH-USC-28-2255.md"))
+            card.write_text(card.read_text(encoding="utf-8").replace("authority_id: AUTH-USC-28-2255\n","authority_id: AUTH-USC-28-2255\njurisdiction: federal\n",1),encoding="utf-8")
+            data=root/"data/authorities.jsonl"
+            lines=data.read_text(encoding="utf-8").splitlines()
+            lines=[l.replace('"linked_claim_ids":["','"linked_claim_ids":["CLM-NOT-REAL-001","',1) if '"authority_id":"AUTH-USC-28-2255"' in l else l for l in lines]
+            data.write_text("\n".join(lines)+"\n",encoding="utf-8")
+            errors,_=validate(root=root,site=ROOT/"dist/site")
+            combined="\n".join(errors)
+            for required in ("authority card header must be only its authority_id","authority claim links not two-way: AUTH-USC-28-2255"):
+                with self.subTest(check=required):
+                    self.assertIn(required,combined)
+
+    def test_link_check_record_never_claims_a_legal_review(self):
+        from record_link_check import condense
+        report={"kind":"source_identity_review_report","as_of":"2026-10-15","selection":{"is_partial_selection":False},"results":[
+            {"url":"https://www.govinfo.gov/a","status":"no_accepted_baseline","evidence":{},"identities":[{"source_id":"SRC-A","authority_ids":["AUTH-A"]}]},
+            {"url":"https://www.govinfo.gov/b","status":"fetch_failed","evidence":{"error":{"kind":"http_error","message":"HTTP 403"}},"identities":[{"source_id":"SRC-B","authority_ids":["AUTH-A","AUTH-B"]}]}]}
+        record=condense(report)
+        self.assertEqual({"opened":1,"failed":1},record["counts"])
+        self.assertEqual({"AUTH-A":"opened","AUTH-B":"failed"},record["authorities"])
+        self.assertIn("not a legal review",record["method"])
+        report["selection"]["is_partial_selection"]=True
+        with self.assertRaises(ValueError):
+            condense(report)
+
 
 if __name__ == "__main__":
     unittest.main()

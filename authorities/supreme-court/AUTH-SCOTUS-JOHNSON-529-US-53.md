@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-JOHNSON-529-US-53
-authority_type: case
-citation: 529 U.S. 53 (2000)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_or_issuance_date: 2000-03-01
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # United States v. Johnson
@@ -23,8 +15,3 @@ Use only for the bounded proposition and limitations in the linked canonical mod
 ## Official source and pinpoints
 
 529 U.S. 53 (2000), 529 U.S. 57–60: <https://www.govinfo.gov/content/pkg/USREPORTS-529/pdf/USREPORTS-529-53.pdf>
-
-## Linked records
-
-- Module: `MOD-BOP-PRERELEASE-HOME-CONFINEMENT`
-- Claim: `CLM-BOPPRE-035`

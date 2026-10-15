@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA6
-title: Sixth Circuit Overlay
-stage: circuit-overlays/sixth-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Sixth Circuit Overlay

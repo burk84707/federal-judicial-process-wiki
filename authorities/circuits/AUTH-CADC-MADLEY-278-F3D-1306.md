@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CADC-MADLEY-278-F3D-1306
-authority_type: case
-citation: 278 F.3d 1306 (D.C. Cir. 2002)
-issuing_body: United States Court of Appeals for the D.C. Circuit
-jurisdiction: federal_dc_circuit
-decision_or_issuance_date: 2002-01-25
-publication_status: published_precedential_opinion
-precedential_status: binding_in_cadc
-last_verified: 2026-08-25
 ---
 
 # Madley v. U.S. Parole Commission

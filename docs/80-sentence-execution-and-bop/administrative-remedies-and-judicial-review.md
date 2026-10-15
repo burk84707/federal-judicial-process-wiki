@@ -1,9 +1,5 @@
 ---
 module_id: MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW
-title: BOP Administrative Remedies, § 2241 Review, APA Limits, and Mootness
-stage: sentence-execution/bop-administrative-remedies-review
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # BOP Administrative Remedies, § 2241 Review, APA Limits, and Mootness

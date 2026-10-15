@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-USC-28-2244
-authority_type: statute
-citation: 28 U.S.C. § 2244
-issuing_body: Congress of the United States
-jurisdiction: federal
-publication_status: official_preliminary_code
-precedential_status: binding_statute
-negative_treatment_status: amendment and currentness checked in OLRC preliminary edition through 2026-08-11
-last_verified: 2026-08-24
 ---
 
 # 28 U.S.C. § 2244
@@ -25,8 +17,3 @@ The statute must be read with § 2255(h) and *Bowe v. United States* before appl
 ## Official source
 
 OLRC preliminary edition, laws in effect August 11, 2026: <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244>
-
-## Linked records
-
-- Module: `MOD-2244-2255-SUCCESSIVE-GATEKEEPING`
-- Claims: `CLM-2244-001` through `CLM-2244-007`, `CLM-2244-013`, `CLM-2244-014`

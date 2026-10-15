@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA3-SHIELDS-48-F4TH-183
-authority_type: case
-citation: 48 F.4th 183 (3d Cir. 2022)
-issuing_body: United States Court of Appeals for the Third Circuit
-jurisdiction: federal_third_circuit
-decision_or_issuance_date: 2022-09-01
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca3
-last_verified: 2026-08-25
 ---
 
 # United States v. Shields

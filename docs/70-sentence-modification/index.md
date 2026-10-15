@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-SENTENCE-MODIFICATION-INDEX
-title: Sentence Modification
-stage: 70-sentence-modification/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Sentence Modification

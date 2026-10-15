@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA11-SANTIAGO-LUGO-785-F3D-467
-authority_type: case
-citation: 785 F.3d 467 (11th Cir. 2015)
-issuing_body: United States Court of Appeals for the Eleventh Circuit
-jurisdiction: federal_eleventh_circuit
-decision_or_issuance_date: 2015-04-30
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca11
-last_verified: 2026-08-25
 ---
 
 # Santiago-Lugo v. Warden

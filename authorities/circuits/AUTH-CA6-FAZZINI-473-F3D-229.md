@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA6-FAZZINI-473-F3D-229
-authority_type: case
-citation: 473 F.3d 229 (6th Cir. 2006)
-issuing_body: United States Court of Appeals for the Sixth Circuit
-jurisdiction: federal_sixth_circuit
-decision_or_issuance_date: 2006-12-28
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca6
-last_verified: 2026-08-25
 ---
 
 # Fazzini v. Northeast Ohio Correctional Center

@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-FRCRIM-P-33
-authority_type: rule
-citation: Fed. R. Crim. P. 33
-issuing_body: Supreme Court of the United States under the Rules Enabling Act, subject to congressional review
-jurisdiction: federal
-publication_status: official
-precedential_status: binding_national_procedural_rule
-negative_treatment_status: current text checked; no Rule 33 amendment after 2009 identified
-last_verified: 2026-08-24
 ---
 
 # Federal Rule of Criminal Procedure 33
@@ -26,8 +18,3 @@ Rule 33 does not itself define the circuit-specific merits tests for newly disco
 
 - GovInfo, Title 18 Appendix, Rule 33, pages 141–143 of the printed appendix: <https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-app.pdf>
 - Current-rules status page: <https://www.uscourts.gov/forms-rules/current-rules-practice-procedure/federal-rules-criminal-procedure>
-
-## Linked records
-
-- Module: `MOD-RULE-33-NEW-TRIAL`
-- Claims: `CLM-R33-001` through `CLM-R33-006`

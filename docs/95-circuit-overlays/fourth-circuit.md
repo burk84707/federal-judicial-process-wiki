@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA4
-title: Fourth Circuit Overlay
-stage: circuit-overlays/fourth-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Fourth Circuit Overlay

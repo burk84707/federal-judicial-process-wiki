@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-DIRECT-REVIEW-INDEX
-title: Direct Review
-stage: 50-direct-review/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Direct Review

@@ -1,9 +1,5 @@
 ---
 module_id: MOD-SYSTEM-OVERVIEW
-title: System Overview
-stage: 00-system-overview/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # System Overview

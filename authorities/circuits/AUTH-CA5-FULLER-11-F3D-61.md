@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA5-FULLER-11-F3D-61
-authority_type: case
-citation: 11 F.3d 61 (5th Cir. 1994)
-issuing_body: United States Court of Appeals for the Fifth Circuit
-jurisdiction: federal_fifth_circuit
-decision_or_issuance_date: 1994-01-10
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca5
-last_verified: 2026-08-25
 ---
 
 # Fuller v. Rich

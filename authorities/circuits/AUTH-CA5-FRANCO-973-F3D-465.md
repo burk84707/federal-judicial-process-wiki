@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA5-FRANCO-973-F3D-465
-authority_type: case
-citation: 973 F.3d 465 (5th Cir. 2020)
-issuing_body: United States Court of Appeals for the Fifth Circuit
-jurisdiction: federal_fifth_circuit
-decision_or_issuance_date: 2020-09-03
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca5
-last_verified: 2026-08-25
 ---
 
 # United States v. Franco

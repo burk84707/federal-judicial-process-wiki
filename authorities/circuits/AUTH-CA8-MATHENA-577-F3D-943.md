@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA8-MATHENA-577-F3D-943
-authority_type: case
-citation: 577 F.3d 943 (8th Cir. 2009)
-issuing_body: United States Court of Appeals for the Eighth Circuit
-jurisdiction: federal_eighth_circuit
-decision_or_issuance_date: 2009-08-24
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca8
-last_verified: 2026-08-25
 ---
 
 # Mathena v. United States

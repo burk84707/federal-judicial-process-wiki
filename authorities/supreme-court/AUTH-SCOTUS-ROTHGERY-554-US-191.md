@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-ROTHGERY-554-US-191
-authority_type: case
-citation: Rothgery v. Gillespie County, 554 U.S. 191 (2008)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 2008-06-23
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Rothgery v. Gillespie County
@@ -24,8 +16,3 @@ The Court did not define counsel's required presence at every postattachment pro
 ## Official source and pinpoint
 
 554 U.S. 191, 194–95, 212–13 & nn.15–17 (2008): <https://www.supremecourt.gov/opinions/boundvolumes/554bv.pdf>
-
-## Linked records
-
-- Module: `MOD-INITIAL-APPEARANCE-PRETRIAL-RELEASE`
-- Claims: `CLM-PRETRIAL-009`, `CLM-PRETRIAL-010`

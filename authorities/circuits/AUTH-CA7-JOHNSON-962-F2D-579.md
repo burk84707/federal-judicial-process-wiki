@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA7-JOHNSON-962-F2D-579
-authority_type: case
-citation: 962 F.2d 579 (7th Cir. 1992)
-issuing_body: United States Court of Appeals for the Seventh Circuit
-jurisdiction: federal_seventh_circuit
-decision_or_issuance_date: 1992-04-24
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca7
-last_verified: 2026-08-26
 ---
 
 # United States v. Johnson

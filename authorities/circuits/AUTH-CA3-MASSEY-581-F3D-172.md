@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA3-MASSEY-581-F3D-172
-authority_type: case
-citation: 581 F.3d 172 (3d Cir. 2009) (per curiam)
-issuing_body: United States Court of Appeals for the Third Circuit
-jurisdiction: federal_third_circuit
-decision_or_issuance_date: 2009-09-11
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca3
-last_verified: 2026-08-26
 ---
 
 # Massey v. United States

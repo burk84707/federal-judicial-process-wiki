@@ -1,32 +1,5 @@
 ---
 module_id: MOD-FIRST-STEP-ACT-TIME-CREDITS
-title: 18 U.S.C. § 3632 — First Step Act Time Credits
-module_type: sentence_execution
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - imprisonment
-  - sentence_computation
-  - prerelease_custody
-status: verified_with_limitations
-effective_through: 2026-08-24
-last_verified: 2026-08-24
-authority_ids:
-  - AUTH-USC-18-3632
-  - AUTH-USC-18-3624
-  - AUTH-CFR-28-523-SUBPART-E
-  - AUTH-BOP-PS-5410-01-CN2
-  - AUTH-DOJ-PATTERN-2019-RELEASE
-related_modules:
-  - MOD-GOOD-CONDUCT-TIME
-tags:
-  - first-step-act
-  - time-credits
-  - pattern
-  - prerelease-custody
-  - supervised-release
-  - bureau-of-prisons
 ---
 
 # 18 U.S.C. § 3632 — First Step Act Time Credits

@@ -1,12 +1,5 @@
 ---
 authority_id: AUTH-FRCRIM-P-35-36
-authority_type: rule
-citation: Fed. R. Crim. P. 35 and 36
-issuing_body: Supreme Court of the United States and Congress
-jurisdiction: federal_nationwide
-publication_status: official_current_rules
-precedential_status: binding_rule
-last_verified: 2026-08-25
 ---
 
 # Federal Rules of Criminal Procedure 35 and 36
@@ -24,8 +17,3 @@ The rules do not resolve whether a particular error is clerical or clear, whethe
 ## Official source
 
 <https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf>
-
-## Linked records
-
-- Module: `MOD-SECTION-3582-REMEDY-ROUTER`
-- Claims: `CLM-3582-004` through `CLM-3582-006`

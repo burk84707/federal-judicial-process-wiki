@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA1-ROGERS-180-F3D-349
-authority_type: case
-citation: 180 F.3d 349 (1st Cir. 1999)
-issuing_body: United States Court of Appeals for the First Circuit
-jurisdiction: federal_first_circuit
-decision_or_issuance_date: 1999-06-17
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca1
-last_verified: 2026-08-25
 ---
 
 # Rogers v. United States

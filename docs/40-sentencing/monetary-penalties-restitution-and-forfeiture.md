@@ -1,33 +1,5 @@
 ---
 module_id: MOD-MONETARY-PENALTIES-RESTITUTION-FORFEITURE
-title: Monetary Penalties, Restitution, and Criminal Forfeiture
-module_type: sentencing
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - sentencing
-  - post_judgment_enforcement
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRCRIM-P-32-2-35-36
-  - AUTH-USC-18-3013-3571-3572
-  - AUTH-USC-18-3663-3663A-3664
-  - AUTH-USC-18-982
-  - AUTH-SCOTUS-SOUTHERN-UNION-567-US-343
-  - AUTH-SCOTUS-DOLAN-560-US-605
-  - AUTH-SCOTUS-LAGOS-584-US-577
-  - AUTH-SCOTUS-LIBRETTI-516-US-29
-related_modules:
-  - MOD-PRESENTENCE-GUIDELINES-SENTENCING-HEARING
-  - MOD-SUPERVISED-RELEASE-JUDGMENT-CORRECTION
-tags:
-  - fine
-  - special-assessment
-  - restitution
-  - forfeiture
 ---
 
 # Monetary Penalties, Restitution, and Criminal Forfeiture

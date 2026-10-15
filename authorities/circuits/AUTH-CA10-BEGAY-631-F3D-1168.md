@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA10-BEGAY-631-F3D-1168
-authority_type: case
-citation: 631 F.3d 1168 (10th Cir. 2011)
-issuing_body: United States Court of Appeals for the Tenth Circuit
-jurisdiction: federal_tenth_circuit
-decision_or_issuance_date: 2011-02-07
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca10
-last_verified: 2026-08-25
 ---
 
 # United States v. Begay

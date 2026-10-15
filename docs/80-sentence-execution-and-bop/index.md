@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-BOP-INDEX
-title: Sentence Execution and BOP
-stage: 80-sentence-execution-and-bop/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Sentence Execution and BOP

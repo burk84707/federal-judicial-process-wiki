@@ -1,34 +1,5 @@
 ---
 module_id: MOD-JURY-AND-BENCH-TRIAL
-title: Federal Jury and Bench Trial
-module_type: trial
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - trial
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRCRIM-P-23-24-26-30-31-43
-  - AUTH-USC-28-1861-1862-1867
-  - AUTH-SCOTUS-BALDWIN-399-US-66
-  - AUTH-SCOTUS-BLANTON-489-US-538
-  - AUTH-SCOTUS-SINGER-380-US-24
-  - AUTH-SCOTUS-DUREN-439-US-357
-  - AUTH-SCOTUS-BATSON-476-US-79
-  - AUTH-SCOTUS-JEB-511-US-127
-  - AUTH-SCOTUS-WINSHIP-397-US-358
-related_modules:
-  - MOD-PLEA-NEGOTIATIONS-AGREEMENTS-RULE-11
-  - MOD-RULE29-MISTRIAL-VERDICT-JUROR-MISCONDUCT
-tags:
-  - jury-trial
-  - bench-trial
-  - jury-selection
-  - instructions
-  - burden-of-proof
 ---
 
 # Federal Jury and Bench Trial

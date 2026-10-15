@@ -1,9 +1,5 @@
 ---
 module_id: MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION
-title: Supervised Release Commencement, Conditions, Modification, Termination, and Transfer
-stage: supervised-release/commencement-modification-termination-transfer
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Supervised Release Commencement, Conditions, Modification, Termination, and Transfer

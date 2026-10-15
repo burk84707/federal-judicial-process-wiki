@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-POST-CONVICTION-INDEX
-title: Post-Conviction
-stage: 60-post-conviction/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Post-Conviction

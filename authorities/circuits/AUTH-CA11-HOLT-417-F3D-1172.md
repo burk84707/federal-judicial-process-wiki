@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA11-HOLT-417-F3D-1172
-authority_type: case
-citation: 417 F.3d 1172 (11th Cir. 2005) (per curiam)
-issuing_body: United States Court of Appeals for the Eleventh Circuit
-jurisdiction: federal_eleventh_circuit
-decision_or_issuance_date: 2005-07-19
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca11
-last_verified: 2026-08-26
 ---
 
 # United States v. Holt

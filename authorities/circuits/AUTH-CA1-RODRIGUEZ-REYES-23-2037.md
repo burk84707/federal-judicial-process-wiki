@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA1-RODRIGUEZ-REYES-23-2037
-authority_type: case
-citation: No. 23-2037, slip op. (1st Cir. June 10, 2026)
-issuing_body: United States Court of Appeals for the First Circuit
-jurisdiction: federal_first_circuit
-decision_or_issuance_date: 2026-06-10
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca1
-last_verified: 2026-08-25
 ---
 
 # United States v. Rodríguez-Reyes

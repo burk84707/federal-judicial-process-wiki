@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-SCHRIRO-542-US-348
-authority_type: case
-citation: 542 U.S. 348 (2004)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_or_issuance_date: 2004-06-24
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Schriro v. Summerlin
@@ -23,8 +15,3 @@ Use only for the bounded proposition in the linked classification module. State-
 ## Official source and pinpoints
 
 542 U.S. 348 (2004), 542 U.S. 351–55: <https://www.govinfo.gov/content/pkg/USREPORTS-542/pdf/USREPORTS-542-348.pdf>
-
-## Linked records
-
-- Module: `MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION`
-- Claim: `CLM-SOS-022`

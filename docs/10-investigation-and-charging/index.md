@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-INVESTIGATION-CHARGING-INDEX
-title: Investigation and Charging
-stage: 10-investigation-and-charging/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Investigation and Charging

@@ -1,11 +1,5 @@
 ---
 authority_id: AUTH-CA10-LOCAL-RULES
-authority_type: rule
-issuing_body: United States Court of Appeals for the Tenth Circuit
-jurisdiction: federal_tenth_circuit
-publication_status: official_court_rules_repository
-precedential_status: binding_procedural_rules_only_as_current_text_applies
-last_verified: 2026-08-25
 ---
 
 # Tenth Circuit Local Rules and Procedures

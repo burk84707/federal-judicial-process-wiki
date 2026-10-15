@@ -1,35 +1,5 @@
 ---
 module_id: MOD-SECTION-3582-REMEDY-ROUTER
-title: 18 U.S.C. § 3582 — Sentence-Modification Remedy Router
-module_type: sentence_modification
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - sentence_modification
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-USC-18-3582
-  - AUTH-FRCRIM-P-35-36
-  - AUTH-FRAP-3-4-22
-  - AUTH-USSG-2025-1B1-10
-  - AUTH-USSG-2025-1B1-13
-  - AUTH-SCOTUS-DILLON-560-US-817
-  - AUTH-SCOTUS-HUGHES-584-US-675
-  - AUTH-SCOTUS-FERNANDEZ-608-US-SLIP
-  - AUTH-SCOTUS-RUTHERFORD-608-US-SLIP
-related_modules:
-  - MOD-FIRST-STEP-ACT-SECTION-404
-  - MOD-2241-APPEAL-AND-RELIEF
-tags:
-  - section-3582
-  - compassionate-release
-  - retroactive-guideline-amendment
-  - rule-35
-  - rule-36
-  - sentence-modification
 ---
 
 # 18 U.S.C. § 3582 — Sentence-Modification Remedy Router

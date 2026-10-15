@@ -1,12 +1,5 @@
 ---
 authority_id: AUTH-FRE-410
-authority_type: rule
-citation: Fed. R. Evid. 410
-issuing_body: Supreme Court of the United States and Congress
-jurisdiction: federal_nationwide
-publication_status: official_current_rules
-precedential_status: binding_rule
-last_verified: 2026-08-25
 ---
 
 # Federal Evidence Rule 410
@@ -22,8 +15,3 @@ Whether a communication was a protected plea discussion and whether a valid waiv
 ## Official source and pinpoints
 
 Rule 410: <https://www.uscourts.gov/sites/default/files/document/federal-rules-of-evidence.pdf>
-
-## Linked records
-
-- Module: `MOD-PLEA-NEGOTIATIONS-AGREEMENTS-RULE-11`
-- Claims: `CLM-PLEA-035`–`037`

@@ -1,9 +1,5 @@
 ---
 module_id: MOD-BOP-DESIGNATION-SENTENCE-COMPUTATION
-title: BOP Designation, Sentence Commencement, Aggregation, and Prior-Custody Credit
-stage: sentence-execution/bop-designation-sentence-computation
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # BOP Designation, Sentence Commencement, Aggregation, and Prior-Custody Credit

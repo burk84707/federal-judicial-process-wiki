@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CONST-PARDON-EFFECTS
-authority_type: secondary
-citation: Constitution Annotated, Art. II, § 2, cl. 1
-issuing_body: Congressional Research Service
-jurisdiction: federal_nationwide
-decision_or_issuance_date: null
-publication_status: official_constitution_annotated_analysis
-precedential_status: official_nonbinding_analysis
-last_verified: 2026-08-25
 ---
 
 # Legal Effect of a Pardon
@@ -23,8 +15,3 @@ Use only for the bounded proposition in the linked modules. The exact judgment, 
 ## Official source and pinpoints
 
 Constitution Annotated, Art. II, § 2, cl. 1, Legal Effect of a Pardon: <https://constitution.congress.gov/browse/essay/artII-S2-C1-3-7/ALDE_00013324/>
-
-## Linked records
-
-- Module: `MOD-EXECUTIVE-CLEMENCY-PARDON-COMMUTATION`
-- Claim: `CLM-CLEM-024`

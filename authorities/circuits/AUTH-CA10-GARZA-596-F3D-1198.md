@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA10-GARZA-596-F3D-1198
-authority_type: case
-citation: 596 F.3d 1198 (10th Cir. 2010)
-issuing_body: United States Court of Appeals for the Tenth Circuit
-jurisdiction: federal_tenth_circuit
-decision_or_issuance_date: 2010-02-17
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca10
-last_verified: 2026-08-25
 ---
 
 # Garza v. Davis

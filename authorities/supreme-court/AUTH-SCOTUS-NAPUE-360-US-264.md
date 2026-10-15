@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-NAPUE-360-US-264
-authority_type: case
-citation: Napue v. Illinois, 360 U.S. 264 (1959)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 1959-06-15
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Napue v. Illinois
@@ -23,8 +15,3 @@ The case involved testimony the prosecutor knew was false and applies its reason
 ## Official source and pinpoints
 
 360 U.S. 264, 269–72 (1959): <https://www.govinfo.gov/content/pkg/USREPORTS-360/pdf/USREPORTS-360-264.pdf>
-
-## Linked records
-
-- Module: `MOD-ARRAIGNMENT-PRETRIAL-DISCLOSURE`
-- Claim: `CLM-DISC-025`
