@@ -16,7 +16,7 @@ This page prevents nationwide rules from being mistaken for Second Circuit doctr
 ## Verified circuit holdings
 
 <!-- claim:CLM-CIR2-001 authorities:AUTH-CA2-CARMONA-243-F3D-629 status:verified_current -->
-- **CLM-CIR2-001:** In the Second Circuit, federal prisoners ordinarily must exhaust BOP remedies before § 2241 review; when a prisoner procedurally defaults and the administrative path has closed, review is barred unless cause and prejudice are shown. [*Carmona v. U.S. Bureau of Prisons*, 243 F.3d 629, 633–34 (2d Cir. 2001)](https://law.justia.com/cases/federal/appellate-courts/F3/243/629/603798/)
+- **CLM-CIR2-001:** In the Second Circuit, federal prisoners ordinarily must exhaust BOP remedies before § 2241 review; when a prisoner procedurally defaults and the administrative path has closed, review is barred unless cause and prejudice are shown. [*Carmona v. U.S. Bureau of Prisons*, 243 F.3d 629, 633–34 (2d Cir. 2001)](https://www.courtlistener.com/opinion/772485/carlos-pelaez-edison-carmona-v-united-states-bureau-of-prisons/)
 
   Limitation: Binding only in the Second Circuit and limited to a federal disciplinary proceeding and procedural default. Legitimate circumstances beyond the prisoner's control may supply cause, but this claim does not define every excuse from ordinary exhaustion.
 <!-- claim:CLM-CIR2-002 authorities:AUTH-PL-115-391-SEC-404,AUTH-SCOTUS-CONCEPCION-597-US-481,AUTH-CA2-GADSDEN-982-F3D-106 status:verified_current -->
@@ -24,7 +24,7 @@ This page prevents nationwide rules from being mistaken for Second Circuit doctr
 
   Limitation: Binding only in the Second Circuit and limited to the absence of a categorical hearing-and-presence requirement before denial. Gadsden does not prohibit a hearing, resolve every due-process question, or excuse compliance with Concepcion's later nationwide explanation rule.
 <!-- claim:CLM-CIR2-003 authorities:AUTH-USC-28-2253,AUTH-CA2-DRAX-338-F3D-98 status:verified_current -->
-- **CLM-CIR2-003:** In the Second Circuit, § 2253(c)'s certificate-of-appealability requirement does not apply to a federal habeas proceeding under § 2241. [*Drax v. Reno*, 338 F.3d 98, 106 n.12 (2d Cir. 2003)](https://law.justia.com/cases/federal/appellate-courts/F3/338/98/549969/)
+- **CLM-CIR2-003:** In the Second Circuit, § 2253(c)'s certificate-of-appealability requirement does not apply to a federal habeas proceeding under § 2241. [*Drax v. Reno*, 338 F.3d 98, 106 n.12 (2d Cir. 2003)](https://www.courtlistener.com/opinion/782936/drax-v-reno/)
 
   Limitation: Binding only in the Second Circuit. Drax arose from federal immigration detention; the proposition does not address state-process detention, § 2255 proceedings, or whether a filing is correctly classified under § 2241.
 <!-- claim:CLM-CIR2-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA2-SALADINO-7-F4TH-120 status:verified_current -->
@@ -32,7 +32,7 @@ This page prevents nationwide rules from being mistaken for Second Circuit doctr
 
   Limitation: Binding only in the Second Circuit. The panel did not decide which of two competing readings of the 30-day route was correct; the separate concurrence's equitable-exception analysis is not attributed to the court.
 <!-- claim:CLM-CIR2-005 authorities:AUTH-USC-18-3582-3583,AUTH-CA2-GAMMARANO-321-F3D-311 status:verified_current -->
-- **CLM-CIR2-005:** In the Second Circuit, a court deciding whether to modify or terminate supervised release must consider the § 3583(e) subset of § 3553(a) factors, but it need not make a separate factual finding on each factor; a statement, read with the record, that the statutory factors were considered is sufficient. [*United States v. Gammarano*, 321 F.3d 311, 315–16 (2d Cir. 2003)](https://openjurist.org/321/f3d/311/united-states-v-gammarano)
+- **CLM-CIR2-005:** In the Second Circuit, a court deciding whether to modify or terminate supervised release must consider the § 3583(e) subset of § 3553(a) factors, but it need not make a separate factual finding on each factor; a statement, read with the record, that the statutory factors were considered is sufficient. [*United States v. Gammarano*, 321 F.3d 311, 315–16 (2d Cir. 2003)](https://www.courtlistener.com/opinion/781046/united-states-v-john-gammarano/)
 
   Limitation: Binding only in the Second Circuit. Gammarano does not require a particular explanation length, create a presumption of termination, or decide whether changed circumstances are required for condition modification; Parisi separately clarifies that they are not.
 <!-- claim:CLM-CIR2-006 authorities:AUTH-USC-28-1651,AUTH-CA2-RICHTER-510-F3D-103 status:verified_current -->

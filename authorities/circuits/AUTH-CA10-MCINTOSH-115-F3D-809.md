@@ -14,7 +14,7 @@ Binding only in the Tenth Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-115 F.3d 809 (10th Cir. 1997), 115 F.3d 810 n.1: <https://openjurist.org/115/f3d/809/mcintosh-v-united-states-parole-commission>
+115 F.3d 809 (10th Cir. 1997), 115 F.3d 810 n.1: <https://www.courtlistener.com/opinion/741840/marcus-allan-mcintosh-v-united-states-parole-commission/>
 
 ## Linked claims
 

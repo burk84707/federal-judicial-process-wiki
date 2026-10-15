@@ -14,7 +14,7 @@ Binding only in the Sixth Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-473 F.3d 229 (6th Cir. 2006), 473 F.3d 231–36: <https://law.justia.com/cases/federal/appellate-courts/F3/473/229/589119/>
+473 F.3d 229 (6th Cir. 2006), 473 F.3d 231–36: <https://www.courtlistener.com/opinion/796434/paul-fazzini-v-northeast-ohio-correctional-center-warden-united-states/>
 
 ## Linked claims
 

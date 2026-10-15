@@ -20,7 +20,7 @@ This page prevents nationwide rules from being mistaken for Third Circuit doctri
 
   Limitation: Bruce's saving-clause merits analysis is limited by Jones v. Hendrix. This record uses only the published opinion's COA proposition and does not decide a state-process detention appeal or a § 2255 appeal.
 <!-- claim:CLM-CIR3-002 authorities:AUTH-CA3-MOSCATO-98-F3D-757 status:verified_current -->
-- **CLM-CIR3-002:** In the Third Circuit, federal prisoners ordinarily must exhaust administrative remedies before a § 2241 petition; a procedural default that closes the administrative path bars merits review unless the prisoner shows cause and prejudice. [*Moscato v. Federal Bureau of Prisons*, 98 F.3d 757, 760–62 (3d Cir. 1996)](https://openjurist.org/98/f3d/757/moscato-08126-050-v-federal-bureau-of-prisons)
+- **CLM-CIR3-002:** In the Third Circuit, federal prisoners ordinarily must exhaust administrative remedies before a § 2241 petition; a procedural default that closes the administrative path bars merits review unless the prisoner shows cause and prejudice. [*Moscato v. Federal Bureau of Prisons*, 98 F.3d 757, 760–62 (3d Cir. 1996)](https://www.courtlistener.com/opinion/728093/phillip-b-moscato-08126-050-v-federal-bureau-of-prisons-lsci/)
 
   Limitation: Binding only in the Third Circuit and limited to federal institutional discipline and a defaulted administrative appeal. It does not establish that every unexhausted filing is jurisdictionally barred.
 <!-- claim:CLM-CIR3-003 authorities:AUTH-PL-115-391-SEC-404,AUTH-SCOTUS-CONCEPCION-597-US-481,AUTH-CA3-SHIELDS-48-F4TH-183 status:verified_current -->

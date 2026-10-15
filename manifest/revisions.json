@@ -3382,6 +3382,139 @@
       "sha256": "ed80c2f0330d619fcf9a63a6b750706f580b712f118c08800047a1d59b5d63d8",
       "date": "2026-10-15",
       "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed. BOP PS 5160.05 was rescinded by PS 5160.06 (Sept. 3, 2026), confirmed from the 5160.06 Summary of Changes read in probe run 38789802937. The authority is marked needs_update with its rescission recorded; the two claims that rely on it are marked superseded pending legal review against 5160.06; the module is marked needs_update. No claim wording changed."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-BARRETT-178-F3D-34.md",
+      "previous_sha256": "20e032a4777d9e286faef9ebe704615a62fa09b18ecbc1f4b3eae116b2e170a9",
+      "sha256": "d4235f0e0873fc54b0ff5ac18c953865dad1e5498f7d21ec0254527d646bfdc9",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-HOLDER-936-F2D-1.md",
+      "previous_sha256": "62c241c0dafbd63f38890420f71275833485b4e72064d05aeede567b5431e447",
+      "sha256": "63b93bbd26fa550b397a331560fbfd4ebf2459ecf3586f3b8377c40b86ac29df",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-MCINTOSH-115-F3D-809.md",
+      "previous_sha256": "227cd8cd57304a5730e734e14097c1245e76b74286fc7f356cc07cab1b12a495",
+      "sha256": "cde31d2d9ebe7dd67673e4d7a37aac7e5f8842ed6ae5549ddd304ef0e12c2bb9",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-CARMONA-243-F3D-629.md",
+      "previous_sha256": "74e42cdc8f55079b0e21004724acca5f41c61f644682888ef1c82c282b9b1e90",
+      "sha256": "38dcf144e1e1269d5cdb4cf8f4665c3e5060795e7f3c2d35f750490b32b68d03",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-DRAX-338-F3D-98.md",
+      "previous_sha256": "458de3d889c561afc51a65e7e524d23e0e2a579e747444e9405d1f981ff19a41",
+      "sha256": "9920bf167d6bc655f6d235940525275f37f21cf7c1068517eb880ad2b0debfc8",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-GAMMARANO-321-F3D-311.md",
+      "previous_sha256": "57b2718b552ea13b9f1ce3319be0d8dfb17052761d9637c220eb956a38cb5a7a",
+      "sha256": "896fc5e3baa91188f2a9d0d3291c446a103e98fcc414ddc75b8199c0d986078f",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA3-MOSCATO-98-F3D-757.md",
+      "previous_sha256": "37a65ce2725848e569e80ced918d90af64eb085381cfc6abb4a69259a3766c09",
+      "sha256": "ce1fbe3c38c9ff4c2e52158a866a8dcf5d4d1912a0f62adfad9069c588531230",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA6-FAZZINI-473-F3D-229.md",
+      "previous_sha256": "d55f1c647e262b339812da8378eb7bacadbc9dc77f494ff8effd46672eed9cbe",
+      "sha256": "cf0d5ec43d3bd0552dfe8dd65cc71e214e2177f0515a6d8411a2b8e7dca60f5a",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-RICHMOND-387-F3D-602.md",
+      "previous_sha256": "57b6787ff453565647e6be63cf1e219e8d9c9d6edefb7a0f8af324ad987d588b",
+      "sha256": "27a377d2e4846c71850e4b3c4562352da6f37a8709280819f6477b565821425c",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-WALKER-216-F3D-626.md",
+      "previous_sha256": "17e0291c91e1e1d64c811f6b0f562d475424cd597866aae1384c74728bbb857a",
+      "sha256": "9f357603d0e91dbc572ab983b751b2e2ccdb0c4ec99c15377b78b41520a1b7a1",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "data/authorities.jsonl",
+      "previous_sha256": "ed80c2f0330d619fcf9a63a6b750706f580b712f118c08800047a1d59b5d63d8",
+      "sha256": "8f86866f00cafaf143aee8f78a8172e60a0a48820b2c8533bc6cc18a52f5a1cc",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "data/claims.jsonl",
+      "previous_sha256": "911d3ae0197e0dafa4dfaff5687955e7100ebcf15ae15360a3f4d73c556476dd",
+      "sha256": "78e65a0c115756a9d9cbbfa94a8f7c868a42ab015f4dd0f617d08149887d64f0",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "docs/95-circuit-overlays/first-circuit.md",
+      "previous_sha256": "21bf9751678ada85eefc444248e8cd14ff654e4ecba3dfd62390af538b17d4bb",
+      "sha256": "2f8663c49c7fd07687e02382ff620cd024a417f28ae15f9640f77d36f4531dba",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "docs/95-circuit-overlays/second-circuit.md",
+      "previous_sha256": "cc1d1522e5f4827c926f6e27b585fbc2eee9879c125bf64c5d04f00164375b13",
+      "sha256": "8f50df4de0dca1733078fd6c4de03e1c504641450485f6ca32fe1ad1e588fa14",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "docs/95-circuit-overlays/seventh-circuit.md",
+      "previous_sha256": "f9240bbf79a9b2e1d76c711b45cc88ffcdfec2886e776618e30b6c8ba7750f0f",
+      "sha256": "a373b37e79a30b407c6005b3164adafef11ba213715043ef2364744e506d8522",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "docs/95-circuit-overlays/sixth-circuit.md",
+      "previous_sha256": "0e5b7eb4b7d64c032abdc01e35d667b0c68ac4d95d0ddc7153caf0d152325405",
+      "sha256": "132fbc3361da96e1ebbf8107407344657f1c157e76363bf1c7e4db33ff42c558",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "docs/95-circuit-overlays/tenth-circuit.md",
+      "previous_sha256": "437eed6f1d2b4fffe36f43d0b60241996dabf854d472f5d8dbb92e647476965e",
+      "sha256": "32e803c0881022641ee4ce24aa301b522347d8b395efc323dde815af8c46447a",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "docs/95-circuit-overlays/third-circuit.md",
+      "previous_sha256": "4a58ba64a26b5848927713c7e6ff6ec7243ac2a1cd91eb3600e000f9fb68f7a2",
+      "sha256": "dd30b328ebcff00624b56acd940b068de1b2e9bddbc321d79907e8f5a9f0b908",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "sources/source_registry.yaml",
+      "previous_sha256": "6bb1b80ad8545f449fa4f7b3b1a6f7e820186cddd17d3c1f133b072e4fdda487",
+      "sha256": "04b6a265d24606f574ad567b1103ffa9e5704ecd15ad9768c863e8acea897696",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
     }
   ]
 }

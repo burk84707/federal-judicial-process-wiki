@@ -14,7 +14,7 @@ Binding only in the First Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-936 F.2d 1 (1st Cir. 1991), 936 F.2d 2–5: <https://openjurist.org/936/f2d/1/united-states-v-holder>
+936 F.2d 1 (1st Cir. 1991), 936 F.2d 2–5: <https://www.courtlistener.com/opinion/563216/united-states-v-ewart-mark-holder/>
 
 ## Linked claims
 

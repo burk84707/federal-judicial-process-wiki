@@ -14,7 +14,7 @@ Binding only in the Third Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-98 F.3d 757 (3d Cir. 1996), 98 F.3d 760–62: <https://openjurist.org/98/f3d/757/moscato-08126-050-v-federal-bureau-of-prisons>
+98 F.3d 757 (3d Cir. 1996), 98 F.3d 760–62: <https://www.courtlistener.com/opinion/728093/phillip-b-moscato-08126-050-v-federal-bureau-of-prisons-lsci/>
 
 ## Linked claims
 

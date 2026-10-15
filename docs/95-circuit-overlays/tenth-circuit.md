@@ -24,7 +24,7 @@ This page prevents nationwide rules from being mistaken for Tenth Circuit doctri
 
   Limitation: Binding only in the Tenth Circuit. Mannie's surviving nonplenary, hearing, presence, and review holdings are used; any pre-Concepcion restriction on intervening information is not adopted.
 <!-- claim:CLM-CIR10-003 authorities:AUTH-USC-28-2253,AUTH-CA10-MCINTOSH-115-F3D-809 status:verified_current -->
-- **CLM-CIR10-003:** In the Tenth Circuit, a federal prisoner appealing a final order in a properly classified § 2241 proceeding does not need a certificate of appealability. [*McIntosh v. U.S. Parole Commission*, 115 F.3d 809, 810 n.1 (10th Cir. 1997)](https://openjurist.org/115/f3d/809/mcintosh-v-united-states-parole-commission)
+- **CLM-CIR10-003:** In the Tenth Circuit, a federal prisoner appealing a final order in a properly classified § 2241 proceeding does not need a certificate of appealability. [*McIntosh v. U.S. Parole Commission*, 115 F.3d 809, 810 n.1 (10th Cir. 1997)](https://www.courtlistener.com/opinion/741840/marcus-allan-mcintosh-v-united-states-parole-commission/)
 
   Limitation: Binding only in the Tenth Circuit. McIntosh involved federal parole revocation; the proposition does not address state-process detention, § 2255, or whether a filing is properly classified under § 2241.
 <!-- claim:CLM-CIR10-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA10-HEMMELGARN-15-F4TH-1027 status:verified_current -->

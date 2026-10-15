@@ -16,7 +16,7 @@ This page prevents nationwide rules from being mistaken for Seventh Circuit doct
 ## Verified circuit holdings
 
 <!-- claim:CLM-CIR7-001 authorities:AUTH-CA7-RICHMOND-387-F3D-602 status:verified_current -->
-- **CLM-CIR7-001:** The Seventh Circuit applies a common-law exhaustion rule to § 2241 even though the PLRA's statutory exhaustion rule does not apply; judge-made exceptions exist, but the hurdle is high and self-created delay does not establish an excuse. [*Richmond v. Scibana*, 387 F.3d 602, 604–06 (7th Cir. 2004)](https://law.justia.com/cases/federal/appellate-courts/F3/387/602/532564/)
+- **CLM-CIR7-001:** The Seventh Circuit applies a common-law exhaustion rule to § 2241 even though the PLRA's statutory exhaustion rule does not apply; judge-made exceptions exist, but the hurdle is high and self-created delay does not establish an excuse. [*Richmond v. Scibana*, 387 F.3d 602, 604–06 (7th Cir. 2004)](https://www.courtlistener.com/opinion/788163/michael-richmond-v-joseph-scibana-warden-federal-correctional/)
 
   Limitation: Binding only in the Seventh Circuit. Richmond ultimately classified the placement-policy challenge outside § 2241, so the common-law exhaustion proposition must not be converted into a merits holding that every BOP placement challenge sounds in habeas.
 <!-- claim:CLM-CIR7-002 authorities:AUTH-PL-115-391-SEC-404,AUTH-SCOTUS-CONCEPCION-597-US-481,AUTH-CA7-WILLIAMS-93-F4TH-389 status:verified_current -->
@@ -24,7 +24,7 @@ This page prevents nationwide rules from being mistaken for Seventh Circuit doct
 
   Limitation: Binding only in the Seventh Circuit. Williams does not prescribe a required explanation length or guarantee relief; it addresses a current record materially different from the one underlying the earlier order.
 <!-- claim:CLM-CIR7-003 authorities:AUTH-USC-28-2253,AUTH-CA7-WALKER-216-F3D-626 status:verified_current -->
-- **CLM-CIR7-003:** In the Seventh Circuit, a federal prisoner properly proceeding under § 2241 does not need a certificate of appealability; for federal cases, § 2253(c) extends the COA requirement to § 2255 but not to § 2241. [*Walker v. O'Brien*, 216 F.3d 626, 638 (7th Cir. 2000)](https://law.justia.com/cases/federal/appellate-courts/F3/216/626/570410/)
+- **CLM-CIR7-003:** In the Seventh Circuit, a federal prisoner properly proceeding under § 2241 does not need a certificate of appealability; for federal cases, § 2253(c) extends the COA requirement to § 2255 but not to § 2241. [*Walker v. O'Brien*, 216 F.3d 626, 638 (7th Cir. 2000)](https://www.courtlistener.com/opinion/769182/jimmy-walker-v-jt-obrien-and-joseph-w-finfrock-v-craig-a-hanks/)
 
   Limitation: Binding only in the Seventh Circuit and limited to federal-process custody. Walker's separate treatment of state-prisoner petitions is not adopted as a nationwide rule, and proceeding classification remains a distinct inquiry.
 <!-- claim:CLM-CIR7-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA7-SANFORD-986-F3D-779 status:verified_current -->

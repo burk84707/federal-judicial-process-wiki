@@ -122,6 +122,15 @@ class Builder:
         # Optional: written from a full source-review run. Absent means no link check is shown.
         link_path = ROOT / "data/link_check.json"
         self.link_check = read_json(link_path) if link_path.is_file() else None
+        # Sources confirmed through a publisher's API (CourtListener) on or after the link check.
+        conf_path = ROOT / "data/source_confirmations.json"
+        confirmations = read_json(conf_path)["sources"] if conf_path.is_file() else {}
+        self.confirmed_authorities = set()
+        if self.link_check:
+            for src in self.sources:
+                c = confirmations.get(src["source_id"])
+                if c and c["result"] == "confirmed" and c["checked_on"] >= self.link_check["checked_on"]:
+                    self.confirmed_authorities.update([src.get("authority_id")] + src.get("additional_authority_ids", []))
         self.route_map, self.auth_paths, self.search = {}, {}, []
         self.pages = []
         self.unlisted_routes = {"downloads/"} if self.cfg.get("downloads_visibility") == "unlisted" else set()
@@ -277,8 +286,9 @@ class Builder:
         """(opened, checked) counts for these authorities in the link-check record."""
         if not self.link_check:
             return None
-        results = [self.link_check["authorities"][a] for a in authority_ids if a in self.link_check["authorities"]]
-        return sum(r == "opened" for r in results), len(results)
+        checked = [a for a in authority_ids if a in self.link_check["authorities"]]
+        available = [a for a in checked if self.link_check["authorities"][a] == "opened" or a in self.confirmed_authorities]
+        return len(available), len(checked)
 
     def dates_line(self, legal_review, authority_ids, single=False):
         """Two dates, each true on its own: the legal review and the automated link check."""
@@ -288,9 +298,9 @@ class Builder:
             opened, checked = status
             when = self.link_check["checked_on"]
             if single:
-                result = "the source opened" if opened else "the source could not be reached"
+                result = "the source is available" if opened else "the source could not be reached"
             else:
-                result = f"all {checked} sources opened" if opened == checked else f"{opened} of {checked} sources opened"
+                result = f"all {checked} sources available" if opened == checked else f"{opened} of {checked} sources available"
             line += f' · Links checked <time datetime="{escape(when)}">{human_date(when)}</time>: {result}'
         return line
 
@@ -298,7 +308,7 @@ class Builder:
         status = self.link_status(authority_ids)
         if not status or not status[1]:
             return {}
-        return {"links_checked": self.link_check["checked_on"], "links_opened": status[0], "links_checked_count": status[1]}
+        return {"links_checked": self.link_check["checked_on"], "links_available": status[0], "links_checked_count": status[1]}
 
     def record_fields(self, fields):
         return '<dl class="record">' + "".join(f'<dt>{escape(k.replace("_", " "))}</dt><dd>{escape(str(v))}</dd>' for k, v in fields.items() if v is not None) + '</dl>'
@@ -402,7 +412,7 @@ class Builder:
 
     def limitations(self):
         counts = Counter(i['category'] for i in self.questions['items'])
-        body = '<h1>Scope &amp; methodology</h1><p class="lede">How the reference is built, what it covers, and how to use it well.</p><div class="prose"><h2>What it covers</h2><p>The federal criminal process, from investigation and charging through trial, sentencing, appeal, post-conviction remedies, custody and supervised release. Circuit notes record where a circuit departs from or adds to the nationwide rules. The court directory links each district court to its official local rules.</p><h2>How statements are sourced</h2><p>Each legal statement is a separate record tied to the statutes, rules or decisions that support it, and links to that authority. Each authority record shows its citation, issuing body, weight and official source.</p><h2>Currency</h2><p>The reference is current through ' + human_date(self.cfg['research_baseline']) + '. Each topic and authority shows two dates. <strong>Legal review</strong> is the date its statements were last checked against the sources, including later history and treatment where recorded. <strong>Links checked</strong> is the date an automated check last confirmed that each recorded source still opens; it does not show that the law is unchanged, and it never moves the legal review date. Laws, rules and local practice change; confirm the current text of any rule before relying on it, and check local rules and standing orders for the court involved.</p><h2>Not legal advice</h2><p>This is general legal information. It does not create an attorney-client relationship, and it cannot account for the facts of a particular case. For advice about a specific case, consult a licensed attorney.</p><h2>Open research questions</h2><p>The items below are questions the research has not yet resolved, such as a circuit that has not addressed an issue or a local rule whose text has not been reviewed. They are listed so they can be checked and closed.</p></div><div class="stats">' + ''.join(f'<div><strong>{n}</strong><span>{escape(k.replace("_"," "))}</span></div>' for k,n in counts.items()) + '</div><h2>Open research register</h2><p>Earlier draft wording listed here is shown for review only and is not a statement of law.</p><label for="issue-filter">Filter by issue, jurisdiction, or ID</label><input id="issue-filter" type="search" data-filter="issue-list" placeholder="CA4, Rule 33, district…"><p data-filter-count="issue-list" aria-live="polite"></p><div id="issue-list">'
+        body = '<h1>Scope &amp; methodology</h1><p class="lede">How the reference is built, what it covers, and how to use it well.</p><div class="prose"><h2>What it covers</h2><p>The federal criminal process, from investigation and charging through trial, sentencing, appeal, post-conviction remedies, custody and supervised release. Circuit notes record where a circuit departs from or adds to the nationwide rules. The court directory links each district court to its official local rules.</p><h2>How statements are sourced</h2><p>Each legal statement is a separate record tied to the statutes, rules or decisions that support it, and links to that authority. Each authority record shows its citation, issuing body, weight and official source.</p><h2>Currency</h2><p>The reference is current through ' + human_date(self.cfg['research_baseline']) + '. Each topic and authority shows two dates. <strong>Legal review</strong> is the date its statements were last checked against the sources, including later history and treatment where recorded. <strong>Links checked</strong> is the date an automated check last confirmed that each recorded source is available: it opened when requested, or, for CourtListener pages that refuse automated requests, CourtListener&rsquo;s own API confirmed the opinion and its full text; it does not show that the law is unchanged, and it never moves the legal review date. Laws, rules and local practice change; confirm the current text of any rule before relying on it, and check local rules and standing orders for the court involved.</p><h2>Not legal advice</h2><p>This is general legal information. It does not create an attorney-client relationship, and it cannot account for the facts of a particular case. For advice about a specific case, consult a licensed attorney.</p><h2>Open research questions</h2><p>The items below are questions the research has not yet resolved, such as a circuit that has not addressed an issue or a local rule whose text has not been reviewed. They are listed so they can be checked and closed.</p></div><div class="stats">' + ''.join(f'<div><strong>{n}</strong><span>{escape(k.replace("_"," "))}</span></div>' for k,n in counts.items()) + '</div><h2>Open research register</h2><p>Earlier draft wording listed here is shown for review only and is not a statement of law.</p><label for="issue-filter">Filter by issue, jurisdiction, or ID</label><input id="issue-filter" type="search" data-filter="issue-list" placeholder="CA4, Rule 33, district…"><p data-filter-count="issue-list" aria-live="polite"></p><div id="issue-list">'
         for item in self.questions['items']:
             cid = item['coverage_id']
             module_path = item.get('responsible_module')

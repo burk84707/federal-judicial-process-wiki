@@ -24,7 +24,7 @@ This page prevents nationwide rules from being mistaken for First Circuit doctri
 
   Limitation: Binding only in the First Circuit. Rodríguez-Reyes does not require a detailed rebuttal to every argument or a sentence reduction, and the adequacy of an explanation remains record dependent.
 <!-- claim:CLM-CIR1-003 authorities:AUTH-USC-28-2253,AUTH-CA1-BARRETT-178-F3D-34 status:verified_current -->
-- **CLM-CIR1-003:** In the First Circuit, the certificate-of-appealability and appellate preclearance requirements do not directly apply to a federal prisoner's claim that actually proceeds under § 2241; whether a filing is properly classified under § 2241 rather than § 2255 remains a separate question. [*United States v. Barrett*, 178 F.3d 34, 42 (1st Cir. 1999)](https://law.justia.com/cases/federal/appellate-courts/F3/178/34/601855/)
+- **CLM-CIR1-003:** In the First Circuit, the certificate-of-appealability and appellate preclearance requirements do not directly apply to a federal prisoner's claim that actually proceeds under § 2241; whether a filing is properly classified under § 2241 rather than § 2255 remains a separate question. [*United States v. Barrett*, 178 F.3d 34, 42 (1st Cir. 1999)](https://www.courtlistener.com/opinion/198488/united-states-v-barrett/)
 
   Limitation: Binding only in the First Circuit and limited to the COA consequence after correct classification. Barrett involved alternative § 2255, § 2241, and All Writs Act theories; no saving-clause merits rule is adopted, and current filing-office instructions should be checked before filing.
 <!-- claim:CLM-CIR1-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA1-TEXEIRA-NIEVES-23-F4TH-48 status:verified_current -->
@@ -36,7 +36,7 @@ This page prevents nationwide rules from being mistaken for First Circuit doctri
 
   Limitation: Binding only in the First Circuit and limited to continuing modification jurisdiction while a revocation appeal was pending. D'Amario does not establish an early-termination standard, a changed-circumstances rule, or a universal hearing rule.
 <!-- claim:CLM-CIR1-006 authorities:AUTH-USC-28-1651,AUTH-CA1-HOLDER-936-F2D-1 status:verified_current -->
-- **CLM-CIR1-006:** In the First Circuit, assuming audita querela survives in federal criminal cases, it can address only a legal objection arising after conviction that is not redressable through another postconviction remedy; equitable hardship alone is insufficient. [*United States v. Holder*, 936 F.2d 1, 2–5 (1st Cir. 1991)](https://openjurist.org/936/f2d/1/united-states-v-holder)
+- **CLM-CIR1-006:** In the First Circuit, assuming audita querela survives in federal criminal cases, it can address only a legal objection arising after conviction that is not redressable through another postconviction remedy; equitable hardship alone is insufficient. [*United States v. Holder*, 936 F.2d 1, 2–5 (1st Cir. 1991)](https://www.courtlistener.com/opinion/563216/united-states-v-ewart-mark-holder/)
 
   Limitation: Binding only in the First Circuit. Holder expressly did not decide whether audita querela survives; it rejected a pure-equity immigration-consequence theory and did not identify any actual remedial gap. Section 2255 classification and the current nationwide limits, including Jones v. Hendrix, still must be applied independently.
 

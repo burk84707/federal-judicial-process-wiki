@@ -4636,7 +4636,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/243/629/603798/
+  mirror_url: https://www.courtlistener.com/opinion/772485/carlos-pelaez-edison-carmona-v-united-states-bureau-of-prisons/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/243/629/603798/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4654,7 +4657,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://openjurist.org/98/f3d/757/moscato-08126-050-v-federal-bureau-of-prisons
+  mirror_url: https://www.courtlistener.com/opinion/728093/phillip-b-moscato-08126-050-v-federal-bureau-of-prisons-lsci/
+  previous_url: "https://openjurist.org/98/f3d/757/moscato-08126-050-v-federal-bureau-of-prisons"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4707,7 +4713,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/473/229/589119/
+  mirror_url: https://www.courtlistener.com/opinion/796434/paul-fazzini-v-northeast-ohio-correctional-center-warden-united-states/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/473/229/589119/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4725,7 +4734,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/387/602/532564/
+  mirror_url: https://www.courtlistener.com/opinion/788163/michael-richmond-v-joseph-scibana-warden-federal-correctional/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/387/602/532564/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5011,7 +5023,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/178/34/601855/
+  mirror_url: https://www.courtlistener.com/opinion/198488/united-states-v-barrett/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/178/34/601855/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5029,7 +5044,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/338/98/549969/
+  mirror_url: https://www.courtlistener.com/opinion/782936/drax-v-reno/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/338/98/549969/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5082,7 +5100,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/216/626/570410/
+  mirror_url: https://www.courtlistener.com/opinion/769182/jimmy-walker-v-jt-obrien-and-joseph-w-finfrock-v-craig-a-hanks/
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/F3/216/626/570410/"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Justia republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5134,7 +5155,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://openjurist.org/115/f3d/809/mcintosh-v-united-states-parole-commission
+  mirror_url: https://www.courtlistener.com/opinion/741840/marcus-allan-mcintosh-v-united-states-parole-commission/
+  previous_url: "https://openjurist.org/115/f3d/809/mcintosh-v-united-states-parole-commission"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5445,7 +5469,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://openjurist.org/321/f3d/311/united-states-v-gammarano
+  mirror_url: https://www.courtlistener.com/opinion/781046/united-states-v-john-gammarano/
+  previous_url: "https://openjurist.org/321/f3d/311/united-states-v-gammarano"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5626,7 +5653,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-26
   retrieval_date: '2026-08-26'
   official_url: null
-  mirror_url: https://openjurist.org/936/f2d/1/united-states-v-holder
+  mirror_url: https://www.courtlistener.com/opinion/563216/united-states-v-ewart-mark-holder/
+  previous_url: "https://openjurist.org/936/f2d/1/united-states-v-holder"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded OpenJurist republication refuses automated requests (HTTP 403). Replaced with the CourtListener opinion page, confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json). The legal review above was done on the earlier copy."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations

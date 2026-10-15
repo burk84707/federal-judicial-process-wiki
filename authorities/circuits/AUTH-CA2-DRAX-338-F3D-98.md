@@ -14,7 +14,7 @@ Binding only in the Second Circuit and only for the bounded procedural postures 
 
 ## Official source and pinpoints
 
-338 F.3d 98 (2d Cir. 2003), 338 F.3d 106 n.12: <https://law.justia.com/cases/federal/appellate-courts/F3/338/98/549969/>
+338 F.3d 98 (2d Cir. 2003), 338 F.3d 106 n.12: <https://www.courtlistener.com/opinion/782936/drax-v-reno/>
 
 ## Linked claims
 
