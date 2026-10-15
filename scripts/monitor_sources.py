@@ -20,7 +20,7 @@ import uuid
 import yaml
 
 MAX_BYTES = 16 * 1024 * 1024
-REPUTABLE_HOSTS = {"www.courtlistener.com", "courtlistener.com", "law.justia.com",
+REPUTABLE_HOSTS = {"www.courtlistener.com", "courtlistener.com", "storage.courtlistener.com", "law.justia.com",
                    "cases.justia.com", "openjurist.org", "www.openjurist.org",
                    "www.law.cornell.edu"}
 REDIRECTS = {301, 302, 303, 307, 308}
@@ -61,8 +61,10 @@ def validate_url(url: str) -> tuple[str, str, int]:
 def public_addresses(host: str, port: int) -> list[str]:
     """Reject a DNS answer if ANY answer is private, local, reserved, or invalid."""
     try:
+        # IPv4 first: many runners have no IPv6 route. Every answer is still vetted.
         addresses = sorted({item[4][0] for item in socket.getaddrinfo(
-            host, port, type=socket.SOCK_STREAM)})
+            host, port, type=socket.SOCK_STREAM)},
+            key=lambda a: (ipaddress.ip_address(a).version, a))
     except socket.gaierror as exc:
         raise FetchError("dns_error", str(exc), True) from exc
     if not addresses:
@@ -77,13 +79,20 @@ def public_addresses(host: str, port: int) -> list[str]:
 class PinnedConnection(http.client.HTTPConnection):
     """Connect to a vetted IP without a second hostname lookup (DNS rebinding)."""
 
-    def __init__(self, host: str, port: int, address: str, timeout: float, tls: bool):
+    def __init__(self, host: str, port: int, addresses: list[str], timeout: float, tls: bool):
         super().__init__(host, port, timeout=timeout)
-        self.address = address
+        self.addresses = addresses
         self.tls = tls
 
     def connect(self):
-        raw = socket.create_connection((self.address, self.port), self.timeout)
+        # Try each vetted address in turn; only an unreachable address moves on.
+        for index, address in enumerate(self.addresses):
+            try:
+                raw = socket.create_connection((address, self.port), self.timeout)
+                break
+            except OSError:
+                if index == len(self.addresses) - 1:
+                    raise
         try:
             self.sock = (ssl.create_default_context().wrap_socket(
                 raw, server_hostname=self.host) if self.tls else raw)
@@ -92,8 +101,10 @@ class PinnedConnection(http.client.HTTPConnection):
             raise
 
 
-def fetch_once(url: str, timeout: float = 20, max_bytes: int = MAX_BYTES) -> dict:
-    """Follow at most five independently validated redirects; hash a full body."""
+def fetch_once(url: str, timeout: float = 20, max_bytes: int = MAX_BYTES, keep_body: bool = False) -> dict:
+    """Follow at most five independently validated redirects; hash a full body.
+
+    keep_body returns the bytes too; only the URL probe uses it, never the monitor."""
     current = url
     chain = []
     started = time.monotonic()
@@ -107,7 +118,7 @@ def fetch_once(url: str, timeout: float = 20, max_bytes: int = MAX_BYTES) -> dic
         remaining = timeout - (time.monotonic() - started)
         if remaining <= 0:
             raise FetchError("timeout", "source attempt exceeded time budget", True)
-        conn = PinnedConnection(host, port, addresses[0], remaining, scheme == "https")
+        conn = PinnedConnection(host, port, addresses, remaining, scheme == "https")
         try:
             conn.request("GET", target, headers={
                 "User-Agent": "FederalProcessSourceReview/1.0 (review-only)",
@@ -142,6 +153,7 @@ def fetch_once(url: str, timeout: float = 20, max_bytes: int = MAX_BYTES) -> dic
                                  "declared body length is outside permitted bounds")
             digest = hashlib.sha256()
             size = 0
+            kept = []
             while True:
                 remaining = timeout - (time.monotonic() - started)
                 if remaining <= 0:
@@ -155,13 +167,18 @@ def fetch_once(url: str, timeout: float = 20, max_bytes: int = MAX_BYTES) -> dic
                 if size > max_bytes:
                     raise FetchError("oversized", "body exceeded limit; no partial hash accepted")
                 digest.update(chunk)
+                if keep_body:
+                    kept.append(chunk)
             if size == 0 or (declared is not None and size != declared):
                 raise FetchError("incomplete_body", "empty or incomplete response body", True)
-            return {"requested_url": url, "final_url": current, "http_status": 200,
+            result = {"requested_url": url, "final_url": current, "http_status": 200,
                     "sha256": digest.hexdigest(), "bytes": size, "full_body_read": True,
                     "content_type": response.getheader("Content-Type"),
                     "etag": response.getheader("ETag"),
                     "last_modified": response.getheader("Last-Modified"), "redirects": chain}
+            if keep_body:
+                result["body"] = b"".join(kept)
+            return result
         except FetchError:
             raise
         except (TimeoutError, socket.timeout) as exc:

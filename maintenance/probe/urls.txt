@@ -1,0 +1,46 @@
+# Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
+# Format: URL [regex for links to list from an HTML page]
+# Supreme Court: GovInfo U.S. Reports, the Court's current files, CourtListener stored copies
+https://www.govinfo.gov/content/pkg/USREPORTS-584/pdf/USREPORTS-584-577.pdf
+https://www.govinfo.gov/content/pkg/USREPORTS-585/pdf/USREPORTS-585-109.pdf
+https://www.govinfo.gov/content/pkg/USREPORTS-585/pdf/USREPORTS-585-129.pdf
+https://www.govinfo.gov/content/pkg/USREPORTS-588/pdf/USREPORTS-588-634.pdf
+https://www.govinfo.gov/content/pkg/USREPORTS-590/pdf/USREPORTS-590-504.pdf
+https://www.govinfo.gov/content/pkg/USREPORTS-599/pdf/USREPORTS-599-465.pdf
+https://www.govinfo.gov/app/collection/usreports usreports
+https://www.supremecourt.gov/opinions/19pdf/18-6943_k5fm.pdf
+https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf
+https://www.supremecourt.gov/opinions/22pdf/599us1r42_2b35.pdf
+https://www.supremecourt.gov/opinions/boundvolumes.aspx boundvolumes|bv\.pdf
+https://www.supremecourt.gov/opinions/preliminaryprint.aspx preliminaryprint|PP
+https://storage.courtlistener.com/pdf/2018/05/29/lagos_v._united_states.pdf
+https://storage.courtlistener.com/pdf/2018/06/18/chavez-meza_v._united_states.pdf
+https://storage.courtlistener.com/pdf/2018/06/18/rosales-mireles_v._united_states.pdf
+https://storage.courtlistener.com/pdf/2019/06/26/united_states_v._haymond.pdf
+https://storage.courtlistener.com/pdf/2020/06/01/banister_v._davis.pdf
+https://storage.courtlistener.com/pdf/2023/06/22/jones_v._hendrix_1.pdf
+# Bureau of Prisons
+https://www.bop.gov/policy/progstat/5160_005.pdf
+https://www.bop.gov/PublicInfo/execute/policysearch?todo=query&series=5000 5160
+https://www.bop.gov/inmates/fsa/ (?i)guide|credit|fsa
+https://www.bop.gov/resources/news/ (?i)20251016|time-credit|ftc
+# Circuit opinions with an official court copy recorded by CourtListener
+https://www.ca1.uscourts.gov/cgi-bin/getopn.pl?OPINION=96-2355.01A
+https://www.ca1.uscourts.gov/cgi-bin/getopn.pl?OPINION=98-2215.01A
+https://www.ca10.uscourts.gov/opinions/01/01-6327.pdf
+https://media.ca7.uscourts.gov/cgi-bin/rssExec.pl?Submit=Display&Path=Y2021/D01-25/C:20-2445:J:Sykes:aut:T:fnOp:N:2650164:S:0
+https://storage.courtlistener.com/pdf/2002/02/21/United_States_vs._Torres.pdf
+https://storage.courtlistener.com/pdf/2021/08/04/united_states_v._saladino.pdf
+https://storage.courtlistener.com/pdf/2021/01/25/united_states_v._gregory_sanford.pdf
+# Earlier failures, retested with the IPv4 fix and a 60-second limit
+https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf
+https://www.ca2.uscourts.gov/clerk/case_filing/rules/rules_home.html
+https://www2.ca3.uscourts.gov/opinarch/144284p.pdf
+https://www.ca7.uscourts.gov/assets/pdf/rules.pdf
+https://media.cadc.uscourts.gov/opinions/docs/2021/06/20-3061-1902399.pdf
+https://media.cadc.uscourts.gov/opinions/docs/2002/01/00-5226a.txt
+https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3006A+edition%3Aprelim%29
+https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title18-section3006A&num=0&edition=prelim
+https://www.govinfo.gov/link/uscode/18/3006A
+https://constitution.congress.gov/browse/article-2/section-2/clause-1/
+https://www.govinfo.gov/content/pkg/CDOC-110hdoc50/pdf/CDOC-110hdoc50.pdf

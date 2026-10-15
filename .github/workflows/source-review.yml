@@ -41,7 +41,7 @@ jobs:
           args=()
           if [ "$INCLUDE_DISTRICTS" = "true" ]; then args+=(--include-districts); fi
           if [ -n "$SOURCE_ID" ]; then args+=(--source-id "$SOURCE_ID"); fi
-          python scripts/monitor_sources.py "${args[@]}"
+          python scripts/monitor_sources.py --timeout 60 "${args[@]}"
       - name: Record link check (full runs only)
         if: always() && inputs.source_id == ''
         shell: bash
