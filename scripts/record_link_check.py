@@ -12,7 +12,7 @@ import os
 from pathlib import Path
 import sys
 
-METHOD = ("Each recorded source URL was requested once. A source counts as opened when the server "
+METHOD = ("Each recorded source URL was requested, with one retry after a temporary error. A source counts as opened when the server "
           "returned HTTP 200 with a complete response body. This confirms the link works on that day; "
           "it is not a legal review and does not show that the law is unchanged.")
 
