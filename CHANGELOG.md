@@ -2,6 +2,10 @@
 
 Release identity is the `version` in `release.json` plus the source digest printed in each page footer. Legal review dates are recorded per record and never change because of a release.
 
+## 1.2.1 — 2026-10-15
+
+- Eight sources that refuse automated requests (four Third Circuit opinions, the Seventh Circuit rules, three Constitution Annotated pages) were checked by hand in a browser and recorded as available. 377 of 380 sources are now available.
+
 ## 1.2.0 — 2026-10-15
 
 - Legal review of four claims whose sources changed after August 2026, approved by the owner: BOP PS 5160.05 was rescinded by PS 5160.06 (Sept. 3, 2026); 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (effective Sept. 30, 2026), following *Miles v. Bowers* (1st Cir. 2026); the BOP Federal Time Credit Application Guide was removed from bop.gov and is kept as archived guidance. New authority records for PS 5160.06, 91 FR 55740 and *Miles v. Bowers*.

@@ -210,7 +210,7 @@ def validate(root=ROOT, site=None):
     conf_path = root / "data/source_confirmations.json"
     if conf_path.is_file():
         conf = load(conf_path)
-        schema(conf, {"type":"object","required":["schema_version","kind","method","sources"],"properties":{"kind":{"const":"source_confirmations"},"sources":{"type":"object","additionalProperties":{"type":"object","required":["checked_on","result","url","citation","citation_match"],"properties":{"checked_on":{"type":"string","format":"date"},"result":{"enum":["confirmed","not_found"]},"citation_match":{"type":"boolean"}}}}}}, "source_confirmations")
+        schema(conf, {"type":"object","required":["schema_version","kind","method","sources"],"properties":{"kind":{"const":"source_confirmations"},"sources":{"type":"object","additionalProperties":{"type":"object","required":["checked_on","result","url","citation","citation_match"],"properties":{"checked_on":{"type":"string","format":"date"},"result":{"enum":["confirmed","not_found"]},"method":{"enum":["courtlistener_api","browser"]},"citation_match":{"type":"boolean"}}}}}}, "source_confirmations")
         refs(conf.get("sources", {}), source_index, "confirmed source")
         for sid, c in conf.get("sources", {}).items():
             if sid in source_index:
