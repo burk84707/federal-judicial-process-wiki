@@ -52,3 +52,13 @@ These links are believed to work in a browser; the publisher blocks or drops aut
 - **uscode.house.gov (27 server errors in the last run):** switched to GovInfo. All 35 sources and every inline link now point to the United States Code 2024 main edition on GovInfo; each target was verified to open on the right section in probe run [38792673966](https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38792673966). The Law Revision Counsel preliminary text stays as each source's `mirror_url`, with an edition note, because the 2024 edition does not include later amendments.
 - **BOP time-credit guide:** kept as archived guidance, with the 2026-06-19 Wayback capture as its mirror.
 - **Legal review drafts:** approved and applied (see `maintenance/legal-review-2026-10-15.md`).
+
+## Checked by hand (owner, October 15, 2026)
+
+The owner opened these in a browser and reported each document heading; each matched the record (docket number, parties, filed date or edition date). They are recorded in `data/source_confirmations.json` with `method: "browser"` and count as available.
+
+- Third Circuit: Bruce (No. 14-4284), Melvin (No. 20-1158, filed Oct. 16, 2020), Raia (No. 20-1033, filed Apr. 2, 2020), Shields (No. 19-2717, filed Sept. 1, 2022).
+- Seventh Circuit rules PDF: current as of December 1, 2025.
+- Constitution Annotated: Fifth Amendment text; Art. II, § 2, cl. 1; essay ArtII.S2.C1.3.7, Legal Effect of a Pardon.
+
+Not checked by hand: United States v. Lawrence (D.C. Cir.), which timed out in the final run but opened in the run before. The two retired BOP pages remain recorded as rescinded and archived.
