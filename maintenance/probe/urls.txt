@@ -1,11 +1,8 @@
 # Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
 # Format: URL [regex for links | !text | !fulltext | !find:<regex> for text around each match]
-# Federal Register interim final rule 2026-17752 (First Step Act Time Credits—Revisions)
-https://www.federalregister.gov/api/v1/documents/2026-17752.json?fields[]=title&fields[]=type&fields[]=publication_date&fields[]=effective_on&fields[]=comments_close_on&fields[]=cfr_references&fields[]=abstract&fields[]=raw_text_url&fields[]=pdf_url&fields[]=citation&fields[]=docket_ids !fulltext
-https://www.federalregister.gov/documents/full_text/text/2026/08/31/2026-17752.txt !fulltext
-# Current eCFR text of 28 CFR 523.42 and 523.44
-https://www.ecfr.gov/api/versioner/v1/full/2026-10-15/title-28.xml?part=523&section=523.42 !fulltext
-https://www.ecfr.gov/api/versioner/v1/full/2026-10-15/title-28.xml?part=523&section=523.44 !fulltext
-# Wayback Machine record of the BOP time-credit guide and handout
-https://web.archive.org/cdx/search/cdx?url=bop.gov/news/20251016-federal-time-credit-application-guide.jsp&output=json !fulltext
-https://web.archive.org/cdx/search/cdx?url=bop.gov/resources/docs/fsa_time_credit_handout.pdf&output=json !fulltext
+# Archived copy of the BOP Federal Time Credit Application Guide (last good capture before removal)
+https://web.archive.org/web/20260619204331/https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp !text
+https://web.archive.org/web/20260619204331/https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp (?i)\.pdf|guide|credit
+# GovInfo copy of 91 FR 55740 and the 1st Circuit decision it cites
+https://www.govinfo.gov/content/pkg/FR-2026-08-31/pdf/2026-17752.pdf
+https://www.ecfr.gov/api/versioner/v1/full/2026-10-01/title-28.xml?part=523&section=523.42 !fulltext
