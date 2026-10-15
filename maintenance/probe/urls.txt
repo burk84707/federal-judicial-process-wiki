@@ -1,15 +1,6 @@
 # Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
 # Format: URL [regex for links to list from an HTML page | !text to print the opening text]
-# BOP Program Statement 5160: current text, superseded text, and the policy index entry
-https://www.bop.gov/policy/progstat/5160_006.pdf !text
-https://www.bop.gov/PublicInfo/execute/policysearch?todo=query&series=5000 !text
-# BOP FTC Application Guide: news listing and First Step Act pages
-https://www.bop.gov/news/ (?i)time-credit|20251016|ftc|guide
-https://www.bop.gov/inmates/fsa/policies.jsp (?i)guide|ftc|time.credit|\.pdf
-https://www.bop.gov/inmates/fsa/docs/ (?i)guide|ftc
-# Public laws: the House PDF links return a web page; GovInfo publishes the enrolled public laws
-https://www.govinfo.gov/content/pkg/PLAW-115publ391/pdf/PLAW-115publ391.pdf
-https://www.govinfo.gov/content/pkg/PLAW-111publ220/pdf/PLAW-111publ220.pdf
-# 18 U.S.C. 3605: retest, plus GovInfo's code link
-https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3605
-https://www.govinfo.gov/link/uscode/18/3605
+# BOP: Sentence Computation Manual entry in the policy index, and the FSA time-credit handout
+https://www.bop.gov/PublicInfo/execute/policysearch?todo=query&series=5000 (?i)5880
+https://www.bop.gov/policy/progstat/5880_028.pdf !text
+https://www.bop.gov/resources/docs/fsa_time_credit_handout.pdf !text

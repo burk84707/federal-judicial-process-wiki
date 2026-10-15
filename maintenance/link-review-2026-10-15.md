@@ -23,8 +23,12 @@ Seven Ninth Circuit opinions and the Second Circuit rules page failed only becau
 
 ## Needs a decision (2)
 
-- **BOP Program Statement 5160.05** (Jan. 16, 2003) returns 404. The BOP policy index now lists **5160.06** at `https://www.bop.gov/policy/progstat/5160_006.pdf`. This looks like a superseded policy, which is a change in the source, not a broken link. The claims that cite 5160.05 need a legal review against 5160.06 before the record changes.
-- **BOP FTC Application Guide** (Oct. 16, 2025) returns 404, and no link to it was found on the BOP First Step Act pages. Find the current location or a replacement before the record changes.
+- **BOP Program Statement 5160.05** (Jan. 16, 2003) is **rescinded**. BOP Program Statement 5160.06, *Designation of State Institutions for Service of Federal Sentence*, dated September 3, 2026 and approved by Director William K. Marshall III, lists under "Program Statement Rescinded": "5160.05, Designation of State Institution for Service of Federal Sentence (1/16/2003)". Read from `https://www.bop.gov/policy/progstat/5160_006.pdf` in probe run [38789802937](https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38789802937); the BOP policy index lists 5160.06 with the same date. Per its Summary of Changes, 5160.06 gives the DSCC Sentence Computation Section Chief final designation authority, adds the five § 3621(b) factors, adds *Setser v. United States*, 566 U.S. 231 (2012), *Mangum v. Hallembaek*, 910 F.3d 770 (4th Cir. 2018) and *Dotson v. Kizziah*, 966 F.3d 443 (6th Cir. 2020), removes the Regional Offices and Regional Director from the process, and updates nunc pro tunc procedures. The authority is now marked rescinded, claims CLM-BOPSC-009 and CLM-BOPSC-023 are marked superseded, and the module shows a notice. **Decision needed:** a legal review of those two claims against 5160.06, then a new authority record for 5160.06.
+- **BOP FTC Application Guide** (Oct. 16, 2025) returns 404, and the BOP's own First Step Act policies page (`https://www.bop.gov/inmates/fsa/policies.jsp`) still links to that dead address. The same page links `https://www.bop.gov/resources/docs/fsa_time_credit_handout.pdf`, which has not been confirmed to be the same document. **Decision needed:** keep the record as a historical source, or replace it after the handout is compared.
+
+## Fixed after the second run (3)
+
+The stricter checker found that the House Law Revision Counsel PDF links for Pub. L. 111-220 and Pub. L. 115-391 return a web page. They now point to the enrolled public laws on GovInfo, which opened in probe run 38789802937.
 
 ## Open: the site refuses automated requests (27)
 

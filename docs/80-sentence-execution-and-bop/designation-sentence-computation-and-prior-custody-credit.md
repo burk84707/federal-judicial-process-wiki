@@ -32,7 +32,7 @@ Section 3621(b) states that a designation made under that subsection is not revi
 <!-- claim:CLM-BOPSC-008 authorities:AUTH-BOP-PS-5100-08-CN3,AUTH-USC-18-3621 status:verified_current -->
 BOP Program Statement 5100.08 Change Notice 3, dated May 6, 2026, is the current public agency policy for security designation, custody classification, and designation or redesignation under § 3621(b); statute and valid regulations control over operational policy. [BOP PS 5100.08 CN-3](https://www.bop.gov/policy/progstat/5100_008_cn-3.pdf)
 
-<!-- claim:CLM-BOPSC-009 authorities:AUTH-BOP-PS-5160-05,AUTH-USC-18-3621 status:verified_current -->
+<!-- claim:CLM-BOPSC-009 authorities:AUTH-BOP-PS-5160-05,AUTH-USC-18-3621 status:superseded -->
 Program Statement 5160.05 recognizes Bureau authority to designate a state institution for concurrent service when consistent with the federal sentencing court's intent or criminal-justice goals, but it describes a discretionary § 3621(b) determination rather than automatic retroactive credit. [BOP PS 5160.05](https://www.bop.gov/policy/progstat/5160_005.pdf)
 
 <!-- claim:CLM-BOPSC-010 authorities:AUTH-SCOTUS-SETSER-566-US-231,AUTH-USC-18-3621 status:verified_current -->
@@ -78,7 +78,7 @@ The Bureau's public sentence-computation page identifies the Designation and Sen
 <!-- claim:CLM-BOPSC-022 authorities:AUTH-USC-18-3585,AUTH-BOP-PS-5880-28 status:verified_current -->
 For an offense within the current-law branch, Bureau policy does not backdate commencement to a day before the federal sentence existed; a requested earlier effective result must be analyzed through the judgment, § 3584, designation authority, and any other lawful sentencing mechanism rather than invented § 3585 credit. [18 U.S.C. § 3585(a)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3585+edition%3Aprelim%29); [PS 5880.28](https://www.bop.gov/policy/progstat/5880_028.pdf)
 
-<!-- claim:CLM-BOPSC-023 authorities:AUTH-USC-18-3585,AUTH-BOP-PS-5160-05 status:verified_current -->
+<!-- claim:CLM-BOPSC-023 authorities:AUTH-USC-18-3585,AUTH-BOP-PS-5160-05 status:superseded -->
 A retroactive or nunc pro tunc state-facility designation is a § 3621(b) placement determination under Bureau policy, not a second award of the same custody days under § 3585(b). [BOP PS 5160.05](https://www.bop.gov/policy/progstat/5160_005.pdf); [18 U.S.C. § 3585(b)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3585+edition%3Aprelim%29)
 
 <!-- claim:CLM-BOPSC-024 authorities:AUTH-USC-18-3585,AUTH-SCOTUS-SETSER-566-US-231 status:verified_current -->

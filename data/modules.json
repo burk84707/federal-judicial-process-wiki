@@ -1703,7 +1703,7 @@
     "title": "BOP Designation, Sentence Commencement, Aggregation, and Prior-Custody Credit",
     "stage": "sentence-execution/bop-designation-sentence-computation",
     "path": "docs/80-sentence-execution-and-bop/designation-sentence-computation-and-prior-custody-credit.md",
-    "status": "verified_with_limitations",
+    "status": "needs_update",
     "claim_ids": [
       "CLM-BOPSC-001",
       "CLM-BOPSC-002",
@@ -1781,7 +1781,7 @@
       "SRC-USC-18-3632-OLRC-PRELIM",
       "SRC-USC-28-2241-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "needs_update"
   },
   {
     "module_id": "MOD-BOP-DETAINERS-DISCIPLINE-RDAP",

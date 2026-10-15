@@ -319,6 +319,8 @@ class Builder:
             notice = f'<p class="currency">{self.dates_line(verified, meta.get("authority_ids", []))} · {self.anchor("limitations/", "Scope & methodology")}</p>'
             if overdue:
                 notice += '<p class="currency due">This topic is due for review. Confirm the current rule before relying on it.</p>'
+            if meta.get("status") == "needs_update":
+                notice += '<p class="currency due">A source this topic relies on has been replaced. Statements marked superseded are being reviewed against the current source; do not rely on them until then.</p>'
             if "coverage_matrix.yaml" in body or "not_started" in body:
                 notice += '<p class="currency">Archive reference note: parts of this topic refer to earlier research records, now listed under ' + self.anchor("limitations/", "open research questions") + '.</p>'
             records = '<section class="claim-records"><h2 id="claim-records">Claim-level source records</h2>'
@@ -336,6 +338,8 @@ class Builder:
             source = self.auth_paths[aid]
             body, toc = self.render(source, (ROOT / source).read_text(encoding="utf-8"))
             record = '<p class="currency">' + self.dates_line(a["last_verified"], [aid], single=True) + ' · ' + self.anchor("limitations/", "Scope & methodology") + '</p>'
+            if a["verification_status"] == "needs_update":
+                record += '<p class="currency due">' + escape(a["subsequent_history"]) + ' Statements that rely on it are under review.</p>'
             record += '<p class="currency">This record is not a citator check. Confirm later history and treatment before relying on it.</p>'
             record += self.record_fields({k:a.get(k) for k in ("authority_type", "jurisdiction", "publication_status", "precedential_status", "decision_or_issuance_date", "subsequent_history", "negative_treatment_status", "material_limitations")})
             source_url = a.get("official_url") or a.get("mirror_url")

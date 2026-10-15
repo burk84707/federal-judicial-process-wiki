@@ -12,4 +12,4 @@ authority_id: AUTH-PL-115-391-SEC-102-B
 
 ## Official source
 
-<https://uscode.house.gov/statutes/pl/115/391.pdf>
+<https://www.govinfo.gov/content/pkg/PLAW-115publ391/pdf/PLAW-115publ391.pdf>

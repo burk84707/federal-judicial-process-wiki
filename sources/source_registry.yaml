@@ -148,7 +148,10 @@ sources:
   citation: Pub. L. No. 115-391, § 102(b), 132 Stat. 5194, 5210–11
   source_currency: Enrolled public law
   retrieval_date: 2026-08-24
-  official_url: https://uscode.house.gov/statutes/pl/115/391.pdf
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-115publ391/pdf/PLAW-115publ391.pdf
+  previous_url: "https://uscode.house.gov/statutes/pl/115/391.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The House Law Revision Counsel public-law PDF link returned a web page instead of the PDF on 2026-10-15. Replaced with the enrolled public law on GovInfo. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38789802937"
   mirror_url: https://www.govinfo.gov/app/details/PLAW-115publ391
   local_snapshot_path: null
   sha256: null
@@ -364,7 +367,10 @@ sources:
   citation: Pub. L. No. 115-391, § 404, 132 Stat. 5194, 5222
   source_currency: Enacted December 21, 2018
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/statutes/pl/115/391.pdf
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-115publ391/pdf/PLAW-115publ391.pdf
+  previous_url: "https://uscode.house.gov/statutes/pl/115/391.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The House Law Revision Counsel public-law PDF link returned a web page instead of the PDF on 2026-10-15. Replaced with the enrolled public law on GovInfo. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38789802937"
   mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&path=%2Fprelim%40title21%2Fchapter13%2Fsubchapter1
   local_snapshot_path: null
   sha256: null
@@ -378,7 +384,10 @@ sources:
   citation: Pub. L. No. 111-220, §§ 2-3, 124 Stat. 2372
   source_currency: Enacted August 3, 2010
   retrieval_date: 2026-08-25
-  official_url: https://uscode.house.gov/statutes/pl/111/220.pdf
+  official_url: https://www.govinfo.gov/content/pkg/PLAW-111publ220/pdf/PLAW-111publ220.pdf
+  previous_url: "https://uscode.house.gov/statutes/pl/111/220.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The House Law Revision Counsel public-law PDF link returned a web page instead of the PDF on 2026-10-15. Replaced with the enrolled public law on GovInfo. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38789802937"
   mirror_url: null
   local_snapshot_path: null
   sha256: null

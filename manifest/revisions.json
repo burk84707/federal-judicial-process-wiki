@@ -3312,6 +3312,76 @@
       "sha256": "aac09e6687306ee5106e0e1c3a8f9224cf4818dff12e2ed5e4694ab37534a931",
       "date": "2026-10-15",
       "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-111-220-SECS-2-3.md",
+      "previous_sha256": "4af3a2a7d9100d5f40f7c6f95309bd59db2004717ba494f4ad0540c7c283059b",
+      "sha256": "c1c62107198f079c1dcad665e0500721bfdffe9491b4f57c216eb191178dd014",
+      "date": "2026-10-15",
+      "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-115-391-SEC-102-B.md",
+      "previous_sha256": "a39dc6dfb671bf5ce3978046bcd24b95152def6f3b41944edfd820f0b72c474a",
+      "sha256": "2bfed428963e319f4f522f1561ba9b271788a7e0c3ac6355f4aeedcb911f78eb",
+      "date": "2026-10-15",
+      "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-115-391-SEC-404.md",
+      "previous_sha256": "a441bab5b77486c663eca0ddd0410679ff702df29b565b54201e8933004e2fb2",
+      "sha256": "72fc7462db61a66992bb5dd8884825a217748384ee8f59f2dd3d0e1cfdfc30ca",
+      "date": "2026-10-15",
+      "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed."
+    },
+    {
+      "path": "docs/70-sentence-modification/first-step-act-section-404.md",
+      "previous_sha256": "b3baceb1af64d8e95443965d303a430d67ab3813a38e5ea85ed72eb82e112708",
+      "sha256": "2ab24c55081988712b569958874f06181949468d9e2edf201525fa94bfdd51ee",
+      "date": "2026-10-15",
+      "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/good-conduct-time.md",
+      "previous_sha256": "a14e387f88d3b065048308a1d95f4effeb36240b0fdaf400e2adbe9a2f245a11",
+      "sha256": "971be784c7c2537205748519a9a74e413cc9839953d46d6b0c7daeb05172ed64",
+      "date": "2026-10-15",
+      "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed."
+    },
+    {
+      "path": "sources/source_registry.yaml",
+      "previous_sha256": "aac09e6687306ee5106e0e1c3a8f9224cf4818dff12e2ed5e4694ab37534a931",
+      "sha256": "6bb1b80ad8545f449fa4f7b3b1a6f7e820186cddd17d3c1f133b072e4fdda487",
+      "date": "2026-10-15",
+      "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed."
+    },
+    {
+      "path": "data/claims.jsonl",
+      "previous_sha256": "a26a5b116cd27fad452e1f660a3d59766fac82dc3bdffaf793825d5fd74ba543",
+      "sha256": "911d3ae0197e0dafa4dfaff5687955e7100ebcf15ae15360a3f4d73c556476dd",
+      "date": "2026-10-15",
+      "reason": "BOP PS 5160.05 was rescinded by PS 5160.06 (Sept. 3, 2026), confirmed from the 5160.06 Summary of Changes read in probe run 38789802937. The authority is marked needs_update with its rescission recorded; the two claims that rely on it are marked superseded pending legal review against 5160.06; the module is marked needs_update. No claim wording changed."
+    },
+    {
+      "path": "data/modules.json",
+      "previous_sha256": "97637cb45f677b41205cfd1b27b7244bbbcabfa93026b9d68312a83b1c6b6721",
+      "sha256": "61502bf9a5d12a16754c0804ef37d092c80ca6727a9b47ee428e28b23418bdcd",
+      "date": "2026-10-15",
+      "reason": "BOP PS 5160.05 was rescinded by PS 5160.06 (Sept. 3, 2026), confirmed from the 5160.06 Summary of Changes read in probe run 38789802937. The authority is marked needs_update with its rescission recorded; the two claims that rely on it are marked superseded pending legal review against 5160.06; the module is marked needs_update. No claim wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/designation-sentence-computation-and-prior-custody-credit.md",
+      "previous_sha256": "6717c90a863a9f43e157be6bd02c3082cf3887bb626c385cb8116dad11bc6250",
+      "sha256": "f1683a8eec1e885ac965fe0a569e6249187644163e99e3d4507634de0fd4cad3",
+      "date": "2026-10-15",
+      "reason": "BOP PS 5160.05 was rescinded by PS 5160.06 (Sept. 3, 2026), confirmed from the 5160.06 Summary of Changes read in probe run 38789802937. The authority is marked needs_update with its rescission recorded; the two claims that rely on it are marked superseded pending legal review against 5160.06; the module is marked needs_update. No claim wording changed."
+    },
+    {
+      "path": "data/authorities.jsonl",
+      "previous_sha256": "7c7375a27084768b76ad430d36c7d725a86ba61d44f3545cf8444e829966e940",
+      "sha256": "ed80c2f0330d619fcf9a63a6b750706f580b712f118c08800047a1d59b5d63d8",
+      "date": "2026-10-15",
+      "reason": "Link targets only: the House public-law PDF links for Pub. L. 111-220 and 115-391 returned a web page; replaced with the enrolled public laws on GovInfo, verified to open in probe run 38789802937. No wording changed. BOP PS 5160.05 was rescinded by PS 5160.06 (Sept. 3, 2026), confirmed from the 5160.06 Summary of Changes read in probe run 38789802937. The authority is marked needs_update with its rescission recorded; the two claims that rely on it are marked superseded pending legal review against 5160.06; the module is marked needs_update. No claim wording changed."
     }
   ]
 }
