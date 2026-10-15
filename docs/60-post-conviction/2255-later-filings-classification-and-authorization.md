@@ -54,7 +54,7 @@ The effect of other prior dispositions—including untimeliness, procedural defa
 An unwarned recharacterization cannot count as a first § 2255 motion for later second-or-successive restrictions; *Castro* requires notice, warning, and an opportunity to withdraw or amend. [*Castro v. United States*, 540 U.S. 375, 381–84 (2003)](https://www.govinfo.gov/content/pkg/USREPORTS-540/pdf/USREPORTS-540-375.pdf)
 
 <!-- claim:CLM-SOS-014 authorities:AUTH-SCOTUS-BANISTER-590-US-504 status:verified_current -->
-A timely Rule 59(e) motion in a first habeas proceeding is part of that proceeding and is not a second or successive application. [*Banister v. Davis*, 590 U.S. 504, 508–19 (2020)](https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf)
+A timely Rule 59(e) motion in a first habeas proceeding is part of that proceeding and is not a second or successive application. [*Banister v. Davis*, 590 U.S. 504, 508–19 (2020)](https://www.supremecourt.gov/opinions/19pdf/18-6943_k5fm.pdf)
 
 <!-- claim:CLM-SOS-015 authorities:AUTH-SCOTUS-GONZALEZ-CROSBY-545-US-524 status:verified_current -->
 A purported Rule 60 motion that asserts a new merits ground or attacks the federal court's merits resolution functions as a successive habeas claim, while a motion attacking a defect in the integrity of the federal habeas proceeding may be a true Rule 60 motion. [*Gonzalez v. Crosby*, 545 U.S. 524, 530–36 (2005)](https://www.govinfo.gov/content/pkg/USREPORTS-545/pdf/USREPORTS-545-524.pdf)

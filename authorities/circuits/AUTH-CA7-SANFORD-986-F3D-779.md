@@ -14,7 +14,7 @@ Binding only in the Seventh Circuit and only for the bounded procedural postures
 
 ## Official source and pinpoints
 
-986 F.3d 779 (7th Cir. 2021), 986 F.3d 781–82: <https://law.justia.com/cases/federal/appellate-courts/ca7/20-2445/20-2445-2021-01-25.html>
+986 F.3d 779 (7th Cir. 2021), 986 F.3d 781–82: <https://storage.courtlistener.com/pdf/2021/01/25/united_states_v._gregory_sanford.pdf>
 
 ## Linked claims
 

@@ -49,7 +49,7 @@ When multiple defendants contributed to one victim's loss, § 3664(h) permits fu
 A restitution sentence is a final judgment despite § 3664(o)'s enumerated correction, appeal, amendment, adjustment, and resentencing routes; later modification requires one of those authorized routes rather than general equitable power. [18 U.S.C. § 3664(o)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3664)
 
 <!-- claim:CLM-SENT-044 authorities:AUTH-SCOTUS-LAGOS-584-US-577 status:verified_current -->
-The Mandatory Victims Restitution Act's “investigation” and “proceedings” expense language covers government investigations and criminal proceedings, not a victim's private investigation or separate civil or bankruptcy proceeding. [*Lagos v. United States*, 584 U.S. 577, 580–85 (2018)](https://www.supremecourt.gov/opinions/17pdf/16-1519_o7jp.pdf)
+The Mandatory Victims Restitution Act's “investigation” and “proceedings” expense language covers government investigations and criminal proceedings, not a victim's private investigation or separate civil or bankruptcy proceeding. [*Lagos v. United States*, 584 U.S. 577, 580–85 (2018)](https://www.govinfo.gov/content/pkg/USREPORTS-584/pdf/USREPORTS-584-577.pdf)
 
 ## Criminal forfeiture
 

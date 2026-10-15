@@ -2135,8 +2135,11 @@ sources:
   citation: 585 U.S. 129 (2018)
   source_currency: Final United States Reports opinion
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/17pdf/16-9493_e0fi.pdf
+  official_url: https://www.govinfo.gov/content/pkg/USREPORTS-585/pdf/USREPORTS-585-129.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/17pdf/16-9493_e0fi.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The Supreme Court slip-opinion PDF returned HTTP 404 on 2026-10-15. Replaced with the official United States Reports PDF on GovInfo for the same citation. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2194,8 +2197,11 @@ sources:
   citation: 584 U.S. 577 (2018)
   source_currency: Final United States Reports opinion
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/17pdf/16-1519_o7jp.pdf
+  official_url: https://www.govinfo.gov/content/pkg/USREPORTS-584/pdf/USREPORTS-584-577.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/17pdf/16-1519_o7jp.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The Supreme Court slip-opinion PDF returned HTTP 404 on 2026-10-15. Replaced with the official United States Reports PDF on GovInfo for the same citation. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2907,8 +2913,11 @@ sources:
   citation: 590 U.S. 504 (2020)
   source_currency: Final official Supreme Court or United States Reports source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf
+  official_url: https://www.supremecourt.gov/opinions/19pdf/18-6943_k5fm.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's slip-opinion PDF for No. 18-6943, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3188,8 +3197,11 @@ sources:
   citation: 599 U.S. 465 (2023)
   source_currency: Official Supreme Court primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/22pdf/599us1r42_3314.pdf
+  official_url: https://www.supremecourt.gov/opinions/22pdf/599us1r42_2b35.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/22pdf/599us1r42_3314.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's preliminary-print PDF for 599 U.S. 465, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3564,8 +3576,11 @@ sources:
   citation: 585 U.S. 109 (2018)
   source_currency: Official Supreme Court slip opinion checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/17pdf/17-5639_8m59.pdf
+  official_url: https://www.govinfo.gov/content/pkg/USREPORTS-585/pdf/USREPORTS-585-109.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/17pdf/17-5639_8m59.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The Supreme Court slip-opinion PDF returned HTTP 404 on 2026-10-15. Replaced with the official United States Reports PDF on GovInfo for the same citation. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4249,8 +4264,11 @@ sources:
   citation: 588 U.S. 634 (2019)
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf
+  official_url: https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf
   mirror_url: null
+  previous_url: "https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's slip-opinion PDF for No. 17-1672, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -4587,7 +4605,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://www.casemine.com/judgement/us/59147f72add7b04934461ad4
+  mirror_url: https://www.courtlistener.com/opinion/198520/rogers-v-united-states/
+  previous_url: "https://www.casemine.com/judgement/us/59147f72add7b04934461ad4"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication host is not an approved source domain. Replaced with the CourtListener opinion page. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5194,7 +5215,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca2/20-1563/20-1563-2021-08-04.html
+  mirror_url: https://storage.courtlistener.com/pdf/2021/08/04/united_states_v._saladino.pdf
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/ca2/20-1563/20-1563-2021-08-04.html"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication refuses automated requests (HTTP 403). Replaced with CourtListener's stored copy of the court's PDF. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5282,7 +5306,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: null
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca7/20-2445/20-2445-2021-01-25.html
+  mirror_url: https://storage.courtlistener.com/pdf/2021/01/25/united_states_v._gregory_sanford.pdf
+  previous_url: "https://law.justia.com/cases/federal/appellate-courts/ca7/20-2445/20-2445-2021-01-25.html"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication refuses automated requests (HTTP 403). Replaced with CourtListener's stored copy of the court's PDF. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -5685,7 +5712,10 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-26
   retrieval_date: '2026-08-26'
   official_url: null
-  mirror_url: https://openjurist.org/282/f3d/1241/united-states-v-torres
+  mirror_url: https://storage.courtlistener.com/pdf/2002/02/21/United_States_vs._Torres.pdf
+  previous_url: "https://openjurist.org/282/f3d/1241/united-states-v-torres"
+  url_changed: '2026-10-15'
+  url_change_reason: "The recorded republication refuses automated requests (HTTP 403). Replaced with CourtListener's stored copy of the court's PDF. The legal review above was done on the earlier copy. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations

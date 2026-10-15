@@ -3137,6 +3137,181 @@
       "sha256": "e1921c6b5394b923af6e25db56e78840c565c8595ee271522eaa55263b2a439a",
       "date": "2026-10-15",
       "reason": "Controlled jurisdiction list enforced; module fields moved from document headers added as optional properties."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA1-ROGERS-180-F3D-349.md",
+      "previous_sha256": "986fb5032f0accffcffd90dd17c01082b0a73b5069b44536c6fc5c82038f5c6d",
+      "sha256": "b2e789805921a12154021404fae7741638c45864d385e89115b04bc2129027a5",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA10-TORRES-282-F3D-1241.md",
+      "previous_sha256": "f52761d75fe643a01d23b197006b0542c71d54b53dbe26e93e1061540f868abd",
+      "sha256": "06ea4054ec1a741102b66111765caf61e957812bab740cee023125b030700d88",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-SALADINO-7-F4TH-120.md",
+      "previous_sha256": "4b8e0d6bca38c5803a1e3cc6ac11efcb57e775a2a6b1f4edec77ec3568a2f90c",
+      "sha256": "1fc8ef1b8805514eb94f6e1c61b30207f90cfb6e4ed5e7caacae7cefabaf0dc7",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA7-SANFORD-986-F3D-779.md",
+      "previous_sha256": "9ddbede211f50042563874ff11b5074878dd76020459fbecab789d82d4161982",
+      "sha256": "3a9e0ea66ede224aaac116148990f3e038bcccaea37ed2da3bbbd1da7d72c421",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BANISTER-590-US-504.md",
+      "previous_sha256": "01942ab2b6c59245f598dc3e72f08ec979d63ba0174ae5c4a906dbcd73e3cf17",
+      "sha256": "4e5b0df48fcff5453e94964e25db42484597c10e2bd76becf2f21e4910d880d8",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-CHAVEZ-MEZA-585-US-109.md",
+      "previous_sha256": "010c176c2f93dc5b5fa74b51b0e3c7f4e1b5654c9fa353b8d356cd340b31509f",
+      "sha256": "fb432fe4471ab5b66565f6f70a0d8c235df1d6624db3361711587e1fc3722fba",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HAYMOND-588-US-634.md",
+      "previous_sha256": "2f0319619a01dde6279e6c402353aa1ca5f5551319652196cd655f1ff50379d9",
+      "sha256": "905ad6940d003825f30f172c57064e0f11a491a4ff5330f52e6addfbdc490b13",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-JONES-HENDRIX-599-US-465.md",
+      "previous_sha256": "2cf9d7ad8e076c90bee189ab15b445e801c7a04f93f024a3b60a40a752ce4419",
+      "sha256": "0270dc52eb3db0d83df19931d9cf8e28a5e24ae551c982393dda296e931d7fff",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-LAGOS-584-US-577.md",
+      "previous_sha256": "7c75ca4fd9f9d812f4d171b1e831688cbd5d2e965bd84236e08153c9caea0a16",
+      "sha256": "a9ee4dae7a47d9388dd210c780648cea5e01d95c1980107599bcb0c98a47a630",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-ROSALES-MIRELES-585-US-129.md",
+      "previous_sha256": "1793a22ff8ac83b9cc8ffe11a2aead0da239230a1909e6a37e212ecabccc5269",
+      "sha256": "4dcfc2725ea28d5663a41531ec402036d7bbe281c7ccd5385f1a46d24679e38e",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "data/authorities.jsonl",
+      "previous_sha256": "fb51e8c1571940275d704d6885c19be32bb3cc19f9118308cc7c56b289d24967",
+      "sha256": "7c7375a27084768b76ad430d36c7d725a86ba61d44f3545cf8444e829966e940",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "data/claims.jsonl",
+      "previous_sha256": "55cb0de864da857a02eaf2704f930bc003fdb9f7b0157627a46c37ba750e39d1",
+      "sha256": "a26a5b116cd27fad452e1f660a3d59766fac82dc3bdffaf793825d5fd74ba543",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/40-sentencing/monetary-penalties-restitution-and-forfeiture.md",
+      "previous_sha256": "76bfdb695c02411b90ab0dd345e7e4797b8b4f9099cd7e3845ca6526a73811e9",
+      "sha256": "72e288b5c368b1aa6a5076790c17fd7bf254321e360c97e69f147198a2910c92",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/40-sentencing/presentence-guidelines-and-sentencing-hearing.md",
+      "previous_sha256": "70e0403a777f8f5462e22a452286eef86fcac0db92d5b5dd871c10a2ddeefd88",
+      "sha256": "f5ed01f07606b6df3f9560033eb4029161a0dc0c080d792c51be08e14ae149ad",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-filing-jurisdiction-respondent-and-exhaustion.md",
+      "previous_sha256": "46cd536d02c99dc2c9a4e7e0d53e368cfa8ed7ed5e69d3e860aa199a4c96b0aa",
+      "sha256": "3b261b931c18f6bad6abfa623c236868193c14c79506f1f8ff29e4079e0bbac0",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-saving-clause-custody-and-mootness.md",
+      "previous_sha256": "389e216ce759409ac58b42bbb3e09e3c9004c9b07e9c98222d19e47f3145d07b",
+      "sha256": "d13b7dbfff661950440638f602083cab7e1e1c74b15a9b1d600f270c33aa3f18",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-later-filings-classification-and-authorization.md",
+      "previous_sha256": "95b63b87db89afbbee877ed748126bed6123acaa785db5320b01b1d2da1d67be",
+      "sha256": "40e3823b8295fe605dc0279c3617b0120318faf7e2b33ce4a85d9d967691198b",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-procedure-hearing-appeal-and-postjudgment.md",
+      "previous_sha256": "e1395d4af60c64209aed591bfec8e7598dd68bcf96f53369cb5c714a7fb9c876",
+      "sha256": "2d78eaa7654d7116b194b994961c207925af1c8c7ba910290ddbd66ad8429fdc",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/70-sentence-modification/rules-35-36-and-modification-appeals.md",
+      "previous_sha256": "86a05d80c7037be0cec17e74860969f305030ba58b6b70269da92640ce6a9ef2",
+      "sha256": "2aa2db6e1f54254fc6059be2d9057160f3253e033b3faf5a511bc03a7cadbebd",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/violations-rule-32-1-revocation-and-sentencing.md",
+      "previous_sha256": "349b47beaadd692c9bfb97a13137760cff92783e189974377b6733de4646e4c2",
+      "sha256": "a728cfcd7bdc9fbdc44d02096d2396c24be2fa5cead4e9e0a7024cd0136bf55f",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/95-circuit-overlays/first-circuit.md",
+      "previous_sha256": "e2d154c089eba995e5e892f89e5bde52ddebf09b6c65586b28d9afff5516492a",
+      "sha256": "21bf9751678ada85eefc444248e8cd14ff654e4ecba3dfd62390af538b17d4bb",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/95-circuit-overlays/second-circuit.md",
+      "previous_sha256": "aec53da87ce8b8cf0e7ef07ab26467d009bb657b3d82625dd2aefdb01e5f6320",
+      "sha256": "cc1d1522e5f4827c926f6e27b585fbc2eee9879c125bf64c5d04f00164375b13",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/95-circuit-overlays/seventh-circuit.md",
+      "previous_sha256": "920f3cea8bd434ca7e4e7134e0820950309bdf5e51a51accf3ce4e56c09cbd0d",
+      "sha256": "f9240bbf79a9b2e1d76c711b45cc88ffcdfec2886e776618e30b6c8ba7750f0f",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "docs/95-circuit-overlays/tenth-circuit.md",
+      "previous_sha256": "84a041867f2a59e2b0fd85562051464ea69acd38e8ef483cca5904149d069ec8",
+      "sha256": "437eed6f1d2b4fffe36f43d0b60241996dabf854d472f5d8dbb92e647476965e",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
+    },
+    {
+      "path": "sources/source_registry.yaml",
+      "previous_sha256": "0ea051acd4f0462351a697b1ebe8958f6758d5545367aa9f03ae5844fe1f7b1a",
+      "sha256": "aac09e6687306ee5106e0e1c3a8f9224cf4818dff12e2ed5e4694ab37534a931",
+      "date": "2026-10-15",
+      "reason": "Link targets only: ten source URLs that failed the 2026-10-15 link check were replaced with copies verified to open in probe run 38770992566 (six Supreme Court PDFs that returned 404, four republications that were blocked or outside the approved domains). No wording, citation or review date changed; the old URLs are kept in sources/source_registry.yaml."
     }
   ]
 }

@@ -82,10 +82,10 @@ Under *Esteras*, § 3583(e)'s list is exhaustive and excludes § 3553(a)(2)(A); 
 A court may discuss treatment and may impose appropriate treatment conditions, but it may not impose or lengthen imprisonment to promote rehabilitation. [*Tapia v. United States*, 564 U.S. 319, 327–35 (2011)](https://www.govinfo.gov/content/pkg/USREPORTS-564/pdf/USREPORTS-564-319.pdf)
 
 <!-- claim:CLM-SRREV-024 authorities:AUTH-SCOTUS-HAYMOND-588-US-634,AUTH-USC-18-3582-3583 status:verified_current -->
-*Haymond* invalidated the application of § 3583(k)'s judge-found mandatory minimum in the posture before the Court, but Justice Breyer's controlling concurrence rested on three combined features that made § 3583(k) unlike ordinary revocation. [*United States v. Haymond*, 588 U.S. 634, 657–61 (2019) (Breyer, J., concurring in the judgment)](https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf)
+*Haymond* invalidated the application of § 3583(k)'s judge-found mandatory minimum in the posture before the Court, but Justice Breyer's controlling concurrence rested on three combined features that made § 3583(k) unlike ordinary revocation. [*United States v. Haymond*, 588 U.S. 634, 657–61 (2019) (Breyer, J., concurring in the judgment)](https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf)
 
 <!-- claim:CLM-SRREV-025 authorities:AUTH-SCOTUS-HAYMOND-588-US-634 status:verified_current -->
-*Haymond* does not establish a jury-trial requirement for every ordinary § 3583(e)(3) revocation, and the remedy for a particular § 3583(k) case must be taken from controlling post-*Haymond* law rather than assumed nationally. [*Haymond*, 588 U.S. at 657–61 (Breyer, J., concurring)](https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf)
+*Haymond* does not establish a jury-trial requirement for every ordinary § 3583(e)(3) revocation, and the remedy for a particular § 3583(k) case must be taken from controlling post-*Haymond* law rather than assumed nationally. [*Haymond*, 588 U.S. at 657–61 (Breyer, J., concurring)](https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf)
 
 ## Current Chapter 7 policy statements
 

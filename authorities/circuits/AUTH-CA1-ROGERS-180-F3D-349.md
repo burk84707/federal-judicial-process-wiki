@@ -14,7 +14,7 @@ Binding only in the First Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-180 F.3d 349 (1st Cir. 1999), 180 F.3d 357–58: <https://www.casemine.com/judgement/us/59147f72add7b04934461ad4>
+180 F.3d 349 (1st Cir. 1999), 180 F.3d 357–58: <https://www.courtlistener.com/opinion/198520/rogers-v-united-states/>
 
 ## Linked claims
 

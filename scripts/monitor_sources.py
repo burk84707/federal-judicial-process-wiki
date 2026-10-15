@@ -24,6 +24,7 @@ REPUTABLE_HOSTS = {"www.courtlistener.com", "courtlistener.com", "storage.courtl
                    "cases.justia.com", "openjurist.org", "www.openjurist.org",
                    "www.law.cornell.edu"}
 REDIRECTS = {301, 302, 303, 307, 308}
+ERROR_PAGE = re.compile(r"(^|/)(error|errors|404|not-?found)(/|\.|$)|pagenotfound", re.I)
 
 
 class FetchError(Exception):
@@ -171,6 +172,13 @@ def fetch_once(url: str, timeout: float = 20, max_bytes: int = MAX_BYTES, keep_b
                     kept.append(chunk)
             if size == 0 or (declared is not None and size != declared):
                 raise FetchError("incomplete_body", "empty or incomplete response body", True)
+            # A redirect to an error page, or a web page where a PDF was asked for, is not the source.
+            final_path = urlsplit(current).path.lower()
+            if ERROR_PAGE.search(final_path):
+                raise FetchError("error_page", f"redirected to an error page: {current}")
+            content_type = (response.getheader("Content-Type") or "").lower()
+            if urlsplit(url).path.lower().endswith(".pdf") and "html" in content_type:
+                raise FetchError("unexpected_content", "a PDF was requested but a web page was returned")
             result = {"requested_url": url, "final_url": current, "http_status": 200,
                     "sha256": digest.hexdigest(), "bytes": size, "full_body_read": True,
                     "content_type": response.getheader("Content-Type"),

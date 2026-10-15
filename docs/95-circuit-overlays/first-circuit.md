@@ -16,7 +16,7 @@ This page prevents nationwide rules from being mistaken for First Circuit doctri
 ## Verified circuit holdings
 
 <!-- claim:CLM-CIR1-001 authorities:AUTH-CA1-ROGERS-180-F3D-349 status:verified_current -->
-- **CLM-CIR1-001:** In the First Circuit, a federal sentence-credit request under 18 U.S.C. § 3585(b) must first be presented to the Bureau of Prisons; after administrative exhaustion, the prisoner may seek review of the BOP determination through § 2241. [*Rogers v. United States*, 180 F.3d 349, 357–58 (1st Cir. 1999)](https://www.casemine.com/judgement/us/59147f72add7b04934461ad4)
+- **CLM-CIR1-001:** In the First Circuit, a federal sentence-credit request under 18 U.S.C. § 3585(b) must first be presented to the Bureau of Prisons; after administrative exhaustion, the prisoner may seek review of the BOP determination through § 2241. [*Rogers v. United States*, 180 F.3d 349, 357–58 (1st Cir. 1999)](https://www.courtlistener.com/opinion/198520/rogers-v-united-states/)
 
   Limitation: Binding only in the First Circuit and limited to BOP sentence-credit computation. Rogers does not supply a general catalog of exhaustion exceptions or characterize every § 2241 exhaustion rule.
 <!-- claim:CLM-CIR1-002 authorities:AUTH-PL-115-391-SEC-404,AUTH-SCOTUS-CONCEPCION-597-US-481,AUTH-CA1-RODRIGUEZ-REYES-23-2037 status:verified_current -->

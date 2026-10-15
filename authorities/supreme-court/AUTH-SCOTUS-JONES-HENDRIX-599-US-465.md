@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked modules. The actual custody, 
 
 ## Official source and pinpoints
 
-599 U.S. 465 (2023), 599 U.S. 471–80: <https://www.supremecourt.gov/opinions/22pdf/599us1r42_3314.pdf>
+599 U.S. 465 (2023), 599 U.S. 471–80: <https://www.supremecourt.gov/opinions/22pdf/599us1r42_2b35.pdf>

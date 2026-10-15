@@ -114,6 +114,16 @@ class FetchTests(unittest.TestCase):
         self.assertEqual(result["final_url"], "https://www.govinfo.gov/new.pdf")
         self.assertEqual(len(result["redirects"]), 1)
 
+    def test_redirect_to_error_page_is_failure(self):
+        with self.assertRaises(monitor.FetchError) as ctx:
+            self.fetch([Response(status=302, headers={"Location": "/error"}), Response(b"<html>gone</html>")])
+        self.assertEqual(ctx.exception.kind, "error_page")
+
+    def test_web_page_instead_of_pdf_is_failure(self):
+        with self.assertRaises(monitor.FetchError) as ctx:
+            self.fetch([Response(b"<html>login</html>", headers={"Content-Type": "text/html"})])
+        self.assertEqual(ctx.exception.kind, "unexpected_content")
+
     def test_redirect_loop_rejected(self):
         with self.assertRaises(monitor.FetchError) as ctx:
             self.fetch([Response(status=302, headers={"Location": "/again"}) for _ in range(6)])

@@ -28,7 +28,7 @@ This page prevents nationwide rules from being mistaken for Second Circuit doctr
 
   Limitation: Binding only in the Second Circuit. Drax arose from federal immigration detention; the proposition does not address state-process detention, § 2255 proceedings, or whether a filing is correctly classified under § 2241.
 <!-- claim:CLM-CIR2-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA2-SALADINO-7-F4TH-120 status:verified_current -->
-- **CLM-CIR2-004:** In the Second Circuit, § 3582(c)(1)(A)'s defendant-filing prerequisite is a nonjurisdictional claim-processing rule that the government may waive or forfeit; after the government withdrew the defense, the district court could consider the motion even if the defendant had not satisfied the prerequisite. [*United States v. Saladino*, 7 F.4th 120, 121–24 (2d Cir. 2021)](https://law.justia.com/cases/federal/appellate-courts/ca2/20-1563/20-1563-2021-08-04.html)
+- **CLM-CIR2-004:** In the Second Circuit, § 3582(c)(1)(A)'s defendant-filing prerequisite is a nonjurisdictional claim-processing rule that the government may waive or forfeit; after the government withdrew the defense, the district court could consider the motion even if the defendant had not satisfied the prerequisite. [*United States v. Saladino*, 7 F.4th 120, 121–24 (2d Cir. 2021)](https://storage.courtlistener.com/pdf/2021/08/04/united_states_v._saladino.pdf)
 
   Limitation: Binding only in the Second Circuit. The panel did not decide which of two competing readings of the 30-day route was correct; the separate concurrence's equitable-exception analysis is not attributed to the court.
 <!-- claim:CLM-CIR2-005 authorities:AUTH-USC-18-3582-3583,AUTH-CA2-GAMMARANO-321-F3D-311 status:verified_current -->

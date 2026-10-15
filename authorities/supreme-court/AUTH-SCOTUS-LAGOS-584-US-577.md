@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked canonical module; offense-spe
 
 ## Official source and pinpoints
 
-584 U.S. 577 (2018), 584 U.S. 580–85: <https://www.supremecourt.gov/opinions/17pdf/16-1519_o7jp.pdf>
+584 U.S. 577 (2018), 584 U.S. 580–85: <https://www.govinfo.gov/content/pkg/USREPORTS-584/pdf/USREPORTS-584-577.pdf>
