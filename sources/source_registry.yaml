@@ -3748,7 +3748,9 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp
-  mirror_url: null
+  mirror_url: https://web.archive.org/web/20260619204331/https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp
+  archived_on: '2026-06-19'
+  archive_note: "Removed from bop.gov between 2026-08-25, when the legal review saw it live, and 2026-10-01, when the Wayback Machine recorded HTTP 404. No withdrawal or replacement notice was found. The BOP's First Step Act policies page still links the removed address. Archived copy: Wayback Machine capture of 2026-06-19 (the announcement page; the guide document it describes was not captured). Archive capture verified to open in probe run 38791760193."
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations

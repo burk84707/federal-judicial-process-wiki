@@ -1,8 +1,6 @@
 # Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
 # Format: URL [regex for links | !text | !fulltext | !find:<regex> for text around each match]
-# Archived copy of the BOP Federal Time Credit Application Guide (last good capture before removal)
-https://web.archive.org/web/20260619204331/https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp !text
-https://web.archive.org/web/20260619204331/https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp (?i)\.pdf|guide|credit
-# GovInfo copy of 91 FR 55740 and the 1st Circuit decision it cites
-https://www.govinfo.gov/content/pkg/FR-2026-08-31/pdf/2026-17752.pdf
-https://www.ecfr.gov/api/versioner/v1/full/2026-10-01/title-28.xml?part=523&section=523.42 !fulltext
+# 18 U.S.C. 3585 official text (GovInfo, United States Code) for the legal review drafts
+https://www.govinfo.gov/link/uscode/18/3585 !fulltext
+# 18 U.S.C. 3621(b) official text
+https://www.govinfo.gov/link/uscode/18/3621 !find:(?s)\(b\) Place of imprisonment.{0,1600}

@@ -3515,6 +3515,48 @@
       "sha256": "04b6a265d24606f574ad567b1103ffa9e5704ecd15ad9768c863e8acea897696",
       "date": "2026-10-15",
       "reason": "Link targets only: ten Justia and OpenJurist republications refuse automated requests; replaced with CourtListener opinion pages, each confirmed through CourtListener's API on 2026-10-15 (data/source_confirmations.json: cluster exists, reporter citation matches, full opinion text present). No wording, citation or review date changed; old URLs kept in the source registry."
+    },
+    {
+      "path": "data/authorities.jsonl",
+      "previous_sha256": "8f86866f00cafaf143aee8f78a8172e60a0a48820b2c8533bc6cc18a52f5a1cc",
+      "sha256": "8da43a71c65b545709988a5a1ad55f3f110f2e79dccf96e25bb394511bcca4a2",
+      "date": "2026-10-15",
+      "reason": "Status only, no claim wording changed. (1) 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (Aug. 31, 2026, effective Sept. 30, 2026), read from the Federal Register on 2026-10-15: the authority records the amendment, CLM-FTC-008 is marked superseded and its module needs_update. (2) The BOP Federal Time Credit Application Guide was removed from bop.gov between 2026-08-25 and 2026-10-01 (Wayback Machine CDX); it is kept as archived guidance with the 2026-06-19 capture as its mirror, CLM-BOPPRE-018 is marked superseded and its module needs_update."
+    },
+    {
+      "path": "data/claims.jsonl",
+      "previous_sha256": "78e65a0c115756a9d9cbbfa94a8f7c868a42ab015f4dd0f617d08149887d64f0",
+      "sha256": "2435d4ce10ce2a0b78c6cd6604cc761c1f12da4114a7ad6320a42bd7b4ef2279",
+      "date": "2026-10-15",
+      "reason": "Status only, no claim wording changed. (1) 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (Aug. 31, 2026, effective Sept. 30, 2026), read from the Federal Register on 2026-10-15: the authority records the amendment, CLM-FTC-008 is marked superseded and its module needs_update. (2) The BOP Federal Time Credit Application Guide was removed from bop.gov between 2026-08-25 and 2026-10-01 (Wayback Machine CDX); it is kept as archived guidance with the 2026-06-19 capture as its mirror, CLM-BOPPRE-018 is marked superseded and its module needs_update."
+    },
+    {
+      "path": "data/modules.json",
+      "previous_sha256": "61502bf9a5d12a16754c0804ef37d092c80ca6727a9b47ee428e28b23418bdcd",
+      "sha256": "518751ab90fafc1e782269c84ab3ba65cc321d3aa90f75019b7ac6981d6ce9cf",
+      "date": "2026-10-15",
+      "reason": "Status only, no claim wording changed. (1) 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (Aug. 31, 2026, effective Sept. 30, 2026), read from the Federal Register on 2026-10-15: the authority records the amendment, CLM-FTC-008 is marked superseded and its module needs_update. (2) The BOP Federal Time Credit Application Guide was removed from bop.gov between 2026-08-25 and 2026-10-01 (Wayback Machine CDX); it is kept as archived guidance with the 2026-06-19 capture as its mirror, CLM-BOPPRE-018 is marked superseded and its module needs_update."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/first-step-act-time-credits.md",
+      "previous_sha256": "83e2e0ddbff328765c7e6bb899b167f307fdd8ef8b93cc9098e5dd24284826f6",
+      "sha256": "b15fa4a06899dc47cbae505166af60f8381e384e43f313a1ba9657c5e3f684dc",
+      "date": "2026-10-15",
+      "reason": "Status only, no claim wording changed. (1) 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (Aug. 31, 2026, effective Sept. 30, 2026), read from the Federal Register on 2026-10-15: the authority records the amendment, CLM-FTC-008 is marked superseded and its module needs_update. (2) The BOP Federal Time Credit Application Guide was removed from bop.gov between 2026-08-25 and 2026-10-01 (Wayback Machine CDX); it is kept as archived guidance with the 2026-06-19 capture as its mirror, CLM-BOPPRE-018 is marked superseded and its module needs_update."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/prerelease-custody-home-confinement-and-cares-act.md",
+      "previous_sha256": "7e3ef97baa9cda9c602d21aca09139f8f7aaa3fd3908a6e5f4503bd42f17d9d2",
+      "sha256": "9bd328ee70d1fdc8ec55b6d41d58034daf2d9cd8e6381ed00b22ac2993ffd709",
+      "date": "2026-10-15",
+      "reason": "Status only, no claim wording changed. (1) 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (Aug. 31, 2026, effective Sept. 30, 2026), read from the Federal Register on 2026-10-15: the authority records the amendment, CLM-FTC-008 is marked superseded and its module needs_update. (2) The BOP Federal Time Credit Application Guide was removed from bop.gov between 2026-08-25 and 2026-10-01 (Wayback Machine CDX); it is kept as archived guidance with the 2026-06-19 capture as its mirror, CLM-BOPPRE-018 is marked superseded and its module needs_update."
+    },
+    {
+      "path": "sources/source_registry.yaml",
+      "previous_sha256": "04b6a265d24606f574ad567b1103ffa9e5704ecd15ad9768c863e8acea897696",
+      "sha256": "c9b0be1126d66e1410efca5c3c27fea13f0606f4608d61408e292a4974681371",
+      "date": "2026-10-15",
+      "reason": "Status only, no claim wording changed. (1) 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (Aug. 31, 2026, effective Sept. 30, 2026), read from the Federal Register on 2026-10-15: the authority records the amendment, CLM-FTC-008 is marked superseded and its module needs_update. (2) The BOP Federal Time Credit Application Guide was removed from bop.gov between 2026-08-25 and 2026-10-01 (Wayback Machine CDX); it is kept as archived guidance with the 2026-06-19 capture as its mirror, CLM-BOPPRE-018 is marked superseded and its module needs_update."
     }
   ]
 }

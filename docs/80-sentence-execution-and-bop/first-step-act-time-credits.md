@@ -37,7 +37,7 @@ The statute bars credit for a program successfully completed before December 21,
 <!-- claim:CLM-FTC-007 authorities:AUTH-CFR-28-523-SUBPART-E status:verified_current -->
 The regulation allows an otherwise eligible inmate to earn for programming and activities from December 21, 2018 through January 14, 2020; beginning January 15, 2020, earning requires successful participation in programs or activities recommended from the individualized risk-and-needs assessment. [28 C.F.R. § 523.42(b)](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/subpart-E)
 
-<!-- claim:CLM-FTC-008 authorities:AUTH-CFR-28-523-SUBPART-E status:verified_current -->
+<!-- claim:CLM-FTC-008 authorities:AUTH-CFR-28-523-SUBPART-E status:superseded -->
 For the current regulatory period, an eligible inmate begins earning only after the term of imprisonment commences, which the regulation identifies as arrival or voluntary surrender at the designated Bureau facility. [28 C.F.R. § 523.42(a)](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/subpart-E)
 
 ## Eligibility to earn

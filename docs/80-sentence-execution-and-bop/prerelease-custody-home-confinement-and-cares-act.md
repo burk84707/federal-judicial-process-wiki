@@ -61,7 +61,7 @@ The early supervised-release transfer cannot exceed the prisoner's earned time c
 <!-- claim:CLM-BOPPRE-017 authorities:AUTH-CFR-28-523-SUBPART-E,AUTH-USC-18-3624 status:verified_current -->
 The current First Step Act regulation implements credit application, including prerelease-custody and supervised-release transfer requirements, exclusions, risk criteria, and restoration; the official computation record controls the individualized credit balance. [28 C.F.R. §§ 523.42–523.44](https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/subpart-E)
 
-<!-- claim:CLM-BOPPRE-018 authorities:AUTH-BOP-FTC-APPLICATION-GUIDE-2025,AUTH-USC-18-3624 status:verified_current -->
+<!-- claim:CLM-BOPPRE-018 authorities:AUTH-BOP-FTC-APPLICATION-GUIDE-2025,AUTH-USC-18-3624 status:superseded -->
 The Bureau's October 16, 2025 Federal Time Credit Application Guide describes its current public operational framework for maximizing lawful application of credits, but it cannot enlarge or narrow the governing statute and regulation. [BOP Federal Time Credit Application Guide](https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp)
 
 ## Ordinary home confinement administration

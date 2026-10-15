@@ -1944,7 +1944,7 @@
     "title": "18 U.S.C. § 3632 — First Step Act Time Credits",
     "stage": "sentence-execution-and-bop/time-credits-and-prerelease",
     "path": "docs/80-sentence-execution-and-bop/first-step-act-time-credits.md",
-    "status": "verified_with_limitations",
+    "status": "needs_update",
     "claim_ids": [
       "CLM-FTC-001",
       "CLM-FTC-002",
@@ -1980,7 +1980,7 @@
       "SRC-USC-18-3624-OLRC-PRELIM",
       "SRC-USC-18-3632-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
+    "reviewer_status": "needs_update",
     "module_type": "sentence_execution",
     "jurisdiction": "federal_nationwide",
     "geographic_scope": [
@@ -2009,7 +2009,7 @@
     "title": "Prerelease Custody, Residential Reentry, Home Confinement, and the CARES Act",
     "stage": "sentence-execution/bop-prerelease-home-confinement",
     "path": "docs/80-sentence-execution-and-bop/prerelease-custody-home-confinement-and-cares-act.md",
-    "status": "verified_with_limitations",
+    "status": "needs_update",
     "claim_ids": [
       "CLM-BOPPRE-001",
       "CLM-BOPPRE-002",
@@ -2091,7 +2091,7 @@
       "SRC-USC-18-3632-OLRC-PRELIM",
       "SRC-USC-28-2241-OLRC-PRELIM"
     ],
-    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
+    "reviewer_status": "needs_update"
   },
   {
     "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",
