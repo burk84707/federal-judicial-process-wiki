@@ -9,10 +9,10 @@ This module classifies three different extraordinary-writ routes. The All Writs 
 ## All Writs Act boundary
 
 <!-- claim:CLM-XWRIT-001 authorities:AUTH-USC-28-1651 status:verified_current -->
-The All Writs Act authorizes the Supreme Court and courts established by Act of Congress to issue writs necessary or appropriate in aid of their respective jurisdictions and agreeable to the usages and principles of law. [28 U.S.C. § 1651(a)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651)
+The All Writs Act authorizes the Supreme Court and courts established by Act of Congress to issue writs necessary or appropriate in aid of their respective jurisdictions and agreeable to the usages and principles of law. [28 U.S.C. § 1651(a)](https://www.govinfo.gov/link/uscode/28/1651)
 
 <!-- claim:CLM-XWRIT-002 authorities:AUTH-USC-28-1651,AUTH-SCOTUS-PENN-BUREAU-474-US-34 status:verified_current -->
-The words “in aid of” matter: the Act supplies instruments for a jurisdiction the court otherwise possesses; it is not an independent grant of subject-matter jurisdiction. [28 U.S.C. § 1651(a)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651); [*Pennsylvania Bureau of Correction v. U.S. Marshals Service*, 474 U.S. 34, 41–43 (1985)](https://www.govinfo.gov/content/pkg/USREPORTS-474/pdf/USREPORTS-474-34.pdf)
+The words “in aid of” matter: the Act supplies instruments for a jurisdiction the court otherwise possesses; it is not an independent grant of subject-matter jurisdiction. [28 U.S.C. § 1651(a)](https://www.govinfo.gov/link/uscode/28/1651); [*Pennsylvania Bureau of Correction v. U.S. Marshals Service*, 474 U.S. 34, 41–43 (1985)](https://www.govinfo.gov/content/pkg/USREPORTS-474/pdf/USREPORTS-474-34.pdf)
 
 <!-- claim:CLM-XWRIT-003 authorities:AUTH-SCOTUS-PENN-BUREAU-474-US-34 status:verified_current -->
 A requested writ must therefore be tied to the issuing court’s existing or potential jurisdiction and to relief the court has legal authority to effect; the All Writs Act is not a general roving commission to supervise another actor. [*Pennsylvania Bureau*, 474 U.S. at 41–43](https://www.govinfo.gov/content/pkg/USREPORTS-474/pdf/USREPORTS-474-34.pdf)
@@ -29,7 +29,7 @@ The All Writs Act cannot be used to evade or displace a specific statute or rule
 A federal coram nobis request is a step in the original criminal case, not a new civil habeas action, so the court that entered the federal conviction is the relevant filing court. [*Morgan*, 346 U.S. at 505 n.4, 506–07](https://www.govinfo.gov/content/pkg/USREPORTS-346/pdf/USREPORTS-346-502.pdf)
 
 <!-- claim:CLM-XWRIT-007 authorities:AUTH-SCOTUS-MORGAN-346-US-502,AUTH-USC-28-2255 status:verified_current -->
-Section 2255 did not supersede coram nobis, but § 2255 ordinarily supplies the statutory collateral vehicle while the person remains in qualifying custody under the federal judgment. [*Morgan*, 346 U.S. at 510–11](https://www.govinfo.gov/content/pkg/USREPORTS-346/pdf/USREPORTS-346-502.pdf); [28 U.S.C. § 2255(a)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+Section 2255 did not supersede coram nobis, but § 2255 ordinarily supplies the statutory collateral vehicle while the person remains in qualifying custody under the federal judgment. [*Morgan*, 346 U.S. at 510–11](https://www.govinfo.gov/content/pkg/USREPORTS-346/pdf/USREPORTS-346-502.pdf); [28 U.S.C. § 2255(a)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-XWRIT-008 authorities:AUTH-SCOTUS-MORGAN-346-US-502 status:verified_current -->
 Continuation of the litigation through coram nobis is allowed only under circumstances compelling action to achieve justice; ordinary disagreement with a final judgment is insufficient. [*Morgan*, 346 U.S. at 511](https://www.govinfo.gov/content/pkg/USREPORTS-346/pdf/USREPORTS-346-502.pdf)
@@ -59,13 +59,13 @@ Earlier proceedings are presumed correct and the coram nobis petitioner bears th
 The end of custody does not make coram nobis an automatic fallback: the petitioner must still identify the challenged federal conviction, a live legally cognizable consequence, a fundamental error, lack of another remedy, sound reasons for delay, and all circuit requirements. [*Morgan*, 346 U.S. at 511–13](https://www.govinfo.gov/content/pkg/USREPORTS-346/pdf/USREPORTS-346-502.pdf); [*Maleng v. Cook*, 490 U.S. 488, 490–94 (1989)](https://www.govinfo.gov/content/pkg/USREPORTS-490/pdf/USREPORTS-490-488.pdf)
 
 <!-- claim:CLM-XWRIT-017 authorities:AUTH-USC-28-2253,AUTH-SCOTUS-MORGAN-346-US-502 status:verified_current -->
-The certificate-of-appealability gate in § 2253(c)(1) covers state-process habeas and § 2255 proceedings, not a federal coram nobis appeal, which *Morgan* treats as a continuation of the criminal case. [28 U.S.C. § 2253(c)(1)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2253+edition%3Aprelim%29); [*Morgan*, 346 U.S. at 505 n.4](https://www.govinfo.gov/content/pkg/USREPORTS-346/pdf/USREPORTS-346-502.pdf)
+The certificate-of-appealability gate in § 2253(c)(1) covers state-process habeas and § 2255 proceedings, not a federal coram nobis appeal, which *Morgan* treats as a continuation of the criminal case. [28 U.S.C. § 2253(c)(1)](https://www.govinfo.gov/link/uscode/28/2253); [*Morgan*, 346 U.S. at 505 n.4](https://www.govinfo.gov/content/pkg/USREPORTS-346/pdf/USREPORTS-346-502.pdf)
 
 <!-- claim:CLM-XWRIT-018 authorities:AUTH-USC-28-2255,AUTH-SCOTUS-MALENG-490-US-488 status:verified_current -->
-Before routing to coram nobis, determine whether qualifying custody under the challenged federal judgment existed at filing; incarceration and supervised release can support § 2255, while collateral consequences of a fully expired sentence alone do not satisfy the habeas custody requirement. [28 U.S.C. § 2255(a)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29); [*Maleng*, 490 U.S. at 490–94](https://www.govinfo.gov/content/pkg/USREPORTS-490/pdf/USREPORTS-490-488.pdf)
+Before routing to coram nobis, determine whether qualifying custody under the challenged federal judgment existed at filing; incarceration and supervised release can support § 2255, while collateral consequences of a fully expired sentence alone do not satisfy the habeas custody requirement. [28 U.S.C. § 2255(a)](https://www.govinfo.gov/link/uscode/28/2255); [*Maleng*, 490 U.S. at 490–94](https://www.govinfo.gov/content/pkg/USREPORTS-490/pdf/USREPORTS-490-488.pdf)
 
 <!-- claim:CLM-XWRIT-019 authorities:AUTH-SCOTUS-DENEDO-556-US-904,AUTH-USC-28-1651 status:verified_current -->
-*United States v. Denedo* confirms in the military-justice setting that coram nobis is a continuation of the original proceeding and must be in aid of an existing jurisdiction; its military jurisdiction analysis should not be converted into a freestanding district-court merits test. [*United States v. Denedo*, 556 U.S. 904, 911–17 (2009)](https://www.govinfo.gov/app/details/USREPORTS-556/USREPORTS-556-904); [28 U.S.C. § 1651(a)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651)
+*United States v. Denedo* confirms in the military-justice setting that coram nobis is a continuation of the original proceeding and must be in aid of an existing jurisdiction; its military jurisdiction analysis should not be converted into a freestanding district-court merits test. [*United States v. Denedo*, 556 U.S. 904, 911–17 (2009)](https://www.govinfo.gov/app/details/USREPORTS-556/USREPORTS-556-904); [28 U.S.C. § 1651(a)](https://www.govinfo.gov/link/uscode/28/1651)
 
 ## Audita querela
 
@@ -73,7 +73,7 @@ Before routing to coram nobis, determine whether qualifying custody under the ch
 The common-law writ of audita querela historically addressed a judgment correct when rendered that later became infirm because of a defense or discharge arising after judgment. [*Carrington v. United States*, 503 F.3d 888, 890 (9th Cir. 2007)](https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf)
 
 <!-- claim:CLM-XWRIT-021 authorities:AUTH-USC-28-1651,AUTH-CA9-CARRINGTON-503-F3D-888 status:verified_current -->
-The Ninth Circuit treats surviving common-law writs as gap fillers under the All Writs Act, not alternatives to an existing statutory post-conviction vehicle. [28 U.S.C. § 1651(a)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651); [*Carrington*, 503 F.3d at 890](https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf)
+The Ninth Circuit treats surviving common-law writs as gap fillers under the All Writs Act, not alternatives to an existing statutory post-conviction vehicle. [28 U.S.C. § 1651(a)](https://www.govinfo.gov/link/uscode/28/1651); [*Carrington*, 503 F.3d at 890](https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf)
 
 <!-- claim:CLM-XWRIT-022 authorities:AUTH-CA9-CARRINGTON-503-F3D-888 status:verified_current -->
 In the Ninth Circuit, audita querela is unavailable when the claim is cognizable under § 2255; this is a labeled Ninth Circuit rule, not a claim that every circuit uses identical wording. [*Carrington*, 503 F.3d at 890](https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf)
@@ -85,18 +85,18 @@ The statutory restrictions on second-or-successive § 2255 motions do not themse
 The nonretroactivity of a later legal development likewise did not create an audita-querela gap in *Carrington*. [*Carrington*, 503 F.3d at 890](https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf)
 
 <!-- claim:CLM-XWRIT-025 authorities:AUTH-USC-28-1651,AUTH-SCOTUS-CARLISLE-517-US-416,AUTH-CA9-CARRINGTON-503-F3D-888 status:verified_current -->
-No Supreme Court authority reviewed here establishes a nationwide criminal audita-querela elements test; availability, cognizability, any genuine statutory gap, and the requested relief require current controlling circuit authority, while the All Writs Act cannot displace an applicable statute or rule. [28 U.S.C. § 1651(a)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651); [*Carlisle*, 517 U.S. at 428–29](https://www.govinfo.gov/content/pkg/USREPORTS-517/pdf/USREPORTS-517-416.pdf); [*Carrington*, 503 F.3d at 890](https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf)
+No Supreme Court authority reviewed here establishes a nationwide criminal audita-querela elements test; availability, cognizability, any genuine statutory gap, and the requested relief require current controlling circuit authority, while the All Writs Act cannot displace an applicable statute or rule. [28 U.S.C. § 1651(a)](https://www.govinfo.gov/link/uscode/28/1651); [*Carlisle*, 517 U.S. at 428–29](https://www.govinfo.gov/content/pkg/USREPORTS-517/pdf/USREPORTS-517-416.pdf); [*Carrington*, 503 F.3d at 890](https://cdn.ca9.uscourts.gov/datastore/opinions/2007/09/11/0536143.pdf)
 
 ## Mandamus
 
 <!-- claim:CLM-XWRIT-026 authorities:AUTH-USC-28-1651,AUTH-FRAP-21 status:verified_current -->
-A court-of-appeals petition seeking mandamus or prohibition directed to a district judge invokes the appellate court’s All Writs Act authority and follows Federal Rule of Appellate Procedure 21. [28 U.S.C. § 1651(a)](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651); [Fed. R. App. P. 21](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-appellate-procedure.pdf)
+A court-of-appeals petition seeking mandamus or prohibition directed to a district judge invokes the appellate court’s All Writs Act authority and follows Federal Rule of Appellate Procedure 21. [28 U.S.C. § 1651(a)](https://www.govinfo.gov/link/uscode/28/1651); [Fed. R. App. P. 21](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-appellate-procedure.pdf)
 
 <!-- claim:CLM-XWRIT-027 authorities:AUTH-USC-28-1361 status:verified_current -->
-Section 1361 separately gives district courts original jurisdiction over an action in the nature of mandamus to compel an officer or employee of the United States or an agency to perform a duty owed to the plaintiff. [28 U.S.C. § 1361](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1361)
+Section 1361 separately gives district courts original jurisdiction over an action in the nature of mandamus to compel an officer or employee of the United States or an agency to perform a duty owed to the plaintiff. [28 U.S.C. § 1361](https://www.govinfo.gov/link/uscode/28/1361)
 
 <!-- claim:CLM-XWRIT-028 authorities:AUTH-USC-28-1361,AUTH-SCOTUS-HECKLER-RINGER-466-US-602 status:verified_current -->
-District-court mandamus under § 1361 requires exhaustion of other available avenues and a clear nondiscretionary duty; it does not authorize a court to direct how an officer exercises lawful discretion. [28 U.S.C. § 1361](https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1361); [*Heckler v. Ringer*, 466 U.S. 602, 616–17 (1984)](https://www.govinfo.gov/content/pkg/USREPORTS-466/pdf/USREPORTS-466-602.pdf)
+District-court mandamus under § 1361 requires exhaustion of other available avenues and a clear nondiscretionary duty; it does not authorize a court to direct how an officer exercises lawful discretion. [28 U.S.C. § 1361](https://www.govinfo.gov/link/uscode/28/1361); [*Heckler v. Ringer*, 466 U.S. 602, 616–17 (1984)](https://www.govinfo.gov/content/pkg/USREPORTS-466/pdf/USREPORTS-466-602.pdf)
 
 <!-- claim:CLM-XWRIT-029 authorities:AUTH-SCOTUS-CHENEY-542-US-367 status:verified_current -->
 Appellate mandamus requires that the petitioner have no other adequate means to obtain the requested relief. [*Cheney v. U.S. District Court*, 542 U.S. 367, 380–81 (2004)](https://www.supremecourt.gov/opinions/boundvolumes/542bv.pdf)

@@ -24,7 +24,7 @@ In a district lacking jurisdiction, an alleged violation occurring in that distr
 If the alleged violation did not occur in the arrest district, transfer requires the specified certified judgment, warrant, and warrant-application materials plus an identity finding. [Fed. R. Crim. P. 32.1(a)(5)(B)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
 
 <!-- claim:CLM-SRREV-006 authorities:AUTH-FRCRIM-P-32-1,AUTH-USC-18-3143 status:verified_current -->
-Pending further proceedings, release or detention is governed by § 3143(a)(1); Rule 32.1 places on the person the burden to show by clear and convincing evidence that the person will not flee or endanger another person or the community. [Fed. R. Crim. P. 32.1(a)(6)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf); [18 U.S.C. § 3143(a)(1)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3143+edition%3Aprelim%29)
+Pending further proceedings, release or detention is governed by § 3143(a)(1); Rule 32.1 places on the person the burden to show by clear and convincing evidence that the person will not flee or endanger another person or the community. [Fed. R. Crim. P. 32.1(a)(6)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf); [18 U.S.C. § 3143(a)(1)](https://www.govinfo.gov/link/uscode/18/3143)
 
 ## Preliminary and final hearings
 
@@ -38,7 +38,7 @@ The preliminary hearing must be recorded and include notice, an opportunity to a
 The revocation hearing, unless waived, must occur within a reasonable time in the district having jurisdiction; Rule 32.1 does not supply a fixed nationwide day count. [Fed. R. Crim. P. 32.1(b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
 
 <!-- claim:CLM-SRREV-010 authorities:AUTH-FRCRIM-P-32-1,AUTH-USC-18-3006A status:verified_current -->
-At the revocation hearing the person has rights to written notice, disclosure of evidence, counsel, an opportunity to appear and present evidence, questioning of adverse witnesses unless the interest of justice does not require appearance, and a statement and mitigation. [Fed. R. Crim. P. 32.1(b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf); [18 U.S.C. § 3006A(a)(1)(E)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3006A+edition%3Aprelim%29)
+At the revocation hearing the person has rights to written notice, disclosure of evidence, counsel, an opportunity to appear and present evidence, questioning of adverse witnesses unless the interest of justice does not require appearance, and a statement and mitigation. [Fed. R. Crim. P. 32.1(b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf); [18 U.S.C. § 3006A(a)(1)(E)](https://www.govinfo.gov/link/uscode/18/3006A)
 
 <!-- claim:CLM-SRREV-011 authorities:AUTH-SCOTUS-MORRISSEY-408-US-471 status:verified_current -->
 *Morrissey* treats parole revocation as a loss of conditional liberty rather than a new criminal prosecution and identifies minimum due-process protections for preliminary and final parole-revocation proceedings. [*Morrissey v. Brewer*, 408 U.S. 471, 480–90 (1972)](https://www.govinfo.gov/content/pkg/USREPORTS-408/pdf/USREPORTS-408-471.pdf)
@@ -58,19 +58,19 @@ The current rule uses an “interest of justice” adverse-witness standard; any
 ## Violation proof and disposition
 
 <!-- claim:CLM-SRREV-016 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-The court may revoke supervised release on a preponderance finding that a condition was violated. [18 U.S.C. § 3583(e)(3)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+The court may revoke supervised release on a preponderance finding that a condition was violated. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-017 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-The maximum imprisonment on any revocation under § 3583(e)(3) is keyed to the class of the original offense—five, three, two, or one year as specified—not to the Chapter 7 violation grade. [18 U.S.C. § 3583(e)(3)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+The maximum imprisonment on any revocation under § 3583(e)(3) is keyed to the class of the original offense—five, three, two, or one year as specified—not to the Chapter 7 violation grade. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-018 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-Section 3583(e)(3) gives no credit for time previously served on postrelease supervision and uses the phrase “on any such revocation”; offense-specific statutes and prior revocation terms still must be audited. [18 U.S.C. § 3583(e)(3)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+Section 3583(e)(3) gives no credit for time previously served on postrelease supervision and uses the phrase “on any such revocation”; offense-specific statutes and prior revocation terms still must be audited. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-019 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-Section 3583(g) requires revocation and imprisonment for possession of a controlled substance, firearm possession, refusal to comply with drug testing, or more than three positive illegal-drug tests in one year, subject to the treatment consideration required by § 3583(d). [18 U.S.C. § 3583(d), (g)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+Section 3583(g) requires revocation and imprisonment for possession of a controlled substance, firearm possession, refusal to comply with drug testing, or more than three positive illegal-drug tests in one year, subject to the treatment consideration required by § 3583(d). [18 U.S.C. § 3583(d), (g)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-020 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-After revocation imprisonment, § 3583(h) permits a new supervised-release term whose length may not exceed the authorized term for the original offense minus imprisonment imposed on revocation; aggregation beyond the text must follow controlling precedent and the complete revocation record. [18 U.S.C. § 3583(h)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+After revocation imprisonment, § 3583(h) permits a new supervised-release term whose length may not exceed the authorized term for the original offense minus imprisonment imposed on revocation; aggregation beyond the text must follow controlling precedent and the complete revocation record. [18 U.S.C. § 3583(h)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-021 authorities:AUTH-SCOTUS-JOHNSON-529-US-694,AUTH-USC-18-3582-3583 status:verified_current -->
 Postrevocation penalties are attributed to the original conviction for the constitutional and statutory analysis addressed in *Johnson*; the decision's historical treatment of pre-1994 law must not replace current § 3583(h). [*Johnson v. United States*, 529 U.S. 694, 699–713 (2000)](https://www.govinfo.gov/content/pkg/USREPORTS-529/pdf/USREPORTS-529-694.pdf)
@@ -126,12 +126,12 @@ For a Grade A violation when the supervised-release term followed a Class A felo
 Chapter 7 policy statements are advisory; the court must separately observe § 3583(e)'s factors, statutory cap, mandatory provisions, explanation duties under applicable law, and controlling appellate precedent. [U.S.S.G. ch. 7, pt. C (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
 
 <!-- claim:CLM-SRREV-038 authorities:AUTH-USSC-2025-7C1,AUTH-USC-18-3582-3583 status:verified_current -->
-The Chapter 7 table range and the § 3583(e)(3) statutory ceiling are separate calculations; a table range cannot enlarge the offense-class cap. [18 U.S.C. § 3583(e)(3)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583); [U.S.S.G. § 7C1.5 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+The Chapter 7 table range and the § 3583(e)(3) statutory ceiling are separate calculations; a table range cannot enlarge the offense-class cap. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583); [U.S.S.G. § 7C1.5 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
 
 ## Expiration, judgment challenge, and appeal
 
 <!-- claim:CLM-SRREV-039 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-After expiration, revocation power continues only if a warrant or summons based on an alleged violation issued before expiration and the later period is reasonably necessary to adjudicate matters arising before expiration. [18 U.S.C. § 3583(i)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+After expiration, revocation power continues only if a warrant or summons based on an alleged violation issued before expiration and the later period is reasonably necessary to adjudicate matters arising before expiration. [18 U.S.C. § 3583(i)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-040 authorities:AUTH-SCOTUS-RICO-607-US-SLIP,AUTH-USC-18-3582-3583 status:verified_current -->
 Absconding does not substitute for § 3583(i)'s pre-expiration warrant-or-summons requirement; *Rico* enforces Congress's express delayed-revocation boundary. [*Rico*, 607 U.S. ___, slip op. 11–16](https://www.supremecourt.gov/opinions/25pdf/24-1056_qn12.pdf)
@@ -140,7 +140,7 @@ Absconding does not substitute for § 3583(i)'s pre-expiration warrant-or-summon
 A person may waive the preliminary or final hearing, but the validity and scope of any waiver must be established from the actual record; silence alone is not assigned a universal nationwide effect here. [Fed. R. Crim. P. 32.1(b)(1)(A), (b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
 
 <!-- claim:CLM-SRREV-042 authorities:AUTH-USC-18-3582-3583,AUTH-FRCRIM-P-32-1 status:verified_current -->
-A revocation appeal requires the notice, judgment, violation findings, hearing transcript, admitted materials, objections, sentence reasons, statutory calculations, and controlling circuit standards; no single universal appellate standard is asserted for every issue. [18 U.S.C. § 3583(e)](https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583)
+A revocation appeal requires the notice, judgment, violation findings, hearing transcript, admitted materials, objections, sentence reasons, statutory calculations, and controlling circuit standards; no single universal appellate standard is asserted for every issue. [18 U.S.C. § 3583(e)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-043 authorities:AUTH-SCOTUS-JOHNSON-529-US-694,AUTH-USC-18-3582-3583 status:verified_current -->
 A direct challenge to the original judgment or condition and a challenge to a later revocation order are procedurally distinct; vehicle, timeliness, waiver, custody, and appealability must be classified from the challenged order. [*Johnson*, 529 U.S. at 700–01](https://www.govinfo.gov/content/pkg/USREPORTS-529/pdf/USREPORTS-529-694.pdf)

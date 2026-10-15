@@ -11,42 +11,42 @@ This module verifies the nationwide statutory division between state-prisoner ap
 ## Keep the state and federal tracks separate
 
 <!-- claim:CLM-2244-001 authorities:AUTH-USC-28-2244 status:verified_current -->
-Sections 2244(b)(1) and (b)(2) apply by their terms to second or successive habeas applications under § 2254, and § 2244(d) applies to applications by persons in custody pursuant to state-court judgments. [28 U.S.C. § 2244(b)(1), (b)(2), (d)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Sections 2244(b)(1) and (b)(2) apply by their terms to second or successive habeas applications under § 2254, and § 2244(d) applies to applications by persons in custody pursuant to state-court judgments. [28 U.S.C. § 2244(b)(1), (b)(2), (d)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-2244-013 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(d)'s one-year limitation and statutory tolling provisions govern the state-judgment track described there; they are not the limitation provisions for a federal prisoner's § 2255 motion. [28 U.S.C. § 2244(d)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(d)'s one-year limitation and statutory tolling provisions govern the state-judgment track described there; they are not the limitation provisions for a federal prisoner's § 2255 motion. [28 U.S.C. § 2244(d)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-2244-014 authorities:AUTH-USC-28-2244,AUTH-USC-28-2255 status:verified_current -->
-The state-prisoner substantive gates in § 2244(b)(2) and the federal-prisoner gates in § 2255(h) are not identically worded, so a federal § 2255(h) analysis must use § 2255(h)'s substantive requirements rather than silently substituting § 2244(b)(2). [28 U.S.C. §§ 2244(b)(2), 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+The state-prisoner substantive gates in § 2244(b)(2) and the federal-prisoner gates in § 2255(h) are not identically worded, so a federal § 2255(h) analysis must use § 2255(h)'s substantive requirements rather than silently substituting § 2244(b)(2). [28 U.S.C. §§ 2244(b)(2), 2255(h)](https://www.govinfo.gov/link/uscode/28/2255)
 
 ## Section 2244(b)(3) authorization procedure
 
 <!-- claim:CLM-2244-002 authorities:AUTH-USC-28-2244 status:verified_current -->
-Before a second or successive § 2254 application is filed in district court, the applicant must move in the appropriate court of appeals for an order authorizing the district court to consider it. [28 U.S.C. § 2244(b)(3)(A)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Before a second or successive § 2254 application is filed in district court, the applicant must move in the appropriate court of appeals for an order authorizing the district court to consider it. [28 U.S.C. § 2244(b)(3)(A)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-2244-003 authorities:AUTH-USC-28-2244 status:verified_current -->
-The court of appeals must assign the authorization motion to a three-judge panel. [28 U.S.C. § 2244(b)(3)(B)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+The court of appeals must assign the authorization motion to a three-judge panel. [28 U.S.C. § 2244(b)(3)(B)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-2244-004 authorities:AUTH-USC-28-2244 status:verified_current -->
-The panel may authorize filing only if it determines that the applicant has made a prima facie showing that the application satisfies § 2244(b)'s requirements. [28 U.S.C. § 2244(b)(3)(C)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+The panel may authorize filing only if it determines that the applicant has made a prima facie showing that the application satisfies § 2244(b)'s requirements. [28 U.S.C. § 2244(b)(3)(C)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-2244-005 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(b)(3)(D) directs the court of appeals to grant or deny authorization not later than thirty days after the motion is filed. [28 U.S.C. § 2244(b)(3)(D)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(b)(3)(D) directs the court of appeals to grant or deny authorization not later than thirty days after the motion is filed. [28 U.S.C. § 2244(b)(3)(D)](https://www.govinfo.gov/link/uscode/28/2244)
 
 This module records the statutory command but does not label it jurisdictional, establish a remedy for noncompliance, or assume every circuit treats it as enforceable. Those questions require controlling-circuit research.
 
 <!-- claim:CLM-2244-006 authorities:AUTH-USC-28-2244 status:verified_current -->
-For the state-prisoner authorization decision governed directly by § 2244(b)(3), subsection (E) says the grant or denial is not appealable and may not be the subject of rehearing or certiorari. [28 U.S.C. § 2244(b)(3)(E)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+For the state-prisoner authorization decision governed directly by § 2244(b)(3), subsection (E) says the grant or denial is not appealable and may not be the subject of rehearing or certiorari. [28 U.S.C. § 2244(b)(3)(E)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-2244-007 authorities:AUTH-USC-28-2244 status:verified_current -->
-After the court of appeals authorizes a state-prisoner claim, the district court must dismiss that authorized claim unless the applicant shows that it satisfies § 2244(b)'s requirements. [28 U.S.C. § 2244(b)(4)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+After the court of appeals authorizes a state-prisoner claim, the district court must dismiss that authorized claim unless the applicant shows that it satisfies § 2244(b)'s requirements. [28 U.S.C. § 2244(b)(4)](https://www.govinfo.gov/link/uscode/28/2244)
 
 Subsection (b)(4) is a post-authorization screen of an authorized claim. It does not say, as the legacy draft stated, that its specific command is to dismiss every claim the court of appeals did not authorize.
 
 ## Federal-prisoner gate under § 2255(h)
 
 <!-- claim:CLM-2244-008 authorities:AUTH-USC-28-2255 status:verified_current -->
-A second or successive § 2255 motion must be certified as provided in § 2244 by a panel of the appropriate court of appeals to contain either qualifying newly discovered evidence under § 2255(h)(1) or a qualifying new rule of constitutional law under § 2255(h)(2). [28 U.S.C. § 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+A second or successive § 2255 motion must be certified as provided in § 2244 by a panel of the appropriate court of appeals to contain either qualifying newly discovered evidence under § 2255(h)(1) or a qualifying new rule of constitutional law under § 2255(h)(2). [28 U.S.C. § 2255(h)](https://www.govinfo.gov/link/uscode/28/2255)
 
 Whether a later filing is “second or successive,” whether evidence is qualifying, and whether the Supreme Court has made a new constitutional rule retroactive are separate questions not resolved by this structural module.
 

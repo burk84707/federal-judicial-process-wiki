@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked direct-review module; actual 
 
 ## Official source and pinpoints
 
-28 U.S.C. § 1291, 28 U.S.C. § 1291: <https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section1291>
+28 U.S.C. § 1291, 28 U.S.C. § 1291: <https://www.govinfo.gov/link/uscode/28/1291>

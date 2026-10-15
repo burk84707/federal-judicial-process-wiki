@@ -11,7 +11,7 @@ This module supplies nationwide Supreme Court baselines. It does not decide whet
 ## Cognizable error
 
 <!-- claim:CLM-2255-023 authorities:AUTH-USC-28-2255 status:verified_current -->
-Section 2255 reaches federal constitutional and statutory violations, lack of sentencing jurisdiction, a sentence above the legal maximum, and other grounds satisfying the statute's collateral-attack standard; the label attached to a claim does not establish cognizability. [28 U.S.C. § 2255(a)–(b)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+Section 2255 reaches federal constitutional and statutory violations, lack of sentencing jurisdiction, a sentence above the legal maximum, and other grounds satisfying the statute's collateral-attack standard; the label attached to a claim does not establish cognizability. [28 U.S.C. § 2255(a)–(b)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-2255-024 authorities:AUTH-SCOTUS-HILL-368-US-424 status:verified_current -->
 A nonconstitutional violation of a criminal rule is not automatically cognizable: *Hill* required a jurisdictional or constitutional error, a fundamental defect inherently resulting in a complete miscarriage of justice, or an omission inconsistent with rudimentary demands of fair procedure. [*Hill v. United States*, 368 U.S. 424, 428–30 (1962)](https://www.govinfo.gov/content/pkg/USREPORTS-368/pdf/USREPORTS-368-424.pdf)
@@ -90,7 +90,7 @@ When deficient failure to file a requested notice forfeits an appeal, prejudice 
 There is no minimum amount of additional imprisonment required for Strickland prejudice from a sentencing error; any increased prison time has Sixth Amendment significance, although deficiency and causation still must be proven. [*Glover v. United States*, 531 U.S. 198, 202–04 (2001)](https://www.govinfo.gov/content/pkg/USREPORTS-531/pdf/USREPORTS-531-198.pdf)
 
 <!-- claim:CLM-2255-048 authorities:AUTH-USC-28-2255,AUTH-SCOTUS-GARZA-586-US-232 status:verified_current -->
-An express collateral-attack waiver must be analyzed from its actual text, knowing-and-voluntary record, government invocation, claimed exception, requested remedy, and controlling-circuit law; neither § 2255 nor *Garza* supplies a single nationwide list of all enforceable or nonwaivable § 2255 claims. [28 U.S.C. § 2255](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29); [*Garza*, 586 U.S. at 238–50](https://www.govinfo.gov/content/pkg/USREPORTS-586/pdf/USREPORTS-586-232.pdf)
+An express collateral-attack waiver must be analyzed from its actual text, knowing-and-voluntary record, government invocation, claimed exception, requested remedy, and controlling-circuit law; neither § 2255 nor *Garza* supplies a single nationwide list of all enforceable or nonwaivable § 2255 claims. [28 U.S.C. § 2255](https://www.govinfo.gov/link/uscode/28/2255); [*Garza*, 586 U.S. at 238–50](https://www.govinfo.gov/content/pkg/USREPORTS-586/pdf/USREPORTS-586-232.pdf)
 
 ## Claim-analysis checklist
 

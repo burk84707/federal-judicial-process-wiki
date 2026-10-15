@@ -1703,7 +1703,7 @@
     "title": "BOP Designation, Sentence Commencement, Aggregation, and Prior-Custody Credit",
     "stage": "sentence-execution/bop-designation-sentence-computation",
     "path": "docs/80-sentence-execution-and-bop/designation-sentence-computation-and-prior-custody-credit.md",
-    "status": "needs_update",
+    "status": "verified_with_limitations",
     "claim_ids": [
       "CLM-BOPSC-001",
       "CLM-BOPSC-002",
@@ -1757,7 +1757,8 @@
       "AUTH-USC-28-2241",
       "AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426",
       "AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283",
-      "AUTH-SCOTUS-SPENCER-523-US-1"
+      "AUTH-SCOTUS-SPENCER-523-US-1",
+      "AUTH-BOP-PS-5160-06"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1779,9 +1780,10 @@
       "SRC-USC-18-3621",
       "SRC-USC-18-3624-OLRC-PRELIM",
       "SRC-USC-18-3632-OLRC-PRELIM",
-      "SRC-USC-28-2241-OLRC-PRELIM"
+      "SRC-USC-28-2241-OLRC-PRELIM",
+      "SRC-BOP-PS-5160-06"
     ],
-    "reviewer_status": "needs_update"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
   },
   {
     "module_id": "MOD-BOP-DETAINERS-DISCIPLINE-RDAP",
@@ -1944,7 +1946,7 @@
     "title": "18 U.S.C. § 3632 — First Step Act Time Credits",
     "stage": "sentence-execution-and-bop/time-credits-and-prerelease",
     "path": "docs/80-sentence-execution-and-bop/first-step-act-time-credits.md",
-    "status": "needs_update",
+    "status": "verified_with_limitations",
     "claim_ids": [
       "CLM-FTC-001",
       "CLM-FTC-002",
@@ -1968,7 +1970,10 @@
       "AUTH-USC-18-3624",
       "AUTH-CFR-28-523-SUBPART-E",
       "AUTH-BOP-PS-5410-01-CN2",
-      "AUTH-DOJ-PATTERN-2019-RELEASE"
+      "AUTH-DOJ-PATTERN-2019-RELEASE",
+      "AUTH-FR-91-55740",
+      "AUTH-CA1-MILES-BOWERS-2026",
+      "AUTH-USC-18-3585"
     ],
     "last_verified": "2026-08-24",
     "review_interval_days": 90,
@@ -1978,9 +1983,11 @@
       "SRC-CFR-2025-28-523-SUBPART-E",
       "SRC-DOJ-PATTERN-2019-RELEASE",
       "SRC-USC-18-3624-OLRC-PRELIM",
-      "SRC-USC-18-3632-OLRC-PRELIM"
+      "SRC-USC-18-3632-OLRC-PRELIM",
+      "SRC-FR-91-55740",
+      "SRC-CA1-MILES-BOWERS-2026"
     ],
-    "reviewer_status": "needs_update",
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations",
     "module_type": "sentence_execution",
     "jurisdiction": "federal_nationwide",
     "geographic_scope": [
@@ -2009,7 +2016,7 @@
     "title": "Prerelease Custody, Residential Reentry, Home Confinement, and the CARES Act",
     "stage": "sentence-execution/bop-prerelease-home-confinement",
     "path": "docs/80-sentence-execution-and-bop/prerelease-custody-home-confinement-and-cares-act.md",
-    "status": "needs_update",
+    "status": "verified_with_limitations",
     "claim_ids": [
       "CLM-BOPPRE-001",
       "CLM-BOPPRE-002",
@@ -2091,7 +2098,7 @@
       "SRC-USC-18-3632-OLRC-PRELIM",
       "SRC-USC-28-2241-OLRC-PRELIM"
     ],
-    "reviewer_status": "needs_update"
+    "reviewer_status": "primary_source_review_complete_with_documented_limitations"
   },
   {
     "module_id": "MOD-BOP-ADMINISTRATIVE-REMEDIES-REVIEW",

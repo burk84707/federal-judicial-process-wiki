@@ -30,13 +30,13 @@ In a bench trial the court must return a guilty-or-not-guilty finding and, if a 
 ## Jury pool and selection
 
 <!-- claim:CLM-TRIAL-006 authorities:AUTH-USC-28-1861-1862-1867 status:verified_current -->
-The Jury Selection and Service Act declares a federal policy of random selection from a fair cross section of the community and gives all qualified citizens an opportunity to be considered for service and an obligation to serve when summoned. [28 U.S.C. § 1861](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1861+edition%3Aprelim%29)
+The Jury Selection and Service Act declares a federal policy of random selection from a fair cross section of the community and gives all qualified citizens an opportunity to be considered for service and an obligation to serve when summoned. [28 U.S.C. § 1861](https://www.govinfo.gov/link/uscode/28/1861)
 
 <!-- claim:CLM-TRIAL-007 authorities:AUTH-USC-28-1861-1862-1867 status:verified_current -->
-No citizen may be excluded from federal grand- or petit-jury service because of race, color, religion, sex, national origin, or economic status. [28 U.S.C. § 1862](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1862+edition%3Aprelim%29)
+No citizen may be excluded from federal grand- or petit-jury service because of race, color, religion, sex, national origin, or economic status. [28 U.S.C. § 1862](https://www.govinfo.gov/link/uscode/28/1862)
 
 <!-- claim:CLM-TRIAL-008 authorities:AUTH-USC-28-1861-1862-1867 status:verified_current -->
-A criminal defendant's Jury Selection and Service Act challenge must ordinarily be made before voir dire begins or within seven days after the defendant discovered or could have discovered the ground with diligence, whichever is earlier, and must be supported as § 1867(d) requires; § 1867 supplies the exclusive statutory means to challenge noncompliance with the Act's jury-selection provisions. [28 U.S.C. § 1867(a), (d), (e)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section1867)
+A criminal defendant's Jury Selection and Service Act challenge must ordinarily be made before voir dire begins or within seven days after the defendant discovered or could have discovered the ground with diligence, whichever is earlier, and must be supported as § 1867(d) requires; § 1867 supplies the exclusive statutory means to challenge noncompliance with the Act's jury-selection provisions. [28 U.S.C. § 1867(a), (d), (e)](https://www.govinfo.gov/link/uscode/28/1867)
 
 <!-- claim:CLM-TRIAL-009 authorities:AUTH-SCOTUS-DUREN-439-US-357 status:verified_current -->
 A prima facie Sixth Amendment fair-cross-section claim requires a distinctive group, representation in venires that is not fair and reasonable relative to the community, and underrepresentation caused by systematic exclusion in the selection process; the right does not guarantee that the seated petit jury mirrors the community. [*Duren v. Missouri*, 439 U.S. 357, 363–67 (1979)](https://www.govinfo.gov/content/pkg/USREPORTS-439/pdf/USREPORTS-439-357.pdf)

@@ -16,4 +16,4 @@ The statute must be read with § 2255(h) and *Bowe v. United States* before appl
 
 ## Official source
 
-OLRC preliminary edition, laws in effect August 11, 2026: <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244>
+OLRC preliminary edition, laws in effect August 11, 2026: <https://www.govinfo.gov/link/uscode/28/2244>

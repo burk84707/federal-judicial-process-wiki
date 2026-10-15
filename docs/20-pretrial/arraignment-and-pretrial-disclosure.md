@@ -34,7 +34,7 @@ On request and subject to the rule's possession, knowledge, materiality, intende
 For Rule 16 expert disclosures, the court by order or local rule must set a time sufficiently before trial to give the opposing side a fair opportunity to meet the evidence, and the current rule specifies the required opinions, bases, reasons, qualifications, prior publications, prior testimony, approval, signature, and supplementation information. [Fed. R. Crim. P. 16(a)(1)(G), (b)(1)(C)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf)
 
 <!-- claim:CLM-DISC-008 authorities:AUTH-FRCRIM-P-10-16-17-26-2,AUTH-USC-18-3500 status:verified_current -->
-Rule 16(a)(2) ordinarily excludes internal government reports and memoranda and does not authorize discovery of prospective government-witness statements except as 18 U.S.C. § 3500 provides; Rule 16(a)(3) separately limits discovery of recorded grand-jury proceedings. [Fed. R. Crim. P. 16(a)(2)–(3)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf); [18 U.S.C. § 3500](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29)
+Rule 16(a)(2) ordinarily excludes internal government reports and memoranda and does not authorize discovery of prospective government-witness statements except as 18 U.S.C. § 3500 provides; Rule 16(a)(3) separately limits discovery of recorded grand-jury proceedings. [Fed. R. Crim. P. 16(a)(2)–(3)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf); [18 U.S.C. § 3500](https://www.govinfo.gov/link/uscode/18/3500)
 
 <!-- claim:CLM-DISC-009 authorities:AUTH-FRCRIM-P-10-16-17-26-2 status:verified_current -->
 The defendant's reciprocal document, report, and expert duties arise only under the conditions stated in Rule 16(b), including a qualifying defense request followed by government compliance or the expert-disclosure request specified in the rule. [Fed. R. Crim. P. 16(b)(1)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf)
@@ -57,7 +57,7 @@ Rule 45(a) supplies federal criminal time computation, and Rule 45(b)(1) permits
 ## Constitutional disclosure is a separate analysis
 
 <!-- claim:CLM-DISC-015 authorities:AUTH-FRCRIM-P-10-16-17-26-2,AUTH-USC-18-3500,AUTH-SCOTUS-BRADY-373-US-83,AUTH-SCOTUS-GIGLIO-405-US-150 status:verified_current -->
-Rule 16, the Jencks Act, and the *Brady* line are separate sources with different triggers and coverage, so an item may require independent classification under more than one source rather than treatment under a single generic “discovery” rule. [Fed. R. Crim. P. 16](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf); [18 U.S.C. § 3500](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29); [*Brady v. Maryland*, 373 U.S. 83, 86–88 (1963)](https://www.govinfo.gov/content/pkg/USREPORTS-373/pdf/USREPORTS-373-83.pdf)
+Rule 16, the Jencks Act, and the *Brady* line are separate sources with different triggers and coverage, so an item may require independent classification under more than one source rather than treatment under a single generic “discovery” rule. [Fed. R. Crim. P. 16](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf); [18 U.S.C. § 3500](https://www.govinfo.gov/link/uscode/18/3500); [*Brady v. Maryland*, 373 U.S. 83, 86–88 (1963)](https://www.govinfo.gov/content/pkg/USREPORTS-373/pdf/USREPORTS-373-83.pdf)
 
 <!-- claim:CLM-DISC-016 authorities:AUTH-SCOTUS-BRADY-373-US-83,AUTH-SCOTUS-STRICKLER-527-US-263 status:verified_current -->
 A true *Brady* violation has three components: evidence favorable to the accused, suppression by the government willfully or inadvertently, and resulting prejudice. [*Strickler v. Greene*, 527 U.S. 263, 281–82 (1999)](https://www.govinfo.gov/content/pkg/USREPORTS-527/pdf/USREPORTS-527-263.pdf); [*Brady*, 373 U.S. at 87](https://www.govinfo.gov/content/pkg/USREPORTS-373/pdf/USREPORTS-373-83.pdf)
@@ -94,19 +94,19 @@ The Supreme Court authorities above do not supply one calendar date for every co
 ## Jencks Act and Rule 26.2 witness statements
 
 <!-- claim:CLM-DISC-026 authorities:AUTH-USC-18-3500 status:verified_current -->
-In a federal criminal prosecution, § 3500(a) bars subpoena, discovery, or inspection of a government or prospective government witness's statement in United States possession until that witness has testified on direct examination at trial. [18 U.S.C. § 3500(a)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29)
+In a federal criminal prosecution, § 3500(a) bars subpoena, discovery, or inspection of a government or prospective government witness's statement in United States possession until that witness has testified on direct examination at trial. [18 U.S.C. § 3500(a)](https://www.govinfo.gov/link/uscode/18/3500)
 
 <!-- claim:CLM-DISC-027 authorities:AUTH-USC-18-3500 status:verified_current -->
-After a government witness testifies on direct, § 3500(b) requires the court, on the defendant's motion, to order production of a United States-possessed statement that relates to the testimony's subject matter and permits a reasonable recess for examination and preparation. [18 U.S.C. § 3500(b)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29)
+After a government witness testifies on direct, § 3500(b) requires the court, on the defendant's motion, to order production of a United States-possessed statement that relates to the testimony's subject matter and permits a reasonable recess for examination and preparation. [18 U.S.C. § 3500(b)](https://www.govinfo.gov/link/uscode/18/3500)
 
 <!-- claim:CLM-DISC-028 authorities:AUTH-USC-18-3500 status:verified_current -->
-If the government claims that part of a statement is unrelated to the testimony, § 3500(c) requires in camera inspection, excision of unrelated matter, delivery of the remainder, and preservation of withheld text for appellate review if the defendant objects. [18 U.S.C. § 3500(c)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29)
+If the government claims that part of a statement is unrelated to the testimony, § 3500(c) requires in camera inspection, excision of unrelated matter, delivery of the remainder, and preservation of withheld text for appellate review if the defendant objects. [18 U.S.C. § 3500(c)](https://www.govinfo.gov/link/uscode/18/3500)
 
 <!-- claim:CLM-DISC-029 authorities:AUTH-USC-18-3500 status:verified_current -->
-If the United States elects not to obey a § 3500 production order, subsection (d) requires striking the witness's testimony and continuing trial unless the court determines that the interests of justice require a mistrial. [18 U.S.C. § 3500(d)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29)
+If the United States elects not to obey a § 3500 production order, subsection (d) requires striking the witness's testimony and continuing trial unless the court determines that the interests of justice require a mistrial. [18 U.S.C. § 3500(d)](https://www.govinfo.gov/link/uscode/18/3500)
 
 <!-- claim:CLM-DISC-030 authorities:AUTH-USC-18-3500 status:verified_current -->
-Section 3500(e) limits “statement” to a witness-signed or adopted writing, a substantially verbatim contemporaneous recording or transcription of the witness's oral statement, or the witness's grand-jury statement. [18 U.S.C. § 3500(e)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29)
+Section 3500(e) limits “statement” to a witness-signed or adopted writing, a substantially verbatim contemporaneous recording or transcription of the witness's oral statement, or the witness's grand-jury statement. [18 U.S.C. § 3500(e)](https://www.govinfo.gov/link/uscode/18/3500)
 
 <!-- claim:CLM-DISC-031 authorities:AUTH-FRCRIM-P-10-16-17-26-2 status:verified_current -->
 Rule 26.2(a) is reciprocal: after a nondefendant witness testifies on direct, the court must, on motion by a party who did not call the witness, order the calling side to produce a possessed statement relating to the testimony's subject matter. [Fed. R. Crim. P. 26.2(a)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf)

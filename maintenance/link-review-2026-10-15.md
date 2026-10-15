@@ -46,3 +46,9 @@ These links are believed to work in a browser; the publisher blocks or drops aut
 - **BOP PS 5880.28** (Sentence Computation Manual) is still listed in the BOP policy index and opens; no change.
 
 - A redirect to an error page used to count as "opened". The checker now treats it, and a web page returned for a PDF request, as a failure. The next full run may therefore report a few more failures than before.
+
+## Decisions after the final run (owner, October 15, 2026)
+
+- **uscode.house.gov (27 server errors in the last run):** switched to GovInfo. All 35 sources and every inline link now point to the United States Code 2024 main edition on GovInfo; each target was verified to open on the right section in probe run [38792673966](https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38792673966). The Law Revision Counsel preliminary text stays as each source's `mirror_url`, with an edition note, because the 2024 edition does not include later amendments.
+- **BOP time-credit guide:** kept as archived guidance, with the 2026-06-19 Wayback capture as its mirror.
+- **Legal review drafts:** approved and applied (see `maintenance/legal-review-2026-10-15.md`).

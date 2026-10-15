@@ -14,13 +14,13 @@ module_id: MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION
 The statutory phrase “second or successive” is not self-defining and does not cover every application filed second in time; classification depends on the judgment, claim, ripeness, and prior disposition. [*Panetti v. Quarterman*, 551 U.S. 930, 943–47 (2007)](https://www.govinfo.gov/content/pkg/USREPORTS-551/pdf/USREPORTS-551-930.pdf); [*Magwood v. Patterson*, 561 U.S. 320, 331–38 (2010)](https://www.govinfo.gov/content/pkg/USREPORTS-561/pdf/USREPORTS-561-320.pdf)
 
 <!-- claim:CLM-SOS-002 authorities:AUTH-USC-28-2255,AUTH-SCOTUS-MAGWOOD-561-US-320 status:verified_current -->
-Classification requires every challenged federal judgment, every prior § 2255 filing and disposition, any intervening judgment, the precise proposed claims, and the timing and substance of postjudgment papers; a docket count alone is insufficient. [28 U.S.C. § 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29); [*Magwood*, 561 U.S. at 331–42](https://www.govinfo.gov/content/pkg/USREPORTS-561/pdf/USREPORTS-561-320.pdf)
+Classification requires every challenged federal judgment, every prior § 2255 filing and disposition, any intervening judgment, the precise proposed claims, and the timing and substance of postjudgment papers; a docket count alone is insufficient. [28 U.S.C. § 2255(h)](https://www.govinfo.gov/link/uscode/28/2255); [*Magwood*, 561 U.S. at 331–42](https://www.govinfo.gov/content/pkg/USREPORTS-561/pdf/USREPORTS-561-320.pdf)
 
 <!-- claim:CLM-SOS-003 authorities:AUTH-SCOTUS-BURTON-549-US-147 status:verified_current -->
 In *Burton*, a later § 2254 petition challenging the same state judgment was successive, and filing it without court-of-appeals authorization left the district court without jurisdiction to entertain it. [*Burton v. Stewart*, 549 U.S. 147, 152–57 (2007)](https://www.govinfo.gov/content/pkg/USREPORTS-549/pdf/USREPORTS-549-147.pdf)
 
 <!-- claim:CLM-SOS-004 authorities:AUTH-USC-28-2255 status:verified_current -->
-For a filing legally classified as a second or successive § 2255 motion, § 2255(h) requires court-of-appeals panel certification before the district court may consider it. [28 U.S.C. § 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+For a filing legally classified as a second or successive § 2255 motion, § 2255(h) requires court-of-appeals panel certification before the district court may consider it. [28 U.S.C. § 2255(h)](https://www.govinfo.gov/link/uscode/28/2255)
 
 ## New judgment and later-ripening claims
 
@@ -65,13 +65,13 @@ Mixed postjudgment papers must be classified claim by claim and under controllin
 ## Section 2255(h) substantive gates
 
 <!-- claim:CLM-SOS-017 authorities:AUTH-USC-28-2255 status:verified_current -->
-Section 2255(h)(1) requires newly discovered evidence that, if proven and viewed with the evidence as a whole, would establish by clear and convincing evidence that no reasonable factfinder would have found the movant guilty of the offense. [28 U.S.C. § 2255(h)(1)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+Section 2255(h)(1) requires newly discovered evidence that, if proven and viewed with the evidence as a whole, would establish by clear and convincing evidence that no reasonable factfinder would have found the movant guilty of the offense. [28 U.S.C. § 2255(h)(1)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-SOS-018 authorities:AUTH-USC-28-2255 status:verified_current -->
-Section 2255(h)(2) requires a new rule of constitutional law, previously unavailable, that the Supreme Court has made retroactive to cases on collateral review. [28 U.S.C. § 2255(h)(2)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+Section 2255(h)(2) requires a new rule of constitutional law, previously unavailable, that the Supreme Court has made retroactive to cases on collateral review. [28 U.S.C. § 2255(h)(2)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-SOS-019 authorities:AUTH-USC-28-2255 status:verified_current -->
-A new statutory-interpretation rule is not a new rule of constitutional law and therefore does not satisfy § 2255(h)(2); any separate saving-clause question must be analyzed under § 2255(e) and the current saving-clause module. [28 U.S.C. § 2255(e), (h)(2)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+A new statutory-interpretation rule is not a new rule of constitutional law and therefore does not satisfy § 2255(h)(2); any separate saving-clause question must be analyzed under § 2255(e) and the current saving-clause module. [28 U.S.C. § 2255(e), (h)(2)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-SOS-020 authorities:AUTH-SCOTUS-TYLER-533-US-656 status:verified_current -->
 For the parallel language in § 2244(b)(2)(A), *Tyler* holds that only the Supreme Court can make a new rule retroactive and that the Court must do so through a holding; § 2255(h)(2) uses the same “made retroactive” formulation. [*Tyler v. Cain*, 533 U.S. 656, 662–68 (2001)](https://www.govinfo.gov/content/pkg/USREPORTS-533/pdf/USREPORTS-533-656.pdf)
@@ -88,28 +88,28 @@ New constitutional rules of criminal procedure generally do not apply retroactiv
 ## Authorization procedure and unauthorized filings
 
 <!-- claim:CLM-SOS-024 authorities:AUTH-USC-28-2244,AUTH-USC-28-2255 status:verified_current -->
-Before filing a legally second or successive § 2255 motion in district court, the movant must seek certification from the appropriate court of appeals as provided in § 2244. [28 U.S.C. §§ 2244(b)(3)(A), 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+Before filing a legally second or successive § 2255 motion in district court, the movant must seek certification from the appropriate court of appeals as provided in § 2244. [28 U.S.C. §§ 2244(b)(3)(A), 2255(h)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-SOS-025 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(b)(3)(B) assigns the authorization motion to a three-judge court-of-appeals panel. [28 U.S.C. § 2244(b)(3)(B)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(b)(3)(B) assigns the authorization motion to a three-judge court-of-appeals panel. [28 U.S.C. § 2244(b)(3)(B)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-SOS-026 authorities:AUTH-USC-28-2244,AUTH-USC-28-2255 status:verified_current -->
-The panel applies a prima facie showing at the authorization stage, using § 2255(h)'s federal-prisoner substantive gate rather than substituting § 2244(b)(2)'s state-prisoner wording. [28 U.S.C. §§ 2244(b)(3)(C), 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+The panel applies a prima facie showing at the authorization stage, using § 2255(h)'s federal-prisoner substantive gate rather than substituting § 2244(b)(2)'s state-prisoner wording. [28 U.S.C. §§ 2244(b)(3)(C), 2255(h)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-SOS-027 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(b)(3)(D) directs a grant or denial within 30 days after filing; this module does not call the command jurisdictional, promise decision by that date, or invent a remedy for noncompliance. [28 U.S.C. § 2244(b)(3)(D)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(b)(3)(D) directs a grant or denial within 30 days after filing; this module does not call the command jurisdictional, promise decision by that date, or invent a remedy for noncompliance. [28 U.S.C. § 2244(b)(3)(D)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-SOS-028 authorities:AUTH-USC-28-2244,AUTH-USC-28-2255 status:verified_current -->
-Authorization permits the proposed filing but is not a merits judgment or a grant of § 2255 relief; the district court must still apply the governing procedural bars, § 2255 standards, and claim-specific merits law. [28 U.S.C. §§ 2244(b)(3)(C), 2255(b), (h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+Authorization permits the proposed filing but is not a merits judgment or a grant of § 2255 relief; the district court must still apply the governing procedural bars, § 2255 standards, and claim-specific merits law. [28 U.S.C. §§ 2244(b)(3)(C), 2255(b), (h)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-SOS-029 authorities:AUTH-USC-28-2244,AUTH-SCOTUS-BOWE-607-US-13 status:verified_current -->
-Section 2244(b)(4)'s express postauthorization dismissal command applies to authorized state-prisoner claims under § 2244(b); it should not be silently treated as identical federal § 2255 text, particularly after *Bowe* rejected automatic incorporation of other § 2244(b) provisions. [28 U.S.C. § 2244(b)(4)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244); [*Bowe v. United States*, 607 U.S. 13, 32–38 (2026)](https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf)
+Section 2244(b)(4)'s express postauthorization dismissal command applies to authorized state-prisoner claims under § 2244(b); it should not be silently treated as identical federal § 2255 text, particularly after *Bowe* rejected automatic incorporation of other § 2244(b) provisions. [28 U.S.C. § 2244(b)(4)](https://www.govinfo.gov/link/uscode/28/2244); [*Bowe v. United States*, 607 U.S. 13, 32–38 (2026)](https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf)
 
 <!-- claim:CLM-SOS-030 authorities:AUTH-USC-28-2255,AUTH-SCOTUS-BURTON-549-US-147 status:verified_current -->
-The district court cannot adjudicate the merits of an unauthorized filing that is legally a second or successive motion; whether to dismiss, transfer, sever a true Rule 60 component, or allow withdrawal must follow controlling circuit procedure. [28 U.S.C. § 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29); [*Burton*, 549 U.S. at 152–57](https://www.govinfo.gov/content/pkg/USREPORTS-549/pdf/USREPORTS-549-147.pdf)
+The district court cannot adjudicate the merits of an unauthorized filing that is legally a second or successive motion; whether to dismiss, transfer, sever a true Rule 60 component, or allow withdrawal must follow controlling circuit procedure. [28 U.S.C. § 2255(h)](https://www.govinfo.gov/link/uscode/28/2255); [*Burton*, 549 U.S. at 152–57](https://www.govinfo.gov/content/pkg/USREPORTS-549/pdf/USREPORTS-549-147.pdf)
 
 <!-- claim:CLM-SOS-031 authorities:AUTH-USC-28-1631 status:verified_current -->
-Section 1631 permits transfer when a civil action or appeal was filed in a court lacking jurisdiction, the receiving court could have heard it when filed, and transfer is in the interest of justice; the statute does not make transfer automatic for every unauthorized § 2255 filing. [28 U.S.C. § 1631](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1631+edition%3Aprelim%29)
+Section 1631 permits transfer when a civil action or appeal was filed in a court lacking jurisdiction, the receiving court could have heard it when filed, and transfer is in the interest of justice; the statute does not make transfer automatic for every unauthorized § 2255 filing. [28 U.S.C. § 1631](https://www.govinfo.gov/link/uscode/28/1631)
 
 ## Review after the panel decision
 
@@ -123,30 +123,30 @@ Section 2244(b)(1)'s automatic previously-presented-claim bar does not apply to 
 *Bowe* did not decide whether § 2244(b)(3)(E)'s rehearing bar applies to a federal-prisoner authorization decision; current circuit rules and precedent must be checked. [*Bowe*, 607 U.S. at 29–30](https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf)
 
 <!-- claim:CLM-SOS-035 authorities:AUTH-USC-28-2244,AUTH-USC-28-2255 status:verified_current -->
-Authorization forms, claim limits, attachments, word limits, electronic or paper filing, rehearing practice, and service requirements are circuit-specific and must be taken from the appropriate court of appeals' current rules and forms. [28 U.S.C. §§ 2244(b)(3), 2255(h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29)
+Authorization forms, claim limits, attachments, word limits, electronic or paper filing, rehearing practice, and service requirements are circuit-specific and must be taken from the appropriate court of appeals' current rules and forms. [28 U.S.C. §§ 2244(b)(3), 2255(h)](https://www.govinfo.gov/link/uscode/28/2255)
 
 ## Related § 2244 provisions that remain on the state-judgment track
 
 <!-- claim:CLM-SOS-036 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(a) states a federal-custody anti-relitigation rule for a habeas application whose detention legality a federal judge has already determined, but it expressly says “except as provided in section 2255”; it is not a substitute for § 2255(h)'s later-motion framework. [28 U.S.C. § 2244(a)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(a) states a federal-custody anti-relitigation rule for a habeas application whose detention legality a federal judge has already determined, but it expressly says “except as provided in section 2255”; it is not a substitute for § 2255(h)'s later-motion framework. [28 U.S.C. § 2244(a)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-SOS-037 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(c) concerns the admissibility, when the federal habeas judge directs, of specified records from prior proceedings involving a person held under a state-court judgment; it does not establish the federal-prisoner authorization gate. [28 U.S.C. § 2244(c)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(c) concerns the admissibility, when the federal habeas judge directs, of specified records from prior proceedings involving a person held under a state-court judgment; it does not establish the federal-prisoner authorization gate. [28 U.S.C. § 2244(c)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-SOS-038 authorities:AUTH-USC-28-2244,AUTH-SCOTUS-BOWE-607-US-13 status:verified_current -->
-Section 2244(b)(1) requires dismissal of a claim presented in a second or successive § 2254 application when that claim appeared in a prior application; *Bowe* holds that this state-track text is not imported into § 2255(h). [28 U.S.C. § 2244(b)(1)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244); [*Bowe*, 607 U.S. at 32–38](https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf)
+Section 2244(b)(1) requires dismissal of a claim presented in a second or successive § 2254 application when that claim appeared in a prior application; *Bowe* holds that this state-track text is not imported into § 2255(h). [28 U.S.C. § 2244(b)(1)](https://www.govinfo.gov/link/uscode/28/2244); [*Bowe*, 607 U.S. at 32–38](https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf)
 
 <!-- claim:CLM-SOS-039 authorities:AUTH-USC-28-2244 status:verified_current -->
-For a new claim in a second or successive § 2254 application, § 2244(b)(2) requires either a previously unavailable Supreme-Court-made-retroactive new constitutional rule or a factual predicate previously undiscoverable through due diligence plus clear-and-convincing proof that, but for constitutional error, no reasonable factfinder would have found guilt. [28 U.S.C. § 2244(b)(2)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+For a new claim in a second or successive § 2254 application, § 2244(b)(2) requires either a previously unavailable Supreme-Court-made-retroactive new constitutional rule or a factual predicate previously undiscoverable through due diligence plus clear-and-convincing proof that, but for constitutional error, no reasonable factfinder would have found guilt. [28 U.S.C. § 2244(b)(2)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-SOS-040 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(d)(1) supplies a one-year limitations period and four latest-of triggers for applications by persons held under state-court judgments; it is not § 2255(f)'s federal-prisoner clock. [28 U.S.C. § 2244(d)(1)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(d)(1) supplies a one-year limitations period and four latest-of triggers for applications by persons held under state-court judgments; it is not § 2255(f)'s federal-prisoner clock. [28 U.S.C. § 2244(d)(1)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-SOS-041 authorities:AUTH-USC-28-2244 status:verified_current -->
-Section 2244(d)(2) excludes from that state-track one-year period the time during which a properly filed state postconviction or other collateral-review application concerning the pertinent judgment or claim is pending; § 2255 contains no identical provision. [28 U.S.C. § 2244(d)(2)](https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244)
+Section 2244(d)(2) excludes from that state-track one-year period the time during which a properly filed state postconviction or other collateral-review application concerning the pertinent judgment or claim is pending; § 2255 contains no identical provision. [28 U.S.C. § 2244(d)(2)](https://www.govinfo.gov/link/uscode/28/2244)
 
 <!-- claim:CLM-SOS-042 authorities:AUTH-USC-28-2244,AUTH-USC-28-2255,AUTH-SCOTUS-DODD-545-US-353 status:verified_current -->
-Section 2244(b)(3) does not state a freestanding deadline by which a federal prisoner must first seek § 2255(h) authorization, but claim-specific timing—including § 2255(f), *Dodd*'s rule for § 2255(f)(3), availability, and current circuit procedure—can still make prompt filing decisive. [28 U.S.C. §§ 2244(b)(3), 2255(f), (h)](https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29); [*Dodd v. United States*, 545 U.S. 353, 357–60 (2005)](https://www.govinfo.gov/content/pkg/USREPORTS-545/pdf/USREPORTS-545-353.pdf)
+Section 2244(b)(3) does not state a freestanding deadline by which a federal prisoner must first seek § 2255(h) authorization, but claim-specific timing—including § 2255(f), *Dodd*'s rule for § 2255(f)(3), availability, and current circuit procedure—can still make prompt filing decisive. [28 U.S.C. §§ 2244(b)(3), 2255(f), (h)](https://www.govinfo.gov/link/uscode/28/2255); [*Dodd v. United States*, 545 U.S. 353, 357–60 (2005)](https://www.govinfo.gov/content/pkg/USREPORTS-545/pdf/USREPORTS-545-353.pdf)
 
 ## Classification and authorization checklist
 

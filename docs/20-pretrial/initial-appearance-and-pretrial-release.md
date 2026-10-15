@@ -44,49 +44,49 @@ A preliminary hearing is conditional, not an unqualified right in every case. Ru
 Rothgery held that an initial appearance before a judicial officer at which the defendant learns the formal accusation and liberty is restricted initiates adversary judicial proceedings and triggers attachment of the Sixth Amendment right to counsel; prosecutor awareness or participation is not required. [*Rothgery v. Gillespie County*, 554 U.S. 191, 194–95, 213 (2008)](https://www.supremecourt.gov/opinions/boundvolumes/554bv.pdf)
 
 <!-- claim:CLM-PRETRIAL-010 authorities:AUTH-SCOTUS-ROTHGERY-554-US-191,AUTH-USC-18-3142 status:verified_current -->
-Attachment and critical-stage analysis are distinct. Rothgery did not hold that attachment itself creates a § 3142 detention hearing, nor did it decide the scope of counsel's required presence at every postattachment proceeding; § 3142(f), not attachment, defines when a detention hearing is held. [*Rothgery*, 554 U.S. at 212 & nn.15–17](https://www.supremecourt.gov/opinions/boundvolumes/554bv.pdf); [18 U.S.C. § 3142(f)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+Attachment and critical-stage analysis are distinct. Rothgery did not hold that attachment itself creates a § 3142 detention hearing, nor did it decide the scope of counsel's required presence at every postattachment proceeding; § 3142(f), not attachment, defines when a detention hearing is held. [*Rothgery*, 554 U.S. at 212 & nn.15–17](https://www.supremecourt.gov/opinions/boundvolumes/554bv.pdf); [18 U.S.C. § 3142(f)](https://www.govinfo.gov/link/uscode/18/3142)
 
 ## Release and detention structure
 
 <!-- claim:CLM-PRETRIAL-011 authorities:AUTH-USC-18-3142 status:verified_current -->
-Section 3142(a) supplies four possible pretrial orders: release on personal recognizance or unsecured appearance bond; release on conditions; temporary detention under subsection (d); or detention under subsection (e). [18 U.S.C. § 3142(a)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+Section 3142(a) supplies four possible pretrial orders: release on personal recognizance or unsecured appearance bond; release on conditions; temporary detention under subsection (d); or detention under subsection (e). [18 U.S.C. § 3142(a)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-012 authorities:AUTH-USC-18-3142 status:verified_current -->
-Section 3142(b) makes recognizance or unsecured-bond release the starting rule unless the judicial officer determines that it will not reasonably assure appearance or will endanger another person or the community. [18 U.S.C. § 3142(b)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+Section 3142(b) makes recognizance or unsecured-bond release the starting rule unless the judicial officer determines that it will not reasonably assure appearance or will endanger another person or the community. [18 U.S.C. § 3142(b)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-013 authorities:AUTH-USC-18-3142 status:verified_current -->
-If subsection (b) is insufficient, subsection (c) requires the least restrictive further condition or combination that will reasonably assure appearance and safety. A financial condition may not be imposed if it results in pretrial detention. [18 U.S.C. § 3142(c)(1)–(2)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+If subsection (b) is insufficient, subsection (c) requires the least restrictive further condition or combination that will reasonably assure appearance and safety. A financial condition may not be imposed if it results in pretrial detention. [18 U.S.C. § 3142(c)(1)–(2)](https://www.govinfo.gov/link/uscode/18/3142)
 
 ## The § 3142(f) hearing gate
 
 <!-- claim:CLM-PRETRIAL-014 authorities:AUTH-USC-18-3142 status:verified_current -->
-On the government's motion, § 3142(f)(1) requires a detention hearing in a case involving: a crime of violence, § 1591 offense, or qualifying terrorism offense; an offense with a maximum of life imprisonment or death; a qualifying drug offense with a ten-year maximum; a qualifying felony after two described prior convictions; or another felony involving a minor victim, a firearm, destructive device or dangerous weapon, or § 2250 failure to register. [18 U.S.C. § 3142(f)(1)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+On the government's motion, § 3142(f)(1) requires a detention hearing in a case involving: a crime of violence, § 1591 offense, or qualifying terrorism offense; an offense with a maximum of life imprisonment or death; a qualifying drug offense with a ten-year maximum; a qualifying felony after two described prior convictions; or another felony involving a minor victim, a firearm, destructive device or dangerous weapon, or § 2250 failure to register. [18 U.S.C. § 3142(f)(1)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-015 authorities:AUTH-USC-18-3142 status:verified_current -->
-On the government's motion or the court's own motion, § 3142(f)(2) requires a hearing in a case involving a serious risk of flight or a serious risk that the person will obstruct or attempt to obstruct justice, or threaten, injure, or intimidate a prospective witness or juror. [18 U.S.C. § 3142(f)(2)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+On the government's motion or the court's own motion, § 3142(f)(2) requires a hearing in a case involving a serious risk of flight or a serious risk that the person will obstruct or attempt to obstruct justice, or threaten, injure, or intimidate a prospective witness or juror. [18 U.S.C. § 3142(f)(2)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-016 authorities:AUTH-USC-18-3142 status:verified_current -->
-A § 3142(f) category triggers a hearing, not mandatory detention. The hearing ordinarily occurs immediately at first appearance, subject to statutory continuances; the person has counsel and the specified opportunities to testify, present and cross-examine witnesses, and present information by proffer or otherwise. [18 U.S.C. § 3142(f)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+A § 3142(f) category triggers a hearing, not mandatory detention. The hearing ordinarily occurs immediately at first appearance, subject to statutory continuances; the person has counsel and the specified opportunities to testify, present and cross-examine witnesses, and present information by proffer or otherwise. [18 U.S.C. § 3142(f)](https://www.govinfo.gov/link/uscode/18/3142)
 
 ## Decision, burdens, and presumptions
 
 <!-- claim:CLM-PRETRIAL-017 authorities:AUTH-USC-18-3142 status:verified_current -->
-After the subsection (f) hearing, § 3142(e)(1) requires detention only if the judicial officer finds that no condition or combination will reasonably assure the person's appearance and the safety of another person and the community. Subsection (e)(1) is the detention rule; it is not a rebuttable-presumption category. [18 U.S.C. § 3142(e)(1)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+After the subsection (f) hearing, § 3142(e)(1) requires detention only if the judicial officer finds that no condition or combination will reasonably assure the person's appearance and the safety of another person and the community. Subsection (e)(1) is the detention rule; it is not a rebuttable-presumption category. [18 U.S.C. § 3142(e)(1)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-018 authorities:AUTH-USC-18-3142 status:verified_current -->
-The facts supporting a detention finding based on inability to reasonably assure safety must be established by clear and convincing evidence. Section 3142(f) does not state the burden of proof for a flight-based detention finding, so this nationwide module does not assign one without controlling circuit authority. [18 U.S.C. § 3142(f)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+The facts supporting a detention finding based on inability to reasonably assure safety must be established by clear and convincing evidence. Section 3142(f) does not state the burden of proof for a flight-based detention finding, so this nationwide module does not assign one without controlling circuit authority. [18 U.S.C. § 3142(f)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-019 authorities:AUTH-USC-18-3142 status:verified_current -->
-Section 3142(e)(2) creates a safety-only rebuttable presumption in a subsection (f)(1) case only when the person has a described prior conviction, committed that prior offense while on pretrial release, and is within five years of the later of that conviction or release from imprisonment. It is not the ten-year-drug-offense presumption. [18 U.S.C. § 3142(e)(2)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+Section 3142(e)(2) creates a safety-only rebuttable presumption in a subsection (f)(1) case only when the person has a described prior conviction, committed that prior offense while on pretrial release, and is within five years of the later of that conviction or release from imprisonment. It is not the ten-year-drug-offense presumption. [18 U.S.C. § 3142(e)(2)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-020 authorities:AUTH-USC-18-3142 status:verified_current -->
-Section 3142(e)(3) creates a rebuttable presumption concerning both appearance and safety upon probable cause for the specifically listed drug, firearm, terrorism, trafficking, and minor-victim offenses. A § 924(c) offense appears in this subsection, but the complete statutory list and thresholds control. [18 U.S.C. § 3142(e)(3)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+Section 3142(e)(3) creates a rebuttable presumption concerning both appearance and safety upon probable cause for the specifically listed drug, firearm, terrorism, trafficking, and minor-victim offenses. A § 924(c) offense appears in this subsection, but the complete statutory list and thresholds control. [18 U.S.C. § 3142(e)(3)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-021 authorities:AUTH-USC-18-3142 status:verified_current -->
-Both statutory presumptions are subject to rebuttal. Their application does not itself produce an automatic detention order; the judicial officer must apply the statute's hearing, factors, and no-adequate-condition framework. The nationwide effect of rebuttal on the burdens of production and persuasion is not resolved here. [18 U.S.C. § 3142(e)–(g)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+Both statutory presumptions are subject to rebuttal. Their application does not itself produce an automatic detention order; the judicial officer must apply the statute's hearing, factors, and no-adequate-condition framework. The nationwide effect of rebuttal on the burdens of production and persuasion is not resolved here. [18 U.S.C. § 3142(e)–(g)](https://www.govinfo.gov/link/uscode/18/3142)
 
 <!-- claim:CLM-PRETRIAL-022 authorities:AUTH-USC-18-3142 status:verified_current -->
-The § 3142(c) conditions menu includes third-party custody and restrictions on travel, associations, intoxicants, and controlled substances, among other options; it also permits any other reasonably necessary condition. The judicial officer must select conditions under the least-restrictive rule rather than treat the legacy chart's short list as mandatory or exhaustive. [18 U.S.C. § 3142(c)(1)(B)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29)
+The § 3142(c) conditions menu includes third-party custody and restrictions on travel, associations, intoxicants, and controlled substances, among other options; it also permits any other reasonably necessary condition. The judicial officer must select conditions under the least-restrictive rule rather than treat the legacy chart's short list as mandatory or exhaustive. [18 U.S.C. § 3142(c)(1)(B)](https://www.govinfo.gov/link/uscode/18/3142)
 
 ## Corrected decision path
 

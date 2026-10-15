@@ -3557,6 +3557,503 @@
       "sha256": "c9b0be1126d66e1410efca5c3c27fea13f0606f4608d61408e292a4974681371",
       "date": "2026-10-15",
       "reason": "Status only, no claim wording changed. (1) 28 C.F.R. § 523.42(a) was amended by 91 FR 55740 (Aug. 31, 2026, effective Sept. 30, 2026), read from the Federal Register on 2026-10-15: the authority records the amendment, CLM-FTC-008 is marked superseded and its module needs_update. (2) The BOP Federal Time Credit Application Guide was removed from bop.gov between 2026-08-25 and 2026-10-01 (Wayback Machine CDX); it is kept as archived guidance with the 2026-06-19 capture as its mirror, CLM-BOPPRE-018 is marked superseded and its module needs_update."
+    },
+    {
+      "path": "data/authorities.jsonl",
+      "previous_sha256": "8da43a71c65b545709988a5a1ad55f3f110f2e79dccf96e25bb394511bcca4a2",
+      "sha256": "28146e10f6bb2788b8b2c62b6c0b853b97c2a7fb05cd6272b2514067c569bced",
+      "date": "2026-10-15",
+      "reason": "Legal review approved by the owner on 2026-10-15 (maintenance/legal-review-2026-10-15.md): CLM-BOPSC-009 and CLM-BOPSC-023 now rest on BOP PS 5160.06; CLM-FTC-008 on 28 C.F.R. § 523.42(a) as amended by 91 FR 55740, Miles v. Bowers and 18 U.S.C. § 3585(a); CLM-BOPPRE-018 describes the archived time-credit guide. New authorities AUTH-BOP-PS-5160-06, AUTH-FR-91-55740, AUTH-CA1-MILES-BOWERS-2026; modules restored to verified_with_limitations. Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "data/claims.jsonl",
+      "previous_sha256": "2435d4ce10ce2a0b78c6cd6604cc761c1f12da4114a7ad6320a42bd7b4ef2279",
+      "sha256": "d6ea27cebd553b937e426778655f5c4c78fd90df2a8148f61103d5e29f0718c0",
+      "date": "2026-10-15",
+      "reason": "Legal review approved by the owner on 2026-10-15 (maintenance/legal-review-2026-10-15.md): CLM-BOPSC-009 and CLM-BOPSC-023 now rest on BOP PS 5160.06; CLM-FTC-008 on 28 C.F.R. § 523.42(a) as amended by 91 FR 55740, Miles v. Bowers and 18 U.S.C. § 3585(a); CLM-BOPPRE-018 describes the archived time-credit guide. New authorities AUTH-BOP-PS-5160-06, AUTH-FR-91-55740, AUTH-CA1-MILES-BOWERS-2026; modules restored to verified_with_limitations. Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "data/modules.json",
+      "previous_sha256": "518751ab90fafc1e782269c84ab3ba65cc321d3aa90f75019b7ac6981d6ce9cf",
+      "sha256": "d5e84b69cb61fec181d33568e9582cdb24a7278835f9eddf96cb300176248aa3",
+      "date": "2026-10-15",
+      "reason": "Legal review approved by the owner on 2026-10-15 (maintenance/legal-review-2026-10-15.md): CLM-BOPSC-009 and CLM-BOPSC-023 now rest on BOP PS 5160.06; CLM-FTC-008 on 28 C.F.R. § 523.42(a) as amended by 91 FR 55740, Miles v. Bowers and 18 U.S.C. § 3585(a); CLM-BOPPRE-018 describes the archived time-credit guide. New authorities AUTH-BOP-PS-5160-06, AUTH-FR-91-55740, AUTH-CA1-MILES-BOWERS-2026; modules restored to verified_with_limitations. Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/designation-sentence-computation-and-prior-custody-credit.md",
+      "previous_sha256": "f1683a8eec1e885ac965fe0a569e6249187644163e99e3d4507634de0fd4cad3",
+      "sha256": "08d3fe6ba37ba5ea31cbca86f930d06b6ce16b051ed054a97b5492ffb612ea80",
+      "date": "2026-10-15",
+      "reason": "Legal review approved by the owner on 2026-10-15 (maintenance/legal-review-2026-10-15.md): CLM-BOPSC-009 and CLM-BOPSC-023 now rest on BOP PS 5160.06; CLM-FTC-008 on 28 C.F.R. § 523.42(a) as amended by 91 FR 55740, Miles v. Bowers and 18 U.S.C. § 3585(a); CLM-BOPPRE-018 describes the archived time-credit guide. New authorities AUTH-BOP-PS-5160-06, AUTH-FR-91-55740, AUTH-CA1-MILES-BOWERS-2026; modules restored to verified_with_limitations. Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/first-step-act-time-credits.md",
+      "previous_sha256": "b15fa4a06899dc47cbae505166af60f8381e384e43f313a1ba9657c5e3f684dc",
+      "sha256": "5d1c9a0cba7dc0cfc96b4ae7516ef655f39b48cdc4be84c509366af79af4a6f6",
+      "date": "2026-10-15",
+      "reason": "Legal review approved by the owner on 2026-10-15 (maintenance/legal-review-2026-10-15.md): CLM-BOPSC-009 and CLM-BOPSC-023 now rest on BOP PS 5160.06; CLM-FTC-008 on 28 C.F.R. § 523.42(a) as amended by 91 FR 55740, Miles v. Bowers and 18 U.S.C. § 3585(a); CLM-BOPPRE-018 describes the archived time-credit guide. New authorities AUTH-BOP-PS-5160-06, AUTH-FR-91-55740, AUTH-CA1-MILES-BOWERS-2026; modules restored to verified_with_limitations. Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/prerelease-custody-home-confinement-and-cares-act.md",
+      "previous_sha256": "9bd328ee70d1fdc8ec55b6d41d58034daf2d9cd8e6381ed00b22ac2993ffd709",
+      "sha256": "6716137a792865d8ef43f2bd74e01ed4f11246d850bedb0a623fbd679f52ad2e",
+      "date": "2026-10-15",
+      "reason": "Legal review approved by the owner on 2026-10-15 (maintenance/legal-review-2026-10-15.md): CLM-BOPSC-009 and CLM-BOPSC-023 now rest on BOP PS 5160.06; CLM-FTC-008 on 28 C.F.R. § 523.42(a) as amended by 91 FR 55740, Miles v. Bowers and 18 U.S.C. § 3585(a); CLM-BOPPRE-018 describes the archived time-credit guide. New authorities AUTH-BOP-PS-5160-06, AUTH-FR-91-55740, AUTH-CA1-MILES-BOWERS-2026; modules restored to verified_with_limitations. Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "sources/source_registry.yaml",
+      "previous_sha256": "c9b0be1126d66e1410efca5c3c27fea13f0606f4608d61408e292a4974681371",
+      "sha256": "29c2a06c2ae948233a46209aa8f1c97d87fd3dfb1faa2782aca4b21e7085f870",
+      "date": "2026-10-15",
+      "reason": "Legal review approved by the owner on 2026-10-15 (maintenance/legal-review-2026-10-15.md): CLM-BOPSC-009 and CLM-BOPSC-023 now rest on BOP PS 5160.06; CLM-FTC-008 on 28 C.F.R. § 523.42(a) as amended by 91 FR 55740, Miles v. Bowers and 18 U.S.C. § 3585(a); CLM-BOPPRE-018 describes the archived time-credit guide. New authorities AUTH-BOP-PS-5160-06, AUTH-FR-91-55740, AUTH-CA1-MILES-BOWERS-2026; modules restored to verified_with_limitations. Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-PL-115-391-SEC-404.md",
+      "previous_sha256": "72fc7462db61a66992bb5dd8884825a217748384ee8f59f2dd3d0e1cfdfc30ca",
+      "sha256": "6f184190e4c1b4d3081679e08450b7f3a762e51bd20793b4c2f992b5d9570cab",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-17-4241-4243-4247.md",
+      "previous_sha256": "2e9dfa5e85e09718c6ed5f8f475976a776a15511a6d53d181e01a486e7f1674a",
+      "sha256": "0df35ece1543476c1d96559c63a1177f00dc4aba1ccd90a9ed5f236a646ab90c",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3006A.md",
+      "previous_sha256": "00c7ea385c9489432f7eae174e82d292861d9a4c826a46e434b04e13fc506d20",
+      "sha256": "ad5c97ae160ad113d14dc6317a4d79f15944eac4236e8c8158af1a4dd6f147df",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3013-3571-3572.md",
+      "previous_sha256": "3d456309cb82b4753cb1de224e18e85f31501c2d50745f5ba8e05cedac3b0508",
+      "sha256": "c686e67149fbc80bd30c3dd94cc03e5fcd68466fe5469086870eb008b31a4996",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3142.md",
+      "previous_sha256": "6a405de9dc5e23e27c3ba147b24aac0b448524bd2786e68032e575f976a03ae8",
+      "sha256": "2c215d597200bf248dc6d1967aec62d18f140b32328ac712d5f37cb8f57812f3",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3143.md",
+      "previous_sha256": "9559aec609e719974d4b7ce6f5ff0994c58c7b32c24f26f554734167859ded2e",
+      "sha256": "71b05b57bc9b8a7cdbf45407b923acfbd25bd94117129448b6bec7605af7c282",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3161-3162.md",
+      "previous_sha256": "c456bba345964b25df1d4afd785dc0cb2cacf843bbc611d1b4c4abef1ca6ea9b",
+      "sha256": "8b5c98a2c2867f470215f37b93a7d1f2780c7a935eff8bd71e2cd798027af4fe",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3237.md",
+      "previous_sha256": "9bfd8e48df9fc77248618f2d4f3b428b001b599472b206cf53739d7d98f7fdd1",
+      "sha256": "07ee5781386f0727852726cf4c04373119d29c5703f764705735101664bcdbdc",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3281-3282-3288-3289.md",
+      "previous_sha256": "9e1a1d19dada06cc44c3163d61963cac23c2762a54dbfd2be2448f28a7026026",
+      "sha256": "45e6d6e8a8e11031a6f777a421abb4268f94996ca2e6d316cae9d40d032cd14e",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3500.md",
+      "previous_sha256": "3af2dc830f4c83772e36ac6d82d6ff35fb47d0d888fbfa0e3776101ea71a1150",
+      "sha256": "4cef198ef9dea2689c83a5e585bd86b1f8d3398b7921f97911d0627cb11d9290",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3551-3552-3553.md",
+      "previous_sha256": "f3825b5dd4c6cc69941ac8e126dedccb236b76964dbd06cb9fba8f781efc5687",
+      "sha256": "2b465d519842253daf88c3979551777490fa30b3ef0196a522e149137ef4723b",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3582-3583.md",
+      "previous_sha256": "c066a3dfe7972726b1e3ead42e2a0106488176dc19786e5df1fe79931fa1ce49",
+      "sha256": "556a4f2b9011c86f94039d563b1bba59110819ad5dc2c26754b96c08d2688838",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3582.md",
+      "previous_sha256": "800faf60f05f5a1f480ab4713128ba0619ed9d9b0e03145294ace4be2faba25d",
+      "sha256": "326783ed9382f258fbd64cfb2985eaf133916e965835b7383c3fdf91cae9e50a",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3584.md",
+      "previous_sha256": "a72f6ecd042be7096a529574ed585b6f7d28a7eef87df3f47725a11c5f26ec62",
+      "sha256": "a7a18f59ff7939e2606894b9cd8477172968bfad3cf3feed66e5490ab65aa259",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3585.md",
+      "previous_sha256": "66f9dafe40e953553a9b98dfe94fb2e10a833d9379a83377df699cab81ab9bf1",
+      "sha256": "7bb825ff14cf4983edb487b4ecfd2caae08609ebd4bcf28f5d91a2f3eabf364c",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3605.md",
+      "previous_sha256": "f0d57f52f504317b45753ff6fb0b499e3a5bf71b67c3d611bc7f115f85ee5aeb",
+      "sha256": "36685065cffd03dad41b268531fa6e048b22a7756c97022ef2919ff68bae08e8",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3621.md",
+      "previous_sha256": "224f413faf9c9ca39c6d50aabe0edb710d6d96c975da22a8cae9a57cfb79e38f",
+      "sha256": "619a74a2431f8a3e98f322eedc53720130e9b4b667aa654324aeaba5652d7759",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3624.md",
+      "previous_sha256": "cad363cbae216f01ee2c1788ebf0a40d016ccf69e0e32a1841e817fe33c3ccfc",
+      "sha256": "5cc811161393cd6ab925fd512791512dadf8d211b9d701e5e497082956ad7a73",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3625.md",
+      "previous_sha256": "e80c6f0dbe7eb405638c20413e5c21cbd756ae0dcd06578de0aa7cc57e7d639a",
+      "sha256": "ef7f71887ffcc129dc7a806ac2aaba0a7a30ddff3a0c1b255a975161058185f4",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3632.md",
+      "previous_sha256": "fd4a521fd4f603d676537d4fa4770406737ce9865fa18414d08b06e8150d7f00",
+      "sha256": "93e7d6f8ae9d937f9c4b83f607185b13fa5747e9ebdbe561e6233129388b1d31",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3663-3663A-3664.md",
+      "previous_sha256": "15d672c25a94bace50d3593ffac2fb37248faa642fce0b0eae7ca46167400e4b",
+      "sha256": "745c385b1ddab672b69c74ccca28f0421d7187db7f6a84c844c3f71787537d86",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3731.md",
+      "previous_sha256": "3eb0e0ebde85d5104c99d1264d5288f2cfe2ddb50d46fdc206bc6d24caa20414",
+      "sha256": "2b843e0963aad0eb90f1eb61ebbbae7ace460906472ef7b45bce64e7ebc74d91",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3742.md",
+      "previous_sha256": "2ac821b49d81049a60331064ed6cd19cedccf62e31df68562668dcb3f8009fd9",
+      "sha256": "fd348c7c3a8ae893bbac19a5d378b0aeb3a729d20ed83db23f9a394e99bf1d7f",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-982.md",
+      "previous_sha256": "830889c31ea2876828e6ba604e8f9fe67ea302c038f3d63acbee7ae61d7be3e9",
+      "sha256": "b0499d9f2373a79b0873c4358b54fe18fa97e7d4f28a9ce4bc68987ae5aa8aae",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1291.md",
+      "previous_sha256": "7c65b3b44747b925b71da2e09d2734d8df74a3f18ef647f820a2a13a18cc107c",
+      "sha256": "24479402205d9bb6c23f6d5ce1fce668fe33d19c3b57df0f6670cdcb912d5541",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1361.md",
+      "previous_sha256": "fe97078b420e30730680b8bd87ac388d3f067b307bece5545d5d3d064666b11f",
+      "sha256": "27349313d7f2c7725aa164b0b7f38b85fa976ba5e464fe69fabe234affe41267",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1631.md",
+      "previous_sha256": "e2a625903c8854ec69858897b34af39dbd0171378b72c06f654ada016c1dbdf5",
+      "sha256": "ea658bac70bb81535bbe9aaa942bc7d209461bc3500b67a2a5894df7422ffe1e",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1651.md",
+      "previous_sha256": "f440eb32a1b0ccf28a53b029421c0af774bfc25b190e0a111fd57bff831e5208",
+      "sha256": "9dcd44fd2634b6f995b7628bb2a77fb5e03d83f6fe9df2d08b2273c6f6a27e3f",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1861-1862-1867.md",
+      "previous_sha256": "4342a63e2240c7d0cede06e2447a52ec0e10625ed08940f0534a5f121a5b9370",
+      "sha256": "30c64d38fe8d10f1542bfbf357993e374741b02128b3836e3a65dabdd3b32500",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-1914.md",
+      "previous_sha256": "fb46040cf4f77b21fd0f0f389fe7f7ab685b96285e0cd3011dfd7f6c5c6156ca",
+      "sha256": "b27d5b5c1a25d9c13f55427b22fc40ffaff5ccd26f1ae44505eb3bc4bb41a8ae",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2241.md",
+      "previous_sha256": "890b6ada806e9909221dad038b93bb545c37b5451021ea92a34e748205df60fd",
+      "sha256": "08b2629fe0db136958a1fea22dd16e3bd96ea6de67e0757dacff5144b0c36f30",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2242.md",
+      "previous_sha256": "65a117bb7949e3ddf479b5743bd232130faa6b375d2ef62a591e13966682bcf7",
+      "sha256": "ab6fa2b485114a2affc3d787413f83d91acb66cfe49128dff0862fed7390b32e",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2243.md",
+      "previous_sha256": "1089c233035785ac8c79ecab1eac161936c6c9faafe9d10fd8be2b00a600a48e",
+      "sha256": "9726ea02fe0b00959c371775935b202ff10acffe538166c076562e043723fab5",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2244.md",
+      "previous_sha256": "d0df2c467a584cf4adbd8b506a3b8b5b81f0923f259cb0b2b81c4ac1e4a6106b",
+      "sha256": "8ec7f7b998c14bb451d1bf3dcacca2d4021613e4a0a6d555c85a05bd95948451",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2253.md",
+      "previous_sha256": "f06d5b235bfb6c80e0e8eeddca90c2fc92b97793e21968ae1ba320f7f9ebc9b2",
+      "sha256": "fa974953b9042c622cd167a0aa9bbb22bee84452565bed12dc64c405424b933f",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-28-2255.md",
+      "previous_sha256": "312fd5bd8b44d67636f74b535525c06144da633a8012ed4f81bef2390ba36539",
+      "sha256": "4a379f7433542c2c78bbc24824678bb54e572a5cee6f4f34e18b304526ac7518",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/10-investigation-and-charging/federal-charging-and-commencement.md",
+      "previous_sha256": "f3ecaeec90875134800c638408e584317cff81f58c1557003211a1753f92082e",
+      "sha256": "796b36970acec6f9d47b85ca534de9f17019b3ba242e34f6fc3489ba59798587",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/20-pretrial/arraignment-and-pretrial-disclosure.md",
+      "previous_sha256": "e966bf748f18cb73216850ceea414904571641e58263fd72856480af97688278",
+      "sha256": "6aa38ea8f062138b95b706dc51616dc8f89943664633dcad58f4483cf90f4a3f",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/20-pretrial/competency-insanity-and-speedy-trial.md",
+      "previous_sha256": "2116098b61190af6f4308924aa07e4f44fc25428d873fbcdcc8c0e0fd353dfce",
+      "sha256": "6330109536a7c21f36975a5b33f959902680db70ba3879c7c6389905e7235b0b",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/20-pretrial/initial-appearance-and-pretrial-release.md",
+      "previous_sha256": "26aecd10ed847324821c7d6229324bf1f8e73b36804da5b795fc5150fbf0cab0",
+      "sha256": "70cedd4fb70fb551f5ab8a3a8011746aa898d401f7ca76072d021ef3ce33ead0",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/20-pretrial/suppression-severance-and-pretrial-motions.md",
+      "previous_sha256": "163fd5a0b6f71751b68a6c32559d8dd74fd0b31fdf48cd48372054bbf338dc6f",
+      "sha256": "b4506332e6dcf8b91d4a63f99556d1b9bd117310587ca74f52effea1df40f96f",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/30-plea-and-trial/jury-and-bench-trial.md",
+      "previous_sha256": "eb90fcdf1ac2fb4513fafee7cf596cc7ab71e8e764dcc195bd0a8b7b22ce9f21",
+      "sha256": "7e126dd91111d43b98fea1851fd83f1af3e9e6668511135092adbd5270ca1e33",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/40-sentencing/monetary-penalties-restitution-and-forfeiture.md",
+      "previous_sha256": "72e288b5c368b1aa6a5076790c17fd7bf254321e360c97e69f147198a2910c92",
+      "sha256": "f51833bee2256a7d288205ea8764ad7c97c62c550346deb42c226ab88fbc42bd",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/40-sentencing/presentence-guidelines-and-sentencing-hearing.md",
+      "previous_sha256": "f5ed01f07606b6df3f9560033eb4029161a0dc0c080d792c51be08e14ae149ad",
+      "sha256": "a9e51bd2f778f460036d5cfa0b08adf0058d42942facd269b1cdbde31592dbc8",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/40-sentencing/supervised-release-judgment-and-correction.md",
+      "previous_sha256": "1b8a51e6d1afce83ba8a6a892aabba57e56373c7ca8fc26a3e1d455eec6c5d66",
+      "sha256": "c31d7bf2cb7ca6dda879440f0c5daf48b94cb0e1795a2b47a6be1e572f9f3227",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/50-direct-review/notice-jurisdiction-and-record.md",
+      "previous_sha256": "5c95ab91e903c58b18ac7303b3ea108bb925e06f956cee9a3427b75e9aae76cc",
+      "sha256": "9e74d2ceb486427aad947242bb450c3d6e2240223f012f8bea58ec68cfb4418b",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-appeal-and-relief.md",
+      "previous_sha256": "0767f92abf0143eeb56cfd80a54e525034c509b38019421966bbbcb15b4df8e2",
+      "sha256": "0b9a282a388449f41c0b022f2accf2b6bede156c80fb86c7cd6cfbcfc8ddfdeb",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-filing-jurisdiction-respondent-and-exhaustion.md",
+      "previous_sha256": "3b261b931c18f6bad6abfa623c236868193c14c79506f1f8ff29e4079e0bbac0",
+      "sha256": "436636546477958e2deb268e666eb3c4617cc619bc7b3114f5dc86b3c9723c96",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-saving-clause-custody-and-mootness.md",
+      "previous_sha256": "d13b7dbfff661950440638f602083cab7e1e1c74b15a9b1d600f270c33aa3f18",
+      "sha256": "f7cf44aecf4b8b29e567d394dc0e4b52aa6b5dc9493a17f810483ed0f49ab11d",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2244-2255-successive-gatekeeping.md",
+      "previous_sha256": "acfc71d4eb62ffa64682cb772a6a0b5b5d7c120a177fa23a94ad6c1fc98b18f4",
+      "sha256": "f730decb4846a3d9142bd6b4180fe771216b6e8bf4680e251908c147853f5952",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-default-innocence-and-ineffective-assistance.md",
+      "previous_sha256": "8f5154ff86a53326a08acc305888c63eb3615504ab2ea52e55c83b162b907867",
+      "sha256": "c6f0c68f40e69cdaa2457cd180375f4715ad83a6d79fceea273ad97c359f38eb",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-initial-motion-and-limitations.md",
+      "previous_sha256": "448b6504215e9619ba3c2b349ade81c5e783432e553e3274f2ecfe1bb9015bfd",
+      "sha256": "9c54193f6be87d5580e1fcf5c5471b9c2420b9c3b594420ad3c9c747447ba7a7",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-later-filings-classification-and-authorization.md",
+      "previous_sha256": "40e3823b8295fe605dc0279c3617b0120318faf7e2b33ce4a85d9d967691198b",
+      "sha256": "1f0481ba75511a07a8ed82b92117833886bc9fe82f8bbb5f25012c3dd27c62a7",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-procedure-hearing-appeal-and-postjudgment.md",
+      "previous_sha256": "2d78eaa7654d7116b194b994961c207925af1c8c7ba910290ddbd66ad8429fdc",
+      "sha256": "2eda496cd78ece27252af343c9497ea5007fba58e78c2fb4ff033e2a9c0e5db8",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/60-post-conviction/extraordinary-writs-coram-nobis-audita-querela-and-mandamus.md",
+      "previous_sha256": "84b0bdc2fd7054397470c29240c682553130a50a123fb5a825341b76f134f38e",
+      "sha256": "cc78081f4306c4c6404e2c89a05c88c6c79eb32c98c92418ce820d5c4ad5994a",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/70-sentence-modification/first-step-act-section-404.md",
+      "previous_sha256": "2ab24c55081988712b569958874f06181949468d9e2edf201525fa94bfdd51ee",
+      "sha256": "810ebefe82b0c1a3d8b4595524e725569776342aea7999227770ee0f1b09f815",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/70-sentence-modification/rules-35-36-and-modification-appeals.md",
+      "previous_sha256": "2aa2db6e1f54254fc6059be2d9057160f3253e033b3faf5a511bc03a7cadbebd",
+      "sha256": "dfccc0e8502952517b7d66ac3af1035b018dffab883f113698b1e07a431d9321",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/70-sentence-modification/section-3582-remedy-router.md",
+      "previous_sha256": "f8e2d693cf8c4aa5fb7c3db7b5164732c7eb00aced7cdb348a9866490a78c6c8",
+      "sha256": "33c9492aedecc4ec3098ba4fc099f68d4d680ed6469a0c4338e6087c2b085800",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/administrative-remedies-and-judicial-review.md",
+      "previous_sha256": "b4a14e5122efcbc18615f13da54bc228b016b187646a2fdf00e5dd1e5dceceb7",
+      "sha256": "c565c16b0e9d47505490f9f6ea5ecdb9eb3ac7a50c0eca00624aa09106179705",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/detainers-discipline-and-rdap.md",
+      "previous_sha256": "3af0dd01774b10a3ece08026d63b258e3abe5e17bee381e5384389a3a5250a92",
+      "sha256": "6cf0780b5ab1e68166c09c7fcaeaa3d3894e648157a6e6ea38329150b52c253d",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/good-conduct-time.md",
+      "previous_sha256": "971be784c7c2537205748519a9a74e413cc9839953d46d6b0c7daeb05172ed64",
+      "sha256": "52499047b183e093a45ac66d23b2fdf3839672d930be6e403d62340ac3afd00b",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/commencement-conditions-modification-termination-and-transfer.md",
+      "previous_sha256": "f97bf68ff06f85a5917f5ee497f2da9f7e01546928e36c296806617dbabc8c71",
+      "sha256": "54dff7f9c80c40669ee7417a30ae46393ebd5a1885803f109dbb6f5db5ee6b3a",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/constitutional-conditions-delegation-and-reentry-remedies.md",
+      "previous_sha256": "198c29bb4036087aeeeeb4b75b156ef9d1ae34f118c12ec17c6e6cbfffdc196e",
+      "sha256": "338bacd7ac467ebf6824d2328535b3746092eb07de8eefea0b6fd616a966bb49",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/violations-rule-32-1-revocation-and-sentencing.md",
+      "previous_sha256": "a728cfcd7bdc9fbdc44d02096d2396c24be2fa5cead4e9e0a7024cd0136bf55f",
+      "sha256": "330135f65ab43480cb93f18c20722c96f9740a7e72daf84ef59e830bceb609ed",
+      "date": "2026-10-15",
+      "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
     }
   ]
 }

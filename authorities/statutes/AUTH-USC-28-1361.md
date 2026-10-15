@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked modules. The exact judgment, 
 
 ## Official source and pinpoints
 
-28 U.S.C. § 1361, § 1361: <https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1361>
+28 U.S.C. § 1361, § 1361: <https://www.govinfo.gov/link/uscode/28/1361>

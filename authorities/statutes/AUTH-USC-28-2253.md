@@ -17,4 +17,4 @@ Section 2253 does not supply notice timing, local appellate procedure, or interl
 
 ## Official source
 
-OLRC preliminary edition, laws in effect August 17, 2026: <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2253>
+OLRC preliminary edition, laws in effect August 17, 2026: <https://www.govinfo.gov/link/uscode/28/2253>

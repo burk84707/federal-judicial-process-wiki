@@ -1,6 +1,6 @@
 # Legal review drafts: October 15, 2026
 
-Four claims are marked superseded because a source they rely on changed after the August 2026 review. Each draft below is proposed wording for review. Nothing here is published until it is approved, applied to the claim record and the module together, and recorded in `manifest/revisions.json`.
+Four claims were marked superseded because a source they rely on changed after the August 2026 review. **Status: approved by the owner on October 15, 2026 and applied** to the claim records and modules, with new authority records for PS 5160.06, 91 FR 55740 and *Miles v. Bowers*. Each edit is recorded in `manifest/revisions.json`.
 
 Every source quoted below was read in full on October 15, 2026, from the official publisher, through the repository's probe workflow or the CourtListener API.
 

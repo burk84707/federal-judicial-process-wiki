@@ -14,4 +14,4 @@ Use only for the bounded proposition and limitations in the linked canonical mod
 
 ## Official source and pinpoints
 
-18 U.S.C. § 3585, § 3585(a)–(b): <https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3585+edition%3Aprelim%29>
+18 U.S.C. § 3585, § 3585(a)–(b): <https://www.govinfo.gov/link/uscode/18/3585>

@@ -14,4 +14,4 @@ Venue still turns on the charged offense's conduct elements and any offense-spec
 
 ## Official source
 
-<https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3237>
+<https://www.govinfo.gov/link/uscode/18/3237>

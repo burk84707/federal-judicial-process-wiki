@@ -11,10 +11,10 @@ This module verifies the nationwide organization of the sentence-modification me
 ## Start with the source of authority
 
 <!-- claim:CLM-3582-001 authorities:AUTH-USC-18-3582 status:verified_current -->
-An imposed term of imprisonment is final and may be modified only through the three doors in § 3582(c): subsection (c)(1)(A), subsection (c)(1)(B), or subsection (c)(2). Each door has different eligibility, procedure, and limits. [18 U.S.C. § 3582(b)–(c)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29)
+An imposed term of imprisonment is final and may be modified only through the three doors in § 3582(c): subsection (c)(1)(A), subsection (c)(1)(B), or subsection (c)(2). Each door has different eligibility, procedure, and limits. [18 U.S.C. § 3582(b)–(c)](https://www.govinfo.gov/link/uscode/18/3582)
 
 <!-- claim:CLM-3582-002 authorities:AUTH-USC-18-3582 status:verified_current -->
-Subsections (a) and (b) govern imposition and finality, subsection (d) imposes specified Bureau of Prisons notice and assistance duties, and subsection (e) concerns certain nonassociation orders. None is an additional sentence-reduction door. [18 U.S.C. § 3582(a), (b), (d), (e)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582+edition%3Aprelim%29)
+Subsections (a) and (b) govern imposition and finality, subsection (d) imposes specified Bureau of Prisons notice and assistance duties, and subsection (e) concerns certain nonassociation orders. None is an additional sentence-reduction door. [18 U.S.C. § 3582(a), (b), (d), (e)](https://www.govinfo.gov/link/uscode/18/3582)
 
 Claims about conviction validity, ordinary sentencing error outside Rule 35(a), Bureau of Prisons computation or execution, and placement are not interchangeable with § 3582(c) motions. A conviction-validity claim belongs in direct review or § 2255 as applicable; an execution claim may require the administrative-remedy and § 2241 framework; and a placement request is not itself a reduction of the imposed prison term.
 
@@ -33,7 +33,7 @@ Rule 35(b) requires a government motion based on substantial assistance. A motio
 Rule 36 separately permits correction at any time of a clerical error in a judgment, order, or other part of the record, or an error arising from oversight or omission. It does not authorize a substantive resentencing and is not a § 3582(c) reduction door. [Fed. R. Crim. P. 36](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
 
 <!-- claim:CLM-3582-007 authorities:AUTH-USC-18-3582 status:verified_current -->
-Section 3582(c)(1)(B) is a connector: it permits modification only to the extent Rule 35 or another statute expressly permits. The outside rule or statute supplies the movant, deadline, eligibility, scope, and discretionary limits. [18 U.S.C. § 3582(c)(1)(B)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29)
+Section 3582(c)(1)(B) is a connector: it permits modification only to the extent Rule 35 or another statute expressly permits. The outside rule or statute supplies the movant, deadline, eligibility, scope, and discretionary limits. [18 U.S.C. § 3582(c)(1)(B)](https://www.govinfo.gov/link/uscode/18/3582)
 
 The separately verified [First Step Act § 404 module](first-step-act-section-404.md) is one example of an express statutory modification authority using the (c)(1)(B) connector. Its covered-offense and prior-order rules cannot be borrowed into other § 3582 tracks.
 
@@ -42,15 +42,15 @@ The separately verified [First Step Act § 404 module](first-step-act-section-40
 ### Filing gate and statutory decision sequence
 
 <!-- claim:CLM-3582-008 authorities:AUTH-USC-18-3582 status:verified_current -->
-The Bureau of Prisons Director may move under § 3582(c)(1)(A). A defendant may move after fully exhausting administrative appeal of the Bureau's failure to file, or after 30 days from the warden's receipt of the defendant's request, whichever occurs first. [18 U.S.C. § 3582(c)(1)(A)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29)
+The Bureau of Prisons Director may move under § 3582(c)(1)(A). A defendant may move after fully exhausting administrative appeal of the Bureau's failure to file, or after 30 days from the warden's receipt of the defendant's request, whichever occurs first. [18 U.S.C. § 3582(c)(1)(A)](https://www.govinfo.gov/link/uscode/18/3582)
 
 The statute does not answer every issue-exhaustion, waiver, or emergency question that can arise in litigation. Those questions require controlling circuit authority and the actual request, receipt date, response, and motion.
 
 <!-- claim:CLM-3582-009 authorities:AUTH-USC-18-3582,AUTH-USSG-2025-1B1-13 status:verified_current -->
-For the ordinary compassionate-release path, the court must consider the applicable § 3553(a) factors and find an extraordinary and compelling reason, consistency with the applicable Commission policy statement, and the policy statement's no-danger requirement. The court may reduce the prison term and may substitute probation or supervised release, with conditions, for no longer than the unserved portion. [18 U.S.C. § 3582(c)(1)(A)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29); [U.S.S.G. § 1B1.13(a) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-1)
+For the ordinary compassionate-release path, the court must consider the applicable § 3553(a) factors and find an extraordinary and compelling reason, consistency with the applicable Commission policy statement, and the policy statement's no-danger requirement. The court may reduce the prison term and may substitute probation or supervised release, with conditions, for no longer than the unserved portion. [18 U.S.C. § 3582(c)(1)(A)](https://www.govinfo.gov/link/uscode/18/3582); [U.S.S.G. § 1B1.13(a) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-1)
 
 <!-- claim:CLM-3582-010 authorities:AUTH-USC-18-3582 status:verified_current -->
-The separate age-70 route requires age 70 or older, at least 30 years served on a sentence imposed under 18 U.S.C. § 3559(c), and a Bureau of Prisons determination that the defendant is not dangerous. It is not the ordinary age-based circumstance in § 1B1.13(b)(2). [18 U.S.C. § 3582(c)(1)(A)(ii)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29)
+The separate age-70 route requires age 70 or older, at least 30 years served on a sentence imposed under 18 U.S.C. § 3559(c), and a Bureau of Prisons determination that the defendant is not dangerous. It is not the ordinary age-based circumstance in § 1B1.13(b)(2). [18 U.S.C. § 3582(c)(1)(A)(ii)](https://www.govinfo.gov/link/uscode/18/3582)
 
 ### Current policy statement and controlling limits
 
@@ -64,7 +64,7 @@ Rehabilitation cannot by itself establish an extraordinary and compelling reason
 The current policy statement requires a finding that the defendant is not a danger to another person or the community under the § 3142(g) factors. This policy-statement finding is separate from extraordinary-and-compelling eligibility. [U.S.S.G. § 1B1.13(a)(2) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-1)
 
 <!-- claim:CLM-3582-014 authorities:AUTH-USC-18-3582 status:verified_current -->
-Even when the eligibility and policy-statement requirements are satisfied, the court must consider the applicable § 3553(a) factors and retains discretion to deny or limit the reduction. [18 U.S.C. § 3582(c)(1)(A)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29)
+Even when the eligibility and policy-statement requirements are satisfied, the court must consider the applicable § 3553(a) factors and retains discretion to deny or limit the reduction. [18 U.S.C. § 3582(c)(1)(A)](https://www.govinfo.gov/link/uscode/18/3582)
 
 <!-- claim:CLM-3582-015 authorities:AUTH-SCOTUS-RUTHERFORD-608-US-SLIP status:verified_current -->
 *Rutherford* holds that when Congress declines to make a sentencing amendment retroactive, the resulting disparity cannot serve as an extraordinary and compelling reason under § 3582(c)(1)(A)(i). Combining that disparity with other nonqualifying considerations does not convert it into a qualifying eligibility reason. [*Rutherford v. United States*, 608 U.S. ___, slip op. 8–17 (2026)](https://www.supremecourt.gov/opinions/25pdf/24-820_97be.pdf)
@@ -78,7 +78,7 @@ Section 1B1.13(c), as presently printed, permits a legal change to inform the ex
 ## Section 3582(c)(2)
 
 <!-- claim:CLM-3582-018 authorities:AUTH-USC-18-3582 status:verified_current -->
-Section 3582(c)(2) applies to a defendant sentenced based on a sentencing range that the Commission later lowered under 28 U.S.C. § 994(o), when a reduction is consistent with applicable Commission policy. The defendant or Bureau Director may move, and the court may act on its own motion; the compassionate-release warden-request gate does not apply. [18 U.S.C. § 3582(c)(2)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29)
+Section 3582(c)(2) applies to a defendant sentenced based on a sentencing range that the Commission later lowered under 28 U.S.C. § 994(o), when a reduction is consistent with applicable Commission policy. The defendant or Bureau Director may move, and the court may act on its own motion; the compassionate-release warden-request gate does not apply. [18 U.S.C. § 3582(c)(2)](https://www.govinfo.gov/link/uscode/18/3582)
 
 <!-- claim:CLM-3582-019 authorities:AUTH-USSG-2025-1B1-10 status:verified_current -->
 Eligibility requires an amendment listed in current § 1B1.10(d) and an actual lowering of the defendant's applicable guideline range. An amendment's effective date or favorable treatment at new sentencings does not by itself make it retroactive under § 3582(c)(2). [U.S.S.G. § 1B1.10(a), (d) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-1)

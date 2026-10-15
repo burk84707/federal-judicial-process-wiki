@@ -93,10 +93,10 @@ Rule 14 does not require severance merely because codefendants present mutually 
 ## Interlocutory review and preservation
 
 <!-- claim:CLM-MOTION-025 authorities:AUTH-USC-18-3731 status:verified_current -->
-Before jeopardy and verdict, 18 U.S.C. § 3731 authorizes a government appeal from an order suppressing or excluding evidence or requiring return of property if the United States attorney certifies that the appeal is not for delay and the evidence is substantial proof of a material fact. [18 U.S.C. § 3731](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3731+edition%3Aprelim%29)
+Before jeopardy and verdict, 18 U.S.C. § 3731 authorizes a government appeal from an order suppressing or excluding evidence or requiring return of property if the United States attorney certifies that the appeal is not for delay and the evidence is substantial proof of a material fact. [18 U.S.C. § 3731](https://www.govinfo.gov/link/uscode/18/3731)
 
 <!-- claim:CLM-MOTION-026 authorities:AUTH-USC-18-3731 status:verified_current -->
-A § 3731 appeal must be taken within 30 days and diligently prosecuted, remains subject to the Double Jeopardy Clause, and is governed by Congress's direction to construe the section liberally. [18 U.S.C. § 3731](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3731+edition%3Aprelim%29)
+A § 3731 appeal must be taken within 30 days and diligently prosecuted, remains subject to the Double Jeopardy Clause, and is governed by Congress's direction to construe the section liberally. [18 U.S.C. § 3731](https://www.govinfo.gov/link/uscode/18/3731)
 
 <!-- claim:CLM-MOTION-027 authorities:AUTH-SCOTUS-ABNEY-431-US-651 status:verified_current -->
 Criminal defendants ordinarily obtain appellate review after final judgment; *Abney* recognizes immediate collateral-order review for a colorable denial of a motion to dismiss on Double Jeopardy grounds, not a general interlocutory route for accompanying suppression, severance, or indictment arguments. [*Abney v. United States*, 431 U.S. 651, 656–63 (1977)](https://www.govinfo.gov/content/pkg/USREPORTS-431/pdf/USREPORTS-431-651.pdf)

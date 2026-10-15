@@ -46,7 +46,7 @@ The statutory amendments also reached 21 U.S.C. § 960(b). A nationwide eligibil
 ## Procedural vehicle and Concepcion
 
 <!-- claim:CLM-FSA404-010 authorities:AUTH-USC-18-3582,AUTH-SCOTUS-CONCEPCION-597-US-481 status:verified_current -->
-Section 3582(c)(1)(B) is the gateway allowing a term of imprisonment to be modified when another statute expressly permits it; it adds no substantive or procedural limits of its own to a § 404 motion. [18 U.S.C. § 3582(c)(1)(B)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29); [*Concepcion*, 597 U.S. at 497 n.5](https://www.supremecourt.gov/opinions/21pdf/20-1650_new_4gci.pdf)
+Section 3582(c)(1)(B) is the gateway allowing a term of imprisonment to be modified when another statute expressly permits it; it adds no substantive or procedural limits of its own to a § 404 motion. [18 U.S.C. § 3582(c)(1)(B)](https://www.govinfo.gov/link/uscode/18/3582); [*Concepcion*, 597 U.S. at 497 n.5](https://www.supremecourt.gov/opinions/21pdf/20-1650_new_4gci.pdf)
 
 <!-- claim:CLM-FSA404-011 authorities:AUTH-SCOTUS-CONCEPCION-597-US-481 status:verified_current -->
 When deciding whether and how much to reduce a sentence under § 404, a district court may consider intervening changes of law or fact, including post-sentencing conduct and nonretroactive legal changes. [*Concepcion*, 597 U.S. at 486, 493–500](https://www.supremecourt.gov/opinions/21pdf/20-1650_new_4gci.pdf)
@@ -61,7 +61,7 @@ Concepcion does not require the court to reduce a sentence because of an interve
 The benchmark Guidelines range may be recalculated only to reflect retroactive application of Fair Sentencing Act §§ 2 and 3. The court may then consider post-sentencing conduct or nonretroactive legal changes when selecting or rejecting a reduction, using the correctly calculated range as the benchmark. [*Concepcion*, 597 U.S. at 498 & n.6](https://www.supremecourt.gov/opinions/21pdf/20-1650_new_4gci.pdf)
 
 <!-- claim:CLM-FSA404-015 authorities:AUTH-USC-18-3582,AUTH-SCOTUS-CONCEPCION-597-US-481 status:verified_current -->
-A § 404 matter remains a sentence-modification proceeding, not a categorical plenary resentencing. Its information-consideration rule is broad, but the statutory authorization, the § 404(c) bars, and the benchmark-range limitation still control. [18 U.S.C. § 3582(c)(1)(B)](https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29); [*Concepcion*, 597 U.S. at 496–98 & nn.4–6](https://www.supremecourt.gov/opinions/21pdf/20-1650_new_4gci.pdf)
+A § 404 matter remains a sentence-modification proceeding, not a categorical plenary resentencing. Its information-consideration rule is broad, but the statutory authorization, the § 404(c) bars, and the benchmark-range limitation still control. [18 U.S.C. § 3582(c)(1)(B)](https://www.govinfo.gov/link/uscode/18/3582); [*Concepcion*, 597 U.S. at 496–98 & nn.4–6](https://www.supremecourt.gov/opinions/21pdf/20-1650_new_4gci.pdf)
 
 ## Other reductions, filing gates, and relief ceiling
 

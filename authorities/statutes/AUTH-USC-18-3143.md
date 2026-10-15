@@ -14,4 +14,4 @@ Use only for the bounded proposition and express limitations in the linked canon
 
 ## Official source and pinpoints
 
-18 U.S.C. § 3143, § 3143(a)(1): <https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3143+edition%3Aprelim%29>
+18 U.S.C. § 3143, § 3143(a)(1): <https://www.govinfo.gov/link/uscode/18/3143>
