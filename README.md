@@ -49,7 +49,7 @@ For a repeatable dated build use `python scripts/build_public.py --as-of 2026-10
 
 Generated pages do not control the legal content. Edit canonical source records together, preserve IDs and qualifications, then rebuild and validate. A verifier checks internal consistency and publication safety; it does not replace review of the actual law.
 
-The Downloads page is retained but unlisted: no navigation entry, no sitemap entry, and a `noindex, nofollow` instruction. Its direct URL and files still work. This is not authentication or a paywall and does not prevent copying. No free-reuse license has been granted. The reference theme uses the personal site's near-black, warm-white, gold, glass-panel and monospace design language without adding its animated backdrop to reading pages.
+The Downloads page is retained but unlisted: no navigation entry, no sitemap entry, and a `noindex, nofollow` instruction. Its direct URL and files still work. This is not authentication or a paywall and does not prevent copying. The reference theme uses the personal site's near-black, warm-white, gold, glass-panel and monospace design language without adding its animated backdrop to reading pages.
 
 ## Integrate with the personal website
 
@@ -65,16 +65,15 @@ See [maintenance/README.md](maintenance/README.md). Monitoring reports source id
 
 ## Rights, provenance and exclusions
 
-Read [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md) and [LICENSE_STATUS.md](LICENSE_STATUS.md). Licensing is an explicit pending owner decision; this preparation grants no open-source or Creative Commons permissions.
+Content and data are licensed under [CC BY 4.0](LICENSE-CONTENT.md); code is licensed under the [MIT License](LICENSE). Contributions are accepted under the same licenses. See also [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md).
 
 The original research archive is preserved separately. Private filenames use stable aliases in public issue records. Six company-specific legacy texts are explicitly withheld with original-text hashes. The other exact legacy formulations remain marked unverified, not endorsed as law. No raw migration ledger, execution log, local machine path, editor lock, original branded document, or historical Git archive is included.
 
 ## Before approving a first release
 
-1. Review the pending licensing and attribution choices.
-2. Inspect the website, source selection, six disclosed text omissions and remaining legal limitations.
-3. Run build, validation and tests from a clean environment.
-4. Inspect the prospective Git content and configure the desired public commit author/email.
-5. Approve commits separately from pushes, repository visibility and production deployment.
+1. Inspect the website, source selection, six disclosed text omissions and remaining legal limitations.
+2. Run build, validation and tests from a clean environment.
+3. Inspect the prospective Git content and configure the desired public commit author/email.
+4. Approve commits separately from pushes, repository visibility and production deployment.
 
-The owner authorized the initial clean-source commit and push on October 3, 2026. Website deployment, recurring monitoring, and any reuse-license grant remain separate decisions. Future releases must retain the same review and validation boundaries.
+The owner authorized the initial clean-source commit and push on October 3, 2026. Website deployment and recurring monitoring remain separate decisions. Future releases must retain the same review and validation boundaries.

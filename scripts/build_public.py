@@ -49,10 +49,24 @@ def sha(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def human_date(value):
+    """2026-08-26 -> August 26, 2026; anything else is returned unchanged."""
+    try:
+        d = date.fromisoformat(str(value)[:10])
+    except ValueError:
+        return str(value)
+    return f"{d:%B} {d.day}, {d.year}"
+
+
+def md_route(route):
+    """Markdown twin of a page route: modules/40-sentencing/ -> modules/40-sentencing.md."""
+    return route.rstrip("/") + ".md"
+
+
 def public_inputs():
     roots = ("docs", "authorities", "data", "sources", "manifest", "schemas", "diagrams", "web", "scripts", "maintenance")
     paths = [p for folder in roots for p in (ROOT / folder).rglob("*") if p.is_file() and "__pycache__" not in p.parts]
-    paths += [ROOT / p for p in ("release.json", "requirements.txt", "PUBLICATION_POLICY.md", "LICENSE_STATUS.md") if (ROOT / p).exists()]
+    paths += [ROOT / p for p in ("release.json", "requirements.txt", "PUBLICATION_POLICY.md", "LICENSE_STATUS.md", "LICENSE", "LICENSE-CONTENT.md") if (ROOT / p).exists()]
     return sorted(paths)
 
 
@@ -116,6 +130,8 @@ class Builder:
             rel = p.relative_to(ROOT).as_posix()
             self.route_map[rel] = "authorities/" + p.stem + "/"
             self.auth_paths[p.stem] = rel
+        # Every module and authority page also has a Markdown twin at the same URL plus ".md".
+        self.md_routes = {md_route(r) for r in self.route_map.values()} | {"modules.md", "authorities.md"}
 
     def url(self, route=""):
         return self.base + route
@@ -143,10 +159,14 @@ class Builder:
         path.write_text(content, encoding="utf-8", newline="\n")
 
     def page(self, route, title, content, section="Reference", toc=""):
-        nav = [("", "Overview"), ("process/", "Process explorer"), ("modules/", "All modules"), ("districts/", "Courts & rules"), ("authorities/", "Authorities"), ("sources/", "Source registry"), ("limitations/", "Verification & limits"), ("downloads/", "Downloads"), ("about/", "About this project")]
+        nav = [("", "Overview"), ("process/", "Process explorer"), ("modules/", "All modules"), ("districts/", "Courts & rules"), ("authorities/", "Authorities"), ("sources/", "Source registry"), ("limitations/", "Scope & methodology"), ("downloads/", "Downloads"), ("about/", "About & license")]
         links = "".join(self.anchor(r, label, "active" if r == route else "") for r, label in nav if r not in self.unlisted_routes)
-        stage_links = "".join(self.anchor("modules/" + slug + "/", label) for slug, label in STAGES.items() if "docs/" + slug + "/index.md" in self.route_map)
-        body = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} · Federal Judicial Process</title><meta name="description" content="A personal federal judicial-process reference with source-linked claims, jurisdiction boundaries, and visible research limitations."><link rel="canonical" href="{escape(self.cfg['site_origin'] + self.url(route))}"><link rel="stylesheet" href="{self.url('assets/site.css')}"><script defer src="{self.url('assets/site.js')}"></script></head><body data-base="{self.base}"><a class="skip" href="#main">Skip to content</a><header class="topbar"><a class="brand" href="/legal/">JASON93 <span>/ LEGAL TECH</span></a><a class="search-link" href="{self.url('search/')}">Search the reference <span aria-hidden="true">↗</span></a></header><div class="shell"><aside class="sidebar"><a class="site-title" href="{self.url()}">Federal <br>Judicial Process<span>PERSONAL RESEARCH PROJECT</span></a><nav aria-label="Reference navigation">{links}</nav><details class="stage-nav"><summary>Browse by stage</summary><nav aria-label="Process stages">{stage_links}</nav></details><p class="sidebar-note">Sources before certainty.<br>Jurisdiction before conclusions.</p></aside><main id="main" tabindex="-1"><div class="page-meta"><span>{escape(section)}</span><span>Research baseline · {self.cfg['research_baseline']}</span></div>{content}<footer><p>A personal project by {escape(self.cfg['owner_display_name'])}. Legal information, not legal advice or representation. No court or government affiliation is claimed.</p><p>{self.anchor('limitations/', 'Read the verification limits')} · {self.anchor('about/', 'Rights and attribution')} · <a href="{self.cfg['repository_url']}">View source</a></p><p class="quiet">Release identity {self.digest[:12]} · Build review date {self.as_of.isoformat()}. Building does not reverify law.</p></footer></main>{f'<aside class="toc" aria-label="On this page">{toc}</aside>' if toc else ''}</div></body></html>'''
+        current_stage = next((slug for slug in STAGES if route.startswith("modules/" + slug + "/")), None)
+        stage_links = "".join(self.anchor("modules/" + slug + "/", label, "active" if slug == current_stage else "") for slug, label in STAGES.items() if "docs/" + slug + "/index.md" in self.route_map)
+        stage_open = " open" if current_stage else ""
+        alternate = f'<link rel="alternate" type="text/markdown" href="{escape(self.url(md_route(route)))}">' if md_route(route) in self.md_routes else ""
+        current = human_date(self.cfg["research_baseline"])
+        body = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{escape(title)} · Federal Judicial Process</title><meta name="description" content="A source-linked guide to the federal criminal process: each stage, its time limits, the courts, and the authority behind every rule."><link rel="canonical" href="{escape(self.cfg['site_origin'] + self.url(route))}"><link rel="stylesheet" href="{self.url('assets/site.css')}"><script defer src="{self.url('assets/site.js')}"></script>{alternate}</head><body data-base="{self.base}"><a class="skip" href="#main">Skip to content</a><header class="topbar"><a class="brand" href="/legal/">JASON93 <span>/ LEGAL TECH</span></a><a class="search-link" href="{self.url('search/')}">Search the reference <span aria-hidden="true">↗</span></a></header><div class="shell"><aside class="sidebar"><a class="site-title" href="{self.url()}">Federal <br>Judicial Process<span>PRACTICE REFERENCE</span></a><nav aria-label="Reference navigation">{links}</nav><details class="stage-nav"{stage_open}><summary>Browse by stage</summary><nav aria-label="Process stages">{stage_links}</nav></details></aside><main id="main" tabindex="-1"><div class="page-meta"><span>{escape(section)}</span><span>Current through {current}</span></div>{content}<footer><p>General legal information, not legal advice. Not affiliated with any court or government agency. Current through {current}.</p><p>{self.anchor('limitations/', 'Scope & methodology')} · {self.anchor('about/', 'About & license')} · <a href="{self.cfg['repository_url']}">Source on GitHub</a></p><p class="quiet">By {escape(self.cfg['owner_display_name'])} · Release {self.digest[:12]}</p></footer></main>{f'<aside class="toc" aria-label="On this page">{toc}</aside>' if toc else ''}</div></body></html>'''
         if route in self.unlisted_routes:
             body = body.replace('</head>', '<meta name="robots" content="noindex, nofollow"></head>', 1)
         self.write((route + "index.html") if not route.endswith(".html") else route, body)
@@ -176,6 +196,71 @@ class Builder:
         rewrite.feed(html)
         return "".join(rewrite.out), md.toc
 
+    MD_LINK = re.compile(r'(\]\()([^)\s]+)((?:\s+"[^"]*")?\))')
+
+    def abs_url(self, route):
+        return self.cfg["site_origin"] + self.url(route)
+
+    def md_resolve(self, source, href):
+        """Point a relative Markdown link at the Markdown twin of its target page."""
+        parsed = urlsplit(href)
+        if parsed.scheme or parsed.netloc or href.startswith(("#", "/")):
+            return href
+        target = posixpath.normpath(posixpath.join(posixpath.dirname(source), unquote(parsed.path)))
+        frag = "#" + parsed.fragment if parsed.fragment else ""
+        if target in self.route_map:
+            return self.abs_url(md_route(self.route_map[target])) + frag
+        resolved = self.resolve(source, href)
+        return self.cfg["site_origin"] + resolved if resolved.startswith("/") else resolved
+
+    def write_md(self, route, fields, body):
+        header = "---\n" + "".join(f"{k}: {json.dumps(v, ensure_ascii=False)}\n" for k, v in fields.items() if v not in (None, "", [])) + "---\n\n"
+        self.write(md_route(route), header + body.strip() + "\n")
+
+    @staticmethod
+    def cite(a):
+        """Case citations read better with the case name: Preiser v. Rodriguez, 411 U.S. 475 (1973)."""
+        return f"{a['title']}, {a['citation']}" if a["authority_type"] == "case" and a["title"] not in a["citation"] else a["citation"]
+
+    def markdown_twins(self):
+        """Machine-readable twins of every module and authority page, plus llms.txt."""
+        current = self.cfg["research_baseline"]
+        for source, route in self.route_map.items():
+            front, body = frontmatter((ROOT / source).read_text(encoding="utf-8"))
+            body = self.MD_LINK.sub(lambda m: m.group(1) + self.md_resolve(source, m.group(2)) + m.group(3), body)
+            if source.startswith("docs/"):
+                meta = self.by_module.get(front.get("module_id"), front)
+                auths = [self.by_auth[a] for a in meta.get("authority_ids", front.get("authority_ids", [])) if a in self.by_auth]
+                if auths:
+                    body += "\n\n## Authorities\n\n" + "".join(f"- [{self.cite(a)}]({self.abs_url(md_route('authorities/' + a['authority_id'] + '/'))})" + (f" · official source: {a['official_url']}" if a.get("official_url") else "") + "\n" for a in auths)
+                self.write_md(route, {"title": front.get("title", meta.get("title")), "module_id": front.get("module_id"), "url": self.abs_url(route), "current_through": current, "sources_last_checked": str(meta.get("last_verified", "")), "license": "CC BY 4.0"}, body)
+            else:
+                a = self.by_auth[PurePosixPath(source).stem]
+                used = [self.by_module[m] for m in a["linked_module_ids"] if m in self.by_module]
+                if used:
+                    body += "\n\n## Used in\n\n" + "".join(f"- [{m['title']}]({self.abs_url(md_route(self.route_map[m['path']]))})\n" for m in used)
+                self.write_md(route, {"title": a["title"], "citation": a["citation"], "authority_id": a["authority_id"], "authority_type": a["authority_type"], "jurisdiction": a.get("jurisdiction"), "precedential_status": a.get("precedential_status"), "official_url": a.get("official_url"), "url": self.abs_url(route), "sources_last_checked": a.get("last_verified"), "license": "CC BY 4.0"}, body)
+        groups = defaultdict(list)
+        for m in self.modules: groups[PurePosixPath(m["path"]).parts[1]].append(m)
+        def module_line(m): return f"- [{m['title']}]({self.abs_url(md_route(self.route_map[m['path']]))})\n"
+        modules_md = "# All modules\n\n" + "".join(f"## {label}\n\n" + "".join(module_line(m) for m in groups[slug]) + "\n" for slug, label in STAGES.items() if groups[slug])
+        self.write_md("modules/", {"title": "All modules", "url": self.abs_url("modules/"), "current_through": current}, modules_md)
+        authorities_md = "# Authorities\n\n" + "".join(f"- [{self.cite(a)}]({self.abs_url(md_route('authorities/' + a['authority_id'] + '/'))})" + ("" if a["authority_type"] == "case" else f": {a['title']}") + "\n" for a in sorted(self.authorities, key=lambda a: a["citation"]))
+        self.write_md("authorities/", {"title": "Authorities", "url": self.abs_url("authorities/"), "current_through": current}, authorities_md)
+        overview = next(m for m in self.modules if m["path"] == "docs/00-system-overview/index.md")
+        llms = [f"# {self.cfg['title']}", "",
+                f"> A source-linked guide to the U.S. federal criminal process, from investigation and charging through trial, sentencing, appeal, post-conviction remedies, custody and supervised release. Current through {human_date(current)}. General legal information, not legal advice. Content licensed CC BY 4.0.", "",
+                "Every page listed here is Markdown. Each module states the law as separate claims; a claim is marked in the text with an HTML comment such as `<!-- claim:CLM-2255-001 authorities:AUTH-USC-28-2255 status:verified_current -->`, and the module ends with links to its authorities. Each authority page gives the citation, weight and official source. Start with the overview, pick the stage that matches the case, and cite the authority behind each step. Report the `sources_last_checked` date with any answer.", "",
+                "## Start here", "",
+                module_line(overview).rstrip("\n") + ": what the reference covers and what to know before using it",
+                f"- [All modules]({self.abs_url('modules.md')}): every topic, grouped by stage",
+                f"- [Authorities]({self.abs_url('authorities.md')}): every statute, rule and decision cited", ""]
+        for slug, label in STAGES.items():
+            if slug == "00-system-overview" or not groups[slug]: continue
+            llms += [f"## {label}", ""] + [module_line(m).rstrip("\n") for m in groups[slug]] + [""]
+        llms += ["## Optional", "", f"- [Process graph]({self.abs_url('assets/process-index.json')}): steps and the conditions connecting them, as JSON", f"- [Scope & methodology]({self.abs_url('limitations/')}): coverage, sourcing, currency and open research questions", ""]
+        self.write("llms.txt", "\n".join(llms))
+
     def module_link(self, mid):
         m = self.by_module[mid]
         return self.anchor(self.route_map[m["path"]], m["title"])
@@ -200,16 +285,18 @@ class Builder:
             verified = str(meta.get("last_verified", front.get("last_verified", self.cfg["research_baseline"])))
             due = str(meta.get("next_review_date", "Not individually scheduled"))
             overdue = due[:4].isdigit() and date.fromisoformat(due[:10]) < self.as_of
-            notice = f'<div class="notice"><strong>Verification boundary</strong><p>Recorded verification: {escape(verified)}. Status: {escape(str(meta.get("status", "supplementary source catalog")))}. Next review: {escape(due)}. These are inherited research records, not a new legal review.</p>{"<p><strong>Review overdue: check current governing authority before relying on this module.</strong></p>" if overdue else ""}<p>{self.anchor("limitations/", "Open questions and source limitations")}</p></div>'
+            notice = f'<p class="currency">Sources last checked <time datetime="{escape(verified)}">{escape(verified)}</time> · {self.anchor("limitations/", "Scope & methodology")}</p>'
+            if overdue:
+                notice += '<p class="currency due">This topic is due for review. Confirm the current rule before relying on it.</p>'
             if "coverage_matrix.yaml" in body or "not_started" in body:
-                notice += '<div class="notice archive-note"><strong>Archive reference note</strong><p>This preserved text may reference private migration controls or historical work statuses. The final archive has no pending-disposition records; unresolved legal questions remain unresolved. Use the public verification register for the current publication inventory. No legal proposition has been rewritten.</p></div>'
+                notice += '<p class="currency">Archive reference note: parts of this topic refer to earlier research records, now listed under ' + self.anchor("limitations/", "open research questions") + '.</p>'
             records = '<section class="claim-records"><h2 id="claim-records">Claim-level source records</h2>'
             for c in claims_by_module[front.get("module_id")]:
                 records += f'<details id="record-{c["claim_id"]}"><summary>{escape(c["claim_id"])} · {escape(c["verification_status"])}</summary><p>{escape(c["text"])}</p>{self.record_fields({k:c.get(k) for k in ("jurisdiction", "procedural_posture", "classification", "last_verified", "known_limitations", "researcher_notes")})}<p>Authorities: ' + "; ".join(self.authority_link(aid) for aid in c["authority_ids"]) + '</p></details>'
             records += '</section>'
             authorities = front.get("authority_ids", [])
             if authorities: records += '<section><h2>Linked authorities</h2><ul>' + ''.join('<li>' + self.authority_link(a) + '</li>' for a in authorities if a in self.by_auth) + '</ul></section>'
-            self.page(route, title, notice + '<article class="prose">' + rendered + '</article>' + records, "Canonical module", toc)
+            self.page(route, title, notice + '<article class="prose">' + rendered + '</article>' + records, "Module", toc)
             self.search.append({"title": title, "url": self.url(route), "kind": "Module", "text": re.sub(r"<[^>]*>", " ", rendered), "status": meta.get("status", "catalog"), "last_verified": verified})
 
     def authority_pages(self):
@@ -226,20 +313,20 @@ class Builder:
             else:
                 record += '<p class="notice">No accessible source URL is recorded. This source requires review.</p>'
             record += '<h2>Linked modules</h2><ul>' + ''.join('<li>' + self.module_link(m) + '</li>' for m in a["linked_module_ids"] if m in self.by_module) + '</ul>'
-            self.page("authorities/" + aid + "/", a["citation"], record + '<article class="prose">' + body + '</article>', "Authority record", toc)
+            self.page("authorities/" + aid + "/", a["citation"], record + '<article class="prose">' + body + '</article>', "Authority", toc)
             self.search.append({"title": a["citation"], "url": self.url("authorities/" + aid + "/"), "kind": "Authority", "text": a["title"] + " " + " ".join(a["citeable_propositions"]), "status": a["verification_status"], "last_verified": a["last_verified"]})
         rows = ''.join(f'<li data-filter-text="{escape((a["citation"] + " " + a["title"] + " " + a["authority_type"]).lower(), quote=True)}">{self.authority_link(a["authority_id"])}<span>{escape(a["authority_type"])} · {escape(a["last_verified"])}</span></li>' for a in sorted(self.authorities, key=lambda a:a["citation"]))
         self.page("authorities/", "Authority library", f'<h1>Follow the authority.</h1><p class="lede">{len(self.authorities)} structured authority records. Binding status, jurisdiction, source links, and treatment limits stay attached.</p><label for="library-filter">Filter authorities</label><input id="library-filter" data-filter="authority-list" type="search" placeholder="Citation, title, or type"><p data-filter-count="authority-list" aria-live="polite"></p><ul id="authority-list" class="directory">{rows}</ul>')
 
     def home(self):
         stats = [(len(self.modules), "modules"), (len(self.claims), "source-linked claims"), (len(self.authorities), "authority records"), (len(self.districts), "district-level courts")]
-        cards = [("process/", "01 / FIND THE ROUTE", "Explore the process", "Move through procedural stages and inspect conditional relationships—not a prediction of your outcome."), ("districts/", "02 / FIND THE COURT", "Courts & local rules", "Browse all 94 district-level courts and the cataloged rule sources. Source discovery is not rule-text verification."), ("authorities/", "03 / CHECK THE SOURCE", "Read the authority", "Open the source, see its jurisdiction and weight, and follow the claims that depend on it."), ("limitations/", "04 / KNOW THE LIMITS", "What is not verified", "See every unresolved review item, recorded dates, and the boundary between a build and legal verification.")]
-        content = '<section class="hero"><p class="eyebrow">LAW, MADE NAVIGABLE.</p><h1>Understand the route.<br><em>Check the source.</em></h1><p class="lede">A source-linked map of the federal criminal process—from investigation through review, custody, and reentry. Built as a personal research and engineering project.</p><div class="actions">' + self.anchor('process/', 'Explore the process →', 'button') + self.anchor('modules/', 'Browse the reference', 'button secondary') + '</div></section>'
+        cards = [("process/", "01 / FIND THE ROUTE", "Explore the process", "Move through each procedural stage and the conditions that lead from one step to the next."), ("districts/", "02 / FIND THE COURT", "Courts & local rules", "All 94 district-level courts, each linked to its official local rules and standing orders."), ("authorities/", "03 / CHECK THE SOURCE", "Read the authority", "Open the source, see its jurisdiction and weight, and follow the claims that depend on it."), ("limitations/", "04 / HOW IT WORKS", "Scope & methodology", "What the reference covers, how each statement is tied to its source, and how it is kept current.")]
+        content = '<section class="hero"><p class="eyebrow">FEDERAL CRIMINAL PROCESS</p><h1>Understand the route.<br><em>Check the source.</em></h1><p class="lede">A source-linked guide to the federal criminal process, from investigation through appeal, custody and reentry. Every statement links to the statute, rule or decision behind it.</p><div class="actions">' + self.anchor('process/', 'Explore the process →', 'button') + self.anchor('modules/', 'Browse the reference', 'button secondary') + '</div></section>'
         content += '<div class="stats">' + ''.join(f'<div><strong>{n:,}</strong><span>{label}</span></div>' for n,label in stats) + '</div>'
-        content += '<div class="notice"><strong>Transparent about its limits.</strong><p>Research baseline: ' + self.cfg['research_baseline'] + f'. {len(self.questions["items"])} unresolved review items remain visible. This publication is not a fresh legal review, a deadline calculator, or individualized advice. ' + self.anchor('limitations/', 'Read the verification boundary →') + '</p></div>'
+        content += '<p class="currency">Current through ' + human_date(self.cfg['research_baseline']) + '. General legal information, not legal advice. ' + self.anchor('limitations/', 'Scope & methodology') + '</p>'
         content += '<section class="cards">' + ''.join(f'<a class="card" href="{self.url(r)}"><span class="eyebrow">{k}</span><h2>{title}</h2><p>{desc}</p><span class="card-arrow" aria-hidden="true">↗</span></a>' for r,k,title,desc in cards) + '</section>'
         content += '<section><h2>Follow the stages</h2><div class="stage-strip">' + ''.join(self.anchor('modules/' + slug + '/', label) for slug,label in STAGES.items() if slug[0].isdigit() and slug not in {'00-system-overview','95-circuit-overlays','96-district-courts'}) + '</div></section>'
-        self.page('', self.cfg['title'], content, 'Independent personal project')
+        self.page('', self.cfg['title'], content, 'Practice reference')
         groups = defaultdict(list)
         for m in self.modules: groups[PurePosixPath(m['path']).parts[1]].append(m)
         body = '<h1>The complete reference.</h1><p class="lede">Browse by stage, then check the jurisdiction and verification boundary within each module.</p>'
@@ -279,7 +366,7 @@ class Builder:
 
     def limitations(self):
         counts = Counter(i['category'] for i in self.questions['items'])
-        body = '<h1>What this project<br><em>does not claim.</em></h1><p class="lede">Traceability is useful. It is not a guarantee of current law, complete treatment history, or the right result for an individual case.</p><div class="stats">' + ''.join(f'<div><strong>{n}</strong><span>{escape(k.replace("_"," "))}</span></div>' for k,n in counts.items()) + '</div><section class="notice"><strong>Research baseline: ' + self.cfg['research_baseline'] + '</strong><p>The publication build preserves recorded legal text and dates. No fresh proposition-level legal review or comprehensive citator check was performed for this release. A reachable URL does not verify its legal effect. Six company-specific legacy texts are withheld, with their IDs and hashes preserved; they are not silently rewritten.</p><p>Historical module references to internal work statuses are retained as archive context. The final archive coverage summary records dispositions for all items, but disposition is not verification. The register below is the public uncertainty inventory.</p></section><h2>Unresolved review register</h2><p>None of the legacy formulations below is adopted as canonical law.</p><label for="issue-filter">Filter by issue, jurisdiction, or ID</label><input id="issue-filter" type="search" data-filter="issue-list" placeholder="CA4, Rule 33, district…"><p data-filter-count="issue-list" aria-live="polite"></p><div id="issue-list">'
+        body = '<h1>Scope &amp; methodology</h1><p class="lede">How the reference is built, what it covers, and how to use it well.</p><div class="prose"><h2>What it covers</h2><p>The federal criminal process, from investigation and charging through trial, sentencing, appeal, post-conviction remedies, custody and supervised release. Circuit notes record where a circuit departs from or adds to the nationwide rules. The court directory links each district court to its official local rules.</p><h2>How statements are sourced</h2><p>Each legal statement is a separate record tied to the statutes, rules or decisions that support it, and links to that authority. Each authority record shows its citation, issuing body, weight and official source.</p><h2>Currency</h2><p>The reference is current through ' + human_date(self.cfg['research_baseline']) + '. Each topic shows when its sources were last checked. Laws, rules and local practice change; confirm the current text of any rule before relying on it, and check local rules and standing orders for the court involved.</p><h2>Not legal advice</h2><p>This is general legal information. It does not create an attorney-client relationship, and it cannot account for the facts of a particular case. For advice about a specific case, consult a licensed attorney.</p><h2>Open research questions</h2><p>The items below are questions the research has not yet resolved, such as a circuit that has not addressed an issue or a local rule whose text has not been reviewed. They are listed so they can be checked and closed.</p></div><div class="stats">' + ''.join(f'<div><strong>{n}</strong><span>{escape(k.replace("_"," "))}</span></div>' for k,n in counts.items()) + '</div><h2>Open research register</h2><p>Earlier draft wording listed here is shown for review only and is not a statement of law.</p><label for="issue-filter">Filter by issue, jurisdiction, or ID</label><input id="issue-filter" type="search" data-filter="issue-list" placeholder="CA4, Rule 33, district…"><p data-filter-count="issue-list" aria-live="polite"></p><div id="issue-list">'
         for item in self.questions['items']:
             cid = item['coverage_id']
             module_path = item.get('responsible_module')
@@ -290,7 +377,7 @@ class Builder:
                 detail += '<p>' + escape(item['withholding_reason']) + '</p><p class="quiet">Original text SHA-256: ' + item['original_text_sha256'] + '</p>'
             if module_path in self.route_map: detail += '<p>' + self.anchor(self.route_map[module_path], 'Read the replacement module') + '</p>'
             body += f'<details id="{cid}" data-filter-text="{escape((cid+" "+item["description"]+" "+item["category"]).lower(),quote=True)}"><summary>{escape(item["description"])}</summary><p class="quiet">{cid}</p>{detail}</details>'
-        self.page('limitations/', 'Verification and limitations', body + '</div>', 'Uncertainty is part of the record')
+        self.page('limitations/', 'Scope & methodology', body + '</div>', 'Reference')
 
     def sources_page(self):
         body = '<h1>Go to the source.</h1><p class="lede">Recorded primary-source locations and historical retrieval dates. The linked authority record explains the proposition and its limitations.</p><label for="source-filter">Filter source registry</label><input id="source-filter" type="search" data-filter="source-list" placeholder="Statute, court, agency…"><p data-filter-count="source-list" aria-live="polite"></p><ul id="source-list" class="directory">'
@@ -316,7 +403,7 @@ class Builder:
             rendered = re.sub(r'id="([^"]+)"', lambda x:'id="'+prefix+x.group(1)+'"', rendered)
             rendered = re.sub(r'href="#([^"]+)"', lambda x:'href="#'+prefix+x.group(1)+'"', rendered)
             body += f'<article class="prose master-module" id="{m["module_id"]}"><p>{self.module_link(m["module_id"])}</p>{rendered}</article>'
-            master_md.append(text)
+            master_md.append(self.MD_LINK.sub(lambda x: x.group(1) + self.md_resolve(src, x.group(2)) + x.group(3), text))
         self.page('master/', 'Printable master reference', body)
         self.write('downloads/MASTER_FEDERAL_JUDICIAL_PROCESS.md', '\n\n---\n\n'.join(master_md))
         for folder in ('data','sources','diagrams'):
@@ -334,14 +421,14 @@ class Builder:
                     info = zipfile.ZipInfo(src.relative_to(ROOT).as_posix(), (2026,8,26,0,0,0))
                     info.compress_type = zipfile.ZIP_DEFLATED
                     archive.writestr(info,src.read_bytes())
-            for name in ('PUBLICATION_POLICY.md','LICENSE_STATUS.md','release.json'):
+            for name in ('PUBLICATION_POLICY.md','LICENSE_STATUS.md','LICENSE','LICENSE-CONTENT.md','release.json'):
                 info = zipfile.ZipInfo(name,(2026,8,26,0,0,0))
                 info.compress_type = zipfile.ZIP_DEFLATED
                 archive.writestr(info,(ROOT/name).read_bytes())
         body = '<h1>Take the reference with you.</h1><p class="lede">Portable records and a printable master, generated from the same canonical content. Verification limits travel with the data.</p><div class="cards">' + self.anchor('master/','Open printable master / Save as PDF →','card') + self.anchor('downloads/MASTER_FEDERAL_JUDICIAL_PROCESS.md','Download master Markdown →','card') + self.anchor('downloads/reference-data.zip','Download complete public reference data →','card') + '</div><h2>Structured data</h2><ul class="directory">'
         for path in sorted((self.out / 'downloads/data').glob('*')):
             body += '<li>' + self.anchor('downloads/data/'+path.name,path.name) + '</li>'
-        self.page('downloads/', 'Downloads', body + '</ul><div class="notice"><strong>Licensing remains an owner decision.</strong><p>No open-source or Creative Commons permission grant has been applied. Public-domain and third-party material retains its own legal status. See the rights notice before reuse.</p></div>')
+        self.page('downloads/', 'Downloads', body + '</ul><p class="currency">Content and data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Code: MIT. ' + self.anchor('about/', 'Attribution and license details') + '</p>')
 
     def build(self):
         if self.out.is_symlink() or (self.out.exists() and self.out.resolve() != ROOT / 'dist/site'):
@@ -355,7 +442,7 @@ class Builder:
                 if not candidate.is_relative_to(self.out.resolve()): raise ValueError('Unsafe previous manifest path')
                 if candidate.is_file(): candidate.unlink()
             prior.unlink()
-        self.home(); self.module_pages(); self.authority_pages(); self.district_pages()
+        self.home(); self.module_pages(); self.authority_pages(); self.markdown_twins(); self.district_pages()
         self.process(); self.limitations(); self.sources_page(); self.master_and_downloads()
         about = (ROOT / 'PUBLICATION_POLICY.md').read_text(encoding='utf-8') + '\n\n' + (ROOT / 'LICENSE_STATUS.md').read_text(encoding='utf-8')
         body, _ = self.render('PUBLICATION_POLICY.md',about)

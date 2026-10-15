@@ -1,9 +1,9 @@
-# Rights and licensing status
+# License
 
-**The owner has not selected an open-source or Creative Commons license for this publication. No such permission grant is applied by this preparation.**
+The content and data of the Federal Judicial Process reference are licensed under **CC BY 4.0** (see `LICENSE-CONTENT.md`). The code is licensed under the **MIT License** (see `LICENSE`).
 
-Publication and download availability do not themselves grant a general right to reuse protectable original code, explanations, diagrams, or presentation. Obtain the appropriate permission before reuse beyond what the law independently permits. This notice makes no ownership claim over public-domain statutes, court opinions, government materials, or third-party work; those materials retain their own legal status and applicable terms.
+Anyone may use, share and adapt the reference, including commercially, with credit to "Federal Judicial Process by Jason93" and a link to the license. Statutes, rules, court opinions and other U.S. government works are in the public domain and are not covered by these licenses. Third-party material keeps its own terms.
 
-Dependencies retain their respective licenses. The project's dependency list is not a relicensing of those packages. Legal-source citations and attribution must remain intact. A public source snapshot is not proof of exclusive ownership of all included material.
+Contributions are accepted under the same licenses.
 
-The owner may choose a license later. That decision is intentionally separate from preparing and testing this personal website. No license registration purchase is required to keep this decision pending.
+This reference is general legal information, not legal advice, and is provided without warranty.

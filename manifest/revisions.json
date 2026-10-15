@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "description": "Approved edits to files whose imported bytes are pinned in import_receipt.json. Each entry chains from the previous hash to the new one.",
+  "revisions": [
+    {
+      "path": "docs/00-system-overview/index.md",
+      "previous_sha256": "dc00f04546ba57e250e1b39bb4306767dad39bdb5e614a0f42c48542be457791",
+      "sha256": "5dcbfa2de3989f32c5d290a81b87aecfeea4e4a5021b228e1df893aa49ae331f",
+      "date": "2026-10-15",
+      "reason": "Rewritten as a reader-facing overview without repository filenames. The module contains no claims; no legal statement changed."
+    }
+  ]
+}

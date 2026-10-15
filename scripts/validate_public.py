@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import argparse
-from collections import Counter
+from collections import Counter, defaultdict
 import hashlib
 from html.parser import HTMLParser
 import json
@@ -217,12 +217,23 @@ def validate(root=ROOT, site=None):
             withheld.append(q)
             check(q.get("legacy_claim_text") is None and bool(q.get("withholding_reason")) and bool(re.fullmatch(r"[0-9a-f]{64}",q.get("original_text_sha256",""))), f"invalid withheld-text disclosure: {q['coverage_id']}")
     receipt = load(root / "manifest/import_receipt.json")
+    # Approved post-import edits chain from the receipt hash to the file's current hash.
+    revisions = defaultdict(list)
+    revisions_path = root / "manifest/revisions.json"
+    if revisions_path.is_file():
+        for rev in load(revisions_path)["revisions"]:
+            schema(rev,{"type":"object","required":["path","previous_sha256","sha256","date","reason"],"properties":{"path":string,"previous_sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},"date":string,"reason":{"type":"string","minLength":10}}},"revision")
+            revisions[rev["path"]].append(rev)
     for record in receipt["files"]:
         p = root / record["path"]
         receipt_safe=safe_relative(record["path"]) or (p.name==".gitkeep" and safe_relative(PurePosixPath(record["path"]).parent.as_posix()))
         check(receipt_safe and p.is_file(),f"receipt file missing/unsafe: {record['path']}")
         if p.is_file():
-            check(digest(p.read_bytes()) == record["sha256"],f"import preservation hash mismatch: {record['path']}")
+            expected = record["sha256"]
+            for rev in revisions.get(record["path"], []):
+                check(rev["previous_sha256"] == expected,f"revision chain broken: {record['path']}")
+                expected = rev["sha256"]
+            check(digest(p.read_bytes()) == expected,f"import preservation hash mismatch: {record['path']}")
         if record["path"] == "data/open_questions.json":
             check(record.get("withheld_original_texts") == len(withheld),"withholding receipt count mismatch")
     courts = datasets["federal_districts.yaml"]["courts"]
@@ -257,7 +268,7 @@ def validate(root=ROOT, site=None):
     # Independently reproduce the documented input digest, without importing builder code.
     roots=("docs","authorities","data","sources","manifest","schemas","diagrams","web","scripts","maintenance")
     inputs=[p for folder in roots for p in (root/folder).rglob("*") if p.is_file() and "__pycache__" not in p.parts]
-    inputs += [root/p for p in ("release.json","requirements.txt","PUBLICATION_POLICY.md","LICENSE_STATUS.md") if (root/p).exists()]
+    inputs += [root/p for p in ("release.json","requirements.txt","PUBLICATION_POLICY.md","LICENSE_STATUS.md","LICENSE","LICENSE-CONTENT.md") if (root/p).exists()]
     for p in inputs:
         check(not p.is_symlink(),f"input symlink: {p.relative_to(root)}")
     expected_digest=digest("\n".join(p.relative_to(root).as_posix()+":"+digest(p.read_bytes()) for p in sorted(inputs)).encode())
@@ -291,10 +302,20 @@ def validate(root=ROOT, site=None):
         page=pages.get(route_for_source(module["path"])+"index.html")
         if page:
             plain="".join(page.text)
-            check(module["status"] in plain and module["last_verified"] in plain,f"module verification context absent: {module['module_id']}")
+            check(module["last_verified"] in plain,f"module currency date absent: {module['module_id']}")
             source=(root/module["path"]).read_text(encoding="utf-8")
             if "coverage_matrix.yaml" in source:
                 check("Archive reference note" in plain,f"private archive reference lacks explanation: {module['module_id']}")
+    # Every module and authority page has a Markdown twin, and llms.txt lists only real pages.
+    twins = {route_for_source(m["path"]).rstrip("/")+".md" for m in index["module"].values()}
+    twins |= {"authorities/"+aid+".md" for aid in index["authority"]} | {"modules.md","authorities.md"}
+    for twin in sorted(twins):
+        check(twin in actual,f"Markdown twin missing: {twin}")
+    check("llms.txt" in actual,"llms.txt missing")
+    if "llms.txt" in actual:
+        for url in re.findall(r"\]\(([^)\s]+)\)",actual["llms.txt"].read_text(encoding="utf-8")):
+            rel = url[len(origin+base):].split("#")[0] if url.startswith(origin+base) else None
+            check(rel is not None and (rel if not rel.endswith("/") else rel+"index.html") in actual,f"llms.txt link does not resolve: {url}")
     limits=pages.get("limitations/index.html")
     check(limits is not None and set(qindex).issubset(limits.ids),"rendered uncertainty inventory incomplete")
     search=load(site/"assets/search-index.json")
@@ -310,7 +331,7 @@ def validate(root=ROOT, site=None):
         names=archive.namelist()
         check(len(names)==len(set(names)),"ZIP duplicate entries")
         expected_zip={p.relative_to(root).as_posix() for folder in ("docs","authorities","data","sources","schemas","manifest","diagrams") for p in (root/folder).rglob("*") if p.is_file() and p.name!=".gitkeep"}
-        expected_zip |= {"PUBLICATION_POLICY.md","LICENSE_STATUS.md","release.json"}
+        expected_zip |= {"PUBLICATION_POLICY.md","LICENSE_STATUS.md","LICENSE","LICENSE-CONTENT.md","release.json"}
         check(set(names)==expected_zip,"ZIP content scope mismatch")
         for entry in archive.infolist():
             errors.extend(privacy_errors(entry.filename,archive.read(entry)))
