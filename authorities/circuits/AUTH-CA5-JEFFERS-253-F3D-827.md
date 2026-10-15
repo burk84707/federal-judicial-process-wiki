@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA5-JEFFERS-253-F3D-827
-authority_type: case
-citation: 253 F.3d 827 (5th Cir. 2001) (per curiam)
-issuing_body: United States Court of Appeals for the Fifth Circuit
-jurisdiction: federal_fifth_circuit
-decision_or_issuance_date: 2000-11-27
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca5
-last_verified: 2026-08-25
 ---
 
 # Jeffers v. Chandler

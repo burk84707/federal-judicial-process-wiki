@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-NIXON-418-US-683
-authority_type: case
-citation: United States v. Nixon, 418 U.S. 683 (1974)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 1974-07-24
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # United States v. Nixon
@@ -23,8 +15,3 @@ The subpoena concerned precisely identified presidential recordings, and later c
 ## Official source and pinpoints
 
 418 U.S. 683, 698–702 (1974): <https://www.govinfo.gov/content/pkg/USREPORTS-418/pdf/USREPORTS-418-683.pdf>
-
-## Linked records
-
-- Module: `MOD-ARRAIGNMENT-PRETRIAL-DISCLOSURE`
-- Claim: `CLM-DISC-036`

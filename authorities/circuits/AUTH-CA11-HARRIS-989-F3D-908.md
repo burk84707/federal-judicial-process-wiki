@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA11-HARRIS-989-F3D-908
-authority_type: case
-citation: 989 F.3d 908 (11th Cir. 2021)
-issuing_body: United States Court of Appeals for the Eleventh Circuit
-jurisdiction: federal_eleventh_circuit
-decision_or_issuance_date: 2021-02-26
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca11
-last_verified: 2026-08-25
 ---
 
 # United States v. Harris

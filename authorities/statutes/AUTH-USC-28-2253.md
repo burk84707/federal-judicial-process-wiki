@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-USC-28-2253
-authority_type: statute
-citation: 28 U.S.C. § 2253
-issuing_body: Congress of the United States
-jurisdiction: federal
-publication_status: official_preliminary_code
-precedential_status: binding_statute
-negative_treatment_status: current text checked through laws in effect on 2026-08-17
-last_verified: 2026-08-25
 ---
 
 # 28 U.S.C. § 2253
@@ -26,8 +18,3 @@ Section 2253 does not supply notice timing, local appellate procedure, or interl
 ## Official source
 
 OLRC preliminary edition, laws in effect August 17, 2026: <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2253>
-
-## Linked records
-
-- Module: `MOD-2241-APPEAL-AND-RELIEF`
-- Claims: `CLM-2241-001` through `CLM-2241-005`

@@ -6,6 +6,12 @@ It is not a law firm, a government service, a court filing tool, an outcome pred
 
 ## What the dates mean
 
+Each module and authority page shows two dates, and each one means only what it says.
+
+**Legal review** is the date the record's statements were last checked against their sources. It changes only when a reviewer re-checks the record. It never moves because a build ran or a link opened.
+
+**Links checked** is the date an automated run last requested every recorded source URL. "Opened" means the server returned the page in full. It shows that the link works on that day. It does not show that the text or the law is unchanged, and it does not replace a citator check of later history and treatment. The run and its evidence are recorded in `data/link_check.json`.
+
 The inherited research baseline is **August 26, 2026**. Individual claims and records retain their own verification dates and qualifications. A label such as `verified_current` is the original research classification as of its recorded date; it is not a representation that publication or a successful website build freshly verified the law.
 
 This publication preparation does not perform a new proposition-level legal review, a full subsequent-treatment search, or district-rule semantic review. The original archive records 1,080 claims, including three partially verified and four historical claims. Those distinctions remain in the records.

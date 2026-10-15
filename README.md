@@ -31,23 +31,23 @@ python -m venv .venv
 On macOS/Linux use `.venv/bin/python` in place of `.venv/Scripts/python.exe`.
 Open `http://127.0.0.1:8766/legal/federal-process/`. The preview is loopback-only; it does not publish anything. Press Ctrl+C to stop it.
 
-For a repeatable dated build use `python scripts/build_public.py --as-of 2026-10-02` with the environment activated. The build date controls overdue-review warnings; it does not change recorded verification dates. Never backdate a legal review to match a build.
+Builds are repeatable: without `--as-of`, the build date is taken from `build_as_of` in `release.json`. The build date controls overdue-review warnings; it does not change recorded verification dates. Never backdate a legal review to match a build.
 
 ## Canonical vs generated
 
 | Location | Role |
 | --- | --- |
-| `docs/` | Canonical module prose and claim markers |
-| `authorities/` | Authority cards and source limitations |
-| `data/` | Claims, authorities, structured controls, graph, court catalog and public uncertainty register |
+| `docs/` | Canonical module prose and claim markers; the header carries only the module ID |
+| `authorities/` | Authority card prose; the header carries only the authority ID |
+| `data/` | The only home for record metadata: claims, authorities, modules, structured controls, graph, court catalog, link-check record and public uncertainty register |
 | `sources/` | Recorded source registry, not bulk copyrighted snapshots |
-| `manifest/import_receipt.json` | Original input hashes and disclosed provenance transformations |
+| `manifest/import_receipt.json`, `manifest/revisions.json` | Original input hashes, and the chain of approved edits since import |
 | `web/` | Small framework-free reference-site assets |
 | `scripts/`, `tests/` | Reproducible build, validation and review-only maintenance |
 | `dist/site/` | Generated deployment payload; ignored by Git |
 | `.review/` | Private local monitoring evidence; ignored by Git |
 
-Generated pages do not control the legal content. Edit canonical source records together, preserve IDs and qualifications, then rebuild and validate. A verifier checks internal consistency and publication safety; it does not replace review of the actual law.
+Generated pages do not control the legal content. Edit the data record, not a page header; record each edit to a pinned file with `scripts/record_revisions.py`; then rebuild and validate. See [CONTRIBUTING.md](CONTRIBUTING.md). A verifier checks internal consistency and publication safety; it does not replace review of the actual law.
 
 The Downloads page is retained but unlisted: no navigation entry, no sitemap entry, and a `noindex, nofollow` instruction. Its direct URL and files still work. This is not authentication or a paywall and does not prevent copying. The reference theme uses the personal site's near-black, warm-white, gold, glass-panel and monospace design language without adding its animated backdrop to reading pages.
 

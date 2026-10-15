@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-SENTENCING-INDEX
-title: Sentencing
-stage: 40-sentencing/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Sentencing

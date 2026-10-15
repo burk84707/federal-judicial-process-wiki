@@ -1,28 +1,5 @@
 ---
 module_id: MOD-RULE-33-NEW-TRIAL
-title: Federal Rule of Criminal Procedure 33 — New Trial
-module_type: post_trial_motion
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - post_verdict
-  - direct_review_adjacent
-status: verified_with_limitations
-effective_through: 2026-08-24
-last_verified: 2026-08-24
-authority_ids:
-  - AUTH-FRCRIM-P-1
-  - AUTH-FRCRIM-P-33
-  - AUTH-FRCRIM-P-45
-  - AUTH-SCOTUS-EBERHART-546-US-12
-  - AUTH-SCOTUS-US-V-SMITH-331-US-469
-related_modules: []
-tags:
-  - new-trial
-  - post-trial-motion
-  - newly-discovered-evidence
-  - filing-deadline
 ---
 
 # Federal Rule of Criminal Procedure 33 — New Trial

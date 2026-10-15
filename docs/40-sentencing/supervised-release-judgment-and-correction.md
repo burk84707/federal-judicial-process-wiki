@@ -1,32 +1,5 @@
 ---
 module_id: MOD-SUPERVISED-RELEASE-JUDGMENT-CORRECTION
-title: Supervised Release, Judgment, and Sentence Correction
-module_type: sentencing
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - sentencing
-  - immediate_post_sentencing
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRCRIM-P-32-2-35-36
-  - AUTH-FRCRIM-P-32-51-52
-  - AUTH-USC-18-3582-3583
-  - AUTH-SCOTUS-TAPIA-564-US-319
-  - AUTH-SCOTUS-HOLGUIN-HERNANDEZ-589-US-169
-related_modules:
-  - MOD-PRESENTENCE-GUIDELINES-SENTENCING-HEARING
-  - MOD-SECTION-3582-REMEDY-ROUTER
-tags:
-  - supervised-release
-  - conditions
-  - judgment
-  - rule-35
-  - rule-36
-  - preservation
 ---
 
 # Supervised Release, Judgment, and Sentence Correction

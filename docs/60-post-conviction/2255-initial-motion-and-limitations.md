@@ -1,37 +1,5 @@
 ---
 module_id: MOD-2255-INITIAL-MOTION-LIMITATIONS
-title: Initial Section 2255 Motion, Filing, and Limitations
-module_type: post_conviction_initial_motion
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - collateral_review
-  - initial_section_2255_motion
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-USC-28-2255
-  - AUTH-RG-2255-1-3
-  - AUTH-FRCP-15-59-60
-  - AUTH-SCOTUS-CLAY-537-US-522
-  - AUTH-SCOTUS-DODD-545-US-353
-  - AUTH-SCOTUS-JOHNSON-544-US-295
-  - AUTH-SCOTUS-HOLLAND-560-US-631
-  - AUTH-SCOTUS-MCQUIGGIN-569-US-383
-  - AUTH-SCOTUS-MAYLE-545-US-644
-  - AUTH-SCOTUS-DAY-547-US-198
-related_modules:
-  - MOD-2255-DEFAULT-INNOCENCE-IAC
-  - MOD-2255-PROCEDURE-APPEAL-POSTJUDGMENT
-  - MOD-2244-2255-SUCCESSIVE-GATEKEEPING
-tags:
-  - section-2255
-  - initial-motion
-  - limitations
-  - equitable-tolling
-  - relation-back
 ---
 
 # Initial § 2255 Motion, Filing, and Limitations

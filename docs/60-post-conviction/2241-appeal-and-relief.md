@@ -1,38 +1,5 @@
 ---
 module_id: MOD-2241-APPEAL-AND-RELIEF
-title: 28 U.S.C. § 2241 — Appeal, Certificate of Appealability, and Relief
-module_type: post_conviction
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - habeas
-  - final_order
-  - appeal
-  - remedy
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-USC-28-2241
-  - AUTH-USC-28-2243
-  - AUTH-USC-28-2253
-  - AUTH-USC-28-2255
-  - AUTH-FRAP-3-4-22
-  - AUTH-CA3-BRUCE-868-F3D-170
-  - AUTH-SCOTUS-PREISER-411-US-475
-  - AUTH-SCOTUS-WILKINSON-544-US-74
-  - AUTH-CA9-RODRIGUEZ-COPENHAVER-823-F3D-1238
-related_modules:
-  - MOD-2244-2255-SUCCESSIVE-GATEKEEPING
-  - MOD-GOOD-CONDUCT-TIME
-  - MOD-FIRST-STEP-ACT-TIME-CREDITS
-tags:
-  - section-2241
-  - certificate-of-appealability
-  - appeal
-  - habeas-relief
-  - saving-clause
 ---
 
 # 28 U.S.C. § 2241 — Appeal, Certificate of Appealability, and Relief

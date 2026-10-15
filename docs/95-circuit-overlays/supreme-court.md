@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-SCOTUS
-title: Supreme Court and Nationwide Floor
-stage: circuit-overlays/supreme-court
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Supreme Court and Nationwide Floor

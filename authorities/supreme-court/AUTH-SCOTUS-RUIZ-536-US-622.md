@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-RUIZ-536-US-622
-authority_type: case
-citation: United States v. Ruiz, 536 U.S. 622 (2002)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 2002-06-24
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # United States v. Ruiz
@@ -23,8 +15,3 @@ The opinion distinguished information establishing factual innocence and does no
 ## Official source and pinpoints
 
 536 U.S. 622, 628–33 (2002): <https://www.govinfo.gov/content/pkg/USREPORTS-536/pdf/USREPORTS-536-622.pdf>
-
-## Linked records
-
-- Module: `MOD-PLEA-NEGOTIATIONS-AGREEMENTS-RULE-11`
-- Claim: `CLM-PLEA-008`

@@ -1,9 +1,5 @@
 ---
 module_id: MOD-EXECUTIVE-CLEMENCY-PARDON-COMMUTATION
-title: Executive Clemency — Pardon, Commutation, Reprieve, and Remission
-stage: post-conviction/executive-clemency-pardon-commutation
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Executive Clemency — Pardon, Commutation, Reprieve, and Remission

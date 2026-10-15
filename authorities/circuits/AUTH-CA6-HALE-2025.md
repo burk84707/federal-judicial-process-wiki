@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA6-HALE-2025
-authority_type: case
-citation: No. 24-5362, slip op. (6th Cir. Jan. 30, 2025)
-issuing_body: United States Court of Appeals for the Sixth Circuit
-jurisdiction: federal_sixth_circuit
-decision_or_issuance_date: 2025-01-30
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca6
-last_verified: 2026-08-25
 ---
 
 # United States v. Hale

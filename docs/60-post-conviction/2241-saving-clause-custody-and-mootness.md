@@ -1,38 +1,5 @@
 ---
 module_id: MOD-2241-SAVING-CLAUSE-CUSTODY-MOOTNESS
-title: 28 U.S.C. § 2241 — Section 2255(e) Saving Clause, Custody, and Mootness
-module_type: post_conviction
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - habeas
-  - saving_clause
-  - custody
-  - mootness
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-USC-28-2241
-  - AUTH-USC-28-2255
-  - AUTH-SCOTUS-JONES-HENDRIX-599-US-465
-  - AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426
-  - AUTH-SCOTUS-JONES-CUNNINGHAM-371-US-236
-  - AUTH-SCOTUS-MALENG-490-US-488
-  - AUTH-SCOTUS-CARAFAS-391-US-234
-  - AUTH-SCOTUS-SPENCER-523-US-1
-related_modules:
-  - MOD-2241-FILING-JURISDICTION-RESPONDENT-EXHAUSTION
-  - MOD-2241-APPEAL-AND-RELIEF
-  - MOD-2255-INITIAL-MOTION-LIMITATIONS
-  - MOD-2255-LATER-FILINGS-CLASSIFICATION-AUTHORIZATION
-tags:
-  - section-2241
-  - section-2255e
-  - saving-clause
-  - custody
-  - mootness
 ---
 
 # 28 U.S.C. § 2241 — Section 2255(e) Saving Clause, Custody, and Mootness

@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA11
-title: Eleventh Circuit Overlay
-stage: circuit-overlays/eleventh-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Eleventh Circuit Overlay

@@ -1,9 +1,5 @@
 ---
 module_id: MOD-BOP-DETAINERS-DISCIPLINE-RDAP
-title: Detainers, Prison Discipline, Good-Time Consequences, and RDAP
-stage: sentence-execution/bop-detainers-discipline-rdap
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Detainers, Prison Discipline, Good-Time Consequences, and RDAP

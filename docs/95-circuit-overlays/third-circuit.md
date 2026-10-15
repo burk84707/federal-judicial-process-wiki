@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA3
-title: Third Circuit Overlay
-stage: circuit-overlays/third-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Third Circuit Overlay

@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA10-MANNIE-971-F3D-1145
-authority_type: case
-citation: 971 F.3d 1145 (10th Cir. 2020)
-issuing_body: United States Court of Appeals for the Tenth Circuit
-jurisdiction: federal_tenth_circuit
-decision_or_issuance_date: 2020-08-18
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca10
-last_verified: 2026-08-25
 ---
 
 # United States v. Mannie

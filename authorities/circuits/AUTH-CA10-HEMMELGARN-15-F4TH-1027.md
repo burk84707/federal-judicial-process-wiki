@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA10-HEMMELGARN-15-F4TH-1027
-authority_type: case
-citation: 15 F.4th 1027 (10th Cir. 2021)
-issuing_body: United States Court of Appeals for the Tenth Circuit
-jurisdiction: federal_tenth_circuit
-decision_or_issuance_date: 2021-10-08
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca10
-last_verified: 2026-08-25
 ---
 
 # United States v. Hemmelgarn

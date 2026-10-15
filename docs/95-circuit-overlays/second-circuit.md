@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA2
-title: Second Circuit Overlay
-stage: circuit-overlays/second-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Second Circuit Overlay

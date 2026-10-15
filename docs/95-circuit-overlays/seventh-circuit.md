@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA7
-title: Seventh Circuit Overlay
-stage: circuit-overlays/seventh-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Seventh Circuit Overlay

@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA4-MUHAMMAD-16-F4TH-126
-authority_type: case
-citation: 16 F.4th 126 (4th Cir. 2021)
-issuing_body: United States Court of Appeals for the Fourth Circuit
-jurisdiction: federal_fourth_circuit
-decision_or_issuance_date: 2021-10-20
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca4
-last_verified: 2026-08-25
 ---
 
 # United States v. Muhammad

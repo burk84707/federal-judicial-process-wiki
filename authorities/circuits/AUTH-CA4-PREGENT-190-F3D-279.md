@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA4-PREGENT-190-F3D-279
-authority_type: case
-citation: 190 F.3d 279 (4th Cir. 1999)
-issuing_body: United States Court of Appeals for the Fourth Circuit
-jurisdiction: federal_fourth_circuit
-decision_or_issuance_date: 1999-08-10
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca4
-last_verified: 2026-08-25
 ---
 
 # United States v. Pregent

@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAY-CA10
-title: Tenth Circuit Overlay
-stage: circuit-overlays/tenth-circuit
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Tenth Circuit Overlay

@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA8-HOUCK-2-F4TH-1082
-authority_type: case
-citation: 2 F.4th 1082 (8th Cir. 2021)
-issuing_body: United States Court of Appeals for the Eighth Circuit
-jurisdiction: federal_eighth_circuit
-decision_or_issuance_date: 2021-06-29
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca8
-last_verified: 2026-08-25
 ---
 
 # United States v. Houck

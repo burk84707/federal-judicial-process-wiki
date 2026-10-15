@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CADC-MATHIS-GARDNER-783-F3D-1286
-authority_type: case
-citation: 783 F.3d 1286 (D.C. Cir. 2015)
-issuing_body: United States Court of Appeals for the D.C. Circuit
-jurisdiction: federal_dc_circuit
-decision_or_issuance_date: 2015-04-21
-publication_status: published_precedential_opinion
-precedential_status: binding_in_cadc
-last_verified: 2026-08-25
 ---
 
 # United States v. Mathis-Gardner

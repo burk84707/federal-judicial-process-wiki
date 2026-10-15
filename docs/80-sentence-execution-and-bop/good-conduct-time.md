@@ -1,28 +1,5 @@
 ---
 module_id: MOD-GOOD-CONDUCT-TIME
-title: 18 U.S.C. § 3624(b) — Good Conduct Time
-module_type: sentence_execution
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - imprisonment
-  - sentence_computation
-status: verified_with_limitations
-effective_through: 2026-08-24
-last_verified: 2026-08-24
-authority_ids:
-  - AUTH-USC-18-3624
-  - AUTH-CFR-28-523-20
-  - AUTH-PL-115-391-SEC-102-B
-  - AUTH-SCOTUS-BARBER-560-US-474
-  - AUTH-BOP-FSA-GCT-FAQ
-related_modules: []
-tags:
-  - good-conduct-time
-  - sentence-computation
-  - first-step-act
-  - bureau-of-prisons
 ---
 
 # 18 U.S.C. § 3624(b) — Good Conduct Time

@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA11-SAWYER-326-F3D-1363
-authority_type: case
-citation: 326 F.3d 1363 (11th Cir. 2003)
-issuing_body: United States Court of Appeals for the Eleventh Circuit
-jurisdiction: federal_eleventh_circuit
-decision_or_issuance_date: 2003-04-14
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca11
-last_verified: 2026-08-25
 ---
 
 # Sawyer v. Holder

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter, defaultdict
+from datetime import date
 import hashlib
 from html.parser import HTMLParser
 import json
@@ -19,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TEXT_EXTENSIONS = {".md", ".html", ".css", ".js", ".json", ".jsonl", ".yaml", ".yml", ".svg", ".xml", ".drawio", ".txt", ".py", ".toml"}
 PRIVATE_PARTS = {".git", ".venv", "__pycache__", "logs", "migration", ".review", ".env", "WORK_STATE.yaml", "coverage_matrix.yaml", "PRIVATE_SOURCE_ALIASES.json"}
 MARKER = re.compile(r"<!--\s*claim:(CLM-[A-Z0-9-]+)\s+authorities:([^ ]+)\s+status:([^ ]+)\s*-->")
+HEADER = re.compile(r"\A---\n(.*?)\n---\n", re.S)
 LEAK_PATTERNS = {
     "company reference": re.compile(r"zip" + r"law", re.I),
     "private absolute path": re.compile(r"(?<![A-Za-z0-9])(?:[A-Za-z]:[\\/](?:Users|GitHub_Repos)[\\/]|/(?:Users|home)/|file://)", re.I),
@@ -173,6 +175,38 @@ def validate(root=ROOT, site=None):
         refs(a["linked_module_ids"], index["module"], "authority module")
         cards = list((root / "authorities").rglob(a["authority_id"] + ".md"))
         check(len(cards) == 1, f"missing/duplicate authority card: {a['authority_id']}")
+    # Single source of truth: headers carry only their ID; metadata lives in data/.
+    for doc in sorted((root / "docs").rglob("*.md")):
+        header = HEADER.match(doc.read_text(encoding="utf-8"))
+        keys = set((yaml.safe_load(header.group(1)) or {}).keys()) if header else set()
+        if "module_id" in keys:
+            check(keys == {"module_id"}, f"module header must carry only module_id: {doc.relative_to(root).as_posix()}")
+    for card in sorted((root / "authorities").rglob("AUTH-*.md")):
+        header = HEADER.match(card.read_text(encoding="utf-8"))
+        front = (yaml.safe_load(header.group(1)) or {}) if header else {}
+        check(front == {"authority_id": card.stem}, f"authority card header must be only its authority_id: {card.relative_to(root).as_posix()}")
+    # Links are stored both ways; both sides must agree exactly.
+    cited_by, listed_by = defaultdict(set), defaultdict(set)
+    for c in index["claim"].values():
+        for aid in c["authority_ids"]:
+            cited_by[aid].add(c["claim_id"])
+    for m in index["module"].values():
+        for aid in m["authority_ids"]:
+            listed_by[aid].add(m["module_id"])
+        cited = {aid for cid in m["claim_ids"] if cid in index["claim"] for aid in index["claim"][cid]["authority_ids"]}
+        check(cited <= set(m["authority_ids"]), f"module omits authorities its claims cite: {m['module_id']}")
+        refs(m.get("related_modules", []), index["module"], "related module")
+    for aid, a in index["authority"].items():
+        check(set(a["linked_claim_ids"]) == cited_by[aid], f"authority claim links not two-way: {aid}")
+        check(set(a["linked_module_ids"]) == listed_by[aid], f"authority module links not two-way: {aid}")
+    citations = [a["citation"] for a in index["authority"].values()]
+    check(len(citations) == len(set(citations)), "duplicate authority citation")
+    link_path = root / "data/link_check.json"
+    if link_path.is_file():
+        lc = load(link_path)
+        schema(lc, {"type":"object","required":["schema_version","kind","checked_on","method","counts","authorities","sources"],"properties":{"kind":{"const":"link_check"},"checked_on":{"type":"string","format":"date"},"authorities":{"type":"object","additionalProperties":{"enum":["opened","failed"]}},"sources":{"type":"object","additionalProperties":{"type":"object","required":["url","result"],"properties":{"result":{"enum":["opened","failed"]}}}}}}, "link_check")
+        refs(lc.get("authorities", {}), index["authority"], "link-check authority")
+        refs(lc.get("sources", {}), source_index, "link-check source")
     for n in index["node"].values():
         refs([n["module_id"]], index["module"], "node module")
         refs(n.get("claim_ids", []), index["claim"], "node claim")
@@ -302,7 +336,8 @@ def validate(root=ROOT, site=None):
         page=pages.get(route_for_source(module["path"])+"index.html")
         if page:
             plain="".join(page.text)
-            check(module["last_verified"] in plain,f"module currency date absent: {module['module_id']}")
+            shown = date.fromisoformat(module["last_verified"])
+            check(f"Legal review {shown:%B} {shown.day}, {shown.year}" in plain,f"module legal review date absent: {module['module_id']}")
             source=(root/module["path"]).read_text(encoding="utf-8")
             if "coverage_matrix.yaml" in source:
                 check("Archive reference note" in plain,f"private archive reference lacks explanation: {module['module_id']}")

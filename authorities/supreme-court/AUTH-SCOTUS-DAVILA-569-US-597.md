@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-DAVILA-569-US-597
-authority_type: case
-citation: United States v. Davila, 569 U.S. 597 (2013)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 2013-06-13
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # United States v. Davila
@@ -23,8 +15,3 @@ Preservation, timing, content, context, later proceedings, and the plea decision
 ## Official source and pinpoints
 
 569 U.S. 597, 602–13 (2013): <https://www.supremecourt.gov/opinions/boundvolumes/569bv.pdf>
-
-## Linked records
-
-- Module: `MOD-PLEA-NEGOTIATIONS-AGREEMENTS-RULE-11`
-- Claim: `CLM-PLEA-047`

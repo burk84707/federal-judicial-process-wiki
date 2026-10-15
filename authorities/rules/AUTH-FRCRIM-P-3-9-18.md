@@ -1,12 +1,5 @@
 ---
 authority_id: AUTH-FRCRIM-P-3-9-18
-authority_type: rule
-citation: Federal Rules of Criminal Procedure 3–9 and 18
-issuing_body: Supreme Court of the United States and Congress
-jurisdiction: federal_nationwide
-publication_status: official_current_rules
-precedential_status: binding_rule
-last_verified: 2026-08-25
 ---
 
 # Federal Rules of Criminal Procedure 3–9 and 18
@@ -22,8 +15,3 @@ The rules do not decide case-specific probable cause, indictment sufficiency, su
 ## Official source
 
 <https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf>
-
-## Linked records
-
-- Module: `MOD-FEDERAL-CHARGING-COMMENCEMENT`
-- Claims: `CLM-CHARGE-002` through `CLM-CHARGE-007`, `CLM-CHARGE-009` through `CLM-CHARGE-021`, and `CLM-CHARGE-033`

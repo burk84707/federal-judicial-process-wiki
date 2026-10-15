@@ -1,12 +1,5 @@
 ---
 authority_id: AUTH-USC-28-2255
-authority_type: statute
-citation: 28 U.S.C. § 2255
-issuing_body: Congress of the United States
-jurisdiction: federal
-precedential_status: enacted_positive_law_title
-verification_status: verified
-last_verified: 2026-08-24
 ---
 
 # 28 U.S.C. § 2255
@@ -28,8 +21,3 @@ The section text and currentness statement were verified against the Office of t
 ## Material limitations
 
 The statute does not itself decide whether a later filing is legally “second or successive” or whether either substantive gate is satisfied. Those questions require independently verified controlling cases.
-
-## Linked records
-
-- Module: `MOD-2244-2255-SUCCESSIVE-GATEKEEPING`
-- Claims: `CLM-2244-008`, `CLM-2244-014`

@@ -1,0 +1,34 @@
+name: The law changed
+description: A statute, rule, regulation or decision has been amended, issued, overruled or limited.
+labels: [law-change]
+body:
+  - type: input
+    id: authority
+    attributes:
+      label: New or changed authority
+      placeholder: e.g. Fed. R. Crim. P. 17 (amended), or a new decision with its citation
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Effective or decision date
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed in the legal text or holding
+    validations:
+      required: true
+  - type: textarea
+    id: affected
+    attributes:
+      label: Pages or claim IDs affected, if known
+  - type: input
+    id: link
+    attributes:
+      label: Link to the official text
+  - type: markdown
+    attributes:
+      value: A changed web page is not, by itself, a change in the law. Do not include confidential case records or personal information.

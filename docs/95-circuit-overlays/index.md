@@ -1,9 +1,5 @@
 ---
 module_id: MOD-CIRCUIT-OVERLAYS-INDEX
-title: Circuit Overlays
-stage: circuit-overlays/index
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Circuit Overlays

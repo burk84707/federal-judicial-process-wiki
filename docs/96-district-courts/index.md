@@ -1,8 +1,5 @@
 ---
 module_id: MOD-DISTRICT-COURTS-LOCAL-RULES
-title: Federal District and Territorial Court Map
-status: verified_with_limitations
-last_verified: 2026-08-26
 ---
 
 # Federal District and Territorial Court Map

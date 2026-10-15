@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA2-SALADINO-7-F4TH-120
-authority_type: case
-citation: 7 F.4th 120 (2d Cir. 2021)
-issuing_body: United States Court of Appeals for the Second Circuit
-jurisdiction: federal_second_circuit
-decision_or_issuance_date: 2021-08-04
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca2
-last_verified: 2026-08-25
 ---
 
 # United States v. Saladino

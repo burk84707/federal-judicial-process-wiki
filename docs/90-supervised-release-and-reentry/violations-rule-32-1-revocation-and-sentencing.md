@@ -1,9 +1,5 @@
 ---
 module_id: MOD-SUPERVISED-RELEASE-REVOCATION
-title: Supervised Release Violations, Rule 32.1, Revocation, and Sentencing
-stage: supervised-release/violations-rule-32-1-revocation-sentencing
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Supervised Release Violations, Rule 32.1, Revocation, and Sentencing

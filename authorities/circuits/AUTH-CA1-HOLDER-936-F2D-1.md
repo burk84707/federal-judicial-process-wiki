@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA1-HOLDER-936-F2D-1
-authority_type: case
-citation: 936 F.2d 1 (1st Cir. 1991)
-issuing_body: United States Court of Appeals for the First Circuit
-jurisdiction: federal_first_circuit
-decision_or_issuance_date: 1991-06-10
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca1
-last_verified: 2026-08-26
 ---
 
 # United States v. Holder

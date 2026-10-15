@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA4-REED-58-F4TH-816
-authority_type: case
-citation: 58 F.4th 816 (4th Cir. 2023)
-issuing_body: United States Court of Appeals for the Fourth Circuit
-jurisdiction: federal_fourth_circuit
-decision_or_issuance_date: 2023-02-01
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca4
-last_verified: 2026-08-25
 ---
 
 # United States v. Reed

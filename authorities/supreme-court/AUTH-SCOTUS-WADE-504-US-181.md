@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-WADE-504-US-181
-authority_type: case
-citation: 504 U.S. 181 (1992)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_or_issuance_date: 1992-05-18
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Wade v. United States
@@ -23,10 +15,3 @@ Use only for the bounded proposition stated here. The exact Rule 35 or 36 postur
 ## Official source and pinpoints
 
 504 U.S. 181 (1992), 504 U.S. 185–86: <https://www.govinfo.gov/content/pkg/USREPORTS-504/pdf/USREPORTS-504-181.pdf>
-
-## Linked records
-
-- Module: `MOD-RULES-35-36-MODIFICATION-APPEALS`
-- Claim: `CLM-R3536-021`
-- Claim: `CLM-R3536-022`
-- Claim: `CLM-R3536-023`

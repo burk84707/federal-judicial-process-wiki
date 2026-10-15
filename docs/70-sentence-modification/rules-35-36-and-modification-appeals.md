@@ -1,9 +1,5 @@
 ---
 module_id: MOD-RULES-35-36-MODIFICATION-APPEALS
-title: Rules 35 and 36 — Sentence Correction, Assistance, Record Error, and Appeals
-stage: sentence-modification/rules-35-36-modification-appeals
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Rules 35 and 36 — Sentence Correction, Assistance, Record Error, and Appeals

@@ -1,27 +1,5 @@
 ---
 module_id: MOD-2244-2255-SUCCESSIVE-GATEKEEPING
-title: 28 U.S.C. §§ 2244 and 2255(h) — Successive-Application Gatekeeping
-module_type: post_conviction_gatekeeping
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - collateral_review
-  - successive_application_authorization
-status: verified_with_limitations
-effective_through: 2026-08-24
-last_verified: 2026-08-24
-authority_ids:
-  - AUTH-USC-28-2244
-  - AUTH-USC-28-2255
-  - AUTH-SCOTUS-BOWE-607-US-13
-related_modules: []
-tags:
-  - second-or-successive
-  - section-2244
-  - section-2255
-  - authorization
-  - bowe
 ---
 
 # 28 U.S.C. §§ 2244 and 2255(h) — Successive-Application Gatekeeping

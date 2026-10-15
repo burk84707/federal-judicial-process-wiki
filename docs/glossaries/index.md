@@ -1,9 +1,5 @@
 ---
 module_id: MOD-GLOSSARIES-INDEX
-title: Controlled Federal Process Glossary
-stage: auxiliary/glossaries
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Controlled Federal Process Glossary

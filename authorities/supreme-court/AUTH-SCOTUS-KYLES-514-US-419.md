@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-KYLES-514-US-419
-authority_type: case
-citation: Kyles v. Whitley, 514 U.S. 419 (1995)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 1995-04-19
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Kyles v. Whitley
@@ -23,8 +15,3 @@ The opinion does not define every boundary of a prosecution team for every separ
 ## Official source and pinpoints
 
 514 U.S. 419, 434–39 (1995): <https://www.govinfo.gov/content/pkg/USREPORTS-514/pdf/USREPORTS-514-419.pdf>
-
-## Linked records
-
-- Module: `MOD-ARRAIGNMENT-PRETRIAL-DISCLOSURE`
-- Claims: `CLM-DISC-021` and `CLM-DISC-022`

@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-FRAP-3-4-22
-authority_type: rule
-citation: Fed. R. App. P. 3, 4, 22
-issuing_body: Supreme Court of the United States under the Rules Enabling Act, subject to congressional review
-jurisdiction: federal_nationwide
-publication_status: official_current_rules
-precedential_status: binding_national_procedural_rules
-negative_treatment_status: official rules amended through 2025 checked on 2026-08-25
-last_verified: 2026-08-25
 ---
 
 # Federal Rules of Appellate Procedure 3, 4, and 22
@@ -28,9 +20,3 @@ Actual calendaring requires the parties, entry date, postjudgment motions, inmat
 ## Official source
 
 U.S. Courts rules pamphlet amended through December 1, 2025: <https://www.uscourts.gov/sites/default/files/document/federal-rules-of-appellate-procedure.pdf>
-
-## Linked records
-
-- Module: `MOD-2241-APPEAL-AND-RELIEF`
-- Module: `MOD-SECTION-3582-REMEDY-ROUTER`
-- Claims: `CLM-2241-006`, `CLM-2241-007`, `CLM-3582-025`, `CLM-3582-026`

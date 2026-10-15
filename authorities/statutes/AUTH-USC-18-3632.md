@@ -1,12 +1,5 @@
 ---
 authority_id: AUTH-USC-18-3632
-authority_type: statute
-citation: 18 U.S.C. § 3632
-issuing_body: Congress of the United States
-jurisdiction: federal
-publication_status: official_preliminary_code
-precedential_status: binding_enacted_positive_law_title
-last_verified: 2026-08-24
 ---
 
 # 18 U.S.C. § 3632
@@ -25,8 +18,3 @@ The exact current text controls individualized offense screening. This record do
 ## Official source
 
 <https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3632>
-
-## Linked records
-
-- Module: `MOD-FIRST-STEP-ACT-TIME-CREDITS`
-- Claims: `CLM-FTC-001`, `CLM-FTC-002`, `CLM-FTC-004` through `CLM-FTC-006`, and `CLM-FTC-009` through `CLM-FTC-011`

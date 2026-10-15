@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-LAGOS-584-US-577
-authority_type: case
-citation: 584 U.S. 577 (2018)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_date: 2018-05-29
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # Lagos v. United States
@@ -23,8 +15,3 @@ Use only for the bounded proposition in the linked canonical module; offense-spe
 ## Official source and pinpoints
 
 584 U.S. 577 (2018), 584 U.S. 580–85: <https://www.supremecourt.gov/opinions/17pdf/16-1519_o7jp.pdf>
-
-## Linked records
-
-- Module: `MOD-MONETARY-PENALTIES-RESTITUTION-FORFEITURE`
-- Claim: `CLM-SENT-044`

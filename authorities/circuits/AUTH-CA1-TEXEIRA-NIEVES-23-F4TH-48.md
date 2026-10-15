@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA1-TEXEIRA-NIEVES-23-F4TH-48
-authority_type: case
-citation: 23 F.4th 48 (1st Cir. 2022)
-issuing_body: United States Court of Appeals for the First Circuit
-jurisdiction: federal_first_circuit
-decision_or_issuance_date: 2022-01-12
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca1
-last_verified: 2026-08-25
 ---
 
 # United States v. Texeira-Nieves

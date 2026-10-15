@@ -1,29 +1,5 @@
 ---
 module_id: MOD-DIRECT-REVIEW-REHEARING-MANDATE-CERTIORARI
-title: Rehearing, Mandate, Certiorari, and Direct-Review Finality
-module_type: direct_review
-jurisdiction: federal
-geographic_scope:
-  - nationwide
-procedural_stage:
-  - direct_review
-status: verified_with_limitations
-effective_through: 2026-08-25
-last_verified: 2026-08-25
-authority_ids:
-  - AUTH-FRAP-40-41
-  - AUTH-SCOTUS-RULES-10-12-13-14-39
-  - AUTH-SCOTUS-CLAY-537-US-522
-  - AUTH-SCOTUS-GRIFFITH-479-US-314
-related_modules:
-  - MOD-DIRECT-APPEAL-NOTICE-JURISDICTION-RECORD
-  - MOD-DIRECT-REVIEW-STANDARDS-BRIEFING-ANDERS
-tags:
-  - rehearing
-  - rehearing-en-banc
-  - mandate
-  - certiorari
-  - finality
 ---
 
 # Rehearing, Mandate, Certiorari, and Direct-Review Finality

@@ -1,11 +1,5 @@
 ---
 authority_id: AUTH-AO-CURRENT-RULES
-authority_type: rule
-issuing_body: Administrative Office of the United States Courts
-jurisdiction: federal_nationwide
-publication_status: official_judiciary_rules_information
-precedential_status: statute_and_applicable_promulgated_rules_control
-last_verified: 2026-08-25
 ---
 
 # Current Rules of Practice and Procedure
@@ -21,8 +15,3 @@ This record establishes the official publication framework. It does not verify t
 ## Official source
 
 <https://www.uscourts.gov/forms-rules/current-rules-practice-procedure>
-
-## Linked records
-
-- Module: `MOD-DISTRICT-COURTS-LOCAL-RULES`
-- Claim: `CLM-DISTRICT-MAP-002`

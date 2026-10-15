@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA1-BARRETT-178-F3D-34
-authority_type: case
-citation: 178 F.3d 34 (1st Cir. 1999)
-issuing_body: United States Court of Appeals for the First Circuit
-jurisdiction: federal_first_circuit
-decision_or_issuance_date: 1999-05-27
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca1
-last_verified: 2026-08-25
 ---
 
 # United States v. Barrett

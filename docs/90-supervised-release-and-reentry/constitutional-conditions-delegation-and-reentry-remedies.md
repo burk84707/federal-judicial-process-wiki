@@ -1,9 +1,5 @@
 ---
 module_id: MOD-SUPERVISED-RELEASE-CONDITIONS-REENTRY
-title: Constitutional Conditions, Delegation, and Reentry Remedies
-stage: supervised-release/constitutional-conditions-delegation-reentry
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Constitutional Conditions, Delegation, and Reentry Remedies

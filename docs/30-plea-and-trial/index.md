@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-PLEA-TRIAL-INDEX
-title: Plea and Trial
-stage: 30-plea-and-trial/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Plea and Trial

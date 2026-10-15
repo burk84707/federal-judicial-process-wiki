@@ -1,9 +1,5 @@
 ---
 module_id: MOD-BOP-PRERELEASE-HOME-CONFINEMENT
-title: Prerelease Custody, Residential Reentry, Home Confinement, and the CARES Act
-stage: sentence-execution/bop-prerelease-home-confinement
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Prerelease Custody, Residential Reentry, Home Confinement, and the CARES Act

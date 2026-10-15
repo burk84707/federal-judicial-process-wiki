@@ -1,9 +1,5 @@
 ---
 module_id: MOD-STAGE-SUPERVISED-REENTRY-INDEX
-title: Supervised Release and Reentry
-stage: 90-supervised-release-and-reentry/index
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Supervised Release and Reentry

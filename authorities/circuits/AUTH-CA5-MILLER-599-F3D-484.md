@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA5-MILLER-599-F3D-484
-authority_type: case
-citation: 599 F.3d 484 (5th Cir. 2010)
-issuing_body: United States Court of Appeals for the Fifth Circuit
-jurisdiction: federal_fifth_circuit
-decision_or_issuance_date: 2010-03-08
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca5
-last_verified: 2026-08-26
 ---
 
 # United States v. Miller

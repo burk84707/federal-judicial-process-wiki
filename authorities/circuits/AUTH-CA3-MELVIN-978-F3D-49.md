@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-CA3-MELVIN-978-F3D-49
-authority_type: case
-citation: 978 F.3d 49 (3d Cir. 2020)
-issuing_body: United States Court of Appeals for the Third Circuit
-jurisdiction: federal_third_circuit
-decision_or_issuance_date: 2020-10-16
-publication_status: published_precedential_opinion
-precedential_status: binding_in_ca3
-last_verified: 2026-08-25
 ---
 
 # United States v. Melvin

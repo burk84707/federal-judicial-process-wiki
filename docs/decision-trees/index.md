@@ -1,9 +1,5 @@
 ---
 module_id: MOD-DECISION-TREES-INDEX
-title: Federal Process Decision Trees
-stage: auxiliary/decision-trees
-status: verified_with_limitations
-last_verified: 2026-08-25
 ---
 
 # Federal Process Decision Trees

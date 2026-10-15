@@ -4,19 +4,149 @@
   "title": "Canonical module record",
   "type": "object",
   "additionalProperties": false,
-  "required": ["module_id", "title", "stage", "path", "status", "claim_ids", "authority_ids", "last_verified", "review_interval_days", "next_review_date", "sources_checked", "reviewer_status"],
+  "required": [
+    "module_id",
+    "title",
+    "stage",
+    "path",
+    "status",
+    "claim_ids",
+    "authority_ids",
+    "last_verified",
+    "review_interval_days",
+    "next_review_date",
+    "sources_checked",
+    "reviewer_status"
+  ],
   "properties": {
-    "module_id": {"type": "string", "pattern": "^MOD-[A-Z0-9-]+$"},
-    "title": {"type": "string", "minLength": 1},
-    "stage": {"type": "string", "minLength": 1},
-    "path": {"type": "string", "pattern": "^docs/"},
-    "status": {"enum": ["not_started", "in_progress", "verified", "verified_with_limitations", "needs_update", "blocked"]},
-    "claim_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^CLM-[A-Z0-9-]+$"}},
-    "authority_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^AUTH-[A-Z0-9-]+$"}},
-    "last_verified": {"type": "string", "format": "date"},
-    "review_interval_days": {"type": "integer", "minimum": 1},
-    "next_review_date": {"type": "string", "format": "date"},
-    "sources_checked": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^SRC-[A-Z0-9-]+$"}},
-    "reviewer_status": {"enum": ["pending", "primary_source_review_complete", "primary_source_review_complete_with_documented_limitations", "overdue", "needs_update"]}
+    "module_id": {
+      "type": "string",
+      "pattern": "^MOD-[A-Z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "path": {
+      "type": "string",
+      "pattern": "^docs/"
+    },
+    "status": {
+      "enum": [
+        "not_started",
+        "in_progress",
+        "verified",
+        "verified_with_limitations",
+        "needs_update",
+        "blocked"
+      ]
+    },
+    "claim_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^CLM-[A-Z0-9-]+$"
+      }
+    },
+    "authority_ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^AUTH-[A-Z0-9-]+$"
+      }
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date"
+    },
+    "review_interval_days": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "next_review_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources_checked": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z0-9-]+$"
+      }
+    },
+    "reviewer_status": {
+      "enum": [
+        "pending",
+        "primary_source_review_complete",
+        "primary_source_review_complete_with_documented_limitations",
+        "overdue",
+        "needs_update"
+      ]
+    },
+    "jurisdiction": {
+      "enum": [
+        "federal_nationwide",
+        "federal_first_circuit",
+        "federal_second_circuit",
+        "federal_third_circuit",
+        "federal_fourth_circuit",
+        "federal_fifth_circuit",
+        "federal_sixth_circuit",
+        "federal_seventh_circuit",
+        "federal_eighth_circuit",
+        "federal_ninth_circuit",
+        "federal_tenth_circuit",
+        "federal_eleventh_circuit",
+        "federal_dc_circuit"
+      ]
+    },
+    "module_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "geographic_scope": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "procedural_stage": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "effective_through": {
+      "type": "string",
+      "format": "date"
+    },
+    "related_modules": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^MOD-[A-Z0-9-]+$"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
   }
 }

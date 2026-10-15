@@ -1,13 +1,5 @@
 ---
 authority_id: AUTH-SCOTUS-ADDONIZIO-442-US-178
-authority_type: case
-citation: 442 U.S. 178 (1979)
-issuing_body: Supreme Court of the United States
-jurisdiction: federal_nationwide
-decision_or_issuance_date: 1979-06-04
-publication_status: published_united_states_reports
-precedential_status: binding
-last_verified: 2026-08-25
 ---
 
 # United States v. Addonizio
@@ -23,8 +15,3 @@ Use only for the bounded proposition in the linked § 2255 module. State-habeas 
 ## Official source and pinpoints
 
 442 U.S. 178 (1979), 442 U.S. 184–90: <https://www.govinfo.gov/content/pkg/USREPORTS-442/pdf/USREPORTS-442-178.pdf>
-
-## Linked records
-
-- Module: `MOD-2255-DEFAULT-INNOCENCE-IAC`
-- Claim: `CLM-2255-026`
