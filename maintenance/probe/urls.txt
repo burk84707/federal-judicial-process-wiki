@@ -1,4 +1,5 @@
 # Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
-# Format: URL [regex for links | !text for the opening text | !fulltext for the whole document]
-# BOP PS 5160.06, full text, for the legal review of CLM-BOPSC-009 and CLM-BOPSC-023
-https://www.bop.gov/policy/progstat/5160_006.pdf !fulltext
+# Format: URL [regex for links | !text | !fulltext | !find:<regex> for text around each match]
+# Carmona v. BOP, 243 F.3d 629: decision date from the Caselaw Access Project (Harvard Law School) reporter data
+https://static.case.law/f3d/243/CasesMetadata.json !find:"first_page": ?"629"
+https://static.case.law/f3d/243/cases/0629-01.json !find:decision_date|"name"|docket_number

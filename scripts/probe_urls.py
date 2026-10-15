@@ -3,7 +3,8 @@
 Input: a text file with one URL per line, optionally followed by a space and a
 regular expression. For an HTML page, links whose URL matches the expression
 are listed, so a listing page can be searched for the current document link.
-A line ending in " !text" (or " !fulltext" for the whole document) prints the opening text of the document instead
+A line ending in " !text" (or " !fulltext" for the whole document) prints the opening text, and
+" !find:<regex>" prints the text around each match of the document instead
 (PDF text needs the pypdf package), so its title, date and rescission notice
 can be read without a browser.
 Uses the same vetted fetcher as the source monitor. Prints one JSON line per URL.
@@ -41,6 +42,12 @@ def probe(url: str, pattern: str | None, timeout: float) -> dict:
         out.update(result="failed", reason=exc.kind, detail=str(exc)[:160])
         return out
     body = evidence.pop("body", b"")
+    if pattern and pattern.startswith("!find:"):
+        text = body.decode("utf-8", "replace")
+        rx = re.compile(pattern[len("!find:"):])
+        out.update(result="opened", final_url=evidence["final_url"], content_type=evidence.get("content_type"),
+                   bytes=evidence["bytes"], matches=[text[max(0, m.start() - 300):m.end() + 300] for m in rx.finditer(text)][:10])
+        return out
     if pattern == "!fulltext":
         out.update(result="opened", final_url=evidence["final_url"], content_type=evidence.get("content_type"),
                    bytes=evidence["bytes"], text=document_text(body, evidence.get("content_type") or "", pages=60)[:80000])

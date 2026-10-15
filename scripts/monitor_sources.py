@@ -20,7 +20,7 @@ import uuid
 import yaml
 
 MAX_BYTES = 16 * 1024 * 1024
-REPUTABLE_HOSTS = {"www.courtlistener.com", "courtlistener.com", "storage.courtlistener.com", "law.justia.com",
+REPUTABLE_HOSTS = {"www.courtlistener.com", "courtlistener.com", "storage.courtlistener.com", "static.case.law", "law.justia.com",
                    "cases.justia.com", "openjurist.org", "www.openjurist.org",
                    "www.law.cornell.edu"}
 REDIRECTS = {301, 302, 303, 307, 308}
