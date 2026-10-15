@@ -95,3 +95,4 @@
 .currency { margin: 0 0 1.6rem; padding-bottom: .9rem; border-bottom: 1px solid var(--line, #d8d7d1); font: .78rem/1.6 var(--mono, ui-monospace, monospace); color: var(--dim, #67696e); }
 .currency a { color: inherit; }
 .currency.due { color: var(--gold, #795d00); }
+.page-meta{justify-content:flex-start}.page-meta>span:first-child{margin-right:auto}.page-meta .md-link{align-self:flex-start;color:inherit;text-decoration:underline;text-underline-offset:3px}.page-meta .md-link:hover,.page-meta .md-link:focus-visible{color:var(--gold,#795d00)}
