@@ -698,8 +698,7 @@
     "relationship": "may_lead_to",
     "condition": "a condition or delegation is challenged",
     "claim_ids": [
-      "CLM-SRCOND-001",
-      "CLM-SRCOND-008"
+      "CLM-SRCOND-001"
     ]
   },
   {
@@ -886,7 +885,7 @@
     "relationship": "may_lead_to",
     "condition": "supervised release is disputed",
     "claim_ids": [
-      "CLM-SRTERM-029"
+      "CLM-SRTERM-018"
     ]
   },
   {

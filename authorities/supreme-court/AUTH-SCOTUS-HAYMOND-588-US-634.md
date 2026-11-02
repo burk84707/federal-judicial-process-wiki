@@ -14,4 +14,4 @@ Use only for the bounded proposition and express limitations in the linked canon
 
 ## Official source and pinpoints
 
-588 U.S. 634 (2019), 588 U.S. 657–61 (Breyer, J., concurring): <https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf>
+588 U.S. 634 (2019), 588 U.S. 657–61 (Breyer, J., concurring): <https://www.supremecourt.gov/opinions/preliminaryprint/588US2PP_final.pdf>

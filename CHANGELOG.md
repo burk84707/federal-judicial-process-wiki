@@ -2,6 +2,16 @@
 
 Release identity is the `version` in `release.json` plus the source digest printed in each page footer. Legal review dates are recorded per record and never change because of a release.
 
+## 1.3.0 — 2026-11-02 (draft; not published)
+
+Status: Owner approved; double legal review completed; licensed-attorney approval not recorded.
+
+- Corrections from the October 30 – November 2, 2026 review of the research archive: two independent reviewers checked every claim against saved copies of its sources; Guidelines claims were rechecked for the amendments effective November 1, 2026 and now cite the 2026 Guidelines Manual; the November 1, 2026 double legal review was applied. 418 claims rewritten, 10 deleted, 2 added (CLM-3582-027, CLM-DISTRICT-MAP-003); 1,072 claims in all. Each claim keeps the date it was actually reviewed.
+- 46 new authority records, including the 2026 Guidelines Manual provisions, the November 2026 Guidelines amendments (91 Fed. Reg. 24,088), *Fernandez v. United States* and *Rutherford v. United States*, the Rule 35 advisory committee notes, 19 U.S. Code sections, and the current 28 C.F.R. part 523 subpart E.
+- Twelve circuit-overlay claims that rely on 18 U.S.C. § 3582 now cite the § 3582 record rather than the § 3583 page.
+- Link targets: U.S. Code stays on GovInfo with the Law Revision Counsel's current page as mirror; Supreme Court opinions use the Court's preliminary prints. 101 of the 103 new URLs were confirmed; two Constitution Annotated pages refuse automated checks.
+- Full change report, by module, with reasons and source quotations: `maintenance/correction-release-1.3.0/`.
+
 ## 1.2.1 — 2026-10-15
 
 - Eight sources that refuse automated requests (four Third Circuit opinions, the Seventh Circuit rules, three Constitution Annotated pages) were checked by hand in a browser and recorded as available. 377 of 380 sources are now available.

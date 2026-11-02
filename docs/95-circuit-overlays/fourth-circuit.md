@@ -23,12 +23,12 @@ This page prevents nationwide rules from being mistaken for Fourth Circuit doctr
 - **CLM-CIR4-002:** In the Fourth Circuit, § 404 does not require a reduction even when the existing sentence exceeds a revised statutory maximum, but the record must demonstrate that the district court considered every nonfrivolous argument presented; an ambiguous record can require vacatur and remand. [*United States v. Reed*, 58 F.4th 816, 819–23 (4th Cir. 2023)](https://www.ca4.uscourts.gov/opinions/197368.P.pdf)
 
   Limitation: Binding only in the Fourth Circuit. Reed recognizes that Concepcion displaced Collington's mandatory-reduction rule; it does not guarantee a reduction or make every sparse order reversible.
-<!-- claim:CLM-CIR4-003 authorities:AUTH-USC-18-3582-3583,AUTH-CA4-MUHAMMAD-16-F4TH-126 status:verified_current -->
+<!-- claim:CLM-CIR4-003 authorities:AUTH-USC-18-3582,AUTH-CA4-MUHAMMAD-16-F4TH-126 status:verified_current -->
 - **CLM-CIR4-003:** In the Fourth Circuit, § 3582(c)(1)(A)'s threshold requirement is nonjurisdictional and waived if not timely raised; after first asking the warden, a defendant may file upon full administrative exhaustion or 30 days after the warden's receipt, whichever occurs first, even if the warden denied the request during those 30 days. [*United States v. Muhammad*, 16 F.4th 126, 129–31 (4th Cir. 2021)](https://www.ca4.uscourts.gov/opinions/207520.P.pdf)
 
   Limitation: Binding only in the Fourth Circuit. Muhammad addresses the statutory filing gateway, not whether later judicial grounds must match the warden request or the merits of compassionate release.
-<!-- claim:CLM-CIR4-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA4-PREGENT-190-F3D-279 status:verified_current -->
-- **CLM-CIR4-004:** In the Fourth Circuit, § 3583(e)(1) ordinarily authorizes a conduct-based inquiry and permits consideration of a broad range of interests-of-justice factors, but it is not a mechanism for collaterally attacking an original, unappealed sentence. [*United States v. Pregent*, 190 F.3d 279, 282–83 (4th Cir. 1999)](https://www.ca4.uscourts.gov/opinions/Published/986309.P.pdf)
+<!-- claim:CLM-CIR4-004 authorities:AUTH-CA4-PREGENT-190-F3D-279 status:verified_current -->
+- **CLM-CIR4-004:** In the Fourth Circuit, § 3583(e)(1), in the typical case, allows a conduct-based inquiry into the continued necessity for supervision after the individual has served one full year on supervised release, and its interest-of-justice language permits consideration of a broad range of factors; the court must conclude that termination is warranted both by the individual’s conduct and by the interest of justice. The statute is not a mechanism for collaterally attacking an original, unappealed sentence. [*United States v. Pregent*, 190 F.3d 279, slip op. at 6–7 (4th Cir. 1999)](https://www.ca4.uscourts.gov/opinions/Published/986309.P.pdf)
 
   Limitation: Binding only in the Fourth Circuit. Pregent reviewed denial for abuse of discretion and did not create entitlement to termination whenever conduct and interests of justice favor relief; the original-sentence challenge belongs in the procedurally proper review vehicle.
 

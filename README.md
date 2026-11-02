@@ -7,12 +7,12 @@ A personal, source-linked federal criminal-process reference by **Jason93**.
 ## What is here
 
 - 66 canonical modules spanning investigation, pretrial, plea/trial, sentencing, review, post-conviction remedies, prison processes and reentry.
-- 1,080 atomic claims and 380 structured authority records with source links and qualifications.
+- 1,072 atomic claims and 426 structured authority records with source links and qualifications.
 - An interactive, accessible process explorer over 81 nodes and 103 conditional relationships.
 - A searchable directory of all 94 district-level courts and 1,466 cataloged source entries.
 - Search, printable master compilation, portable source/data downloads, and all 468 unresolved review items.
 
-These counts describe the inherited source set, **not a claim that every item is current or verified**. The research baseline is **2026-08-26**, with individual recorded dates preserved. Three canonical claims are partially verified and four are historical. All 94 district-rule text reviews remain unresolved. The build does not provide a fresh legal review or a citator guarantee.
+These counts describe the inherited source set, **not a claim that every item is current or verified**. The research baseline is **2026-08-26**, with individual recorded dates preserved. Release 1.3.0 applies corrections from an owner-approved double legal review (October 30 – November 2, 2026); licensed-attorney approval is not recorded. One canonical claim is partially verified and four are historical. All 94 district-rule text reviews remain unresolved. The build does not provide a fresh legal review or a citator guarantee.
 
 ## Run locally
 

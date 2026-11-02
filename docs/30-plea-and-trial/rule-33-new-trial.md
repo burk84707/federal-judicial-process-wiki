@@ -20,13 +20,13 @@ After a nonjury trial, the court may take additional testimony and enter a new j
 
 ## Who may invoke it and proper proceeding
 
-<!-- claim:CLM-R33-011 authorities:AUTH-FRCRIM-P-1,AUTH-FRCRIM-P-33 status:verified_current -->
-Rule 33 operates as a motion in the federal criminal proceeding and is decided by the district court that conducted the trial. [Fed. R. Crim. P. 1(a)(1), 33](https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-app.pdf)
+<!-- claim:CLM-R33-011 authorities:AUTH-FRCRIM-2025-PAMPHLET status:verified_current -->
+A Rule 33 new trial is sought by the defendant's motion under the Criminal Rules, which govern the procedure in all criminal proceedings in the United States district courts; on that motion, "the court may vacate any judgment and grant a new trial if the interest of justice so requires." [Fed. R. Crim. P. 1(a)(1), 33(a) (Dec. 1, 2025 ed.)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf)
 
 Rule 33 itself contains no administrative-exhaustion or certificate-of-appealability procedure. This observation about the rule's text does not decide whether a different remedy is available or whether another doctrine applies to the underlying issue.
 
 <!-- claim:CLM-R33-010 authorities:AUTH-FRCRIM-P-33,AUTH-SCOTUS-US-V-SMITH-331-US-469 status:verified_current -->
-A court may not use Rule 33 to order a new trial on its own initiative after the applicable motion period has expired. [United States v. Smith, 331 U.S. 469, 473–76 (1947)](https://www.govinfo.gov/content/pkg/USREPORTS-331/pdf/USREPORTS-331-469.pdf)
+Rule 33(a) authorizes a new trial only "[u]pon the defendant's motion," and the 1966 Advisory Committee Note states that a judge has no power to order a new trial on his own motion, while leaving intact the court's power in certain circumstances, before verdict or finding of guilty, to declare a mistrial and order a new trial on its own motion. Construing the earlier rule, *Smith* held that the Government was entitled to writs vacating a new-trial order the district judge entered on his own initiative after the conviction had been affirmed and the defendant had been imprisoned, reasoning that "expiration of the time within which relief can openly be asked of the judge, terminates the time within which it can properly be granted on the court's own initiative." [Fed. R. Crim. P. 33(a) & advisory committee's note to 1966 amendment](https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-app.pdf); [*United States v. Smith*, 331 U.S. 469, 470–71, 475, 477 (1947)](https://www.govinfo.gov/content/pkg/USREPORTS-331/pdf/USREPORTS-331-469.pdf)
 
 ## Track one: newly discovered evidence
 
@@ -55,8 +55,8 @@ The legacy draft assigns categories such as trial error, jury misconduct, prosec
 <!-- claim:CLM-R33-007 authorities:AUTH-FRCRIM-P-45 status:verified_current -->
 For a Rule 33 period stated in days, Rule 45 excludes the triggering day, counts every intervening day, and carries the deadline to the next non-weekend, non-holiday day when the last day falls on a Saturday, Sunday, or legal holiday. [Fed. R. Crim. P. 45(a)(1)](https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-app.pdf)
 
-<!-- claim:CLM-R33-008 authorities:AUTH-FRCRIM-P-45 status:verified_current -->
-Rule 45(b)(1) permits an extension on a timely motion for good cause and permits a post-deadline extension when the failure to act resulted from excusable neglect; Rule 45(b)(2)'s current exception applies to Rule 35, not Rule 33. [Fed. R. Crim. P. 45(b)](https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-app.pdf)
+<!-- claim:CLM-R33-008 authorities:AUTH-FRCRIM-2025-PAMPHLET status:verified_current -->
+Rule 45(b)(1) lets the court extend a time on its own, or for good cause on a party's motion made before the time expires or, after it expires, if the party failed to act because of excusable neglect; Rule 45(b)(2)'s exception, which bars extending the time to take any action under Rule 35 except as stated in that rule, applies to Rule 35, not Rule 33. [Fed. R. Crim. P. 45(b) (Dec. 1, 2025 ed.)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf)
 
 The legacy draft's categorical “barred” label is therefore removed. Whether a late filing can proceed depends on a supported excusable-neglect determination under current Rule 45 and controlling precedent. Local filing rules and court orders still require separate review.
 

@@ -19,30 +19,30 @@ Section 2255(a) identifies four statutory grounds: a sentence imposed in violati
 <!-- claim:CLM-2255-003 authorities:AUTH-USC-28-2255 status:verified_current -->
 If § 2255(b)'s merits conditions are met, the court must vacate and set aside the judgment and select the appropriate statutory relief: discharge, resentencing, a new trial, or correction of sentence. [28 U.S.C. § 2255(b)](https://www.govinfo.gov/link/uscode/28/2255)
 
-<!-- claim:CLM-2255-004 authorities:AUTH-USC-28-2255 status:verified_current -->
-Section 2255(e) ordinarily makes the sentencing-court remedy exclusive for a federal prisoner attacking detention under the sentence, subject to the saving-clause boundary addressed separately; inability to satisfy § 2255's gatekeeping provisions does not by itself establish that the remedy is inadequate or ineffective. [28 U.S.C. § 2255(e)](https://www.govinfo.gov/link/uscode/28/2255)
+<!-- claim:CLM-2255-004 authorities:AUTH-USC-28-2255,AUTH-SCOTUS-JONES-HENDRIX-599-US-465 status:verified_current -->
+Section 2255(e) ordinarily makes the sentencing-court remedy exclusive for a federal prisoner attacking detention under the sentence, subject to the saving-clause boundary addressed separately. [28 U.S.C. § 2255(e)](https://www.govinfo.gov/link/uscode/28/2255) A prisoner with a statutory claim who cannot satisfy § 2255(h)'s two conditions for a second or successive motion cannot bring that claim in a habeas petition under the saving clause. [*Jones v. Hendrix*, 599 U.S. 465, 480 (2023)](https://www.supremecourt.gov/opinions/22pdf/599us1r42_2b35.pdf)
 
 ## Motion and filing requirements
 
 <!-- claim:CLM-2255-005 authorities:AUTH-RG-2255-1-3 status:verified_current -->
-Rule 2 requires the motion to specify every ground available, state supporting facts, identify requested relief, be legible, and be signed under penalty of perjury; it must substantially follow the prescribed or local form. [Rule 2(b), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
+Rule 2 requires the motion to specify all the grounds for relief available, state the facts supporting each ground, state the relief requested, be printed, typewritten, or legibly handwritten, and be signed under penalty of perjury by the movant or by a person authorized to sign it for the movant; it must substantially follow the form appended to the rules or a form prescribed by a local district-court rule. [Rule 2(b)–(c), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
 
 <!-- claim:CLM-2255-006 authorities:AUTH-RG-2255-1-3 status:verified_current -->
-A movant seeking relief from judgments of more than one court must file a separate motion for each judgment. [Rule 2(d), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
+A movant who seeks relief from more than one judgment must file a separate motion covering each judgment. [Rule 2(d), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
 
 <!-- claim:CLM-2255-007 authorities:AUTH-RG-2255-1-3 status:verified_current -->
 The clerk must file a § 2255 motion and enter it on the criminal docket of the case in which the challenged judgment was entered, then serve a copy on the United States attorney for that district. [Rule 3(b), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
 
 <!-- claim:CLM-2255-008 authorities:AUTH-RG-2255-1-3 status:verified_current -->
-For an inmate using an institution's legal-mail system, Rule 3(d) treats the motion as timely if deposited in that system on or before the last filing day with prepaid first-class postage and the specified declaration, notarized statement, or other permitted proof. [Rule 3(d), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
+Under Rule 3(d), a motion filed by an inmate confined in an institution is timely if deposited in the institution's internal mailing system on or before the last day for filing; if the institution has a system designed for legal mail, the inmate must use it to receive the benefit of the rule. Timely filing may be shown by a declaration in compliance with 28 U.S.C. § 1746 or by a notarized statement, either of which must set forth the date of deposit and state that first-class postage has been prepaid. [Rule 3(d), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download)
 
 <!-- claim:CLM-2255-009 authorities:AUTH-RG-2255-1-3,AUTH-USC-28-2255 status:verified_current -->
-Rule 3 does not create a separate filing period: it expressly sends timeliness to § 2255, so form acceptance, docketing, and the § 2255(f) calculation remain separate questions. [Rule 3(a), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download); [28 U.S.C. § 2255(f)](https://www.govinfo.gov/link/uscode/28/2255)
+Rule 3 does not create a separate filing period: Rule 3(c) provides that the time for filing a motion is governed by 28 U.S.C. § 2255 para. 6, now designated § 2255(f), so timeliness is measured under § 2255(f). [Rule 3(c), Rules Governing § 2255 Proceedings](https://www.uscourts.gov/file/27805/download); [28 U.S.C. § 2255(f)](https://www.govinfo.gov/link/uscode/28/2255)
 
 ## The four statutory limitation triggers
 
 <!-- claim:CLM-2255-010 authorities:AUTH-USC-28-2255 status:verified_current -->
-Section 2255(f) supplies one year from the latest applicable date among four separately worded triggers; a movant must identify and prove the trigger actually relied on rather than treating all four as extensions of finality. [28 U.S.C. § 2255(f)](https://www.govinfo.gov/link/uscode/28/2255)
+Section 2255(f) supplies a one-year limitation period that runs from the latest of four separately worded dates: the date on which the judgment of conviction becomes final, or one of three other dates that apply only on their own terms: the date on which an impediment to making a motion created by governmental action in violation of the Constitution or laws of the United States is removed, if the movant was prevented from making a motion by that action; the date on which the right asserted was initially recognized by the Supreme Court, if that right has been newly recognized by the Supreme Court and made retroactively applicable to cases on collateral review; or the date on which the facts supporting the claim could have been discovered through the exercise of due diligence. [28 U.S.C. § 2255(f)](https://www.govinfo.gov/link/uscode/28/2255)
 
 <!-- claim:CLM-2255-011 authorities:AUTH-USC-28-2255,AUTH-SCOTUS-CLAY-537-US-522 status:verified_current -->
 Under § 2255(f)(1), when the court of appeals affirms and no certiorari petition is filed, finality occurs when the time for seeking certiorari expires, not when the appellate mandate issues. [*Clay v. United States*, 537 U.S. 522, 527–32 (2003)](https://www.govinfo.gov/content/pkg/USREPORTS-537/pdf/USREPORTS-537-522.pdf)
@@ -80,7 +80,7 @@ Under *Holland*'s standard, the litigant must show diligent pursuit and an extra
 Where compatible Civil Rule 15 applies through § 2255 Rule 12, an otherwise late amendment relates back only when the new claim shares a common core of operative facts with a timely claim; arising from the same trial, conviction, or sentence is not enough. [*Mayle v. Felix*, 545 U.S. 644, 656–64 (2005)](https://www.govinfo.gov/content/pkg/USREPORTS-545/pdf/USREPORTS-545-644.pdf)
 
 <!-- claim:CLM-2255-022 authorities:AUTH-SCOTUS-DAY-547-US-198 status:verified_current -->
-*Day* permits a habeas court to consider a nonjurisdictional time bar not correctly raised by the State only after fair notice and an opportunity to respond and without overriding a deliberate waiver; because *Day* concerned § 2254 and § 2244(d), a § 2255 court must also apply controlling-circuit law and the government's actual position. [*Day v. McDonough*, 547 U.S. 198, 205–11 (2006)](https://www.govinfo.gov/content/pkg/USREPORTS-547/pdf/USREPORTS-547-198.pdf)
+In the circumstances presented there, an evident miscalculation of the elapsed time, *Day* held that district courts are permitted, but not obliged, to consider sua sponte the timeliness of a state prisoner's habeas petition, under a limitation defense that is not jurisdictional, even though the State did not correctly raise it. Before acting on its own initiative, the court must accord the parties fair notice and an opportunity to present their positions, must assure itself that the petitioner is not significantly prejudiced by the delayed focus on the limitation issue, and must determine whether the interests of justice would be better served by addressing the merits or by dismissing the petition as time barred; it would be an abuse of discretion to override a State's deliberate waiver of a limitations defense. *Day* addressed a state prisoner's petition under § 2244(d)'s one-year limitation. [*Day v. McDonough*, 547 U.S. 198, 202 & n.1, 205, 209–10 & n.11 (2006)](https://www.govinfo.gov/content/pkg/USREPORTS-547/pdf/USREPORTS-547-198.pdf)
 
 ## Deadline checklist
 

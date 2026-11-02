@@ -214,6 +214,11 @@ class Builder:
     def abs_url(self, route):
         return self.cfg["site_origin"] + self.url(route)
 
+    def review_status(self):
+        """The release's review status sentence from release.json, or nothing."""
+        status = self.cfg.get("review_status")
+        return escape(status) + " " if status else ""
+
     def md_resolve(self, source, href):
         """Point a relative Markdown link at the Markdown twin of its target page."""
         parsed = urlsplit(href)
@@ -369,7 +374,7 @@ class Builder:
         cards = [("process/", "01 / FIND THE ROUTE", "Explore the process", "Move through each procedural stage and the conditions that lead from one step to the next."), ("districts/", "02 / FIND THE COURT", "Courts & local rules", "All 94 district-level courts, each linked to its official local rules and standing orders."), ("authorities/", "03 / CHECK THE SOURCE", "Read the authority", "Open the source, see its jurisdiction and weight, and follow the claims that depend on it."), ("limitations/", "04 / HOW IT WORKS", "Scope & methodology", "What the reference covers, how each statement is tied to its source, and how it is kept current.")]
         content = '<section class="hero"><p class="eyebrow">FEDERAL CRIMINAL PROCESS</p><h1>Understand the route.<br><em>Check the source.</em></h1><p class="lede">A source-linked guide to the federal criminal process, from investigation through appeal, custody and reentry. Every statement links to the statute, rule or decision behind it.</p><div class="actions">' + self.anchor('process/', 'Explore the process →', 'button') + self.anchor('modules/', 'Browse the reference', 'button secondary') + '</div></section>'
         content += '<div class="stats">' + ''.join(f'<div><strong>{n:,}</strong><span>{label}</span></div>' for n,label in stats) + '</div>'
-        content += '<p class="currency">Current through ' + human_date(self.cfg['research_baseline']) + '. General legal information, not legal advice. ' + self.anchor('limitations/', 'Scope & methodology') + '</p>'
+        content += '<p class="currency">Current through ' + human_date(self.cfg['research_baseline']) + '. ' + self.review_status() + 'General legal information, not legal advice. ' + self.anchor('limitations/', 'Scope & methodology') + '</p>'
         content += '<section class="cards">' + ''.join(f'<a class="card" href="{self.url(r)}"><span class="eyebrow">{k}</span><h2>{title}</h2><p>{desc}</p><span class="card-arrow" aria-hidden="true">↗</span></a>' for r,k,title,desc in cards) + '</section>'
         content += '<section><h2>Follow the stages</h2><div class="stage-strip">' + ''.join(self.anchor('modules/' + slug + '/', label) for slug,label in STAGES.items() if slug[0].isdigit() and slug not in {'00-system-overview','95-circuit-overlays','96-district-courts'}) + '</div></section>'
         self.page('', self.cfg['title'], content, 'Practice reference')
@@ -434,8 +439,8 @@ class Builder:
 
     def master_and_downloads(self):
         order = yaml.safe_load((ROOT / 'manifest/module_order.yaml').read_text(encoding='utf-8'))['modules']
-        body = '<h1>Federal Judicial Process</h1><p class="lede">Complete printable reference. Use your browser’s Print command to print or save as PDF.</p><div class="notice"><strong>Research baseline: ' + self.cfg['research_baseline'] + '</strong><p>This is a generated compilation, not a new legal verification. ' + self.anchor('limitations/', 'Read the full limitations register') + '</p></div><ol>'
-        master_md = ['# Federal Judicial Process\n\nGenerated compilation. Research baseline: '+self.cfg['research_baseline']+'. Not newly reverified.\n']
+        body = '<h1>Federal Judicial Process</h1><p class="lede">Complete printable reference. Use your browser’s Print command to print or save as PDF.</p><div class="notice"><strong>Research baseline: ' + self.cfg['research_baseline'] + '</strong><p>' + self.review_status() + 'This is a generated compilation, not a new legal verification. ' + self.anchor('limitations/', 'Read the full limitations register') + '</p></div><ol>'
+        master_md = ['# Federal Judicial Process\n\nGenerated compilation. Research baseline: '+self.cfg['research_baseline']+'. '+self.review_status()+'Not newly reverified.\n']
         for m in order:
             body += f'<li><a href="#{m["module_id"]}">{escape(self.by_module[m["module_id"]]["title"])}</a></li>'
         body += '</ol>'
