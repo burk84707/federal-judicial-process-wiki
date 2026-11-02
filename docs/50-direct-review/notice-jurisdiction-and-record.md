@@ -63,7 +63,7 @@ Section 3742 separately specifies the defendant's and government's grounds to ap
 ## Guilty pleas and express appeal waivers
 
 <!-- claim:CLM-DR-017 authorities:AUTH-SCOTUS-GARZA-586-US-232,AUTH-SCOTUS-CLASS-583-US-174 status:verified_current -->
-A guilty plea or appeal waiver does not mean that no notice may be filed or that every issue is necessarily barred: *Garza* applies presumed prejudice when counsel disregards an express instruction to appeal despite a waiver, while *Class* holds that an ordinary guilty plea alone did not waive the identified constitutional attack on the statute of conviction. The text, scope, validity, exceptions, government invocation, and controlling circuit law for an express waiver still must be analyzed. [*Garza v. Idaho*, 586 U.S. 232, 238–49 (2019)](https://www.supremecourt.gov/opinions/18pdf/17-1026_2c83.pdf); [*Class v. United States*, 583 U.S. 174, 181–85 (2018)](https://www.supremecourt.gov/opinions/17pdf/16-424_g2bh.pdf)
+A guilty plea or appeal waiver does not mean that no notice may be filed or that every issue is necessarily barred: *Garza* applies presumed prejudice when counsel disregards an express instruction to appeal despite a waiver, while *Class* holds that an ordinary guilty plea alone did not waive the identified constitutional attack on the statute of conviction. The text, scope, validity, exceptions, government invocation, and controlling circuit law for an express waiver still must be analyzed. [*Garza v. Idaho*, 586 U.S. 232, 238–49 (2019)](https://www.supremecourt.gov/opinions/18pdf/17-1026_2c83.pdf); [*Class v. United States*, 583 U.S. 174, 181–85 (2018)](https://www.govinfo.gov/content/pkg/USREPORTS-583/pdf/USREPORTS-583-174.pdf)
 
 ## Record on appeal
 

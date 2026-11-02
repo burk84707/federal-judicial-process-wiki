@@ -7,7 +7,7 @@ A personal, source-linked federal criminal-process reference by **Jason93**.
 ## What is here
 
 - 66 canonical modules spanning investigation, pretrial, plea/trial, sentencing, review, post-conviction remedies, prison processes and reentry.
-- 1,080 atomic claims and 377 structured authority records with source links and qualifications.
+- 1,080 atomic claims and 380 structured authority records with source links and qualifications.
 - An interactive, accessible process explorer over 81 nodes and 103 conditional relationships.
 - A searchable directory of all 94 district-level courts and 1,466 cataloged source entries.
 - Search, printable master compilation, portable source/data downloads, and all 468 unresolved review items.
