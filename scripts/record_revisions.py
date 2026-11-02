@@ -51,7 +51,8 @@ def main(argv=None) -> int:
             log["revisions"].append({"path": path, "previous_sha256": chain_end[path], "sha256": current,
                                      "date": args.date, "reason": args.reason.strip()})
             added += 1
-    rev_path.write_text(json.dumps(log, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    # newline="\n": keep LF on Windows; .gitattributes commits these bytes unchanged.
+    rev_path.write_text(json.dumps(log, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     print(f"Recorded {added} revision(s)")
     return 0
 

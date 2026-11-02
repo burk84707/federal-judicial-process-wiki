@@ -4054,6 +4054,27 @@
       "sha256": "330135f65ab43480cb93f18c20722c96f9740a7e72daf84ef59e830bceb609ed",
       "date": "2026-10-15",
       "reason": "Link targets: every uscode.house.gov link now points to the United States Code 2024 main edition on GovInfo (each target verified to open on the right section in probe run 38792673966); the Law Revision Counsel preliminary text is kept as mirror_url with an edition note. No wording changed."
+    },
+    {
+      "path": "data/claims.jsonl",
+      "previous_sha256": "d6ea27cebd553b937e426778655f5c4c78fd90df2a8148f61103d5e29f0718c0",
+      "sha256": "6de8c7deeaee93dd6ef71d890edf275701f2f26df51467a19c82b15576b2f751",
+      "date": "2026-11-02",
+      "reason": "Link target only; no claim wording, pinpoint or verification date changed. The Class v. United States link in CLM-DR-017 (supremecourt.gov/opinions/17pdf/16-424_g2bh.pdf) returned HTTP 404 on 2026-11-02. It now points to the official U.S. Reports PDF on GovInfo (USREPORTS-583-174), the same URL already recorded as this authority's official_url; checked on 2026-11-02 that it is 583 U.S. 174 and contains pp. 181-85."
+    },
+    {
+      "path": "docs/50-direct-review/notice-jurisdiction-and-record.md",
+      "previous_sha256": "9e74d2ceb486427aad947242bb450c3d6e2240223f012f8bea58ec68cfb4418b",
+      "sha256": "b531ec76330759d3f0bfd55372e9d127a00227de3fcf03df1c1fe07e491e32d2",
+      "date": "2026-11-02",
+      "reason": "Link target only; no claim wording, pinpoint or verification date changed. The Class v. United States link in CLM-DR-017 (supremecourt.gov/opinions/17pdf/16-424_g2bh.pdf) returned HTTP 404 on 2026-11-02. It now points to the official U.S. Reports PDF on GovInfo (USREPORTS-583-174), the same URL already recorded as this authority's official_url; checked on 2026-11-02 that it is 583 U.S. 174 and contains pp. 181-85."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-PULSIFER-601-US-124.md",
+      "previous_sha256": "3de20a991503e6df0eaa7b7d72d70c58379788b5b875101bd6de81db6959555c",
+      "sha256": "011df07cc066bdcaba3d0e302b3771139204c215d604de39eb66a7b8a303a749",
+      "date": "2026-11-02",
+      "reason": "Link target only; no holding, pinpoint or verification date changed. The bound-volume link (supremecourt.gov/opinions/boundvolumes/601bv.pdf) returned HTTP 404 on 2026-11-02; the bound volume is not yet posted. It now points to the Supreme Court's preliminary print of 601 U.S. Part 1, pp. 124-186 (23pdf/601us1r07_19m1.pdf), the same URL already recorded as this authority's official_url; checked on 2026-11-02 that it contains pp. 132-53."
     }
   ]
 }

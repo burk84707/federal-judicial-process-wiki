@@ -14,4 +14,4 @@ Use only for the bounded proposition in the linked canonical module; offense-spe
 
 ## Official source and pinpoints
 
-601 U.S. 124 (2024), 601 U.S. 132–53: <https://www.supremecourt.gov/opinions/boundvolumes/601bv.pdf>
+601 U.S. 124 (2024), 601 U.S. 132–53: <https://www.supremecourt.gov/opinions/23pdf/601us1r07_19m1.pdf>

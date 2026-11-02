@@ -70,7 +70,8 @@ def main(argv=None) -> int:
                   for i, (k, v) in enumerate(items)]
         lines.append("  }," if name == "authorities" else "  }")
     lines.append("}")
-    args.out.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # newline="\n": keep LF on Windows; .gitattributes commits these bytes unchanged.
+    args.out.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(json.dumps(record["counts"]))
     return 0
 
