@@ -35,7 +35,7 @@ This page prevents nationwide rules from being mistaken for Ninth Circuit doctri
 - **CLM-CIR9-005:** In the Ninth Circuit, a person in federal custody does not need a certificate of appealability to appeal the denial of a properly classified § 2241 petition. [*Close v. Thomas*, 653 F.3d 970, 974 n.2 (9th Cir. 2011)](https://cdn.ca9.uscourts.gov/datastore/opinions/2011/08/03/10-35850.pdf)
 
   Limitation: Binding only in the Ninth Circuit. Close involved federal BOP program-eligibility claims; the COA proposition does not decide § 2241 merits, state-process custody, § 2255, or filing classification.
-<!-- claim:CLM-CIR9-006 authorities:AUTH-USC-18-3582-3583,AUTH-CA9-KELLER-2-F4TH-1278 status:verified_current -->
+<!-- claim:CLM-CIR9-006 authorities:AUTH-USC-18-3582,AUTH-CA9-KELLER-2-F4TH-1278 status:verified_current -->
 - **CLM-CIR9-006:** In the Ninth Circuit, § 3582(c)(1)(A)'s defendant-filing prerequisite is a mandatory claim-processing rule enforced when the government invokes it; a renewed motion based on changed circumstances required a new qualifying BOP request, and the filing defect was not cured by the passage of 30 days while the motion was pending. [*United States v. Keller*, 2 F.4th 1278, 1281–84 (9th Cir. 2021)](https://cdn.ca9.uscourts.gov/datastore/opinions/2021/07/01/20-50247.pdf)
 
   Limitation: Binding only in the Ninth Circuit and limited to a later motion premised on changed circumstances. Keller does not establish a universal issue-exhaustion test for every supplemental fact or argument.

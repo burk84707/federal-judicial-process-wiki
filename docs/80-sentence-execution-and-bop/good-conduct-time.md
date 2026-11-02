@@ -60,8 +60,8 @@ The correct dividing fact is therefore amendment coverage—especially offense d
 <!-- claim:CLM-GCT-011 authorities:AUTH-SCOTUS-BARBER-560-US-474,AUTH-PL-115-391-SEC-102-B status:verified_historical -->
 Barber v. Thomas upheld the Bureau's time-served method under the pre-First Step Act text, but the First Step Act superseded that calculation rule for covered current sentences. [*Barber v. Thomas*, 560 U.S. 474, 476–87 (2010)](https://www.govinfo.gov/content/pkg/USREPORTS-560/pdf/USREPORTS-560-474.pdf); [First Step Act § 102(b)](https://www.govinfo.gov/content/pkg/PLAW-115publ391/pdf/PLAW-115publ391.pdf)
 
-<!-- claim:CLM-GCT-013 authorities:AUTH-CFR-28-523-20 status:verified_current -->
-Good-conduct-time credit under § 3624(b) is distinct from First Step Act time credits earned through recidivism-reduction programs and applied under §§ 3632(d)(4) and 3624(g). [Good Conduct Time Credit Under the First Step Act, 87 Fed. Reg. 7938, 7941 (Feb. 11, 2022)](https://www.federalregister.gov/documents/2022/02/11/2022-02876/good-conduct-time-credit-under-the-first-step-act)
+<!-- claim:CLM-GCT-013 authorities:AUTH-USC-18-3624,AUTH-USC-18-3632,AUTH-CFR-28-523-20 status:verified_current -->
+Good-conduct-time credit under § 3624(b) is distinct from First Step Act time credits, which are earned through evidence-based recidivism reduction programming or productive activities under § 3632(d)(4) and applied toward prerelease custody or supervised release under § 3624(g). [18 U.S.C. § 3624(b), (g)](https://www.govinfo.gov/link/uscode/18/3624); [18 U.S.C. § 3632(d)(4), (d)(6)](https://www.govinfo.gov/link/uscode/18/3632); [28 C.F.R. § 523.20](https://www.govinfo.gov/content/pkg/CFR-2025-title28-vol2/pdf/CFR-2025-title28-vol2-sec523-30.pdf) [Good Conduct Time Credit Under the First Step Act, 87 Fed. Reg. 7938, 7941 (Feb. 11, 2022)](https://www.federalregister.gov/documents/2022/02/11/2022-02876/good-conduct-time-credit-under-the-first-step-act)
 
 ## Computation audit checklist
 

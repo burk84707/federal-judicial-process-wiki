@@ -4075,6 +4075,447 @@
       "sha256": "011df07cc066bdcaba3d0e302b3771139204c215d604de39eb66a7b8a303a749",
       "date": "2026-11-02",
       "reason": "Link target only; no holding, pinpoint or verification date changed. The bound-volume link (supremecourt.gov/opinions/boundvolumes/601bv.pdf) returned HTTP 404 on 2026-11-02; the bound volume is not yet posted. It now points to the Supreme Court's preliminary print of 601 U.S. Part 1, pp. 124-186 (23pdf/601us1r07_19m1.pdf), the same URL already recorded as this authority's official_url; checked on 2026-11-02 that it contains pp. 132-53."
+    },
+    {
+      "path": "data/claims.jsonl",
+      "previous_sha256": "6de8c7deeaee93dd6ef71d890edf275701f2f26df51467a19c82b15576b2f751",
+      "sha256": "0a1175fe1447d6280757fa271986122fefdc35c547f82396dcbcb947d7b899a5",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/10-investigation-and-charging/federal-charging-and-commencement.md",
+      "previous_sha256": "796b36970acec6f9d47b85ca534de9f17019b3ba242e34f6fc3489ba59798587",
+      "sha256": "540b328fe8a2b566697ce781f919e33e60a883754bb8f785c1858e421bb67fd0",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/20-pretrial/arraignment-and-pretrial-disclosure.md",
+      "previous_sha256": "6aa38ea8f062138b95b706dc51616dc8f89943664633dcad58f4483cf90f4a3f",
+      "sha256": "572c6ddb4dda5b131683ff4726742d9127d24c63aa8223f583913f3d2f7fc7b4",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/20-pretrial/competency-insanity-and-speedy-trial.md",
+      "previous_sha256": "6330109536a7c21f36975a5b33f959902680db70ba3879c7c6389905e7235b0b",
+      "sha256": "b88194c5ec9596b8e8a42080513b8e78402c1c6d9ba454959167fbc767f44c61",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/20-pretrial/initial-appearance-and-pretrial-release.md",
+      "previous_sha256": "70cedd4fb70fb551f5ab8a3a8011746aa898d401f7ca76072d021ef3ce33ead0",
+      "sha256": "fe859254bd13b56842b39f2d4605a54ad59589d715ad9553133c9b855a263f10",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/20-pretrial/suppression-severance-and-pretrial-motions.md",
+      "previous_sha256": "b4506332e6dcf8b91d4a63f99556d1b9bd117310587ca74f52effea1df40f96f",
+      "sha256": "d9671311f1b256bae203cb8f5d6d428fd538f28d6114bbbe924aba7402cd79cd",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/30-plea-and-trial/jury-and-bench-trial.md",
+      "previous_sha256": "7e126dd91111d43b98fea1851fd83f1af3e9e6668511135092adbd5270ca1e33",
+      "sha256": "29683b2906bc44f38d92c14c5730291e2d8382106ad3c1d7d63a6e1f4e94b972",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/30-plea-and-trial/plea-negotiations-agreements-and-rule-11.md",
+      "previous_sha256": "7f9424a646c19263af9512657da3e3962520681c475e268d59ba0e3d37cf6dc2",
+      "sha256": "326e1258b264e3cb1c6cb0f40ee35056e3eccecb5f69792cc0e732bb4d700536",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/30-plea-and-trial/rule-29-mistrial-verdict-and-juror-misconduct.md",
+      "previous_sha256": "02c211ee0eb65f635adf02cb1f1657ca2f570aa0a03ff697e891c85d25ffdbaf",
+      "sha256": "51c7703d4d5ae4d9d6bbe3ca78b12c90879bb952dd85ef261a3775cc52151a3e",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/30-plea-and-trial/rule-33-new-trial.md",
+      "previous_sha256": "40972843fd4a5da1aafed02e4a416e25092f759a1af29c85a756a44af32ae99a",
+      "sha256": "7fc9b974b6e27a5eeafc623345e1ce3880d08e1d3f94f0b5ed4f67f63c67e9bf",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/40-sentencing/monetary-penalties-restitution-and-forfeiture.md",
+      "previous_sha256": "f51833bee2256a7d288205ea8764ad7c97c62c550346deb42c226ab88fbc42bd",
+      "sha256": "37b20b6f4dee22e580ba08f56b6ca21f19b8051b58001ea1e4335b1fa5534382",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/40-sentencing/presentence-guidelines-and-sentencing-hearing.md",
+      "previous_sha256": "a9e51bd2f778f460036d5cfa0b08adf0058d42942facd269b1cdbde31592dbc8",
+      "sha256": "1b5bb96f32723c49ab5986dd320a6189ce37988c8320a537077e1801ed7c63fb",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/40-sentencing/supervised-release-judgment-and-correction.md",
+      "previous_sha256": "c31d7bf2cb7ca6dda879440f0c5daf48b94cb0e1795a2b47a6be1e572f9f3227",
+      "sha256": "7b860903a1942c5bfd2fd0dd948b51f491c7ba64000aee41918417db9136cae7",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/50-direct-review/notice-jurisdiction-and-record.md",
+      "previous_sha256": "b531ec76330759d3f0bfd55372e9d127a00227de3fcf03df1c1fe07e491e32d2",
+      "sha256": "e550465780bc2fcc43783fbcbbdd9d18129163dc36cf7cec8767e8ecee39d8ef",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/50-direct-review/rehearing-mandate-certiorari-and-finality.md",
+      "previous_sha256": "13f4cfa9ed6978d2baa38a6f16235d5e7e8ea02ad1db2e5edf33d50f918903a6",
+      "sha256": "21488d9e14fb82cd3d44e5804e39a624515daef72e17fae6cc96b19bc29534ac",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/50-direct-review/review-briefing-and-anders.md",
+      "previous_sha256": "dab8fd8c5c77c3cbd327b951952fc67dc7befe5cdd2b16b01310c59fd7852e72",
+      "sha256": "6ed36480756744486565b64d88c2c9a642536276b2af1bb715ea6290667c1a19",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-appeal-and-relief.md",
+      "previous_sha256": "0b9a282a388449f41c0b022f2accf2b6bede156c80fb86c7cd6cfbcfc8ddfdeb",
+      "sha256": "bbaefb22323036d077ab65f25a54ccd1f59586af0e179355b4ab7f8b6554e0b1",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-filing-jurisdiction-respondent-and-exhaustion.md",
+      "previous_sha256": "436636546477958e2deb268e666eb3c4617cc619bc7b3114f5dc86b3c9723c96",
+      "sha256": "45e53455dbf6a2b88ca517f5728921bb2d788698e4e05a4fdb3a457f83eedb68",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/2241-saving-clause-custody-and-mootness.md",
+      "previous_sha256": "f7cf44aecf4b8b29e567d394dc0e4b52aa6b5dc9493a17f810483ed0f49ab11d",
+      "sha256": "353eb35a379f592f5ef6b03f499fe1464985f4b3594649eac93b19f1d5a6a92b",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-default-innocence-and-ineffective-assistance.md",
+      "previous_sha256": "c6f0c68f40e69cdaa2457cd180375f4715ad83a6d79fceea273ad97c359f38eb",
+      "sha256": "782cd87e0299b6e2677db45218e34aee7e5e85373de8c19481e406e9e6ab48c0",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-initial-motion-and-limitations.md",
+      "previous_sha256": "9c54193f6be87d5580e1fcf5c5471b9c2420b9c3b594420ad3c9c747447ba7a7",
+      "sha256": "ada45f92d4ec82bbd6e657dbad5b82575ac03506286b1a1e11bac01f7013de9e",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-later-filings-classification-and-authorization.md",
+      "previous_sha256": "1f0481ba75511a07a8ed82b92117833886bc9fe82f8bbb5f25012c3dd27c62a7",
+      "sha256": "008d7420f7d6b2b589c1676dd5ee9eb03ee9c745fa0cffd966a8c745e4f76fd5",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/2255-procedure-hearing-appeal-and-postjudgment.md",
+      "previous_sha256": "2eda496cd78ece27252af343c9497ea5007fba58e78c2fb4ff033e2a9c0e5db8",
+      "sha256": "8c70943377243dbd99e3777757f77b6335dd04d8b403e48eac92de6d2118374d",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/executive-clemency-pardon-and-commutation.md",
+      "previous_sha256": "80c377878f6507ebf1332a4a06bebea0f50adc4dbb73767598c659aa99907516",
+      "sha256": "9ca70f411108f0e722d417314c40f5df209d2963dfa7a76868030beacdb8c43a",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/60-post-conviction/extraordinary-writs-coram-nobis-audita-querela-and-mandamus.md",
+      "previous_sha256": "cc78081f4306c4c6404e2c89a05c88c6c79eb32c98c92418ce820d5c4ad5994a",
+      "sha256": "fff7991d5e36a983e11809294379eb38191b277f4d2168a979f88b1b382af66c",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/70-sentence-modification/first-step-act-section-404.md",
+      "previous_sha256": "810ebefe82b0c1a3d8b4595524e725569776342aea7999227770ee0f1b09f815",
+      "sha256": "da058173ad9e9022e420cbeb86db89aecb0fe6f2987e5af2781c744342b686d1",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/70-sentence-modification/rules-35-36-and-modification-appeals.md",
+      "previous_sha256": "dfccc0e8502952517b7d66ac3af1035b018dffab883f113698b1e07a431d9321",
+      "sha256": "e36b0c5578e265c15647fd3f1c8ad6cf618dcd66c14f6d1d2c8661568fb82635",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/70-sentence-modification/section-3582-remedy-router.md",
+      "previous_sha256": "33c9492aedecc4ec3098ba4fc099f68d4d680ed6469a0c4338e6087c2b085800",
+      "sha256": "4eba8a47ca71a4020916087b40a054dbe4923a68b3ef20647372029706b2394c",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/administrative-remedies-and-judicial-review.md",
+      "previous_sha256": "c565c16b0e9d47505490f9f6ea5ecdb9eb3ac7a50c0eca00624aa09106179705",
+      "sha256": "6b21a1a40adaf1dbd3a213bdf5b2010b4a0f176645aea8f3517d15f4e9c11494",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/designation-sentence-computation-and-prior-custody-credit.md",
+      "previous_sha256": "08d3fe6ba37ba5ea31cbca86f930d06b6ce16b051ed054a97b5492ffb612ea80",
+      "sha256": "44f55537f9817e00fb660eea063bba3350871e5559344cf4cf048f53cdd39728",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/detainers-discipline-and-rdap.md",
+      "previous_sha256": "6cf0780b5ab1e68166c09c7fcaeaa3d3894e648157a6e6ea38329150b52c253d",
+      "sha256": "fa9ed6c972c6d5111b2aa0c9e262eced2373876c2090de7e562ee63099e69fe7",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/first-step-act-time-credits.md",
+      "previous_sha256": "5d1c9a0cba7dc0cfc96b4ae7516ef655f39b48cdc4be84c509366af79af4a6f6",
+      "sha256": "a320ba04f333609bf1c53fa19043022fd60e6cc3e4198934b2293a29c392e2a4",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/good-conduct-time.md",
+      "previous_sha256": "52499047b183e093a45ac66d23b2fdf3839672d930be6e403d62340ac3afd00b",
+      "sha256": "0f7fc828e46d8c6a1b43a69f2fe3eda2d7266042913b7b0c5f686296caacb905",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/80-sentence-execution-and-bop/prerelease-custody-home-confinement-and-cares-act.md",
+      "previous_sha256": "6716137a792865d8ef43f2bd74e01ed4f11246d850bedb0a623fbd679f52ad2e",
+      "sha256": "3e5a8b29ff04d0a8436973a5121352a618c2991b606af72b40f8f1f6ec2d7435",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/commencement-conditions-modification-termination-and-transfer.md",
+      "previous_sha256": "54dff7f9c80c40669ee7417a30ae46393ebd5a1885803f109dbb6f5db5ee6b3a",
+      "sha256": "8ab8602b242e2e8c9a07699a3b85f3f497500e8478bb8086e360354f4998328b",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/constitutional-conditions-delegation-and-reentry-remedies.md",
+      "previous_sha256": "338bacd7ac467ebf6824d2328535b3746092eb07de8eefea0b6fd616a966bb49",
+      "sha256": "c08e076bc73f40bbf8f04a125838bbf15b923bcae0e32e62466f3a5f803ddbd4",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/90-supervised-release-and-reentry/violations-rule-32-1-revocation-and-sentencing.md",
+      "previous_sha256": "330135f65ab43480cb93f18c20722c96f9740a7e72daf84ef59e830bceb609ed",
+      "sha256": "35f974ead2f11b44d600b1612b4f1ce762be570275001cb06b5034c8aa9ed5f5",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/dc-circuit.md",
+      "previous_sha256": "d35cf1806169663fb0c4d110b849400b0137a1062231d50fc63a40e680af4e59",
+      "sha256": "bdf399d2cc086eef593fff500da26d6fd4479eba01340c72435ea035518d37ff",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/eighth-circuit.md",
+      "previous_sha256": "e8133547aa6d5d40bbe38db962fa78ef5a4aee947ff291376190572b1926b2c5",
+      "sha256": "14f30ba33a515aa58d1f35179a565f605ea6bde57196cdc29cc408ba21132e3a",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/eleventh-circuit.md",
+      "previous_sha256": "37d90034b259b6ebda17023c4a06a9f208879baf5093f5ccb01f6b0792957852",
+      "sha256": "2409ecadb4565d79ba5055cd926ba246fc6607f3f8489baca3eab69f6a583e92",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/fifth-circuit.md",
+      "previous_sha256": "648d746ae842638e2e402ddfe3fef54d6c6e343da1f28f1657bdeb87f64ea668",
+      "sha256": "2395f4ebbdbb9864646d7d4a1e004822aba1e67027ee2ec008a54949cf8316ef",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/first-circuit.md",
+      "previous_sha256": "2f8663c49c7fd07687e02382ff620cd024a417f28ae15f9640f77d36f4531dba",
+      "sha256": "b385ee75ddb9c4217645221bb37fe95c103673692dedbe7478bcd0b83d3ddecd",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/fourth-circuit.md",
+      "previous_sha256": "1a258bd4af23c6348a3bbe17e8a15d11397fb10bd81598c4cfc4b66b1ee79129",
+      "sha256": "bdf9d14a551f3fefdd469e467f4546c83c0fcc2c325fd55daffdc41a58886455",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/ninth-circuit.md",
+      "previous_sha256": "a88450db395d386ed0733897c7478dce893d91ae7133c38524308844654e44ad",
+      "sha256": "145df81edb06614c31a01c179bbe6508c953d191d263f091d6e62eec4130a810",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/second-circuit.md",
+      "previous_sha256": "8f50df4de0dca1733078fd6c4de03e1c504641450485f6ca32fe1ad1e588fa14",
+      "sha256": "dc3d95d4d63263fcfcc14fb2b485a926ae83ffd4410e3ad9bad42c5236a9c3dd",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/seventh-circuit.md",
+      "previous_sha256": "a373b37e79a30b407c6005b3164adafef11ba213715043ef2364744e506d8522",
+      "sha256": "cddefddbd1e0b4264c6dd7724fcad3102204e7a548a78749e55ad31062b4e921",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/sixth-circuit.md",
+      "previous_sha256": "132fbc3361da96e1ebbf8107407344657f1c157e76363bf1c7e4db33ff42c558",
+      "sha256": "0fc99b8af6b6cd407ffb5ddb970a4738bda03dbdb6e3702dac88a9e2c1650387",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/tenth-circuit.md",
+      "previous_sha256": "32e803c0881022641ee4ce24aa301b522347d8b395efc323dde815af8c46447a",
+      "sha256": "ef8a62d2a3be2f17f03faa033980eb67910011f13014d8a1fd89c1cf7ca9777c",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/95-circuit-overlays/third-circuit.md",
+      "previous_sha256": "dd30b328ebcff00624b56acd940b068de1b2e9bddbc321d79907e8f5a9f0b908",
+      "sha256": "99967923e209b724d375a6d02238c88d8b8af27b5ec28f3923c7a48fd35847a1",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "docs/96-district-courts/index.md",
+      "previous_sha256": "0d85dfb4e04c8e3de8e5b4c2a9de41a3f7c7f115ec95f69b89c707831ffe4d2f",
+      "sha256": "02cde893adb789b1504ce3e4836ecf15bbae9bae8204bd31abac9be69db1d0bb",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Applies the owner-approved corrections from the research archive's review of Oct. 30 - Nov. 2, 2026: dual independent source review of every claim, the Guidelines recheck for the Nov. 1, 2026 amendments, and the Nov. 1, 2026 double legal review. 418 claims rewritten, 10 deleted, 2 added; 12 circuit-overlay claims re-cited from the 18 U.S.C. 3583 record to the 3582 record. Claim wording follows the cited law or policy; each claim keeps the date it was actually reviewed; module text carries the same claim wording. Link targets follow the public link policy (U.S. Code on GovInfo). Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA2-RICHTER-510-F3D-103.md",
+      "previous_sha256": "5618dce4ec6174f26fc378445382f20e46f9a5743dba7e5492dd8a3772d72015",
+      "sha256": "35ddbe5a55b36f7dc88201f0b8ab65b89c51acf0e8da322ea8073edd1095b501",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Authority records and cards updated from the research archive's Oct. 30 - Nov. 2, 2026 review: 46 records added (including the 2026 Guidelines Manual provisions), revised holdings, limitations and statuses, two-way claim and module links recomputed, the 3582/3583 relabel, and link targets per the public link policy. Saved-copy paths and hashes are not imported. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "authorities/circuits/AUTH-CA5-MILLER-599-F3D-484.md",
+      "previous_sha256": "7d6ebfa99851afa05f5d6ed286eb6edb263559fb7919e20f617dfd4e19326da0",
+      "sha256": "b2a90f357f569ff2adeaaacb687db0db9c12a8e4fe55f9aa8f8b6d6d6348d9d9",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Authority records and cards updated from the research archive's Oct. 30 - Nov. 2, 2026 review: 46 records added (including the 2026 Guidelines Manual provisions), revised holdings, limitations and statuses, two-way claim and module links recomputed, the 3582/3583 relabel, and link targets per the public link policy. Saved-copy paths and hashes are not imported. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3281-3282-3288-3289.md",
+      "previous_sha256": "45e6d6e8a8e11031a6f777a421abb4268f94996ca2e6d316cae9d40d032cd14e",
+      "sha256": "e7b61b095c96699608fd17687b1345e106f48606e34fa653691aab5fcd8741dc",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Authority records and cards updated from the research archive's Oct. 30 - Nov. 2, 2026 review: 46 records added (including the 2026 Guidelines Manual provisions), revised holdings, limitations and statuses, two-way claim and module links recomputed, the 3582/3583 relabel, and link targets per the public link policy. Saved-copy paths and hashes are not imported. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "authorities/statutes/AUTH-USC-18-3582-3583.md",
+      "previous_sha256": "556a4f2b9011c86f94039d563b1bba59110819ad5dc2c26754b96c08d2688838",
+      "sha256": "6dc7b5f98963e17f8b3bf0de38265ac153ebb7f83ce23cdb04b2247ed6d461f4",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Authority records and cards updated from the research archive's Oct. 30 - Nov. 2, 2026 review: 46 records added (including the 2026 Guidelines Manual provisions), revised holdings, limitations and statuses, two-way claim and module links recomputed, the 3582/3583 relabel, and link targets per the public link policy. Saved-copy paths and hashes are not imported. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-BANISTER-590-US-504.md",
+      "previous_sha256": "4e5b0df48fcff5453e94964e25db42484597c10e2bd76becf2f21e4910d880d8",
+      "sha256": "71d6610f19953bd5c47e247c9a93d4955ac56d1a911c1402c267a6b1209090fe",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Authority records and cards updated from the research archive's Oct. 30 - Nov. 2, 2026 review: 46 records added (including the 2026 Guidelines Manual provisions), revised holdings, limitations and statuses, two-way claim and module links recomputed, the 3582/3583 relabel, and link targets per the public link policy. Saved-copy paths and hashes are not imported. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "authorities/supreme-court/AUTH-SCOTUS-HAYMOND-588-US-634.md",
+      "previous_sha256": "905ad6940d003825f30f172c57064e0f11a491a4ff5330f52e6addfbdc490b13",
+      "sha256": "3885e2fd2516825c7e93d608f133ebdfbc9ab377de158699a8b0707e7f38d6ab",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Authority records and cards updated from the research archive's Oct. 30 - Nov. 2, 2026 review: 46 records added (including the 2026 Guidelines Manual provisions), revised holdings, limitations and statuses, two-way claim and module links recomputed, the 3582/3583 relabel, and link targets per the public link policy. Saved-copy paths and hashes are not imported. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "data/authorities.jsonl",
+      "previous_sha256": "28146e10f6bb2788b8b2c62b6c0b853b97c2a7fb05cd6272b2514067c569bced",
+      "sha256": "ebcc5dd0af845e62331f42833abada97105cbfa022d0cd4f503ee28ee0d6d616",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Authority records and cards updated from the research archive's Oct. 30 - Nov. 2, 2026 review: 46 records added (including the 2026 Guidelines Manual provisions), revised holdings, limitations and statuses, two-way claim and module links recomputed, the 3582/3583 relabel, and link targets per the public link policy. Saved-copy paths and hashes are not imported. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "data/modules.json",
+      "previous_sha256": "d5e84b69cb61fec181d33568e9582cdb24a7278835f9eddf96cb300176248aa3",
+      "sha256": "af6400e5e75563d8a8bebd5bb7a8977b842e4e1d4384f614606e21bea3f7b295",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Module claim and authority lists, process-graph claim references and one remedy record follow the research archive's Oct. 30 - Nov. 2, 2026 corrections (deleted claims removed, new claims and authorities listed). No module prose here. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "data/process_edges.json",
+      "previous_sha256": "4bf4cdd423b14466651f5aeedad8ccd211af958b783f9ec82df7a1524bbbd223",
+      "sha256": "0662c2e3cb8518669edabb2973ed48ca68caa575ff119882df4f43ce1241f110",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Module claim and authority lists, process-graph claim references and one remedy record follow the research archive's Oct. 30 - Nov. 2, 2026 corrections (deleted claims removed, new claims and authorities listed). No module prose here. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "data/process_nodes.json",
+      "previous_sha256": "9f8efec279c37d7cd0d83ba400038ce379f3beb24217cf209c4e08f80d4a586c",
+      "sha256": "51a5cdd8346685731a8b59dacb321e6a75cd77c6552bd34c98bc8d4ba8a9a506",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Module claim and authority lists, process-graph claim references and one remedy record follow the research archive's Oct. 30 - Nov. 2, 2026 corrections (deleted claims removed, new claims and authorities listed). No module prose here. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "data/remedies.yaml",
+      "previous_sha256": "82adefab1b40645f90ed74beb7ae527bb5161011b38567d4f1393bcfeff43e84",
+      "sha256": "13562da179eae9691dfb2f1ef8187c70b4108d037281fee271c4c55ae3be0c98",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Module claim and authority lists, process-graph claim references and one remedy record follow the research archive's Oct. 30 - Nov. 2, 2026 corrections (deleted claims removed, new claims and authorities listed). No module prose here. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "sources/source_registry.yaml",
+      "previous_sha256": "29c2a06c2ae948233a46209aa8f1c97d87fd3dfb1faa2782aca4b21e7085f870",
+      "sha256": "78add8f1e664b7f1f87fd89c4824dfe25e397659f41b64117a6d4fabd3efb5f3",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Source registry: 46 source records added for the new authorities; changed source URLs follow the public link policy (U.S. Code on GovInfo with the Law Revision Counsel's current page as mirror; Supreme Court preliminary prints). Registry metadata and links only; saved copies, their paths and hashes stay private. Status: owner approved; double legal review completed; licensed-attorney approval not recorded. Details: maintenance/correction-release-1.3.0/."
+    },
+    {
+      "path": "schemas/authority.schema.json",
+      "previous_sha256": "ceaf204b2a5eb484bd123378563844b4c0efe57bdab2c9e71c94e1ca85cf0630",
+      "sha256": "97907102a0e4cef20bdeafe36b2dd64bc91366a227289447f7daa6b98ea80add",
+      "date": "2026-11-02",
+      "reason": "Correction release 1.3.0 (draft). Adds the research archive's optional verification_channel property (official, approved_mirror, best_available) and two territorial jurisdiction values (federal_virgin_islands, federal_northern_mariana_islands) used by the new 48 U.S.C. 1614 and 1821 authority records. No existing record changes meaning."
     }
   ]
 }

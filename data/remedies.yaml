@@ -742,15 +742,12 @@
       "remedy_id": "REMEDY-SR-CONDITION-REENTRY",
       "issue": "condition-caused reentry burden or separate collateral consequence",
       "available_relief": "Seek narrowly tailored condition modification or early termination when § 3583(e) reaches the burden; otherwise use the separately authorized consequence-specific decisionmaker and remedy.",
-      "limits": "Termination does not erase the conviction or automatically alter state, agency, immigration, registration, licensing, housing, employment, or private consequences.",
+      "limits": "Section 3583(e) states no general expungement remedy; any sealing, expungement, certificate, pardon, statutory relief, or record-correction route requires its own jurisdictional authority.",
       "authority_ids": [
         "AUTH-USC-18-3582-3583",
         "AUTH-USC-18-3605"
       ],
       "claim_ids": [
-        "CLM-SRCOND-015",
-        "CLM-SRCOND-020",
-        "CLM-SRCOND-021",
         "CLM-SRCOND-022",
         "CLM-SRCOND-023"
       ],

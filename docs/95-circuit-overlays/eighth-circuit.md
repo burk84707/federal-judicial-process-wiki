@@ -27,12 +27,12 @@ This page prevents nationwide rules from being mistaken for Eighth Circuit doctr
 - **CLM-CIR8-003:** In the Eighth Circuit, the certificate-of-appealability requirement does not apply to a federal prisoner effectively filing under § 2241. [*Langella v. Anderson*, 612 F.3d 938, 939 n.2 (8th Cir. 2010)](https://ecf.ca8.uscourts.gov/opndir/10/07/093024P.pdf)
 
   Limitation: Binding only in the Eighth Circuit. Langella involved federal parole detention; no rule is adopted for state-process custody, § 2255, or disputed classification of a mislabeled filing.
-<!-- claim:CLM-CIR8-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA8-HOUCK-2-F4TH-1082 status:verified_current -->
+<!-- claim:CLM-CIR8-004 authorities:AUTH-USC-18-3582,AUTH-CA8-HOUCK-2-F4TH-1082 status:verified_current -->
 - **CLM-CIR8-004:** In the Eighth Circuit, § 3582(c)(1)(A)'s filing prerequisite is a mandatory claim-processing rule that must be enforced when properly raised; an unexhausted motion is dismissed without prejudice, and asserted futility based on the Attorney General's home-confinement memorandum did not excuse the missing request. [*United States v. Houck*, 2 F.4th 1082, 1084–85 (8th Cir. 2021)](https://ecf.ca8.uscourts.gov/opndir/21/06/202216P.pdf)
 
   Limitation: Binding only in the Eighth Circuit. Houck's futility holding is limited to the theory actually presented; compassionate release and BOP home-confinement placement remain distinct remedies.
-<!-- claim:CLM-CIR8-005 authorities:AUTH-USC-18-3582-3583,AUTH-FRCRIM-P-32-1,AUTH-CA8-NORRIS-62-F4TH-441 status:verified_current -->
-- **CLM-CIR8-005:** In the Eighth Circuit, Rule 32.1(c)(1) does not require counsel or a hearing before a court denies a motion to terminate supervision or modify conditions, and § 3583(e) does not require a separate explanation for denial when the existing record makes the court's basis discernible. [*United States v. Norris*, 62 F.4th 441, 445–51 (8th Cir. 2023)](https://ecf.ca8.uscourts.gov/opndir/23/03/213849P.pdf)
+<!-- claim:CLM-CIR8-005 authorities:AUTH-CA8-NORRIS-62-F4TH-441 status:verified_current -->
+- **CLM-CIR8-005:** In the Eighth Circuit, Rule 32.1(c)(1) applies only when a court modifies conditions, so the rule does not require a hearing or counsel before a court denies a motion to terminate supervision or modify conditions. Applying Mosby, Norris held that a district court that had presided over the case since its inception was not required to explain its denial of early termination of supervised release, and acknowledged that the Eighth Circuit “is routinely cited as the outlier” on this point. [*United States v. Norris*, 62 F.4th 441, slip op. at 8, 13–15 & n.4 (8th Cir. 2023)](https://ecf.ca8.uscourts.gov/opndir/23/03/213849P.pdf)
 
   Limitation: Binding only in the Eighth Circuit and limited to denial. Rule 32.1 ordinarily requires a hearing and counsel before an actual condition modification unless an enumerated exception applies; Norris does not authorize an unexplained denial when the record supplies no discernible basis.
 

@@ -246,7 +246,6 @@
       "CLM-R3536-028",
       "CLM-R3536-029",
       "CLM-R3536-030",
-      "CLM-R3536-031",
       "CLM-R3536-032",
       "CLM-R3536-033"
     ],
@@ -529,7 +528,6 @@
     "node_type": "decision",
     "module_id": "MOD-SUPERVISED-RELEASE-COMMENCEMENT-MODIFICATION",
     "claim_ids": [
-      "CLM-SRTERM-029",
       "CLM-SRCOND-023"
     ],
     "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
@@ -657,7 +655,6 @@
     "module_id": "MOD-SUPERVISED-RELEASE-CONDITIONS-REENTRY",
     "claim_ids": [
       "CLM-SRCOND-001",
-      "CLM-SRCOND-008",
       "CLM-SRCOND-011"
     ],
     "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
@@ -668,9 +665,7 @@
     "node_type": "decision",
     "module_id": "MOD-SUPERVISED-RELEASE-CONDITIONS-REENTRY",
     "claim_ids": [
-      "CLM-SRCOND-020",
-      "CLM-SRCOND-023",
-      "CLM-SRCOND-024"
+      "CLM-SRCOND-023"
     ],
     "jurisdiction": "federal_district_court_with_supervised_release_jurisdiction"
   },
