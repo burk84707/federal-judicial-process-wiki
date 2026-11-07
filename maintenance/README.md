@@ -36,6 +36,7 @@ what is new. Every finding is for review; none is applied automatically.
 | `supreme_court` | Supreme Court opinions for the current term | Each new opinion; marked for review when the United States is a party |
 | `rules_amendments` | Federal courts' pending rules and forms amendments page | A new document; and, from October 2 to December 1, each cited *proposed* rule, which may take effect December 1 |
 | `uscode_edition` | GovInfo link service, one cited section per title | GovInfo serving a newer edition of a cited title |
+| `sentencing_guidelines` | Guidelines authorities in `data/authorities.jsonl` (no request; ussc.gov refuses automated requests) | From November 1, each cited Guidelines Manual older than the one in effect |
 | `review_dates` | `data/modules.json` | Modules due for legal review within 21 days |
 
 The link-check comparison also reports sources that stopped opening since the last

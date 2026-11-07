@@ -14,6 +14,8 @@ Watchers
   rules_amendments  Federal courts' pending-amendments page: new documents,
                     and cited proposed rules near their December 1 date.
   uscode_edition    GovInfo: a new edition of a cited U.S. Code title.
+  sentencing_guidelines  Cited Guidelines Manual older than the one in
+                    effect (amendments take effect each November 1).
   review_dates      Modules due for legal review within 21 days.
 
 Usage: python scripts/watch_changes.py --state maintenance/watch_state.json
@@ -31,7 +33,7 @@ import json
 from pathlib import Path
 import re
 import sys
-from urllib.parse import urlencode, urljoin
+from urllib.parse import urlencode, urljoin, urlsplit
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from monitor_sources import fetch_once  # noqa: E402
@@ -220,6 +222,22 @@ def watch_uscode(authorities, state, get, today):
     return findings, {"editions": editions}
 
 
+def watch_guidelines(authorities, today):
+    """Guidelines amendments take effect each November 1; flag cited manuals older than the one in effect."""
+    in_effect = today.year if (today.month, today.day) >= (11, 1) else today.year - 1
+    older = {}
+    for a in authorities:
+        if a["authority_type"] != "guideline":
+            continue
+        m = re.search(r"\((?:Nov\. 1, )?(\d{4})\)", a["citation"])
+        if m and int(m.group(1)) < in_effect:
+            older.setdefault(m.group(1), []).append(a["authority_id"])
+    return [finding("sentencing_guidelines", "manual_superseded", f"The {in_effect} Guidelines Manual may supersede the cited {year} manual",
+        f"Amendments to the Sentencing Guidelines take effect November 1. Check the {in_effect} manual and amendments for changes to the cited sections, "
+        "then update the authorities and claims, or record that nothing changed.", "https://www.ussc.gov/guidelines", aids)
+        for year, aids in sorted(older.items())]
+
+
 def watch_review_dates(modules, today):
     soon = today + timedelta(days=21)
     due = [m for m in modules if str(m.get("next_review_date", ""))[:10] <= soon.isoformat()]
@@ -228,21 +246,30 @@ def watch_review_dates(modules, today):
     overdue = [m for m in due if str(m["next_review_date"])[:10] < today.isoformat()]
     first = min(str(m["next_review_date"])[:10] for m in due)
     return [finding("review_dates", "review_due", f"{len(due)} modules are due for legal review by {soon.isoformat()}",
-        f"{len(overdue)} overdue; the earliest date is {first}. Due: " + ", ".join(sorted(m["module_id"] for m in due)) + ".",
+        f"{len(overdue)} overdue" + (f" ({', '.join(sorted(m['module_id'] for m in overdue))})" if overdue else "") + f"; the earliest date is {first}. The full list is in report.json.",
         None, [m["module_id"] for m in due])]
 
 
 def link_changes(previous: dict | None, current: dict | None):
     if not previous or not current:
         return []
-    findings = []
+    failing, recovered = {}, {}
     for sid, now in current["sources"].items():
         before = previous["sources"].get(sid)
+        host = urlsplit(now["url"] or "").hostname or "no URL"
         if before and before["result"] == "opened" and now["result"] == "failed":
-            findings.append(finding("link_check", "newly_failing", f"Source no longer opens: {sid}",
-                f"{now.get('reason', 'failed')}: {now.get('detail', '')}".strip(": "), now["url"], [sid]))
+            failing.setdefault(host, []).append((sid, now))
         elif before and before["result"] == "failed" and now["result"] == "opened":
-            findings.append(finding("link_check", "recovered", f"Source opens again: {sid}", "", now["url"], [sid], "info"))
+            recovered.setdefault(host, []).append((sid, now))
+    findings = []
+    for host, items in sorted(failing.items()):
+        reasons = sorted({f"{n.get('reason', 'failed')} {n.get('detail', '')}".strip() for _, n in items})
+        findings.append(finding("link_check", "newly_failing", f"{len(items)} source(s) on {host} no longer open",
+            "; ".join(reasons) + ". A site that starts refusing automated requests (HTTP 403) usually still works in a browser; check by hand.",
+            items[0][1]["url"], [sid for sid, _ in items]))
+    for host, items in sorted(recovered.items()):
+        findings.append(finding("link_check", "recovered", f"{len(items)} source(s) on {host} open again", "", items[0][1]["url"],
+            [sid for sid, _ in items], "info"))
     return findings
 
 
@@ -261,6 +288,7 @@ def run(authorities, modules, state, get, today, previous_link=None, current_lin
         except Exception as exc:  # one broken watcher must not stop the others
             errors.append({"watcher": name, "error": f"{type(exc).__name__}: {exc}"[:300]})
             new_state["watchers"][name] = old  # keep the last good state; retry next run
+    findings += watch_guidelines(authorities, today)
     findings += watch_review_dates(modules, today)
     findings += link_changes(previous_link, current_link)
     report = {"schema_version": 1, "kind": "watch_report", "checked_on": today.isoformat(),

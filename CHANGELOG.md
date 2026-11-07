@@ -2,6 +2,12 @@
 
 Release identity is the `version` in `release.json` plus the source digest printed in each page footer. Legal review dates are recorded per record and never change because of a release.
 
+## 1.3.0 — 2026-11-07
+
+- Phase 6, change automation. The source review runs every Monday and proposes its records in one pull request for the owner. It never edits legal content and never merges.
+- New change watchers (`scripts/watch_changes.py`) read the BOP policy index, the Federal Register for each cited CFR part, the Supreme Court's opinions for the term, the federal courts' pending rules amendments and GovInfo's U.S. Code editions. They also flag a cited Guidelines Manual older than the one in effect, modules due for legal review, and sources that stopped opening or recovered. State is kept in `maintenance/watch_state.json`.
+- A review-required link-check result no longer fails the workflow; only a broken run does.
+
 ## 1.2.1 — 2026-10-15
 
 - Eight sources that refuse automated requests (four Third Circuit opinions, the Seventh Circuit rules, three Constitution Annotated pages) were checked by hand in a browser and recorded as available. 377 of 380 sources are now available.

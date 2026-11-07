@@ -133,6 +133,19 @@ class WatcherTests(unittest.TestCase):
         after = {"sources": {"S1": {"url": "u1", "result": "failed", "reason": "http_error"}, "S2": {"url": "u2", "result": "opened"}}}
         self.assertEqual(["newly_failing", "recovered"], [f["kind"] for f in w.link_changes(before, after)])
 
+    def test_newly_failing_sources_are_grouped_by_host(self):
+        before = {"sources": {s: {"url": f"https://www.ussc.gov/{s}", "result": "opened"} for s in ("A", "B")}}
+        after = {"sources": {s: {"url": f"https://www.ussc.gov/{s}", "result": "failed", "reason": "http_error", "detail": "HTTP 403"} for s in ("A", "B")}}
+        found = w.link_changes(before, after)
+        self.assertEqual([("newly_failing", ["A", "B"])], [(f["kind"], f["affects"]) for f in found])
+
+    def test_guidelines_manual_superseded_after_november_first(self):
+        auths = [{"authority_id": "AUTH-G", "authority_type": "guideline", "citation": "U.S.S.G. § 1B1.10 (2025)"},
+                 {"authority_id": "AUTH-H", "authority_type": "guideline", "citation": "U.S.S.G. §§ 1B1.1, 1B1.11 (Nov. 1, 2025)"}]
+        self.assertEqual([], w.watch_guidelines(auths, date(2026, 10, 31)))
+        found = w.watch_guidelines(auths, date(2026, 11, 1))
+        self.assertEqual([("manual_superseded", ["AUTH-G", "AUTH-H"])], [(f["kind"], f["affects"]) for f in found])
+
 
 if __name__ == "__main__":
     unittest.main()
