@@ -61,7 +61,7 @@ Build output belongs in deployment artifacts or versioned release downloads, not
 
 ## Update boundary
 
-See [maintenance/README.md](maintenance/README.md). Monitoring reports source identity changes, errors and overdue records. It never revises claims, accepts baselines or advances verification dates. The GitHub workflow is **manual only** until the owner approves recurring operation and its baseline-review process.
+See [maintenance/README.md](maintenance/README.md). A weekly workflow checks every recorded source and watches the BOP policy index, the Federal Register, the Supreme Court, the federal rules committees and GovInfo for changes. It proposes its results in one pull request for the owner. It never revises claims, accepts baselines or advances verification dates.
 
 ## Rights, provenance and exclusions
 

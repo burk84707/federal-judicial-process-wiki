@@ -207,6 +207,9 @@ def validate(root=ROOT, site=None):
         schema(lc, {"type":"object","required":["schema_version","kind","checked_on","method","counts","authorities","sources"],"properties":{"kind":{"const":"link_check"},"checked_on":{"type":"string","format":"date"},"authorities":{"type":"object","additionalProperties":{"enum":["opened","failed"]}},"sources":{"type":"object","additionalProperties":{"type":"object","required":["url","result"],"properties":{"result":{"enum":["opened","failed"]}}}}}}, "link_check")
         refs(lc.get("authorities", {}), index["authority"], "link-check authority")
         refs(lc.get("sources", {}), source_index, "link-check source")
+    watch_path = root / "maintenance/watch_state.json"
+    if watch_path.is_file():
+        schema(load(watch_path), {"type":"object","required":["schema_version","kind","checked_on","watchers"],"properties":{"kind":{"const":"watch_state"},"checked_on":{"type":"string","format":"date"},"watchers":{"type":"object"}}}, "watch_state")
     conf_path = root / "data/source_confirmations.json"
     if conf_path.is_file():
         conf = load(conf_path)

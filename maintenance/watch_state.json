@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "kind": "watch_state",
+  "checked_on": "2026-10-15",
+  "note": "Seed state. Federal Register documents already reviewed are listed as seen; every other watcher records its first observations on its first run.",
+  "watchers": {
+    "federal_register": {
+      "checked_through": "2026-08-25",
+      "seen": ["2026-17752"]
+    }
+  }
+}

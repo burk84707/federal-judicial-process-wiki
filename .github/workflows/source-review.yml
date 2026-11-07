@@ -1,6 +1,13 @@
-name: Review source identities (manual only)
+name: Weekly source and law-change review
+
+# Read-only checks of every recorded source and of the publishers that change
+# the law this reference relies on. The scheduled run proposes its records in
+# one pull request for the owner to review. It never edits a claim, an
+# authority or a review date, and never merges anything.
 
 on:
+  schedule:
+    - cron: '47 13 * * 1'  # Mondays 13:47 UTC
   workflow_dispatch:
     inputs:
       include_districts:
@@ -12,14 +19,28 @@ on:
         description: Optional single registered source ID; blank checks the selected inventory
         required: false
         type: string
+      publish:
+        description: Open or update the weekly review pull request (full runs only)
+        required: true
+        default: false
+        type: boolean
 
 permissions:
-  contents: read
+  contents: write       # push the automation/weekly-review branch only
+  pull-requests: write  # open or update the review pull request
+  issues: write         # fallback when Actions may not open pull requests
+
+concurrency:
+  group: weekly-source-review
+  cancel-in-progress: false
 
 jobs:
   source-review:
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    env:
+      FULL_RUN: ${{ github.event_name == 'schedule' || inputs.source_id == '' }}
+      PUBLISH: ${{ github.event_name == 'schedule' || inputs.publish }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,11 +49,12 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -r requirements.txt
-      - name: Offline monitor tests
-        run: python -m unittest discover -s tests -p test_monitor_sources.py -v
-      - name: Gather review evidence
+      - name: Offline monitor and watcher tests
+        run: |
+          python -m unittest discover -s tests -p test_monitor_sources.py -v
+          python -m unittest discover -s tests -p test_watch_changes.py -v
+      - name: Check every recorded source
         id: monitor
-        continue-on-error: true
         env:
           INCLUDE_DISTRICTS: ${{ inputs.include_districts }}
           SOURCE_ID: ${{ inputs.source_id }}
@@ -41,9 +63,15 @@ jobs:
           args=()
           if [ "$INCLUDE_DISTRICTS" = "true" ]; then args+=(--include-districts); fi
           if [ -n "$SOURCE_ID" ]; then args+=(--source-id "$SOURCE_ID"); fi
+          set +e
           python scripts/monitor_sources.py --timeout 60 "${args[@]}"
-      - name: Record link check (full runs only)
-        if: always() && inputs.source_id == ''
+          code=$?
+          set -e
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          # 1 and 2 mean "a person should review" and are reported below; 3 means the run itself broke.
+          if [ "$code" -eq 3 ]; then exit 3; fi
+      - name: Record link check
+        if: env.FULL_RUN == 'true'
         shell: bash
         run: |
           latest="$(ls -d .review/*/ | sort | tail -1)"
@@ -51,7 +79,16 @@ jobs:
           echo '----- BEGIN data/link_check.json -----'
           cat .review/link_check.json
           echo '----- END data/link_check.json -----'
-      - name: Retain evidence even when a source failed
+      - name: Watch for changes in the law
+        id: watch
+        shell: bash
+        run: |
+          args=(--state maintenance/watch_state.json --out .review/watch --previous-link-check data/link_check.json)
+          if [ -f .review/link_check.json ]; then args+=(--link-check .review/link_check.json); fi
+          python scripts/watch_changes.py "${args[@]}"
+          cat .review/watch/report.md
+          cat .review/watch/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Retain evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -60,8 +97,49 @@ jobs:
           include-hidden-files: true
           if-no-files-found: error
           retention-days: 30
-      - name: Surface review-required or failed monitor result
-        if: steps.monitor.outcome == 'failure'
+      - name: Propose this week's records for review
+        if: env.PUBLISH == 'true' && env.FULL_RUN == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        shell: bash
         run: |
-          echo 'Review required or source/input failure. Inspect report artifact and monitor step exit code.'
-          exit 1
+          set -euo pipefail
+          today="$(date -u +%F)"
+          branch="automation/weekly-review"
+          cp .review/link_check.json data/link_check.json
+          cp .review/watch/watch_state.json maintenance/watch_state.json
+          # The records must still pass the full build and validation before they are proposed.
+          python scripts/build_public.py > /dev/null
+          python scripts/validate_public.py > .review/validation.json || { echo "Validation failed; not proposing records."; cat .review/validation.json; exit 1; }
+          {
+            cat .review/watch/report.md
+            echo
+            echo "---"
+            echo "Run: $RUN_URL"
+            echo
+            echo "**What merging this does:** records this week's link check (\`data/link_check.json\`, shown on each page as *Links checked*) and the watchers' state (\`maintenance/watch_state.json\`), so next week reports only what is new. It changes no claim, authority or legal review date. Act on each finding in a separate change. The build and validator passed in this run."
+          } > .review/pr-body.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data/link_check.json maintenance/watch_state.json
+          git commit -m "Weekly source review $today" -m "Automated, read-only. Records the link check and the watchers' state; no legal content changed. $RUN_URL"
+          git push --force "https://x-access-token:${GH_TOKEN}@github.com/${REPO}.git" "HEAD:refs/heads/${branch}"
+          open_pr="$(gh pr list --repo "$REPO" --head "$branch" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$open_pr" ]; then
+            gh pr edit "$open_pr" --repo "$REPO" --title "Weekly source review $today" --body-file .review/pr-body.md
+            echo "Updated pull request #$open_pr"
+          elif gh pr create --repo "$REPO" --base main --head "$branch" --title "Weekly source review $today" --body-file .review/pr-body.md; then
+            echo "Opened a pull request"
+          else
+            # Actions may be barred from opening pull requests (repository setting); open an issue instead.
+            gh label create source-review --repo "$REPO" --color 5319e7 --description "Weekly automated source review" --force
+            {
+              echo "Actions could not open the weekly pull request. To review and record this week's results, open one from the branch: https://github.com/${REPO}/compare/main...${branch}"
+              echo
+              cat .review/pr-body.md
+            } > .review/issue-body.md
+            gh issue create --repo "$REPO" --title "Weekly source review $today" --label source-review --body-file .review/issue-body.md
+          fi
