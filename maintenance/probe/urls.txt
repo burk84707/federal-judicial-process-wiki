@@ -1,2 +1,13 @@
 # Candidate URLs tested by .github/workflows/url-probe.yml before a source record changes.
 # Format: URL [regex for links | !text | !fulltext | !find:<regex> for text around each match]
+# Phase 6 watch sources
+https://www.bop.gov/PublicInfo/execute/policysearch?todo=query&series=5000 !find:(5100|5160|5331|5410|5880)\.\d\d[^<]{0,160}
+https://www.federalregister.gov/api/v1/documents.json?conditions[cfr][title]=28&conditions[cfr][part]=523&conditions[publication_date][gte]=2026-01-01&fields[]=document_number&fields[]=title&fields[]=type&fields[]=publication_date&fields[]=effective_on&fields[]=html_url&per_page=20 !fulltext
+https://www.supremecourt.gov/opinions/slipopinion/26 !find:(?s)<tr>.{0,700}?</tr>
+https://www.supremecourt.gov/opinions/slipopinion/25 (?i)\.pdf
+https://www.uscourts.gov/forms-rules/pending-rules-and-forms-amendments (?i)crim|pdf
+https://www.uscourts.gov/rules-policies/pending-rules-and-forms-amendments (?i)crim|pdf
+https://www.uscourts.gov/forms-rules/current-rules-practice-procedure/federal-rules-criminal-procedure (?i)pdf|amend
+https://www.govinfo.gov/link/uscode/18/3585
+https://www.govinfo.gov/link/uscode/28/2255
+https://www.govinfo.gov/app/collection/uscode !fulltext
