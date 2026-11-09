@@ -12,6 +12,9 @@ Status: Owner approved; double legal review completed; licensed-attorney approva
 - Link targets: U.S. Code stays on GovInfo with the Law Revision Counsel's current page as mirror; Supreme Court opinions use the Court's preliminary prints. 101 of the 103 new URLs were confirmed; two Constitution Annotated pages refuse automated checks.
 - Pages now read "Current through November 2, 2026" (`current_through` in `release.json`). The research baseline stays August 26, 2026: district local rules and the open research items were not re-reviewed, and the court directory still shows that baseline.
 - Full change report, by module, with reasons and source quotations: `maintenance/correction-release-1.3.0/`.
+- Weekly review: the source review runs every Monday and proposes its records in one pull request for the owner. It never edits legal content and never merges.
+- New change watchers (`scripts/watch_changes.py`) read the BOP policy index, the Federal Register for each cited CFR part, the Supreme Court's opinions for the term, the federal courts' pending rules amendments and GovInfo's U.S. Code editions. They also flag a cited Guidelines Manual older than the one in effect, modules due for legal review, and sources that stopped opening or recovered. State is kept in `maintenance/watch_state.json`.
+- A review-required link-check result no longer fails the workflow; only a broken run does.
 
 ## 1.2.1 — 2026-10-15
 

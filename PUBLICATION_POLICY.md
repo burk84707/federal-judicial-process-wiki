@@ -32,7 +32,7 @@ Some preserved module prose refers to the private coverage matrix or historical 
 
 ## Updates require review
 
-Automated checks may identify changed source bytes, access failures and overdue review dates. Those checks do not determine legal effect. A reviewer must inspect the actual authority, jurisdiction, posture, dates and affected claims before changing canonical content. Publication follows validation of an approved release. No unattended legal promotion is enabled.
+Automated checks run weekly. They may identify access failures, overdue review dates, and new or changed law at the publishers this reference relies on: BOP policies, Federal Register rules, Supreme Court opinions, federal rules amendments and new editions of the U.S. Code. Those checks do not determine legal effect. A reviewer must inspect the actual authority, jurisdiction, posture, dates and affected claims before changing canonical content. Publication follows validation of an approved release. No unattended legal promotion is enabled.
 
 ## Engineering and portability
 
