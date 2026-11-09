@@ -1,6 +1,6 @@
-# Contributing
+# Reporting errors
 
-Anyone can report an error or propose a change. Every change is reviewed before it is merged, and every legal statement must stay tied to the authority that supports it.
+Anyone can report an error or a change in the law. Pull requests are not accepted: this is a single-owner reference, and every legal statement must stay tied to the authority that supports it. Reports are checked against their sources, and confirmed corrections are applied in the next release.
 
 ## Report an error
 
@@ -12,9 +12,15 @@ Open an issue with **The law changed**. Name the new or amended authority, its e
 
 Do not put confidential case records or personal information in a public issue.
 
-## Propose a change
+## Pull requests
 
-1. Fork the repository and create a branch.
+Pull requests are closed without review. Open an issue instead. You are free to fork and reuse the project under its licenses.
+
+## Maintainer workflow
+
+How the owner makes a change:
+
+1. Create a branch.
 2. Edit the record where it lives. Metadata (citations, dates, jurisdiction, links between records) lives only in `data/`. Module and authority headers carry only their ID; the validator rejects anything else.
 3. A claim's text in `data/claims.jsonl` must match its text in the module exactly, and its marker in the module must list the same authorities and status.
 4. Links are stored both ways. If a claim cites a new authority, add the claim to that authority's `linked_claim_ids`, and make sure the module lists the authority.
@@ -25,7 +31,7 @@ Do not put confidential case records or personal information in a public issue.
    python scripts/record_revisions.py --reason "What changed and why" data/claims.jsonl docs/20-pretrial/
    ```
 
-7. Build, validate and test before opening a pull request:
+7. Build, validate and test:
 
    ```sh
    python -m pip install -r requirements.txt
@@ -36,8 +42,8 @@ Do not put confidential case records or personal information in a public issue.
 
 ## How review works
 
-Continuous integration runs the build, the validator and the tests on every pull request. A pull request merges only when those checks pass and the owner has reviewed it. Changes to legal statements or authorities need a source a reviewer can check; style and tooling changes do not.
+`main` takes changes only through pull requests. Continuous integration runs the build, the validator and the tests on each one; the weekly review pull request runs them inside its own workflow. Changes to legal statements or authorities need a source a reviewer can check; style and tooling changes do not.
 
 ## Licenses
 
-By contributing, you agree that your contribution is licensed under the same terms as the project: content and data under [CC BY 4.0](LICENSE-CONTENT.md), code under the [MIT License](LICENSE).
+Content and data are licensed under [CC BY 4.0](LICENSE-CONTENT.md), credited as "Federal Judicial Process by Jason93"; code is licensed under the [MIT License](LICENSE).
