@@ -73,7 +73,9 @@
         "federal_ninth_circuit",
         "federal_tenth_circuit",
         "federal_eleventh_circuit",
-        "federal_dc_circuit"
+        "federal_dc_circuit",
+        "federal_northern_mariana_islands",
+        "federal_virgin_islands"
       ]
     },
     "decision_or_issuance_date": {
@@ -177,6 +179,13 @@
     "last_verified": {
       "type": "string",
       "format": "date"
+    },
+    "verification_channel": {
+      "enum": [
+        "official",
+        "approved_mirror",
+        "best_available"
+      ]
     }
   }
 }

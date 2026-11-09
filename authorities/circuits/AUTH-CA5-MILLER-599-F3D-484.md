@@ -14,7 +14,7 @@ Binding only in the Fifth Circuit and only for the bounded procedural postures i
 
 ## Official source and pinpoints
 
-599 F.3d 484 (5th Cir. 2010), 599 F.3d 488–90: <https://cases.justia.com/federal/appellate-courts/ca5/08-11186/920100308/0.pdf>
+599 F.3d 484 (5th Cir. 2010), 599 F.3d 488–90: <https://www.courtlistener.com/opinion/71483/united-states-v-miller/>
 
 ## Linked claims
 

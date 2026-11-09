@@ -38,19 +38,19 @@ The preliminary hearing must be recorded and include notice, an opportunity to a
 The revocation hearing, unless waived, must occur within a reasonable time in the district having jurisdiction; Rule 32.1 does not supply a fixed nationwide day count. [Fed. R. Crim. P. 32.1(b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
 
 <!-- claim:CLM-SRREV-010 authorities:AUTH-FRCRIM-P-32-1,AUTH-USC-18-3006A status:verified_current -->
-At the revocation hearing the person has rights to written notice, disclosure of evidence, counsel, an opportunity to appear and present evidence, questioning of adverse witnesses unless the interest of justice does not require appearance, and a statement and mitigation. [Fed. R. Crim. P. 32.1(b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf); [18 U.S.C. § 3006A(a)(1)(E)](https://www.govinfo.gov/link/uscode/18/3006A)
+At the revocation hearing the person is entitled to written notice of the alleged violation, disclosure of the evidence, an opportunity to appear, present evidence, and question any adverse witness unless the court determines that the interest of justice does not require the witness to appear, notice of the right to retain counsel or to request appointed counsel if the person cannot obtain counsel, and an opportunity to make a statement and present mitigation. Section 3006A(a)(1)(E) requires representation for a financially eligible person charged with a supervised-release violation. [Fed. R. Crim. P. 32.1(b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf); [18 U.S.C. § 3006A(a)(1)(E)](https://www.govinfo.gov/link/uscode/18/3006A)
 
 <!-- claim:CLM-SRREV-011 authorities:AUTH-SCOTUS-MORRISSEY-408-US-471 status:verified_current -->
 *Morrissey* treats parole revocation as a loss of conditional liberty rather than a new criminal prosecution and identifies minimum due-process protections for preliminary and final parole-revocation proceedings. [*Morrissey v. Brewer*, 408 U.S. 471, 480–90 (1972)](https://www.govinfo.gov/content/pkg/USREPORTS-408/pdf/USREPORTS-408-471.pdf)
 
-<!-- claim:CLM-SRREV-012 authorities:AUTH-SCOTUS-GAGNON-411-US-778 status:verified_current -->
-*Gagnon* extends *Morrissey*'s due-process framework to probation revocation and applies a case-specific constitutional counsel inquiry; federal Rule 32.1 and § 3006A independently provide the operative federal counsel protections. [*Gagnon v. Scarpelli*, 411 U.S. 778, 781–91 (1973)](https://www.govinfo.gov/content/pkg/USREPORTS-411/pdf/USREPORTS-411-778.pdf)
+<!-- claim:CLM-SRREV-012 authorities:AUTH-SCOTUS-GAGNON-411-US-778,AUTH-FRCRIM-P-32-1,AUTH-USC-18-3006A status:verified_current -->
+*Gagnon* holds that a probationer, like a parolee, is entitled to preliminary and final revocation hearings under the conditions specified in *Morrissey* and that the need for counsel must be decided case by case. [*Gagnon v. Scarpelli*, 411 U.S. 778, 782, 790 (1973)](https://www.govinfo.gov/content/pkg/USREPORTS-411/pdf/USREPORTS-411-778.pdf) For federal supervised release, Rule 32.1 requires notice of the right to retain counsel or to request appointed counsel, and § 3006A(a)(1)(E) requires representation for a financially eligible person charged with a supervised-release violation. [Fed. R. Crim. P. 32.1(b)(2)(D)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf); [18 U.S.C. § 3006A(a)(1)(E)](https://www.govinfo.gov/link/uscode/18/3006A)
 
 <!-- claim:CLM-SRREV-013 authorities:AUTH-FRE-1101,AUTH-FRCRIM-P-32-1 status:verified_current -->
 Except for privilege rules, the Federal Rules of Evidence do not apply to proceedings granting or revoking supervised release; Rule 32.1's disclosure and adverse-witness protections still govern. [Fed. R. Evid. 1101(d)(3)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-evidence-dec-1-2024.pdf)
 
 <!-- claim:CLM-SRREV-014 authorities:AUTH-FRCRIM-P-32-1 status:verified_current -->
-Rule 26.2 applies at both revocation and modification hearings, and failure to produce a covered witness statement requires the court not to consider that witness's testimony. [Fed. R. Crim. P. 32.1(e)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
+Rule 26.2(a)–(d) and (f) applies at any hearing under Rule 32.1, and if a party fails to comply with a Rule 26.2 order to produce a witness's statement, the court must not consider that witness's testimony. [Fed. R. Crim. P. 32.1(e)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
 
 <!-- claim:CLM-SRREV-015 authorities:AUTH-FRCRIM-P-32-1 status:verified_current -->
 The current rule uses an “interest of justice” adverse-witness standard; any more specific confrontation balancing test, waiver doctrine, or appellate review rule must be verified in the controlling circuit and record. [Fed. R. Crim. P. 32.1(b)(1)(B)(iii), (b)(2)(C)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
@@ -58,92 +58,92 @@ The current rule uses an “interest of justice” adverse-witness standard; any
 ## Violation proof and disposition
 
 <!-- claim:CLM-SRREV-016 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-The court may revoke supervised release on a preponderance finding that a condition was violated. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583)
+After considering the § 3553(a) factors listed in § 3583(e), the court may revoke supervised release if, under the Criminal Rules applicable to revocation, it finds by a preponderance of the evidence that the person violated a condition. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583)
 
-<!-- claim:CLM-SRREV-017 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-The maximum imprisonment on any revocation under § 3583(e)(3) is keyed to the class of the original offense—five, three, two, or one year as specified—not to the Chapter 7 violation grade. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583)
+<!-- claim:CLM-SRREV-017 authorities:AUTH-USC-18-3582-3583,AUTH-SCOTUS-HAYMOND-588-US-634 status:verified_current -->
+Except where § 3583(k) directs revocation imprisonment "without regard to the exception" in § 3583(e)(3), the maximum imprisonment on a revocation under § 3583(e)(3) is keyed to the class of the offense that resulted in the term (five years for a Class A felony, three for Class B, two for Class C or D, and one year in any other case), not to the Chapter 7 violation grade, and it may not exceed the supervised-release term authorized by statute for that offense. [18 U.S.C. § 3583(e)(3), (k)](https://www.govinfo.gov/link/uscode/18/3583) In *Haymond*, the plurality concluded that applying § 3583(k)'s mandatory minimum in that case violated the right to trial by jury, Justice Breyer, concurring in the judgment, agreed that § 3583(k) is unconstitutional, and the Court vacated and remanded for the court of appeals to address the remedy. [*United States v. Haymond*, 588 U.S. 634, 656–59 (2019)](https://www.supremecourt.gov/opinions/preliminaryprint/588US2PP_final.pdf)
 
 <!-- claim:CLM-SRREV-018 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
 Section 3583(e)(3) gives no credit for time previously served on postrelease supervision and uses the phrase “on any such revocation”; offense-specific statutes and prior revocation terms still must be audited. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-019 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-Section 3583(g) requires revocation and imprisonment for possession of a controlled substance, firearm possession, refusal to comply with drug testing, or more than three positive illegal-drug tests in one year, subject to the treatment consideration required by § 3583(d). [18 U.S.C. § 3583(d), (g)](https://www.govinfo.gov/link/uscode/18/3583)
+Section 3583(g) requires the court to revoke and impose imprisonment, not to exceed the § 3583(e)(3) maximum, if the person possesses a controlled substance in violation of the § 3583(d) condition, possesses a firearm in violation of federal law or a release condition, refuses to comply with required drug testing, or tests positive for illegal controlled substances more than 3 times over 1 year. When considering action against a person who fails a drug test, § 3583(d) requires the court to consider whether the availability of appropriate substance-abuse treatment programs, or the person's current or past participation in them, warrants an exception, in accordance with Sentencing Commission guidelines, from the rule of § 3583(g). [18 U.S.C. § 3583(d), (g)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-020 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
-After revocation imprisonment, § 3583(h) permits a new supervised-release term whose length may not exceed the authorized term for the original offense minus imprisonment imposed on revocation; aggregation beyond the text must follow controlling precedent and the complete revocation record. [18 U.S.C. § 3583(h)](https://www.govinfo.gov/link/uscode/18/3583)
+When supervised release is revoked and the person is required to serve imprisonment, § 3583(h) permits a further supervised-release term whose length may not exceed the term authorized by statute for the offense that resulted in the original term, less any term of imprisonment that was imposed upon revocation of supervised release. [18 U.S.C. § 3583(h)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-021 authorities:AUTH-SCOTUS-JOHNSON-529-US-694,AUTH-USC-18-3582-3583 status:verified_current -->
 Postrevocation penalties are attributed to the original conviction for the constitutional and statutory analysis addressed in *Johnson*; the decision's historical treatment of pre-1994 law must not replace current § 3583(h). [*Johnson v. United States*, 529 U.S. 694, 699–713 (2000)](https://www.govinfo.gov/content/pkg/USREPORTS-529/pdf/USREPORTS-529-694.pdf)
 
-<!-- claim:CLM-SRREV-022 authorities:AUTH-SCOTUS-ESTERAS-606-US-SLIP,AUTH-USC-18-3582-3583 status:verified_current -->
-Under *Esteras*, § 3583(e)'s list is exhaustive and excludes § 3553(a)(2)(A); a revocation court may not use retribution for the underlying offense as a revocation-sentencing factor. [*Esteras v. United States*, 606 U.S. ___, slip op. 4–11 (2025)](https://www.supremecourt.gov/opinions/24pdf/23-7483_6k4c.pdf)
+<!-- claim:CLM-SRREV-022 authorities:AUTH-SCOTUS-ESTERAS-606-US-SLIP status:verified_current -->
+Under *Esteras*, § 3583(e)'s list is exhaustive and district courts cannot consider § 3553(a)(2)(A), retribution for the underlying offense, when revoking supervised release. The Court took no position on Commission policy statements that sanction the violation itself, did not resolve whether § 3583(e)'s list governs mandatory revocations under § 3583(g), and noted that without an objection, appellate review is for plain error. [*Esteras v. United States*, 606 U.S. ___, slip op. 8 & n.5, 11, 15–16 (2025)](https://www.supremecourt.gov/opinions/24pdf/23-7483_6k4c.pdf)
 
 <!-- claim:CLM-SRREV-023 authorities:AUTH-SCOTUS-TAPIA-564-US-319,AUTH-USC-18-3582-3583 status:verified_current -->
-A court may discuss treatment and may impose appropriate treatment conditions, but it may not impose or lengthen imprisonment to promote rehabilitation. [*Tapia v. United States*, 564 U.S. 319, 327–35 (2011)](https://www.govinfo.gov/content/pkg/USREPORTS-564/pdf/USREPORTS-564-319.pdf)
+A court may discuss rehabilitation opportunities and may order treatment as a condition of probation or supervised release, but § 3582(a) does not permit it to impose or lengthen a prison term to promote rehabilitation. [*Tapia v. United States*, 564 U.S. 319, 330, 334–35 (2011)](https://www.govinfo.gov/content/pkg/USREPORTS-564/pdf/USREPORTS-564-319.pdf) *Tapia* reviewed an original sentence; for revocation, § 3583(e) separately lists § 3553(a)(2)(D) among the factors the court considers. [18 U.S.C. § 3583(e)](https://www.govinfo.gov/link/uscode/18/3583)
 
 <!-- claim:CLM-SRREV-024 authorities:AUTH-SCOTUS-HAYMOND-588-US-634,AUTH-USC-18-3582-3583 status:verified_current -->
-*Haymond* invalidated the application of § 3583(k)'s judge-found mandatory minimum in the posture before the Court, but Justice Breyer's controlling concurrence rested on three combined features that made § 3583(k) unlike ordinary revocation. [*United States v. Haymond*, 588 U.S. 634, 657–61 (2019) (Breyer, J., concurring in the judgment)](https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf)
+*Haymond* invalidated the application of § 3583(k)'s judge-found mandatory minimum in the posture before the Court, but Justice Breyer's controlling concurrence rested on three combined features that made § 3583(k) unlike ordinary revocation. [*United States v. Haymond*, 588 U.S. 634, 657–61 (2019) (Breyer, J., concurring in the judgment)](https://www.supremecourt.gov/opinions/preliminaryprint/588US2PP_final.pdf)
 
 <!-- claim:CLM-SRREV-025 authorities:AUTH-SCOTUS-HAYMOND-588-US-634 status:verified_current -->
-*Haymond* does not establish a jury-trial requirement for every ordinary § 3583(e)(3) revocation, and the remedy for a particular § 3583(k) case must be taken from controlling post-*Haymond* law rather than assumed nationally. [*Haymond*, 588 U.S. at 657–61 (Breyer, J., concurring)](https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf)
+*Haymond* does not establish a jury-trial requirement for every ordinary § 3583(e)(3) revocation, and the remedy for a particular § 3583(k) case must be taken from controlling post-*Haymond* law rather than assumed nationally. [*Haymond*, 588 U.S. at 657–61 (Breyer, J., concurring)](https://www.supremecourt.gov/opinions/preliminaryprint/588US2PP_final.pdf)
 
 ## Current Chapter 7 policy statements
 
-<!-- claim:CLM-SRREV-026 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-Effective November 1, 2025, supervised-release violation policy statements are in §§ 7C1.1–7C1.6; legacy citations to §§ 7B1.1–7B1.5 are no longer the current section numbers. [U.S.S.G. ch. 7, pt. C (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-026 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Effective November 1, 2025, supervised-release violation policy statements are in §§ 7C1.1–7C1.6; §§ 7B1.1–7B1.5 now address probation violations, so legacy citations to §§ 7B1.1–7B1.5 are not the current section numbers for supervised-release violations. [U.S.S.G. ch. 7, pts. A, B, C (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-027 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-Section 7C1.1 classifies supervised-release violations by the person's actual conduct and uses the most serious grade when more than one violation exists; the current text enumerates Grades A, B, and C. [U.S.S.G. § 7C1.1 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-027 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Section 7C1.1 classifies supervised-release violations by the person's actual conduct and uses the most serious grade when more than one violation exists; the current text enumerates Grades A, B, and C. [U.S.S.G. § 7C1.1 (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-028 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-The current § 7C1.1 introductory sentence says “four grades” but then defines only three; this official-source inconsistency must be preserved as a source anomaly rather than repaired by inventing a Grade D. [U.S.S.G. § 7C1.1 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-028 authorities:AUTH-USSC-2025-7C1,AUTH-FR-91-24088 status:verified_current -->
+The 2025 edition of § 7C1.1 introduces the violation grades with “four grades” but defines only Grades A, B, and C. The Commission's technical amendment effective Nov. 1, 2026 strikes “four grades” and inserts “three grades” to correct that inaccurate reference, so the 2025 wording must not be read as creating a Grade D. [U.S.S.G. § 7C1.1 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7); [91 Fed. Reg. 24,088, 24,112–13 (May 4, 2026)](https://www.govinfo.gov/content/pkg/FR-2026-05-04/html/2026-08647.htm)
 
-<!-- claim:CLM-SRREV-029 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-Section 7C1.2 generally calls for prompt reporting of Grade A and B violations and permits nonreporting of a Grade C violation only within its stated minor, nonpattern, risk, and directive conditions. [U.S.S.G. § 7C1.2 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-029 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Section 7C1.2 directs the probation officer to promptly report any alleged Grade A or B violation, and to promptly report an alleged Grade C violation unless the officer determines that it is minor and not part of a continuing pattern and that non-reporting will not present an undue risk to an individual or the public or be inconsistent with any directive of the court relative to the reporting of violations. [U.S.S.G. § 7C1.2(a)–(b) (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-030 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-Section 7C1.3 directs an individualized disposition, recognizes statutory mandatory-revocation provisions, and supplies policy guidance rather than a new statutory command for every violation. [U.S.S.G. § 7C1.3 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-030 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Section 7C1.3 directs an individualized disposition, recognizes statutory mandatory-revocation provisions, and supplies policy guidance rather than a new statutory command for every violation. [U.S.S.G. § 7C1.3 (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-031 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-Section 7C1.4 generally recommends consecutive revocation imprisonment and addresses additional supervised release, but §§ 3583(e) and (h) set the enacted limits. [U.S.S.G. § 7C1.4 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-031 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Section 7C1.4 generally recommends consecutive revocation imprisonment and addresses additional supervised release, but §§ 3583(e) and (h) set the enacted limits. [U.S.S.G. § 7C1.4 (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-032 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-Section 7C1.5's imprisonment table uses the criminal-history category applicable at the original sentence rather than recalculating a current category. [U.S.S.G. § 7C1.5(a) & cmt. n.1 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-032 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Section 7C1.5's recommended imprisonment table uses the criminal-history category applicable when the defendant originally was sentenced to the term of supervised release rather than recalculating a current category. [U.S.S.G. § 7C1.5 & cmt. n.1 (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-033 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-For Grade C violations, § 7C1.5 ranges are 3–9, 4–10, 5–11, 6–12, 7–13, and 8–14 months for criminal-history categories I through VI. [U.S.S.G. § 7C1.5(a) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-033 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Unless otherwise required by statute and subject to an individualized assessment, § 7C1.5 recommends Grade C ranges of 3–9, 4–10, 5–11, 6–12, 7–13, and 8–14 months for criminal-history categories I through VI. [U.S.S.G. § 7C1.5 (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-034 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-For Grade B violations, § 7C1.5 ranges are 4–10, 6–12, 8–14, 12–18, 18–24, and 21–27 months for categories I through VI. [U.S.S.G. § 7C1.5(a) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-034 authorities:AUTH-USSC-2026-7C1 status:verified_current -->
+Unless otherwise required by statute and subject to an individualized assessment, § 7C1.5 recommends Grade B ranges of 4–10, 6–12, 8–14, 12–18, 18–24, and 21–27 months for criminal-history categories I through VI. [U.S.S.G. § 7C1.5 (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-035 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-For ordinary Grade A violations, § 7C1.5 ranges are 12–18, 15–21, 18–24, 24–30, 30–37, and 33–41 months for categories I through VI. [U.S.S.G. § 7C1.5(a) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-035 authorities:AUTH-USSG-2026-MANUAL status:verified_current -->
+Unless otherwise required by statute and subject to an individualized assessment, § 7C1.5 recommends Grade A ranges of 12–18, 15–21, 18–24, 24–30, 30–37, and 33–41 months for criminal-history categories I through VI, except when the defendant was on supervised release as a result of a sentence for a Class A felony; in that circumstance, the recommended ranges are 24–30, 27–33, 30–37, 37–46, 46–57, and 51–63 months. [U.S.S.G. § 7C1.5 (Nov. 1, 2026)](https://www.ussc.gov/sites/default/files/pdf/guidelines-manual/2026/GLMFull.pdf)
 
-<!-- claim:CLM-SRREV-036 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-For a Grade A violation when the supervised-release term followed a Class A felony sentence, the table instead lists 24–30, 27–33, 30–37, 37–46, 46–57, and 51–63 months for categories I through VI. [U.S.S.G. § 7C1.5(a) (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-036 authorities:AUTH-USSG-2026-MANUAL,AUTH-USC-18-3582-3583 status:verified_current -->
+Unless otherwise required by statute and subject to an individualized assessment, § 7C1.5 recommends Grade A ranges of 24–30, 27–33, 30–37, 37–46, 46–57, and 51–63 months for criminal-history categories I through VI when the defendant was on supervised release as a result of a sentence for a Class A felony. Section 3583(e)(3) provides that a defendant may not be required to serve more than five years in prison on any such revocation when the offense that resulted in the term of supervised release is a Class A felony, so that statutory limit controls over the table's higher category VI endpoint, except where § 3583(k) requires revocation and imprisonment without regard to that limit. [U.S.S.G. § 7C1.5 (Nov. 1, 2026)](https://www.ussc.gov/sites/default/files/pdf/guidelines-manual/2026/GLMFull.pdf); [18 U.S.C. § 3583(e)(3), (k)](https://www.govinfo.gov/link/uscode/18/3583)
 
-<!-- claim:CLM-SRREV-037 authorities:AUTH-USSC-2025-7C1 status:verified_current -->
-Chapter 7 policy statements are advisory; the court must separately observe § 3583(e)'s factors, statutory cap, mandatory provisions, explanation duties under applicable law, and controlling appellate precedent. [U.S.S.G. ch. 7, pt. C (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-037 authorities:AUTH-USC-18-3582-3583,AUTH-USSC-2026-7C1 status:verified_current -->
+Chapter 7's supervised-release provisions are policy statements. Section 3583(e) requires consideration of specified § 3553(a) factors and imposes the applicable offense-class cap; § 3583(g) contains mandatory-revocation provisions, and § 3583(h) limits any new supervised-release term. The Chapter 7 recommended range does not replace those statutory requirements. [18 U.S.C. § 3583(e), (g), (h)](https://www.govinfo.gov/link/uscode/18/3583); [U.S.S.G. ch. 7, pt. C (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
-<!-- claim:CLM-SRREV-038 authorities:AUTH-USSC-2025-7C1,AUTH-USC-18-3582-3583 status:verified_current -->
-The Chapter 7 table range and the § 3583(e)(3) statutory ceiling are separate calculations; a table range cannot enlarge the offense-class cap. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583); [U.S.S.G. § 7C1.5 (2025)](https://www.ussc.gov/guidelines/2025-guidelines-manual/annotated-2025-chapter-7)
+<!-- claim:CLM-SRREV-038 authorities:AUTH-USSC-2026-7C1,AUTH-USC-18-3582-3583 status:verified_current -->
+The Chapter 7 table range and the § 3583(e)(3) statutory ceiling are separate calculations; a table range cannot enlarge the offense-class cap. [18 U.S.C. § 3583(e)(3)](https://www.govinfo.gov/link/uscode/18/3583); [U.S.S.G. § 7C1.5 (2026)](https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7)
 
 ## Expiration, judgment challenge, and appeal
 
 <!-- claim:CLM-SRREV-039 authorities:AUTH-USC-18-3582-3583 status:verified_current -->
 After expiration, revocation power continues only if a warrant or summons based on an alleged violation issued before expiration and the later period is reasonably necessary to adjudicate matters arising before expiration. [18 U.S.C. § 3583(i)](https://www.govinfo.gov/link/uscode/18/3583)
 
-<!-- claim:CLM-SRREV-040 authorities:AUTH-SCOTUS-RICO-607-US-SLIP,AUTH-USC-18-3582-3583 status:verified_current -->
-Absconding does not substitute for § 3583(i)'s pre-expiration warrant-or-summons requirement; *Rico* enforces Congress's express delayed-revocation boundary. [*Rico*, 607 U.S. ___, slip op. 11–16](https://www.supremecourt.gov/opinions/25pdf/24-1056_qn12.pdf)
+<!-- claim:CLM-SRREV-040 authorities:AUTH-SCOTUS-RICO-607-US-609,AUTH-USC-18-3582-3583 status:verified_current -->
+Absconding does not automatically extend a term of supervised release. After the term expires, § 3583(i) extends the court's power to revoke "for any period reasonably necessary for the adjudication of matters arising before its expiration if, before its expiration, a warrant or summons has been issued on the basis of an allegation of such a violation." *Rico* read the provision to permit adjudication of only "matters arising before" expiration, and only if a warrant or summons issued during the term. [*Rico v. United States*, 607 U.S. 609, 615–616, 620, 622–623 (2026)](https://www.supremecourt.gov/opinions/25pdf/607us2r23_4g15.pdf); [18 U.S.C. § 3583(i)](https://www.govinfo.gov/link/uscode/18/3583). *Rico* left any harmless-error question for resolution on remand. [*Rico*, 607 U.S. at 622 n.*](https://www.supremecourt.gov/opinions/25pdf/607us2r23_4g15.pdf).
 
 <!-- claim:CLM-SRREV-041 authorities:AUTH-FRCRIM-P-32-1 status:verified_current -->
 A person may waive the preliminary or final hearing, but the validity and scope of any waiver must be established from the actual record; silence alone is not assigned a universal nationwide effect here. [Fed. R. Crim. P. 32.1(b)(1)(A), (b)(2)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)
 
-<!-- claim:CLM-SRREV-042 authorities:AUTH-USC-18-3582-3583,AUTH-FRCRIM-P-32-1 status:verified_current -->
-A revocation appeal requires the notice, judgment, violation findings, hearing transcript, admitted materials, objections, sentence reasons, statutory calculations, and controlling circuit standards; no single universal appellate standard is asserted for every issue. [18 U.S.C. § 3583(e)](https://www.govinfo.gov/link/uscode/18/3583)
+<!-- claim:CLM-SRREV-042 authorities:AUTH-FRAP-10-11 status:verified_current -->
+On appeal from a revocation judgment, the record on appeal consists of the original papers and exhibits filed in the district court, the transcript of proceedings, if any, and a certified copy of the docket entries; an appellant who will argue that a finding or conclusion is unsupported by or contrary to the evidence must include a transcript of all evidence relevant to it. [Fed. R. App. P. 10(a), (b)(2)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-appellate-procedure.pdf)
 
-<!-- claim:CLM-SRREV-043 authorities:AUTH-SCOTUS-JOHNSON-529-US-694,AUTH-USC-18-3582-3583 status:verified_current -->
-A direct challenge to the original judgment or condition and a challenge to a later revocation order are procedurally distinct; vehicle, timeliness, waiver, custody, and appealability must be classified from the challenged order. [*Johnson*, 529 U.S. at 700–01](https://www.govinfo.gov/content/pkg/USREPORTS-529/pdf/USREPORTS-529-694.pdf)
+<!-- claim:CLM-SRREV-043 authorities:AUTH-FRAP-3-4-22 status:verified_current -->
+Timeliness of a defendant's direct appeal runs from the judgment or order challenged: the notice of appeal must be filed in the district court within 14 days after the later of the entry of the judgment or order being appealed or the filing of the government's notice of appeal. [Fed. R. App. P. 4(b)(1)(A)](https://www.uscourts.gov/sites/default/files/document/federal-rules-of-appellate-procedure.pdf)
 
 <!-- claim:CLM-SRREV-044 authorities:AUTH-FRCRIM-P-32-1,AUTH-USC-18-3582-3583 status:verified_current -->
 Rule 32.1(d) does not itself state a written-findings rule; *Morrissey*, other procedural rules, sentencing statutes, and controlling circuit precedent must be applied for the precise findings or reasons question. [Fed. R. Crim. P. 32.1(d)](https://www.uscourts.gov/sites/default/files/2025-02/federal-rules-of-criminal-procedure-dec-1-2024.pdf)

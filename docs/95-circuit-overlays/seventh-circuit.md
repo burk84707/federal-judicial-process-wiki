@@ -27,7 +27,7 @@ This page prevents nationwide rules from being mistaken for Seventh Circuit doct
 - **CLM-CIR7-003:** In the Seventh Circuit, a federal prisoner properly proceeding under § 2241 does not need a certificate of appealability; for federal cases, § 2253(c) extends the COA requirement to § 2255 but not to § 2241. [*Walker v. O'Brien*, 216 F.3d 626, 638 (7th Cir. 2000)](https://www.courtlistener.com/opinion/769182/jimmy-walker-v-jt-obrien-and-joseph-w-finfrock-v-craig-a-hanks/)
 
   Limitation: Binding only in the Seventh Circuit and limited to federal-process custody. Walker's separate treatment of state-prisoner petitions is not adopted as a nationwide rule, and proceeding classification remains a distinct inquiry.
-<!-- claim:CLM-CIR7-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA7-SANFORD-986-F3D-779 status:verified_current -->
+<!-- claim:CLM-CIR7-004 authorities:AUTH-USC-18-3582,AUTH-CA7-SANFORD-986-F3D-779 status:verified_current -->
 - **CLM-CIR7-004:** In the Seventh Circuit, § 3582(c)(1)(A)'s defendant-filing prerequisite is an affirmative defense and a mandatory claim-processing rule: the government can forfeit it, but the court must enforce it when the government properly invokes it. [*United States v. Sanford*, 986 F.3d 779, 781–82 (7th Cir. 2021)](https://storage.courtlistener.com/pdf/2021/01/25/united_states_v._gregory_sanford.pdf)
 
   Limitation: Binding only in the Seventh Circuit. Sanford resolved a motion filed three days after the warden received the request and did not reach the merits or establish a general issue-exhaustion rule.

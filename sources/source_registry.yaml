@@ -11,8 +11,8 @@ sources:
   source_currency: Laws in effect on July 21, 2026
   retrieval_date: 2026-08-24
   official_url: https://www.govinfo.gov/link/uscode/28/2255
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A2255+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s2255/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -38,6 +38,7 @@ sources:
   additional_authority_ids:
   - AUTH-FRCRIM-P-1
   - AUTH-FRCRIM-P-45
+  - AUTH-FRCRIM-P-35-ADVISORY-NOTES
   title: Federal Rules of Criminal Procedure, Title 18 Appendix
   issuing_body: U.S. Government Publishing Office
   source_type: official_rules_pdf
@@ -49,8 +50,7 @@ sources:
   local_snapshot_path: null
   sha256: null
   status: current_text_verified
-  notes: Rule 33 at printed pages 141-143; Rule 45 at printed pages 174-177. Current U.S. Courts page reports the Criminal
-    Rules were last amended in 2023 and no criminal rule amendment took effect in 2025.
+  notes: Rule 33 at printed pages 141-143; Rule 45 at printed pages 174-177. Rule 35 advisory committee notes for the 1991, 2002, and 2009 amendments at printed pages 145-147. Current U.S. Courts page reports the Criminal Rules were last amended in 2023 and no criminal rule amendment took effect in 2025.
 - source_id: SRC-SCOTUS-EBERHART-546-US-12
   authority_id: AUTH-SCOTUS-EBERHART-546-US-12
   title: Eberhart v. United States
@@ -91,8 +91,8 @@ sources:
   source_currency: Laws in effect on August 11, 2026
   retrieval_date: 2026-08-24
   official_url: https://www.govinfo.gov/link/uscode/28/2244
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2244
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s2244/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -123,8 +123,8 @@ sources:
   source_currency: Laws in effect on August 17, 2026
   retrieval_date: 2026-08-24
   official_url: https://www.govinfo.gov/link/uscode/18/3624
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3624+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3624/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -197,13 +197,12 @@ sources:
   source_currency: Laws in effect on July 29, 2026
   retrieval_date: 2026-08-24
   official_url: https://www.govinfo.gov/link/uscode/18/3632
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3632
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3632/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
-  notes: Current text checked for system development, earning, offense ineligibility, removal-order, and application-handoff
-    provisions.
+  notes: Current text checked for system development, earning, offense ineligibility, removal-order, and application-handoff provisions.
 - source_id: SRC-CFR-2025-28-523-SUBPART-E
   authority_id: AUTH-CFR-28-523-SUBPART-E
   title: 28 C.F.R. Part 523, Subpart E — First Step Act Time Credits
@@ -245,7 +244,7 @@ sources:
   local_snapshot_path: null
   sha256: null
   status: verified_historical_record
-  notes: July 19, 2019 public release and DOJ statement that the statutory deadline was met were independently checked.
+  notes: July 19, 2019 public release and DOJ statement that the statutory deadline was met were independently checked. Snapshot withdrawn 2026-10-30 because the saved file was a justice.gov bot-verification page, not the release. Re-save the release page by hand before relying on this record.
 - source_id: SRC-USC-28-2241-OLRC-PRELIM
   authority_id: AUTH-USC-28-2241
   title: 28 U.S.C. § 2241 — Power to grant writ
@@ -255,13 +254,12 @@ sources:
   source_currency: Laws in effect on July 29, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/2241
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2241
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s2241/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
-  notes: Current text checked for writ authority, custody predicates, and express statutory transfer provisions; subsection
-    (e) is outside this bounded module.
+  notes: Current text checked for writ authority, custody predicates, and express statutory transfer provisions; subsection (e) is outside this bounded module.
 - source_id: SRC-USC-28-2243-OLRC-PRELIM
   authority_id: AUTH-USC-28-2243
   title: 28 U.S.C. § 2243 — Issuance of writ; return; hearing; decision
@@ -287,8 +285,8 @@ sources:
   source_currency: Laws in effect on August 17, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/2253
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section2253
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s2253/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
@@ -316,12 +314,16 @@ sources:
   source_currency: Official precedential opinion; saving-clause merits limited by Jones v. Hendrix
   retrieval_date: 2026-08-25
   official_url: https://www2.ca3.uscourts.gov/opinarch/144284p.pdf
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca3/14-4284/14-4284-2017-08-22.html
+  mirror_url: https://www.courtlistener.com/opinion/4420722/charles-bruce-v-warden-lewisburg-usp/
   local_snapshot_path: null
   sha256: null
   status: verified_with_material_limitation
-  notes: Used only for the unaffected statement that § 2253(c)'s COA requirements do not apply to a federal saving-clause
-    § 2241 appeal.
+  notes: Used only for the unaffected statement that § 2253(c)'s COA requirements do not apply to a federal saving-clause § 2241 appeal.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/ca3/14-4284/14-4284-2017-08-22.html
 - source_id: SRC-SCOTUS-PREISER-411-US-475
   authority_id: AUTH-SCOTUS-PREISER-411-US-475
   title: Preiser v. Rodriguez
@@ -360,12 +362,16 @@ sources:
   source_currency: Official published Ninth Circuit opinion
   retrieval_date: 2026-08-25
   official_url: https://cdn.ca9.uscourts.gov/datastore/opinions/2016/05/25/14-16399.pdf
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca9/14-16399/14-16399-2016-05-25.html
+  mirror_url: https://www.courtlistener.com/opinion/3206854/daniel-rodriguez-v-paul-copenhaver/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Used as a circuit-specific example of reconsideration, rather than court-awarded discretionary placement, as § 2241
-    relief.
+  notes: Used as a circuit-specific example of reconsideration, rather than court-awarded discretionary placement, as § 2241 relief.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/ca9/14-16399/14-16399-2016-05-25.html
 - source_id: SRC-PL-115-391-SEC-404
   authority_id: AUTH-PL-115-391-SEC-404
   title: First Step Act of 2018, section 404
@@ -409,13 +415,12 @@ sources:
   source_currency: Laws in effect on July 25, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3582
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3582%28c%29+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3582/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
-  notes: Subsections (a)-(e) checked for finality, all three subsection (c) modification doors, authorized movants, filing
-    gate, decision criteria, relief, BOP duties, and nonassociation orders.
+  notes: Subsections (a)-(e) checked for finality, all three subsection (c) modification doors, authorized movants, filing gate, decision criteria, relief, BOP duties, and nonassociation orders.
 - source_id: SRC-SCOTUS-DORSEY-567-US-260
   authority_id: AUTH-SCOTUS-DORSEY-567-US-260
   title: Dorsey v. United States
@@ -483,13 +488,12 @@ sources:
   source_currency: Preliminary edition containing laws in effect during August 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3142
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3142+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3142/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: current_preliminary_code
-  notes: Subsections (a) through (i) checked, with particular attention to hearing gates, burdens, presumptions, and least-restrictive
-    conditions.
+  notes: Subsections (a) through (i) checked, with particular attention to hearing gates, burdens, presumptions, and least-restrictive conditions.
 - source_id: SRC-SCOTUS-CORLEY-556-US-303
   authority_id: AUTH-SCOTUS-CORLEY-556-US-303
   title: Corley v. United States
@@ -689,8 +693,8 @@ sources:
   source_currency: Preliminary Code current in August 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3161
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3161
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3161/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -704,8 +708,8 @@ sources:
   source_currency: Preliminary Code current in August 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3237
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3237
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3237/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -775,8 +779,8 @@ sources:
   source_currency: Preliminary Code text states laws in effect on August 17, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3500
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3500+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3500/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -933,13 +937,12 @@ sources:
   source_currency: Preliminary Code text stated laws in effect on August 13, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3731
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3731+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3731/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Government criminal appeals, certification, thirty-day filing, diligence, and constitutional limit. Checked at §
-    3731.
+  notes: Government criminal appeals, certification, thirty-day filing, diligence, and constitutional limit. Checked at § 3731.
 - source_id: SRC-SCOTUS-RAKAS-439-US-128
   authority_id: AUTH-SCOTUS-RAKAS-439-US-128
   title: Rakas v. Illinois
@@ -1103,13 +1106,12 @@ sources:
   source_currency: Preliminary Code text current in August 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/4241
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section4241
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s4241/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Insanity elements and burden; competency and insanity examination, hearing, commitment, and release procedures. Checked
-    at § 17; §§ 4241–4243, 4247.
+  notes: Insanity elements and burden; competency and insanity examination, hearing, commitment, and release procedures. Checked at § 17; §§ 4241–4243, 4247.
 - source_id: SRC-SCOTUS-DUSKY-362-US-402
   authority_id: AUTH-SCOTUS-DUSKY-362-US-402
   title: Dusky v. United States
@@ -1626,13 +1628,12 @@ sources:
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/1867
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title28-section1867
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1867/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Fair-cross-section policy, prohibited exclusion, challenge timing, submission, remedy, and exclusivity. Checked at
-    28 U.S.C. §§ 1861, 1862, 1867.
+  notes: Fair-cross-section policy, prohibited exclusion, challenge timing, submission, remedy, and exclusivity. Checked at 28 U.S.C. §§ 1861, 1862, 1867.
 - source_id: SRC-SCOTUS-BALDWIN-399-US-66
   authority_id: AUTH-SCOTUS-BALDWIN-399-US-66
   title: Baldwin v. New York
@@ -1897,13 +1898,12 @@ sources:
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3553
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3553
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3553/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: General sentencing authority, presentence report, sentencing factors, reasons, substantial assistance, and safety
-    valve. Checked at 18 U.S.C. §§ 3551–3553.
+  notes: General sentencing authority, presentence report, sentencing factors, reasons, substantial assistance, and safety valve. Checked at 18 U.S.C. §§ 3551–3553.
 - source_id: SRC-USSG-2025-SENTENCING-CALCULATION
   authority_id: AUTH-USSG-2025-SENTENCING-CALCULATION
   title: 2025 Federal Sentencing Guidelines Calculation Provisions
@@ -1928,8 +1928,8 @@ sources:
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3013
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3013+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3013/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -1943,13 +1943,12 @@ sources:
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3664
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3664
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3664/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Discretionary and mandatory restitution authority, victim definition, procedure, allocation, timing, and finality.
-    Checked at 18 U.S.C. §§ 3663, 3663A, 3664.
+  notes: Discretionary and mandatory restitution authority, victim definition, procedure, allocation, timing, and finality. Checked at 18 U.S.C. §§ 3663, 3663A, 3664.
 - source_id: SRC-USC-18-982
   authority_id: AUTH-USC-18-982
   title: Criminal Forfeiture
@@ -1959,28 +1958,27 @@ sources:
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/982
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section982
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s982/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
   notes: Offense-specific criminal-forfeiture mandates and incorporated procedure. Checked at 18 U.S.C. § 982.
 - source_id: SRC-USC-18-3582-3583
   authority_id: AUTH-USC-18-3582-3583
-  title: Imprisonment Finality and Supervised Release
+  title: Supervised Release
   issuing_body: Congress of the United States
   source_type: official_preliminary_code
-  citation: 18 U.S.C. §§ 3582, 3583
+  citation: 18 U.S.C. § 3583
   source_currency: Official preliminary Code in effect August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3583
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=1&req=granuleid%3AUSC-prelim-title18-section3583
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3583/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Sentence finality, authorized modification routes, initial supervised release, terms, and conditions. Checked at
-    18 U.S.C. §§ 3582, 3583.
+  notes: Supervised-release text. Checked at 18 U.S.C. § 3583. Relabeled 2026-10-30 because the URL and snapshot are the § 3583 page only; § 3582 is AUTH-USC-18-3582.
 - source_id: SRC-SCOTUS-BOOKER-543-US-220
   authority_id: AUTH-SCOTUS-BOOKER-543-US-220
   title: United States v. Booker
@@ -2321,13 +2319,12 @@ sources:
   source_currency: Current official preliminary Code checked August 25, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/1291
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section1291
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1291/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Court-of-appeals jurisdiction over final district-court decisions, subject to direct Supreme Court review exceptions.
-    Checked at 28 U.S.C. § 1291.
+  notes: Court-of-appeals jurisdiction over final district-court decisions, subject to direct Supreme Court review exceptions. Checked at 28 U.S.C. § 1291.
 - source_id: SRC-USC-18-3742
   authority_id: AUTH-USC-18-3742
   title: Review of a Sentence
@@ -2337,8 +2334,8 @@ sources:
   source_currency: Current official preliminary Code checked August 25, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3742
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3742+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3742/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -2945,16 +2942,15 @@ sources:
   citation: 590 U.S. 504 (2020)
   source_currency: Final official Supreme Court or United States Reports source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/19pdf/18-6943_k5fm.pdf
+  official_url: https://www.supremecourt.gov/opinions/preliminaryprint/590US2PP_web.pdf
   mirror_url: null
-  previous_url: "https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf"
+  previous_url: https://www.supremecourt.gov/opinions/19pdf/590us2r39_fd9g.pdf
   url_changed: '2026-10-15'
-  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's slip-opinion PDF for No. 18-6943, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
+  url_change_reason: 'The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court''s slip-opinion PDF for No. 18-6943, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566'
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Timely Rule 59(e) habeas motion is part of the first proceeding, not a successive application. Checked at 590 U.S.
-    508–19.
+  notes: Timely Rule 59(e) habeas motion is part of the first proceeding, not a successive application. Checked at 590 U.S. 508–19.
 - source_id: SRC-SCOTUS-GONZALEZ-CROSBY-545-US-524
   authority_id: AUTH-SCOTUS-GONZALEZ-CROSBY-545-US-524
   title: Gonzalez v. Crosby
@@ -2993,13 +2989,12 @@ sources:
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/1631
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1631+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1631/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Transfer when the filing court lacks jurisdiction, the receiving court could have heard the matter when filed, and
-    transfer serves the interest of justice. Checked at § 1631.
+  notes: Transfer when the filing court lacks jurisdiction, the receiving court could have heard the matter when filed, and transfer serves the interest of justice. Checked at § 1631.
 - source_id: SRC-SCOTUS-MAGWOOD-561-US-320
   authority_id: AUTH-SCOTUS-MAGWOOD-561-US-320
   title: Magwood v. Patterson
@@ -3113,13 +3108,12 @@ sources:
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/2242
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid%3AUSC-prelim-title28-section2242
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s2242/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Writing, signature, verification, factual and custodian allegations, and civil-rule amendment or supplementation
-    requirements. Checked at § 2242.
+  notes: Writing, signature, verification, factual and custodian allegations, and civil-rule amendment or supplementation requirements. Checked at § 2242.
 - source_id: SRC-USC-28-1914
   authority_id: AUTH-USC-28-1914
   title: District court filing and miscellaneous fees
@@ -3129,8 +3123,8 @@ sources:
   source_currency: OLRC preliminary edition checked August 25, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/1914
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A28+section%3A1914+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1914/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3325,13 +3319,12 @@ sources:
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/1651
-  mirror_url: https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1651
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1651/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: All Writs Act authority is limited to necessary or appropriate writs in aid of the issuing court's jurisdiction.
-    Checked at § 1651(a).
+  notes: All Writs Act authority is limited to necessary or appropriate writs in aid of the issuing court's jurisdiction. Checked at § 1651(a).
 - source_id: SRC-USC-28-1361
   authority_id: AUTH-USC-28-1361
   title: Action to compel an officer of the United States to perform a duty
@@ -3341,13 +3334,12 @@ sources:
   source_currency: OLRC preliminary edition current through laws enacted August 19, 2026
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/28/1361
-  mirror_url: https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title28-section1361
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1361/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: District-court original jurisdiction over an action in the nature of mandamus to compel a federal officer, employee,
-    or agency to perform a duty owed. Checked at § 1361.
+  notes: District-court original jurisdiction over an action in the nature of mandamus to compel a federal officer, employee, or agency to perform a duty owed. Checked at § 1361.
 - source_id: SRC-FRAP-21
   authority_id: AUTH-FRAP-21
   title: Writs of Mandamus and Prohibition, and Other Extraordinary Writs
@@ -3648,8 +3640,8 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3584
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&jumpTo=true&num=0&req=%28title%3A18+section%3A3584+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3584/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3663,8 +3655,8 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3585
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3585+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3585/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3678,8 +3670,8 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3621
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3621
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3621/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
@@ -3693,13 +3685,12 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3625
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3625
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3625/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Specified APA provisions do not apply to determinations, decisions, or orders under chapter 229 subchapter C. Checked
-    at § 3625.
+  notes: Specified APA provisions do not apply to determinations, decisions, or orders under chapter 229 subchapter C. Checked at § 3625.
 - source_id: SRC-BOP-PS-5100-08-CN3
   authority_id: AUTH-BOP-PS-5100-08-CN3
   title: Inmate Security Designation and Custody Classification, Change Notice 3
@@ -3726,7 +3717,7 @@ sources:
   mirror_url: null
   local_snapshot_path: null
   sha256: null
-  status: verified_with_limitations
+  status: needs_update
   notes: BOP policy for state-facility designation, including retroactive designation consideration. Checked at pp. 1–8.
 - source_id: SRC-BOP-PS-5331-02-CN3
   authority_id: AUTH-BOP-PS-5331-02-CN3
@@ -3782,12 +3773,11 @@ sources:
   official_url: https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp
   mirror_url: https://web.archive.org/web/20260619204331/https://www.bop.gov/news/20251016-federal-time-credit-application-guide.jsp
   archived_on: '2026-06-19'
-  archive_note: "Removed from bop.gov between 2026-08-25, when the legal review saw it live, and 2026-10-01, when the Wayback Machine recorded HTTP 404. No withdrawal or replacement notice was found. The BOP's First Step Act policies page still links the removed address. Archived copy: Wayback Machine capture of 2026-06-19 (the announcement page; the guide document it describes was not captured). Archive capture verified to open in probe run 38791760193."
+  archive_note: 'Removed from bop.gov between 2026-08-25, when the legal review saw it live, and 2026-10-01, when the Wayback Machine recorded HTTP 404. No withdrawal or replacement notice was found. The BOP''s First Step Act policies page still links the removed address. Archived copy: Wayback Machine capture of 2026-06-19 (the announcement page; the guide document it describes was not captured). Archive capture verified to open in probe run 38791760193.'
   local_snapshot_path: null
   sha256: null
-  status: verified_with_limitations
-  notes: Current public BOP operational guidance for lawful time-credit application. Checked at guide and linked implementation
-    materials.
+  status: needs_update
+  notes: Current public BOP operational guidance for lawful time-credit application. Checked at guide and linked implementation materials.
 - source_id: SRC-BOP-HOME-CONFINEMENT-DIRECTIVE-2025
   authority_id: AUTH-BOP-HOME-CONFINEMENT-DIRECTIVE-2025
   title: Expanding Home Confinement
@@ -3828,7 +3818,7 @@ sources:
   mirror_url: null
   local_snapshot_path: null
   sha256: null
-  status: verified_with_limitations
+  status: needs_update
   notes: Director discretion over continued CARES Act home confinement after the emergency period. Checked at § 0.120.
 - source_id: SRC-CFR-28-115-52
   authority_id: AUTH-CFR-28-115-52
@@ -3857,8 +3847,7 @@ sources:
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Current federal inmate incident-report, UDC, DHO, evidence, sanction, and appeal rules. Checked at pt. 541, subpt.
-    A.
+  notes: Current federal inmate incident-report, UDC, DHO, evidence, sanction, and appeal rules. Checked at pt. 541, subpt. A. Snapshot is the official GovInfo annual CFR edition revised as of July 1, 2025 (CFR-2025-title28-vol2-part541.xml), because eCFR refuses scripted downloads. The eCFR versioner API checked 2026-10-30 shows the latest amendment to part 541 is dated 2022-01-19, so the annual-edition text matches the current text.
 - source_id: SRC-CFR-28-550-RDAP
   authority_id: AUTH-CFR-28-550-RDAP
   title: Residential Drug Abuse Treatment Program
@@ -4160,13 +4149,12 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3605
-  mirror_url: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title18-section3605
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3605/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Transfer of supervised-release jurisdiction requires receiving-court concurrence and gives the receiving court the
-    listed powers. Checked at § 3605.
+  notes: Transfer of supervised-release jurisdiction requires receiving-court concurrence and gives the receiving court the listed powers. Checked at § 3605.
 - source_id: SRC-USC-18-3006A
   authority_id: AUTH-USC-18-3006A
   title: Adequate representation of defendants
@@ -4176,13 +4164,12 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3006A
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3006A+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3006A/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: CJA representation for financially eligible persons facing supervised-release violation or change proceedings. Checked
-    at § 3006A(a)(1)(E).
+  notes: CJA representation for financially eligible persons facing supervised-release violation or change proceedings. Checked at § 3006A(a)(1)(E).
 - source_id: SRC-USC-18-3143
   authority_id: AUTH-USC-18-3143
   title: Release or detention pending sentence or appeal
@@ -4192,13 +4179,12 @@ sources:
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
   official_url: https://www.govinfo.gov/link/uscode/18/3143
-  mirror_url: https://uscode.house.gov/view.xhtml?req=%28title%3A18+section%3A3143+edition%3Aprelim%29
-  edition_note: "The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition."
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3143/
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo (switched from uscode.house.gov on 2026-10-15 because that server returned errors to automated checks). The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: The § 3143(a)(1) no-flight and no-danger clear-and-convincing standard incorporated by Rule 32.1(a)(6). Checked at
-    § 3143(a)(1).
+  notes: The § 3143(a)(1) no-flight and no-danger clear-and-convincing standard incorporated by Rule 32.1(a)(6). Checked at § 3143(a)(1).
 - source_id: SRC-FRCRIM-P-32-1
   authority_id: AUTH-FRCRIM-P-32-1
   title: Revoking or modifying probation or supervised release
@@ -4310,16 +4296,15 @@ sources:
   citation: 588 U.S. 634 (2019)
   source_currency: Official current or final primary source checked 2026-08-25
   retrieval_date: 2026-08-25
-  official_url: https://www.supremecourt.gov/opinions/18pdf/17-1672_5hek.pdf
+  official_url: https://www.supremecourt.gov/opinions/preliminaryprint/588US2PP_final.pdf
   mirror_url: null
-  previous_url: "https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf"
+  previous_url: https://www.supremecourt.gov/opinions/18pdf/588us2r70_7758.pdf
   url_changed: '2026-10-15'
-  url_change_reason: "The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court's slip-opinion PDF for No. 17-1672, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566"
+  url_change_reason: 'The recorded Supreme Court PDF returned HTTP 404 on 2026-10-15. Replaced with the Court''s slip-opinion PDF for No. 17-1672, as recorded by CourtListener. Replacement verified to open: https://github.com/burk84707/federal-judicial-process-wiki/actions/runs/38770992566'
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: The controlling concurrence limits the § 3583(k) constitutional holding to its combined mandatory-minimum features.
-    Checked at 588 U.S. 657–61 (Breyer, J., concurring).
+  notes: The controlling concurrence limits the § 3583(k) constitutional holding to its combined mandatory-minimum features. Checked at 588 U.S. 657–61 (Breyer, J., concurring).
 - source_id: SRC-SCOTUS-MORRISSEY-408-US-471
   authority_id: AUTH-SCOTUS-MORRISSEY-408-US-471
   title: Morrissey v. Brewer
@@ -4846,13 +4831,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://www.govinfo.gov/content/pkg/USCOURTS-ca2-19-03139/pdf/USCOURTS-ca2-19-03139-0.pdf
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca2/19-3139/19-3139-2020-12-08.html
+  mirror_url: https://www.courtlistener.com/opinion/4836624/united-states-v-gadsden/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 982 F.3d 112–15. Official GovInfo court-opinion copy reviewed. Only the no-categorical-hearing-and-presence
-    holding is used; Concepcion supplies the later nationwide explanation and intervening-information rules. Comprehensive
-    commercial citator not run.
+  notes: Bounded holdings checked at 982 F.3d 112–15. Official GovInfo court-opinion copy reviewed. Only the no-categorical-hearing-and-presence holding is used; Concepcion supplies the later nationwide explanation and intervening-information rules. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/ca2/19-3139/19-3139-2020-12-08.html
 - source_id: SRC-CA3-SHIELDS-48-F4TH-183
   authority_id: AUTH-CA3-SHIELDS-48-F4TH-183
   title: United States v. Shields
@@ -5230,13 +5218,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://media.cadc.uscourts.gov/opinions/docs/1999/04/98-5522a.txt
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/170/1145/503166/
+  mirror_url: https://www.courtlistener.com/opinion/184851/sugarman-neil-paril-v-pitzer-percy/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 170 F.3d 1146. Official court-hosted opinion text and public full-text mirror reviewed.
-    The holding is limited to federal-process custody and must be read with Madley's D.C. Superior Court distinction. Comprehensive
-    commercial citator not run.
+  notes: Bounded holdings checked at 170 F.3d 1146. Official court-hosted opinion text and public full-text mirror reviewed. The holding is limited to federal-process custody and must be read with Madley's D.C. Superior Court distinction. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/F3/170/1145/503166/
 - source_id: SRC-CADC-MADLEY-278-F3D-1306
   authority_id: AUTH-CADC-MADLEY-278-F3D-1306
   title: Madley v. U.S. Parole Commission
@@ -5248,14 +5239,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://media.cadc.uscourts.gov/opinions/docs/2002/01/00-5226a.txt
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/278/1306/560073/
+  mirror_url: https://www.courtlistener.com/opinion/185566/madley-v-united-states-parole-commission/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 278 F.3d 1308–10. Official court archive location and published full-text mirror reviewed.
-    This custody-source exception prevents extending Sugarman's federal-prisoner rule to D.C. Superior Court judgments. Comprehensive
-    commercial citator not run.
-
+  notes: Bounded holdings checked at 278 F.3d 1308–10. Official court archive location and published full-text mirror reviewed. This custody-source exception prevents extending Sugarman's federal-prisoner rule to D.C. Superior Court judgments. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/F3/278/1306/560073/
 - source_id: SRC-CA1-TEXEIRA-NIEVES-23-F4TH-48
   authority_id: AUTH-CA1-TEXEIRA-NIEVES-23-F4TH-48
   title: United States v. Texeira-Nieves
@@ -5267,13 +5260,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/21-1034P-01A.pdf
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca1/21-1034/21-1034-2022-01-12.html
+  mirror_url: https://www.courtlistener.com/opinion/5957482/united-states-v-texeira-nieves/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 23 F.4th 52–53. Official published opinion and public full-text mirror reviewed. The
-    opinion expressly leaves issue exhaustion unresolved; no former policy-statement or pandemic merits proposition is adopted.
-    Comprehensive commercial citator not run.
+  notes: Bounded holdings checked at 23 F.4th 52–53. Official published opinion and public full-text mirror reviewed. The opinion expressly leaves issue exhaustion unresolved; no former policy-statement or pandemic merits proposition is adopted. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/ca1/21-1034/21-1034-2022-01-12.html
 - source_id: SRC-CA2-SALADINO-7-F4TH-120
   authority_id: AUTH-CA2-SALADINO-7-F4TH-120
   title: United States v. Saladino
@@ -5415,13 +5411,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://cdn.ca9.uscourts.gov/datastore/opinions/2021/07/01/20-50247.pdf
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca9/20-50247/20-50247-2021-07-01.html
+  mirror_url: https://www.courtlistener.com/opinion/4896727/united-states-v-daniel-keller/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 2 F.4th 1281–84. Official published opinion and public full-text mirror reviewed. The
-    renewed-motion holding is tied to changed circumstances and is not generalized into universal issue exhaustion. Comprehensive
-    commercial citator not run.
+  notes: Bounded holdings checked at 2 F.4th 1281–84. Official published opinion and public full-text mirror reviewed. The renewed-motion holding is tied to changed circumstances and is not generalized into universal issue exhaustion. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/ca9/20-50247/20-50247-2021-07-01.html
 - source_id: SRC-CA10-HEMMELGARN-15-F4TH-1027
   authority_id: AUTH-CA10-HEMMELGARN-15-F4TH-1027
   title: United States v. Hemmelgarn
@@ -5433,13 +5432,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010110588266.pdf
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/ca10/20-4109/20-4109-2021-10-08.html
+  mirror_url: null
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 15 F.4th 1030–31. Official published opinion and public full-text mirror reviewed. Only
-    the durable nonjurisdictional and waiver holdings are adopted; no issue-exhaustion or superseded merits proposition is
-    included. Comprehensive commercial citator not run.
+  notes: Bounded holdings checked at 15 F.4th 1030–31. Official published opinion and public full-text mirror reviewed. Only the durable nonjurisdictional and waiver holdings are adopted; no issue-exhaustion or superseded merits proposition is included. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror removed; the official Tenth Circuit PDF is preserved and CourtListener has no copy.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/ca10/20-4109/20-4109-2021-10-08.html
 - source_id: SRC-CA11-HARRIS-989-F3D-908
   authority_id: AUTH-CA11-HARRIS-989-F3D-908
   title: United States v. Harris
@@ -5488,13 +5490,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://www.ca1.uscourts.gov/sites/ca1/files/opnfiles/04-2566-01A.pdf
-  mirror_url: https://law.justia.com/cases/federal/appellate-courts/F3/412/253/544596/
+  mirror_url: https://www.courtlistener.com/opinion/201651/united-states-v-damario/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 412 F.3d 255–56. Official published opinion and public full-text mirror reviewed. Only
-    continuing condition-modification jurisdiction during the pending revocation appeal is adopted; no early-termination or
-    changed-circumstances rule is inferred. Comprehensive commercial citator not run.
+  notes: Bounded holdings checked at 412 F.3d 255–56. Official published opinion and public full-text mirror reviewed. Only continuing condition-modification jurisdiction during the pending revocation appeal is adopted; no early-termination or changed-circumstances rule is inferred. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://law.justia.com/cases/federal/appellate-courts/F3/412/253/544596/
 - source_id: SRC-CA2-GAMMARANO-321-F3D-311
   authority_id: AUTH-CA2-GAMMARANO-321-F3D-311
   title: United States v. Gammarano
@@ -5635,13 +5640,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-25
   retrieval_date: '2026-08-25'
   official_url: https://cdn.ca9.uscourts.gov/datastore/opinions/2022/01/11/21-30009.pdf
-  mirror_url: https://openjurist.org/22/f4th/1045/united-states-v-freddy-ponce
+  mirror_url: https://www.courtlistener.com/opinion/5793817/united-states-v-freddy-ponce/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 22 F.4th 1047–49. Official published opinion and public full-text mirror reviewed. Ponce
-    did not hold compliance sufficient and expressly did not reach the separate explanation challenge. Comprehensive commercial
-    citator not run.
+  notes: Bounded holdings checked at 22 F.4th 1047–49. Official published opinion and public full-text mirror reviewed. Ponce did not hold compliance sufficient and expressly did not reach the separate explanation challenge. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: OpenJurist mirror replaced with CourtListener.
+    prior_urls:
+    - https://openjurist.org/22/f4th/1045/united-states-v-freddy-ponce
 - source_id: SRC-CA10-BEGAY-631-F3D-1168
   authority_id: AUTH-CA10-BEGAY-631-F3D-1168
   title: United States v. Begay
@@ -5712,14 +5720,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-26
   retrieval_date: '2026-08-26'
   official_url: null
-  mirror_url: https://cases.justia.com/federal/appellate-courts/ca2/06-1930/920071204/0.pdf
+  mirror_url: https://www.courtlistener.com/opinion/1389954/united-states-v-richter/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 510 F.3d 104. Published per curiam full opinion reviewed from a public court-document
-    reproduction after no stable historical official opinion file was located. Richter does not hold that the writ lies in
-    any actual case and predates Jones v. Hendrix; no post-Jones exception is inferred. Comprehensive commercial citator not
-    run.
+  notes: Bounded holdings checked at 510 F.3d 104. Published per curiam full opinion reviewed from a public court-document reproduction after no stable historical official opinion file was located. Richter does not hold that the writ lies in any actual case and predates Jones v. Hendrix; no post-Jones exception is inferred. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://cases.justia.com/federal/appellate-courts/ca2/06-1930/920071204/0.pdf
 - source_id: SRC-CA3-MASSEY-581-F3D-172
   authority_id: AUTH-CA3-MASSEY-581-F3D-172
   title: Massey v. United States
@@ -5750,14 +5760,16 @@ sources:
   source_currency: Published opinion text and bounded treatment checked 2026-08-26
   retrieval_date: '2026-08-26'
   official_url: null
-  mirror_url: https://cases.justia.com/federal/appellate-courts/ca5/08-11186/920100308/0.pdf
+  mirror_url: https://www.courtlistener.com/opinion/71483/united-states-v-miller/
   local_snapshot_path: null
   sha256: null
   status: verified_with_limitations
-  notes: Bounded holdings checked at 599 F.3d 488–90. Published precedential full opinion reviewed from a public court-document
-    reproduction after the historical Fifth Circuit URL returned 404. Miller left survival open, arose in a restitution-offset
-    posture, and expressly recognized that the contrary Ejelonu panel opinion had been vacated on rehearing en banc and its
-    appeal dismissed. Comprehensive commercial citator not run.
+  notes: Bounded holdings checked at 599 F.3d 488–90. Published precedential full opinion reviewed from a public court-document reproduction after the historical Fifth Circuit URL returned 404. Miller left survival open, arose in a restitution-offset posture, and expressly recognized that the contrary Ejelonu panel opinion had been vacated on rehearing en banc and its appeal dismissed. Comprehensive commercial citator not run.
+  link_repair:
+    date: 2026-10-29
+    note: Justia mirror replaced with CourtListener.
+    prior_urls:
+    - https://cases.justia.com/federal/appellate-courts/ca5/08-11186/920100308/0.pdf
 - source_id: SRC-CA7-JOHNSON-962-F2D-579
   authority_id: AUTH-CA7-JOHNSON-962-F2D-579
   title: United States v. Johnson
@@ -5838,32 +5850,35 @@ sources:
     Comprehensive commercial citator not run.
 - source_id: SRC-BOP-PS-5160-06
   authority_id: AUTH-BOP-PS-5160-06
-  title: "Designation of State Institutions for Service of Federal Sentence"
+  title: Designation of State Institutions for Service of Federal Sentence
   issuing_body: Federal Bureau of Prisons
   source_type: official_current_agency_guidance
-  citation: "BOP PS 5160.06 (Sept. 3, 2026)"
-  source_currency: "Official current policy read in full 2026-10-15"
-  retrieval_date: 2026-10-15
+  citation: BOP PS 5160.06
+  source_currency: Current per the official BOP policy index checked 2026-10-29; replaces PS 5160.05
+  retrieval_date: 2026-10-29
   official_url: https://www.bop.gov/policy/progstat/5160_006.pdf
   mirror_url: null
   local_snapshot_path: null
   sha256: null
-  status: verified
-  notes: "Read in full (13 pages) through probe run 38789802937 and its full-text rerun. Rescinds PS 5160.05."
+  status: verified_with_limitations
+  notes: Full text (13 pp.) read 2026-10-30 from the preserved official PDF; printed page numbers equal PDF page numbers.
+  publication_date: 2026-09-03
+  verification_channel: official
 - source_id: SRC-FR-91-55740
   authority_id: AUTH-FR-91-55740
-  title: "First Step Act Time Credits—Revisions"
-  issuing_body: Federal Bureau of Prisons
-  source_type: official_federal_register_rule
-  citation: "91 Fed. Reg. 55740 (Aug. 31, 2026)"
-  source_currency: "Interim final rule effective 2026-09-30; read in full 2026-10-15"
-  retrieval_date: 2026-10-15
+  title: First Step Act Time Credits—Revisions (interim final rule)
+  issuing_body: Federal Bureau of Prisons, Department of Justice
+  source_type: official_federal_register
+  citation: 91 Fed. Reg. 55,740 (Aug. 31, 2026)
+  source_currency: Official Federal Register PDF (FR Doc. 2026-17752, RIN 1120-AB83)
+  retrieval_date: '2026-10-30'
   official_url: https://www.govinfo.gov/content/pkg/FR-2026-08-31/pdf/2026-17752.pdf
   mirror_url: https://www.federalregister.gov/documents/full_text/text/2026/08/31/2026-17752.txt
   local_snapshot_path: null
   sha256: null
-  status: verified
-  notes: "Full text read from the Federal Register on 2026-10-15; PDF on GovInfo opened the same day."
+  status: verified_with_limitations
+  notes: Interim final rule with a comment period that closed Sept. 30, 2026; check for a later final rule before relying on it.
+  verification_channel: official
 - source_id: SRC-CA1-MILES-BOWERS-2026
   authority_id: AUTH-CA1-MILES-BOWERS-2026
   title: "Miles v. Bowers"
@@ -5878,3 +5893,697 @@ sources:
   sha256: null
   status: verified_with_limitations
   notes: "CourtListener opinion 11316033. Quoted holding verified by text search on 2026-10-15. Reporter citation 173 F.4th 372 given by 91 FR 55740, not yet confirmed."
+- source_id: SRC-BOP-PS-5050-51
+  authority_id: AUTH-BOP-PS-5050-51
+  title: Compassionate Release/Reduction in Sentence Procedures
+  issuing_body: Federal Bureau of Prisons
+  source_type: official_current_agency_guidance
+  citation: BOP PS 5050.51
+  publication_date: 2026-09-03
+  source_currency: Current per the official BOP policy index checked 2026-10-29; supersedes PS 5050.50
+  retrieval_date: 2026-10-29
+  official_url: https://www.bop.gov/policy/progstat/5050_051.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Read in full on 2026-10-29 from the preserved official snapshot; pinpoints recorded in the authority record.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-BOP-PS-1330-18
+  authority_id: AUTH-BOP-PS-1330-18
+  title: Administrative Remedy Program
+  issuing_body: Federal Bureau of Prisons
+  source_type: official_current_agency_guidance
+  citation: BOP PS 1330.18
+  publication_date: 2014-01-06
+  source_currency: Current per the official BOP policy index checked 2026-10-29; no change notice listed
+  retrieval_date: 2026-10-29
+  official_url: https://www.bop.gov/policy/progstat/1330_018.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Read in full on 2026-10-29 from the preserved official snapshot; pinpoints recorded in the authority record.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CFR-28-571-SUBPART-G
+  authority_id: AUTH-CFR-28-571-SUBPART-G
+  title: Compassionate Release (Procedures for the Implementation of 18 U.S.C. 3582(c)(1)(A) and 4205(g))
+  issuing_body: Bureau of Prisons
+  source_type: official_current_ecfr
+  citation: 28 C.F.R. §§ 571.60–571.64
+  source_currency: eCFR Title 28 up to date as of 2026-10-27 (versioner API full XML for part 571, subpart G)
+  retrieval_date: 2026-10-29
+  official_url: https://www.ecfr.gov/current/title-28/chapter-V/subchapter-D/part-571/subpart-G
+  mirror_url: https://www.law.cornell.edu/cfr/text/28/571.61
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Full official text of §§ 571.60–571.64 read 2026-10-29 from the preserved eCFR XML snapshot; retrieved through the built-in browser on the owner's computer, SHA-256 matched after transfer.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CFR-28-0-96
+  authority_id: AUTH-CFR-28-0-96-U
+  title: Delegations to the Director of the Bureau of Prisons (28 C.F.R. § 0.96)
+  issuing_body: Department of Justice
+  source_type: official_current_ecfr
+  citation: 28 C.F.R. § 0.96
+  source_currency: eCFR Title 28 up to date as of 2026-10-28 (versioner API full XML for § 0.96)
+  retrieval_date: 2026-10-29
+  official_url: https://www.ecfr.gov/current/title-28/chapter-I/part-0/subpart-Q/section-0.96
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Full text read 2026-10-29; paragraph (u) is the CARES Act home-confinement delegation. Retrieved through the built-in browser; SHA-256 matched after transfer.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CONST-ART3-VENUE
+  authority_id: AUTH-CONST-ART3-S2-C3
+  title: Trial venue clause
+  issuing_body: Congress.gov Constitution Annotated
+  source_type: official_constitution_text
+  citation: U.S. Const. art. III, § 2, cl. 3
+  source_currency: Current official constitutional resource
+  retrieval_date: 2026-10-30
+  official_url: https://constitution.congress.gov/browse/article-3/section-2/clause-3/
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Saved by the owner from a normal browser because constitution.congress.gov shows a bot-verification page to automated tools; checked to contain the clause text.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CONST-AMEND6
+  authority_id: AUTH-CONST-AMEND-6
+  title: Sixth Amendment
+  issuing_body: Congress.gov Constitution Annotated
+  source_type: official_constitution_text
+  citation: U.S. Const. amend. VI
+  source_currency: Current official constitutional resource
+  retrieval_date: 2026-10-30
+  official_url: https://constitution.congress.gov/constitution/amendment-6/
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Saved by the owner from a normal browser because constitution.congress.gov shows a bot-verification page to automated tools; checked to contain the clause text.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CFR-28-523-SUBPART-E-CURRENT
+  authority_id: AUTH-CFR-28-523-SUBPART-E-CURRENT
+  title: First Step Act Time Credits (current eCFR text)
+  issuing_body: Federal Bureau of Prisons, Department of Justice
+  source_type: official_ecfr_current_text
+  citation: 28 C.F.R. §§ 523.40–523.44 (as amended eff. Sept. 30, 2026)
+  source_currency: eCFR current text, up to date as of 10/28/2026 (title 28 last amended 10/27/2026)
+  retrieval_date: '2026-10-30'
+  official_url: https://www.ecfr.gov/current/title-28/chapter-V/subchapter-B/part-523/subpart-E
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Saved by the owner from a normal browser on 2026-10-30 because eCFR refuses scripted downloads (HTTP 406); checked to contain the amended 523.42(a) and 523.44(a)(3). The eCFR is authoritative but unofficial; the Federal Register rule controls if they differ. The page's embedded third-party error-reporting key (data-honeybadger-js-api-key) was blanked on 2026-10-31 so the repository secret scan passes; no regulatory text changed.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-DOJ-FFRR-FAQ
+  authority_id: AUTH-DOJ-FFRR-FAQ
+  title: Federal Firearm Rights Restoration Frequently Asked Questions
+  issuing_body: United States Department of Justice
+  source_type: official_agency_guidance
+  citation: DOJ, Federal Firearm Rights Restoration FAQ
+  source_currency: Official DOJ page, last updated Oct. 27, 2026
+  retrieval_date: '2026-10-30'
+  official_url: https://www.justice.gov/ffrr/federal-firearm-rights-restoration-frequently-asked-questions
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Nonbinding agency guidance; the statute, 18 U.S.C. § 925(c), and any implementing regulation control.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-DOJ-PR-FFRR-2026-08-17
+  authority_id: AUTH-DOJ-PR-FFRR-2026-08-17
+  title: Attorney General Blanche Launches New Process to Restore Federal Firearm Rights
+  issuing_body: United States Department of Justice, Office of Public Affairs
+  source_type: official_agency_press_release
+  citation: DOJ Press Release (Aug. 17, 2026)
+  source_currency: Official DOJ press release dated Aug. 17, 2026
+  retrieval_date: '2026-10-30'
+  official_url: https://www.justice.gov/opa/pr/attorney-general-blanche-launches-new-process-restore-federal-firearm-rights
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Press release, not binding law; cite the § 925(c) rule itself for eligibility standards.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CA2-WERBER-51-F3D-342
+  authority_id: AUTH-CA2-WERBER-51-F3D-342
+  title: United States v. Werber
+  issuing_body: United States Court of Appeals for the Second Circuit
+  source_type: public_full_text_republication_of_published_precedential_opinion
+  citation: 51 F.3d 342 (2d Cir. 1995)
+  source_currency: CourtListener API text retrieved 2026-10-30
+  retrieval_date: '2026-10-30'
+  official_url: null
+  mirror_url: https://www.courtlistener.com/opinion/692969/united-states-v-werber/
+  verification_channel: best_available
+  status: verified_with_limitations
+  notes: Saved text has no reporter page markers, so no F.3d pinpoint is given. Predates the 2002 restyling of Rule 36. Comprehensive commercial citator not run.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CA11-PORTILLO-363-F3D-1161
+  authority_id: AUTH-CA11-PORTILLO-363-F3D-1161
+  title: United States v. Portillo
+  issuing_body: United States Court of Appeals for the Eleventh Circuit
+  source_type: public_full_text_republication_of_published_precedential_opinion
+  citation: 363 F.3d 1161 (11th Cir. 2004)
+  source_currency: CourtListener API text retrieved 2026-10-30
+  retrieval_date: '2026-10-30'
+  official_url: null
+  mirror_url: https://www.courtlistener.com/opinion/76508/united-states-v-byron-leonel-portillo/
+  verification_channel: best_available
+  status: verified_with_limitations
+  notes: Pinpoints checked against CourtListener star pagination. Comprehensive commercial citator not run.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-17-GOVINFO-2024
+  authority_id: AUTH-USC-18-17
+  title: 18 U.S.C. § 17. Insanity defense
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 17
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/17?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s17/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3162-GOVINFO-2024
+  authority_id: AUTH-USC-18-3162
+  title: 18 U.S.C. § 3162. Sanctions
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3162
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3162?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3162/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3281-GOVINFO-2024
+  authority_id: AUTH-USC-18-3281
+  title: 18 U.S.C. § 3281. Capital offenses
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3281
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3281?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3281/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3288-GOVINFO-2024
+  authority_id: AUTH-USC-18-3288
+  title: 18 U.S.C. § 3288. Indictments and information dismissed after period of limitations
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3288
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3288?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3288/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3289-GOVINFO-2024
+  authority_id: AUTH-USC-18-3289
+  title: 18 U.S.C. § 3289. Indictments and information dismissed before period of limitations
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3289
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3289?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3289/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3551-GOVINFO-2024
+  authority_id: AUTH-USC-18-3551
+  title: 18 U.S.C. § 3551. Authorized sentences
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3551
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3551?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3551/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3552-GOVINFO-2024
+  authority_id: AUTH-USC-18-3552
+  title: 18 U.S.C. § 3552. Presentence reports
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3552
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3552
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3552/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo. The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
+- source_id: SRC-USC-18-3571-GOVINFO-2024
+  authority_id: AUTH-USC-18-3571
+  title: 18 U.S.C. § 3571. Sentence of fine
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3571
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3571?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3571/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3572-GOVINFO-2024
+  authority_id: AUTH-USC-18-3572
+  title: 18 U.S.C. § 3572. Imposition of a sentence of fine and related matters
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3572
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3572
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3572/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+  edition_note: The link points to the United States Code, 2024 main edition, on GovInfo. The legal review used the Office of the Law Revision Counsel preliminary text, kept as mirror_url; check it for amendments enacted after the 2024 edition.
+- source_id: SRC-USC-18-3663-GOVINFO-2024
+  authority_id: AUTH-USC-18-3663
+  title: 18 U.S.C. § 3663. Order of restitution
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3663
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3663?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3663/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-3663A-GOVINFO-2024
+  authority_id: AUTH-USC-18-3663A
+  title: 18 U.S.C. § 3663A. Mandatory restitution to victims of certain crimes
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 3663A
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/3663A?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s3663A/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-4242-GOVINFO-2024
+  authority_id: AUTH-USC-18-4242
+  title: 18 U.S.C. § 4242. Determination of the existence of insanity at the time of the offense
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 4242
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/4242?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s4242/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-4243-GOVINFO-2024
+  authority_id: AUTH-USC-18-4243
+  title: 18 U.S.C. § 4243. Hospitalization of a person found not guilty only by reason of insanity
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 4243
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/4243?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s4243/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-18-4247-GOVINFO-2024
+  authority_id: AUTH-USC-18-4247
+  title: 18 U.S.C. § 4247. General provisions for chapter
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 18 U.S.C. § 4247
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/18/4247?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t18/s4247/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-28-1861-GOVINFO-2024
+  authority_id: AUTH-USC-28-1861
+  title: 28 U.S.C. § 1861. Declaration of policy
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 28 U.S.C. § 1861
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/28/1861?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1861/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-28-1862-GOVINFO-2024
+  authority_id: AUTH-USC-28-1862
+  title: 28 U.S.C. § 1862. Discrimination prohibited
+  issuing_body: U.S. Government Publishing Office (GovInfo)
+  source_type: official_us_code_main_edition
+  citation: 28 U.S.C. § 1862
+  source_currency: United States Code, 2024 Main Edition, current through 2025-01-06
+  retrieval_date: '2026-10-30'
+  official_url: https://www.govinfo.gov/link/uscode/28/1862?link-type=html
+  mirror_url: https://uscode.house.gov/us/usc/t28/s1862/
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Official GovInfo United States Code, 2024 Main Edition, current through Jan. 6, 2025; amendments after that date were not checked against this file.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-FR-91-24088
+  authority_id: AUTH-FR-91-24088
+  title: Sentencing Guidelines for United States Courts (amendments effective Nov. 1, 2026)
+  issuing_body: United States Sentencing Commission
+  source_type: official_federal_register
+  citation: 91 Fed. Reg. 24,088 (May 4, 2026)
+  source_currency: Official Federal Register text via GovInfo (FR Doc. 2026-08647)
+  retrieval_date: '2026-10-31'
+  official_url: https://www.govinfo.gov/content/pkg/FR-2026-05-04/html/2026-08647.htm
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Federal Register notice of amendments; the amendments take effect Nov. 1, 2026 absent congressional action. Congressional action was not checked on congress.gov (automated access blocked).
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-FR-91-35802
+  authority_id: AUTH-FR-91-35802
+  title: Proposed Priorities for Amendment Cycle (notice; retroactivity of 2026 amendments)
+  issuing_body: United States Sentencing Commission
+  source_type: official_federal_register
+  citation: 91 Fed. Reg. 35,802 (June 12, 2026)
+  source_currency: Official Federal Register text via GovInfo (FR Doc. 2026-11906)
+  retrieval_date: '2026-10-31'
+  official_url: https://www.govinfo.gov/content/pkg/FR-2026-06-12/html/2026-11906.htm
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Agency notice; § 1B1.10(d) controls which amendments are retroactive.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USSG-2026-1B1-10
+  authority_id: AUTH-USSG-2026-1B1-10
+  title: Reduction in Term of Imprisonment as a Result of Amended Guideline Range
+  issuing_body: United States Sentencing Commission
+  source_type: official_current_guidelines_manual
+  citation: U.S.S.G. § 1B1.10 (2026)
+  source_currency: Annotated 2026 Guidelines Manual chapter page (amendments effective Nov. 1, 2026, and earlier), saved 2026-10-31
+  retrieval_date: '2026-10-31'
+  official_url: https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-1
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Applies at sentencings on or after Nov. 1, 2026, unless § 1B1.11 and the Ex Post Facto Clause require an earlier edition. Text compared with the 2025 edition; changes in this chapter are limited to Amendments 838, 840, 841, and 843 (91 Fed. Reg. 24,088).
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USSG-2026-1B1-13
+  authority_id: AUTH-USSG-2026-1B1-13
+  title: Reduction in Term of Imprisonment Under 18 U.S.C. § 3582(c)(1)(A)
+  issuing_body: United States Sentencing Commission
+  source_type: official_current_guidelines_manual
+  citation: U.S.S.G. § 1B1.13 (2026)
+  source_currency: Annotated 2026 Guidelines Manual chapter page (amendments effective Nov. 1, 2026, and earlier), saved 2026-10-31
+  retrieval_date: '2026-10-31'
+  official_url: https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-1
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Applies at sentencings on or after Nov. 1, 2026, unless § 1B1.11 and the Ex Post Facto Clause require an earlier edition. Text compared with the 2025 edition; changes in this chapter are limited to Amendments 838, 840, 841, and 843 (91 Fed. Reg. 24,088).
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USSG-2026-SENTENCING-CALCULATION
+  authority_id: AUTH-USSG-2026-SENTENCING-CALCULATION
+  title: 2025 Federal Sentencing Guidelines Calculation Provisions
+  issuing_body: United States Sentencing Commission
+  source_type: official_current_guidelines_manual
+  citation: U.S.S.G. §§ 1B1.1, 1B1.11 (Nov. 1, 2026)
+  source_currency: Annotated 2026 Guidelines Manual chapter page (amendments effective Nov. 1, 2026, and earlier), saved 2026-10-31
+  retrieval_date: '2026-10-31'
+  official_url: https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-1
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Applies at sentencings on or after Nov. 1, 2026, unless § 1B1.11 and the Ex Post Facto Clause require an earlier edition. Text compared with the 2025 edition; changes in this chapter are limited to Amendments 838, 840, 841, and 843 (91 Fed. Reg. 24,088).
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USSC-2026-5D1
+  authority_id: AUTH-USSC-2026-5D1
+  title: Supervised release conditions, modification, termination, and extension
+  issuing_body: United States Sentencing Commission
+  source_type: official_current_guidelines_manual
+  citation: U.S.S.G. §§ 5D1.3–5D1.4, 5F1.5 (2026)
+  source_currency: Annotated 2026 Guidelines Manual chapter page (amendments effective Nov. 1, 2026, and earlier), saved 2026-10-31
+  retrieval_date: '2026-10-31'
+  official_url: https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-5
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Applies at sentencings on or after Nov. 1, 2026, unless § 1B1.11 and the Ex Post Facto Clause require an earlier edition. Text compared with the 2025 edition; changes in this chapter are limited to Amendments 838, 840, 841, and 843 (91 Fed. Reg. 24,088).
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USSC-2026-7C1
+  authority_id: AUTH-USSC-2026-7C1
+  title: Supervised release violations
+  issuing_body: United States Sentencing Commission
+  source_type: official_current_guidelines_manual
+  citation: U.S.S.G. §§ 7C1.1–7C1.6 (2026)
+  source_currency: Annotated 2026 Guidelines Manual chapter page (amendments effective Nov. 1, 2026, and earlier), saved 2026-10-31
+  retrieval_date: '2026-10-31'
+  official_url: https://www.ussc.gov/guidelines/2026-guidelines-manual/annotated-2026-chapter-7
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Applies at sentencings on or after Nov. 1, 2026, unless § 1B1.11 and the Ex Post Facto Clause require an earlier edition. Text compared with the 2025 edition; changes in this chapter are limited to Amendments 838, 840, 841, and 843 (91 Fed. Reg. 24,088).
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-SCOTUS-BOWE-2026-USREPORTS
+  authority_id: AUTH-SCOTUS-BOWE-607-US-13
+  title: Bowe v. United States
+  issuing_body: Supreme Court of the United States
+  source_type: official_united_states_reports
+  citation: 607 U.S. 13 (2026)
+  source_currency: United States Reports version (607 U.S. 13) posted by the Court; slip opinion No. 24-5438 also saved locally
+  retrieval_date: '2026-11-02'
+  official_url: https://www.supremecourt.gov/opinions/25pdf/607us1r04_n7ip.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Re-capture on 2026-11-02 for the double legal review; byte-identical (same SHA-256) to SRC-SCOTUS-BOWE-607-US-13, the source of record for AUTH-SCOTUS-BOWE-607-US-13.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-SCOTUS-RICO-2026-USREPORTS
+  authority_id: AUTH-SCOTUS-RICO-607-US-609
+  title: Rico v. United States
+  issuing_body: Supreme Court of the United States
+  source_type: official_united_states_reports
+  citation: 607 U.S. 609 (2026)
+  source_currency: United States Reports version (607 U.S. 609) posted by the Court; slip opinion No. 24-1056 also saved locally
+  retrieval_date: '2026-11-02'
+  official_url: https://www.supremecourt.gov/opinions/25pdf/607us2r23_4g15.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Use for the holding as stated in the opinion.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-SCOTUS-FERNANDEZ-2026-USREPORTS
+  authority_id: AUTH-SCOTUS-FERNANDEZ-608-US-411
+  title: Fernandez v. United States
+  issuing_body: Supreme Court of the United States
+  source_type: official_united_states_reports
+  citation: 608 U.S. 411 (2026)
+  source_currency: United States Reports version (608 U.S. 411) posted by the Court; slip opinion No. 24-556 also saved locally
+  retrieval_date: '2026-11-02'
+  official_url: https://www.supremecourt.gov/opinions/25pdf/608us2r39_5iek.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Use for the holding as stated in the opinion.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-SCOTUS-RUTHERFORD-2026-USREPORTS
+  authority_id: AUTH-SCOTUS-RUTHERFORD-608-US-454
+  title: Rutherford v. United States
+  issuing_body: Supreme Court of the United States
+  source_type: official_united_states_reports
+  citation: 608 U.S. 454 (2026)
+  source_currency: United States Reports version (608 U.S. 454) posted by the Court; the slip opinion remains recorded as AUTH-SCOTUS-RUTHERFORD-608-US-SLIP
+  retrieval_date: '2026-11-02'
+  official_url: https://www.supremecourt.gov/opinions/25pdf/608us2r40_o7kq.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Use only for the bounded propositions in the linked canonical module.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-SCOTUS-NGUYEN-539-US-69
+  authority_id: AUTH-SCOTUS-NGUYEN-539-US-69
+  title: Nguyen v. United States
+  issuing_body: Supreme Court of the United States
+  source_type: official_united_states_reports
+  citation: 539 U.S. 69 (2003)
+  source_currency: Final United States Reports opinion (GovInfo)
+  retrieval_date: '2026-11-02'
+  official_url: https://www.govinfo.gov/content/pkg/USREPORTS-539/pdf/USREPORTS-539-69.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Use for the courts' constitutional character only; jurisdiction and procedure are governed by statute.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-CA3-EDWARDS-HOVENSA-497-F3D-355
+  authority_id: AUTH-CA3-EDWARDS-HOVENSA-497-F3D-355
+  title: Edwards v. HOVENSA, LLC
+  issuing_body: United States Court of Appeals for the Third Circuit
+  source_type: official_court_opinion
+  citation: 497 F.3d 355 (3d Cir. 2007)
+  source_currency: Official precedential slip opinion from the Third Circuit's opinion archive
+  retrieval_date: '2026-11-02'
+  official_url: https://www2.ca3.uscourts.gov/opinarch/064601p.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Use for the court's constitutional character only.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-28-994
+  authority_id: AUTH-USC-28-994
+  title: Duties of the United States Sentencing Commission
+  issuing_body: United States Congress
+  source_type: official_united_states_code
+  citation: 28 U.S.C. § 994
+  source_currency: 2024 United States Code main edition (GovInfo)
+  retrieval_date: '2026-11-02'
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partIII-chap58-sec994.htm
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Check for later amendments before relying on the 2024 edition.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-48-1614
+  authority_id: AUTH-USC-48-1614
+  title: Judges of the District Court of the Virgin Islands
+  issuing_body: United States Congress
+  source_type: official_united_states_code
+  citation: 48 U.S.C. § 1614
+  source_currency: 2024 United States Code main edition (GovInfo)
+  retrieval_date: '2026-11-02'
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2024-title48/html/USCODE-2024-title48-chap12-subchapV-sec1614.htm
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Check for later amendments before relying on the 2024 edition.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USC-48-1821
+  authority_id: AUTH-USC-48-1821
+  title: District Court for the Northern Mariana Islands
+  issuing_body: United States Congress
+  source_type: official_united_states_code
+  citation: 48 U.S.C. § 1821
+  source_currency: 2024 United States Code main edition (GovInfo)
+  retrieval_date: '2026-11-02'
+  official_url: https://www.govinfo.gov/content/pkg/USCODE-2024-title48/html/USCODE-2024-title48-chap17-subchapII-sec1821.htm
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Check for later amendments before relying on the 2024 edition.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-FRCRIM-2025-PAMPHLET
+  authority_id: AUTH-FRCRIM-2025-PAMPHLET
+  title: Federal Rules of Criminal Procedure (Dec. 1, 2025 edition)
+  issuing_body: Supreme Court of the United States under the Rules Enabling Act, subject to congressional review
+  source_type: official_rules_pdf
+  citation: Fed. R. Crim. P. (Dec. 1, 2025 ed.)
+  source_currency: House Judiciary Committee print dated December 1, 2025, served at the uscourts.gov current-rules URL on 2026-11-01
+  retrieval_date: '2026-11-02'
+  official_url: https://www.uscourts.gov/sites/default/files/document/federal-rules-of-criminal-procedure.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: The uscourts.gov URL serves the newest edition; recheck citations labelled with this edition when a new pamphlet is posted.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-RULES-PACKAGE-2026-10-20
+  authority_id: AUTH-RULES-PACKAGE-2026-10-20
+  title: Proposed Amendments to the Federal Rules of Practice and Procedure transmitted to the Supreme Court (Oct. 20, 2026)
+  issuing_body: Committee on Rules of Practice and Procedure, Judicial Conference of the United States
+  source_type: official_rulemaking_record
+  citation: Memorandum from the Committee on Rules of Practice and Procedure to the Clerk of the Supreme Court (Oct. 20, 2026)
+  source_currency: Package posted by the U.S. Courts; covers amendments that would take effect Dec. 1, 2027 if adopted and not disapproved
+  retrieval_date: '2026-11-02'
+  official_url: https://www.uscourts.gov/sites/default/files/document/2026_scotus_package.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: A proposed amendment is not law; Supreme Court adoption and the absence of congressional action must be confirmed separately.
+  local_snapshot_path: null
+  sha256: null
+- source_id: SRC-USSG-2026-MANUAL
+  authority_id: AUTH-USSG-2026-MANUAL
+  title: United States Sentencing Commission, Guidelines Manual (Nov. 1, 2026)
+  issuing_body: United States Sentencing Commission
+  source_type: official_current_guidelines_manual
+  citation: U.S.S.G. (Nov. 1, 2026)
+  source_currency: Official 2026 Guidelines Manual PDF, saved 2026-10-31
+  retrieval_date: '2026-11-02'
+  official_url: https://www.ussc.gov/sites/default/files/pdf/guidelines-manual/2026/GLMFull.pdf
+  mirror_url: null
+  verification_channel: official
+  status: verified_with_limitations
+  notes: Applies at sentencings on or after Nov. 1, 2026 unless § 1B1.11 and the Ex Post Facto Clause require an earlier edition. Where the annotated web chapter differs from this PDF (the § 7C1.5 Class A felony row reads 'probation or supervised release' on the web page and 'supervised release' in the PDF), this PDF is cited.
+  local_snapshot_path: null
+  sha256: null

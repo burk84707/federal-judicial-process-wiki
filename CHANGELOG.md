@@ -2,9 +2,17 @@
 
 Release identity is the `version` in `release.json` plus the source digest printed in each page footer. Legal review dates are recorded per record and never change because of a release.
 
-## 1.3.0 — 2026-11-07
+## 1.3.0 — 2026-11-09
 
-- Phase 6, change automation. The source review runs every Monday and proposes its records in one pull request for the owner. It never edits legal content and never merges.
+Status: Owner approved; double legal review completed; licensed-attorney approval not recorded.
+
+- Corrections from the October 30 – November 2, 2026 review of the research archive: two independent reviewers checked every claim against saved copies of its sources; Guidelines claims were rechecked for the amendments effective November 1, 2026 and now cite the 2026 Guidelines Manual; the November 1, 2026 double legal review was applied. 418 claims rewritten, 10 deleted, 2 added (CLM-3582-027, CLM-DISTRICT-MAP-003); 1,072 claims in all. Each claim keeps the date it was actually reviewed.
+- 46 new authority records, including the 2026 Guidelines Manual provisions, the November 2026 Guidelines amendments (91 Fed. Reg. 24,088), *Fernandez v. United States* and *Rutherford v. United States*, the Rule 35 advisory committee notes, 19 U.S. Code sections, and the current 28 C.F.R. part 523 subpart E.
+- Twelve circuit-overlay claims that rely on 18 U.S.C. § 3582 now cite the § 3582 record rather than the § 3583 page.
+- Link targets: U.S. Code stays on GovInfo with the Law Revision Counsel's current page as mirror; Supreme Court opinions use the Court's preliminary prints. 101 of the 103 new URLs were confirmed; two Constitution Annotated pages refuse automated checks.
+- Pages now read "Current through November 2, 2026" (`current_through` in `release.json`). The research baseline stays August 26, 2026: district local rules and the open research items were not re-reviewed, and the court directory still shows that baseline.
+- Full change report, by module, with reasons and source quotations: `maintenance/correction-release-1.3.0/`.
+- Weekly review: the source review runs every Monday and proposes its records in one pull request for the owner. It never edits legal content and never merges.
 - New change watchers (`scripts/watch_changes.py`) read the BOP policy index, the Federal Register for each cited CFR part, the Supreme Court's opinions for the term, the federal courts' pending rules amendments and GovInfo's U.S. Code editions. They also flag a cited Guidelines Manual older than the one in effect, modules due for legal review, and sources that stopped opening or recovered. State is kept in `maintenance/watch_state.json`.
 - A review-required link-check result no longer fails the workflow; only a broken run does.
 
