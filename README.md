@@ -12,7 +12,7 @@ A personal, source-linked federal criminal-process reference by **Jason93**.
 - A searchable directory of all 94 district-level courts and 1,466 cataloged source entries.
 - Search, printable master compilation, portable source/data downloads, and all 468 unresolved review items.
 
-These counts describe the inherited source set, **not a claim that every item is current or verified**. The research baseline is **2026-08-26**, with individual recorded dates preserved. Release 1.3.0 applies corrections from an owner-approved double legal review (October 30 – November 2, 2026); licensed-attorney approval is not recorded. One canonical claim is partially verified and four are historical. All 94 district-rule text reviews remain unresolved. The build does not provide a fresh legal review or a citator guarantee.
+These counts describe the inherited source set, **not a claim that every item is current or verified**. Pages read **Current through November 2, 2026**; the research baseline is **2026-08-26**, and each record keeps its own review date. Release 1.3.0 applies corrections from an owner-approved double legal review (October 30 – November 2, 2026); licensed-attorney approval is not recorded. One canonical claim is partially verified and four are historical. All 94 district-rule text reviews remain unresolved. The build does not provide a fresh legal review or a citator guarantee.
 
 ## Run locally
 

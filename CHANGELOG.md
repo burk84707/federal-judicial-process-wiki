@@ -2,7 +2,7 @@
 
 Release identity is the `version` in `release.json` plus the source digest printed in each page footer. Legal review dates are recorded per record and never change because of a release.
 
-## 1.3.0 — 2026-11-02 (draft; not published)
+## 1.3.0 — 2026-11-09
 
 Status: Owner approved; double legal review completed; licensed-attorney approval not recorded.
 
@@ -10,6 +10,7 @@ Status: Owner approved; double legal review completed; licensed-attorney approva
 - 46 new authority records, including the 2026 Guidelines Manual provisions, the November 2026 Guidelines amendments (91 Fed. Reg. 24,088), *Fernandez v. United States* and *Rutherford v. United States*, the Rule 35 advisory committee notes, 19 U.S. Code sections, and the current 28 C.F.R. part 523 subpart E.
 - Twelve circuit-overlay claims that rely on 18 U.S.C. § 3582 now cite the § 3582 record rather than the § 3583 page.
 - Link targets: U.S. Code stays on GovInfo with the Law Revision Counsel's current page as mirror; Supreme Court opinions use the Court's preliminary prints. 101 of the 103 new URLs were confirmed; two Constitution Annotated pages refuse automated checks.
+- Pages now read "Current through November 2, 2026" (`current_through` in `release.json`). The research baseline stays August 26, 2026: district local rules and the open research items were not re-reviewed, and the court directory still shows that baseline.
 - Full change report, by module, with reasons and source quotations: `maintenance/correction-release-1.3.0/`.
 
 ## 1.2.1 — 2026-10-15
