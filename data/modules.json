@@ -50,7 +50,14 @@
       "AUTH-USC-18-3237",
       "AUTH-SCOTUS-MARION-404-US-307",
       "AUTH-SCOTUS-LOVASCO-431-US-783",
-      "AUTH-SCOTUS-SMITH-599-US-236"
+      "AUTH-SCOTUS-SMITH-599-US-236",
+      "AUTH-CONST-ART3-S2-C3",
+      "AUTH-CONST-AMEND-6",
+      "AUTH-USC-18-3281",
+      "AUTH-USC-18-3288",
+      "AUTH-USC-18-3289",
+      "AUTH-USC-18-3162",
+      "AUTH-FRCRIM-2025-PAMPHLET"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -266,7 +273,8 @@
       "AUTH-SCOTUS-DUREN-439-US-357",
       "AUTH-SCOTUS-BATSON-476-US-79",
       "AUTH-SCOTUS-JEB-511-US-127",
-      "AUTH-SCOTUS-WINSHIP-397-US-358"
+      "AUTH-SCOTUS-WINSHIP-397-US-358",
+      "AUTH-FRCRIM-P-11-52"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -408,7 +416,8 @@
       "AUTH-FRCRIM-P-33",
       "AUTH-FRCRIM-P-45",
       "AUTH-SCOTUS-EBERHART-546-US-12",
-      "AUTH-SCOTUS-US-V-SMITH-331-US-469"
+      "AUTH-SCOTUS-US-V-SMITH-331-US-469",
+      "AUTH-FRCRIM-2025-PAMPHLET"
     ],
     "last_verified": "2026-08-24",
     "review_interval_days": 90,
@@ -493,7 +502,11 @@
       "AUTH-SCOTUS-PULSIFER-601-US-124",
       "AUTH-SCOTUS-MOLINA-MARTINEZ-578-US-189",
       "AUTH-SCOTUS-ROSALES-MIRELES-585-US-129",
-      "AUTH-SCOTUS-HOLGUIN-HERNANDEZ-589-US-169"
+      "AUTH-SCOTUS-HOLGUIN-HERNANDEZ-589-US-169",
+      "AUTH-USC-18-3552",
+      "AUTH-FR-91-24088",
+      "AUTH-USSG-2026-SENTENCING-CALCULATION",
+      "AUTH-USSG-2026-MANUAL"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -575,7 +588,10 @@
       "AUTH-SCOTUS-LAGOS-584-US-577",
       "AUTH-FRCRIM-P-32-2-35-36",
       "AUTH-SCOTUS-LIBRETTI-516-US-29",
-      "AUTH-USC-18-982"
+      "AUTH-USC-18-982",
+      "AUTH-USC-18-3572",
+      "AUTH-USC-18-3663",
+      "AUTH-USC-18-3663A"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -638,7 +654,9 @@
       "AUTH-SCOTUS-TAPIA-564-US-319",
       "AUTH-FRCRIM-P-32-51-52",
       "AUTH-FRCRIM-P-32-2-35-36",
-      "AUTH-SCOTUS-HOLGUIN-HERNANDEZ-589-US-169"
+      "AUTH-SCOTUS-HOLGUIN-HERNANDEZ-589-US-169",
+      "AUTH-USC-18-3582",
+      "AUTH-USC-18-3551-3552-3553"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -713,7 +731,8 @@
       "AUTH-USC-18-3742",
       "AUTH-SCOTUS-GARZA-586-US-232",
       "AUTH-SCOTUS-CLASS-583-US-174",
-      "AUTH-FRAP-10-11"
+      "AUTH-FRAP-10-11",
+      "AUTH-FRAP-28-31-32-34"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -776,8 +795,7 @@
       "CLM-DR-035",
       "CLM-DR-036",
       "CLM-DR-037",
-      "CLM-DR-038",
-      "CLM-DR-039"
+      "CLM-DR-038"
     ],
     "authority_ids": [
       "AUTH-FRCRIM-P-32-51-52",
@@ -931,7 +949,8 @@
       "AUTH-FRCP-15-59-60",
       "AUTH-RG-2255-12",
       "AUTH-SCOTUS-MAYLE-545-US-644",
-      "AUTH-SCOTUS-DAY-547-US-198"
+      "AUTH-SCOTUS-DAY-547-US-198",
+      "AUTH-SCOTUS-JONES-HENDRIX-599-US-465"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1394,7 +1413,8 @@
       "AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283",
       "AUTH-SCOTUS-JONES-HENDRIX-599-US-465",
       "AUTH-CFR-28-542",
-      "AUTH-CA9-WARD-678-F3D-1042"
+      "AUTH-CA9-WARD-678-F3D-1042",
+      "AUTH-SCOTUS-SPENCER-523-US-1"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1483,7 +1503,11 @@
       "AUTH-SCOTUS-MALENG-490-US-488",
       "AUTH-SCOTUS-JONES-CUNNINGHAM-371-US-236",
       "AUTH-SCOTUS-CARAFAS-391-US-234",
-      "AUTH-SCOTUS-SPENCER-523-US-1"
+      "AUTH-SCOTUS-SPENCER-523-US-1",
+      "AUTH-USC-28-2243",
+      "AUTH-SCOTUS-MORGAN-346-US-502",
+      "AUTH-USC-28-2253",
+      "AUTH-CA9-WARD-678-F3D-1042"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1555,7 +1579,8 @@
       "AUTH-CA3-BRUCE-868-F3D-170",
       "AUTH-SCOTUS-PREISER-411-US-475",
       "AUTH-SCOTUS-WILKINSON-544-US-74",
-      "AUTH-CA9-RODRIGUEZ-COPENHAVER-823-F3D-1238"
+      "AUTH-CA9-RODRIGUEZ-COPENHAVER-823-F3D-1238",
+      "AUTH-SCOTUS-JONES-HENDRIX-599-US-465"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1634,7 +1659,6 @@
       "CLM-R3536-028",
       "CLM-R3536-029",
       "CLM-R3536-030",
-      "CLM-R3536-031",
       "CLM-R3536-032",
       "CLM-R3536-033",
       "CLM-R3536-034",
@@ -1669,7 +1693,11 @@
       "AUTH-USC-28-1291",
       "AUTH-USC-18-3742",
       "AUTH-USC-28-2253",
-      "AUTH-SCOTUS-CHAVEZ-MEZA-585-US-109"
+      "AUTH-SCOTUS-CHAVEZ-MEZA-585-US-109",
+      "AUTH-CA2-WERBER-51-F3D-342",
+      "AUTH-CA11-PORTILLO-363-F3D-1161",
+      "AUTH-USSG-2026-1B1-10",
+      "AUTH-FRCRIM-P-35-ADVISORY-NOTES"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1758,7 +1786,8 @@
       "AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426",
       "AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283",
       "AUTH-SCOTUS-SPENCER-523-US-1",
-      "AUTH-BOP-PS-5160-06"
+      "AUTH-BOP-PS-5160-06",
+      "AUTH-CFR-28-523-20"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1854,7 +1883,9 @@
       "AUTH-SCOTUS-LOPEZ-DAVIS-531-US-230",
       "AUTH-BOP-PS-5331-02-CN3",
       "AUTH-SCOTUS-TAPIA-564-US-319",
-      "AUTH-USC-18-3625"
+      "AUTH-USC-18-3625",
+      "AUTH-BOP-PS-5100-08-CN3",
+      "AUTH-CFR-28-523-SUBPART-E-CURRENT"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -1910,7 +1941,8 @@
       "AUTH-CFR-28-523-20",
       "AUTH-PL-115-391-SEC-102-B",
       "AUTH-SCOTUS-BARBER-560-US-474",
-      "AUTH-BOP-FSA-GCT-FAQ"
+      "AUTH-BOP-FSA-GCT-FAQ",
+      "AUTH-USC-18-3632"
     ],
     "last_verified": "2026-08-24",
     "review_interval_days": 90,
@@ -1971,9 +2003,8 @@
       "AUTH-CFR-28-523-SUBPART-E",
       "AUTH-BOP-PS-5410-01-CN2",
       "AUTH-DOJ-PATTERN-2019-RELEASE",
-      "AUTH-FR-91-55740",
-      "AUTH-CA1-MILES-BOWERS-2026",
-      "AUTH-USC-18-3585"
+      "AUTH-CFR-28-523-SUBPART-E-CURRENT",
+      "AUTH-FR-91-55740"
     ],
     "last_verified": "2026-08-24",
     "review_interval_days": 90,
@@ -1984,8 +2015,7 @@
       "SRC-DOJ-PATTERN-2019-RELEASE",
       "SRC-USC-18-3624-OLRC-PRELIM",
       "SRC-USC-18-3632-OLRC-PRELIM",
-      "SRC-FR-91-55740",
-      "SRC-CA1-MILES-BOWERS-2026"
+      "SRC-FR-91-55740"
     ],
     "reviewer_status": "primary_source_review_complete_with_documented_limitations",
     "module_type": "sentence_execution",
@@ -2073,7 +2103,11 @@
       "AUTH-SCOTUS-RUMSFELD-PADILLA-542-US-426",
       "AUTH-SCOTUS-JOHNSON-529-US-53",
       "AUTH-USC-18-3582-3583",
-      "AUTH-SCOTUS-MONT-587-US-514"
+      "AUTH-SCOTUS-MONT-587-US-514",
+      "AUTH-BOP-PS-5410-01-CN2",
+      "AUTH-CFR-28-0-96-U",
+      "AUTH-CFR-28-523-SUBPART-E-CURRENT",
+      "AUTH-FR-91-55740"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2151,7 +2185,9 @@
       "AUTH-USC-18-3624",
       "AUTH-SCOTUS-EX-PARTE-ENDO-323-US-283",
       "AUTH-SCOTUS-SPENCER-523-US-1",
-      "AUTH-CFR-28-115-52"
+      "AUTH-CFR-28-115-52",
+      "AUTH-BOP-PS-1330-18",
+      "AUTH-CA9-WARD-678-F3D-1042"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2270,7 +2306,8 @@
       "AUTH-USC-18-3142",
       "AUTH-SCOTUS-CORLEY-556-US-303",
       "AUTH-SCOTUS-MCLAUGHLIN-500-US-44",
-      "AUTH-SCOTUS-ROTHGERY-554-US-191"
+      "AUTH-SCOTUS-ROTHGERY-554-US-191",
+      "AUTH-FRCRIM-2025-PAMPHLET"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2359,7 +2396,9 @@
       "AUTH-SCOTUS-KYLES-514-US-419",
       "AUTH-SCOTUS-STRICKLER-527-US-263",
       "AUTH-SCOTUS-NIXON-418-US-683",
-      "AUTH-FRCRIM-PROP-17-2026"
+      "AUTH-FRCRIM-PROP-17-2026",
+      "AUTH-FRCRIM-P-23-24-26-30-31-43",
+      "AUTH-RULES-PACKAGE-2026-10-20"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2572,7 +2611,11 @@
       "AUTH-SCOTUS-TAYLOR-487-US-326",
       "AUTH-SCOTUS-BARKER-407-US-514",
       "AUTH-SCOTUS-DOGGETT-505-US-647",
-      "AUTH-SCOTUS-BETTERMAN-578-US-437"
+      "AUTH-SCOTUS-BETTERMAN-578-US-437",
+      "AUTH-USC-18-4242",
+      "AUTH-USC-18-4243",
+      "AUTH-USC-18-4247",
+      "AUTH-USC-18-3162"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2744,7 +2787,9 @@
       "AUTH-DOJ-PARDON-APPLY",
       "AUTH-DOJ-PARDON-PROCESS",
       "AUTH-CONST-PARDON-EFFECTS",
-      "AUTH-SCOTUS-SCHICK-419-US-256"
+      "AUTH-SCOTUS-SCHICK-419-US-256",
+      "AUTH-DOJ-FFRR-FAQ",
+      "AUTH-DOJ-PR-FFRR-2026-08-17"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2784,6 +2829,7 @@
       "CLM-3582-015",
       "CLM-3582-016",
       "CLM-3582-017",
+      "CLM-3582-027",
       "CLM-3582-018",
       "CLM-3582-019",
       "CLM-3582-020",
@@ -2803,7 +2849,14 @@
       "AUTH-SCOTUS-DILLON-560-US-817",
       "AUTH-SCOTUS-HUGHES-584-US-675",
       "AUTH-SCOTUS-FERNANDEZ-608-US-SLIP",
-      "AUTH-SCOTUS-RUTHERFORD-608-US-SLIP"
+      "AUTH-SCOTUS-RUTHERFORD-608-US-SLIP",
+      "AUTH-USSG-2026-1B1-13",
+      "AUTH-USSG-2026-1B1-10",
+      "AUTH-USC-28-994",
+      "AUTH-USC-18-3142",
+      "AUTH-SCOTUS-RUTHERFORD-608-US-454",
+      "AUTH-USC-18-3551-3552-3553",
+      "AUTH-SCOTUS-FERNANDEZ-608-US-411"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2877,7 +2930,6 @@
       "CLM-SRTERM-026",
       "CLM-SRTERM-027",
       "CLM-SRTERM-028",
-      "CLM-SRTERM-029",
       "CLM-SRTERM-030"
     ],
     "authority_ids": [
@@ -2890,7 +2942,10 @@
       "AUTH-USSC-2025-5D1",
       "AUTH-FRCRIM-P-32-1",
       "AUTH-USC-18-3006A",
-      "AUTH-USC-18-3605"
+      "AUTH-USC-18-3605",
+      "AUTH-SCOTUS-ESTERAS-606-US-SLIP",
+      "AUTH-USSC-2026-5D1",
+      "AUTH-SCOTUS-RICO-607-US-609"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -2974,7 +3029,13 @@
       "AUTH-SCOTUS-TAPIA-564-US-319",
       "AUTH-SCOTUS-HAYMOND-588-US-634",
       "AUTH-USSC-2025-7C1",
-      "AUTH-SCOTUS-RICO-607-US-SLIP"
+      "AUTH-SCOTUS-RICO-607-US-SLIP",
+      "AUTH-FRAP-10-11",
+      "AUTH-FRAP-3-4-22",
+      "AUTH-FR-91-24088",
+      "AUTH-USSC-2026-7C1",
+      "AUTH-USSG-2026-MANUAL",
+      "AUTH-SCOTUS-RICO-607-US-609"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -3010,34 +3071,31 @@
       "CLM-SRCOND-005",
       "CLM-SRCOND-006",
       "CLM-SRCOND-007",
-      "CLM-SRCOND-008",
       "CLM-SRCOND-009",
-      "CLM-SRCOND-010",
       "CLM-SRCOND-011",
       "CLM-SRCOND-012",
       "CLM-SRCOND-013",
       "CLM-SRCOND-014",
-      "CLM-SRCOND-015",
       "CLM-SRCOND-016",
       "CLM-SRCOND-017",
       "CLM-SRCOND-018",
       "CLM-SRCOND-019",
-      "CLM-SRCOND-020",
-      "CLM-SRCOND-021",
       "CLM-SRCOND-022",
       "CLM-SRCOND-023",
-      "CLM-SRCOND-024",
       "CLM-SRCOND-025",
       "CLM-SRCOND-026",
-      "CLM-SRCOND-027",
-      "CLM-SRCOND-028"
+      "CLM-SRCOND-027"
     ],
     "authority_ids": [
       "AUTH-USC-18-3582-3583",
       "AUTH-USSC-2025-5D1",
       "AUTH-SCOTUS-PACKINGHAM-582-US-98",
       "AUTH-FRCRIM-P-32-1",
-      "AUTH-USC-18-3605"
+      "AUTH-USC-18-3605",
+      "AUTH-CA11-CORDERO-7-F4TH-1058",
+      "AUTH-CA5-CAILLIER-79-F4TH-506",
+      "AUTH-USSC-2026-5D1",
+      "AUTH-FRCRIM-2025-PAMPHLET"
     ],
     "last_verified": "2026-08-25",
     "review_interval_days": 90,
@@ -3109,7 +3167,8 @@
       "AUTH-CA1-TEXEIRA-NIEVES-23-F4TH-48",
       "AUTH-CA1-DAMARIO-412-F3D-253",
       "AUTH-USC-28-1651",
-      "AUTH-CA1-HOLDER-936-F2D-1"
+      "AUTH-CA1-HOLDER-936-F2D-1",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3156,7 +3215,8 @@
       "AUTH-CA2-SALADINO-7-F4TH-120",
       "AUTH-CA2-GAMMARANO-321-F3D-311",
       "AUTH-USC-28-1651",
-      "AUTH-CA2-RICHTER-510-F3D-103"
+      "AUTH-CA2-RICHTER-510-F3D-103",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3204,7 +3264,8 @@
       "AUTH-CA3-MELVIN-978-F3D-49",
       "AUTH-USC-28-1651",
       "AUTH-USC-28-2255",
-      "AUTH-CA3-MASSEY-581-F3D-172"
+      "AUTH-CA3-MASSEY-581-F3D-172",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3246,7 +3307,8 @@
       "AUTH-CA4-REED-58-F4TH-816",
       "AUTH-USC-18-3582-3583",
       "AUTH-CA4-MUHAMMAD-16-F4TH-126",
-      "AUTH-CA4-PREGENT-190-F3D-279"
+      "AUTH-CA4-PREGENT-190-F3D-279",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3289,7 +3351,8 @@
       "AUTH-CA5-FRANCO-973-F3D-465",
       "AUTH-CA5-CAILLIER-79-F4TH-506",
       "AUTH-USC-28-1651",
-      "AUTH-CA5-MILLER-599-F3D-484"
+      "AUTH-CA5-MILLER-599-F3D-484",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3333,7 +3396,8 @@
       "AUTH-CA6-WITHAM-355-F3D-501",
       "AUTH-USC-18-3582-3583",
       "AUTH-CA6-ALAM-960-F3D-831",
-      "AUTH-CA6-HALE-2025"
+      "AUTH-CA6-HALE-2025",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3378,7 +3442,8 @@
       "AUTH-CA7-SANFORD-986-F3D-779",
       "AUTH-CA7-LOWE-632-F3D-996",
       "AUTH-USC-28-1651",
-      "AUTH-CA7-JOHNSON-962-F2D-579"
+      "AUTH-CA7-JOHNSON-962-F2D-579",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3423,7 +3488,8 @@
       "AUTH-USC-18-3582-3583",
       "AUTH-CA8-HOUCK-2-F4TH-1082",
       "AUTH-FRCRIM-P-32-1",
-      "AUTH-CA8-NORRIS-62-F4TH-441"
+      "AUTH-CA8-NORRIS-62-F4TH-441",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3471,7 +3537,8 @@
       "AUTH-CA9-CLOSE-653-F3D-970",
       "AUTH-USC-18-3582-3583",
       "AUTH-CA9-KELLER-2-F4TH-1278",
-      "AUTH-CA9-PONCE-22-F4TH-1045"
+      "AUTH-CA9-PONCE-22-F4TH-1045",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3521,7 +3588,9 @@
       "AUTH-CA10-BEGAY-631-F3D-1168",
       "AUTH-USC-28-1651",
       "AUTH-USC-28-2255",
-      "AUTH-CA10-TORRES-282-F3D-1241"
+      "AUTH-CA10-TORRES-282-F3D-1241",
+      "AUTH-SCOTUS-CASTRO-540-US-375",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3572,7 +3641,8 @@
       "AUTH-CA11-HARRIS-989-F3D-908",
       "AUTH-USC-28-1651",
       "AUTH-USC-28-2255",
-      "AUTH-CA11-HOLT-417-F3D-1172"
+      "AUTH-CA11-HOLT-417-F3D-1172",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -3621,7 +3691,8 @@
       "AUTH-CADC-MATHIS-GARDNER-783-F3D-1286",
       "AUTH-USC-28-1651",
       "AUTH-USC-28-2255",
-      "AUTH-CADC-AYALA-894-F2D-425"
+      "AUTH-CADC-AYALA-894-F2D-425",
+      "AUTH-USC-18-3582"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 90,
@@ -5774,11 +5845,16 @@
     "status": "verified_with_limitations",
     "claim_ids": [
       "CLM-DISTRICT-MAP-001",
-      "CLM-DISTRICT-MAP-002"
+      "CLM-DISTRICT-MAP-002",
+      "CLM-DISTRICT-MAP-003"
     ],
     "authority_ids": [
       "AUTH-AO-DISTRICT-COURTS",
-      "AUTH-AO-CURRENT-RULES"
+      "AUTH-AO-CURRENT-RULES",
+      "AUTH-SCOTUS-NGUYEN-539-US-69",
+      "AUTH-CA3-EDWARDS-HOVENSA-497-F3D-355",
+      "AUTH-USC-48-1614",
+      "AUTH-USC-48-1821"
     ],
     "last_verified": "2026-08-26",
     "review_interval_days": 7,

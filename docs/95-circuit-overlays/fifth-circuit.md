@@ -27,7 +27,7 @@ This page prevents nationwide rules from being mistaken for Fifth Circuit doctri
 - **CLM-CIR5-003:** In the Fifth Circuit, a federal prisoner proceeding under § 2241 does not need a certificate of appealability to appeal the denial of the petition. [*Jeffers v. Chandler*, 253 F.3d 827, 830 (5th Cir. 2001) (per curiam)](https://www.ca5.uscourts.gov/Opinions/pub/99/99-41461.cv0.wpd.pdf)
 
   Limitation: Binding only in the Fifth Circuit and limited to the COA rule after correct § 2241 classification. Jeffers's saving-clause merits analysis is not adopted and must be read in light of later Supreme Court law.
-<!-- claim:CLM-CIR5-004 authorities:AUTH-USC-18-3582-3583,AUTH-CA5-FRANCO-973-F3D-465 status:verified_current -->
+<!-- claim:CLM-CIR5-004 authorities:AUTH-USC-18-3582,AUTH-CA5-FRANCO-973-F3D-465 status:verified_current -->
 - **CLM-CIR5-004:** In the Fifth Circuit, § 3582(c)(1)(A)'s defendant-filing prerequisite is a nonjurisdictional but mandatory claim-processing rule: both statutory routes begin with a request to BOP, and a court must enforce the rule when the government properly raises it. [*United States v. Franco*, 973 F.3d 465, 467–69 (5th Cir. 2020)](https://www.ca5.uscourts.gov/opinions/pub/20/20-60473-CR0.pdf)
 
   Limitation: Binding only in the Fifth Circuit. Franco involved a defendant who made no BOP request before filing and does not decide issue exhaustion after a qualifying request or the merits of relief.
@@ -36,7 +36,7 @@ This page prevents nationwide rules from being mistaken for Fifth Circuit doctri
 
   Limitation: Binding only in the Fifth Circuit. Caillier permits modification for statutory reasons such as deterrence and public safety even when an invalid original condition prompted review; it does not allow § 3583(e)(2) to replace direct or collateral review of legality.
 <!-- claim:CLM-CIR5-006 authorities:AUTH-USC-28-1651,AUTH-CA5-MILLER-599-F3D-484 status:verified_current -->
-- **CLM-CIR5-006:** In the Fifth Circuit, assuming audita querela survives in criminal cases, it is limited to a postjudgment legal objection unavailable through another postconviction remedy; purely equitable grounds are insufficient. [*United States v. Miller*, 599 F.3d 484, 488–90 (5th Cir. 2010)](https://cases.justia.com/federal/appellate-courts/ca5/08-11186/920100308/0.pdf)
+- **CLM-CIR5-006:** In the Fifth Circuit, assuming audita querela survives in criminal cases, it is limited to a postjudgment legal objection unavailable through another postconviction remedy; purely equitable grounds are insufficient. [*United States v. Miller*, 599 F.3d 484, 488–90 (5th Cir. 2010)](https://www.courtlistener.com/opinion/71483/united-states-v-miller/)
 
   Limitation: Binding only in the Fifth Circuit. Miller left survival of the writ open and arose from a restitution-offset request; its actual disposition does not establish that AEDPA limits, nonretroactivity, or hardship alone creates a gap.
 

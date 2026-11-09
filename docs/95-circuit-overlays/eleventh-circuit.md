@@ -35,7 +35,7 @@ This page prevents nationwide rules from being mistaken for Eleventh Circuit doc
 - **CLM-CIR11-005:** In the Eleventh Circuit, a federal prisoner proceeding under § 2241 does not need a certificate of appealability because § 2253(c)(1)(B) reaches § 2255 proceedings, not federal-process § 2241 proceedings. [*Sawyer v. Holder*, 326 F.3d 1363, 1364 n.3 (11th Cir. 2003)](https://media.ca11.uscourts.gov/opinions/pub/files/200116398.pdf)
 
   Limitation: Binding only in the Eleventh Circuit and limited to the COA question. Sawyer's saving-clause merits analysis is not adopted and must be read in light of later Supreme Court law; state-process custody and filing classification remain separate.
-<!-- claim:CLM-CIR11-006 authorities:AUTH-USC-18-3582-3583,AUTH-CA11-HARRIS-989-F3D-908 status:verified_current -->
+<!-- claim:CLM-CIR11-006 authorities:AUTH-USC-18-3582,AUTH-CA11-HARRIS-989-F3D-908 status:verified_current -->
 - **CLM-CIR11-006:** In the Eleventh Circuit, § 3582(c)(1)(A)'s defendant-filing prerequisite is a nonjurisdictional claim-processing rule; when the government does not assert noncompliance, the court may reach the merits rather than raise the prerequisite on its own. [*United States v. Harris*, 989 F.3d 908, 910–12 (11th Cir. 2021)](https://media.ca11.uscourts.gov/opinions/pub/files/202012023.pdf)
 
   Limitation: Binding only in the Eleventh Circuit. Harris did not decide whether the filing rule is mandatory when invoked and its pandemic-specific merits analysis is not adopted as current law.

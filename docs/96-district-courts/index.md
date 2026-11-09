@@ -4,15 +4,21 @@ module_id: MOD-DISTRICT-COURTS-LOCAL-RULES
 
 # Federal District and Territorial Court Map
 
+> [!WARNING]
+> **Review overdue.** This module's weekly local-rule source review was due September 2, 2026 and has not been rerun since August 26, 2026. Court identities and circuit assignments are unaffected, but confirm each court's current local rules, standing orders, and filing procedures on its official site before relying on any location listed here.
+
 > **Boundary:** court identity, circuit assignment, official homepage, and official rules-location coverage are verified as listed. The substantive text of each district's local rules is **not verified** until an issue-specific reviewer checks the current rule, standing orders, filing procedures, and later amendments.
 
 ## National structure
 
 <!-- claim:CLM-DISTRICT-MAP-001 authorities:AUTH-AO-DISTRICT-COURTS status:verified_current -->
-The federal judicial system has 94 district-level courts: 91 Article III district courts and three Article IV territorial courts—the District Court of Guam, District Court for the Northern Mariana Islands, and District Court of the Virgin Islands. [Administrative Office of the U.S. Courts](https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-district-courts)
+The federal judicial system has 94 federal judicial districts: all but three have lifetime-appointed Article III judges, and judges serve 10-year terms in three territorial districts—the U.S. Virgin Islands, Guam, and the Northern Mariana Islands. [Administrative Office of the U.S. Courts](https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-district-courts)
+
+<!-- claim:CLM-DISTRICT-MAP-003 authorities:AUTH-SCOTUS-NGUYEN-539-US-69,AUTH-CA3-EDWARDS-HOVENSA-497-F3D-355,AUTH-USC-48-1614,AUTH-USC-48-1821 status:verified_current -->
+The District Court for the Northern Mariana Islands "is not an Article III court but an Article IV territorial court," and the District Court of Guam was created under Article IV, § 3, rather than under Article III; the Third Circuit describes the District Court of the Virgin Islands as "an Article IV court rather than an Article III court." By statute, the judges of the Virgin Islands and Northern Mariana Islands courts hold office for terms of ten years. [*Nguyen v. United States*, 539 U.S. 69, 72 & n.3 (2003)](https://www.govinfo.gov/content/pkg/USREPORTS-539/pdf/USREPORTS-539-69.pdf); [*Edwards v. HOVENSA, LLC*, 497 F.3d 355 (3d Cir. 2007)](https://www2.ca3.uscourts.gov/opinarch/064601p.pdf); [48 U.S.C. § 1614(a)](https://www.govinfo.gov/content/pkg/USCODE-2024-title48/html/USCODE-2024-title48-chap12-subchapV-sec1614.htm); [48 U.S.C. § 1821(b)(1)](https://www.govinfo.gov/content/pkg/USCODE-2024-title48/html/USCODE-2024-title48-chap17-subchapII-sec1821.htm)
 
 <!-- claim:CLM-DISTRICT-MAP-002 authorities:AUTH-AO-CURRENT-RULES status:verified_current -->
-Federal courts may prescribe local rules under 28 U.S.C. § 2071 and the applicable national procedural rule, and federal courts must post local rules on their public websites. [Administrative Office of the U.S. Courts](https://www.uscourts.gov/forms-rules/current-rules-practice-procedure)
+United States district courts and courts of appeals may prescribe local rules under 28 U.S.C. § 2071(a)–(b) and the applicable national procedural rule; such rules must be consistent with Acts of Congress and the Federal Rules of Practice and Procedure and may be prescribed only after notice and an opportunity for public comment. Section 205 of the E-Government Act of 2002 requires federal courts to post local rules on their websites. [Administrative Office of the U.S. Courts](https://www.uscourts.gov/forms-rules/current-rules-practice-procedure)
 
 The Federal Circuit is not included as a geographic parent circuit because it does not receive ordinary federal criminal appeals based on district location.
 

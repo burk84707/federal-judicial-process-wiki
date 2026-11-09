@@ -14,7 +14,7 @@ Binding only in the Second Circuit and only for the bounded procedural postures 
 
 ## Official source and pinpoints
 
-510 F.3d 103 (2d Cir. 2007), 510 F.3d 104: <https://cases.justia.com/federal/appellate-courts/ca2/06-1930/920071204/0.pdf>
+510 F.3d 103 (2d Cir. 2007), 510 F.3d 104: <https://www.courtlistener.com/opinion/1389954/united-states-v-richter/>
 
 ## Linked claims
 
