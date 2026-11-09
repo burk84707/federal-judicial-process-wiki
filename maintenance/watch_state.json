@@ -1,12 +1,118 @@
 {
   "schema_version": 1,
   "kind": "watch_state",
-  "checked_on": "2026-10-15",
-  "note": "Seed state. Federal Register documents already reviewed are listed as seen; every other watcher records its first observations on its first run.",
+  "checked_on": "2026-11-09",
   "watchers": {
+    "bop_policies": {
+      "listing": {
+        "1330": [
+          {
+            "number": "1330.18",
+            "change_notice": null,
+            "title": "Administrative Remedy Program",
+            "date": "2014-01-06",
+            "url": "https://www.bop.gov/policy/progstat/1330_018.pdf"
+          }
+        ],
+        "5050": [
+          {
+            "number": "5050.51",
+            "change_notice": null,
+            "title": "Compassionate Release/Reduction in Sentence Procedures",
+            "date": "2026-09-03",
+            "url": "https://www.bop.gov/policy/progstat/5050_051.pdf"
+          }
+        ],
+        "5100": [
+          {
+            "number": "5100.08",
+            "change_notice": "CN-3",
+            "title": "Inmate Security Designation and Custody Classification",
+            "date": "2026-05-06",
+            "url": "https://www.bop.gov/policy/progstat/5100_008_cn-3.pdf"
+          }
+        ],
+        "5160": [
+          {
+            "number": "5160.06",
+            "change_notice": null,
+            "title": "Designation of State Institutions for Service of Federal Sentence",
+            "date": "2026-09-03",
+            "url": "https://www.bop.gov/policy/progstat/5160_006.pdf"
+          }
+        ],
+        "5331": [
+          {
+            "number": "5331.02",
+            "change_notice": "CN-3",
+            "title": "Early Release Procedures Under 18 U.S.C. 3621(e)",
+            "date": "2026-05-07",
+            "url": "https://www.bop.gov/policy/progstat/5331_002_CN-3.pdf"
+          }
+        ],
+        "5410": [
+          {
+            "number": "5410.01",
+            "change_notice": "CN-2",
+            "title": "First Step Act of 2018 - Time Credits: Procedures for Implementation of 18 U.S.C. § 3632(d)(4)",
+            "date": "2023-03-10",
+            "url": "https://www.bop.gov/policy/progstat/5410.01_cn2.pdf"
+          }
+        ],
+        "5880": [
+          {
+            "number": "5880.33",
+            "change_notice": null,
+            "title": "District of Columbia Sentence Computation Manual",
+            "date": "2010-07-09",
+            "url": "https://www.bop.gov/policy/progstat/5880_033.pdf"
+          },
+          {
+            "number": "5880.28",
+            "change_notice": null,
+            "title": "Sentence Computation Manual(CCCA of 1984)",
+            "date": "1999-07-20",
+            "url": "https://www.bop.gov/policy/progstat/5880_028.pdf"
+          },
+          {
+            "number": "5880.30",
+            "change_notice": null,
+            "title": "Sentence Computation Manual/Old Law/Pre CCCA 1984",
+            "date": "1999-09-08",
+            "url": "https://www.bop.gov/policy/progstat/5880_030.pdf"
+          }
+        ]
+      }
+    },
     "federal_register": {
-      "checked_through": "2026-08-25",
-      "seen": ["2026-17752"]
+      "checked_through": "2026-11-09",
+      "seen": [
+        "2026-17752",
+        "2026-19642"
+      ]
+    },
+    "supreme_court": {
+      "term": 2026,
+      "seen": [
+        "26A476|2026-10-14"
+      ]
+    },
+    "rules_amendments": {
+      "documents": [
+        "https://www.uscourts.gov/sites/default/files/document/2025_supreme_court_package_final.pdf",
+        "https://www.uscourts.gov/sites/default/files/document/2026-scotus-package.pdf",
+        "https://www.uscourts.gov/sites/default/files/document/dever-and-eid-memo-to-the-court-final.pdf",
+        "https://www.uscourts.gov/sites/default/files/document/preliminary-draft-of-proposed-amendments-to-federal-rules_august2025.pdf",
+        "https://www.uscourts.gov/sites/default/files/document/preliminary_draft_of_proposed_amendments_-_august_2026.pdf",
+        "https://www.uscourts.gov/sites/default/files/guide-vol01-ch04-sec440_procedures_for_rules_cmtes_1.pdf",
+        "https://www.uscourts.gov/sites/default/files/preliminary_draft_of_proposed_amendments_2024.pdf"
+      ]
+    },
+    "uscode_edition": {
+      "editions": {
+        "18": "2024",
+        "28": "2024"
+      }
     }
   }
 }
